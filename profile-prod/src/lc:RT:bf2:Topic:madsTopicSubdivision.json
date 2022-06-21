@@ -1,0 +1,23 @@
+{
+  "propertyTemplates": [
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [
+          "http://id.loc.gov/authorities/subjects"
+        ],
+        "defaults": [],
+        "valueDataType": {}
+      },
+      "propertyURI": "http://www.loc.gov/mads/rdf/v1#Topic",
+      "propertyLabel": "Search LCSH"
+    }
+  ],
+  "id": "lc:RT:bf2:Topic:madsTopicSubdivision",
+  "resourceURI": "http://www.loc.gov/mads/rdf/v1#Topic",
+  "resourceLabel": "Topical subdivision"
+}

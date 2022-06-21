@@ -1,0 +1,21 @@
+{
+  "propertyTemplates": [
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": [],
+        "valueDataType": {}
+      },
+      "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label",
+      "propertyLabel": "Digital image format"
+    }
+  ],
+  "id": "lc:RT:bf2:Cartographic:EncodingFormat",
+  "resourceURI": "http://id.loc.gov/ontologies/bibframe/EncodingFormat",
+  "resourceLabel": "Encoding Format"
+}

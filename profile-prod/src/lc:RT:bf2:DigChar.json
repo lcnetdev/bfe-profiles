@@ -1,0 +1,22 @@
+{
+  "propertyTemplates": [
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": [],
+        "valueDataType": {}
+      },
+      "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label",
+      "propertyLabel": "Digital Characteristics note",
+      "remark": "http://access.rdatoolkit.org/3.19.1.4.html"
+    }
+  ],
+  "id": "lc:RT:bf2:DigChar",
+  "resourceURI": "http://id.loc.gov/ontologies/bibframe/DigitalCharacteristic",
+  "resourceLabel": "Digital Characteristics"
+}

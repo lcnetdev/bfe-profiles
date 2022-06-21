@@ -1,0 +1,24 @@
+{
+  "propertyTemplates": [
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [
+          "http://id.loc.gov/vocabulary/mencformat"
+        ],
+        "defaults": [],
+        "valueDataType": {}
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/EncodingFormat",
+      "propertyLabel": "Lookup",
+      "remark": "https://original.rdatoolkit.org/3.19.3.html"
+    }
+  ],
+  "id": "lc:RT:bf2:EncFmt",
+  "resourceURI": "http://id.loc.gov/ontologies/bibframe/EncodingFormat",
+  "resourceLabel": "Encoding format"
+}

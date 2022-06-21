@@ -1,0 +1,76 @@
+{
+  "propertyTemplates": [
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [
+          "https://preprod-8080.id.loc.gov/resources/instances/"
+        ],
+        "defaults": [],
+        "valueDataType": {
+          "dataTypeLabelHint": ""
+        }
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/relatedTo",
+      "propertyLabel": "Lookup"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "resource",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [
+          "lc:RT:bf2:Agents:Contribution"
+        ],
+        "useValuesFrom": [],
+        "defaults": [],
+        "valueDataType": {}
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/contribution",
+      "propertyLabel": "Contributor"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "resource",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [
+          "lc:RT:bf2:InstanceTitle"
+        ],
+        "useValuesFrom": [],
+        "defaults": [],
+        "valueDataType": {}
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/title",
+      "propertyLabel": "Title"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "resource",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [
+          "lc:RT:bf2:Identifiers:LCCN",
+          "lc:RT:bf2:Identifiers:ISBN",
+          "lc:RT:bf2:Identifiers:ISSN",
+          "lc:RT:bf2:Identifiers:Local"
+        ],
+        "useValuesFrom": [],
+        "defaults": [],
+        "valueDataType": {}
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/identifiedBy",
+      "propertyLabel": "Identifiers"
+    }
+  ],
+  "id": "lc:RT:bf2:Brief:Instance",
+  "resourceURI": "http://id.loc.gov/ontologies/bibframe/Instance",
+  "resourceLabel": "Related Instances"
+}

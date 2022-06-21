@@ -1,0 +1,25 @@
+{
+  "propertyTemplates": [
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "resource",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [
+          "http://id.loc.gov/vocabulary/languages"
+        ],
+        "valueDataType": {
+          "dataTypeURI": "http://www.loc.gov/mads/rdf/v1#Language"
+        },
+        "defaults": []
+      },
+      "propertyLabel": "Language of Agent (RDA 9.14, RDA 10.8, RDA 11.8)",
+      "propertyURI": "http://www.loc.gov/mads/rdf/v1#associatedLanguage"
+    }
+  ],
+  "id": "lc:RT:bf2:Agents:RWO:AssociatedLanguage",
+  "resourceLabel": "Associated Language",
+  "resourceURI": "http://www.loc.gov/mads/rdf/v1#Language"
+}

@@ -1,0 +1,27 @@
+{
+  "propertyTemplates": [
+    {
+      "mandatory": "false",
+      "repeatable": "false",
+      "type": "lookup",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [
+          "http://id.loc.gov/vocabulary/mpresformat"
+        ],
+        "defaults": [],
+        "valueDataType": {
+          "dataTypeURI": ""
+        },
+        "editable": "false"
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/PresentationFormat",
+      "propertyLabel": "Lookup",
+      "remark": "https://original.rdatoolkit.org/3.17.2.html"
+    }
+  ],
+  "id": "lc:RT:bf2:ProjFormat",
+  "resourceURI": "http://id.loc.gov/ontologies/bibframe/PresentationFormat",
+  "resourceLabel": "Presentation format"
+}

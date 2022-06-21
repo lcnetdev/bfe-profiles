@@ -1,0 +1,21 @@
+{
+  "propertyTemplates": [
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "valueDataType": {},
+        "defaults": []
+      },
+      "propertyURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+      "propertyLabel": "GTIN-14 number"
+    }
+  ],
+  "id": "lc:RT:bf2:Identifiers:Gtin14",
+  "resourceURI": "http://id.loc.gov/ontologies/bibframe/Gtin14Number",
+  "resourceLabel": "GTIN-14"
+}

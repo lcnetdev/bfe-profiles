@@ -1,0 +1,25 @@
+{
+  "propertyTemplates": [
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [
+          "http://id.loc.gov/vocabulary/mencformat"
+        ],
+        "defaults": [],
+        "valueDataType": {},
+        "editable": "true"
+      },
+      "propertyLabel": "Lookup",
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/EncodingFormat",
+      "remark": "https://original.rdatoolkit.org/3.19.3.html"
+    }
+  ],
+  "id": "lc:RT:bf2:MIBluRayDVD:EncFmt",
+  "resourceURI": "http://id.loc.gov/ontologies/bibframe/EncodingFormat",
+  "resourceLabel": "Encoding format"
+}

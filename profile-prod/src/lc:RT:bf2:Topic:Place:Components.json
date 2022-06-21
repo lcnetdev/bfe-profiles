@@ -1,0 +1,49 @@
+{
+  "propertyTemplates": [
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "list",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [
+          "lc:RT:bf2:Topic:madsGeogHeading",
+          "lc:RT:bf2:Topic:madsTopicSubdivision",
+          "lc:RT:bf2:Topic:madsTemporal",
+          "lc:RT:bf2:Topic:madsGenreForm"
+        ],
+        "useValuesFrom": [],
+        "defaults": [],
+        "valueDataType": {}
+      },
+      "propertyURI": "http://www.loc.gov/mads/rdf/v1#componentList",
+      "propertyLabel": "Search Subject Components"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "resource",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [
+          "http://id.loc.gov/vocabulary/subjectSchemes"
+        ],
+        "defaults": [
+          {
+            "defaultURI": "http://id.loc.gov/vocabulary/subjectSchemes/lcsh",
+            "defaultLiteral": "Library of Congress subject headings"
+          }
+        ],
+        "valueDataType": {
+          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Source"
+        }
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/source",
+      "propertyLabel": "Thesaurus"
+    }
+  ],
+  "id": "lc:RT:bf2:Topic:Place:Components",
+  "resourceLabel": "Geographic subjects",
+  "resourceURI": "http://id.loc.gov/ontologies/bibframe/Place"
+}

@@ -1,0 +1,28 @@
+{
+  "propertyTemplates": [
+    {
+      "mandatory": "false",
+      "repeatable": "false",
+      "type": "lookup",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [
+          "http://id.loc.gov/vocabulary/mgroove"
+        ],
+        "valueDataType": {
+          "dataTypeURI": "",
+          "remark": ""
+        },
+        "defaults": [],
+        "editable": "false"
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/GrooveCharacteristic",
+      "propertyLabel": "Lookup",
+      "remark": "https://original.rdatoolkit.org/3.16.5.html"
+    }
+  ],
+  "id": "lc:RT:bf2:Analog:Sound6",
+  "resourceURI": "http://id.loc.gov/ontologies/bibframe/GrooveCharacteristic",
+  "resourceLabel": "Groove Characteristic"
+}

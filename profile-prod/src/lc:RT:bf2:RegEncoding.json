@@ -1,0 +1,28 @@
+{
+  "propertyTemplates": [
+    {
+      "mandatory": "false",
+      "repeatable": "false",
+      "type": "lookup",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [
+          "http://id.loc.gov/vocabulary/mregencoding"
+        ],
+        "defaults": [],
+        "valueDataType": {
+          "dataTypeURI": ""
+        },
+        "editable": "false",
+        "validatePattern": ""
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/RegionalEncoding",
+      "propertyLabel": "Lookup",
+      "remark": "https://original.rdatoolkit.org/3.19.6.html"
+    }
+  ],
+  "id": "lc:RT:bf2:RegEncoding",
+  "resourceURI": "http://id.loc.gov/ontologies/bibframe/RegionalEncoding",
+  "resourceLabel": "Regional encoding"
+}

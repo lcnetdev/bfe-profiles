@@ -1,0 +1,106 @@
+{
+  "resourceURI": "http://id.loc.gov/ontologies/bibframe/Jurisdiction",
+  "id": "lc:RT:bf2:Agent:Jurisdiction",
+  "resourceLabel": "Create Jurisdiction Name",
+  "propertyTemplates": [
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "valueDataType": {},
+        "defaults": []
+      },
+      "propertyLabel": "Preferred Name for Place (RDA 16.2.2)",
+      "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label",
+      "remark": "http://access.rdatoolkit.org/rdachp16_rda16-322.html"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "resource",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [
+          "lc:RT:bf2:Agent:Identifier"
+        ],
+        "useValuesFrom": [],
+        "valueDataType": {},
+        "defaults": []
+      },
+      "propertyURI": "http://www.loc.gov/mads/rdf/v1#hasIdentifier",
+      "propertyLabel": "Identifier for Place (RDA 9.18)",
+      "remark": "http://access.rdatoolkit.org/rdachp16_rda16-768.html"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "valueDataType": {},
+        "defaults": []
+      },
+      "propertyLabel": "Authorized Access Point for the Place (RDA 11.13.1.1)",
+      "propertyURI": "http://www.loc.gov/mads/rdf/v1#authoritativeLabel",
+      "remark": "http://access.rdatoolkit.org/rdachp11_rda11-5163.html"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "resource",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [
+          "lc:RT:bf2:Agents:VariantAgents"
+        ],
+        "useValuesFrom": [],
+        "valueDataType": {},
+        "defaults": []
+      },
+      "propertyLabel": "Variant Access Point Representing the Place (RDA 11.13.2)",
+      "remark": "http://access.rdatoolkit.org/rdachp11_rda11-5591.html",
+      "propertyURI": "http://www.loc.gov/mads/rdf/v1#hasVariant"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "resource",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [
+          "lc:RT:bf2:Agents:RelatedAgents"
+        ],
+        "useValuesFrom": [],
+        "valueDataType": {},
+        "defaults": []
+      },
+      "propertyLabel": "Related Agents (RDA Chapter 30)",
+      "propertyURI": "http://www.loc.gov/mads/rdf/v1#hasRelatedAuthority",
+      "remark": "http://access.rdatoolkit.org/rdachp30_rda30-28.html"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "resource",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [
+          "lc:RT:bf2:Agents:Source"
+        ],
+        "useValuesFrom": [],
+        "valueDataType": {},
+        "defaults": []
+      },
+      "propertyLabel": "Source Consulted (RDA 8.12)",
+      "propertyURI": "http://www.loc.gov/mads/rdf/v1#hasSource",
+      "remark": "http://access.rdatoolkit.org/rdachp8_rda8-479.html"
+    }
+  ],
+  "contact": ""
+}

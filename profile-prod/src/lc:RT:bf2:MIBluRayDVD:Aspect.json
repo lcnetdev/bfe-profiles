@@ -1,0 +1,22 @@
+{
+  "propertyTemplates": [
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "valueDataType": {},
+        "defaults": []
+      },
+      "propertyURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+      "propertyLabel": "Numerical values of Aspect ratio",
+      "remark": ""
+    }
+  ],
+  "id": "lc:RT:bf2:MIBluRayDVD:Aspect",
+  "resourceURI": "http://id.loc.gov/ontologies/bibframe/AspectRatio",
+  "resourceLabel": "Aspect ratio (Numeric)"
+}

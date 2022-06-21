@@ -1,0 +1,41 @@
+{
+  "propertyTemplates": [
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "valueConstraint": {
+        "valueDataType": {
+          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/UsePolicy"
+        },
+        "useValuesFrom": [],
+        "valueTemplateRefs": [],
+        "defaults": []
+      },
+      "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label",
+      "propertyLabel": "Use or Reproduction Policy",
+      "resourceTemplates": []
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "resource",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [
+          "lc:RT:bf2:Item:Source"
+        ],
+        "useValuesFrom": [],
+        "defaults": [],
+        "valueDataType": {}
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/source",
+      "propertyLabel": "Source"
+    }
+  ],
+  "id": "lc:RT:bf2:Item:Use",
+  "resourceLabel": "Use or Reproduction Policy",
+  "resourceURI": "http://id.loc.gov/ontologies/bibframe/UsePolicy",
+  "author": "NDMSO",
+  "date": "2019-06-11"
+}

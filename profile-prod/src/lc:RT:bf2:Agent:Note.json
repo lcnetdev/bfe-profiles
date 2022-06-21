@@ -1,0 +1,21 @@
+{
+  "propertyTemplates": [
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "valueDataType": {},
+        "defaults": []
+      },
+      "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label",
+      "propertyLabel": "Note"
+    }
+  ],
+  "id": "lc:RT:bf2:Agent:Note",
+  "resourceURI": "http://www.loc.gov/mads/rdf/v1#note",
+  "resourceLabel": "Note"
+}

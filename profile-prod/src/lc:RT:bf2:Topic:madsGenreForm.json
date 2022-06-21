@@ -1,0 +1,27 @@
+{
+  "propertyTemplates": [
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [
+          "http://id.loc.gov/authorities/subjects"
+        ],
+        "valueDataType": {
+          "dataTypeURI": ""
+        },
+        "editable": "true",
+        "repeatable": "true",
+        "defaults": []
+      },
+      "propertyLabel": "Search LCSH",
+      "propertyURI": "http://www.loc.gov/mads/rdf/v1#GenreForm"
+    }
+  ],
+  "id": "lc:RT:bf2:Topic:madsGenreForm",
+  "resourceURI": "http://www.loc.gov/mads/rdf/v1#GenreForm",
+  "resourceLabel": "Form subdivision"
+}

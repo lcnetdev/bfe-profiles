@@ -1,0 +1,44 @@
+{
+  "propertyTemplates": [
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": [],
+        "valueDataType": {}
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/classificationPortion",
+      "propertyLabel": "NLM classification number"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [
+          "http://id.loc.gov/vocabulary/organizations/"
+        ],
+        "defaults": [
+          {
+            "defaultURI": "http://id.loc.gov/vocabulary/organizations/dnlm",
+            "defaultLiteral": "United States, National Library of Medicine"
+          }
+        ],
+        "valueDataType": {
+          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Agent"
+        }
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/assigner",
+      "propertyLabel": "Assigner"
+    }
+  ],
+  "id": "lc:RT:bf2:NLM",
+  "resourceURI": "http://id.loc.gov/ontologies/bibframe/ClassificationNlm",
+  "resourceLabel": "National Library of Medicine Classification"
+}

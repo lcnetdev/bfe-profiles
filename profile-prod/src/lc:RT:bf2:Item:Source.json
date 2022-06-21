@@ -1,0 +1,22 @@
+{
+  "propertyTemplates": [
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": [],
+        "valueDataType": {}
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/code",
+      "propertyLabel": "Source code",
+      "remark": ""
+    }
+  ],
+  "resourceURI": "http://id.loc.gov/ontologies/bibframe/Source",
+  "id": "lc:RT:bf2:Item:Source",
+  "resourceLabel": "Source"
+}

@@ -1,0 +1,56 @@
+{
+  "propertyTemplates": [
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": [],
+        "valueDataType": {}
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/coordinates",
+      "propertyLabel": "Coordinates",
+      "remark": "https://original.rdatoolkit.org/7.4.html"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "resource",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [
+          "http://id.loc.gov/vocabulary/mprojection"
+        ],
+        "defaults": [],
+        "valueDataType": {}
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/projection",
+      "propertyLabel": "Projection",
+      "remark": "https://original.rdatoolkit.org/7.26.html"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "resource",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [
+          "http://id.loc.gov/vocabulary/mrelief"
+        ],
+        "defaults": [],
+        "valueDataType": {}
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bflc/relief",
+      "propertyLabel": "Relief",
+      "remark": ""
+    }
+  ],
+  "resourceURI": "http://id.loc.gov/ontologies/bibframe/Cartographic",
+  "id": "lc:RT:bf2:Cartographic:Attributes",
+  "resourceLabel": "Cartographic Attributes"
+}

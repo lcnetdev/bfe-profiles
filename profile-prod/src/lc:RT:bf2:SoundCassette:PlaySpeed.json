@@ -1,0 +1,26 @@
+{
+  "propertyTemplates": [
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [
+          "http://id.loc.gov/vocabulary/mplayspeed"
+        ],
+        "defaults": [],
+        "valueDataType": {
+          "dataTypeLabelHint": "1 7/8 ips"
+        }
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/PlayingSpeed",
+      "propertyLabel": "Playing Speed",
+      "remark": "https://original.rdatoolkit.org/3.16.4.html"
+    }
+  ],
+  "id": "lc:RT:bf2:SoundCassette:PlaySpeed",
+  "resourceURI": "http://id.loc.gov/ontologies/bibframe/PlayingSpeed",
+  "resourceLabel": "Playing Speed"
+}

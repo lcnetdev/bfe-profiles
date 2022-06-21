@@ -1,0 +1,23 @@
+{
+  "propertyTemplates": [
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [
+          "http://id.loc.gov/vocabulary/mfiletype"
+        ],
+        "defaults": [],
+        "valueDataType": {}
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/FileType",
+      "propertyLabel": "File Type"
+    }
+  ],
+  "id": "lc:RT:bf2:Cartographic:FileType",
+  "resourceURI": "http://id.loc.gov/ontologies/bibframe/FileType",
+  "resourceLabel": "File Type"
+}

@@ -1,0 +1,25 @@
+{
+  "propertyTemplates": [
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "valueConstraint": {
+        "valueDataType": {
+          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/RetentionPolicy"
+        },
+        "useValuesFrom": [],
+        "valueTemplateRefs": [],
+        "defaults": []
+      },
+      "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label",
+      "propertyLabel": "Retention Policy",
+      "resourceTemplates": []
+    }
+  ],
+  "id": "lc:RT:bf2:Item:Retention",
+  "resourceURI": "http://id.loc.gov/ontologies/bibframe/RetentionPolicy",
+  "resourceLabel": "Retention Policy",
+  "author": "NDMSO",
+  "date": "2019-06-11"
+}

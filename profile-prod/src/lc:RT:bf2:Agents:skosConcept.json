@@ -1,0 +1,22 @@
+{
+  "propertyTemplates": [
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "valueDataType": {},
+        "defaults": []
+      },
+      "propertyLabel": "Label",
+      "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label",
+      "remark": ""
+    }
+  ],
+  "id": "lc:RT:bf2:Agents:skosConcept",
+  "resourceLabel": "Concept",
+  "resourceURI": "http://www.w3.org/2004/02/skos/core#Concept"
+}

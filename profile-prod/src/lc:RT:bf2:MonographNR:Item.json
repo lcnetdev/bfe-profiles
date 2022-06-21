@@ -1,0 +1,169 @@
+{
+  "id": "lc:RT:bf2:MonographNR:Item",
+  "propertyTemplates": [
+    {
+      "propertyLabel": "Held by",
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/heldBy",
+      "type": "resource",
+      "valueConstraint": {
+        "useValuesFrom": [
+          "http://id.loc.gov/vocabulary/organizations"
+        ],
+        "valueDataType": {
+          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Agent"
+        },
+        "defaults": [
+          {
+            "defaultURI": "http://id.loc.gov/vocabulary/organizations/dlc",
+            "defaultLiteral": "United States. Library of Congress"
+          }
+        ],
+        "valueTemplateRefs": []
+      },
+      "mandatory": "false",
+      "repeatable": "false",
+      "resourceTemplates": []
+    },
+    {
+      "propertyLabel": "Shelving call numbers",
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/shelfMark",
+      "valueConstraint": {
+        "valueTemplateRefs": [
+          "lc:RT:bf2:Identifiers:LC"
+        ],
+        "useValuesFrom": [],
+        "defaults": []
+      },
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "resource",
+      "resourceTemplates": []
+    },
+    {
+      "propertyLabel": "Location",
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/sublocation",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "resource",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [
+          "lc:RT:bf2:Item:Location"
+        ],
+        "useValuesFrom": [],
+        "defaults": []
+      }
+    },
+    {
+      "propertyLabel": "Item Barcode",
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/identifiedBy",
+      "valueConstraint": {
+        "valueTemplateRefs": [
+          "lc:RT:bf2:Identifiers:Barcode"
+        ],
+        "useValuesFrom": [],
+        "defaults": []
+      },
+      "mandatory": "false",
+      "repeatable": "false",
+      "type": "resource",
+      "resourceTemplates": []
+    },
+    {
+      "propertyLabel": "URL of Item",
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/electronicLocator",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "resource",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [
+          "lc:RT:bf2:URL"
+        ],
+        "useValuesFrom": [],
+        "defaults": []
+      }
+    },
+    {
+      "propertyLabel": "Notes about the Item",
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
+      "valueConstraint": {
+        "valueTemplateRefs": [
+          "lc:RT:bf2:Note"
+        ],
+        "useValuesFrom": [],
+        "defaults": []
+      },
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "resource",
+      "resourceTemplates": []
+    },
+    {
+      "propertyLabel": "Lending, Reproduction, and Retention Policies",
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/usageAndAccessPolicy",
+      "valueConstraint": {
+        "valueTemplateRefs": [
+          "lc:RT:bf2:Item:Access",
+          "lc:RT:bf2:Item:Use",
+          "lc:RT:bf2:Item:Retention"
+        ],
+        "useValuesFrom": [],
+        "defaults": []
+      },
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "resource",
+      "resourceTemplates": []
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "resource",
+      "valueConstraint": {
+        "valueTemplateRefs": [
+          "lc:RT:bf2:Item:Enumeration",
+          "lc:RT:bf2:Item:Chronology"
+        ],
+        "useValuesFrom": [],
+        "defaults": []
+      },
+      "propertyLabel": "Enumeration And Chronology of Item",
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/enumerationAndChronology",
+      "resourceTemplates": []
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "remark": "https://original.rdatoolkit.org/2.18.html",
+      "propertyLabel": "Custodial History of Item",
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/custodialHistory",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": []
+      }
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "resource",
+      "valueConstraint": {
+        "valueTemplateRefs": [
+          "lc:RT:bf2:Item:ImmAcqSource"
+        ],
+        "useValuesFrom": [],
+        "defaults": []
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/immediateAcquisition",
+      "propertyLabel": "Immediate Source of Acquisition of Item",
+      "resourceTemplates": []
+    }
+  ],
+  "resourceLabel": "BIBFRAME Item",
+  "resourceURI": "http://id.loc.gov/ontologies/bibframe/Item",
+  "author": "NDMSO",
+  "date": "2019-06-11"
+}

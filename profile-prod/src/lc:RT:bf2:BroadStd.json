@@ -1,0 +1,27 @@
+{
+  "propertyTemplates": [
+    {
+      "mandatory": "false",
+      "repeatable": "false",
+      "type": "lookup",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [
+          "http://id.loc.gov/vocabulary/mbroadstd"
+        ],
+        "defaults": [],
+        "valueDataType": {
+          "dataTypeURI": ""
+        },
+        "editable": "false"
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/BroadcastStandard",
+      "propertyLabel": "Lookup",
+      "remark": "https://original.rdatoolkit.org/3.18.3.html"
+    }
+  ],
+  "id": "lc:RT:bf2:BroadStd",
+  "resourceURI": "http://id.loc.gov/ontologies/bibframe/BroadcastStandard",
+  "resourceLabel": "Broadcast standard"
+}

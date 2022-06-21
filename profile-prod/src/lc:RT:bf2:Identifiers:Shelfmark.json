@@ -1,0 +1,22 @@
+{
+  "propertyTemplates": [
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "valueDataType": {},
+        "defaults": []
+      },
+      "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label",
+      "propertyLabel": "Accession or copy number",
+      "remark": ""
+    }
+  ],
+  "resourceURI": "http://id.loc.gov/ontologies/bibframe/ShelfMark",
+  "id": "lc:RT:bf2:Identifiers:Shelfmark",
+  "resourceLabel": "Accession or copy number"
+}

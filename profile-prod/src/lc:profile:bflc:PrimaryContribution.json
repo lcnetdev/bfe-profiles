@@ -1,0 +1,62 @@
+{
+  "resourceTemplates": [
+    {
+      "propertyTemplates": [
+        {
+          "mandatory": "false",
+          "repeatable": "false",
+          "type": "resource",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [
+              "lc:RT:bf2:Agent:bfPerson",
+              "lc:RT:bf2:Agent:bfFamily",
+              "lc:RT:bf2:Agent:bfCorp",
+              "lc:RT:bf2:Agent:bfJurisdiction",
+              "lc:RT:bf2:Agent:bfConf"
+            ],
+            "useValuesFrom": [],
+            "valueDataType": {
+              "dataTypeURI": "http://id.loc.gov/ontologies/bflc/PrimaryContribution"
+            },
+            "repeatable": "true",
+            "editable": "true",
+            "defaults": []
+          },
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/agent",
+          "propertyLabel": "Primary Contributor"
+        },
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "lookup",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [],
+            "useValuesFrom": [
+              "http://id.loc.gov/vocabulary/relators",
+              "https://id.loc.gov/vocabulary/rbmsrel"
+            ],
+            "valueDataType": {
+              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Role"
+            },
+            "repeatable": "true",
+            "defaults": [],
+            "editable": "true"
+          },
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
+          "propertyLabel": "Relationship Designator",
+          "remark": "https://original.rdatoolkit.org/rdaappi_rdai-34.html"
+        }
+      ],
+      "id": "lc:RT:bflc:Agents:PrimaryContribution",
+      "resourceLabel": "Primary Contribution",
+      "resourceURI": "http://id.loc.gov/ontologies/bflc/PrimaryContribution"
+    }
+  ],
+  "author": "NDMSO",
+  "id": "lc:profile:bflc:PrimaryContribution",
+  "title": "BIBFRAME 2.0 Agents Primary Contribution",
+  "description": "Primary Contribution",
+  "date": "2017-07-18"
+}

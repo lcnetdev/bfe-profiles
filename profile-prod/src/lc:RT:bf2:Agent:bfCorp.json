@@ -1,0 +1,23 @@
+{
+  "propertyTemplates": [
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [
+          "http://preprod.id.loc.gov/authorities/names"
+        ],
+        "defaults": [],
+        "valueDataType": {}
+      },
+      "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
+      "propertyLabel": "Search LCNAF"
+    }
+  ],
+  "id": "lc:RT:bf2:Agent:bfCorp",
+  "resourceURI": "http://id.loc.gov/ontologies/bibframe/Organization",
+  "resourceLabel": "Corporate Body"
+}

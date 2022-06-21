@@ -1,0 +1,81 @@
+{
+  "propertyTemplates": [
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "resource",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [
+          "lc:RT:bf2:PMOMedPerf:MedPart2"
+        ],
+        "useValuesFrom": [],
+        "valueDataType": {},
+        "defaults": []
+      },
+      "propertyURI": "http://performedmusicontology.org/ontology/hasMediumPart",
+      "propertyLabel": "has Medium Part"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "resource",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [
+          "lc:RT:bf2:PMOMedPerf:Doubling"
+        ],
+        "useValuesFrom": [],
+        "valueDataType": {},
+        "defaults": []
+      },
+      "propertyLabel": "OR has Doubling Medium Part",
+      "propertyURI": "http://performedmusicontology.org/ontology/hasMediumPart"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "valueDataType": {},
+        "defaults": []
+      },
+      "propertyURI": "http://performedmusicontology.org/ontology/hasDistinctPartCount",
+      "propertyLabel": "Total Distinct Part Count"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "valueDataType": {},
+        "defaults": []
+      },
+      "propertyURI": "http://performedmusicontology.org/ontology/hasRequiredPerformerCount",
+      "propertyLabel": "Total Required Performer Count"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "valueDataType": {},
+        "defaults": []
+      },
+      "propertyURI": "http://performedmusicontology.org/ontology/hasEnsembleCount",
+      "propertyLabel": "Total Ensemble Count"
+    }
+  ],
+  "id": "lc:RT:bf2:PMOMedPerf:DecMedTest",
+  "resourceURI": "http://performedmusicontology.org/ontology/DeclaredMedium",
+  "resourceLabel": "Declared Medium"
+}

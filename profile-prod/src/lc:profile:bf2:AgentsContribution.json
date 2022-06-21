@@ -1,0 +1,79 @@
+{
+  "resourceTemplates": [
+    {
+      "resourceURI": "http://id.loc.gov/ontologies/bibframe/Contribution",
+      "id": "lc:RT:bf2:Agents:Contribution",
+      "resourceLabel": "Contribution",
+      "propertyTemplates": [
+        {
+          "propertyLabel": "Agent",
+          "valueConstraint": {
+            "repeatable": "true",
+            "useValuesFrom": [],
+            "valueTemplateRefs": [
+              "lc:RT:bf2:Agent:bfPerson",
+              "lc:RT:bf2:Agent:bfFamily",
+              "lc:RT:bf2:Agent:bfCorp",
+              "lc:RT:bf2:Agent:bfJurisdiction",
+              "lc:RT:bf2:Agent:bfConf"
+            ],
+            "editable": "true",
+            "defaults": []
+          },
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/agent",
+          "type": "resource",
+          "mandatory": "false",
+          "repeatable": "true",
+          "resourceTemplates": []
+        },
+        {
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
+          "propertyLabel": "Relationship Designator",
+          "type": "resource",
+          "mandatory": "false",
+          "repeatable": "true",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [],
+            "useValuesFrom": [
+              "http://id.loc.gov/vocabulary/relators",
+              "https://id.loc.gov/vocabulary/rbmsrel"
+            ],
+            "editable": "true",
+            "repeatable": "true",
+            "defaults": []
+          },
+          "remark": "https://original.rdatoolkit.org/rdaappi_rdai-34.html"
+        }
+      ]
+    },
+    {
+      "resourceURI": "http://id.loc.gov/ontologies/bibframe/Contribution",
+      "id": "lc:RT:bf2:Agents:bfContribution",
+      "resourceLabel": "Collection",
+      "propertyTemplates": [
+        {
+          "propertyLabel": "Name of collection",
+          "valueConstraint": {
+            "repeatable": "true",
+            "useValuesFrom": [],
+            "valueTemplateRefs": [
+              "lc:RT:bf2:Agent:bfCorp"
+            ],
+            "defaults": []
+          },
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/agent",
+          "type": "resource",
+          "mandatory": "false",
+          "repeatable": "true",
+          "resourceTemplates": []
+        }
+      ]
+    }
+  ],
+  "id": "lc:profile:bf2:AgentsContribution",
+  "title": "BIBFRAME 2.0 Agents Contribution",
+  "date": "2017-05-13",
+  "description": "Creators and Contributors",
+  "author": "NDMSO"
+}

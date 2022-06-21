@@ -1,0 +1,45 @@
+{
+  "propertyTemplates": [
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [
+          "http://id.loc.gov/vocabulary/geographicAreas"
+        ],
+        "defaults": [],
+        "valueDataType": {}
+      },
+      "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
+      "propertyLabel": "Input GAC or classification code"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [
+          "http://id.loc.gov/authorities/classification"
+        ],
+        "defaults": [
+          {
+            "defaultURI": "http://id.loc.gov/authorities/classification/G",
+            "defaultLiteral": "G"
+          }
+        ],
+        "valueDataType": {
+          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Source"
+        }
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/source"
+    }
+  ],
+  "id": "lc:RT:bf2:Cartographic:GeoCoverage",
+  "resourceURI": "http://id.loc.gov/ontologies/bibframe/GeographicCoverage",
+  "resourceLabel": "Geographic Coverage"
+}

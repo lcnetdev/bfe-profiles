@@ -1,0 +1,131 @@
+{
+  "id": "lc:RT:bf2:SoundRecording:Item",
+  "propertyTemplates": [
+    {
+      "propertyLabel": "Held by",
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/heldBy",
+      "resourceTemplates": [],
+      "type": "resource",
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [
+          "http://id.loc.gov/vocabulary/organizations"
+        ],
+        "valueDataType": {
+          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Agent"
+        },
+        "defaults": [
+          {
+            "defaultURI": "http://id.loc.gov/vocabulary/organizations/dlc",
+            "defaultLiteral": "United States. Library of Congress"
+          }
+        ],
+        "editable": "false"
+      },
+      "mandatory": "false",
+      "repeatable": "false"
+    },
+    {
+      "propertyLabel": "Call numbers",
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/shelfMark",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [
+          "lc:RT:bf2:Identifiers:Shelfmark"
+        ],
+        "useValuesFrom": [],
+        "valueDataType": {},
+        "defaults": []
+      },
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "resource"
+    },
+    {
+      "propertyLabel": "Item Barcode",
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/identifiedBy",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [
+          "lc:RT:bf2:Identifiers:Barcode"
+        ],
+        "useValuesFrom": [],
+        "valueDataType": {},
+        "defaults": []
+      },
+      "mandatory": "false",
+      "repeatable": "false",
+      "type": "resource"
+    },
+    {
+      "propertyLabel": "Location",
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/sublocation",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [
+          "lc:RT:bf2:Item:Location"
+        ],
+        "useValuesFrom": [],
+        "valueDataType": {
+          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Sublocation"
+        },
+        "defaults": []
+      },
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "resource"
+    },
+    {
+      "propertyLabel": "URL of Item",
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/electronicLocator",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [
+          "lc:RT:bf2:URL"
+        ],
+        "useValuesFrom": [],
+        "valueDataType": {},
+        "defaults": []
+      },
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "resource"
+    },
+    {
+      "propertyLabel": "Notes about the Item",
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [
+          "lc:RT:bf2:Note"
+        ],
+        "useValuesFrom": [],
+        "valueDataType": {},
+        "defaults": []
+      },
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "resource"
+    },
+    {
+      "propertyLabel": "Lending, Reproduction, and Retention Policies",
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/usageAndAccessPolicy",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [
+          "lc:RT:bf2:Item:Access",
+          "lc:RT:bf2:Item:Use",
+          "lc:RT:bf2:Item:Retention"
+        ],
+        "useValuesFrom": [],
+        "valueDataType": {},
+        "defaults": []
+      },
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "resource"
+    }
+  ],
+  "resourceLabel": "BIBFRAME Item",
+  "resourceURI": "http://id.loc.gov/ontologies/bibframe/Item"
+}

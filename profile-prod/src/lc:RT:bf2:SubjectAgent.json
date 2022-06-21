@@ -1,0 +1,29 @@
+{
+  "propertyTemplates": [
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "list",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [
+          "lc:RT:bf2:Agent:Person",
+          "lc:RT:bf2:Agent:CorporateBody",
+          "lc:RT:bf2:Agent:Conference",
+          "lc:RT:bf2:Topic:madsTopic",
+          "lc:RT:bf2:Topic:madsGeographic",
+          "lc:RT:bf2:Topic:madsTemporal",
+          "lc:RT:bf2:Topic:madsGenreForm"
+        ],
+        "useValuesFrom": [],
+        "defaults": [],
+        "valueDataType": {}
+      },
+      "propertyURI": "http://www.loc.gov/mads/rdf/v1#componentList",
+      "propertyLabel": "Agents"
+    }
+  ],
+  "id": "lc:RT:bf2:SubjectAgent",
+  "resourceURI": "http://id.loc.gov/ontologies/bibframe/Topic",
+  "resourceLabel": "Subject-Agent"
+}

@@ -1,0 +1,40 @@
+{
+  "propertyTemplates": [
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "resource",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [
+          "http://id.loc.gov/authorities/names"
+        ],
+        "valueDataType": {
+          "dataTypeURI": "http://www.loc.gov/mads/rdf/v1#Geographic"
+        },
+        "defaults": []
+      },
+      "propertyLabel": "Search LCNAF",
+      "propertyURI": "http://www.loc.gov/mads/rdf/v1#deathPlace"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "valueDataType": {},
+        "defaults": []
+      },
+      "propertyURI": "http://www.loc.gov/mads/rdf/v1#deathPlace",
+      "propertyLabel": "Input Place of Death (RDA 9.9)",
+      "remark": "http://access.rdatoolkit.org/rdachp9_rda9-5062.html"
+    }
+  ],
+  "id": "lc:RT:bf2:Agents:RWO:PlaceofDeath",
+  "resourceURI": "http://www.loc.gov/mads/rdf/v1#Geographic",
+  "resourceLabel": "Associated Locale: Place of Death"
+}

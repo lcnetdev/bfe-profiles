@@ -1,0 +1,23 @@
+{
+  "propertyTemplates": [
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "valueDataType": {
+          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/AccessPolicy"
+        },
+        "defaults": []
+      },
+      "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label",
+      "propertyLabel": "Lending or Access Policy"
+    }
+  ],
+  "id": "lc:test:bf2:access",
+  "resourceURI": "http://id.loc.gov/ontologies/bibframe/AccessPolicy",
+  "resourceLabel": "Test Access Policy"
+}

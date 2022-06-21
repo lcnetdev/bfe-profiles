@@ -1,0 +1,22 @@
+{
+  "propertyTemplates": [
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "valueDataType": {},
+        "defaults": []
+      },
+      "propertyURI": "http://www.loc.gov/mads/rdf/v1#honoraryTitle",
+      "propertyLabel": "Honorary Title (RDA 9.4)",
+      "remark": "http://access.rdatoolkit.org/rdachp9_rda9-4631.html"
+    }
+  ],
+  "id": "lc:RT:bf2:Agents:RWO:HonoraryTitle",
+  "resourceURI": "http://www.loc.gov/mads/rdf/v1#honoraryTitle",
+  "resourceLabel": "Honorary Title"
+}

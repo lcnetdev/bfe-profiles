@@ -1,0 +1,27 @@
+{
+  "propertyTemplates": [
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": [
+          {
+            "defaultURI": "",
+            "defaultLiteral": "1.4 m/s"
+          }
+        ],
+        "valueDataType": {}
+      },
+      "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label",
+      "propertyLabel": "Playing speed",
+      "remark": "https://original.rdatoolkit.org/3.16.4.html"
+    }
+  ],
+  "id": "lc:RT:bf2:PlayingSpeed",
+  "resourceURI": "http://id.loc.gov/ontologies/bibframe/PlayingSpeed",
+  "resourceLabel": "Playing speed"
+}

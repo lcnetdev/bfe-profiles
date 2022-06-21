@@ -1,0 +1,27 @@
+{
+  "propertyTemplates": [
+    {
+      "mandatory": "false",
+      "repeatable": "false",
+      "type": "lookup",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [
+          "http://id.loc.gov/vocabulary/mrecmedium"
+        ],
+        "defaults": [],
+        "valueDataType": {
+          "dataTypeURI": ""
+        },
+        "editable": "false"
+      },
+      "propertyLabel": "Lookup",
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/RecordingMedium",
+      "remark": "https://original.rdatoolkit.org/3.16.3.html"
+    }
+  ],
+  "id": "lc:RT:bf2:RecMedium",
+  "resourceURI": "http://id.loc.gov/ontologies/bibframe/RecordingMedium",
+  "resourceLabel": "Recording medium (Optical)"
+}
