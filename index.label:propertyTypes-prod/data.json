@@ -1,0 +1,21 @@
+[
+  {
+    "id": "7e7c7e40-b846-4a2a-9acb-bf7daf5bc58e",
+    "name": "propertyTypes",
+    "configType": "propertySettings",
+    "json": [
+      "literal",
+      "literal-lang",
+      "resource",
+      "lookup",
+      "target",
+      "list"
+    ],
+    "metadata": {
+      "createDate": "2019-03-28T18:36:07.265Z",
+      "updateDate": "2019-03-28T18:36:07.265Z"
+    },
+    "created": "2019-03-28T18:36:07.265Z",
+    "modified": "2019-03-28T18:36:07.265Z"
+  }
+]
