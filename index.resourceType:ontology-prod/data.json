@@ -1,0 +1,87 @@
+[
+  {
+    "id": "e82a75ad-bd2d-4e4f-9f4a-f805ecde3cc4",
+    "name": "RDFS-ontology",
+    "configType": "ontology",
+    "json": {
+      "label": "RDFS",
+      "url": "http://www.w3.org/2000/01/rdf-schema.rdf"
+    },
+    "metadata": {
+      "createDate": "2018-09-01T00:33:27.816Z",
+      "updateDate": "2018-09-01T00:33:27.816Z",
+      "createUser": null,
+      "updateUser": null
+    },
+    "created": "2018-09-01T00:33:27.816Z",
+    "modified": "2018-09-01T00:33:27.816Z"
+  },
+  {
+    "id": "13d4747d-a969-45ee-ba3e-dc99498b5a80",
+    "name": "RDF-ontology",
+    "configType": "ontology",
+    "json": {
+      "label": "RDF",
+      "url": "http://www.w3.org/1999/02/22-rdf-syntax-ns.rdf"
+    },
+    "metadata": {
+      "createDate": "2018-09-01T00:33:14.497Z",
+      "updateDate": "2018-10-17T14:30:10.476Z",
+      "createUser": null,
+      "updateUser": null
+    },
+    "created": "2018-09-01T00:33:14.497Z",
+    "modified": "2018-10-17T14:30:10.476Z"
+  },
+  {
+    "id": "850780ef-5a6d-4c59-b764-464dc1c9907b",
+    "name": "MADSRDF-ontology",
+    "configType": "ontology",
+    "json": {
+      "label": "MADSRDF",
+      "url": "http://www.loc.gov/mads/rdf/v1.rdf"
+    },
+    "metadata": {
+      "createDate": "2018-09-01T00:32:59.118Z",
+      "updateDate": "2018-09-01T00:32:59.118Z",
+      "createUser": null,
+      "updateUser": null
+    },
+    "created": "2018-09-01T00:32:59.118Z",
+    "modified": "2018-09-01T00:32:59.118Z"
+  },
+  {
+    "id": "46394062-79b5-43ff-afd4-a8a0019f2e96",
+    "name": "BFLC-ontology",
+    "configType": "ontology",
+    "json": {
+      "label": "BFLC",
+      "url": "http://id.loc.gov/ontologies/bflc.rdf"
+    },
+    "metadata": {
+      "createDate": "2018-09-01T00:31:36.866Z",
+      "updateDate": "2018-09-01T00:31:36.866Z",
+      "createUser": null,
+      "updateUser": null
+    },
+    "created": "2018-09-01T00:31:36.866Z",
+    "modified": "2018-09-01T00:31:36.866Z"
+  },
+  {
+    "id": "21adeace-6ceb-412a-8a43-8b663a9dde61",
+    "name": "Bibframe 2.0-ontology",
+    "configType": "ontology",
+    "json": {
+      "label": "Bibframe 2.0",
+      "url": "http://id.loc.gov/ontologies/bibframe.rdf"
+    },
+    "metadata": {
+      "createDate": "2018-09-01T00:31:25.348Z",
+      "updateDate": "2018-09-01T00:31:25.348Z",
+      "createUser": null,
+      "updateUser": null
+    },
+    "created": "2018-09-01T00:31:25.348Z",
+    "modified": "2018-09-01T00:31:25.348Z"
+  }
+]
