@@ -1,0 +1,23 @@
+{
+  "propertyTemplates": [
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal-lang",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": [],
+        "valueDataType": {}
+      },
+      "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label",
+      "propertyLabel": "Note",
+      "remark": ""
+    }
+  ],
+  "id": "lc:RT:bf2:MonographNR:Note",
+  "resourceURI": "http://id.loc.gov/ontologies/bibframe/Note",
+  "resourceLabel": "Note",
+  "author": "NDMSO"
+}

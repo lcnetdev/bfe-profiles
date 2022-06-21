@@ -1,0 +1,28 @@
+{
+  "propertyTemplates": [
+    {
+      "mandatory": "false",
+      "repeatable": "false",
+      "type": "lookup",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [
+          "http://id.loc.gov/vocabulary/mplayback"
+        ],
+        "defaults": [],
+        "valueDataType": {
+          "dataTypeURI": "",
+          "remark": ""
+        },
+        "editable": "false"
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/PlaybackChannels",
+      "propertyLabel": "Lookup",
+      "remark": "http://access.rdatoolkit.org/3.16.8.html"
+    }
+  ],
+  "id": "lc:RT:bf2:Playback",
+  "resourceURI": "http://id.loc.gov/ontologies/bibframe/PlaybackChannels",
+  "resourceLabel": "Playback channels"
+}

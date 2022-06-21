@@ -1,0 +1,22 @@
+{
+  "propertyTemplates": [
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "valueDataType": {},
+        "defaults": []
+      },
+      "propertyURI": "http://www.loc.gov/mads/rdf/v1#hasVariant",
+      "propertyLabel": "Variant Access Point Representing an Agent",
+      "remark": "http://access.rdatoolkit.org/rdachp9_rda9-5726.html"
+    }
+  ],
+  "id": "lc:RT:bf2:Agents:VariantAgents",
+  "resourceLabel": "Variant Access Points Representing Agents",
+  "resourceURI": "http://www.loc.gov/mads/rdf/v1#hasVariant"
+}

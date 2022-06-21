@@ -1,0 +1,63 @@
+{
+  "propertyTemplates": [
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": [],
+        "valueDataType": {}
+      },
+      "propertyURI": "http://www.loc.gov/mads/rdf/v1#Country",
+      "propertyLabel": "Country"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": [],
+        "valueDataType": {}
+      },
+      "propertyURI": "http://www.loc.gov/mads/rdf/v1#State",
+      "propertyLabel": "State"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": [],
+        "valueDataType": {}
+      },
+      "propertyURI": "http://www.loc.gov/mads/rdf/v1#County",
+      "propertyLabel": "County"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": [],
+        "valueDataType": {}
+      },
+      "propertyURI": "http://www.loc.gov/mads/rdf/v1#City",
+      "propertyLabel": "City"
+    }
+  ],
+  "id": "lc:RT:bf2:PlaceMadsCountry",
+  "resourceURI": "http://www.loc.gov/mads/rdf/v1#HierarchicalGeographic",
+  "resourceLabel": "Hierarchical Place - elements"
+}

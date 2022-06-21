@@ -1,0 +1,28 @@
+{
+  "propertyTemplates": [
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "resource",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [
+          "lc:RT:bf2:Subjects:TopicS",
+          "lc:RT:bf2:Subjects:GeogS",
+          "lc:RT:bf2:Subjects:AgentS",
+          "lc:RT:bf2:Subjects:CorpS",
+          "lc:RT:bf2:Subjects:ConfS",
+          "lc:RT:bf2:Subjects:WorkS"
+        ],
+        "useValuesFrom": [],
+        "defaults": [],
+        "valueDataType": {}
+      },
+      "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
+      "propertyLabel": "Search simple subjects"
+    }
+  ],
+  "id": "lc:RT:bf2:Subjects:Simple",
+  "resourceURI": "http://www.loc.gov/mads/rdf/v1#SimpleType",
+  "resourceLabel": "Simple subjects"
+}

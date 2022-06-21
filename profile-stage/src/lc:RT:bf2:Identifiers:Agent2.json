@@ -1,0 +1,22 @@
+{
+  "propertyTemplates": [
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": [],
+        "valueDataType": {},
+        "editable": "true"
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/code",
+      "propertyLabel": "ISSN Centre"
+    }
+  ],
+  "id": "lc:RT:bf2:Identifiers:Agent2",
+  "resourceURI": "http://id.loc.gov/ontologies/bibframe/Agent",
+  "resourceLabel": "ISSN agency"
+}

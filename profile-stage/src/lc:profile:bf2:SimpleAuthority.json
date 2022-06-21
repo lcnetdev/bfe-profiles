@@ -1,0 +1,168 @@
+{
+  "resourceTemplates": [
+    {
+      "propertyTemplates": [
+        {
+          "mandatory": "true",
+          "repeatable": "false",
+          "type": "literal",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [],
+            "useValuesFrom": [],
+            "defaults": [],
+            "valueDataType": {}
+          },
+          "propertyURI": "http://www.loc.gov/mads/rdf/v1#authoritativeLabel",
+          "propertyLabel": "Authoritative Label"
+        },
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "resource",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [
+              "lc:RT:bf2:SimpleAuthority:Variant"
+            ],
+            "useValuesFrom": [],
+            "defaults": [],
+            "valueDataType": {}
+          },
+          "propertyURI": "http://www.loc.gov/mads/rdf/v1#hasVariant",
+          "propertyLabel": "Variant"
+        },
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "lookup",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [],
+            "useValuesFrom": [
+              "http://id.loc.gov/vocabulary/madsrdfTypes"
+            ],
+            "defaults": [],
+            "valueDataType": {}
+          },
+          "propertyURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+          "propertyLabel": "Type"
+        },
+        {
+          "mandatory": "false",
+          "repeatable": "false",
+          "type": "lookup",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [],
+            "useValuesFrom": [
+              "http://id.loc.gov/entities/providers"
+            ],
+            "defaults": [],
+            "valueDataType": {}
+          },
+          "propertyURI": "http://www.loc.gov/mads/rdf/v1#useInstead",
+          "propertyLabel": "Use Instead"
+        }
+      ],
+      "id": "lc:RT:bf2:SimpleAuthority:Authority",
+      "resourceLabel": "Authority",
+      "resourceURI": "http://www.loc.gov/mads/rdf/v1#Authority",
+      "author": "NDMSO"
+    },
+    {
+      "propertyTemplates": [
+        {
+          "mandatory": "true",
+          "repeatable": "false",
+          "type": "literal",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [],
+            "useValuesFrom": [],
+            "defaults": [],
+            "valueDataType": {}
+          },
+          "propertyURI": "http://www.loc.gov/mads/rdf/v1#variantLabel",
+          "propertyLabel": "Variant Label"
+        },
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "resource",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [
+              "lc:RT:bf2:SimpleAuthority:Variant:Source"
+            ],
+            "useValuesFrom": [],
+            "defaults": [],
+            "valueDataType": {}
+          },
+          "propertyURI": "http://www.loc.gov/mads/rdf/v1#hasSource",
+          "propertyLabel": "Source"
+        }
+      ],
+      "resourceURI": "http://www.loc.gov/mads/rdf/v1#Variant",
+      "id": "lc:RT:bf2:SimpleAuthority:Variant",
+      "resourceLabel": "Variant",
+      "author": "NDMSO"
+    },
+    {
+      "propertyTemplates": [
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "literal",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [],
+            "useValuesFrom": [],
+            "defaults": [],
+            "valueDataType": {}
+          },
+          "propertyURI": "http://www.loc.gov/mads/rdf/v1#citation-source",
+          "propertyLabel": "Citation Source"
+        },
+        {
+          "mandatory": "false",
+          "repeatable": "false",
+          "type": "literal",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [],
+            "useValuesFrom": [],
+            "defaults": [],
+            "valueDataType": {}
+          },
+          "propertyURI": "http://www.loc.gov/mads/rdf/v1#citation-status",
+          "propertyLabel": "Citation Status"
+        },
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "literal",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [],
+            "useValuesFrom": [],
+            "defaults": [],
+            "valueDataType": {}
+          },
+          "propertyURI": "http://www.loc.gov/mads/rdf/v1#citationNote",
+          "propertyLabel": "Citation Note"
+        }
+      ],
+      "id": "lc:RT:bf2:SimpleAuthority:Variant:Source",
+      "resourceURI": "http://www.loc.gov/mads/rdf/v1#Source",
+      "author": "NDMSO",
+      "resourceLabel": "Source"
+    }
+  ],
+  "title": "Test Simple Authority",
+  "id": "lc:profile:bf2:SimpleAuthority",
+  "description": "Simple Authority Profile",
+  "author": "NDMSO",
+  "date": "2020-12-22",
+  "source": ""
+}

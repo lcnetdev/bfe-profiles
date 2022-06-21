@@ -1,0 +1,45 @@
+{
+  "propertyTemplates": [
+    {
+      "mandatory": "false",
+      "repeatable": "false",
+      "type": "lookup",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [
+          "http://id.loc.gov/vocabulary/relators"
+        ],
+        "valueDataType": {
+          "dataTypeURI": ""
+        },
+        "repeatable": "false",
+        "defaults": [],
+        "editable": "false"
+      },
+      "propertyLabel": "Search MARC relator term",
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/Role"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "false",
+      "type": "literal",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "valueDataType": {
+          "dataTypeURI": ""
+        },
+        "repeatable": "false",
+        "defaults": []
+      },
+      "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label",
+      "propertyLabel": "Input RDA relationship designator term (if it does not appear above)",
+      "remark": "http://access.rdatoolkit.org/rdaappi_rdai-34.html"
+    }
+  ],
+  "id": "lc:RT:bf2:Agent:Role",
+  "resourceURI": "http://id.loc.gov/ontologies/bibframe/Role",
+  "resourceLabel": "Role (unused)"
+}

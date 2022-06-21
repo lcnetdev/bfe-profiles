@@ -1,0 +1,42 @@
+{
+  "propertyTemplates": [
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": [],
+        "valueDataType": {
+          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Work"
+        }
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/continues",
+      "propertyLabel": "Input title (if not in LC database)"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "resource",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [
+          "lc:RT:bf2:Identifiers:LCCN",
+          "lc:RT:bf2:Identifiers:ISSN",
+          "lc:RT:bf2:Identifiers:Local"
+        ],
+        "useValuesFrom": [],
+        "defaults": [],
+        "valueDataType": {}
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/identifiedBy",
+      "propertyLabel": "Identifiers",
+      "remark": ""
+    }
+  ],
+  "id": "lc:RT:bf2:TestProfile:RelatedWork2",
+  "resourceURI": "http://id.loc.gov/ontologies/bibframe/Work",
+  "resourceLabel": "Continues"
+}

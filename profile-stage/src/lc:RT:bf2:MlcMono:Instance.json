@@ -1,0 +1,296 @@
+{
+  "id": "lc:RT:bf2:MlcMono:Instance",
+  "propertyTemplates": [
+    {
+      "propertyLabel": "Instance of",
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/instanceOf",
+      "resourceTemplates": [],
+      "type": "resource",
+      "valueConstraint": {
+        "valueTemplateRefs": [
+          "lc:RT:bf2:MlcMono:Work"
+        ],
+        "useValuesFrom": [],
+        "valueDataType": {},
+        "defaults": []
+      },
+      "mandatory": "false",
+      "repeatable": "false"
+    },
+    {
+      "propertyLabel": "Title Information",
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/title",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [
+          "lc:RT:bf2:InstanceTitle",
+          "lc:RT:bf2:Title:VarTitle",
+          "lc:RT:bf2:ParallelTitle"
+        ],
+        "useValuesFrom": [],
+        "valueDataType": {
+          "remark": ""
+        },
+        "defaults": []
+      },
+      "mandatory": "true",
+      "repeatable": "true",
+      "type": "resource",
+      "remark": ""
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "valueDataType": {},
+        "defaults": []
+      },
+      "propertyLabel": "Statement of Responsibility",
+      "remark": "http://access.rdatoolkit.org/2.4.2.html",
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/responsibilityStatement"
+    },
+    {
+      "propertyLabel": "Edition Statement",
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/editionStatement",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "valueDataType": {},
+        "defaults": []
+      },
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "remark": "http://access.rdatoolkit.org/2.5.html"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "resource",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [
+          "lc:RT:bf2:PublicationInformation",
+          "lc:RT:bf2:DistributionInformation",
+          "lc:RT:bf2:ManufactureInformation",
+          "lc:RT:bf2:ProductionInformation"
+        ],
+        "useValuesFrom": [],
+        "valueDataType": {
+          "dataTypeURI": ""
+        },
+        "defaults": []
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/provisionActivity",
+      "propertyLabel": "Provision Activity",
+      "remark": ""
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "valueDataType": {},
+        "defaults": []
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/copyrightDate",
+      "propertyLabel": "Copyright Date",
+      "remark": "http://access.rdatoolkit.org/2.11.html"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "valueDataType": {
+          "dataTypeLabelHint": ""
+        },
+        "defaults": []
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/seriesStatement",
+      "propertyLabel": "Series statement",
+      "remark": "http://access.rdatoolkit.org/2.12.html"
+    },
+    {
+      "mandatory": "true",
+      "repeatable": "true",
+      "type": "resource",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [
+          "http://id.loc.gov/vocabulary/issuance"
+        ],
+        "valueDataType": {
+          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Issuance"
+        },
+        "editable": "false",
+        "repeatable": "true",
+        "defaults": [
+          {
+            "defaultURI": "http://id.loc.gov/vocabulary/issuance/mono",
+            "defaultLiteral": "single unit"
+          }
+        ]
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/issuance",
+      "propertyLabel": "Mode of Issuance",
+      "remark": "http://access.rdatoolkit.org/2.13.html"
+    },
+    {
+      "propertyLabel": "Identifiers",
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/identifiedBy",
+      "resourceTemplates": [],
+      "type": "resource",
+      "valueConstraint": {
+        "valueTemplateRefs": [
+          "lc:RT:bf2:Identifiers:LCCN",
+          "lc:RT:bf2:Identifiers:ISBN",
+          "lc:RT:bf2:Identifiers:Other",
+          "lc:RT:bf2:Identifiers:Local"
+        ],
+        "useValuesFrom": [],
+        "valueDataType": {},
+        "defaults": []
+      },
+      "mandatory": "false",
+      "repeatable": "true",
+      "remark": ""
+    },
+    {
+      "propertyLabel": "Media type",
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/media",
+      "repeatable": "true",
+      "resourceTemplates": [],
+      "type": "resource",
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [
+          "http://id.loc.gov/vocabulary/mediaTypes"
+        ],
+        "valueDataType": {
+          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Media"
+        },
+        "editable": "false",
+        "repeatable": "true",
+        "defaults": [
+          {
+            "defaultURI": "http://id.loc.gov/vocabulary/mediaTypes/n",
+            "defaultLiteral": "unmediated"
+          }
+        ]
+      },
+      "mandatory": "true",
+      "remark": "http://access.rdatoolkit.org/3.2.html"
+    },
+    {
+      "propertyLabel": "Carrier type",
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/carrier",
+      "repeatable": "true",
+      "resourceTemplates": [],
+      "type": "resource",
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [
+          "http://id.loc.gov/vocabulary/carriers"
+        ],
+        "valueDataType": {
+          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Carrier"
+        },
+        "repeatable": "true",
+        "editable": "false",
+        "defaults": [
+          {
+            "defaultURI": "http://id.loc.gov/vocabulary/carriers/nc",
+            "defaultLiteral": "volume"
+          }
+        ]
+      },
+      "mandatory": "true",
+      "remark": "http://access.rdatoolkit.org/3.3.html"
+    },
+    {
+      "propertyLabel": "Extent",
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/extent",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [
+          "lc:RT:bf2:Extent"
+        ],
+        "useValuesFrom": [],
+        "valueDataType": {},
+        "defaults": []
+      },
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "resource",
+      "remark": ""
+    },
+    {
+      "propertyLabel": "Dimensions",
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/dimensions",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "valueDataType": {},
+        "defaults": [],
+        "editable": "true"
+      },
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "remark": "http://access.rdatoolkit.org/3.5.html"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "resource",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [
+          "lc:RT:bf2:Note"
+        ],
+        "useValuesFrom": [],
+        "valueDataType": {},
+        "defaults": []
+      },
+      "propertyLabel": "Notes about the Instance",
+      "remark": "http://access.rdatoolkit.org/2.17.html",
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/note"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "resource",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [
+          "lc:RT:bf2:SupplContentNote"
+        ],
+        "useValuesFrom": [],
+        "defaults": [],
+        "valueDataType": {
+          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/SupplementaryContent"
+        }
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/supplementaryContent",
+      "propertyLabel": "Supplementary content note",
+      "remark": ""
+    }
+  ],
+  "resourceLabel": "BIBFRAME Instance",
+  "resourceURI": "http://id.loc.gov/ontologies/bibframe/Instance",
+  "remark": ""
+}

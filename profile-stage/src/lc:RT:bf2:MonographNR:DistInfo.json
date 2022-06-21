@@ -1,0 +1,56 @@
+{
+  "propertyTemplates": [
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [
+          "http://id.loc.gov/vocabulary/countries"
+        ],
+        "defaults": [],
+        "valueDataType": {
+          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Place"
+        }
+      },
+      "propertyLabel": "Place",
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/place"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "resource",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [
+          "lc:RT:bf2:MonographNR:PubName"
+        ],
+        "useValuesFrom": [],
+        "defaults": [],
+        "valueDataType": {}
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/agent",
+      "propertyLabel": "Name"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": [],
+        "valueDataType": {}
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/date",
+      "propertyLabel": "Date",
+      "remark": "http://access.rdatoolkit.org/2.9.6.html"
+    }
+  ],
+  "id": "lc:RT:bf2:MonographNR:DistInfo",
+  "resourceURI": "http://id.loc.gov/ontologies/bibframe/Distribution",
+  "resourceLabel": "Distribution"
+}

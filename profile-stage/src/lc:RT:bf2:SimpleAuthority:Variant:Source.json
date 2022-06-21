@@ -1,0 +1,50 @@
+{
+  "propertyTemplates": [
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": [],
+        "valueDataType": {}
+      },
+      "propertyURI": "http://www.loc.gov/mads/rdf/v1#citation-source",
+      "propertyLabel": "Citation Source"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "false",
+      "type": "literal",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": [],
+        "valueDataType": {}
+      },
+      "propertyURI": "http://www.loc.gov/mads/rdf/v1#citation-status",
+      "propertyLabel": "Citation Status"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": [],
+        "valueDataType": {}
+      },
+      "propertyURI": "http://www.loc.gov/mads/rdf/v1#citationNote",
+      "propertyLabel": "Citation Note"
+    }
+  ],
+  "id": "lc:RT:bf2:SimpleAuthority:Variant:Source",
+  "resourceURI": "http://www.loc.gov/mads/rdf/v1#Source",
+  "author": "NDMSO",
+  "resourceLabel": "Source"
+}

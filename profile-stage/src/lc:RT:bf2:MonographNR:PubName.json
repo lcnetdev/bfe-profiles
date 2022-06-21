@@ -1,0 +1,21 @@
+{
+  "propertyTemplates": [
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal-lang",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": [],
+        "valueDataType": {}
+      },
+      "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label",
+      "propertyLabel": "Input Name"
+    }
+  ],
+  "id": "lc:RT:bf2:MonographNR:PubName",
+  "resourceURI": "http://id.loc.gov/ontologies/bibframe/Agent",
+  "resourceLabel": "Name"
+}

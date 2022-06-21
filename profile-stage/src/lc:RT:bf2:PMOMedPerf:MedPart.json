@@ -1,0 +1,24 @@
+{
+  "propertyTemplates": [
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "resource",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [
+          "lc:RT:bf2:PMOMedPerf:MedPerfI1",
+          "lc:RT:bf2:PMOMedPerf:MedPerfI2"
+        ],
+        "useValuesFrom": [],
+        "valueDataType": {},
+        "defaults": []
+      },
+      "propertyURI": "http://performedmusicontology.org/ontology/hasMediumOfPerformance",
+      "propertyLabel": "has Medium of Performance"
+    }
+  ],
+  "id": "lc:RT:bf2:PMOMedPerf:MedPart",
+  "resourceURI": "http://performedmusicontology.org/ontology/MediumPart",
+  "resourceLabel": "Medium Part/Performed"
+}

@@ -1,0 +1,23 @@
+{
+  "propertyTemplates": [
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [
+          "http://preprod.id.loc.gov/authorities/names"
+        ],
+        "valueDataType": {},
+        "defaults": []
+      },
+      "propertyLabel": "Search LCNAF",
+      "propertyURI": "http://www.w3.org/2002/07/owl#sameAs"
+    }
+  ],
+  "id": "lc:RT:bf2:Agent:bfPerson",
+  "resourceURI": "http://id.loc.gov/ontologies/bibframe/Person",
+  "resourceLabel": "Person"
+}

@@ -1,0 +1,25 @@
+{
+  "propertyTemplates": [
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [
+          "lc:RT:bf2:Agent:bfPerson",
+          "lc:RT:bf2:Agent:bfCorp",
+          "lc:RT:bf2:Agent:bfConf"
+        ],
+        "useValuesFrom": [],
+        "defaults": [],
+        "valueDataType": {}
+      },
+      "propertyURI": "http://www.loc.gov/mads/rdf/v1#authoritativeLabel",
+      "propertyLabel": "Agents"
+    }
+  ],
+  "id": "lc:RT:bf2:SubjectAgent",
+  "resourceURI": "http://id.loc.gov/ontologies/bibframe/Agent",
+  "resourceLabel": "Subject-Agent"
+}

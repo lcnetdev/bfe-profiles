@@ -1,0 +1,36 @@
+{
+  "propertyTemplates": [
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": [],
+        "valueDataType": {}
+      },
+      "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label",
+      "propertyLabel": "Note",
+      "remark": "A human-readable name for the subject."
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": [],
+        "valueDataType": {}
+      },
+      "propertyURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+      "propertyLabel": "URL for Supplementary Content"
+    }
+  ],
+  "id": "lc:RT:bf2:SupplContentNote",
+  "resourceURI": "http://id.loc.gov/ontologies/bibframe/SupplementaryContent",
+  "resourceLabel": "Supplementary Content Note"
+}

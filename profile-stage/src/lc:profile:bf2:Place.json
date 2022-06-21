@@ -1,0 +1,172 @@
+{
+  "resourceTemplates": [
+    {
+      "propertyTemplates": [
+        {
+          "mandatory": "false",
+          "repeatable": "false",
+          "type": "lookup",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [],
+            "useValuesFrom": [
+              "http://id.loc.gov/authorities/names",
+              "http://id.loc.gov/authorities/subjects"
+            ],
+            "valueDataType": {
+              "remark": "",
+              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Place"
+            },
+            "repeatable": "false",
+            "defaults": [],
+            "validatePattern": ""
+          },
+          "propertyLabel": "Search LCNAF/LCSH",
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/Place"
+        },
+        {
+          "mandatory": "false",
+          "repeatable": "false",
+          "type": "literal",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [],
+            "useValuesFrom": [],
+            "valueDataType": {
+              "dataTypeURI": "",
+              "remark": "http://id.loc.gov/ontologies/bibframe/Place"
+            },
+            "repeatable": "false",
+            "defaults": []
+          },
+          "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label",
+          "propertyLabel": "Record Place (if it does not appear above)",
+          "remark": "http://access.rdatoolkit.org/6.5.html"
+        }
+      ],
+      "id": "lc:RT:bf2:Place",
+      "resourceURI": "http://id.loc.gov/ontologies/bibframe/Place",
+      "resourceLabel": "Place",
+      "contact": ""
+    },
+    {
+      "propertyTemplates": [
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "lookup",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [],
+            "useValuesFrom": [
+              "http://id.loc.gov/vocabulary/countries"
+            ],
+            "defaults": [],
+            "valueDataType": {
+              "dataTypeURI": ""
+            }
+          },
+          "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
+          "propertyLabel": "Search country code list"
+        }
+      ],
+      "id": "lc:RT:bf2:Place:Country",
+      "resourceURI": "http://id.loc.gov/ontologies/bibframe/Place",
+      "resourceLabel": "Place (country file)"
+    },
+    {
+      "propertyTemplates": [
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "resource",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [
+              "lc:RT:bf2:PlaceMadsCountry"
+            ],
+            "useValuesFrom": [],
+            "defaults": [],
+            "valueDataType": {
+              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Place",
+              "dataTypeLabel": ""
+            }
+          },
+          "propertyURI": "http://www.loc.gov/mads/rdf/v1#componentList",
+          "propertyLabel": "Hierarchical Place"
+        }
+      ],
+      "id": "lc:RT:bf2:PlaceHierarchy",
+      "resourceURI": "http://www.loc.gov/mads/rdf/v1#HierarchicalGeographic",
+      "resourceLabel": "Hierarchical Place"
+    },
+    {
+      "propertyTemplates": [
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "literal",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [],
+            "useValuesFrom": [],
+            "defaults": [],
+            "valueDataType": {}
+          },
+          "propertyURI": "http://www.loc.gov/mads/rdf/v1#Country",
+          "propertyLabel": "Country"
+        },
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "literal",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [],
+            "useValuesFrom": [],
+            "defaults": [],
+            "valueDataType": {}
+          },
+          "propertyURI": "http://www.loc.gov/mads/rdf/v1#State",
+          "propertyLabel": "State"
+        },
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "literal",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [],
+            "useValuesFrom": [],
+            "defaults": [],
+            "valueDataType": {}
+          },
+          "propertyURI": "http://www.loc.gov/mads/rdf/v1#County",
+          "propertyLabel": "County"
+        },
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "literal",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [],
+            "useValuesFrom": [],
+            "defaults": [],
+            "valueDataType": {}
+          },
+          "propertyURI": "http://www.loc.gov/mads/rdf/v1#City",
+          "propertyLabel": "City"
+        }
+      ],
+      "id": "lc:RT:bf2:PlaceMadsCountry",
+      "resourceURI": "http://www.loc.gov/mads/rdf/v1#HierarchicalGeographic",
+      "resourceLabel": "Hierarchical Place - elements"
+    }
+  ],
+  "id": "lc:profile:bf2:Place",
+  "title": "BIBFRAME 2.0 Place",
+  "date": "2017-05-13",
+  "description": "Place Associated with a Resource",
+  "author": "NDMSO"
+}

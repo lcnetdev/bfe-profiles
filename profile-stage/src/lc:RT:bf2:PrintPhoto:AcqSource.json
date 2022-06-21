@@ -1,0 +1,39 @@
+{
+  "propertyTemplates": [
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "resource",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [
+          "lc:RT:bf2:Identifiers:StockNumber"
+        ],
+        "useValuesFrom": [],
+        "defaults": [],
+        "valueDataType": {}
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/identifiedBy",
+      "propertyLabel": "Identifier"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": [],
+        "valueDataType": {}
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/acquisitionTerms",
+      "propertyLabel": "Terms of acquisition",
+      "remark": "Used with Work or Instance"
+    }
+  ],
+  "id": "lc:RT:bf2:PrintPhoto:AcqSource",
+  "resourceURI": "http://id.loc.gov/ontologies/bibframe/AcquisitionSource",
+  "author": "NDMSO",
+  "resourceLabel": "Source of Acquisition"
+}

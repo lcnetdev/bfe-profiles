@@ -1,0 +1,26 @@
+{
+  "propertyTemplates": [
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "valueDataType": {
+          "dataTypeURI": ""
+        },
+        "repeatable": "true",
+        "editable": "false",
+        "defaults": []
+      },
+      "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label",
+      "propertyLabel": "Input name",
+      "remark": "http://access.rdatoolkit.org/2.8.4.html"
+    }
+  ],
+  "id": "lc:RT:bf2:Provision:Name",
+  "resourceURI": "http://id.loc.gov/ontologies/bibframe/Agent",
+  "resourceLabel": "Name"
+}

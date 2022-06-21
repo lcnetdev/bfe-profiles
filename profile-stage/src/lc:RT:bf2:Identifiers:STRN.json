@@ -1,0 +1,36 @@
+{
+  "propertyTemplates": [
+    {
+      "mandatory": "false",
+      "repeatable": "false",
+      "type": "literal",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "valueDataType": {},
+        "defaults": []
+      },
+      "propertyURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+      "propertyLabel": "Standard technical report number",
+      "remark": ""
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "valueDataType": {},
+        "defaults": []
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/qualifier",
+      "propertyLabel": "Qualifier"
+    }
+  ],
+  "id": "lc:RT:bf2:Identifiers:STRN",
+  "resourceURI": "http://id.loc.gov/ontologies/bibframe/Strn",
+  "resourceLabel": "Standard technical report number"
+}

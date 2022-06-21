@@ -1,0 +1,30 @@
+{
+  "propertyTemplates": [
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [
+          "http://id.loc.gov/vocabulary/geographicAreas"
+        ],
+        "valueDataType": {
+          "dataTypeURI": "",
+          "remark": ""
+        },
+        "repeatable": "false",
+        "remark": "",
+        "defaults": [],
+        "editable": "true"
+      },
+      "propertyLabel": "Search GAC codes",
+      "remark": "http://access.rdatoolkit.org/7.3.html",
+      "propertyURI": "http://www.w3.org/2002/07/owl#sameAs"
+    }
+  ],
+  "id": "lc:RT:bf2:Form:Geog",
+  "resourceURI": "http://id.loc.gov/ontologies/bibframe/GeographicCoverage",
+  "resourceLabel": "Geographic coverage"
+}

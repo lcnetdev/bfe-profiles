@@ -1,0 +1,23 @@
+{
+  "propertyTemplates": [
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": [],
+        "valueDataType": {}
+      },
+      "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label",
+      "propertyLabel": "Cartographic Data Type",
+      "remark": "http://access.rdatoolkit.org/3.19.8.5.html"
+    }
+  ],
+  "resourceURI": "http://id.loc.gov/ontologies/bibframe/CartographicDataType",
+  "id": "lc:RT:bf2:Cartographic:DataType",
+  "remark": "",
+  "resourceLabel": "Cartographic Data Type"
+}

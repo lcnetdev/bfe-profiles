@@ -1,0 +1,26 @@
+{
+  "propertyTemplates": [
+    {
+      "mandatory": "false",
+      "repeatable": "false",
+      "type": "lookup",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [
+          "http://id.loc.gov/vocabulary/mgeneration"
+        ],
+        "defaults": [],
+        "valueDataType": {
+          "dataTypeURI": ""
+        },
+        "editable": "false"
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/Generation",
+      "propertyLabel": "Lookup"
+    }
+  ],
+  "id": "lc:RT:bf2:RecGen",
+  "resourceURI": "http://id.loc.gov/ontologies/bibframe/Generation",
+  "resourceLabel": "Recording generation"
+}

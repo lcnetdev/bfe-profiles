@@ -1,0 +1,28 @@
+{
+  "propertyTemplates": [
+    {
+      "mandatory": "false",
+      "repeatable": "false",
+      "type": "lookup",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [
+          "http://id.loc.gov/vocabulary/msoundcontent"
+        ],
+        "defaults": [],
+        "valueDataType": {
+          "dataTypeURI": "",
+          "remark": ""
+        },
+        "editable": "false"
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/SoundContent",
+      "propertyLabel": "Lookup",
+      "remark": "http://access.rdatoolkit.org/7.18.html"
+    }
+  ],
+  "id": "lc:RT:bf2:SoundContent",
+  "resourceURI": "http://id.loc.gov/ontologies/bibframe/SoundContent",
+  "resourceLabel": "Sound content"
+}

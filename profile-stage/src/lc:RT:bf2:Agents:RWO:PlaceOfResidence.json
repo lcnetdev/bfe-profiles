@@ -1,0 +1,69 @@
+{
+  "propertyTemplates": [
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "resource",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [
+          "http://id.loc.gov/authorities/names",
+          "http://id.loc.gov/authorities/subjects"
+        ],
+        "valueDataType": {
+          "dataTypeURI": "http://www.loc.gov/mads/rdf/v1#Geographic"
+        },
+        "defaults": []
+      },
+      "propertyLabel": "Search LCNAF/LCSH",
+      "propertyURI": "http://www.loc.gov/mads/rdf/v1#associatedLocale"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "valueDataType": {},
+        "defaults": []
+      },
+      "propertyLabel": "Input Place of Residence (RDA 9.11)",
+      "remark": "http://access.rdatoolkit.org/rdachp9_rda9-5121.html",
+      "propertyURI": "http://www.loc.gov/mads/rdf/v1#associatedLocale"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "valueDataType": {},
+        "defaults": []
+      },
+      "propertyLabel": "Place of Residence Start Date",
+      "propertyURI": "http://www.loc.gov/mads/rdf/v1#activityStartDate"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "valueDataType": {},
+        "defaults": []
+      },
+      "propertyURI": "http://www.loc.gov/mads/rdf/v1#activityEndDate",
+      "propertyLabel": "Place of Residence End Date"
+    }
+  ],
+  "id": "lc:RT:bf2:Agents:RWO:PlaceOfResidence",
+  "resourceURI": "http://www.loc.gov/mads/rdf/v1#Geographic",
+  "resourceLabel": "Associated Locale: Place of Residence"
+}

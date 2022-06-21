@@ -1,0 +1,25 @@
+{
+  "propertyTemplates": [
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [
+          "http://id.loc.gov/entities/relationships"
+        ],
+        "defaults": [],
+        "valueDataType": {
+          "dataTypeURI": ""
+        }
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bflc/Relation",
+      "propertyLabel": "Lookup"
+    }
+  ],
+  "id": "lc:RT:bf2:Relation",
+  "resourceURI": "http://id.loc.gov/ontologies/bflc/Relation",
+  "resourceLabel": "Relationship Designator"
+}

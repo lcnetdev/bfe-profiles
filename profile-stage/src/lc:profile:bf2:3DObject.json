@@ -1,0 +1,136 @@
+{
+  "resourceTemplates": [
+    {
+      "propertyTemplates": [
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "resource",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [
+              "lc:RT:bf2:WorkTitle",
+              "lc:RT:bf2:Title:VarTitle"
+            ],
+            "useValuesFrom": [],
+            "defaults": [],
+            "valueDataType": {}
+          },
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/title",
+          "propertyLabel": "Title"
+        },
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "lookup",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [],
+            "useValuesFrom": [
+              "http://id.loc.gov/vocabulary/contentTypes"
+            ],
+            "defaults": [
+              {
+                "defaultURI": "http://id.loc.gov/vocabulary/contentTypes/tdf",
+                "defaultLiteral": "three-dimensional form"
+              }
+            ],
+            "valueDataType": {}
+          },
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/content",
+          "propertyLabel": "Content Type"
+        }
+      ],
+      "id": "lc:RT:bf2:3DObject:Work",
+      "resourceURI": "http://id.loc.gov/ontologies/bibframe/Work",
+      "resourceLabel": "BIBFRAME Work"
+    },
+    {
+      "propertyTemplates": [
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "literal",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [
+              "lc:RT:bf2:3DObject:Work"
+            ],
+            "useValuesFrom": [],
+            "defaults": [],
+            "valueDataType": {}
+          },
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/instanceOf",
+          "propertyLabel": "Instance Of"
+        },
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "resource",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [
+              "lc:RT:bf2:InstanceTitle",
+              "lc:RT:bf2:Title:VarTitle"
+            ],
+            "useValuesFrom": [],
+            "defaults": [],
+            "valueDataType": {}
+          },
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/title",
+          "propertyLabel": "Title Information"
+        },
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "lookup",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [],
+            "useValuesFrom": [
+              "http://id.loc.gov/vocabulary/mediaTypes"
+            ],
+            "defaults": [
+              {
+                "defaultURI": "http://id.loc.gov/vocabulary/mediaTypes/n",
+                "defaultLiteral": "unmediated"
+              }
+            ],
+            "valueDataType": {}
+          },
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/media",
+          "propertyLabel": "Media type"
+        },
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "lookup",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [],
+            "useValuesFrom": [
+              "http://id.loc.gov/vocabulary/carriers"
+            ],
+            "defaults": [
+              {
+                "defaultURI": "http://id.loc.gov/vocabulary/carriers/nr",
+                "defaultLiteral": "Object"
+              }
+            ],
+            "valueDataType": {}
+          },
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/carrier",
+          "propertyLabel": "Carrier type"
+        }
+      ],
+      "id": "lc:RT:bf2:3DObject:Instance",
+      "resourceURI": "http://id.loc.gov/ontologies/bibframe/Instance",
+      "resourceLabel": "BIBFRAME Instance"
+    }
+  ],
+  "id": "lc:profile:bf2:3DObject",
+  "description": "3D Object",
+  "title": "Three-dimensional object",
+  "date": "2022-05-16",
+  "author": "NDMSO"
+}

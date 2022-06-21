@@ -1,0 +1,40 @@
+{
+  "propertyTemplates": [
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [
+          "http://id.loc.gov/vocabulary/languages"
+        ],
+        "defaults": [],
+        "valueDataType": {}
+      },
+      "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
+      "propertyLabel": "Language code",
+      "remark": ""
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [
+          "http://id.loc.gov/vocabulary/resourceComponents"
+        ],
+        "defaults": [],
+        "valueDataType": {}
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/part",
+      "propertyLabel": "Language resource"
+    }
+  ],
+  "id": "lc:RT:bf2:Language:Parts",
+  "resourceURI": "http://id.loc.gov/ontologies/bibframe/Language",
+  "resourceLabel": "Language parts"
+}

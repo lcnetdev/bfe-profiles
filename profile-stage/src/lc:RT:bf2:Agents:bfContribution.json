@@ -1,0 +1,23 @@
+{
+  "resourceURI": "http://id.loc.gov/ontologies/bibframe/Contribution",
+  "id": "lc:RT:bf2:Agents:bfContribution",
+  "resourceLabel": "Collection",
+  "propertyTemplates": [
+    {
+      "propertyLabel": "Name of collection",
+      "valueConstraint": {
+        "repeatable": "true",
+        "useValuesFrom": [
+          "http://id.loc.gov/authorities/names"
+        ],
+        "valueTemplateRefs": [],
+        "defaults": []
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/agent",
+      "type": "lookup",
+      "mandatory": "false",
+      "repeatable": "true",
+      "resourceTemplates": []
+    }
+  ]
+}

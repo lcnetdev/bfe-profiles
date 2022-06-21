@@ -1,0 +1,22 @@
+{
+  "propertyTemplates": [
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": [],
+        "valueDataType": {}
+      },
+      "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label",
+      "propertyLabel": "Chronological subdivision",
+      "remark": ""
+    }
+  ],
+  "id": "lc:RT:bf2:PrintGroup:TGMTemporal",
+  "resourceURI": "http://www.loc.gov/mads/rdf/v1#Temporal",
+  "resourceLabel": "Chronological subdivision"
+}

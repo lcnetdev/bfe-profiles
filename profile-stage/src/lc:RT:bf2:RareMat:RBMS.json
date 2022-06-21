@@ -1,0 +1,40 @@
+{
+  "propertyTemplates": [
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [
+          "https://id.loc.gov/vocabulary/rbmscv"
+        ],
+        "valueDataType": {},
+        "defaults": []
+      },
+      "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
+      "propertyLabel": "Search RBMS",
+      "remark": ""
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "resource",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [
+          "http://id.loc.gov/vocabulary/genreFormSchemes"
+        ],
+        "valueDataType": {},
+        "defaults": []
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/source",
+      "propertyLabel": "Source of term"
+    }
+  ],
+  "id": "lc:RT:bf2:RareMat:RBMS",
+  "resourceURI": "http://id.loc.gov/ontologies/bibframe/GenreForm",
+  "resourceLabel": "RBMS term"
+}

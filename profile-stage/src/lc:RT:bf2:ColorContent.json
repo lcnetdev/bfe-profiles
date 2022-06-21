@@ -1,0 +1,27 @@
+{
+  "propertyTemplates": [
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [
+          "http://id.loc.gov/vocabulary/mcolor"
+        ],
+        "defaults": [],
+        "valueDataType": {
+          "dataTypeURI": ""
+        },
+        "editable": "false"
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/ColorContent",
+      "propertyLabel": "Lookup or note",
+      "remark": "http://access.rdatoolkit.org/7.17.html"
+    }
+  ],
+  "id": "lc:RT:bf2:ColorContent",
+  "resourceURI": "http://id.loc.gov/ontologies/bibframe/ColorContent",
+  "resourceLabel": "Color content"
+}

@@ -1,0 +1,77 @@
+{
+  "propertyTemplates": [
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "valueDataType": {},
+        "defaults": []
+      },
+      "propertyLabel": "Total Number of Performers: Individual Instruments (no ensemble present)",
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/count"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "valueDataType": {},
+        "defaults": []
+      },
+      "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label",
+      "propertyLabel": "Record complete instrumentation as text field"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "valueDataType": {},
+        "defaults": []
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/count",
+      "propertyLabel": "Total Number of Performers: Individual Instruments (ensemble present)"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "valueDataType": {},
+        "defaults": []
+      },
+      "propertyLabel": "Record complete instrumentation as text field",
+      "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "valueDataType": {},
+        "defaults": []
+      },
+      "propertyLabel": "Total Number of Ensembles",
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/count"
+    }
+  ],
+  "id": "lc:RT:bf2:NotatedMusic:MediumOfPerformanceCombining",
+  "resourceURI": "http://id.loc.gov/ontologies/bibframe/MusicMedium",
+  "resourceLabel": "Medium of Performance: Combining Facets"
+}

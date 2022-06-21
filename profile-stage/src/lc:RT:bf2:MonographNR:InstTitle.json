@@ -1,0 +1,63 @@
+{
+  "propertyTemplates": [
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal-lang",
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/mainTitle",
+      "propertyLabel": "Main Title",
+      "remark": "http://access.rdatoolkit.org/rdachp2_rda2-3376.html",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": []
+      }
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal-lang",
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/partNumber",
+      "propertyLabel": "Part number",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": []
+      }
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal-lang",
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/partName",
+      "propertyLabel": "Part name",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": []
+      }
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal-lang",
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/subtitle",
+      "propertyLabel": "Subtitle",
+      "remark": "http://access.rdatoolkit.org/rdachp2_rda2-3782.html",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": []
+      }
+    }
+  ],
+  "id": "lc:RT:bf2:MonographNR:InstTitle",
+  "resourceURI": "http://id.loc.gov/ontologies/bibframe/Title",
+  "resourceLabel": "Title in Original Script",
+  "author": "NDMSO",
+  "date": "2019-06-11"
+}

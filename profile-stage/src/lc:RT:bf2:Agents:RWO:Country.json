@@ -1,0 +1,68 @@
+{
+  "propertyTemplates": [
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "resource",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [
+          "http://id.loc.gov/authorities/names"
+        ],
+        "valueDataType": {
+          "dataTypeURI": "http://www.loc.gov/mads/rdf/v1#Country"
+        },
+        "defaults": []
+      },
+      "propertyLabel": "Search LCNAF",
+      "propertyURI": "http://www.loc.gov/mads/rdf/v1#associatedLocale"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "valueDataType": {},
+        "defaults": []
+      },
+      "propertyLabel": "Input Country Associated with Person (RDA 9.10)",
+      "remark": "http://access.rdatoolkit.org/rdachp9_rda9-5089.html",
+      "propertyURI": "http://www.loc.gov/mads/rdf/v1#associatedLocale"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "valueDataType": {},
+        "defaults": []
+      },
+      "propertyURI": "http://www.loc.gov/mads/rdf/v1#activityStartDate",
+      "propertyLabel": "Start Date Associated with Country"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "valueDataType": {},
+        "defaults": []
+      },
+      "propertyURI": "http://www.loc.gov/mads/rdf/v1#activityEndDate",
+      "propertyLabel": "End Date Associated with Country"
+    }
+  ],
+  "id": "lc:RT:bf2:Agents:RWO:Country",
+  "resourceLabel": "Associated Locale: Country",
+  "resourceURI": "http://www.loc.gov/mads/rdf/v1#Geographic"
+}

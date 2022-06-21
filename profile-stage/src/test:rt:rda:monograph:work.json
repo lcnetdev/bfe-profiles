@@ -1,0 +1,2357 @@
+{
+  "id": "test:rt:rda:monograph:work",
+  "resourceURI": "http://www.rdaregistry.info/Elements/c/#C10001",
+  "resourceLabel": "Test RDA Work for monograph",
+  "author": "Crystal Clements (cec23@uw.edu)",
+  "date": "2019-05-15",
+  "propertyTemplates": [
+    {
+      "propertyLabel": "has colour content of representative expression",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10348",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "remark": "",
+      "valueConstraint": {
+        "useValuesFrom": [
+          "http://www.rdaregistry.info/termList/RDAColourContent/"
+        ],
+        "valueTemplateRefs": [],
+        "defaults": []
+      },
+      "resourceTemplates": []
+    },
+    {
+      "propertyLabel": "Administrative Metadata for Work",
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/adminMetadata",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "resource",
+      "remark": "",
+      "valueConstraint": {
+        "valueTemplateRefs": [
+          "lc:RT:bf2:AdminMetadata"
+        ],
+        "valueDataType": {
+          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/AdminMetadata"
+        },
+        "useValuesFrom": [],
+        "defaults": []
+      },
+      "resourceTemplates": []
+    },
+    {
+      "propertyLabel": "has preferred title of work (RDA 6.2.2)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10223",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "remark": "http://access.rdatoolkit.org/6.2.2.html",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": []
+      }
+    },
+    {
+      "propertyLabel": "has category of work (RDA 6.3)(Lookup)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10004",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "remark": "http://access.rdatoolkit.org/6.3.html",
+      "valueConstraint": {
+        "useValuesFrom": [
+          "http://id.loc.gov/authorities/genreForms",
+          "http://id.loc.gov/vocabulary/marcgt"
+        ],
+        "valueTemplateRefs": [],
+        "defaults": []
+      },
+      "resourceTemplates": []
+    },
+    {
+      "propertyLabel": "has category of work (RDA 6.3)(If lookup fails: record URI if available or authorized access point)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10004",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "remark": "http://access.rdatoolkit.org/6.3.html",
+      "valueConstraint": {
+        "useValuesFrom": [
+          "http://id.loc.gov/authorities/genreForms",
+          "http://id.loc.gov/vocabulary/marcgt"
+        ],
+        "valueTemplateRefs": [],
+        "defaults": []
+      },
+      "resourceTemplates": []
+    },
+    {
+      "propertyLabel": "has date of work (RDA 6.4)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10219",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "remark": "http://access.rdatoolkit.org/6.4.html",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": []
+      }
+    },
+    {
+      "propertyLabel": "has place of origin of work (RDA 6.5)(Lookup)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10218",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "remark": "http://access.rdatoolkit.org/6.5.html",
+      "valueConstraint": {
+        "useValuesFrom": [
+          "http://id.loc.gov/authorities/names",
+          "http://id.loc.gov/vocabulary/geographicAreas",
+          "http://id.loc.gov/vocabulary/countries"
+        ],
+        "valueDataType": {
+          "dataTypeURI": "http://www.rdaregistry.info/Elements/c/#C10001"
+        },
+        "valueTemplateRefs": [],
+        "defaults": []
+      },
+      "resourceTemplates": []
+    },
+    {
+      "propertyLabel": "has place of origin of work (RDA 6.5)(If lookup fails: record URI if available or authorized access point)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10218",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "remark": "http://access.rdatoolkit.org/6.5.html",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": []
+      }
+    },
+    {
+      "propertyLabel": "has nature of content (RDA 7.2)(Lookup)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10222",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "remark": "http://access.rdatoolkit.org/7.2.html",
+      "valueConstraint": {
+        "useValuesFrom": [
+          "http://rdaregistry.info/termList/RDAContentType/"
+        ],
+        "defaults": [
+          {
+            "defaultURI": "http://rdaregistry.info/termList/RDAContentType/1020"
+          },
+          {
+            "defaultLiteral": "text"
+          },
+          {
+            "defaultURI": "http://rdaregistry.info/termList/RDAContentType/1014"
+          },
+          {
+            "defaultLiteral": "still image"
+          }
+        ],
+        "valueTemplateRefs": []
+      },
+      "resourceTemplates": []
+    },
+    {
+      "propertyLabel": "has nature of content (RDA 7.2)(Record URI (if available) or authorized access point if lookup fails)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10222",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "remark": "http://access.rdatoolkit.org/7.2.html",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": []
+      }
+    },
+    {
+      "propertyLabel": "has coverage of content (RDA 7.3)(Lookup)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10216",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "remark": "http://access.rdatoolkit.org/7.3.html",
+      "valueConstraint": {
+        "useValuesFrom": [
+          "http://id.loc.gov/vocabulary/geographicAreas"
+        ],
+        "valueTemplateRefs": [],
+        "defaults": []
+      },
+      "resourceTemplates": []
+    },
+    {
+      "propertyLabel": "has coverage of content (RDA 7.3)(If lookup fails: record URI if available or authorized access point)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10216",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "remark": "http://access.rdatoolkit.org/7.3.html",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": []
+      }
+    },
+    {
+      "propertyLabel": "has intended audience of representative expression (RDA 7.7)(Lookup)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10217",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "remark": "http://access.rdatoolkit.org/7.7.html",
+      "valueConstraint": {
+        "useValuesFrom": [
+          "http://id.loc.gov/authorities/demographicTerms",
+          "http://id.loc.gov/authorities/subjects",
+          "https://lookup.ld4l.org/authorities/search/linked_data/dbpedia_ld4l_cache"
+        ],
+        "valueTemplateRefs": [],
+        "defaults": []
+      },
+      "resourceTemplates": []
+    },
+    {
+      "propertyLabel": "has intended audience of representative expression (RDA 7.7)(If lookup fails: record URI if available or authorized access point)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10217",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "remark": "http://access.rdatoolkit.org/7.7.html",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": []
+      }
+    },
+    {
+      "propertyLabel": "has dissertation or thesis information (RDA 7.9)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10209",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "remark": "http://access.rdatoolkit.org/7.9.html",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": []
+      }
+    },
+    {
+      "propertyLabel": "has academic degree (RDA 7.9.2)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10077",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "remark": "http://access.rdatoolkit.org/7.9.2.html",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": []
+      }
+    },
+    {
+      "propertyLabel": "has year degree granted (RDA 7.9.4)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10215",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "remark": "http://access.rdatoolkit.org/7.9.4.html",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": []
+      }
+    },
+    {
+      "propertyLabel": "has illustrations work (RDA 24.5)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10093",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "remark": "http://access.rdatoolkit.org/24.5.html",
+      "valueConstraint": {
+        "useValuesFrom": [
+          "http://id.loc.gov/vocabulary/millus/"
+        ],
+        "valueTemplateRefs": [],
+        "defaults": []
+      },
+      "resourceTemplates": []
+    },
+    {
+      "propertyLabel": "has note on work (RDA 5.9)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10330",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "remark": "",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": []
+      }
+    },
+    {
+      "propertyLabel": "has ISSN",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10366",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "remark": "",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": []
+      }
+    },
+    {
+      "propertyLabel": "has subseries (RDA 24.5)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10080",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "resource",
+      "remark": "http://access.rdatoolkit.org/24.5.html",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": []
+      }
+    },
+    {
+      "propertyLabel": "is subseries of (RDA 24.5)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10101",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "resource",
+      "remark": "http://access.rdatoolkit.org/24.5.html",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": []
+      }
+    },
+    {
+      "propertyLabel": "has sculptor agent (RDA 18.5)(Lookup)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10202",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "valueConstraint": {
+        "useValuesFrom": [
+          "https://lookup.ld4l.org/authorities/search/linked_data/dbpedia_ld4l_cache",
+          "http://id.loc.gov/authorities/names"
+        ],
+        "valueTemplateRefs": [],
+        "defaults": []
+      },
+      "resourceTemplates": []
+    },
+    {
+      "propertyLabel": "has sculptor agent (RDA 18.5)(If lookup fails: record URI if available or authorized access point)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10202",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": []
+      }
+    },
+    {
+      "propertyLabel": "has creator agent of work (RDA 19.2)(Lookup)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10065",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "remark": "http://access.rdatoolkit.org/19.2.html",
+      "valueConstraint": {
+        "useValuesFrom": [
+          "https://lookup.ld4l.org/authorities/search/linked_data/dbpedia_ld4l_cache",
+          "http://id.loc.gov/authorities/names"
+        ],
+        "valueTemplateRefs": [],
+        "defaults": []
+      },
+      "resourceTemplates": []
+    },
+    {
+      "propertyLabel": "has creator agent of work (RDA 19.2)(If lookup fails: record URI if available or authorized access point)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10065",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "remark": "http://access.rdatoolkit.org/19.2.html",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": []
+      }
+    },
+    {
+      "propertyLabel": "has architect agent (RDA 18.5)(Lookup)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10062",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "valueConstraint": {
+        "useValuesFrom": [
+          "https://lookup.ld4l.org/authorities/search/linked_data/dbpedia_ld4l_cache",
+          "http://id.loc.gov/authorities/names"
+        ],
+        "valueTemplateRefs": [],
+        "defaults": []
+      },
+      "resourceTemplates": []
+    },
+    {
+      "propertyLabel": "has architect agent (RDA 18.5)(If lookup fails: record URI if available or authorized access point)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10062",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": []
+      }
+    },
+    {
+      "propertyLabel": "has landscape architect agent (RDA 18.5) (Lookup)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10200",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "valueConstraint": {
+        "useValuesFrom": [
+          "https://lookup.ld4l.org/authorities/search/linked_data/dbpedia_ld4l_cache",
+          "http://id.loc.gov/authorities/names"
+        ],
+        "valueTemplateRefs": [],
+        "defaults": []
+      },
+      "resourceTemplates": []
+    },
+    {
+      "propertyLabel": "has landscape architect agent (RDA 18.5)(If lookup fails: record URI if available or authorized access point)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10200",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": []
+      }
+    },
+    {
+      "propertyLabel": "has artist agent (RDA 18.5) (Lookup)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10058",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "valueConstraint": {
+        "useValuesFrom": [
+          "https://lookup.ld4l.org/authorities/search/linked_data/dbpedia_ld4l_cache",
+          "http://id.loc.gov/authorities/names"
+        ],
+        "valueTemplateRefs": [],
+        "defaults": []
+      },
+      "resourceTemplates": []
+    },
+    {
+      "propertyLabel": "has artist agent (RDA 18.5) (If lookup fails: record URI if available or authorized access point)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10058",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": []
+      }
+    },
+    {
+      "propertyLabel": "has book artist agent (RDA 18.5)(Lookup)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10254",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "valueConstraint": {
+        "useValuesFrom": [
+          "https://lookup.ld4l.org/authorities/search/linked_data/dbpedia_ld4l_cache",
+          "http://id.loc.gov/authorities/names"
+        ],
+        "valueTemplateRefs": [],
+        "defaults": []
+      },
+      "resourceTemplates": []
+    },
+    {
+      "propertyLabel": "has book artist agent (RDA 18.5)(If lookup fails: record URI if available or authorized access point)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10254",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": []
+      }
+    },
+    {
+      "propertyLabel": "has calligrapher agent (RDA 18.5)(Lookup)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10253",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "valueConstraint": {
+        "useValuesFrom": [
+          "https://lookup.ld4l.org/authorities/search/linked_data/dbpedia_ld4l_cache",
+          "http://id.loc.gov/authorities/names"
+        ],
+        "valueTemplateRefs": [],
+        "defaults": []
+      },
+      "resourceTemplates": []
+    },
+    {
+      "propertyLabel": "has calligrapher agent (RDA 18.5)(If lookup fails: record URI if available or authorized access point)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10253",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": []
+      }
+    },
+    {
+      "propertyLabel": "has author agent (RDA 18.5)(Lookup)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10061",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "valueConstraint": {
+        "useValuesFrom": [
+          "http://id.loc.gov/authorities/names"
+        ],
+        "valueTemplateRefs": [],
+        "defaults": []
+      },
+      "resourceTemplates": []
+    },
+    {
+      "propertyLabel": "has author agent (RDA 18.5)(If lookup fails: record URI if available or authorized access point)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10061",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": []
+      }
+    },
+    {
+      "propertyLabel": "has librettist agent (RDA 18.5)(Lookup)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10205",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "valueConstraint": {
+        "useValuesFrom": [
+          "https://lookup.ld4l.org/authorities/search/linked_data/dbpedia_ld4l_cache",
+          "http://id.loc.gov/authorities/names"
+        ],
+        "valueTemplateRefs": [],
+        "defaults": []
+      },
+      "resourceTemplates": []
+    },
+    {
+      "propertyLabel": "has librettist agent (RDA 18.5)(If lookup fails: record URI if available or authorized access point)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10205",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": []
+      }
+    },
+    {
+      "propertyLabel": "has lyricist agent (RDA 18.5)(Lookup)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10204",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "valueConstraint": {
+        "useValuesFrom": [
+          "https://lookup.ld4l.org/authorities/search/linked_data/dbpedia_ld4l_cache",
+          "http://id.loc.gov/authorities/names"
+        ],
+        "valueTemplateRefs": [],
+        "defaults": []
+      },
+      "resourceTemplates": []
+    },
+    {
+      "propertyLabel": "has lyricist agent (RDA 18.5)(If lookup fails: record URI if available or authorized access point)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10204",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": []
+      }
+    },
+    {
+      "propertyLabel": "has rapporteur agent (RDA 18.5)(Lookup)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10255",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "valueConstraint": {
+        "useValuesFrom": [
+          "https://lookup.ld4l.org/authorities/search/linked_data/dbpedia_ld4l_cache",
+          "http://id.loc.gov/authorities/names"
+        ],
+        "valueTemplateRefs": [],
+        "defaults": []
+      },
+      "resourceTemplates": []
+    },
+    {
+      "propertyLabel": "has rapporteur agent (RDA 18.5)(If lookup fails: record URI if available or authorized access point)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10255",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": []
+      }
+    },
+    {
+      "propertyLabel": "has screenwriter agent (RDA 18.5)(Lookup)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10203",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "valueConstraint": {
+        "useValuesFrom": [
+          "https://lookup.ld4l.org/authorities/search/linked_data/dbpedia_ld4l_cache",
+          "http://id.loc.gov/authorities/names"
+        ],
+        "valueTemplateRefs": [],
+        "defaults": []
+      },
+      "resourceTemplates": []
+    },
+    {
+      "propertyLabel": "has screenwriter agent (RDA 18.5)(If lookup fails: record URI if available or authorized access point)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10203",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": []
+      }
+    },
+    {
+      "propertyLabel": "has cartographer agent of work (RDA 18.5)(Lookup)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10052",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "valueConstraint": {
+        "useValuesFrom": [
+          "https://lookup.ld4l.org/authorities/search/linked_data/dbpedia_ld4l_cache",
+          "http://id.loc.gov/authorities/names"
+        ],
+        "valueTemplateRefs": [],
+        "defaults": []
+      },
+      "resourceTemplates": []
+    },
+    {
+      "propertyLabel": "has cartographer agent of work (RDA 18.5)(If lookup fails: record URI if available or authorized access point)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10052",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": []
+      }
+    },
+    {
+      "propertyLabel": "has choreographer agent (RDA 18.5)(Lookup)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10060",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "valueConstraint": {
+        "useValuesFrom": [
+          "https://lookup.ld4l.org/authorities/search/linked_data/dbpedia_ld4l_cache",
+          "http://id.loc.gov/authorities/names"
+        ],
+        "valueTemplateRefs": [],
+        "defaults": []
+      },
+      "resourceTemplates": []
+    },
+    {
+      "propertyLabel": "has choreographer agent (RDA 18.5)(If lookup fails: record URI if available or authorized access point)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10060",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": []
+      }
+    },
+    {
+      "propertyLabel": "has compiler agent (RDA 18.5)(Lookup)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10055",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "valueConstraint": {
+        "useValuesFrom": [
+          "https://lookup.ld4l.org/authorities/search/linked_data/dbpedia_ld4l_cache",
+          "http://id.loc.gov/authorities/names"
+        ],
+        "valueTemplateRefs": [],
+        "defaults": []
+      },
+      "resourceTemplates": []
+    },
+    {
+      "propertyLabel": "has compiler agent (RDA 18.5)(If lookup fails: record URI if available or authorized access point)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10055",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": []
+      }
+    },
+    {
+      "propertyLabel": "has composer agent of work (RDA 18.5)(Lookup)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10053",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "valueConstraint": {
+        "useValuesFrom": [
+          "https://lookup.ld4l.org/authorities/search/linked_data/dbpedia_ld4l_cache",
+          "http://id.loc.gov/authorities/names"
+        ],
+        "valueTemplateRefs": [],
+        "defaults": []
+      },
+      "resourceTemplates": []
+    },
+    {
+      "propertyLabel": "has composer agent of work (RDA 18.5)(If lookup fails: record URI if available or authorized access point)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10053",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": []
+      }
+    },
+    {
+      "propertyLabel": "has designer agent (RDA 18.5)(Lookup)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10051",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "valueConstraint": {
+        "useValuesFrom": [
+          "https://lookup.ld4l.org/authorities/search/linked_data/dbpedia_ld4l_cache",
+          "http://id.loc.gov/authorities/names"
+        ],
+        "valueTemplateRefs": [],
+        "defaults": []
+      },
+      "resourceTemplates": []
+    },
+    {
+      "propertyLabel": "has designer agent (RDA 18.5)(If lookup fails: record URI if available or authorized access point)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10051",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": []
+      }
+    },
+    {
+      "propertyLabel": "has enacting jurisdiction (RDA 18.5)(Lookup)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10017",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "valueConstraint": {
+        "useValuesFrom": [
+          "https://lookup.ld4l.org/authorities/search/linked_data/dbpedia_ld4l_cache",
+          "http://id.loc.gov/authorities/names"
+        ],
+        "valueTemplateRefs": [],
+        "defaults": []
+      },
+      "resourceTemplates": []
+    },
+    {
+      "propertyLabel": "has enacting jurisdiction (RDA 18.5)(If lookup fails: record URI if available or authorized access point)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10017",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": []
+      }
+    },
+    {
+      "propertyLabel": "has interviewee agent of work (RDA 18.5)(Lookup)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10059",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "valueConstraint": {
+        "useValuesFrom": [
+          "https://lookup.ld4l.org/authorities/search/linked_data/dbpedia_ld4l_cache",
+          "http://id.loc.gov/authorities/names"
+        ],
+        "valueTemplateRefs": [],
+        "defaults": []
+      },
+      "resourceTemplates": []
+    },
+    {
+      "propertyLabel": "has interviewee agent of work (RDA 18.5)(If lookup fails: record URI if available or authorized access point)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10059",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": []
+      }
+    },
+    {
+      "propertyLabel": "has interviewer agent of work (RDA 18.5)(Lookup)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10057",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "valueConstraint": {
+        "useValuesFrom": [
+          "https://lookup.ld4l.org/authorities/search/linked_data/dbpedia_ld4l_cache",
+          "http://id.loc.gov/authorities/names"
+        ],
+        "valueTemplateRefs": [],
+        "defaults": []
+      },
+      "resourceTemplates": []
+    },
+    {
+      "propertyLabel": "has interviewer agent of work (RDA 18.5)(If lookup fails: record URI if available or authorized access point)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10057",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": []
+      }
+    },
+    {
+      "propertyLabel": "has inventor agent (RDA 18.5)(Lookup)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10054",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "valueConstraint": {
+        "useValuesFrom": [
+          "https://lookup.ld4l.org/authorities/search/linked_data/dbpedia_ld4l_cache",
+          "http://id.loc.gov/authorities/names"
+        ],
+        "valueTemplateRefs": [],
+        "defaults": []
+      },
+      "resourceTemplates": []
+    },
+    {
+      "propertyLabel": "has inventor agent (RDA 18.5)(If lookup fails: record URI if available or authorized access point)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10054",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": []
+      }
+    },
+    {
+      "propertyLabel": "has photographer agent of work (RDA 18.5)(Lookup)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10056",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "valueConstraint": {
+        "useValuesFrom": [
+          "https://lookup.ld4l.org/authorities/search/linked_data/dbpedia_ld4l_cache",
+          "http://id.loc.gov/authorities/names"
+        ],
+        "valueTemplateRefs": [],
+        "defaults": []
+      },
+      "resourceTemplates": []
+    },
+    {
+      "propertyLabel": "has photographer agent of work (RDA 18.5)(If lookup fails: record URI if available or authorized access point)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10056",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": []
+      }
+    },
+    {
+      "propertyLabel": "has praeses (RDA 18.5)(Lookup)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10045",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "valueConstraint": {
+        "useValuesFrom": [
+          "https://lookup.ld4l.org/authorities/search/linked_data/dbpedia_ld4l_cache",
+          "http://id.loc.gov/authorities/names"
+        ],
+        "valueTemplateRefs": [],
+        "defaults": []
+      },
+      "resourceTemplates": []
+    },
+    {
+      "propertyLabel": "has praeses (RDA 18.5)(If lookup fails: record URI if available or authorized access point)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10045",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": []
+      }
+    },
+    {
+      "propertyLabel": "has programmer agent (RDA 18.5)(Lookup)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10050",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "valueConstraint": {
+        "useValuesFrom": [
+          "https://lookup.ld4l.org/authorities/search/linked_data/dbpedia_ld4l_cache",
+          "http://id.loc.gov/authorities/names"
+        ],
+        "valueTemplateRefs": [],
+        "defaults": []
+      },
+      "resourceTemplates": []
+    },
+    {
+      "propertyLabel": "has programmer agent (RDA 18.5)(If lookup fails: record URI if available or authorized access point)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10050",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": []
+      }
+    },
+    {
+      "propertyLabel": "has remix artist agent (RDA 18.5)(Lookup)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10306",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "valueConstraint": {
+        "useValuesFrom": [
+          "https://lookup.ld4l.org/authorities/search/linked_data/dbpedia_ld4l_cache",
+          "http://id.loc.gov/authorities/names"
+        ],
+        "valueTemplateRefs": [],
+        "defaults": []
+      },
+      "resourceTemplates": []
+    },
+    {
+      "propertyLabel": "has remix artist agent (RDA 18.5)(If lookup fails: record URI if available or authorized access point)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10306",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": []
+      }
+    },
+    {
+      "propertyLabel": "has respondent (RDA 18.5)(Lookup)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10001",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "valueConstraint": {
+        "useValuesFrom": [
+          "https://lookup.ld4l.org/authorities/search/linked_data/dbpedia_ld4l_cache",
+          "http://id.loc.gov/authorities/names"
+        ],
+        "valueTemplateRefs": [],
+        "defaults": []
+      },
+      "resourceTemplates": []
+    },
+    {
+      "propertyLabel": "has respondent (RDA 18.5)(If lookup fails: record URI if available or authorized access point)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10001",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": []
+      }
+    },
+    {
+      "propertyLabel": "has addressee agent (RDA 19.3)(Lookup)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10070",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "remark": "",
+      "valueConstraint": {
+        "useValuesFrom": [
+          "https://lookup.ld4l.org/authorities/search/linked_data/dbpedia_ld4l_cache",
+          "http://id.loc.gov/authorities/names"
+        ],
+        "valueTemplateRefs": [],
+        "defaults": []
+      },
+      "resourceTemplates": []
+    },
+    {
+      "propertyLabel": "has addressee agent (RDA 19.3)(If lookup fails: record URI if available or authorized access point)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10070",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "remark": "",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": []
+      }
+    },
+    {
+      "propertyLabel": "has appellant person (RDA 18.5)(Lookup)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10042",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "valueConstraint": {
+        "useValuesFrom": [
+          "https://lookup.ld4l.org/authorities/search/linked_data/dbpedia_ld4l_cache",
+          "http://id.loc.gov/authorities/names"
+        ],
+        "valueTemplateRefs": [],
+        "defaults": []
+      },
+      "resourceTemplates": []
+    },
+    {
+      "propertyLabel": "has appellant person (RDA 18.5)(If lookup fails: record URI if available or authorized access point)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10042",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": []
+      }
+    },
+    {
+      "propertyLabel": "has appellee person (RDA 18.5)(Lookup)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10035",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "valueConstraint": {
+        "useValuesFrom": [
+          "https://lookup.ld4l.org/authorities/search/linked_data/dbpedia_ld4l_cache",
+          "http://id.loc.gov/authorities/names"
+        ],
+        "valueTemplateRefs": [],
+        "defaults": []
+      },
+      "resourceTemplates": []
+    },
+    {
+      "propertyLabel": "has appellee person (RDA 18.5)(If lookup fails: record URI if available or authorized access point)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10035",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": []
+      }
+    },
+    {
+      "propertyLabel": "has appellee corporate body (RDA 18.5)(Lookup)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10005",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "valueConstraint": {
+        "useValuesFrom": [
+          "https://lookup.ld4l.org/authorities/search/linked_data/dbpedia_ld4l_cache",
+          "http://id.loc.gov/authorities/names"
+        ],
+        "valueTemplateRefs": [],
+        "defaults": []
+      },
+      "resourceTemplates": []
+    },
+    {
+      "propertyLabel": "has appellee corporate body (RDA 18.5)(If lookup fails: record URI if available or authorized access point)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10005",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": []
+      }
+    },
+    {
+      "propertyLabel": "has casting director agent (RDA 18.5)(Lookup)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10305",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "valueConstraint": {
+        "useValuesFrom": [
+          "https://lookup.ld4l.org/authorities/search/linked_data/dbpedia_ld4l_cache",
+          "http://id.loc.gov/authorities/names"
+        ],
+        "valueTemplateRefs": [],
+        "defaults": []
+      },
+      "resourceTemplates": []
+    },
+    {
+      "propertyLabel": "has casting director agent (RDA 18.5)(If lookup fails: record URI if available or authorized access point)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10305",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": []
+      }
+    },
+    {
+      "propertyLabel": "has commissioning body agent (RDA 18.5)(Lookup)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10287",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "valueConstraint": {
+        "useValuesFrom": [
+          "https://lookup.ld4l.org/authorities/search/linked_data/dbpedia_ld4l_cache",
+          "http://id.loc.gov/authorities/names"
+        ],
+        "valueTemplateRefs": [],
+        "defaults": []
+      },
+      "resourceTemplates": []
+    },
+    {
+      "propertyLabel": "has commissioning body agent (RDA 18.5)(If lookup fails: record URI if available or authorized access point)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10287",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": []
+      }
+    },
+    {
+      "propertyLabel": "has consultant agent (RDA 18.5)(Lookup)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10071",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "valueConstraint": {
+        "useValuesFrom": [
+          "https://lookup.ld4l.org/authorities/search/linked_data/dbpedia_ld4l_cache",
+          "http://id.loc.gov/authorities/names"
+        ],
+        "valueTemplateRefs": [],
+        "defaults": []
+      },
+      "resourceTemplates": []
+    },
+    {
+      "propertyLabel": "has consultant agent (RDA 18.5)(If lookup fails: record URI if available or authorized access point)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10071",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": []
+      }
+    },
+    {
+      "propertyLabel": "has court governed (RDA 18.5)(Lookup)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10011",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "valueConstraint": {
+        "useValuesFrom": [
+          "https://lookup.ld4l.org/authorities/search/linked_data/dbpedia_ld4l_cache",
+          "http://id.loc.gov/authorities/names"
+        ],
+        "valueTemplateRefs": [],
+        "defaults": []
+      },
+      "resourceTemplates": []
+    },
+    {
+      "propertyLabel": "has court governed (RDA 18.5)(If lookup fails: record URI if available or authorized access point)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10011",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": []
+      }
+    },
+    {
+      "propertyLabel": "has dedicatee agent of work (RDA 18.5)(Lookup)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10069",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "valueConstraint": {
+        "useValuesFrom": [
+          "https://lookup.ld4l.org/authorities/search/linked_data/dbpedia_ld4l_cache",
+          "http://id.loc.gov/authorities/names"
+        ],
+        "valueTemplateRefs": [],
+        "defaults": []
+      },
+      "resourceTemplates": []
+    },
+    {
+      "propertyLabel": "has dedicatee agent of work (RDA 18.5)(If lookup fails: record URI if available or authorized access point)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10069",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": []
+      }
+    },
+    {
+      "propertyLabel": "has dedicator agent (RDA 18.5)(Lookup)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10048",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "valueConstraint": {
+        "useValuesFrom": [
+          "https://lookup.ld4l.org/authorities/search/linked_data/dbpedia_ld4l_cache",
+          "http://id.loc.gov/authorities/names"
+        ],
+        "valueTemplateRefs": [],
+        "defaults": []
+      },
+      "resourceTemplates": []
+    },
+    {
+      "propertyLabel": "has dedicator agent (RDA 18.5)(If lookup fails: record URI if available or authorized access point)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10048",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": []
+      }
+    },
+    {
+      "propertyLabel": "has defendant corporate body (RDA 18.5)(Lookup)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10285",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "valueConstraint": {
+        "useValuesFrom": [
+          "https://lookup.ld4l.org/authorities/search/linked_data/dbpedia_ld4l_cache",
+          "http://id.loc.gov/authorities/names"
+        ],
+        "valueTemplateRefs": [],
+        "defaults": []
+      },
+      "resourceTemplates": []
+    },
+    {
+      "propertyLabel": "has defendant corporate body (RDA 18.5)(If lookup fails: record URI if available or authorized access point)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10285",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": []
+      }
+    },
+    {
+      "propertyLabel": "has defendant person (RDA 18.5)(Lookup)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10286",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "valueConstraint": {
+        "useValuesFrom": [
+          "https://lookup.ld4l.org/authorities/search/linked_data/dbpedia_ld4l_cache",
+          "http://id.loc.gov/authorities/names"
+        ],
+        "valueTemplateRefs": [],
+        "defaults": []
+      },
+      "resourceTemplates": []
+    },
+    {
+      "propertyLabel": "has defendant person (RDA 18.5)(If lookup fails: record URI if available or authorized access point)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10286",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": []
+      }
+    },
+    {
+      "propertyLabel": "has degree committee member (RDA 18.5)(Lookup)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10284",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "valueConstraint": {
+        "useValuesFrom": [
+          "https://lookup.ld4l.org/authorities/search/linked_data/dbpedia_ld4l_cache",
+          "http://id.loc.gov/authorities/names"
+        ],
+        "valueTemplateRefs": [],
+        "defaults": []
+      },
+      "resourceTemplates": []
+    },
+    {
+      "propertyLabel": "has degree committee member (RDA 18.5)(If lookup fails: record URI if available or authorized access point)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10284",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": []
+      }
+    },
+    {
+      "propertyLabel": "has degree granting institution (RDA 18.5)(Lookup)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10006",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "valueConstraint": {
+        "useValuesFrom": [
+          "https://lookup.ld4l.org/authorities/search/linked_data/dbpedia_ld4l_cache",
+          "http://id.loc.gov/authorities/names"
+        ],
+        "valueTemplateRefs": [],
+        "defaults": []
+      },
+      "resourceTemplates": []
+    },
+    {
+      "propertyLabel": "has degree granting institution (RDA 18.5)(If lookup fails: record URI if available or authorized access point)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10006",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": []
+      }
+    },
+    {
+      "propertyLabel": "has degree supervisor (RDA 18.5)(Lookup)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10041",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "valueConstraint": {
+        "useValuesFrom": [
+          "https://lookup.ld4l.org/authorities/search/linked_data/dbpedia_ld4l_cache",
+          "http://id.loc.gov/authorities/names"
+        ],
+        "valueTemplateRefs": [],
+        "defaults": []
+      },
+      "resourceTemplates": []
+    },
+    {
+      "propertyLabel": "has degree supervisor (RDA 18.5)(If lookup fails: record URI if available or authorized access point)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10041",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": []
+      }
+    },
+    {
+      "propertyLabel": "has director agent (RDA 18.5)(Lookup)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10066",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "valueConstraint": {
+        "useValuesFrom": [
+          "https://lookup.ld4l.org/authorities/search/linked_data/dbpedia_ld4l_cache",
+          "http://id.loc.gov/authorities/names"
+        ],
+        "valueTemplateRefs": [],
+        "defaults": []
+      },
+      "resourceTemplates": []
+    },
+    {
+      "propertyLabel": "has director agent (RDA 18.5)(If lookup fails: record URI if available or authorized access point)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10066",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": []
+      }
+    },
+    {
+      "propertyLabel": "has film director agent (RDA 18.5)(Lookup)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10013",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "valueConstraint": {
+        "useValuesFrom": [
+          "https://lookup.ld4l.org/authorities/search/linked_data/dbpedia_ld4l_cache",
+          "http://id.loc.gov/authorities/names"
+        ],
+        "valueTemplateRefs": [],
+        "defaults": []
+      },
+      "resourceTemplates": []
+    },
+    {
+      "propertyLabel": "has film director agent (RDA 18.5)(If lookup fails: record URI if available or authorized access point)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10013",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": []
+      }
+    },
+    {
+      "propertyLabel": "has radio director agent (RDA 18.5)(Lookup)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10014",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "valueConstraint": {
+        "useValuesFrom": [
+          "https://lookup.ld4l.org/authorities/search/linked_data/dbpedia_ld4l_cache",
+          "http://id.loc.gov/authorities/names"
+        ],
+        "valueTemplateRefs": [],
+        "defaults": []
+      },
+      "resourceTemplates": []
+    },
+    {
+      "propertyLabel": "has radio director agent (RDA 18.5)(If lookup fails: record URI if available or authorized access point)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10014",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": []
+      }
+    },
+    {
+      "propertyLabel": "has television director agent (RDA 18.5)(Lookup)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10015",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "valueConstraint": {
+        "useValuesFrom": [
+          "https://lookup.ld4l.org/authorities/search/linked_data/dbpedia_ld4l_cache",
+          "http://id.loc.gov/authorities/names"
+        ],
+        "valueTemplateRefs": [],
+        "defaults": []
+      },
+      "resourceTemplates": []
+    },
+    {
+      "propertyLabel": "has television director agent (RDA 18.5)(If lookup fails: record URI if available or authorized access point)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10015",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": []
+      }
+    },
+    {
+      "propertyLabel": "has director agent of photography (RDA 18.5)(Lookup)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10068",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "valueConstraint": {
+        "useValuesFrom": [
+          "https://lookup.ld4l.org/authorities/search/linked_data/dbpedia_ld4l_cache",
+          "http://id.loc.gov/authorities/names"
+        ],
+        "valueTemplateRefs": [],
+        "defaults": []
+      },
+      "resourceTemplates": []
+    },
+    {
+      "propertyLabel": "has director agent of photography (RDA 18.5)(If lookup fails: record URI if available or authorized access point)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10068",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": []
+      }
+    },
+    {
+      "propertyLabel": "has editorial director agent (RDA 18.5)(Lookup)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10298",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "valueConstraint": {
+        "useValuesFrom": [
+          "https://lookup.ld4l.org/authorities/search/linked_data/dbpedia_ld4l_cache",
+          "http://id.loc.gov/authorities/names"
+        ],
+        "valueTemplateRefs": [],
+        "defaults": []
+      },
+      "resourceTemplates": []
+    },
+    {
+      "propertyLabel": "has editorial director agent (RDA 18.5)(If lookup fails: record URI if available or authorized access point)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10298",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": []
+      }
+    },
+    {
+      "propertyLabel": "has honouree agent of work (RDA 18.5)(Lookup)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10049",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "valueConstraint": {
+        "useValuesFrom": [
+          "https://lookup.ld4l.org/authorities/search/linked_data/dbpedia_ld4l_cache",
+          "http://id.loc.gov/authorities/names"
+        ],
+        "valueTemplateRefs": [],
+        "defaults": []
+      },
+      "resourceTemplates": []
+    },
+    {
+      "propertyLabel": "has honouree agent of work (RDA 18.5)(If lookup fails: record URI if available or authorized access point)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10049",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": []
+      }
+    },
+    {
+      "propertyLabel": "has hosting institution (RDA 18.5)(Lookup)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10007",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "valueConstraint": {
+        "useValuesFrom": [
+          "https://lookup.ld4l.org/authorities/search/linked_data/dbpedia_ld4l_cache",
+          "http://id.loc.gov/authorities/names"
+        ],
+        "valueTemplateRefs": [],
+        "defaults": []
+      },
+      "resourceTemplates": []
+    },
+    {
+      "propertyLabel": "has hosting institution (RDA 18.5)(If lookup fails: record URI if available or authorized access point)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10007",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": []
+      }
+    },
+    {
+      "propertyLabel": "has issuing body agent (RDA 18.5)(Lookup)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10046",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "valueConstraint": {
+        "useValuesFrom": [
+          "https://lookup.ld4l.org/authorities/search/linked_data/dbpedia_ld4l_cache",
+          "http://id.loc.gov/authorities/names"
+        ],
+        "valueTemplateRefs": [],
+        "defaults": []
+      },
+      "resourceTemplates": []
+    },
+    {
+      "propertyLabel": "has issuing body agent (RDA 18.5)(If lookup fails: record URI if available or authorized access point)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10046",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": []
+      }
+    },
+    {
+      "propertyLabel": "has judge (RDA 18.5)(Lookup)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10044",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "valueConstraint": {
+        "useValuesFrom": [
+          "https://lookup.ld4l.org/authorities/search/linked_data/dbpedia_ld4l_cache",
+          "http://id.loc.gov/authorities/names"
+        ],
+        "valueTemplateRefs": [],
+        "defaults": []
+      },
+      "resourceTemplates": []
+    },
+    {
+      "propertyLabel": "has judge (RDA 18.5)(If lookup fails: record URI if available or authorized access point)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10044",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": []
+      }
+    },
+    {
+      "propertyLabel": "has medium (RDA 18.5)(Lookup)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10036",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "valueConstraint": {
+        "useValuesFrom": [
+          "https://lookup.ld4l.org/authorities/search/linked_data/dbpedia_ld4l_cache",
+          "http://id.loc.gov/authorities/names"
+        ],
+        "valueTemplateRefs": [],
+        "defaults": []
+      },
+      "resourceTemplates": []
+    },
+    {
+      "propertyLabel": "has medium (RDA 18.5)(If lookup fails: record URI if available or authorized access point)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10036",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": []
+      }
+    },
+    {
+      "propertyLabel": "has organizer agent (RDA 18.5)(Lookup)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10297",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "valueConstraint": {
+        "useValuesFrom": [
+          "https://lookup.ld4l.org/authorities/search/linked_data/dbpedia_ld4l_cache",
+          "http://id.loc.gov/authorities/names"
+        ],
+        "valueTemplateRefs": [],
+        "defaults": []
+      },
+      "resourceTemplates": []
+    },
+    {
+      "propertyLabel": "has organizer agent (RDA 18.5)(Lookup)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10297",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": []
+      }
+    },
+    {
+      "propertyLabel": "has participant in treaty (RDA 18.5)(Lookup)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10292",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "valueConstraint": {
+        "useValuesFrom": [
+          "https://lookup.ld4l.org/authorities/search/linked_data/dbpedia_ld4l_cache",
+          "http://id.loc.gov/authorities/names"
+        ],
+        "valueTemplateRefs": [],
+        "defaults": []
+      },
+      "resourceTemplates": []
+    },
+    {
+      "propertyLabel": "has participant in treaty (RDA 18.5)(If lookup fails: record URI if available or authorized access point)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10292",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": []
+      }
+    },
+    {
+      "propertyLabel": "has plaintiff person (RDA 18.5)(Lookup)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10043",
+      "mandatory": "",
+      "repeatable": "true",
+      "type": "lookup",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "valueConstraint": {
+        "useValuesFrom": [
+          "https://lookup.ld4l.org/authorities/search/linked_data/dbpedia_ld4l_cache",
+          "http://id.loc.gov/authorities/names"
+        ],
+        "valueTemplateRefs": [],
+        "defaults": []
+      },
+      "resourceTemplates": []
+    },
+    {
+      "propertyLabel": "has plaintiff person (RDA 18.5)(If lookup fails: record URI if available or authorized access point)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10043",
+      "mandatory": "",
+      "repeatable": "true",
+      "type": "literal",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": []
+      }
+    },
+    {
+      "propertyLabel": "has plaintiff corporate body (RDA 18.5)(Lookup)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10010",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "valueConstraint": {
+        "useValuesFrom": [
+          "https://lookup.ld4l.org/authorities/search/linked_data/dbpedia_ld4l_cache",
+          "http://id.loc.gov/authorities/names"
+        ],
+        "valueTemplateRefs": [],
+        "defaults": []
+      },
+      "resourceTemplates": []
+    },
+    {
+      "propertyLabel": "has plaintiff corporate body (RDA 18.5)(If lookup fails: record URI if available or authorized access point)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10010",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": []
+      }
+    },
+    {
+      "propertyLabel": "has producer agent (RDA 18.5)(Lookup)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10064",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "valueConstraint": {
+        "useValuesFrom": [
+          "https://lookup.ld4l.org/authorities/search/linked_data/dbpedia_ld4l_cache",
+          "http://id.loc.gov/authorities/names"
+        ],
+        "valueTemplateRefs": [],
+        "defaults": []
+      },
+      "resourceTemplates": []
+    },
+    {
+      "propertyLabel": "has producer agent (RDA 18.5)(If lookup fails: record URI if available or authorized access point)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10064",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": []
+      }
+    },
+    {
+      "propertyLabel": "has audio producer agent (RDA 18.5)(Lookup)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10304",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "valueConstraint": {
+        "useValuesFrom": [
+          "https://lookup.ld4l.org/authorities/search/linked_data/dbpedia_ld4l_cache",
+          "http://id.loc.gov/authorities/names"
+        ],
+        "valueTemplateRefs": [],
+        "defaults": []
+      },
+      "resourceTemplates": []
+    },
+    {
+      "propertyLabel": "has audio producer agent (RDA 18.5)(If lookup fails: record URI if available or authorized access point)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10304",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": []
+      }
+    },
+    {
+      "propertyLabel": "has film producer agent (RDA 18.5)(Lookup)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10073",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "valueConstraint": {
+        "useValuesFrom": [
+          "https://lookup.ld4l.org/authorities/search/linked_data/dbpedia_ld4l_cache",
+          "http://id.loc.gov/authorities/names"
+        ],
+        "valueTemplateRefs": [],
+        "defaults": []
+      },
+      "resourceTemplates": []
+    },
+    {
+      "propertyLabel": "has film producer agent (RDA 18.5)(If lookup fails: record URI if available or authorized access point)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10073",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": []
+      }
+    },
+    {
+      "propertyLabel": "has radio producer agent (RDA 18.5)(Lookup)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10074",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "valueConstraint": {
+        "useValuesFrom": [
+          "https://lookup.ld4l.org/authorities/search/linked_data/dbpedia_ld4l_cache",
+          "http://id.loc.gov/authorities/names"
+        ],
+        "valueTemplateRefs": [],
+        "defaults": []
+      },
+      "resourceTemplates": []
+    },
+    {
+      "propertyLabel": "has radio producer agent (RDA 18.5)(If lookup fails: record URI if available or authorized access point)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10074",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": []
+      }
+    },
+    {
+      "propertyLabel": "has television producer agent (RDA 18.5)(Lookup)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10075",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "valueConstraint": {
+        "useValuesFrom": [
+          "https://lookup.ld4l.org/authorities/search/linked_data/dbpedia_ld4l_cache",
+          "http://id.loc.gov/authorities/names"
+        ],
+        "valueTemplateRefs": [],
+        "defaults": []
+      },
+      "resourceTemplates": []
+    },
+    {
+      "propertyLabel": "has television producer agent (RDA 18.5)(If lookup fails: record URI if available or authorized access point)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10075",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": []
+      }
+    },
+    {
+      "propertyLabel": "has production company (RDA 18.5)(Lookup)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10008",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "valueConstraint": {
+        "useValuesFrom": [
+          "https://lookup.ld4l.org/authorities/search/linked_data/dbpedia_ld4l_cache",
+          "http://id.loc.gov/authorities/names"
+        ],
+        "valueTemplateRefs": [],
+        "defaults": []
+      },
+      "resourceTemplates": []
+    },
+    {
+      "propertyLabel": "has production company (RDA 18.5)(If lookup fails: record URI if available or authorized access point)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10008",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": []
+      }
+    },
+    {
+      "propertyLabel": "has researcher agent (RDA 18.5)(Lookup)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10293",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "valueConstraint": {
+        "useValuesFrom": [
+          "https://lookup.ld4l.org/authorities/search/linked_data/dbpedia_ld4l_cache",
+          "http://id.loc.gov/authorities/names"
+        ],
+        "valueTemplateRefs": [],
+        "defaults": []
+      },
+      "resourceTemplates": []
+    },
+    {
+      "propertyLabel": "has researcher agent (RDA 18.5)(If lookup fails: record URI if available or authorized access point)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10293",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": []
+      }
+    },
+    {
+      "propertyLabel": "has abridger agent (RDA 18.5)(Lookup)",
+      "propertyURI": "http://rdaregistry.info/Elements/e/P20049",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "valueConstraint": {
+        "useValuesFrom": [
+          "https://lookup.ld4l.org/authorities/search/linked_data/dbpedia_ld4l_cache",
+          "http://id.loc.gov/authorities/names"
+        ],
+        "valueTemplateRefs": [],
+        "defaults": []
+      },
+      "resourceTemplates": []
+    },
+    {
+      "propertyLabel": "has abridger agent (RDA 18.5)(If lookup fails: record URI if available or authorized access point)",
+      "propertyURI": "http://rdaregistry.info/Elements/e/P20049",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "remark": "http://access.rdatoolkit.org/18.5.html",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": []
+      }
+    },
+    {
+      "propertyLabel": "has numbering of part (RDA 24.6)",
+      "propertyURI": "http://rdaregistry.info/Elements/w/P10012",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "remark": "http://access.rdatoolkit.org/24.6.html",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": []
+      }
+    }
+  ]
+}

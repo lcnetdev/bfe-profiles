@@ -1,0 +1,51 @@
+{
+  "propertyTemplates": [
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "list",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [
+          "lc:RT:bf2:Topic:Childrens:Topic",
+          "lc:RT:bf2:Topic:madsGeographic",
+          "lc:RT:bf2:Topic:madsTemporal",
+          "lc:RT:bf2:Topic:madsGenreForm"
+        ],
+        "useValuesFrom": [],
+        "defaults": [],
+        "valueDataType": {},
+        "editable": "false"
+      },
+      "propertyURI": "http://www.loc.gov/mads/rdf/v1#componentList",
+      "propertyLabel": "Search Subject Components"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "resource",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [
+          "http://id.loc.gov/vocabulary/subjectSchemes"
+        ],
+        "defaults": [
+          {
+            "defaultURI": "http://id.loc.gov/vocabulary/subjectSchemes/lcac",
+            "defaultLiteral": "lcac"
+          }
+        ],
+        "valueDataType": {
+          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Source"
+        }
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/source",
+      "propertyLabel": "Thesaurus",
+      "remark": ""
+    }
+  ],
+  "id": "lc:RT:bf2:Topic:Childrens:Components",
+  "resourceLabel": "Children's subjects",
+  "resourceURI": "http://id.loc.gov/ontologies/bibframe/Topic"
+}

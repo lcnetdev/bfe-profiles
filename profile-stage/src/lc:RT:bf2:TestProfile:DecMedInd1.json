@@ -1,0 +1,53 @@
+{
+  "propertyTemplates": [
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [
+          "http://id.loc.gov/authorities/performanceMediums"
+        ],
+        "defaults": [],
+        "valueDataType": {
+          "dataTypeURI": "http://performedmusicontology.org/ontology/IndividualMediumOfPerformance"
+        }
+      },
+      "propertyURI": "http://performedmusicontology.org/ontology/IndividualMediumOfPerformance",
+      "propertyLabel": "Search Instrument or Voice"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": [],
+        "valueDataType": {}
+      },
+      "propertyURI": "http://performedmusicontology.org/ontology/hasDistinctPartCount",
+      "propertyLabel": "Distinct Part Count"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": [],
+        "valueDataType": {}
+      },
+      "propertyURI": "http://performedmusicontology.org/ontology/hasRequiredPerformerCount",
+      "propertyLabel": "Required Performer Count"
+    }
+  ],
+  "id": "lc:RT:bf2:TestProfile:DecMedInd1",
+  "resourceLabel": "Individual Medium of Performance",
+  "resourceURI": "http://performedmusicontology.org/ontology/IndividualMediumOfPerformance"
+}

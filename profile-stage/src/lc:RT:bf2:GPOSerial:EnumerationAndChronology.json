@@ -1,0 +1,67 @@
+{
+  "propertyTemplates": [
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "valueDataType": {},
+        "defaults": []
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/firstIssue",
+      "propertyLabel": "Numeric and/or Alphabetic Designation of First Issue or Part of Sequence",
+      "remark": "http://access.rdatoolkit.org/rdachp2_rda2-5592.html"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "valueDataType": {},
+        "defaults": []
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/firstIssue",
+      "propertyLabel": "Chronological Designation of First Issue or Part of Sequence",
+      "remark": "http://access.rdatoolkit.org/rdachp2_rda2-5667.html"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "valueDataType": {},
+        "defaults": []
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/lastIssue",
+      "propertyLabel": "Numeric and/or Alphabetic Designation of Last Issue or Part of Sequence",
+      "remark": "http://access.rdatoolkit.org/rdachp2_rda2-5759.html"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "valueDataType": {},
+        "defaults": []
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/lastIssue",
+      "propertyLabel": "Chronological Designation of Last Issue or Part of Sequence",
+      "remark": "http://access.rdatoolkit.org/rdachp2_rda2-5813.html"
+    }
+  ],
+  "id": "lc:RT:bf2:GPOSerial:EnumerationAndChronology",
+  "resourceURI": "http://id.loc.gov/ontologies/bibframe/EnumerationAndChronology",
+  "resourceLabel": "Enumeration And Chronology"
+}

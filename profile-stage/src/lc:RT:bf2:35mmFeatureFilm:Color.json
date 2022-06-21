@@ -1,0 +1,23 @@
+{
+  "propertyTemplates": [
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "resource",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [
+          "lc:RT:bf2:Note"
+        ],
+        "useValuesFrom": [],
+        "defaults": [],
+        "valueDataType": {}
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
+      "propertyLabel": "Note about Color content"
+    }
+  ],
+  "id": "lc:RT:bf2:35mmFeatureFilm:Color",
+  "resourceURI": "http://id.loc.gov/ontologies/bibframe/ColorContent",
+  "resourceLabel": "Note about Color content"
+}

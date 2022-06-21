@@ -1,0 +1,24 @@
+{
+  "propertyTemplates": [
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [
+          "http://mlvlp04.loc.gov:8080/authorities/classification/G"
+        ],
+        "defaults": [],
+        "valueDataType": {}
+      },
+      "propertyURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+      "propertyLabel": "G classification",
+      "remark": ""
+    }
+  ],
+  "id": "lc:RT:bf2:TestProfile:GeoClass",
+  "resourceURI": "http://id.loc.gov/ontologies/bibframe/GeographicCoverage",
+  "resourceLabel": "Geographic Classification"
+}

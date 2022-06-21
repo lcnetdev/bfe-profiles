@@ -1,0 +1,40 @@
+{
+  "propertyTemplates": [
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": [],
+        "valueDataType": {}
+      },
+      "propertyLabel": "Lookup",
+      "propertyURI": "http://www.loc.gov/mads/rdf/v1#componentList"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "list",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [
+          "lc:RT:bf2:Topic:madsTopic",
+          "lc:RT:bf2:Topic:madsGeographic",
+          "lc:RT:bf2:Topic:madsTemporal",
+          "lc:RT:bf2:Topic:madsGenreForm"
+        ],
+        "useValuesFrom": [],
+        "defaults": [],
+        "valueDataType": {}
+      },
+      "propertyURI": "http://www.loc.gov/mads/rdf/v1#componentList",
+      "propertyLabel": "Search Components"
+    }
+  ],
+  "id": "lc:RT:bf2:Topic:SubjectTest",
+  "resourceURI": "http://id.loc.gov/ontologies/bibframe/Topic",
+  "resourceLabel": "Testing complex subjects"
+}

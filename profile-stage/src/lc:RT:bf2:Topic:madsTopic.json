@@ -1,0 +1,29 @@
+{
+  "propertyTemplates": [
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [
+          "http://id.loc.gov/authorities/subjects",
+          "http://id.loc.gov/authorities/names",
+          "https://id.loc.gov/resources/hubs/suggest2"
+        ],
+        "valueDataType": {
+          "dataTypeURI": ""
+        },
+        "repeatable": "true",
+        "editable": "true",
+        "defaults": []
+      },
+      "propertyLabel": "Search LCSH/LCNAF",
+      "propertyURI": "http://www.w3.org/2002/07/owl#sameAs"
+    }
+  ],
+  "id": "lc:RT:bf2:Topic:madsTopic",
+  "resourceURI": "http://www.loc.gov/mads/rdf/v1#Topic",
+  "resourceLabel": "Heading or Topical subdivision"
+}

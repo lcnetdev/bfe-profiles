@@ -1,0 +1,28 @@
+{
+  "propertyTemplates": [
+    {
+      "mandatory": "false",
+      "repeatable": "false",
+      "type": "lookup",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [
+          "http://id.loc.gov/vocabulary/mrectype"
+        ],
+        "defaults": [],
+        "valueDataType": {
+          "dataTypeURI": "",
+          "remark": ""
+        },
+        "editable": "false"
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/RecordingMethod",
+      "propertyLabel": "Lookup",
+      "remark": "http://access.rdatoolkit.org/3.16.2.html"
+    }
+  ],
+  "id": "lc:RT:bf2:TypeRec2",
+  "resourceURI": "http://id.loc.gov/ontologies/bibframe/RecordingMethod",
+  "resourceLabel": "Type of recording (Analog)"
+}

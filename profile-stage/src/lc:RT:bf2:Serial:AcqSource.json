@@ -1,0 +1,41 @@
+{
+  "propertyTemplates": [
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "resource",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [
+          "lc:RT:bf2:Note"
+        ],
+        "useValuesFrom": [],
+        "defaults": [],
+        "valueDataType": {}
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
+      "propertyLabel": "Note",
+      "remark": "Used with Work or Instance"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "resource",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [
+          "lc:RT:bf2:Identifiers:StockNumber"
+        ],
+        "useValuesFrom": [],
+        "defaults": [],
+        "valueDataType": {}
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/identifiedBy",
+      "propertyLabel": "Identifier",
+      "remark": ""
+    }
+  ],
+  "id": "lc:RT:bf2:Serial:AcqSource",
+  "resourceURI": "http://id.loc.gov/ontologies/bibframe/AcquisitionSource",
+  "resourceLabel": "Source of Acquisition"
+}

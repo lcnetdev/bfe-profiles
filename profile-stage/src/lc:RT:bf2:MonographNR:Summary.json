@@ -1,0 +1,22 @@
+{
+  "propertyTemplates": [
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal-lang",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": [],
+        "valueDataType": {}
+      },
+      "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label",
+      "propertyLabel": "Summary note",
+      "remark": "http://access.rdatoolkit.org/7.10.html"
+    }
+  ],
+  "id": "lc:RT:bf2:MonographNR:Summary",
+  "resourceURI": "http://id.loc.gov/ontologies/bibframe/Summary",
+  "resourceLabel": "Summary note"
+}

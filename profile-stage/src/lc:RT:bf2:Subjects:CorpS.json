@@ -1,0 +1,26 @@
+{
+  "propertyTemplates": [
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [
+          "http://id.loc.gov/authorities/names"
+        ],
+        "defaults": [],
+        "valueDataType": {
+          "dataTypeURI": ""
+        },
+        "editable": "false"
+      },
+      "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
+      "propertyLabel": "Search LCNAF"
+    }
+  ],
+  "resourceURI": "http://id.loc.gov/ontologies/bibframe/Organization",
+  "id": "lc:RT:bf2:Subjects:CorpS",
+  "resourceLabel": "Single Organization"
+}

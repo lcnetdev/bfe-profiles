@@ -1,0 +1,65 @@
+{
+  "propertyTemplates": [
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "valueDataType": {},
+        "defaults": []
+      },
+      "propertyLabel": "Address of Person (RDA 9.12)",
+      "remark": "http://access.rdatoolkit.org/rdachp9_rda9-5161.html",
+      "propertyURI": "http://www.loc.gov/mads/rdf/v1#Address"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "valueDataType": {},
+        "defaults": []
+      },
+      "propertyLabel": "Email Address of Person",
+      "propertyURI": "http://www.loc.gov/mads/rdf/v1#email"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "valueDataType": {},
+        "defaults": []
+      },
+      "propertyLabel": "Address of Corporate Body (RDA 11.9)",
+      "propertyURI": "http://www.loc.gov/mads/rdf/v1#AffiliationAddress",
+      "remark": "http://access.rdatoolkit.org/rdachp11_rda11-5022.html"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "valueDataType": {},
+        "defaults": []
+      },
+      "propertyLabel": "Email Address of Corporate Body",
+      "propertyURI": "http://www.loc.gov/mads/rdf/v1#email"
+    }
+  ],
+  "id": "lc:RT:bf2:Agents:Addresses",
+  "resourceLabel": "Addresses",
+  "resourceURI": "http://www.loc.gov/mads/rdf/v1#Address"
+}

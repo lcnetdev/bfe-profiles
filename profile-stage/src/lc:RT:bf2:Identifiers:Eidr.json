@@ -1,0 +1,21 @@
+{
+  "propertyTemplates": [
+    {
+      "mandatory": "false",
+      "repeatable": "false",
+      "type": "literal",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "valueDataType": {},
+        "defaults": []
+      },
+      "propertyURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+      "propertyLabel": "EIDR"
+    }
+  ],
+  "id": "lc:RT:bf2:Identifiers:Eidr",
+  "resourceURI": "http://id.loc.gov/ontologies/bibframe/Eidr",
+  "resourceLabel": "EIDR"
+}

@@ -1,0 +1,24 @@
+{
+  "propertyTemplates": [
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": [],
+        "valueDataType": {
+          "dataTypeLabelHint": "1 7/8 ips"
+        }
+      },
+      "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label",
+      "propertyLabel": "Playing Speed",
+      "remark": "http://access.rdatoolkit.org/3.16.4.html"
+    }
+  ],
+  "id": "lc:RT:bf2:SoundCassette:PlaySpeed",
+  "resourceURI": "http://id.loc.gov/ontologies/bibframe/PlayingSpeed",
+  "resourceLabel": "Playing Speed"
+}

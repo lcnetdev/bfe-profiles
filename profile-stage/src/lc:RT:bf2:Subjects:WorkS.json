@@ -1,0 +1,24 @@
+{
+  "propertyTemplates": [
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [
+          "https://preprod-8230.id.loc.gov/resources/works"
+        ],
+        "defaults": [],
+        "valueDataType": {},
+        "editable": "false"
+      },
+      "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
+      "propertyLabel": "Search BFDB"
+    }
+  ],
+  "id": "lc:RT:bf2:Subjects:WorkS",
+  "resourceURI": "http://id.loc.gov/ontologies/bibframe/Work",
+  "resourceLabel": "Single Work"
+}

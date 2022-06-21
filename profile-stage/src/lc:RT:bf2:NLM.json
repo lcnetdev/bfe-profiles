@@ -1,0 +1,21 @@
+{
+  "propertyTemplates": [
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": [],
+        "valueDataType": {}
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/classificationPortion",
+      "propertyLabel": "NLM classification number"
+    }
+  ],
+  "id": "lc:RT:bf2:NLM",
+  "resourceURI": "http://id.loc.gov/ontologies/bibframe/ClassificationNlm",
+  "resourceLabel": "National Library of Medicine Classification"
+}

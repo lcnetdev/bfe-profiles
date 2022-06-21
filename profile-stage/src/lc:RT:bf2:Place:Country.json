@@ -1,0 +1,25 @@
+{
+  "propertyTemplates": [
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [
+          "http://id.loc.gov/vocabulary/countries"
+        ],
+        "defaults": [],
+        "valueDataType": {
+          "dataTypeURI": ""
+        }
+      },
+      "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
+      "propertyLabel": "Search country code list"
+    }
+  ],
+  "id": "lc:RT:bf2:Place:Country",
+  "resourceURI": "http://id.loc.gov/ontologies/bibframe/Place",
+  "resourceLabel": "Place (country file)"
+}

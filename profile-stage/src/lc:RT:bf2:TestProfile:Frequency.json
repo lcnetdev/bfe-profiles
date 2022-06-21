@@ -1,0 +1,39 @@
+{
+  "propertyTemplates": [
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [
+          "http://id.loc.gov/vocabulary/frequencies"
+        ],
+        "defaults": [],
+        "valueDataType": {
+          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Frequency"
+        }
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/Frequency",
+      "propertyLabel": "Search frequency"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": [],
+        "valueDataType": {}
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/date",
+      "propertyLabel": "Dates associated with frequency"
+    }
+  ],
+  "id": "lc:RT:bf2:TestProfile:Frequency",
+  "resourceURI": "http://id.loc.gov/ontologies/bibframe/Frequency",
+  "resourceLabel": "Frequency menu"
+}

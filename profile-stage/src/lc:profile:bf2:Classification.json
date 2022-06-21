@@ -1,0 +1,268 @@
+{
+  "resourceTemplates": [
+    {
+      "propertyTemplates": [
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "literal",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [],
+            "useValuesFrom": [],
+            "valueDataType": {},
+            "defaults": []
+          },
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/classificationPortion",
+          "propertyLabel": "DDC Classification number",
+          "remark": ""
+        },
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "literal",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [],
+            "useValuesFrom": [],
+            "defaults": [],
+            "valueDataType": {}
+          },
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/itemPortion",
+          "propertyLabel": "Cutter number"
+        },
+        {
+          "mandatory": "false",
+          "repeatable": "false",
+          "type": "resource",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [],
+            "useValuesFrom": [
+              "http://id.loc.gov/vocabulary/classSchemes"
+            ],
+            "valueDataType": {
+              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Source"
+            },
+            "defaultURI": "",
+            "defaultLiteral": "",
+            "editable": "true",
+            "defaults": [
+              {
+                "defaultURI": "http://id.loc.gov/vocabulary/classSchemes/ddc23",
+                "defaultLiteral": "23"
+              }
+            ]
+          },
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/source",
+          "propertyLabel": "Dewey Edition"
+        },
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "lookup",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [],
+            "useValuesFrom": [
+              "http://id.loc.gov/vocabulary/organizations"
+            ],
+            "defaults": [
+              {
+                "defaultURI": "http://id.loc.gov/vocabulary/organizations/dlc",
+                "defaultLiteral": "DLC"
+              }
+            ],
+            "valueDataType": {
+              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Agent"
+            }
+          },
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/assigner",
+          "propertyLabel": "Assigner"
+        }
+      ],
+      "id": "lc:RT:bf2:DDC",
+      "resourceLabel": "Dewey Decimal Classification",
+      "resourceURI": "http://id.loc.gov/ontologies/bibframe/ClassificationDdc"
+    },
+    {
+      "propertyTemplates": [
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "literal",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [],
+            "useValuesFrom": [],
+            "defaults": [],
+            "valueDataType": {}
+          },
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/classificationPortion",
+          "propertyLabel": "LC Classification number",
+          "remark": ""
+        },
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "literal",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [],
+            "useValuesFrom": [],
+            "defaults": [],
+            "valueDataType": {}
+          },
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/itemPortion",
+          "propertyLabel": "Cutter number"
+        }
+      ],
+      "id": "lc:RT:bf2:LCC",
+      "resourceLabel": "Library of Congress Classification",
+      "resourceURI": "http://id.loc.gov/ontologies/bibframe/ClassificationLcc"
+    },
+    {
+      "propertyTemplates": [
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "literal",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [],
+            "useValuesFrom": [],
+            "defaults": [],
+            "valueDataType": {}
+          },
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/classificationPortion",
+          "propertyLabel": "NLM classification number"
+        }
+      ],
+      "id": "lc:RT:bf2:NLM",
+      "resourceURI": "http://id.loc.gov/ontologies/bibframe/ClassificationNlm",
+      "resourceLabel": "National Library of Medicine Classification"
+    },
+    {
+      "propertyTemplates": [
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "literal",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [],
+            "useValuesFrom": [],
+            "defaults": [],
+            "valueDataType": {}
+          },
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/classificationPortion",
+          "propertyLabel": "Other Classification number"
+        },
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "literal",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [],
+            "useValuesFrom": [],
+            "defaults": [],
+            "valueDataType": {}
+          },
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/itemPortion",
+          "propertyLabel": "Cutter number"
+        },
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "lookup",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [],
+            "useValuesFrom": [
+              "http://id.loc.gov/vocabulary/organizations"
+            ],
+            "defaults": [],
+            "valueDataType": {
+              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Agent"
+            }
+          },
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/assigner",
+          "propertyLabel": "Assigner"
+        }
+      ],
+      "id": "lc:RT:bf2:OtherClass",
+      "resourceURI": "http://id.loc.gov/ontologies/bibframe/Classification",
+      "resourceLabel": "Other Classification"
+    },
+    {
+      "propertyTemplates": [
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "literal",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [],
+            "useValuesFrom": [],
+            "defaults": [],
+            "valueDataType": {}
+          },
+          "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label",
+          "propertyLabel": "SuDoc number",
+          "remark": ""
+        },
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "lookup",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [],
+            "useValuesFrom": [
+              "http://id.loc.gov/vocabulary/classSchemes/sudocshttp://id.loc.gov/vocabulary/classSchemes/sudocshttp://id.loc.gov/vocabulary/classSchemes/sudocshttp://id.loc.gov/vocabulary/classSchemes/sudocshttp://id.loc.gov/vocabulary/classSchemes/sudocshttp://id.loc.gov/vocabulary/classSchemes/sudocshttp://id.loc.gov/vocabulary/classSchemes/sudocshttp://id.loc.gov/vocabulary/classSchemes/sudocshttp://id.loc.gov/vocabulary/classSchemes/sudocshttp://id.loc.gov/vocabulary/classSchemes/sudocshttp://id.loc.gov/vocabulary/classSchemes/sudocshttp://id.loc.gov/vocabulary/classSchemes/sudocshttp://id.loc.gov/vocabulary/classSchemes/sudocshttp://id.loc.gov/vocabulary/classSchemes/sudocshttp://id.loc.gov/vocabulary/classSchemes/sudocshttp://id.loc.gov/vocabulary/classSchemes/sudocshttp://id.loc.gov/vocabulary/classSchemes/sudocshttp://id.loc.gov/vocabulary/classSchemes"
+            ],
+            "defaults": [
+              {
+                "defaultURI": "http://id.loc.gov/vocabulary/classSchemes/sudocshttp://id.loc.gov/vocabulary/classSchemes/sudocshttp://id.loc.gov/vocabulary/classSchemes/sudocshttp://id.loc.gov/vocabulary/classSchemes/sudocshttp://id.loc.gov/vocabulary/classSchemes/sudocshttp://id.loc.gov/vocabulary/classSchemes/sudocshttp://id.loc.gov/vocabulary/classSchemes/sudocshttp://id.loc.gov/vocabulary/classSchemes/sudocshttp://id.loc.gov/vocabulary/classSchemes/sudocshttp://id.loc.gov/vocabulary/classSchemes/sudocshttp://id.loc.gov/vocabulary/classSchemes/sudocshttp://id.loc.gov/vocabulary/classSchemes/sudocshttp://id.loc.gov/vocabulary/classSchemes/sudocshttp://id.loc.gov/vocabulary/classSchemes/sudocshttp://id.loc.gov/vocabulary/classSchemes/sudocshttp://id.loc.gov/vocabulary/classSchemes/sudocshttp://id.loc.gov/vocabulary/classSchemes/sudocshttp://id.loc.gov/vocabulary/classSchemes/sudocs",
+                "defaultLiteral": "Superintendent of Documents classification system"
+              }
+            ],
+            "valueDataType": {
+              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Source"
+            }
+          },
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/source",
+          "propertyLabel": "Source of number"
+        },
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "lookup",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [],
+            "useValuesFrom": [
+              "http://id.loc.gov/vocabulary/mstatus"
+            ],
+            "defaults": [],
+            "valueDataType": {
+              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Status"
+            }
+          },
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/status",
+          "propertyLabel": "Canceled/invalid ?"
+        }
+      ],
+      "id": "lc:RT:bf2:GPOClass",
+      "resourceURI": "http://id.loc.gov/ontologies/bibframe/Classification",
+      "resourceLabel": "SuDoc number"
+    }
+  ],
+  "id": "lc:profile:bf2:Classification",
+  "description": "Classification (DDC and LCC)",
+  "title": "BIBFRAME 2.0 Classification",
+  "date": "2019-05-01",
+  "author": "NDMSO",
+  "adherence": "RDA"
+}

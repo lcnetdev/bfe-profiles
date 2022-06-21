@@ -1,0 +1,36 @@
+{
+  "propertyTemplates": [
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": [],
+        "valueDataType": {}
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/classificationPortion",
+      "propertyLabel": "LC Classification number",
+      "remark": ""
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": [],
+        "valueDataType": {}
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/itemPortion",
+      "propertyLabel": "Cutter number"
+    }
+  ],
+  "id": "lc:RT:bf2:LCC",
+  "resourceLabel": "Library of Congress Classification",
+  "resourceURI": "http://id.loc.gov/ontologies/bibframe/ClassificationLcc"
+}

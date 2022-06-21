@@ -1,0 +1,258 @@
+{
+  "propertyTemplates": [
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "resource",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [
+          "http://mlvlp04.loc.gov:8230/resources/works"
+        ],
+        "valueDataType": {
+          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Work"
+        },
+        "defaults": []
+      },
+      "propertyLabel": "Search related works",
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/relatedTo"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "resource",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [
+          "lc:RT:bf2:Relation"
+        ],
+        "useValuesFrom": [],
+        "valueDataType": {
+          "dataTypeURI": ""
+        },
+        "defaults": []
+      },
+      "propertyLabel": "Relationship Designator",
+      "propertyURI": "http://id.loc.gov/ontologies/bflc/relation",
+      "remark": ""
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "valueDataType": {
+          "dataTypeURI": ""
+        },
+        "defaults": []
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/absorbed",
+      "propertyLabel": "Absorbed (work):",
+      "remark": "http://access.rdatoolkit.org/J.2.6.html"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "valueDataType": {
+          "dataTypeURI": ""
+        },
+        "defaults": []
+      },
+      "propertyLabel": "Continues (work):",
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/continues",
+      "remark": "http://access.rdatoolkit.org/J.2.6.html"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "valueDataType": {
+          "dataTypeURI": ""
+        },
+        "defaults": []
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/continuesInPart",
+      "propertyLabel": "Continues in part (work):",
+      "remark": "http://access.rdatoolkit.org/J.2.6.html"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "valueDataType": {
+          "dataTypeURI": ""
+        },
+        "defaults": []
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/mergerOf",
+      "propertyLabel": "Merger of (work):",
+      "remark": "http://access.rdatoolkit.org/J.2.6.html"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "valueDataType": {
+          "dataTypeURI": ""
+        },
+        "defaults": []
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/separatedFrom",
+      "propertyLabel": "Separated from (work):",
+      "remark": "http://access.rdatoolkit.org/J.2.6.html"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "valueDataType": {
+          "dataTypeURI": ""
+        },
+        "defaults": []
+      },
+      "propertyLabel": "Continued by (work):",
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/continuedBy",
+      "remark": "http://access.rdatoolkit.org/J.2.6.html"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "valueDataType": {
+          "dataTypeURI": ""
+        },
+        "defaults": []
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/absorbedBy",
+      "propertyLabel": "Absorbed by (work):",
+      "remark": "http://access.rdatoolkit.org/J.2.6.html"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "valueDataType": {
+          "dataTypeURI": ""
+        },
+        "defaults": []
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/continuedInPartBy",
+      "propertyLabel": "Continued in part by (work):",
+      "remark": "http://access.rdatoolkit.org/J.2.6.html"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "valueDataType": {
+          "dataTypeURI": ""
+        },
+        "defaults": []
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/mergedToForm",
+      "propertyLabel": "Merged to form (work):",
+      "remark": "http://access.rdatoolkit.org/J.2.6.html"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "valueDataType": {
+          "dataTypeURI": ""
+        },
+        "defaults": []
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/splitInto",
+      "propertyLabel": "Split into (work):",
+      "remark": "http://access.rdatoolkit.org/J.2.6.html"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "valueDataType": {},
+        "defaults": []
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/supplement",
+      "propertyLabel": "Has supplement (work):"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "valueDataType": {},
+        "defaults": []
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/supplementTo",
+      "propertyLabel": "Supplement to (work):"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "resource",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [
+          "lc:RT:bf2:Note"
+        ],
+        "useValuesFrom": [],
+        "valueDataType": {},
+        "defaults": []
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
+      "propertyLabel": "Description of Related Work"
+    }
+  ],
+  "resourceURI": "http://id.loc.gov/ontologies/bflc/Relationship",
+  "id": "lc:RT:bf2:Serial:RelatedWork",
+  "resourceLabel": "Related Work (unused)"
+}

@@ -1,0 +1,23 @@
+{
+  "propertyTemplates": [
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": [],
+        "valueDataType": {},
+        "editable": "true"
+      },
+      "propertyLabel": "Encoding format",
+      "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label",
+      "remark": "http://access.rdatoolkit.org/3.19.3.html"
+    }
+  ],
+  "id": "lc:RT:bf2:MIBluRayDVD:EncFmt",
+  "resourceURI": "http://id.loc.gov/ontologies/bibframe/EncodingFormat",
+  "resourceLabel": "Encoding format"
+}

@@ -1,0 +1,21 @@
+{
+  "propertyTemplates": [
+    {
+      "mandatory": "false",
+      "repeatable": "false",
+      "type": "literal",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "valueDataType": {},
+        "defaults": []
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/mainTitle",
+      "propertyLabel": "Key Title"
+    }
+  ],
+  "resourceURI": "http://id.loc.gov/ontologies/bibframe/KeyTitle",
+  "id": "lc:RT:bf2:Title:KeyTitle",
+  "resourceLabel": "Key Title"
+}

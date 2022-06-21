@@ -1,0 +1,63 @@
+{
+  "propertyTemplates": [
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": [],
+        "valueDataType": {}
+      },
+      "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label",
+      "propertyLabel": "SuDoc number",
+      "remark": ""
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [
+          "http://id.loc.gov/vocabulary/classSchemes/sudocshttp://id.loc.gov/vocabulary/classSchemes/sudocshttp://id.loc.gov/vocabulary/classSchemes/sudocshttp://id.loc.gov/vocabulary/classSchemes/sudocshttp://id.loc.gov/vocabulary/classSchemes/sudocshttp://id.loc.gov/vocabulary/classSchemes/sudocshttp://id.loc.gov/vocabulary/classSchemes/sudocshttp://id.loc.gov/vocabulary/classSchemes/sudocshttp://id.loc.gov/vocabulary/classSchemes/sudocshttp://id.loc.gov/vocabulary/classSchemes/sudocshttp://id.loc.gov/vocabulary/classSchemes/sudocshttp://id.loc.gov/vocabulary/classSchemes/sudocshttp://id.loc.gov/vocabulary/classSchemes/sudocshttp://id.loc.gov/vocabulary/classSchemes/sudocshttp://id.loc.gov/vocabulary/classSchemes/sudocshttp://id.loc.gov/vocabulary/classSchemes/sudocshttp://id.loc.gov/vocabulary/classSchemes/sudocshttp://id.loc.gov/vocabulary/classSchemes"
+        ],
+        "defaults": [
+          {
+            "defaultURI": "http://id.loc.gov/vocabulary/classSchemes/sudocshttp://id.loc.gov/vocabulary/classSchemes/sudocshttp://id.loc.gov/vocabulary/classSchemes/sudocshttp://id.loc.gov/vocabulary/classSchemes/sudocshttp://id.loc.gov/vocabulary/classSchemes/sudocshttp://id.loc.gov/vocabulary/classSchemes/sudocshttp://id.loc.gov/vocabulary/classSchemes/sudocshttp://id.loc.gov/vocabulary/classSchemes/sudocshttp://id.loc.gov/vocabulary/classSchemes/sudocshttp://id.loc.gov/vocabulary/classSchemes/sudocshttp://id.loc.gov/vocabulary/classSchemes/sudocshttp://id.loc.gov/vocabulary/classSchemes/sudocshttp://id.loc.gov/vocabulary/classSchemes/sudocshttp://id.loc.gov/vocabulary/classSchemes/sudocshttp://id.loc.gov/vocabulary/classSchemes/sudocshttp://id.loc.gov/vocabulary/classSchemes/sudocshttp://id.loc.gov/vocabulary/classSchemes/sudocshttp://id.loc.gov/vocabulary/classSchemes/sudocs",
+            "defaultLiteral": "Superintendent of Documents classification system"
+          }
+        ],
+        "valueDataType": {
+          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Source"
+        }
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/source",
+      "propertyLabel": "Source of number"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [
+          "http://id.loc.gov/vocabulary/mstatus"
+        ],
+        "defaults": [],
+        "valueDataType": {
+          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Status"
+        }
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/status",
+      "propertyLabel": "Canceled/invalid ?"
+    }
+  ],
+  "id": "lc:RT:bf2:GPOClass",
+  "resourceURI": "http://id.loc.gov/ontologies/bibframe/Classification",
+  "resourceLabel": "SuDoc number"
+}

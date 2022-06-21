@@ -1,0 +1,123 @@
+{
+  "propertyTemplates": [
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "resource",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [
+          "http://mlvlp04.loc.gov:8230/resources/instances"
+        ],
+        "valueDataType": {
+          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Instance"
+        },
+        "defaults": []
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/relatedTo",
+      "propertyLabel": "Search Related Instance"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "valueDataType": {
+          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Instance"
+        },
+        "defaults": []
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/relatedTo",
+      "propertyLabel": "Input Related Instance (if not found above)",
+      "remark": "http://access.rdatoolkit.org/rdachp25_rda25-64.html"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "resource",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [
+          "lc:RT:bf2:Relation"
+        ],
+        "useValuesFrom": [],
+        "valueDataType": {
+          "dataTypeURI": ""
+        },
+        "defaults": []
+      },
+      "propertyLabel": "Relationship Designator",
+      "propertyURI": "http://id.loc.gov/ontologies/bflc/relation",
+      "remark": ""
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "resource",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [
+          "lc:RT:bf2:Identifiers:ISSN"
+        ],
+        "useValuesFrom": [],
+        "valueDataType": {},
+        "defaults": []
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/identifiedBy",
+      "propertyLabel": "ISSN of Related Instance"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "valueDataType": {},
+        "defaults": []
+      },
+      "propertyLabel": "Also issued in another format as:",
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/hasEquivalent",
+      "remark": "http://access.rdatoolkit.org/J.4.2.html"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "valueDataType": {},
+        "defaults": []
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/accompaniedBy",
+      "propertyLabel": "Accompanied by (manifestation):",
+      "remark": "http://access.rdatoolkit.org/J.4.5.html"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "resource",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [
+          "lc:RT:bf2:Note"
+        ],
+        "useValuesFrom": [],
+        "valueDataType": {},
+        "defaults": []
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
+      "propertyLabel": "Description of Related Manifestation"
+    }
+  ],
+  "id": "lc:RT:bf2:Serial:RelatedInstance",
+  "resourceURI": "http://id.loc.gov/ontologies/bflc/Relationship",
+  "resourceLabel": "Related Instance (unused)"
+}

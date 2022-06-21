@@ -1,0 +1,71 @@
+{
+  "propertyTemplates": [
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "resource",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [
+          "http://id.loc.gov/authorities/subjects",
+          "http://id.loc.gov/authorities/demographicTerms"
+        ],
+        "valueDataType": {
+          "dataTypeURI": "http://www.loc.gov/mads/rdf/v1#Occupation"
+        },
+        "defaults": []
+      },
+      "propertyLabel": "Search LCSH/LCDGT",
+      "propertyURI": "http://www.loc.gov/mads/rdf/v1#authoritativeLabel"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "valueDataType": {
+          "dataTypeURI": "http://www.loc.gov/mads/rdf/v1#Occupation"
+        },
+        "defaults": []
+      },
+      "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label",
+      "propertyLabel": "Input Profession or Occupation (RDA 9.16)",
+      "remark": "http://access.rdatoolkit.org/rdachp9_rda9-5315.html"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "valueDataType": {},
+        "defaults": []
+      },
+      "propertyLabel": "Start Date Associated with Profession or Occupation",
+      "propertyURI": "http://www.loc.gov/mads/rdf/v1#activityStartDate"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "valueDataType": {},
+        "defaults": []
+      },
+      "propertyURI": "http://www.loc.gov/mads/rdf/v1#activityEndDate",
+      "propertyLabel": "End Date Associated with Profession or Occupation"
+    }
+  ],
+  "id": "lc:RT:bf2:Agents:RWO:Occupation",
+  "resourceLabel": "Occupation",
+  "resourceURI": "http://www.loc.gov/mads/rdf/v1#Occupation"
+}

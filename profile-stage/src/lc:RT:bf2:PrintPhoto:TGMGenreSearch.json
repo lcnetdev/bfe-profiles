@@ -1,0 +1,23 @@
+{
+  "propertyTemplates": [
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [
+          "http://id.loc.gov/vocabulary/graphicMaterials"
+        ],
+        "defaults": [],
+        "valueDataType": {}
+      },
+      "propertyURI": "http://www.loc.gov/mads/rdf/v1#authoritativeLabel",
+      "propertyLabel": "Search TGM"
+    }
+  ],
+  "id": "lc:RT:bf2:PrintPhoto:TGMGenreSearch",
+  "resourceURI": "http://www.loc.gov/mads/rdf/v1#GenreForm",
+  "resourceLabel": "Search TGM (Genre)"
+}
