@@ -22866,7 +22866,7 @@
         ],
         "id": "lc:profile:bf2:AdminMetadata",
         "title": "BIBFRAME 2.0 Admin Metadata",
-        "description": "Metadata for BIBFRAME Resources Prod",
+        "description": "Metadata for BIBFRAME Resources",
         "date": "2018-10-24",
         "author": "NDMSO",
         "adherence": "BIBFRAME 2.0",
@@ -22875,7 +22875,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.056Z",
-      "updateDate": "2022-06-22T21:30:28.270Z",
+      "updateDate": "2022-06-22T21:41:57.105Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.056Z",
