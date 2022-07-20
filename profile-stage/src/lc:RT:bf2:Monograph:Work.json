@@ -54,7 +54,7 @@
         "defaults": []
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/title",
-      "propertyLabel": "Title Information MATT TEST"
+      "propertyLabel": "Title Information"
     },
     {
       "mandatory": "false",
