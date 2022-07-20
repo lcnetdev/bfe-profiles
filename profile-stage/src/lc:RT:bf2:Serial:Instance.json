@@ -320,7 +320,7 @@
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [
-          "lc:RT:bf2:Serial:AcqSource"
+          "lc:RT:bf2:AcqSource"
         ],
         "useValuesFrom": [],
         "defaults": [],

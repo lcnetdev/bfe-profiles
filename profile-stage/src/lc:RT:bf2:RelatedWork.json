@@ -25,10 +25,10 @@
       "type": "lookup",
       "resourceTemplates": [],
       "valueConstraint": {
-        "valueTemplateRefs": [],
-        "useValuesFrom": [
-          "http://id.loc.gov/entities/relationships"
+        "valueTemplateRefs": [
+          "lc:RT:bf2:Relation"
         ],
+        "useValuesFrom": [],
         "valueDataType": {
           "dataTypeURI": "http://id.loc.gov/ontologies/bflc/Relation"
         },

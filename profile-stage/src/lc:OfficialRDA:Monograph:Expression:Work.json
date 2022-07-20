@@ -1,0 +1,188 @@
+{
+  "propertyTemplates": [
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "resource",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [
+          "lc:RT:bflc:Agents:PrimaryContribution"
+        ],
+        "useValuesFrom": [],
+        "defaults": [],
+        "valueDataType": {
+          "dataTypeURI": "http://id.loc.gov/ontologies/bflc/PrimaryContribution"
+        },
+        "editable": "true"
+      },
+      "remark": "https://access.rdatoolkit.org/en-US_ala-08699d76-022a-3473-94ae-f56f5fe45b1b",
+      "propertyLabel": "creator agent of expression",
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/contribution"
+    },
+    {
+      "mandatory": "true",
+      "repeatable": "true",
+      "type": "resource",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [
+          "lc:RT:bf2:WorkTitle"
+        ],
+        "useValuesFrom": [],
+        "defaults": [],
+        "valueDataType": {}
+      },
+      "propertyLabel": "preferred title of expression",
+      "remark": "https://access.rdatoolkit.org/en-US_ala-f0ea4e3a-fbe5-3135-bd95-1b5260f1e69e",
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/title"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "resource",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [
+          "lc:RT:bf2:Title:VarTitle"
+        ],
+        "useValuesFrom": [],
+        "defaults": [],
+        "valueDataType": {}
+      },
+      "propertyLabel": "variant title of expression",
+      "remark": "https://access.rdatoolkit.org/en-US_ala-de257390-c2dd-395e-9c80-262194bd5c58",
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/title"
+    },
+    {
+      "mandatory": "true",
+      "repeatable": "true",
+      "type": "resource",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [
+          "http://id.loc.gov/vocabulary/contentTypes"
+        ],
+        "defaults": [
+          {
+            "defaultURI": "http://id.loc.gov/vocabulary/contentTypes/txt",
+            "defaultLiteral": "text"
+          }
+        ],
+        "valueDataType": {
+          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Content"
+        }
+      },
+      "propertyLabel": "content type",
+      "remark": "https://access.rdatoolkit.org/en-US_ala-1a6a5219-2cd5-3762-87e8-6ee28e327b8b",
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/content"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "resource",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [
+          "lc:RT:bf2:Language2"
+        ],
+        "useValuesFrom": [],
+        "defaults": [],
+        "valueDataType": {
+          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Language"
+        },
+        "editable": "false"
+      },
+      "remark": "https://access.rdatoolkit.org/en-US_ala-b7de61e2-fe4b-3cc3-a4a2-7a3c4c55b4fc",
+      "propertyLabel": "language of expression",
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/language"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "resource",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [
+          "lc:RT:bf2:Summary"
+        ],
+        "useValuesFrom": [],
+        "defaults": [],
+        "valueDataType": {}
+      },
+      "propertyLabel": "summarization of content",
+      "remark": "https://access.rdatoolkit.org/en-US_ala-96aa1921-45db-31a9-8128-9661f60799dc",
+      "propertyURI": "https://id.loc.gov/ontologies/bibframe/summary"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "resource",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [
+          "lc:RT:bf2:Note"
+        ],
+        "useValuesFrom": [],
+        "defaults": [],
+        "valueDataType": {}
+      },
+      "propertyLabel": "note on expression",
+      "remark": "https://access.rdatoolkit.org/en-US_ala-9bcdee0a-0051-3aff-bb30-fdce5aa37216",
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/note"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "resource",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [
+          "lc:RT:bf2:RelatedExpression"
+        ],
+        "useValuesFrom": [],
+        "defaults": [],
+        "valueDataType": {}
+      },
+      "remark": "https://access.rdatoolkit.org/en-US_ala-458a5896-b879-3c9d-a0d7-065110c3968c",
+      "propertyLabel": "related expression of expression",
+      "propertyURI": "http://id.loc.gov/ontologies/bflc/relationship"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": [],
+        "valueDataType": {}
+      },
+      "propertyLabel": "authorized access point for expression",
+      "remark": "https://access.rdatoolkit.org/en-US_ala-7af61468-85ab-3d86-ad8d-4a1158edb7c7",
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/identifiedBy"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "resource",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [
+          "lc:RT:bf2:Monograph:Instance"
+        ],
+        "useValuesFrom": [],
+        "defaults": [],
+        "valueDataType": {}
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/hasInstance",
+      "propertyLabel": "Add RDA Manifestation"
+    }
+  ],
+  "resourceLabel": "BIBFRAME Work / RDA Expression",
+  "id": "lc:OfficialRDA:Monograph:Expression:Work",
+  "resourceURI": "https://id.loc.gov/resources/Work",
+  "author": ""
+}

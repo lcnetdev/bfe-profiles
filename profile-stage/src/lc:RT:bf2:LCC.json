@@ -12,7 +12,7 @@
         "valueDataType": {}
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/classificationPortion",
-      "propertyLabel": "LC Classification number",
+      "propertyLabel": "Classification number",
       "remark": ""
     },
     {
@@ -27,7 +27,7 @@
         "valueDataType": {}
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/itemPortion",
-      "propertyLabel": "Cutter number"
+      "propertyLabel": "Additional call number information"
     }
   ],
   "id": "lc:RT:bf2:LCC",

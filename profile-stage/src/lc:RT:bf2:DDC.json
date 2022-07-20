@@ -12,7 +12,7 @@
         "defaults": []
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/classificationPortion",
-      "propertyLabel": "DDC Classification number",
+      "propertyLabel": "Classification number",
       "remark": ""
     },
     {
@@ -27,7 +27,7 @@
         "valueDataType": {}
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/itemPortion",
-      "propertyLabel": "Cutter number"
+      "propertyLabel": "Additional call number information"
     },
     {
       "mandatory": "false",
@@ -53,7 +53,7 @@
         ]
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/source",
-      "propertyLabel": "Dewey Edition"
+      "propertyLabel": "Dewey Edition number"
     },
     {
       "mandatory": "false",

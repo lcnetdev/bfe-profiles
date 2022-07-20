@@ -149,7 +149,7 @@
             "remark": ""
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/mainTitle",
-          "propertyLabel": "Preferred Title for Work",
+          "propertyLabel": "Title of Work",
           "remark": "http://access.rdatoolkit.org/rdachp6_rda6-2036.html"
         },
         {
