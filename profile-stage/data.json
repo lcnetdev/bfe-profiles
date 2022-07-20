@@ -572,7 +572,7 @@
                   "defaults": []
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/title",
-                "propertyLabel": "Title Information"
+                "propertyLabel": "Title Information MATT TEST"
               },
               {
                 "mandatory": "false",
@@ -1751,7 +1751,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2022-07-19T18:50:42.360Z",
+      "updateDate": "2022-07-20T21:33:32.310Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",
