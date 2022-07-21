@@ -967,7 +967,7 @@
                   "defaults": []
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bflc/relationship",
-                "propertyLabel": "Related",
+                "propertyLabel": "Input Related Work",
                 "remark": ""
               },
               {
@@ -1751,7 +1751,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2022-07-20T21:35:31.193Z",
+      "updateDate": "2022-07-21T12:31:19.874Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",

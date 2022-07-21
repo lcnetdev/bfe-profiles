@@ -449,7 +449,7 @@
         "defaults": []
       },
       "propertyURI": "http://id.loc.gov/ontologies/bflc/relationship",
-      "propertyLabel": "Related",
+      "propertyLabel": "Input Related Work",
       "remark": ""
     },
     {
