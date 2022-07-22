@@ -117,7 +117,7 @@
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [
-              "lc:RT:bf2:SeriesHubCreate"
+              "lc:RT:bf2:SeriesHubSearch"
             ],
             "useValuesFrom": [],
             "defaults": [],
@@ -126,7 +126,7 @@
             }
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/relatedTo",
-          "propertyLabel": "Series Hub"
+          "propertyLabel": "Search Series Hub"
         },
         {
           "mandatory": "false",
