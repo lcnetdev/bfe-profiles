@@ -218,9 +218,9 @@
           "propertyLabel": "ISSN"
         }
       ],
-      "id": "lc:RT:bf2:SeriesHubCreate",
+      "id": "lc:RT:bf2:SeriesHubSearch",
       "resourceURI": "http://id.loc.gov/ontologies/bibframe/Hub",
-      "resourceLabel": "Create Series Hub"
+      "resourceLabel": "Search Series Hub"
     }
   ],
   "id": "lc:profile:bf2:SeriesInformation",

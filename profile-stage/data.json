@@ -506,9 +506,9 @@
                 "propertyLabel": "ISSN"
               }
             ],
-            "id": "lc:RT:bf2:SeriesHubCreate",
+            "id": "lc:RT:bf2:SeriesHubSearch",
             "resourceURI": "http://id.loc.gov/ontologies/bibframe/Hub",
-            "resourceLabel": "Create Series Hub"
+            "resourceLabel": "Search Series Hub"
           }
         ],
         "id": "lc:profile:bf2:SeriesInformation",
@@ -520,7 +520,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2022-07-22T15:34:34.291Z",
+      "updateDate": "2022-07-22T15:37:34.107Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",
