@@ -3,7 +3,7 @@
     {
       "mandatory": "false",
       "repeatable": "false",
-      "type": "resource",
+      "type": "lookup",
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [],
@@ -24,7 +24,7 @@
     {
       "mandatory": "false",
       "repeatable": "true",
-      "type": "resource",
+      "type": "lookup",
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [],
@@ -33,8 +33,8 @@
         ],
         "defaults": [
           {
-            "defaultURI": "",
-            "defaultLiteral": ""
+            "defaultURI": "http://id.loc.gov/vocabulary/genreFormSchemes/lcgft",
+            "defaultLiteral": "lcgft"
           }
         ],
         "valueDataType": {

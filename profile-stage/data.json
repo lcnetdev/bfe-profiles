@@ -34559,7 +34559,7 @@
               {
                 "mandatory": "false",
                 "repeatable": "false",
-                "type": "resource",
+                "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [],
@@ -34580,7 +34580,7 @@
               {
                 "mandatory": "false",
                 "repeatable": "true",
-                "type": "resource",
+                "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [],
@@ -34589,8 +34589,8 @@
                   ],
                   "defaults": [
                     {
-                      "defaultURI": "",
-                      "defaultLiteral": ""
+                      "defaultURI": "http://id.loc.gov/vocabulary/genreFormSchemes/lcgft",
+                      "defaultLiteral": "lcgft"
                     }
                   ],
                   "valueDataType": {
@@ -34788,7 +34788,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.059Z",
-      "updateDate": "2022-04-26T14:12:49.850Z",
+      "updateDate": "2022-07-27T16:10:26.909Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.059Z",
