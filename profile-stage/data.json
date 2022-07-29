@@ -536,7 +536,7 @@
                   }
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/expressionOf",
-                "propertyLabel": "Expression of [search for a Hub] TEST"
+                "propertyLabel": "Expression of [search for a Hub]"
               },
               {
                 "mandatory": "false",
@@ -1753,7 +1753,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2022-07-29T20:05:33.014Z",
+      "updateDate": "2022-07-29T20:14:38.848Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",
