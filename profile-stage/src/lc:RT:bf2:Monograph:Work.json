@@ -16,7 +16,7 @@
         }
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/expressionOf",
-      "propertyLabel": "Expression of [search for a Hub]"
+      "propertyLabel": "Expression of [search for a Hub] TEST"
     },
     {
       "mandatory": "false",
