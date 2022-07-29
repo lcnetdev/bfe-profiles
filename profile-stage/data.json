@@ -989,7 +989,7 @@
                 "propertyLabel": "Add BIBFRAME Instance"
               }
             ],
-            "id": "lc:RT:bf2:Monograph:WorkTEST",
+            "id": "lc:RT:bf2:Monograph:Work",
             "resourceURI": "http://id.loc.gov/ontologies/bibframe/Work",
             "resourceLabel": "BIBFRAME Work"
           },
@@ -1743,7 +1743,7 @@
             "resourceLabel": "Dissertation"
           }
         ],
-        "author": "NDMSO",
+        "author": "NDMSOTEST",
         "date": "2017-05-26",
         "description": "Work, Instance, Item for Monographs",
         "id": "lc:profile:bf2:Monograph",
@@ -1753,7 +1753,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2022-07-29T20:04:13.964Z",
+      "updateDate": "2022-07-29T20:04:51.965Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",
