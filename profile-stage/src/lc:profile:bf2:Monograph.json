@@ -471,7 +471,7 @@
           "propertyLabel": "Add BIBFRAME Instance"
         }
       ],
-      "id": "lc:RT:bf2:Monograph:Work",
+      "id": "lc:RT:bf2:Monograph:WorkTEST",
       "resourceURI": "http://id.loc.gov/ontologies/bibframe/Work",
       "resourceLabel": "BIBFRAME Work"
     },
