@@ -1377,15 +1377,13 @@
           "valueConstraint": {
             "valueTemplateRefs": [],
             "useValuesFrom": [
-              "https://preprod-8295.id.loc.gov/resources/works/",
-              "https://preprod-8080.id.loc.gov/resources/hubs/",
-              "https://preprod-8080.id.loc.gov/resources/works/"
+              "https://preprod-8295.id.loc.gov/resources/works/"
             ],
             "defaults": [],
             "valueDataType": {}
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/Work",
-          "propertyLabel": "Lookup"
+          "propertyLabel": "Search GPO database"
         },
         {
           "mandatory": "false",
