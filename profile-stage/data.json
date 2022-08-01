@@ -19028,18 +19028,20 @@
               {
                 "mandatory": "false",
                 "repeatable": "true",
-                "type": "resource",
+                "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
-                  "valueTemplateRefs": [
-                    "lc:RT:bf2:GPORelWorkBrief"
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [
+                    "https://preprod-8295.id.loc.gov/resources/works/",
+                    "https://preprod-8080.id.loc.gov/resources/hubs/",
+                    "https://preprod-8080.id.loc.gov/resources/works/"
                   ],
-                  "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/relatedTo",
-                "propertyLabel": "Related Work"
+                "propertyLabel": "Search related works"
               },
               {
                 "mandatory": "false",
@@ -19181,7 +19183,7 @@
     "id": "ad1be991-aeec-4a4f-81c4-891a829ae3e4",
     "metadata": {
       "createDate": "2022-05-10T19:35:43.872Z",
-      "updateDate": "2022-08-01T15:34:38.106Z",
+      "updateDate": "2022-08-01T15:38:09.992Z",
       "createUser": null,
       "updateUser": null
     },
