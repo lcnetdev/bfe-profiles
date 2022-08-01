@@ -16536,38 +16536,6 @@
                 },
                 "propertyLabel": "Enumeration And Chronology of Item",
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/enumerationAndChronology"
-              },
-              {
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "literal",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [],
-                  "valueDataType": {},
-                  "defaults": []
-                },
-                "remark": "http://access.rdatoolkit.org/2.18.html",
-                "propertyLabel": "Custodial History of Item",
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/custodialHistory"
-              },
-              {
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "resource",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [
-                    "lc:RT:bf2:Item:ImmAcqSource"
-                  ],
-                  "useValuesFrom": [],
-                  "valueDataType": {},
-                  "defaults": []
-                },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/immediateAcquisition",
-                "propertyLabel": "Immediate Source of Acquisition of Item",
-                "remark": ""
               }
             ],
             "resourceLabel": "BIBFRAME Item",
@@ -16584,7 +16552,7 @@
     },
     "metadata": {
       "createDate": "2019-06-13T12:32:28.719Z",
-      "updateDate": "2022-06-09T16:07:38.153Z",
+      "updateDate": "2022-08-01T13:47:38.040Z",
       "createUser": null,
       "updateUser": null
     },
