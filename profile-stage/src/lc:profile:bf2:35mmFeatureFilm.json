@@ -926,7 +926,7 @@
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [
-              "lc:RT:bf2:Item:ImmAcqSource"
+              "lc:RT:bf2:ImmAcqSource"
             ],
             "useValuesFrom": [],
             "valueDataType": {},
