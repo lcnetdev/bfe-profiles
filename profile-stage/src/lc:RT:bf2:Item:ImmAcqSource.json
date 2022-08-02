@@ -17,13 +17,13 @@
     {
       "mandatory": "false",
       "repeatable": "true",
-      "type": "resource",
+      "type": "lookup",
       "resourceTemplates": [],
       "valueConstraint": {
-        "valueTemplateRefs": [
-          "lc:RT:bf2:Agent:bfCorp"
+        "valueTemplateRefs": [],
+        "useValuesFrom": [
+          "http://id.loc.gov/authorities/names/"
         ],
-        "useValuesFrom": [],
         "defaults": [
           {
             "defaultURI": "http://id.loc.gov/authorities/names/n78089035",
