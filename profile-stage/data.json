@@ -29196,6 +29196,51 @@
             "propertyTemplates": [
               {
                 "mandatory": "false",
+                "repeatable": "true",
+                "type": "literal",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {}
+                },
+                "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label",
+                "propertyLabel": "Immediate source of acquisition"
+              },
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "lookup",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [
+                    "http://id.loc.gov/authorities/names/"
+                  ],
+                  "defaults": [
+                    {
+                      "defaultURI": "http://id.loc.gov/authorities/names/n78089035",
+                      "defaultLiteral": "Library of Congress"
+                    }
+                  ],
+                  "valueDataType": {
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Agent"
+                  }
+                },
+                "propertyURI": "http://id.loc.gov/ontologies/bflc/applicableInstitution",
+                "propertyLabel": "Applicable institution"
+              }
+            ],
+            "id": "lc:RT:bf2:ImmAcqSource",
+            "resourceURI": "http://id.loc.gov/ontologies/bibframe/ImmediateAcquisition",
+            "resourceLabel": "Immediate Source of Acquisition",
+            "author": "NDMSO"
+          },
+          {
+            "propertyTemplates": [
+              {
+                "mandatory": "false",
                 "repeatable": "false",
                 "type": "literal",
                 "resourceTemplates": [],
@@ -29370,51 +29415,6 @@
             "id": "lc:RT:bf2:NoteSimple",
             "resourceURI": "http://id.loc.gov/ontologies/bibframe/Note",
             "resourceLabel": "Simple Note"
-          },
-          {
-            "propertyTemplates": [
-              {
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "literal",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [],
-                  "defaults": [],
-                  "valueDataType": {}
-                },
-                "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label",
-                "propertyLabel": "Immediate source of acquisition"
-              },
-              {
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "lookup",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [
-                    "http://id.loc.gov/authorities/names/"
-                  ],
-                  "defaults": [
-                    {
-                      "defaultURI": "http://id.loc.gov/authorities/names/n78089035",
-                      "defaultLiteral": "Library of Congress"
-                    }
-                  ],
-                  "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Agent"
-                  }
-                },
-                "propertyURI": "http://id.loc.gov/ontologies/bflc/applicableInstitution",
-                "propertyLabel": "Applicable institution"
-              }
-            ],
-            "id": "lc:RT:bf2:ImmAcqSource",
-            "resourceURI": "http://id.loc.gov/ontologies/bibframe/ImmediateAcquisition",
-            "resourceLabel": "Immediate Source of Acquisition",
-            "author": "NDMSO"
           }
         ],
         "id": "lc:profile:bf2:Note",
@@ -29426,7 +29426,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2022-08-02T14:17:33.473Z",
+      "updateDate": "2022-08-02T14:18:47.962Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",
