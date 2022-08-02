@@ -24581,7 +24581,7 @@
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [
-                    "lc:RT:bf2:Item:ImmAcqSource"
+                    "lc:RT:bf2:ImmAcqSource"
                   ],
                   "useValuesFrom": [],
                   "valueDataType": {},
@@ -24875,7 +24875,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2022-06-09T15:51:52.439Z",
+      "updateDate": "2022-08-02T14:21:52.676Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",
