@@ -31592,6 +31592,22 @@
                 "type": "resource",
                 "resourceTemplates": [],
                 "valueConstraint": {
+                  "valueTemplateRefs": [
+                    "lc:RT:bf2:ImmAcqSource"
+                  ],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {}
+                },
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/immediateAcquisition",
+                "propertyLabel": "Immediate source of acquisition note"
+              },
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "resource",
+                "resourceTemplates": [],
+                "valueConstraint": {
                   "valueTemplateRefs": [],
                   "useValuesFrom": [
                     "http://id.loc.gov/vocabulary/issuance"
@@ -31911,24 +31927,6 @@
               {
                 "mandatory": "false",
                 "repeatable": "true",
-                "type": "resource",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [
-                    "lc:RT:bf2:Item:Access",
-                    "lc:RT:bf2:Item:Use",
-                    "lc:RT:bf2:Item:Retention"
-                  ],
-                  "useValuesFrom": [],
-                  "defaults": [],
-                  "valueDataType": {}
-                },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/usageAndAccessPolicy",
-                "propertyLabel": "Lending, Reproduction, and Retention Policies"
-              },
-              {
-                "mandatory": "false",
-                "repeatable": "true",
                 "type": "literal",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -31940,22 +31938,6 @@
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/custodialHistory",
                 "propertyLabel": "Custodial History of Item",
                 "remark": ""
-              },
-              {
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "resource",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [
-                    "lc:RT:bf2:ImmAcqSource"
-                  ],
-                  "useValuesFrom": [],
-                  "defaults": [],
-                  "valueDataType": {}
-                },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/immediateAcquisition",
-                "propertyLabel": "Immediate Source of Acquisition of Item"
               }
             ],
             "id": "lc:RT:bf2:PrintGroup:Item",
@@ -32257,7 +32239,7 @@
     "id": "ce021882-2189-495e-b638-126d03f724a5",
     "metadata": {
       "createDate": "2021-08-02T18:47:18.815Z",
-      "updateDate": "2022-08-02T14:23:28.587Z",
+      "updateDate": "2022-08-02T14:29:11.769Z",
       "createUser": null,
       "updateUser": null
     },
