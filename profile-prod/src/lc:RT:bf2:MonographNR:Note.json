@@ -14,6 +14,22 @@
       "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label",
       "propertyLabel": "Note",
       "remark": ""
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [
+          "http://id.loc.gov/vocabulary/mnotetype"
+        ],
+        "defaults": [],
+        "valueDataType": {}
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/noteType",
+      "propertyLabel": "Note type"
     }
   ],
   "id": "lc:RT:bf2:MonographNR:Note",

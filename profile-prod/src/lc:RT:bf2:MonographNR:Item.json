@@ -131,35 +131,6 @@
       "propertyLabel": "Enumeration And Chronology of Item",
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/enumerationAndChronology",
       "resourceTemplates": []
-    },
-    {
-      "mandatory": "false",
-      "repeatable": "true",
-      "type": "literal",
-      "remark": "https://original.rdatoolkit.org/2.18.html",
-      "propertyLabel": "Custodial History of Item",
-      "propertyURI": "http://id.loc.gov/ontologies/bibframe/custodialHistory",
-      "resourceTemplates": [],
-      "valueConstraint": {
-        "valueTemplateRefs": [],
-        "useValuesFrom": [],
-        "defaults": []
-      }
-    },
-    {
-      "mandatory": "false",
-      "repeatable": "true",
-      "type": "resource",
-      "valueConstraint": {
-        "valueTemplateRefs": [
-          "lc:RT:bf2:Item:ImmAcqSource"
-        ],
-        "useValuesFrom": [],
-        "defaults": []
-      },
-      "propertyURI": "http://id.loc.gov/ontologies/bibframe/immediateAcquisition",
-      "propertyLabel": "Immediate Source of Acquisition of Item",
-      "resourceTemplates": []
     }
   ],
   "resourceLabel": "BIBFRAME Item",

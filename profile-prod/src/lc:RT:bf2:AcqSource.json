@@ -19,18 +19,16 @@
     {
       "mandatory": "false",
       "repeatable": "true",
-      "type": "resource",
+      "type": "literal",
       "resourceTemplates": [],
       "valueConstraint": {
-        "valueTemplateRefs": [
-          "lc:RT:bf2:Identifiers:Source"
-        ],
+        "valueTemplateRefs": [],
         "useValuesFrom": [],
         "defaults": [],
         "valueDataType": {}
       },
       "propertyLabel": "Source of acquisition",
-      "propertyURI": "http://id.loc.gov/ontologies/bibframe/source"
+      "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label"
     },
     {
       "mandatory": "false",
@@ -39,7 +37,7 @@
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [
-          "lc:RT:bf2:Note"
+          "lc:RT:bf2:NoteSimple"
         ],
         "useValuesFrom": [],
         "defaults": [],

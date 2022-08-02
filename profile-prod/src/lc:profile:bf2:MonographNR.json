@@ -874,35 +874,6 @@
           "propertyLabel": "Enumeration And Chronology of Item",
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/enumerationAndChronology",
           "resourceTemplates": []
-        },
-        {
-          "mandatory": "false",
-          "repeatable": "true",
-          "type": "literal",
-          "remark": "https://original.rdatoolkit.org/2.18.html",
-          "propertyLabel": "Custodial History of Item",
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/custodialHistory",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [],
-            "useValuesFrom": [],
-            "defaults": []
-          }
-        },
-        {
-          "mandatory": "false",
-          "repeatable": "true",
-          "type": "resource",
-          "valueConstraint": {
-            "valueTemplateRefs": [
-              "lc:RT:bf2:Item:ImmAcqSource"
-            ],
-            "useValuesFrom": [],
-            "defaults": []
-          },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/immediateAcquisition",
-          "propertyLabel": "Immediate Source of Acquisition of Item",
-          "resourceTemplates": []
         }
       ],
       "resourceLabel": "BIBFRAME Item",
@@ -926,6 +897,22 @@
           "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label",
           "propertyLabel": "Note",
           "remark": ""
+        },
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "lookup",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [],
+            "useValuesFrom": [
+              "http://id.loc.gov/vocabulary/mnotetype"
+            ],
+            "defaults": [],
+            "valueDataType": {}
+          },
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/noteType",
+          "propertyLabel": "Note type"
         }
       ],
       "id": "lc:RT:bf2:MonographNR:Note",
