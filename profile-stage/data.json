@@ -9311,6 +9311,30 @@
                   "useValuesFrom": [],
                   "defaults": []
                 }
+              },
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "resource",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [
+                    "lc:RT:bf2:Agent:bfCorp"
+                  ],
+                  "useValuesFrom": [],
+                  "defaults": [
+                    {
+                      "defaultURI": "http://id.loc.gov/authorities/names/n78089035",
+                      "defaultLiteral": "Library of Congress"
+                    }
+                  ],
+                  "valueDataType": {
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Agent"
+                  }
+                },
+                "propertyURI": "http://id.loc.gov/ontologies/bflc/applicableInstitution",
+                "propertyLabel": "Applicable institution",
+                "remark": ""
               }
             ],
             "id": "lc:RT:bf2:Item:ImmAcqSource",
@@ -9526,7 +9550,7 @@
     },
     "metadata": {
       "createDate": "2019-08-14T18:21:23.011Z",
-      "updateDate": "2022-07-05T13:31:20.430Z",
+      "updateDate": "2022-08-02T13:24:16.947Z",
       "createUser": null,
       "updateUser": null
     },
