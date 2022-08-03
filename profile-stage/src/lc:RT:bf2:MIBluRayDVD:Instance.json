@@ -229,6 +229,22 @@
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [
+          "lc:RT:bf2:ImmAcqSource"
+        ],
+        "useValuesFrom": [],
+        "defaults": [],
+        "valueDataType": {}
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/immediateAcquisition",
+      "propertyLabel": "Immediate source of acquisition note"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "resource",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [
           "lc:RT:bf2:Contents"
         ],
         "useValuesFrom": [],

@@ -28289,6 +28289,22 @@
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [
+                    "lc:RT:bf2:ImmAcqSource"
+                  ],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {}
+                },
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/immediateAcquisition",
+                "propertyLabel": "Immediate source of acquisition note"
+              },
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "resource",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [
                     "lc:RT:bf2:Contents"
                   ],
                   "useValuesFrom": [],
@@ -29087,7 +29103,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2022-08-01T13:39:32.869Z",
+      "updateDate": "2022-08-03T14:27:44.767Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",
