@@ -10657,6 +10657,22 @@
                 "remark": "https://original.rdatoolkit.org/7.16.html"
               },
               {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "resource",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [
+                    "lc:RT:bf2:ImmAcqSource"
+                  ],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {}
+                },
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/immediateAcquisition",
+                "propertyLabel": "Immediate source of acquisition note"
+              },
+              {
                 "propertyLabel": "URL of Instance",
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/electronicLocator",
                 "type": "resource",
@@ -11224,7 +11240,7 @@
     },
     "metadata": {
       "createDate": "2019-04-11T20:45:09.452Z",
-      "updateDate": "2022-08-01T14:30:40.192Z",
+      "updateDate": "2022-08-04T12:51:42.534Z",
       "createUser": null,
       "updateUser": null
     },
