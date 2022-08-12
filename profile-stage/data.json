@@ -35640,7 +35640,7 @@
                   }
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/place",
-                "propertyLabel": "Place of publication (from 008)",
+                "propertyLabel": "Search place of publication (from 008)",
                 "remark": ""
               },
               {
@@ -35701,7 +35701,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2022-03-01T19:34:44.594Z",
+      "updateDate": "2022-08-12T12:39:43.706Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",

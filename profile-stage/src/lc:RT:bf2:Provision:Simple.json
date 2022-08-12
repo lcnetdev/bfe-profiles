@@ -32,7 +32,7 @@
         }
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/place",
-      "propertyLabel": "Place of publication (from 008)",
+      "propertyLabel": "Search place of publication (from 008)",
       "remark": ""
     },
     {
