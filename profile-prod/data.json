@@ -9670,6 +9670,22 @@
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/date",
                 "propertyLabel": "Received date"
+              },
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "resource",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [
+                    "lc:RT:bf2:ImmAcqSource"
+                  ],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {}
+                },
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/immediateAcquisition",
+                "propertyLabel": "Immediate source of acquisition note"
               }
             ],
             "resourceLabel": "BIBFRAME Item",
@@ -9954,7 +9970,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2022-08-03T14:32:58.922Z",
+      "updateDate": "2022-08-12T12:35:04.703Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",
