@@ -3968,7 +3968,7 @@
                   "defaults": []
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/immediateAcquisition",
-                "propertyLabel": "Immediate Source of Acquisition of Item",
+                "propertyLabel": "Immediate source of acquisition note",
                 "remark": "https://original.rdatoolkit.org/2.19.html"
               },
               {
@@ -4496,7 +4496,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2022-08-03T14:31:32.082Z",
+      "updateDate": "2022-08-12T12:34:13.433Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",
