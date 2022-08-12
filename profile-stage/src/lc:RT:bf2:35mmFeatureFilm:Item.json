@@ -156,7 +156,7 @@
         "defaults": []
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/immediateAcquisition",
-      "propertyLabel": "Immediate Source of Acquisition of Item"
+      "propertyLabel": "Immediate source of acquisition note"
     },
     {
       "mandatory": "false",
