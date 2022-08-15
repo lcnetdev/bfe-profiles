@@ -9501,13 +9501,13 @@
                 "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [
-                    "http://preprod.id.loc.gov/authorities/names"
+                  "valueTemplateRefs": [
+                    "lc:RT:bf2:Item:CollectionAgent"
                   ],
+                  "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Organization"
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Contribution"
                   }
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/agent",
@@ -9574,7 +9574,7 @@
     },
     "metadata": {
       "createDate": "2019-08-14T18:21:23.011Z",
-      "updateDate": "2022-08-15T19:24:30.499Z",
+      "updateDate": "2022-08-15T19:43:47.921Z",
       "createUser": null,
       "updateUser": null
     },
