@@ -95,7 +95,7 @@
                   "defaults": [
                     {
                       "defaultURI": "http://id.loc.gov/authorities/names/n78089035",
-                      "defaultLiteral": "Library of Congress"
+                      "defaultLiteral": "United States. Library of Congress"
                     }
                   ],
                   "valueDataType": {
@@ -311,7 +311,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2022-08-02T14:19:21.735Z",
+      "updateDate": "2022-08-15T15:01:27.546Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",
