@@ -1,0 +1,21 @@
+{
+  "propertyTemplates": [
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "resource",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": [],
+        "valueDataType": {}
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/agent",
+      "propertyLabel": "Collection"
+    }
+  ],
+  "id": "lc:RT:bf2:Item:Collection",
+  "resourceURI": "http://id.loc.gov/ontologies/bibframe/Contribution",
+  "resourceLabel": "Collection"
+}

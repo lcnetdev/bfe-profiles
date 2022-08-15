@@ -9492,6 +9492,50 @@
             "id": "lc:RT:bf2:Item:Digital",
             "resourceURI": "http://id.loc.gov/ontologies/bibframe/Item",
             "resourceLabel": "Digital item"
+          },
+          {
+            "propertyTemplates": [
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "resource",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {}
+                },
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/agent",
+                "propertyLabel": "Collection"
+              }
+            ],
+            "id": "lc:RT:bf2:Item:Collection",
+            "resourceURI": "http://id.loc.gov/ontologies/bibframe/Contribution",
+            "resourceLabel": "Collection"
+          },
+          {
+            "propertyTemplates": [
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "lookup",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [
+                    "http://preprod.id.loc.gov/authorities/names"
+                  ],
+                  "defaults": [],
+                  "valueDataType": {}
+                },
+                "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
+                "propertyLabel": "Search LCNAF"
+              }
+            ],
+            "id": "lc:RT:bf2:Item:CollectionAgent",
+            "resourceURI": "http://id.loc.gov/ontologies/bibframe/Organization",
+            "resourceLabel": "Search collection"
           }
         ],
         "id": "lc:profile:bf2:Item",
@@ -9503,7 +9547,7 @@
     },
     "metadata": {
       "createDate": "2019-08-14T18:21:23.011Z",
-      "updateDate": "2022-08-02T14:23:46.037Z",
+      "updateDate": "2022-08-15T15:30:17.737Z",
       "createUser": null,
       "updateUser": null
     },
