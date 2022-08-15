@@ -769,7 +769,7 @@
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [
-              "lc:RT:bf2:Agents:Contribution"
+              "lc:RT:bf2:Item:Collection"
             ],
             "useValuesFrom": [],
             "valueDataType": {
