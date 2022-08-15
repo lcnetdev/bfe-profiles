@@ -145,7 +145,7 @@
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [
-              "lc:RT:bf2:Note"
+              "lc:RT:bf2:RareMat:Note"
             ],
             "useValuesFrom": [],
             "valueDataType": {},
@@ -519,7 +519,7 @@
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [
-              "lc:RT:bf2:Note"
+              "lc:RT:bf2:RareMat:Note"
             ],
             "useValuesFrom": [],
             "valueDataType": {},

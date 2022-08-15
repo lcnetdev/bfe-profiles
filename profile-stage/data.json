@@ -23903,7 +23903,7 @@
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [
-                    "lc:RT:bf2:Note"
+                    "lc:RT:bf2:RareMat:Note"
                   ],
                   "useValuesFrom": [],
                   "valueDataType": {},
@@ -24277,7 +24277,7 @@
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [
-                    "lc:RT:bf2:Note"
+                    "lc:RT:bf2:RareMat:Note"
                   ],
                   "useValuesFrom": [],
                   "valueDataType": {},
@@ -24920,7 +24920,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2022-08-15T15:02:03.411Z",
+      "updateDate": "2022-08-15T15:02:57.000Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",
