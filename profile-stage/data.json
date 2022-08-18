@@ -2339,7 +2339,7 @@
                   "defaults": []
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/assigner",
-                "propertyLabel": "Source of number (e.g. OCoLC)"
+                "propertyLabel": "Source of number (e.g. \"(OCoLC)\")"
               }
             ],
             "id": "lc:RT:bf2:Identifiers:Local",
@@ -2975,7 +2975,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.059Z",
-      "updateDate": "2022-08-18T17:54:56.999Z",
+      "updateDate": "2022-08-18T17:58:26.945Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.059Z",

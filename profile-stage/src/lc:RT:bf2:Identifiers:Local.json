@@ -30,7 +30,7 @@
         "defaults": []
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/assigner",
-      "propertyLabel": "Source of number (e.g. OCoLC)"
+      "propertyLabel": "Source of number (e.g. \"(OCoLC)\")"
     }
   ],
   "id": "lc:RT:bf2:Identifiers:Local",
