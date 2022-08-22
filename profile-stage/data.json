@@ -4632,7 +4632,8 @@
                     "lc:RT:bf2:Identifiers:Local",
                     "lc:RT:bf2:Identifiers:Other",
                     "lc:RT:bf2:Identifiers:ISBN",
-                    "lc:RT:bf2:Identifiers:PostalReg"
+                    "lc:RT:bf2:Identifiers:PostalReg",
+                    "lc:RT:bf2:Identifiers:ReportNum"
                   ],
                   "useValuesFrom": [],
                   "valueDataType": {},
@@ -5119,7 +5120,7 @@
     "id": "2be36dfb-c101-4641-8af1-27b04ddf3958",
     "metadata": {
       "createDate": "2022-05-10T21:00:39.811Z",
-      "updateDate": "2022-07-14T14:52:04.736Z",
+      "updateDate": "2022-08-22T17:50:55.062Z",
       "createUser": null,
       "updateUser": null
     },

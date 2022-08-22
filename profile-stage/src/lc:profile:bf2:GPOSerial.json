@@ -983,7 +983,8 @@
               "lc:RT:bf2:Identifiers:Local",
               "lc:RT:bf2:Identifiers:Other",
               "lc:RT:bf2:Identifiers:ISBN",
-              "lc:RT:bf2:Identifiers:PostalReg"
+              "lc:RT:bf2:Identifiers:PostalReg",
+              "lc:RT:bf2:Identifiers:ReportNum"
             ],
             "useValuesFrom": [],
             "valueDataType": {},
