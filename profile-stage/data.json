@@ -2964,6 +2964,46 @@
             "resourceURI": "http://id.loc.gov/ontologies/bibframe/ShelfMark",
             "id": "lc:RT:bf2:Identifiers:Shelfmark",
             "resourceLabel": "Accession or copy number"
+          },
+          {
+            "propertyTemplates": [
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "literal",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {}
+                },
+                "propertyURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+                "propertyLabel": "Report number",
+                "remark": ""
+              },
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "literal",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [
+                    "http://id.loc.gov/vocabulary/mstatus"
+                  ],
+                  "defaults": [],
+                  "valueDataType": {
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Status"
+                  }
+                },
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/status",
+                "propertyLabel": "Status"
+              }
+            ],
+            "id": "lc:RT:bf2:Identifiers:ReportNum",
+            "resourceURI": "http://id.loc.gov/ontologies/bibframe/ReportNumber",
+            "resourceLabel": "Report number"
           }
         ],
         "id": "lc:profile:bf2:Identifiers",
@@ -2975,7 +3015,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.059Z",
-      "updateDate": "2022-08-18T17:58:26.945Z",
+      "updateDate": "2022-08-22T17:48:29.538Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.059Z",
