@@ -144,6 +144,22 @@
     },
     {
       "mandatory": "false",
+      "repeatable": "true",
+      "type": "resource",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [
+          "lc:RT:bf2:GPOClass"
+        ],
+        "useValuesFrom": [],
+        "defaults": [],
+        "valueDataType": {}
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/classification",
+      "propertyLabel": "SuDoc number"
+    },
+    {
+      "mandatory": "false",
       "propertyLabel": "Identifiers",
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/identifiedBy",
       "remark": "",
@@ -152,12 +168,16 @@
       "type": "resource",
       "valueConstraint": {
         "useValuesFrom": [],
-        "valueDataType": {},
+        "valueDataType": {
+          "remark": "template order modified for GPO use"
+        },
         "valueTemplateRefs": [
-          "lc:RT:bf2:Identifiers:LCCN",
+          "lc:RT:bf2:Identifiers:GPONumber",
           "lc:RT:bf2:Identifiers:ISBN",
           "lc:RT:bf2:Identifiers:Other",
-          "lc:RT:bf2:Identifiers:Local"
+          "lc:RT:bf2:Identifiers:Local",
+          "lc:RT:bf2:Identifiers:ReportNum",
+          "lc:RT:bf2:Identifiers:LCCN"
         ],
         "defaults": []
       }
