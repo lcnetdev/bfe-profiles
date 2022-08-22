@@ -894,7 +894,7 @@
           "type": "resource",
           "valueConstraint": {
             "valueTemplateRefs": [
-              "lc:RT:bf2:PublicationInformation",
+              "lc:RT:bf2:Serial:PubInfo",
               "lc:RT:bf2:DistributionInformation",
               "lc:RT:bf2:ManufactureInformation",
               "lc:RT:bf2:ProductionInformation"

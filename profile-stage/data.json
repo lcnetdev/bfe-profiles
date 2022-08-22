@@ -8009,7 +8009,7 @@
                 "type": "resource",
                 "valueConstraint": {
                   "valueTemplateRefs": [
-                    "lc:RT:bf2:PublicationInformation",
+                    "lc:RT:bf2:Serial:PubInfo",
                     "lc:RT:bf2:DistributionInformation",
                     "lc:RT:bf2:ManufactureInformation",
                     "lc:RT:bf2:ProductionInformation"
@@ -9340,7 +9340,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2022-08-22T19:40:51.356Z",
+      "updateDate": "2022-08-22T19:41:29.017Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",
