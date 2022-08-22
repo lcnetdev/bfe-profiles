@@ -18520,7 +18520,8 @@
                     "lc:RT:bf2:Identifiers:ISBN",
                     "lc:RT:bf2:Identifiers:LCCN",
                     "lc:RT:bf2:Identifiers:Local",
-                    "lc:RT:bf2:Identifiers:Other"
+                    "lc:RT:bf2:Identifiers:Other",
+                    "lc:RT:bf2:Identifiers:ReportNum"
                   ],
                   "useValuesFrom": [],
                   "valueDataType": {},
@@ -19305,7 +19306,7 @@
     "id": "ad1be991-aeec-4a4f-81c4-891a829ae3e4",
     "metadata": {
       "createDate": "2022-05-10T19:35:43.872Z",
-      "updateDate": "2022-08-01T15:57:57.704Z",
+      "updateDate": "2022-08-22T17:49:41.710Z",
       "createUser": null,
       "updateUser": null
     },
