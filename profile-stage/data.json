@@ -35939,7 +35939,7 @@
                   "defaults": [],
                   "valueDataType": {}
                 },
-                "propertyURI": "http://id.loc.gov/ontologies/bflc/placeSimple",
+                "propertyURI": "http://id.loc.gov/ontologies/bflc/simplePlace",
                 "propertyLabel": "Place (from 26X $a)",
                 "remark": ""
               },
@@ -35954,7 +35954,7 @@
                   "defaults": [],
                   "valueDataType": {}
                 },
-                "propertyURI": "http://id.loc.gov/ontologies/bflc/agentSimple",
+                "propertyURI": "http://id.loc.gov/ontologies/bflc/simpleAgent",
                 "propertyLabel": "Agent (from 26X $b)"
               },
               {
@@ -35968,7 +35968,7 @@
                   "defaults": [],
                   "valueDataType": {}
                 },
-                "propertyURI": "http://id.loc.gov/ontologies/bflc/dateSimple",
+                "propertyURI": "http://id.loc.gov/ontologies/bflc/simpleDate",
                 "propertyLabel": "Date (from 26X $c)"
               }
             ],
@@ -35986,7 +35986,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2022-08-12T12:39:43.706Z",
+      "updateDate": "2022-08-25T16:02:16.564Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",
