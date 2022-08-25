@@ -28,7 +28,7 @@
         "useValuesFrom": [],
         "defaults": [],
         "valueDataType": {
-          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Issn"
+          "dataTypeURI": ""
         }
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/identifiedBy",

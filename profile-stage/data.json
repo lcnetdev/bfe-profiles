@@ -483,7 +483,7 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Issn"
+                    "dataTypeURI": ""
                   }
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/identifiedBy",
@@ -493,6 +493,28 @@
             "id": "lc:RT:bf2:SeriesHubSearch",
             "resourceURI": "http://id.loc.gov/ontologies/bibframe/Hub",
             "resourceLabel": "Search Series Hub"
+          },
+          {
+            "propertyTemplates": [
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "literal",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {}
+                },
+                "propertyURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+                "propertyLabel": "ISSN",
+                "remark": ""
+              }
+            ],
+            "id": "lc:RT:bf2:SeriesHubIssn",
+            "resourceURI": "http://id.loc.gov/ontologies/bibframe/Issn",
+            "resourceLabel": "Series Hub ISSN"
           }
         ],
         "id": "lc:profile:bf2:SeriesInformation",
@@ -504,7 +526,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2022-08-25T18:46:27.278Z",
+      "updateDate": "2022-08-25T18:49:44.963Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",
