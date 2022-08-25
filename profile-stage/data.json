@@ -463,8 +463,7 @@
                 "valueConstraint": {
                   "valueTemplateRefs": [],
                   "useValuesFrom": [
-                    "https://preprod-8080.id.loc.gov/resources/hubs/",
-                    "https://preprod-8080.id.loc.gov/resources/works/"
+                    "https://preprod-8080.id.loc.gov/resources/hubs/"
                   ],
                   "defaults": [],
                   "valueDataType": {}
@@ -505,7 +504,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2022-07-22T15:38:46.548Z",
+      "updateDate": "2022-08-25T18:46:27.278Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",
