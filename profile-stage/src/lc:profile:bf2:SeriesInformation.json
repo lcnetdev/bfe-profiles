@@ -190,7 +190,7 @@
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [
-              "lc:RT:bf2:Identifiers:ISSN"
+              "lc:RT:bf2:SeriesHubIssn"
             ],
             "useValuesFrom": [],
             "defaults": [],

@@ -478,7 +478,7 @@
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [
-                    "lc:RT:bf2:Identifiers:ISSN"
+                    "lc:RT:bf2:SeriesHubIssn"
                   ],
                   "useValuesFrom": [],
                   "defaults": [],
@@ -526,7 +526,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2022-08-25T18:49:44.963Z",
+      "updateDate": "2022-08-25T18:50:19.895Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",
