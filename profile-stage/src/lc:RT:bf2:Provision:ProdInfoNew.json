@@ -75,7 +75,7 @@
       "propertyLabel": "Date (from 26X $c)"
     }
   ],
-  "resourceURI": "http://id.loc.gov/ontologies/bibframe/Distribution",
-  "id": "lc:RT:bf2:Provision:DistInfoNew",
-  "resourceLabel": "Distribution (new)"
+  "id": "lc:RT:bf2:Provision:ProdInfoNew",
+  "resourceURI": "http://id.loc.gov/ontologies/bibframe/Production",
+  "resourceLabel": "Production (new)"
 }
