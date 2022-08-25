@@ -35974,7 +35974,7 @@
             ],
             "id": "lc:RT:bf2:Provision:Simple",
             "resourceURI": "http://id.loc.gov/ontologies/bibframe/Publication",
-            "resourceLabel": "Publication test"
+            "resourceLabel": "Publication (new)"
           }
         ],
         "id": "lc:profile:bf2:PublicationDistributionManufactureInformation",
@@ -35986,7 +35986,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2022-08-25T16:02:16.564Z",
+      "updateDate": "2022-08-25T18:04:07.575Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",
