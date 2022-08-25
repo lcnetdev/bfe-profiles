@@ -583,8 +583,7 @@
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [
-                    "lc:RT:bf2:Form",
-                    "lc:RT:bf2:Gsafd"
+                    "lc:RT:bf2:Form"
                   ],
                   "useValuesFrom": [],
                   "valueDataType": {
@@ -746,19 +745,16 @@
               {
                 "mandatory": "false",
                 "repeatable": "true",
-                "type": "resource",
+                "type": "literal",
                 "resourceTemplates": [],
                 "valueConstraint": {
-                  "valueTemplateRefs": [
-                    "lc:RT:bf2:Monograph:Dissertation"
-                  ],
+                  "valueTemplateRefs": [],
                   "useValuesFrom": [],
-                  "valueDataType": {},
-                  "defaults": []
+                  "defaults": [],
+                  "valueDataType": {}
                 },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/dissertation",
-                "propertyLabel": "Dissertation",
-                "remark": "http://access.rdatoolkit.org/7.9.html"
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/awards",
+                "propertyLabel": "Award note"
               },
               {
                 "mandatory": "false",
@@ -806,7 +802,8 @@
                   ],
                   "useValuesFrom": [],
                   "valueDataType": {
-                    "dataTypeURI": "http://www.loc.gov/mads/rdf/v1#SimpleType"
+                    "dataTypeURI": "",
+                    "remark": "http://www.loc.gov/mads/rdf/v1#SimpleType"
                   },
                   "defaults": [],
                   "editable": "true",
@@ -868,7 +865,7 @@
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [
-                    "lc:RT:bf2:Language:Parts"
+                    "lc:RT:bf2:Language2"
                   ],
                   "useValuesFrom": [],
                   "valueDataType": {
@@ -952,7 +949,7 @@
                   "valueDataType": {}
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bflc/relationship",
-                "propertyLabel": "Series Hub (testing)",
+                "propertyLabel": "Series Hub",
                 "remark": ""
               },
               {
@@ -962,15 +959,32 @@
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [
-                    "lc:RT:bf2:RelWorkInput"
+                    "lc:RT:bf2:RelatedWork"
                   ],
                   "useValuesFrom": [],
                   "valueDataType": {},
                   "defaults": []
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bflc/relationship",
-                "propertyLabel": "Input Related Work",
+                "propertyLabel": "Related Works",
                 "remark": ""
+              },
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "resource",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [
+                    "lc:RT:bf2:Monograph:Dissertation"
+                  ],
+                  "useValuesFrom": [],
+                  "valueDataType": {},
+                  "defaults": []
+                },
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/dissertation",
+                "propertyLabel": "Dissertation",
+                "remark": "http://access.rdatoolkit.org/7.9.html"
               },
               {
                 "mandatory": "false",
@@ -1070,11 +1084,10 @@
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [
-                    "lc:RT:bf2:PublicationInformation",
+                    "lc:RT:bf2:PubInfoNew",
                     "lc:RT:bf2:DistributionInformation",
                     "lc:RT:bf2:ManufactureInformation",
-                    "lc:RT:bf2:ProductionInformation",
-                    "lc:RT:bf2:Provision:Simple"
+                    "lc:RT:bf2:ProductionInformation"
                   ],
                   "useValuesFrom": [],
                   "valueDataType": {
@@ -1737,7 +1750,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2022-08-12T12:40:01.372Z",
+      "updateDate": "2022-08-25T18:21:37.262Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",
