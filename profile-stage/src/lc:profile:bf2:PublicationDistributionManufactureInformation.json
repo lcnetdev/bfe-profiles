@@ -426,7 +426,7 @@
         }
       ],
       "resourceURI": "http://id.loc.gov/ontologies/bibframe/Distribution",
-      "id": "lc:RT:bf2:Provision:DistInfoNew",
+      "id": "lc:RT:bf2:DistInfoNew",
       "resourceLabel": "Distribution (new)"
     },
     {
@@ -506,7 +506,7 @@
           "propertyLabel": "Date (from 26X $c)"
         }
       ],
-      "id": "lc:RT:bf2:Provision:ManuInfoNew",
+      "id": "lc:RT:bf2:ManuInfoNew",
       "resourceURI": "http://id.loc.gov/ontologies/bibframe/Manufacture",
       "resourceLabel": "Manufacture (new)"
     },
@@ -587,7 +587,7 @@
           "propertyLabel": "Date (from 26X $c)"
         }
       ],
-      "id": "lc:RT:bf2:Provision:ProdInfoNew",
+      "id": "lc:RT:bf2:ProdInfoNew",
       "resourceURI": "http://id.loc.gov/ontologies/bibframe/Production",
       "resourceLabel": "Production (new)"
     }
