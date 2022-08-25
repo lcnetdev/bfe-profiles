@@ -1,0 +1,21 @@
+{
+  "propertyTemplates": [
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": [],
+        "valueDataType": {}
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/date",
+      "propertyLabel": "Date (from 008)"
+    }
+  ],
+  "resourceURI": "http://id.loc.gov/ontologies/bibframe/Distribution",
+  "id": "lc:RT:bf2:Provision:DistInfoNew",
+  "resourceLabel": "Distrubtion (new)"
+}

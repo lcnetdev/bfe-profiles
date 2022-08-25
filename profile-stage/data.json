@@ -35972,9 +35972,30 @@
                 "propertyLabel": "Date (from 26X $c)"
               }
             ],
-            "id": "lc:RT:bf2:Provision:Simple",
+            "id": "lc:RT:bf2:PubInfoNew",
             "resourceURI": "http://id.loc.gov/ontologies/bibframe/Publication",
             "resourceLabel": "Publication (new)"
+          },
+          {
+            "propertyTemplates": [
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "literal",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {}
+                },
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/date",
+                "propertyLabel": "Date (from 008)"
+              }
+            ],
+            "resourceURI": "http://id.loc.gov/ontologies/bibframe/Distribution",
+            "id": "lc:RT:bf2:Provision:DistInfoNew",
+            "resourceLabel": "Distrubtion (new)"
           }
         ],
         "id": "lc:profile:bf2:PublicationDistributionManufactureInformation",
@@ -35986,7 +36007,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2022-08-25T18:04:07.575Z",
+      "updateDate": "2022-08-25T18:05:46.998Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",
