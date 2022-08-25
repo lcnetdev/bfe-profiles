@@ -1151,7 +1151,7 @@
                   "defaults": []
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bflc/relationship",
-                "propertyLabel": "Series",
+                "propertyLabel": "Series Hub",
                 "remark": "http://access.rdatoolkit.org/2.12.html"
               },
               {
@@ -1755,7 +1755,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2022-08-25T18:42:50.622Z",
+      "updateDate": "2022-08-25T19:13:57.810Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",

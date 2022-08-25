@@ -121,7 +121,7 @@
         "defaults": []
       },
       "propertyURI": "http://id.loc.gov/ontologies/bflc/relationship",
-      "propertyLabel": "Series",
+      "propertyLabel": "Series Hub",
       "remark": "http://access.rdatoolkit.org/2.12.html"
     },
     {
