@@ -30,7 +30,7 @@
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [
-          "lc:RT:bf2:SeriesHubSearch"
+          "lc:RT:bf2:SeriesHubSearch2"
         ],
         "useValuesFrom": [],
         "defaults": [],
