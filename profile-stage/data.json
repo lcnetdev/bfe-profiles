@@ -525,6 +525,45 @@
             "id": "lc:RT:bf2:SeriesHubIssn",
             "resourceURI": "http://id.loc.gov/ontologies/bibframe/Issn",
             "resourceLabel": "Series Hub ISSN"
+          },
+          {
+            "propertyTemplates": [
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "literal",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {}
+                },
+                "propertyURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+                "propertyLabel": "ISSN"
+              },
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "lookup",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [
+                    "http://id.loc.gov/vocabulary/mstatus"
+                  ],
+                  "defaults": [],
+                  "valueDataType": {
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Status"
+                  }
+                },
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/status",
+                "propertyLabel": "Incorrect, Invalid or Canceled?"
+              }
+            ],
+            "id": "lc:RT:bf2:SeriesHubIssn2",
+            "resourceURI": "http://id.loc.gov/ontologies/bibframe/Issn",
+            "resourceLabel": "Series Hub ISSN (status)"
           }
         ],
         "id": "lc:profile:bf2:SeriesInformation",
@@ -536,7 +575,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2022-08-26T14:17:30.984Z",
+      "updateDate": "2022-08-26T18:56:09.075Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",
