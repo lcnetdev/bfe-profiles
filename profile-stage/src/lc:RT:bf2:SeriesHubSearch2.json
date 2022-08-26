@@ -12,13 +12,10 @@
           "https://preprod-8080.id.loc.gov/resources/works/"
         ],
         "defaults": [],
-        "valueDataType": {
-          "dataTypeURI": ""
-        }
+        "valueDataType": {}
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/Hub",
-      "propertyLabel": "Lookup",
-      "remark": ""
+      "propertyLabel": "Lookup"
     },
     {
       "mandatory": "false",
@@ -27,19 +24,17 @@
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [
-          "lc:RT:bf2:SeriesHubIssn"
+          "lc:RT:bf2:SeriesHubIssn2"
         ],
         "useValuesFrom": [],
         "defaults": [],
-        "valueDataType": {
-          "dataTypeURI": ""
-        }
+        "valueDataType": {}
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/identifiedBy",
       "propertyLabel": "ISSN"
     }
   ],
-  "id": "lc:RT:bf2:SeriesHubSearch",
+  "id": "lc:RT:bf2:SeriesHubSearch2",
   "resourceURI": "http://id.loc.gov/ontologies/bibframe/Series",
-  "resourceLabel": "Search Series Hub (Work)"
+  "resourceLabel": "Search Series Hub (Instance)"
 }
