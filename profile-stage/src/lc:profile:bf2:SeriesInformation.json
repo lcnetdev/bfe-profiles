@@ -189,8 +189,9 @@
               "dataTypeURI": ""
             }
           },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/Series",
-          "propertyLabel": "Lookup"
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/Hub",
+          "propertyLabel": "Lookup",
+          "remark": ""
         },
         {
           "mandatory": "false",
@@ -212,7 +213,7 @@
         }
       ],
       "id": "lc:RT:bf2:SeriesHubSearch",
-      "resourceURI": "http://id.loc.gov/ontologies/bibframe/Hub",
+      "resourceURI": "http://id.loc.gov/ontologies/bibframe/Series",
       "resourceLabel": "Search Series Hub"
     },
     {

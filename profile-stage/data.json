@@ -477,8 +477,9 @@
                     "dataTypeURI": ""
                   }
                 },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/Series",
-                "propertyLabel": "Lookup"
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/Hub",
+                "propertyLabel": "Lookup",
+                "remark": ""
               },
               {
                 "mandatory": "false",
@@ -500,7 +501,7 @@
               }
             ],
             "id": "lc:RT:bf2:SeriesHubSearch",
-            "resourceURI": "http://id.loc.gov/ontologies/bibframe/Hub",
+            "resourceURI": "http://id.loc.gov/ontologies/bibframe/Series",
             "resourceLabel": "Search Series Hub"
           },
           {
@@ -535,7 +536,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2022-08-26T14:15:10.293Z",
+      "updateDate": "2022-08-26T14:17:30.984Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",
