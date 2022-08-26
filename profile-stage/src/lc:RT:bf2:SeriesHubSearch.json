@@ -12,7 +12,9 @@
           "https://preprod-8080.id.loc.gov/resources/works/"
         ],
         "defaults": [],
-        "valueDataType": {}
+        "valueDataType": {
+          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Series"
+        }
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/Hub",
       "propertyLabel": "Lookup"
