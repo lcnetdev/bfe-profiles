@@ -34,13 +34,19 @@
           "lc:RT:bf2:SeriesHubSearch"
         ],
         "useValuesFrom": [],
-        "defaults": [],
+        "defaults": [
+          {
+            "defaultURI": "",
+            "defaultLiteral": ""
+          }
+        ],
         "valueDataType": {
           "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Hub"
         }
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/relatedTo",
-      "propertyLabel": "Search Series Hub"
+      "propertyLabel": "Search Series Hub",
+      "remark": ""
     },
     {
       "mandatory": "false",
