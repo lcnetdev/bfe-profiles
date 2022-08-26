@@ -1309,7 +1309,7 @@
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [
-                    "lc:RT:bf2:SeriesHub"
+                    "lc:RT:bf2:SeriesHub2"
                   ],
                   "useValuesFrom": [],
                   "valueDataType": {
@@ -1922,7 +1922,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2022-08-25T19:13:57.810Z",
+      "updateDate": "2022-08-26T19:04:24.384Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",

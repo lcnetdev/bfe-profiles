@@ -112,7 +112,7 @@
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [
-          "lc:RT:bf2:SeriesHub"
+          "lc:RT:bf2:SeriesHub2"
         ],
         "useValuesFrom": [],
         "valueDataType": {
