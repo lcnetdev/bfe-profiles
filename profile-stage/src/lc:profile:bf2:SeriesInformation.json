@@ -379,7 +379,7 @@
           "valueConstraint": {
             "valueTemplateRefs": [],
             "useValuesFrom": [
-              "http://id.loc.gov/vocabulary/mstatus/"
+              "http://id.loc.gov/vocabulary/mstatus"
             ],
             "defaults": [
               {

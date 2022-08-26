@@ -667,7 +667,7 @@
                 "valueConstraint": {
                   "valueTemplateRefs": [],
                   "useValuesFrom": [
-                    "http://id.loc.gov/vocabulary/mstatus/"
+                    "http://id.loc.gov/vocabulary/mstatus"
                   ],
                   "defaults": [
                     {
@@ -736,7 +736,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2022-08-26T19:21:01.850Z",
+      "updateDate": "2022-08-26T19:23:07.644Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",
