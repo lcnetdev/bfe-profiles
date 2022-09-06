@@ -31,9 +31,27 @@
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/identifiedBy",
       "propertyLabel": "ISSN"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [
+          "http://id.loc.gov/vocabulary/mstatus"
+        ],
+        "defaults": [],
+        "valueDataType": {
+          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Status"
+        }
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/status",
+      "propertyLabel": "Status"
     }
   ],
   "id": "lc:RT:bf2:SeriesHubSearch2",
   "resourceURI": "http://id.loc.gov/ontologies/bibframe/Series",
-  "resourceLabel": "Search Series Hub (Instance)"
+  "resourceLabel": "Series Hub (input)"
 }
