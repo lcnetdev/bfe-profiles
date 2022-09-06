@@ -121,7 +121,7 @@
             "useValuesFrom": [],
             "defaults": [],
             "valueDataType": {
-              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Hub"
+              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Series"
             }
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/relatedTo",
@@ -216,7 +216,7 @@
         }
       ],
       "id": "lc:RT:bf2:SeriesHubSearch2",
-      "resourceURI": "http://id.loc.gov/ontologies/bibframe/Series",
+      "resourceURI": "http://id.loc.gov/ontologies/bibframe/Hub",
       "resourceLabel": "Series Hub (input)"
     },
     {
