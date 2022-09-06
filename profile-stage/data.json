@@ -471,22 +471,6 @@
               {
                 "mandatory": "false",
                 "repeatable": "true",
-                "type": "resource",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [
-                    "lc:RT:bf2:SeriesHubIssn2"
-                  ],
-                  "useValuesFrom": [],
-                  "defaults": [],
-                  "valueDataType": {}
-                },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/identifiedBy",
-                "propertyLabel": "ISSN"
-              },
-              {
-                "mandatory": "false",
-                "repeatable": "true",
                 "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -501,6 +485,22 @@
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/status",
                 "propertyLabel": "Status"
+              },
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "resource",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [
+                    "lc:RT:bf2:SeriesHubIssn2"
+                  ],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {}
+                },
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/identifiedBy",
+                "propertyLabel": "ISSN"
               }
             ],
             "id": "lc:RT:bf2:SeriesHubSearch2",
@@ -577,7 +577,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2022-09-06T19:37:12.271Z",
+      "updateDate": "2022-09-06T19:48:47.904Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",

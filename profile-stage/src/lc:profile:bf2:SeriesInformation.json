@@ -183,22 +183,6 @@
         {
           "mandatory": "false",
           "repeatable": "true",
-          "type": "resource",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [
-              "lc:RT:bf2:SeriesHubIssn2"
-            ],
-            "useValuesFrom": [],
-            "defaults": [],
-            "valueDataType": {}
-          },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/identifiedBy",
-          "propertyLabel": "ISSN"
-        },
-        {
-          "mandatory": "false",
-          "repeatable": "true",
           "type": "lookup",
           "resourceTemplates": [],
           "valueConstraint": {
@@ -213,6 +197,22 @@
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/status",
           "propertyLabel": "Status"
+        },
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "resource",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [
+              "lc:RT:bf2:SeriesHubIssn2"
+            ],
+            "useValuesFrom": [],
+            "defaults": [],
+            "valueDataType": {}
+          },
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/identifiedBy",
+          "propertyLabel": "ISSN"
         }
       ],
       "id": "lc:RT:bf2:SeriesHubSearch2",
