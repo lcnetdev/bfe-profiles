@@ -18791,10 +18791,11 @@
                   "valueTemplateRefs": [
                     "lc:RT:bf2:Identifiers:GPONumber",
                     "lc:RT:bf2:Identifiers:ISBN",
-                    "lc:RT:bf2:Identifiers:LCCN",
                     "lc:RT:bf2:Identifiers:Local",
                     "lc:RT:bf2:Identifiers:Other",
-                    "lc:RT:bf2:Identifiers:ReportNum"
+                    "lc:RT:bf2:Identifiers:ReportNum",
+                    "lc:RT:bf2:Identifiers:STRN",
+                    "lc:RT:bf2:Identifiers:LCCN"
                   ],
                   "useValuesFrom": [],
                   "valueDataType": {},
@@ -19593,7 +19594,7 @@
     "id": "ad1be991-aeec-4a4f-81c4-891a829ae3e4",
     "metadata": {
       "createDate": "2022-05-10T19:35:43.872Z",
-      "updateDate": "2022-09-07T20:23:28.769Z",
+      "updateDate": "2022-09-07T20:27:52.650Z",
       "createUser": null,
       "updateUser": null
     },

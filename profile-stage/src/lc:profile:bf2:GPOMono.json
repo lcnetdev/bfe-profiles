@@ -651,10 +651,11 @@
             "valueTemplateRefs": [
               "lc:RT:bf2:Identifiers:GPONumber",
               "lc:RT:bf2:Identifiers:ISBN",
-              "lc:RT:bf2:Identifiers:LCCN",
               "lc:RT:bf2:Identifiers:Local",
               "lc:RT:bf2:Identifiers:Other",
-              "lc:RT:bf2:Identifiers:ReportNum"
+              "lc:RT:bf2:Identifiers:ReportNum",
+              "lc:RT:bf2:Identifiers:STRN",
+              "lc:RT:bf2:Identifiers:LCCN"
             ],
             "useValuesFrom": [],
             "valueDataType": {},
