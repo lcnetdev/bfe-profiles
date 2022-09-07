@@ -3725,8 +3725,7 @@
                 "valueConstraint": {
                   "valueTemplateRefs": [],
                   "useValuesFrom": [
-                    "https://preprod-8210.id.loc.gov/resources/works",
-                    "https://preprod-8210.id.loc.gov/resources/hubs"
+                    "https://preprod-8295.id.loc.gov/resources/works/https://preprod-8295.id.loc.gov/resources/works/https://preprod-8295.id.loc.gov/resources/works/https://preprod-8295.id.loc.gov/resources/works/https://preprod-8295.id.loc.gov/resources/works/https://preprod-8295.id.loc.gov/resources/works/https://preprod-8295.id.loc.gov/resources/works/https://preprod-8295.id.loc.gov/resources/works/https://preprod-8295.id.loc.gov/resources/works/https://preprod-8295.id.loc.gov/resources/works/https://preprod-8295.id.loc.gov/resources/works/https://preprod-8295.id.loc.gov/resources/works/https://preprod-8295.id.loc.gov/resources/works/https://preprod-8295.id.loc.gov/resources/works/https://preprod-8295.id.loc.gov/resources/works/https://preprod-8295.id.loc.gov/resources/works/https://preprod-8295.id.loc.gov/resources/works/https://preprod-8295.id.loc.gov/resources/works/https://preprod-8295.id.loc.gov/resources/works/https://preprod-8295.id.loc.gov/resources/works/https://preprod-8295.id.loc.gov/resources/works/"
                   ],
                   "defaults": [],
                   "valueDataType": {}
@@ -3767,7 +3766,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2022-09-07T20:56:06.435Z",
+      "updateDate": "2022-09-07T20:59:02.290Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",
