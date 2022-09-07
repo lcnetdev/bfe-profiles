@@ -2039,7 +2039,7 @@
                   "defaults": [
                     {
                       "defaultURI": "http://id.loc.gov/vocabulary/organizations/dgpo",
-                      "defaultLiteral": "United States, Government Printing Office"
+                      "defaultLiteral": "United States, Government Publishing Office"
                     }
                   ],
                   "valueDataType": {
@@ -3085,7 +3085,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.059Z",
-      "updateDate": "2022-08-22T17:48:57.817Z",
+      "updateDate": "2022-09-07T20:19:42.895Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.059Z",

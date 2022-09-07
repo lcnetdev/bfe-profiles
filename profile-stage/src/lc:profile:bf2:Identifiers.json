@@ -219,7 +219,7 @@
             "defaults": [
               {
                 "defaultURI": "http://id.loc.gov/vocabulary/organizations/dgpo",
-                "defaultLiteral": "United States, Government Printing Office"
+                "defaultLiteral": "United States, Government Publishing Office"
               }
             ],
             "valueDataType": {
