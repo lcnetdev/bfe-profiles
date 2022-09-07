@@ -590,6 +590,24 @@
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/assigner",
           "propertyLabel": "Source of number (e.g. \"(OCoLC)\")"
+        },
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "lookup",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [],
+            "useValuesFrom": [
+              "http://id.loc.gov/vocabulary/mstatus"
+            ],
+            "defaults": [],
+            "valueDataType": {
+              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Status"
+            }
+          },
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/status",
+          "propertyLabel": "Invalid or Canceled?"
         }
       ],
       "id": "lc:RT:bf2:Identifiers:Local",

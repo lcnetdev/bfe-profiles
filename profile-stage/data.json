@@ -2410,6 +2410,24 @@
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/assigner",
                 "propertyLabel": "Source of number (e.g. \"(OCoLC)\")"
+              },
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "lookup",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [
+                    "http://id.loc.gov/vocabulary/mstatus"
+                  ],
+                  "defaults": [],
+                  "valueDataType": {
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Status"
+                  }
+                },
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/status",
+                "propertyLabel": "Invalid or Canceled?"
               }
             ],
             "id": "lc:RT:bf2:Identifiers:Local",
@@ -3085,7 +3103,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.059Z",
-      "updateDate": "2022-09-07T20:19:42.895Z",
+      "updateDate": "2022-09-07T20:25:22.837Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.059Z",
