@@ -777,11 +777,13 @@
           "remark": "http://access.rdatoolkit.org/4.6.html",
           "repeatable": "true",
           "resourceTemplates": [],
-          "type": "literal",
+          "type": "resource",
           "valueConstraint": {
             "useValuesFrom": [],
             "valueDataType": {},
-            "valueTemplateRefs": [],
+            "valueTemplateRefs": [
+              "lc:RT:bf2:URL"
+            ],
             "defaults": []
           }
         },

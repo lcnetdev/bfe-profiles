@@ -27458,11 +27458,13 @@
                 "remark": "http://access.rdatoolkit.org/4.6.html",
                 "repeatable": "true",
                 "resourceTemplates": [],
-                "type": "literal",
+                "type": "resource",
                 "valueConstraint": {
                   "useValuesFrom": [],
                   "valueDataType": {},
-                  "valueTemplateRefs": [],
+                  "valueTemplateRefs": [
+                    "lc:RT:bf2:URL"
+                  ],
                   "defaults": []
                 }
               },
@@ -27936,7 +27938,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.059Z",
-      "updateDate": "2022-08-22T19:10:29.693Z",
+      "updateDate": "2022-09-07T20:13:30.056Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.059Z",
