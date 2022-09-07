@@ -682,17 +682,17 @@
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [],
-            "useValuesFrom": [
-              "https://preprod-8295.id.loc.gov/resources/works/"
+            "useValuesFrom": [],
+            "defaults": [
+              {
+                "defaultURI": "",
+                "defaultLiteral": ""
+              }
             ],
-            "defaults": [],
-            "valueDataType": {
-              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Work"
-            },
-            "editable": "false"
+            "valueDataType": {}
           },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/relatedTo",
-          "propertyLabel": "Related title"
+          "propertyURI": "http://id.loc.gov/ontologies/bflc/relationship",
+          "propertyLabel": "Search related works"
         },
         {
           "mandatory": "false",
