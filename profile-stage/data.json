@@ -26858,7 +26858,8 @@
                 "valueConstraint": {
                   "valueTemplateRefs": [
                     "lc:RT:bf2:LCC",
-                    "lc:RT:bf2:DDC"
+                    "lc:RT:bf2:DDC",
+                    "lc:RT:bf2:GPOClass"
                   ],
                   "useValuesFrom": [],
                   "valueDataType": {},
@@ -27938,7 +27939,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.059Z",
-      "updateDate": "2022-09-07T20:13:30.056Z",
+      "updateDate": "2022-09-07T20:21:38.235Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.059Z",

@@ -175,7 +175,8 @@
       "valueConstraint": {
         "valueTemplateRefs": [
           "lc:RT:bf2:LCC",
-          "lc:RT:bf2:DDC"
+          "lc:RT:bf2:DDC",
+          "lc:RT:bf2:GPOClass"
         ],
         "useValuesFrom": [],
         "valueDataType": {},
