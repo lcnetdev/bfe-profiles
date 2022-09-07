@@ -4715,13 +4715,14 @@
                 "valueConstraint": {
                   "valueTemplateRefs": [
                     "lc:RT:bf2:Identifiers:GPONumber",
-                    "lc:RT:bf2:Identifiers:LCCN",
                     "lc:RT:bf2:Identifiers:Copyright",
                     "lc:RT:bf2:Identifiers:Local",
                     "lc:RT:bf2:Identifiers:Other",
                     "lc:RT:bf2:Identifiers:ISBN",
                     "lc:RT:bf2:Identifiers:PostalReg",
-                    "lc:RT:bf2:Identifiers:ReportNum"
+                    "lc:RT:bf2:Identifiers:ReportNum",
+                    "lc:RT:bf2:Identifiers:STRN",
+                    "lc:RT:bf2:Identifiers:LCCN"
                   ],
                   "useValuesFrom": [],
                   "valueDataType": {},
@@ -5208,7 +5209,7 @@
     "id": "2be36dfb-c101-4641-8af1-27b04ddf3958",
     "metadata": {
       "createDate": "2022-05-10T21:00:39.811Z",
-      "updateDate": "2022-08-22T17:50:55.062Z",
+      "updateDate": "2022-09-07T20:29:32.679Z",
       "createUser": null,
       "updateUser": null
     },
