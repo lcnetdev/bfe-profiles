@@ -18821,6 +18821,20 @@
                 "remark": "https://original.rdatoolkit.org/7.16.html"
               },
               {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "literal",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {}
+                },
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/credits",
+                "propertyLabel": "Participants/Credits"
+              },
+              {
                 "propertyLabel": "Carrier type",
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/carrier",
                 "repeatable": "true",
@@ -19561,7 +19575,7 @@
     "id": "ad1be991-aeec-4a4f-81c4-891a829ae3e4",
     "metadata": {
       "createDate": "2022-05-10T19:35:43.872Z",
-      "updateDate": "2022-08-22T17:49:41.710Z",
+      "updateDate": "2022-09-07T20:23:28.769Z",
       "createUser": null,
       "updateUser": null
     },

@@ -699,6 +699,20 @@
           "remark": "https://original.rdatoolkit.org/7.16.html"
         },
         {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "literal",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [],
+            "useValuesFrom": [],
+            "defaults": [],
+            "valueDataType": {}
+          },
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/credits",
+          "propertyLabel": "Participants/Credits"
+        },
+        {
           "propertyLabel": "Carrier type",
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/carrier",
           "repeatable": "true",
