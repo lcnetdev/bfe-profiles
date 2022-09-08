@@ -18722,10 +18722,10 @@
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [
-                    "lc:RT:bf2:PublicationInformation",
-                    "lc:RT:bf2:DistributionInformation",
-                    "lc:RT:bf2:ManufactureInformation",
-                    "lc:RT:bf2:ProductionInformation"
+                    "lc:RT:bf2:PubInfoNew",
+                    "lc:RT:bf2:DistInfoNew",
+                    "lc:RT:bf2:ManuInfoNew",
+                    "lc:RT:bf2:ProdInfoNew"
                   ],
                   "useValuesFrom": [],
                   "valueDataType": {},
@@ -19640,7 +19640,7 @@
     "id": "ad1be991-aeec-4a4f-81c4-891a829ae3e4",
     "metadata": {
       "createDate": "2022-05-10T19:35:43.872Z",
-      "updateDate": "2022-09-07T20:27:52.650Z",
+      "updateDate": "2022-09-08T19:49:19.564Z",
       "createUser": null,
       "updateUser": null
     },
