@@ -4596,10 +4596,10 @@
                 "type": "resource",
                 "valueConstraint": {
                   "valueTemplateRefs": [
-                    "lc:RT:bf2:PublicationInformation",
-                    "lc:RT:bf2:DistributionInformation",
-                    "lc:RT:bf2:ManufactureInformation",
-                    "lc:RT:bf2:ProductionInformation"
+                    "lc:RT:bf2:PubInfoNew",
+                    "lc:RT:bf2:DistInfoNew",
+                    "lc:RT:bf2:ManuInfoNew",
+                    "lc:RT:bf2:ProdInfoNew"
                   ],
                   "useValuesFrom": [],
                   "valueDataType": {},
@@ -5254,7 +5254,7 @@
     "id": "2be36dfb-c101-4641-8af1-27b04ddf3958",
     "metadata": {
       "createDate": "2022-05-10T21:00:39.811Z",
-      "updateDate": "2022-09-07T20:54:39.413Z",
+      "updateDate": "2022-09-08T19:49:55.148Z",
       "createUser": null,
       "updateUser": null
     },
