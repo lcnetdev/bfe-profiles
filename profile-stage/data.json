@@ -27099,6 +27099,24 @@
               {
                 "mandatory": "false",
                 "repeatable": "true",
+                "type": "lookup",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [
+                    "http://id.loc.gov/vocabulary/mscale"
+                  ],
+                  "defaults": [],
+                  "valueDataType": {
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Scale"
+                  }
+                },
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/scale",
+                "propertyLabel": "Scale term or note"
+              },
+              {
+                "mandatory": "false",
+                "repeatable": "true",
                 "type": "resource",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -27110,7 +27128,7 @@
                   "defaults": []
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/scale",
-                "propertyLabel": "Scale information"
+                "propertyLabel": "Scale value"
               },
               {
                 "mandatory": "false",
@@ -27230,10 +27248,10 @@
                   "useValuesFrom": [],
                   "valueDataType": {},
                   "valueTemplateRefs": [
-                    "lc:RT:bf2:PublicationInformation",
-                    "lc:RT:bf2:ManufactureInformation",
-                    "lc:RT:bf2:DistributionInformation",
-                    "lc:RT:bf2:ProductionInformation"
+                    "lc:RT:bf2:PubInfoNew",
+                    "lc:RT:bf2:ManuInfoNew",
+                    "lc:RT:bf2:DistInfoNew",
+                    "lc:RT:bf2:ProdInfoNew"
                   ],
                   "defaults": []
                 }
@@ -27969,26 +27987,6 @@
             "propertyTemplates": [
               {
                 "mandatory": "false",
-                "repeatable": "false",
-                "type": "lookup",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [
-                    "http://id.loc.gov/vocabulary/mscale"
-                  ],
-                  "defaults": [],
-                  "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Scale"
-                  },
-                  "editable": "false"
-                },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/Scale",
-                "propertyLabel": "Lookup",
-                "remark": "http://access.rdatoolkit.org/7.25.6.html"
-              },
-              {
-                "mandatory": "false",
                 "repeatable": "true",
                 "type": "literal",
                 "resourceTemplates": [],
@@ -28005,7 +28003,7 @@
             ],
             "id": "lc:RT:bf2:Cartographic:ScaleNew",
             "resourceURI": "http://id.loc.gov/ontologies/bibframe/Scale",
-            "resourceLabel": "Scale"
+            "resourceLabel": "Scale value"
           }
         ],
         "author": "NDMSO",
@@ -28018,7 +28016,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.059Z",
-      "updateDate": "2022-09-07T20:21:38.235Z",
+      "updateDate": "2022-09-08T20:07:45.057Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.059Z",
