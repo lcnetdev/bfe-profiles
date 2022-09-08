@@ -3725,11 +3725,12 @@
                 "valueConstraint": {
                   "valueTemplateRefs": [],
                   "useValuesFrom": [
-                    "https://preprod-8210.id.loc.gov/resources/hubs",
-                    "https://preprod-8210.id.loc.gov/resources/works"
+                    "https://preprod-8295.id.loc.gov/resources/works/"
                   ],
                   "defaults": [],
-                  "valueDataType": {}
+                  "valueDataType": {
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Work"
+                  }
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/Work",
                 "propertyLabel": "Search related works"
@@ -3767,7 +3768,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2022-09-08T20:16:35.930Z",
+      "updateDate": "2022-09-08T20:19:59.149Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",
