@@ -447,6 +447,22 @@
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [
+              "lc:RT:bf2:MIBluRayDVD:MavisId"
+            ],
+            "useValuesFrom": [],
+            "defaults": [],
+            "valueDataType": {}
+          },
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/dataSource",
+          "propertyLabel": "MAVIS info"
+        },
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "resource",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [
               "lc:RT:bf2:35mmFeatureFilm:Instance"
             ],
             "useValuesFrom": [],
