@@ -28574,7 +28574,7 @@
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [
-                    "lc:RT:bf2:RelatedInstance"
+                    "lc:RT:bf2:MIBluRayDVD:MavisTitle"
                   ],
                   "useValuesFrom": [],
                   "defaults": [],
@@ -29709,7 +29709,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2022-09-09T19:27:04.544Z",
+      "updateDate": "2022-09-09T19:27:44.070Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",

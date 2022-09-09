@@ -543,7 +543,7 @@
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [
-              "lc:RT:bf2:RelatedInstance"
+              "lc:RT:bf2:MIBluRayDVD:MavisTitle"
             ],
             "useValuesFrom": [],
             "defaults": [],
