@@ -29666,15 +29666,13 @@
                 "type": "resource",
                 "resourceTemplates": [],
                 "valueConstraint": {
-                  "valueTemplateRefs": [
-                    "lc:RT:bf2:WorkTitle"
-                  ],
+                  "valueTemplateRefs": [],
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/title",
-                "propertyLabel": "TItle"
+                "propertyLabel": "Title"
               },
               {
                 "mandatory": "false",
@@ -29696,6 +29694,27 @@
             "id": "lc:RT:bf2:MIBluRayDVD:MavisTitle",
             "resourceURI": "http://id.loc.gov/ontologies/bibframe/Work",
             "resourceLabel": "Related Title in Mavis"
+          },
+          {
+            "propertyTemplates": [
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "literal",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {}
+                },
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/maintitle",
+                "propertyLabel": "Title from Mavis"
+              }
+            ],
+            "id": "lc:RT:bf2:MIBluRayDVD:MavisTitle2",
+            "resourceURI": "http://id.loc.gov/ontologies/bibframe/Title",
+            "resourceLabel": "Title from Mavis"
           }
         ],
         "author": "NDMSO",
@@ -29708,7 +29727,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2022-09-09T19:37:41.892Z",
+      "updateDate": "2022-09-09T19:39:35.434Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",
