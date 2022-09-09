@@ -29717,6 +29717,51 @@
             "id": "lc:RT:bf2:MIBluRayDVD:MavisTitle2",
             "resourceURI": "http://id.loc.gov/ontologies/bibframe/Title",
             "resourceLabel": "Title"
+          },
+          {
+            "propertyTemplates": [
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "literal",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {}
+                },
+                "propertyURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+                "propertyLabel": "Mavis number",
+                "remark": ""
+              },
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "lookup",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [
+                    "https://id.loc.gov/vocabulary/identifiers"
+                  ],
+                  "defaults": [
+                    {
+                      "defaultURI": "",
+                      "defaultLiteral": "Mavis"
+                    }
+                  ],
+                  "valueDataType": {
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Source"
+                  }
+                },
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/source",
+                "propertyLabel": "Source"
+              }
+            ],
+            "id": "lc:RT:bf2:MIBluRayDVD:MavisId",
+            "resourceURI": "http://id.loc.gov/ontologies/bibframe/Local",
+            "resourceLabel": "Mavis number"
           }
         ],
         "author": "NDMSO",
@@ -29729,7 +29774,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2022-09-09T19:40:30.302Z",
+      "updateDate": "2022-09-09T19:47:17.464Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",
