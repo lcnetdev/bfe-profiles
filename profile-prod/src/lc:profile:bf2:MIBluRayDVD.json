@@ -537,6 +537,22 @@
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [
+              "lc:RT:bf2:MIBluRayDVD:MavisTitle"
+            ],
+            "useValuesFrom": [],
+            "defaults": [],
+            "valueDataType": {}
+          },
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/dataSource",
+          "propertyLabel": "MAVIS info"
+        },
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "resource",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [
               "lc:RT:bf2:MIBluRayDVD:Instance"
             ],
             "useValuesFrom": [],
@@ -1651,7 +1667,9 @@
           "type": "resource",
           "resourceTemplates": [],
           "valueConstraint": {
-            "valueTemplateRefs": [],
+            "valueTemplateRefs": [
+              "lc:RT:bf2:MIBluRayDVD:MavisTitle2"
+            ],
             "useValuesFrom": [],
             "defaults": [],
             "valueDataType": {}
@@ -1665,7 +1683,9 @@
           "type": "resource",
           "resourceTemplates": [],
           "valueConstraint": {
-            "valueTemplateRefs": [],
+            "valueTemplateRefs": [
+              "lc:RT:bf2:MIBluRayDVD:MavisId"
+            ],
             "useValuesFrom": [],
             "defaults": [],
             "valueDataType": {}
