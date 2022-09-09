@@ -12,10 +12,10 @@
         "valueDataType": {}
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/maintitle",
-      "propertyLabel": "Title from Mavis"
+      "propertyLabel": "Title"
     }
   ],
   "id": "lc:RT:bf2:MIBluRayDVD:MavisTitle2",
   "resourceURI": "http://id.loc.gov/ontologies/bibframe/Title",
-  "resourceLabel": "Title from Mavis"
+  "resourceLabel": "Title"
 }

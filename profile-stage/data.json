@@ -29666,7 +29666,9 @@
                 "type": "resource",
                 "resourceTemplates": [],
                 "valueConstraint": {
-                  "valueTemplateRefs": [],
+                  "valueTemplateRefs": [
+                    "lc:RT:bf2:MIBluRayDVD:MavisTitle2"
+                  ],
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
@@ -29709,12 +29711,12 @@
                   "valueDataType": {}
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/maintitle",
-                "propertyLabel": "Title from Mavis"
+                "propertyLabel": "Title"
               }
             ],
             "id": "lc:RT:bf2:MIBluRayDVD:MavisTitle2",
             "resourceURI": "http://id.loc.gov/ontologies/bibframe/Title",
-            "resourceLabel": "Title from Mavis"
+            "resourceLabel": "Title"
           }
         ],
         "author": "NDMSO",
@@ -29727,7 +29729,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2022-09-09T19:39:35.434Z",
+      "updateDate": "2022-09-09T19:40:30.302Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",
