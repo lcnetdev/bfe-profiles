@@ -5952,7 +5952,7 @@
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [
-                    "lc:RT:bf2:PublicationInformation"
+                    "lc:RT:bf2:PubInfoNew"
                   ],
                   "useValuesFrom": [],
                   "defaults": [],
@@ -5969,7 +5969,7 @@
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [
-                    "lc:RT:bf2:ProductionInformation"
+                    "lc:RT:bf2:ProdInfoNew"
                   ],
                   "useValuesFrom": [],
                   "defaults": [],
@@ -5986,7 +5986,7 @@
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [
-                    "lc:RT:bf2:DistributionInformation"
+                    "lc:RT:bf2:DistInfoNew"
                   ],
                   "useValuesFrom": [],
                   "defaults": [],
@@ -6003,7 +6003,7 @@
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [
-                    "lc:RT:bf2:ManufactureInformation"
+                    "lc:RT:bf2:ManuInfoNew"
                   ],
                   "useValuesFrom": [],
                   "defaults": [],
@@ -6223,7 +6223,7 @@
     "id": "976456f6-918e-47e3-a765-800caad85369",
     "metadata": {
       "createDate": "2022-07-06T19:23:58.840Z",
-      "updateDate": "2022-07-11T19:07:43.479Z",
+      "updateDate": "2022-09-13T18:18:25.327Z",
       "createUser": null,
       "updateUser": null
     },
