@@ -33358,8 +33358,8 @@
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [
-                    "lc:RT:bf2:ProductionInformation",
-                    "lc:RT:bf2:PublicationInformation"
+                    "lc:RT:bf2:ProdInfoNew",
+                    "lc:RT:bf2:PubInfoNew"
                   ],
                   "useValuesFrom": [],
                   "defaults": [],
@@ -34099,7 +34099,7 @@
     },
     "metadata": {
       "createDate": "2018-09-05T19:18:43.112Z",
-      "updateDate": "2022-08-02T14:27:48.497Z",
+      "updateDate": "2022-09-13T18:22:35.435Z",
       "createUser": null,
       "updateUser": null
     },

@@ -392,8 +392,8 @@
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [
-              "lc:RT:bf2:ProductionInformation",
-              "lc:RT:bf2:PublicationInformation"
+              "lc:RT:bf2:ProdInfoNew",
+              "lc:RT:bf2:PubInfoNew"
             ],
             "useValuesFrom": [],
             "defaults": [],
