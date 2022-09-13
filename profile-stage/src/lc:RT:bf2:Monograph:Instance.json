@@ -112,25 +112,6 @@
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [
-          "lc:RT:bf2:SeriesHub2"
-        ],
-        "useValuesFrom": [],
-        "valueDataType": {
-          "dataTypeLabelHint": ""
-        },
-        "defaults": []
-      },
-      "propertyURI": "http://id.loc.gov/ontologies/bflc/relationship",
-      "propertyLabel": "Series Hub",
-      "remark": "http://access.rdatoolkit.org/2.12.html"
-    },
-    {
-      "mandatory": "false",
-      "repeatable": "true",
-      "type": "resource",
-      "resourceTemplates": [],
-      "valueConstraint": {
-        "valueTemplateRefs": [
           "lc:RT:bf2:Agents:Contribution"
         ],
         "useValuesFrom": [],
