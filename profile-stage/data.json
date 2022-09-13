@@ -36317,7 +36317,7 @@
                   "valueDataType": {}
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bflc/simpleAgent",
-                "propertyLabel": "Agent (from 26X $b)"
+                "propertyLabel": "Name (from 26X $b)"
               },
               {
                 "mandatory": "false",
@@ -36398,7 +36398,7 @@
                   "valueDataType": {}
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bflc/simpleAgent",
-                "propertyLabel": "Agent (from 26X $b)"
+                "propertyLabel": "Name (from 26X $b)"
               },
               {
                 "mandatory": "false",
@@ -36421,6 +36421,20 @@
           },
           {
             "propertyTemplates": [
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "literal",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {}
+                },
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/date",
+                "propertyLabel": "Date (from 008)"
+              },
               {
                 "mandatory": "false",
                 "repeatable": "true",
@@ -36450,8 +36464,8 @@
                   "defaults": [],
                   "valueDataType": {}
                 },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/date",
-                "propertyLabel": "Date (from 008)"
+                "propertyURI": "http://id.loc.gov/ontologies/bflc/simplePlace",
+                "propertyLabel": "Place (from 26X $a)"
               },
               {
                 "mandatory": "false",
@@ -36465,21 +36479,7 @@
                   "valueDataType": {}
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bflc/simpleAgent",
-                "propertyLabel": "Agent (from 26X $b)"
-              },
-              {
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "literal",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [],
-                  "defaults": [],
-                  "valueDataType": {}
-                },
-                "propertyURI": "http://id.loc.gov/ontologies/bflc/simplePlace",
-                "propertyLabel": "Place (from 26X $a)"
+                "propertyLabel": "Name (from 26X $b)"
               },
               {
                 "mandatory": "false",
@@ -36560,7 +36560,7 @@
                   "valueDataType": {}
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bflc/simpleAgent",
-                "propertyLabel": "Agent (from 26X $b)"
+                "propertyLabel": "Name (from 26X $b)"
               },
               {
                 "mandatory": "false",
@@ -36591,7 +36591,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2022-09-13T17:16:45.739Z",
+      "updateDate": "2022-09-13T18:12:38.067Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",

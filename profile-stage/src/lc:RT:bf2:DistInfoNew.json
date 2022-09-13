@@ -58,7 +58,7 @@
         "valueDataType": {}
       },
       "propertyURI": "http://id.loc.gov/ontologies/bflc/simpleAgent",
-      "propertyLabel": "Agent (from 26X $b)"
+      "propertyLabel": "Name (from 26X $b)"
     },
     {
       "mandatory": "false",
