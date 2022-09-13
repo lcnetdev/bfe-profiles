@@ -598,7 +598,9 @@
                 "type": "resource",
                 "resourceTemplates": [],
                 "valueConstraint": {
-                  "valueTemplateRefs": [],
+                  "valueTemplateRefs": [
+                    "lc:RT:bf2:SeriesHubLookup2"
+                  ],
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {
@@ -607,22 +609,6 @@
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/relatedTo",
                 "propertyLabel": "Search Series Hub"
-              },
-              {
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "resource",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [
-                    "lc:RT:bf2:SeriesHubIssn2"
-                  ],
-                  "useValuesFrom": [],
-                  "defaults": [],
-                  "valueDataType": {}
-                },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/identifiedBy",
-                "propertyLabel": "ISSN"
               },
               {
                 "mandatory": "false",
@@ -693,7 +679,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2022-09-13T19:45:31.595Z",
+      "updateDate": "2022-09-13T19:46:29.529Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",

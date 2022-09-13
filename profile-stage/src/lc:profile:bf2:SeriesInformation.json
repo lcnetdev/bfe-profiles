@@ -310,7 +310,9 @@
           "type": "resource",
           "resourceTemplates": [],
           "valueConstraint": {
-            "valueTemplateRefs": [],
+            "valueTemplateRefs": [
+              "lc:RT:bf2:SeriesHubLookup2"
+            ],
             "useValuesFrom": [],
             "defaults": [],
             "valueDataType": {
@@ -319,22 +321,6 @@
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/relatedTo",
           "propertyLabel": "Search Series Hub"
-        },
-        {
-          "mandatory": "false",
-          "repeatable": "true",
-          "type": "resource",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [
-              "lc:RT:bf2:SeriesHubIssn2"
-            ],
-            "useValuesFrom": [],
-            "defaults": [],
-            "valueDataType": {}
-          },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/identifiedBy",
-          "propertyLabel": "ISSN"
         },
         {
           "mandatory": "false",
