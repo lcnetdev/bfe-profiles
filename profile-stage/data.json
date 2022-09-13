@@ -13336,6 +13336,20 @@
               {
                 "mandatory": "false",
                 "repeatable": "true",
+                "type": "literal",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {}
+                },
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/date",
+                "propertyLabel": "Date (from 008)"
+              },
+              {
+                "mandatory": "false",
+                "repeatable": "true",
                 "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -13349,23 +13363,23 @@
                   }
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/place",
-                "propertyLabel": "Place"
+                "propertyLabel": "Search place of publication (from 008)"
               },
               {
                 "mandatory": "false",
                 "repeatable": "true",
-                "type": "resource",
+                "type": "literal",
                 "resourceTemplates": [],
                 "valueConstraint": {
-                  "valueTemplateRefs": [
-                    "lc:RT:bf2:MonographNR:PubName"
-                  ],
+                  "valueTemplateRefs": [],
                   "useValuesFrom": [],
                   "defaults": [],
-                  "valueDataType": {}
+                  "valueDataType": {
+                    "dataTypeURI": ""
+                  }
                 },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/agent",
-                "propertyLabel": "Name"
+                "propertyURI": "http://id.loc.gov/ontologies/bflc/simplePlace",
+                "propertyLabel": "Place (from 26X $a)"
               },
               {
                 "mandatory": "false",
@@ -13378,8 +13392,22 @@
                   "defaults": [],
                   "valueDataType": {}
                 },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/date",
-                "propertyLabel": "Date",
+                "propertyURI": "http://id.loc.gov/ontologies/bflc/simpleAgent",
+                "propertyLabel": "Name (from 26X $b)"
+              },
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "literal",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {}
+                },
+                "propertyURI": "http://id.loc.gov/ontologies/bflc/simpleDate",
+                "propertyLabel": "Date (from 26X $c)",
                 "remark": "http://access.rdatoolkit.org/2.8.6.html"
               }
             ],
@@ -13392,6 +13420,20 @@
               {
                 "mandatory": "false",
                 "repeatable": "true",
+                "type": "literal",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {}
+                },
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/date",
+                "propertyLabel": "Date (from 008)"
+              },
+              {
+                "mandatory": "false",
+                "repeatable": "true",
                 "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -13404,24 +13446,24 @@
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Place"
                   }
                 },
-                "propertyLabel": "Place",
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/place"
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/place",
+                "propertyLabel": "Search place of publication (from 008)"
               },
               {
                 "mandatory": "false",
                 "repeatable": "true",
-                "type": "resource",
+                "type": "literal",
                 "resourceTemplates": [],
                 "valueConstraint": {
-                  "valueTemplateRefs": [
-                    "lc:RT:bf2:MonographNR:PubName"
-                  ],
+                  "valueTemplateRefs": [],
                   "useValuesFrom": [],
                   "defaults": [],
-                  "valueDataType": {}
+                  "valueDataType": {
+                    "dataTypeURI": ""
+                  }
                 },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/agent",
-                "propertyLabel": "Name"
+                "propertyLabel": "Place (from 26X $a)",
+                "propertyURI": "http://id.loc.gov/ontologies/bflc/simplePlace"
               },
               {
                 "mandatory": "false",
@@ -13434,8 +13476,22 @@
                   "defaults": [],
                   "valueDataType": {}
                 },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/date",
-                "propertyLabel": "Date",
+                "propertyURI": "http://id.loc.gov/ontologies/bflc/simpleAgent",
+                "propertyLabel": "Name (from 26X $b)"
+              },
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "literal",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {}
+                },
+                "propertyURI": "http://id.loc.gov/ontologies/bflc/simpleDate",
+                "propertyLabel": "Date (from 26X $c)",
                 "remark": "http://access.rdatoolkit.org/2.9.6.html"
               }
             ],
@@ -13448,6 +13504,20 @@
               {
                 "mandatory": "false",
                 "repeatable": "true",
+                "type": "literal",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {}
+                },
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/date",
+                "propertyLabel": "Date (from 008)"
+              },
+              {
+                "mandatory": "false",
+                "repeatable": "true",
                 "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -13461,23 +13531,23 @@
                   }
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/place",
-                "propertyLabel": "Place"
+                "propertyLabel": "Search place of publication (from 008)"
               },
               {
                 "mandatory": "false",
                 "repeatable": "true",
-                "type": "resource",
+                "type": "literal",
                 "resourceTemplates": [],
                 "valueConstraint": {
-                  "valueTemplateRefs": [
-                    "lc:RT:bf2:MonographNR:PubName"
-                  ],
+                  "valueTemplateRefs": [],
                   "useValuesFrom": [],
                   "defaults": [],
-                  "valueDataType": {}
+                  "valueDataType": {
+                    "dataTypeURI": ""
+                  }
                 },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/agent",
-                "propertyLabel": "Name"
+                "propertyURI": "http://id.loc.gov/ontologies/bflc/simplePlace",
+                "propertyLabel": "Place (from 26X $a)"
               },
               {
                 "mandatory": "false",
@@ -13490,8 +13560,22 @@
                   "defaults": [],
                   "valueDataType": {}
                 },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/date",
-                "propertyLabel": "Date",
+                "propertyURI": "http://id.loc.gov/ontologies/bflc/simpleAgent",
+                "propertyLabel": "Name (from 26X $b)"
+              },
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "literal",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {}
+                },
+                "propertyURI": "http://id.loc.gov/ontologies/bflc/simpleDate",
+                "propertyLabel": "Date (from 26X $c)",
                 "remark": "http://access.rdatoolkit.org/2.10.6.html"
               }
             ],
@@ -13504,6 +13588,20 @@
               {
                 "mandatory": "false",
                 "repeatable": "true",
+                "type": "literal",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {}
+                },
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/date",
+                "propertyLabel": "Date (from 008)"
+              },
+              {
+                "mandatory": "false",
+                "repeatable": "true",
                 "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -13517,23 +13615,23 @@
                   }
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/place",
-                "propertyLabel": "Place"
+                "propertyLabel": "Search place of publication (from 008)"
               },
               {
                 "mandatory": "false",
                 "repeatable": "true",
-                "type": "resource",
+                "type": "literal",
                 "resourceTemplates": [],
                 "valueConstraint": {
-                  "valueTemplateRefs": [
-                    "lc:RT:bf2:MonographNR:PubName"
-                  ],
+                  "valueTemplateRefs": [],
                   "useValuesFrom": [],
                   "defaults": [],
-                  "valueDataType": {}
+                  "valueDataType": {
+                    "dataTypeURI": ""
+                  }
                 },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/agent",
-                "propertyLabel": "Name"
+                "propertyURI": "http://id.loc.gov/ontologies/bflc/simplePlace",
+                "propertyLabel": "Place (from 26X $a)"
               },
               {
                 "mandatory": "false",
@@ -13546,21 +13644,13 @@
                   "defaults": [],
                   "valueDataType": {}
                 },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/date",
-                "propertyLabel": "Date",
-                "remark": "http://access.rdatoolkit.org/2.10.6.html"
-              }
-            ],
-            "id": "lc:RT:bf2:MonographNR:ProdInfo",
-            "resourceLabel": "Production",
-            "resourceURI": "http://id.loc.gov/ontologies/bibframe/Production"
-          },
-          {
-            "propertyTemplates": [
+                "propertyURI": "http://id.loc.gov/ontologies/bflc/simpleAgent",
+                "propertyLabel": "Name (from 26X $b)"
+              },
               {
                 "mandatory": "false",
                 "repeatable": "true",
-                "type": "literal-lang",
+                "type": "literal",
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [],
@@ -13568,13 +13658,14 @@
                   "defaults": [],
                   "valueDataType": {}
                 },
-                "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label",
-                "propertyLabel": "Input Name"
+                "propertyURI": "http://id.loc.gov/ontologies/bflc/simpleDate",
+                "propertyLabel": "Date (from 26X $c)",
+                "remark": "http://access.rdatoolkit.org/2.10.6.html"
               }
             ],
-            "id": "lc:RT:bf2:MonographNR:PubName",
-            "resourceURI": "http://id.loc.gov/ontologies/bibframe/Agent",
-            "resourceLabel": "Name"
+            "id": "lc:RT:bf2:MonographNR:ProdInfo",
+            "resourceLabel": "Production",
+            "resourceURI": "http://id.loc.gov/ontologies/bibframe/Production"
           }
         ],
         "author": "NDMSO",
@@ -13586,7 +13677,7 @@
     },
     "metadata": {
       "createDate": "2019-04-11T20:45:09.452Z",
-      "updateDate": "2022-08-04T12:47:55.176Z",
+      "updateDate": "2022-09-13T18:44:44.992Z",
       "createUser": null,
       "updateUser": null
     },

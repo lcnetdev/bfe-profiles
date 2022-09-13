@@ -3,6 +3,20 @@
     {
       "mandatory": "false",
       "repeatable": "true",
+      "type": "literal",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": [],
+        "valueDataType": {}
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/date",
+      "propertyLabel": "Date (from 008)"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
       "type": "lookup",
       "resourceTemplates": [],
       "valueConstraint": {
@@ -16,23 +30,23 @@
         }
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/place",
-      "propertyLabel": "Place"
+      "propertyLabel": "Search place of publication (from 008)"
     },
     {
       "mandatory": "false",
       "repeatable": "true",
-      "type": "resource",
+      "type": "literal",
       "resourceTemplates": [],
       "valueConstraint": {
-        "valueTemplateRefs": [
-          "lc:RT:bf2:MonographNR:PubName"
-        ],
+        "valueTemplateRefs": [],
         "useValuesFrom": [],
         "defaults": [],
-        "valueDataType": {}
+        "valueDataType": {
+          "dataTypeURI": ""
+        }
       },
-      "propertyURI": "http://id.loc.gov/ontologies/bibframe/agent",
-      "propertyLabel": "Name"
+      "propertyURI": "http://id.loc.gov/ontologies/bflc/simplePlace",
+      "propertyLabel": "Place (from 26X $a)"
     },
     {
       "mandatory": "false",
@@ -45,8 +59,22 @@
         "defaults": [],
         "valueDataType": {}
       },
-      "propertyURI": "http://id.loc.gov/ontologies/bibframe/date",
-      "propertyLabel": "Date",
+      "propertyURI": "http://id.loc.gov/ontologies/bflc/simpleAgent",
+      "propertyLabel": "Name (from 26X $b)"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": [],
+        "valueDataType": {}
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bflc/simpleDate",
+      "propertyLabel": "Date (from 26X $c)",
       "remark": "http://access.rdatoolkit.org/2.10.6.html"
     }
   ],
