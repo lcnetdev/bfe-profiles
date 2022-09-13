@@ -15742,10 +15742,10 @@
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [
-                    "lc:RT:bf2:PublicationInformation",
-                    "lc:RT:bf2:DistributionInformation",
-                    "lc:RT:bf2:ManufactureInformation",
-                    "lc:RT:bf2:ProductionInformation"
+                    "lc:RT:bf2:PubInfoNew",
+                    "lc:RT:bf2:DistInfoNew",
+                    "lc:RT:bf2:ManuInfoNew",
+                    "lc:RT:bf2:ProdInfoNew"
                   ],
                   "useValuesFrom": [],
                   "valueDataType": {},
@@ -16062,10 +16062,10 @@
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [
-                    "lc:RT:bf2:PublicationInformation",
-                    "lc:RT:bf2:DistributionInformation",
-                    "lc:RT:bf2:ManufactureInformation",
-                    "lc:RT:bf2:ProductionInformation"
+                    "lc:RT:bf2:PubInfoNew",
+                    "lc:RT:bf2:DistInfoNew",
+                    "lc:RT:bf2:ManuInfoNew",
+                    "lc:RT:bf2:ProdInfoNew"
                   ],
                   "useValuesFrom": [],
                   "defaults": [],
@@ -16437,10 +16437,10 @@
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [
-                    "lc:RT:bf2:PublicationInformation",
-                    "lc:RT:bf2:DistributionInformation",
-                    "lc:RT:bf2:ManufactureInformation",
-                    "lc:RT:bf2:ProductionInformation"
+                    "lc:RT:bf2:PubInfoNew",
+                    "lc:RT:bf2:DistInfoNew",
+                    "lc:RT:bf2:ManuInfoNew",
+                    "lc:RT:bf2:ProdInfoNew"
                   ],
                   "useValuesFrom": [],
                   "defaults": [],
@@ -17043,7 +17043,7 @@
     },
     "metadata": {
       "createDate": "2019-06-13T12:32:28.719Z",
-      "updateDate": "2022-08-01T13:47:38.040Z",
+      "updateDate": "2022-09-13T18:28:58.694Z",
       "createUser": null,
       "updateUser": null
     },
