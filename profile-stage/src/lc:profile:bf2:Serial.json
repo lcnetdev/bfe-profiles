@@ -895,9 +895,9 @@
           "valueConstraint": {
             "valueTemplateRefs": [
               "lc:RT:bf2:Serial:PubInfo",
-              "lc:RT:bf2:DistributionInformation",
-              "lc:RT:bf2:ManufactureInformation",
-              "lc:RT:bf2:ProductionInformation"
+              "lc:RT:bf2:DistInfoNew",
+              "lc:RT:bf2:ManuInfoNew",
+              "lc:RT:bf2:ProdInfoNew"
             ],
             "useValuesFrom": [],
             "valueDataType": {},
@@ -2130,6 +2130,20 @@
         {
           "mandatory": "false",
           "repeatable": "true",
+          "type": "literal",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [],
+            "useValuesFrom": [],
+            "defaults": [],
+            "valueDataType": {}
+          },
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/date",
+          "propertyLabel": "Date (from 008)"
+        },
+        {
+          "mandatory": "false",
+          "repeatable": "true",
           "type": "lookup",
           "resourceTemplates": [],
           "valueConstraint": {
@@ -2143,12 +2157,30 @@
             }
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/place",
-          "propertyLabel": "Place"
+          "propertyLabel": "Search place of publication (from 008)"
         },
         {
           "mandatory": "false",
           "repeatable": "true",
-          "type": "resource",
+          "type": "literal",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [],
+            "useValuesFrom": [
+              "http://id.loc.gov/vocabulary/countries"
+            ],
+            "defaults": [],
+            "valueDataType": {
+              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Place"
+            }
+          },
+          "propertyURI": "http://id.loc.gov/ontologies/bflc/simplePlace",
+          "propertyLabel": "Place (from 26X $a)"
+        },
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "literal",
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [
@@ -2158,8 +2190,8 @@
             "defaults": [],
             "valueDataType": {}
           },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/agent",
-          "propertyLabel": "Name"
+          "propertyURI": "http://id.loc.gov/ontologies/bflc/simpleAgent",
+          "propertyLabel": "Name (from 26X $b)"
         },
         {
           "mandatory": "false",
@@ -2172,8 +2204,8 @@
             "defaults": [],
             "valueDataType": {}
           },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/date",
-          "propertyLabel": "Date"
+          "propertyURI": "http://id.loc.gov/ontologies/bflc/simpleDate",
+          "propertyLabel": "Date (from 26X $c)"
         },
         {
           "mandatory": "false",
