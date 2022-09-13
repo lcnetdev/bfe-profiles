@@ -572,7 +572,7 @@
               {
                 "mandatory": "false",
                 "repeatable": "true",
-                "type": "literal",
+                "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [],
@@ -613,24 +613,6 @@
               {
                 "mandatory": "false",
                 "repeatable": "true",
-                "type": "lookup",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [
-                    "http://id.loc.gov/vocabulary/mstatus"
-                  ],
-                  "defaults": [],
-                  "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Status"
-                  }
-                },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/status",
-                "propertyLabel": "Status"
-              },
-              {
-                "mandatory": "false",
-                "repeatable": "true",
                 "type": "resource",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -659,7 +641,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2022-09-13T19:31:56.387Z",
+      "updateDate": "2022-09-13T19:36:19.566Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",

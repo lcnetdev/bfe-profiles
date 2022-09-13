@@ -284,7 +284,7 @@
         {
           "mandatory": "false",
           "repeatable": "true",
-          "type": "literal",
+          "type": "lookup",
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [],
@@ -321,24 +321,6 @@
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/relatedTo",
           "propertyLabel": "Search Series Hub"
-        },
-        {
-          "mandatory": "false",
-          "repeatable": "true",
-          "type": "lookup",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [],
-            "useValuesFrom": [
-              "http://id.loc.gov/vocabulary/mstatus"
-            ],
-            "defaults": [],
-            "valueDataType": {
-              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Status"
-            }
-          },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/status",
-          "propertyLabel": "Status"
         },
         {
           "mandatory": "false",
