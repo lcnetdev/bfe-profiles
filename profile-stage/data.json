@@ -22384,10 +22384,10 @@
                 "type": "resource",
                 "valueConstraint": {
                   "valueTemplateRefs": [
-                    "lc:RT:bf2:PublicationInformation",
-                    "lc:RT:bf2:ManufactureInformation",
-                    "lc:RT:bf2:DistributionInformation",
-                    "lc:RT:bf2:ProductionInformation"
+                    "lc:RT:bf2:PubInfoNew",
+                    "lc:RT:bf2:ManuInfoNew",
+                    "lc:RT:bf2:DistInfoNew",
+                    "lc:RT:bf2:ProdInfoNew"
                   ],
                   "useValuesFrom": [],
                   "valueDataType": {},
@@ -22986,7 +22986,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2022-06-09T15:57:19.050Z",
+      "updateDate": "2022-09-13T18:15:31.123Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",
