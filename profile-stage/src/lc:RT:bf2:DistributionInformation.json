@@ -53,7 +53,7 @@
       "remark": "http://access.rdatoolkit.org/2.9.6.html"
     }
   ],
-  "resourceLabel": "Distribution",
+  "resourceLabel": "Distribution (old)",
   "id": "lc:RT:bf2:DistributionInformation",
   "resourceURI": "http://id.loc.gov/ontologies/bibframe/Distribution"
 }

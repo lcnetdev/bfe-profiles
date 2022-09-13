@@ -60,7 +60,7 @@
       "id": "lc:RT:bf2:PublicationInformation",
       "contact": "",
       "resourceURI": "http://id.loc.gov/ontologies/bibframe/Publication",
-      "resourceLabel": "Publication"
+      "resourceLabel": "Publication (old)"
     },
     {
       "propertyTemplates": [
@@ -117,7 +117,7 @@
           "remark": "http://access.rdatoolkit.org/2.9.6.html"
         }
       ],
-      "resourceLabel": "Distribution",
+      "resourceLabel": "Distribution (old)",
       "id": "lc:RT:bf2:DistributionInformation",
       "resourceURI": "http://id.loc.gov/ontologies/bibframe/Distribution"
     },
@@ -177,7 +177,7 @@
         }
       ],
       "id": "lc:RT:bf2:ManufactureInformation",
-      "resourceLabel": "Manufacture",
+      "resourceLabel": "Manufacture (old)",
       "resourceURI": "http://id.loc.gov/ontologies/bibframe/Manufacture"
     },
     {
@@ -235,7 +235,7 @@
       ],
       "id": "lc:RT:bf2:ProductionInformation",
       "resourceURI": "http://id.loc.gov/ontologies/bibframe/Production",
-      "resourceLabel": "Production"
+      "resourceLabel": "Production (old)"
     },
     {
       "propertyTemplates": [
@@ -346,7 +346,7 @@
       ],
       "id": "lc:RT:bf2:PubInfoNew",
       "resourceURI": "http://id.loc.gov/ontologies/bibframe/Publication",
-      "resourceLabel": "Publication (new)"
+      "resourceLabel": "Publication"
     },
     {
       "propertyTemplates": [
@@ -427,7 +427,7 @@
       ],
       "resourceURI": "http://id.loc.gov/ontologies/bibframe/Distribution",
       "id": "lc:RT:bf2:DistInfoNew",
-      "resourceLabel": "Distribution (new)"
+      "resourceLabel": "Distribution"
     },
     {
       "propertyTemplates": [
@@ -508,7 +508,7 @@
       ],
       "id": "lc:RT:bf2:ManuInfoNew",
       "resourceURI": "http://id.loc.gov/ontologies/bibframe/Manufacture",
-      "resourceLabel": "Manufacture (new)"
+      "resourceLabel": "Manufacture"
     },
     {
       "propertyTemplates": [
@@ -589,7 +589,7 @@
       ],
       "id": "lc:RT:bf2:ProdInfoNew",
       "resourceURI": "http://id.loc.gov/ontologies/bibframe/Production",
-      "resourceLabel": "Production (new)"
+      "resourceLabel": "Production"
     }
   ],
   "id": "lc:profile:bf2:PublicationDistributionManufactureInformation",

@@ -54,6 +54,6 @@
     }
   ],
   "id": "lc:RT:bf2:ManufactureInformation",
-  "resourceLabel": "Manufacture",
+  "resourceLabel": "Manufacture (old)",
   "resourceURI": "http://id.loc.gov/ontologies/bibframe/Manufacture"
 }

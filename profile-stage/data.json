@@ -29745,12 +29745,7 @@
                   "useValuesFrom": [
                     "https://id.loc.gov/vocabulary/identifiers"
                   ],
-                  "defaults": [
-                    {
-                      "defaultURI": "",
-                      "defaultLiteral": "Mavis"
-                    }
-                  ],
+                  "defaults": [],
                   "valueDataType": {
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Source"
                   }
@@ -29774,7 +29769,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2022-09-09T19:48:01.518Z",
+      "updateDate": "2022-09-09T19:56:30.031Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",
@@ -36023,7 +36018,7 @@
             "id": "lc:RT:bf2:PublicationInformation",
             "contact": "",
             "resourceURI": "http://id.loc.gov/ontologies/bibframe/Publication",
-            "resourceLabel": "Publication"
+            "resourceLabel": "Publication (old)"
           },
           {
             "propertyTemplates": [
@@ -36080,7 +36075,7 @@
                 "remark": "http://access.rdatoolkit.org/2.9.6.html"
               }
             ],
-            "resourceLabel": "Distribution",
+            "resourceLabel": "Distribution (old)",
             "id": "lc:RT:bf2:DistributionInformation",
             "resourceURI": "http://id.loc.gov/ontologies/bibframe/Distribution"
           },
@@ -36140,7 +36135,7 @@
               }
             ],
             "id": "lc:RT:bf2:ManufactureInformation",
-            "resourceLabel": "Manufacture",
+            "resourceLabel": "Manufacture (old)",
             "resourceURI": "http://id.loc.gov/ontologies/bibframe/Manufacture"
           },
           {
@@ -36198,7 +36193,7 @@
             ],
             "id": "lc:RT:bf2:ProductionInformation",
             "resourceURI": "http://id.loc.gov/ontologies/bibframe/Production",
-            "resourceLabel": "Production"
+            "resourceLabel": "Production (old)"
           },
           {
             "propertyTemplates": [
@@ -36309,7 +36304,7 @@
             ],
             "id": "lc:RT:bf2:PubInfoNew",
             "resourceURI": "http://id.loc.gov/ontologies/bibframe/Publication",
-            "resourceLabel": "Publication (new)"
+            "resourceLabel": "Publication"
           },
           {
             "propertyTemplates": [
@@ -36390,7 +36385,7 @@
             ],
             "resourceURI": "http://id.loc.gov/ontologies/bibframe/Distribution",
             "id": "lc:RT:bf2:DistInfoNew",
-            "resourceLabel": "Distribution (new)"
+            "resourceLabel": "Distribution"
           },
           {
             "propertyTemplates": [
@@ -36471,7 +36466,7 @@
             ],
             "id": "lc:RT:bf2:ManuInfoNew",
             "resourceURI": "http://id.loc.gov/ontologies/bibframe/Manufacture",
-            "resourceLabel": "Manufacture (new)"
+            "resourceLabel": "Manufacture"
           },
           {
             "propertyTemplates": [
@@ -36552,7 +36547,7 @@
             ],
             "id": "lc:RT:bf2:ProdInfoNew",
             "resourceURI": "http://id.loc.gov/ontologies/bibframe/Production",
-            "resourceLabel": "Production (new)"
+            "resourceLabel": "Production"
           }
         ],
         "id": "lc:profile:bf2:PublicationDistributionManufactureInformation",
@@ -36564,7 +36559,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2022-08-25T18:33:59.319Z",
+      "updateDate": "2022-09-13T17:16:45.739Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",
