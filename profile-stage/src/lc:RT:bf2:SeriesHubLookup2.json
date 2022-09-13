@@ -1,0 +1,40 @@
+{
+  "propertyTemplates": [
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [
+          "https://preprod-8080.id.loc.gov/resources/hubs/",
+          "https://preprod-8080.id.loc.gov/resources/works/"
+        ],
+        "defaults": [],
+        "valueDataType": {}
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/Series",
+      "propertyLabel": "Search Series Hub"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "resource",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [
+          "lc:RT:bf2:SeriesHubIssn2"
+        ],
+        "useValuesFrom": [],
+        "defaults": [],
+        "valueDataType": {}
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/identifiedBy",
+      "propertyLabel": "ISSN"
+    }
+  ],
+  "id": "lc:RT:bf2:SeriesHubLookup2",
+  "resourceURI": "http://id.loc.gov/ontologies/bibframe/Hub",
+  "resourceLabel": "Search Hub"
+}
