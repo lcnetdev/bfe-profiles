@@ -1097,6 +1097,22 @@
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [
+                    "lc:RT:bf2:SeriesHubLookup"
+                  ],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {}
+                },
+                "propertyURI": "http://id.loc.gov/ontologies/bflc/relationship",
+                "propertyLabel": "Search Series Hub"
+              },
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "resource",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [
                     "lc:RT:bf2:SeriesHub2"
                   ],
                   "useValuesFrom": [],
@@ -1104,7 +1120,7 @@
                   "valueDataType": {}
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bflc/relationship",
-                "propertyLabel": "Series Hub",
+                "propertyLabel": "Input Series Hub",
                 "remark": ""
               },
               {
@@ -1870,7 +1886,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2022-09-13T18:51:28.026Z",
+      "updateDate": "2022-09-13T19:33:12.233Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",

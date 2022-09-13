@@ -425,6 +425,22 @@
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [
+              "lc:RT:bf2:SeriesHubLookup"
+            ],
+            "useValuesFrom": [],
+            "defaults": [],
+            "valueDataType": {}
+          },
+          "propertyURI": "http://id.loc.gov/ontologies/bflc/relationship",
+          "propertyLabel": "Search Series Hub"
+        },
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "resource",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [
               "lc:RT:bf2:SeriesHub2"
             ],
             "useValuesFrom": [],
@@ -432,7 +448,7 @@
             "valueDataType": {}
           },
           "propertyURI": "http://id.loc.gov/ontologies/bflc/relationship",
-          "propertyLabel": "Series Hub",
+          "propertyLabel": "Input Series Hub",
           "remark": ""
         },
         {
