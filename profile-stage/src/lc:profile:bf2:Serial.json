@@ -2166,12 +2166,10 @@
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [],
-            "useValuesFrom": [
-              "http://id.loc.gov/vocabulary/countries"
-            ],
+            "useValuesFrom": [],
             "defaults": [],
             "valueDataType": {
-              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Place"
+              "dataTypeURI": ""
             }
           },
           "propertyURI": "http://id.loc.gov/ontologies/bflc/simplePlace",
@@ -2183,9 +2181,7 @@
           "type": "literal",
           "resourceTemplates": [],
           "valueConstraint": {
-            "valueTemplateRefs": [
-              "lc:RT:bf2:Provision:Name"
-            ],
+            "valueTemplateRefs": [],
             "useValuesFrom": [],
             "defaults": [],
             "valueDataType": {}
