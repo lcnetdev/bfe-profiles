@@ -29,9 +29,7 @@
           "lc:RT:bf2:ParallelTitle"
         ],
         "useValuesFrom": [],
-        "valueDataType": {
-          "remark": ""
-        },
+        "valueDataType": {},
         "defaults": []
       },
       "mandatory": "true",
@@ -76,7 +74,7 @@
       "type": "resource",
       "valueConstraint": {
         "valueTemplateRefs": [
-          "lc:RT:bf2:PublicationInformation",
+          "lc:RT:bf2:Serial:PubInfo",
           "lc:RT:bf2:DistributionInformation",
           "lc:RT:bf2:ManufactureInformation",
           "lc:RT:bf2:ProductionInformation"
@@ -99,9 +97,7 @@
         "useValuesFrom": [
           "http://id.loc.gov/vocabulary/issuance"
         ],
-        "valueDataType": {
-          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Issuance"
-        },
+        "valueDataType": {},
         "repeatable": "true",
         "editable": "false",
         "defaults": [
@@ -171,9 +167,7 @@
         "useValuesFrom": [
           "http://id.loc.gov/vocabulary/mediaTypes"
         ],
-        "valueDataType": {
-          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Media"
-        },
+        "valueDataType": {},
         "repeatable": "true",
         "editable": "false",
         "defaults": [
@@ -234,9 +228,7 @@
           "lc:RT:bf2:Serial:Frequency"
         ],
         "useValuesFrom": [],
-        "valueDataType": {
-          "dataTypeURI": ""
-        },
+        "valueDataType": {},
         "defaults": []
       },
       "propertyLabel": "Frequency",
@@ -254,9 +246,7 @@
         "useValuesFrom": [
           "http://id.loc.gov/vocabulary/carriers"
         ],
-        "valueDataType": {
-          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Carrier"
-        },
+        "valueDataType": {},
         "repeatable": "true",
         "editable": "false",
         "defaults": [
@@ -389,12 +379,10 @@
       "type": "resource",
       "resourceTemplates": [],
       "valueConstraint": {
-        "valueTemplateRefs": [
-          "lc:RT:bf2:Serial:Item"
-        ],
+        "valueTemplateRefs": [],
         "useValuesFrom": [],
-        "valueDataType": {},
-        "defaults": []
+        "defaults": [],
+        "valueDataType": {}
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/hasItem",
       "propertyLabel": "Has Item",

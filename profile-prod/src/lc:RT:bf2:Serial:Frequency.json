@@ -7,14 +7,9 @@
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [],
-        "useValuesFrom": [
-          "http://id.loc.gov/vocabulary/frequencies"
-        ],
-        "valueDataType": {
-          "dataTypeURI": ""
-        },
+        "useValuesFrom": [],
         "defaults": [],
-        "editable": "false"
+        "valueDataType": {}
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/Frequency",
       "propertyLabel": "Lookup",
@@ -41,9 +36,7 @@
       "type": "resource",
       "resourceTemplates": [],
       "valueConstraint": {
-        "valueTemplateRefs": [
-          "lc:RT:bf2:Note"
-        ],
+        "valueTemplateRefs": [],
         "useValuesFrom": [],
         "defaults": [],
         "valueDataType": {}

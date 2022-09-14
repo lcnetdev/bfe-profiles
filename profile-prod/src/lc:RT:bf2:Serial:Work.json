@@ -10,9 +10,7 @@
           "lc:RT:bflc:Agents:PrimaryContribution"
         ],
         "useValuesFrom": [],
-        "valueDataType": {
-          "dataTypeURI": "http://id.loc.gov/ontologies/bflc/PrimaryContribution"
-        },
+        "valueDataType": {},
         "defaults": [],
         "editable": "true"
       },
@@ -50,9 +48,7 @@
           "lc:RT:bf2:Form"
         ],
         "useValuesFrom": [],
-        "valueDataType": {
-          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/GenreForm"
-        },
+        "valueDataType": {},
         "defaults": [],
         "editable": "true"
       },
@@ -71,9 +67,7 @@
           "https://id.loc.gov/vocabulary/mserialpubtype"
         ],
         "defaults": [],
-        "valueDataType": {
-          "dataTypeURI": "http://id.loc.gov/ontologies/bflc/SerialPubType"
-        }
+        "valueDataType": {}
       },
       "propertyURI": "http://id.loc.gov/ontologies/bflc/serialPubType",
       "propertyLabel": "Type of continuing resource"
@@ -89,9 +83,7 @@
           "http://id.loc.gov/vocabulary/mgovtpubtype"
         ],
         "defaults": [],
-        "valueDataType": {
-          "dataTypeURI": "http://id.loc.gov/ontologies/bflc/GovernmentPubType"
-        }
+        "valueDataType": {}
       },
       "propertyURI": "http://id.loc.gov/ontologies/bflc/governmentPubType",
       "propertyLabel": "Government publication"
@@ -121,9 +113,7 @@
         "useValuesFrom": [
           "http://id.loc.gov/vocabulary/countries"
         ],
-        "valueDataType": {
-          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Place"
-        },
+        "valueDataType": {},
         "defaults": [],
         "editable": "true"
       },
@@ -192,9 +182,7 @@
         "useValuesFrom": [
           "http://id.loc.gov/vocabulary/maudience"
         ],
-        "valueDataType": {
-          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/IntendedAudience"
-        },
+        "valueDataType": {},
         "defaults": []
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/intendedAudience",
@@ -211,9 +199,7 @@
           "lc:RT:bf2:Agents:Contribution"
         ],
         "useValuesFrom": [],
-        "valueDataType": {
-          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Contribution"
-        },
+        "valueDataType": {},
         "defaults": [],
         "editable": "true"
       },
@@ -233,9 +219,7 @@
           "lc:RT:bf2:Topic:SubjectWork"
         ],
         "useValuesFrom": [],
-        "valueDataType": {
-          "dataTypeLabel": ""
-        },
+        "valueDataType": {},
         "defaults": [],
         "editable": "true"
       },
@@ -321,9 +305,7 @@
         "useValuesFrom": [
           "http://id.loc.gov/vocabulary/contentTypes"
         ],
-        "valueDataType": {
-          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Content"
-        },
+        "valueDataType": {},
         "editable": "false",
         "repeatable": "true",
         "defaults": [
@@ -347,9 +329,7 @@
           "lc:RT:bf2:Language2"
         ],
         "useValuesFrom": [],
-        "valueDataType": {
-          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Language"
-        },
+        "valueDataType": {},
         "editable": "false",
         "repeatable": "true",
         "defaults": []
@@ -368,9 +348,7 @@
         "useValuesFrom": [
           "http://id.loc.gov/vocabulary/mscript"
         ],
-        "valueDataType": {
-          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Script"
-        },
+        "valueDataType": {},
         "defaults": []
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/notation",
@@ -387,9 +365,7 @@
         "useValuesFrom": [
           "http://id.loc.gov/vocabulary/millus"
         ],
-        "valueDataType": {
-          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Illustration"
-        },
+        "valueDataType": {},
         "defaults": []
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/illustrativeContent",
@@ -423,9 +399,7 @@
         "useValuesFrom": [
           "http://id.loc.gov/vocabulary/msupplcont"
         ],
-        "valueDataType": {
-          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/SupplementaryContent"
-        },
+        "valueDataType": {},
         "defaults": []
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/supplementaryContent",
@@ -460,9 +434,7 @@
           "https://preprod-8080.id.loc.gov/resources/works/"
         ],
         "defaults": [],
-        "valueDataType": {
-          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Work"
-        }
+        "valueDataType": {}
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/precededBy",
       "propertyLabel": "Preceded By"
@@ -478,9 +450,7 @@
           "https://preprod-8080.id.loc.gov/resources/works/"
         ],
         "defaults": [],
-        "valueDataType": {
-          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Work"
-        },
+        "valueDataType": {},
         "editable": "false"
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/continues",
@@ -497,9 +467,7 @@
           "https://preprod-8080.id.loc.gov/resources/works/"
         ],
         "defaults": [],
-        "valueDataType": {
-          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Work"
-        },
+        "valueDataType": {},
         "editable": "false"
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/absorbed",
@@ -516,9 +484,7 @@
           "https://preprod-8080.id.loc.gov/resources/works/"
         ],
         "defaults": [],
-        "valueDataType": {
-          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Work"
-        },
+        "valueDataType": {},
         "editable": "false"
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/mergerOf",
@@ -535,9 +501,7 @@
           "https://preprod-8080.id.loc.gov/resources/works/"
         ],
         "defaults": [],
-        "valueDataType": {
-          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Work"
-        },
+        "valueDataType": {},
         "editable": "false"
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/separatedFrom",
@@ -570,9 +534,7 @@
           "https://preprod-8080.id.loc.gov/resources/works/"
         ],
         "defaults": [],
-        "valueDataType": {
-          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Work"
-        },
+        "valueDataType": {},
         "editable": "false"
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/continuedBy",
@@ -589,9 +551,7 @@
           "https://preprod-8080.id.loc.gov/resources/works/"
         ],
         "defaults": [],
-        "valueDataType": {
-          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Work"
-        },
+        "valueDataType": {},
         "editable": "false"
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/absorbedBy",
@@ -608,9 +568,7 @@
           "https://preprod-8080.id.loc.gov/resources/works/"
         ],
         "defaults": [],
-        "valueDataType": {
-          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Work"
-        },
+        "valueDataType": {},
         "editable": "false"
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/mergedToForm",
@@ -627,9 +585,7 @@
           "https://preprod-8080.id.loc.gov/resources/works/"
         ],
         "defaults": [],
-        "valueDataType": {
-          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Work"
-        },
+        "valueDataType": {},
         "editable": "false"
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/splitInto",
@@ -646,9 +602,7 @@
           "https://preprod-8080.id.loc.gov/resources/works/"
         ],
         "defaults": [],
-        "valueDataType": {
-          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Work"
-        },
+        "valueDataType": {},
         "editable": "false"
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/supplement",
@@ -665,9 +619,7 @@
           "https://preprod-8080.id.loc.gov/resources/works/"
         ],
         "defaults": [],
-        "valueDataType": {
-          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Work"
-        },
+        "valueDataType": {},
         "editable": "false"
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/supplementTo",
@@ -684,9 +636,7 @@
           "https://preprod-8080.id.loc.gov/resources/works/"
         ],
         "defaults": [],
-        "valueDataType": {
-          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Work"
-        }
+        "valueDataType": {}
       },
       "propertyURI": "http://id.loc.gov/ontologies/bflc/indexedIn",
       "propertyLabel": "Indexed in"
@@ -702,9 +652,7 @@
         ],
         "useValuesFrom": [],
         "defaults": [],
-        "valueDataType": {
-          "dataTypeURI": ""
-        },
+        "valueDataType": {},
         "editable": "false"
       },
       "propertyURI": "http://id.loc.gov/ontologies/bflc/relationship",

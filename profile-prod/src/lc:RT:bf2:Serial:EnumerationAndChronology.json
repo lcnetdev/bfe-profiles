@@ -8,8 +8,8 @@
       "valueConstraint": {
         "valueTemplateRefs": [],
         "useValuesFrom": [],
-        "valueDataType": {},
-        "defaults": []
+        "defaults": [],
+        "valueDataType": {}
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/firstIssue",
       "propertyLabel": "Numeric and/or Alphabetic Designation of First Issue or Part of Sequence",
@@ -23,8 +23,8 @@
       "valueConstraint": {
         "valueTemplateRefs": [],
         "useValuesFrom": [],
-        "valueDataType": {},
-        "defaults": []
+        "defaults": [],
+        "valueDataType": {}
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/firstIssue",
       "propertyLabel": "Chronological Designation of First Issue or Part of Sequence",
@@ -38,8 +38,8 @@
       "valueConstraint": {
         "valueTemplateRefs": [],
         "useValuesFrom": [],
-        "valueDataType": {},
-        "defaults": []
+        "defaults": [],
+        "valueDataType": {}
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/lastIssue",
       "propertyLabel": "Numeric and/or Alphabetic Designation of Last Issue or Part of Sequence",
@@ -53,8 +53,8 @@
       "valueConstraint": {
         "valueTemplateRefs": [],
         "useValuesFrom": [],
-        "valueDataType": {},
-        "defaults": []
+        "defaults": [],
+        "valueDataType": {}
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/lastIssue",
       "propertyLabel": "Chronological Designation of Last Issue or Part of Sequence",
