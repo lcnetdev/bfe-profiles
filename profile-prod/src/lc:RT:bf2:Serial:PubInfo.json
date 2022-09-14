@@ -7,9 +7,13 @@
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [],
-        "useValuesFrom": [],
+        "useValuesFrom": [
+          "http://id.loc.gov/vocabulary/countries"
+        ],
         "defaults": [],
-        "valueDataType": {}
+        "valueDataType": {
+          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Place"
+        }
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/place",
       "propertyLabel": "Place"
@@ -20,7 +24,9 @@
       "type": "resource",
       "resourceTemplates": [],
       "valueConstraint": {
-        "valueTemplateRefs": [],
+        "valueTemplateRefs": [
+          "lc:RT:bf2:Provision:Name"
+        ],
         "useValuesFrom": [],
         "defaults": [],
         "valueDataType": {}
@@ -48,7 +54,9 @@
       "type": "resource",
       "resourceTemplates": [],
       "valueConstraint": {
-        "valueTemplateRefs": [],
+        "valueTemplateRefs": [
+          "lc:RT:bf2:AppliesTo"
+        ],
         "useValuesFrom": [],
         "defaults": [],
         "valueDataType": {}

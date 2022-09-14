@@ -8221,9 +8221,13 @@
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [],
-                  "useValuesFrom": [],
+                  "useValuesFrom": [
+                    "http://id.loc.gov/vocabulary/countries"
+                  ],
                   "defaults": [],
-                  "valueDataType": {}
+                  "valueDataType": {
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Place"
+                  }
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/place",
                 "propertyLabel": "Place"
@@ -8234,7 +8238,9 @@
                 "type": "resource",
                 "resourceTemplates": [],
                 "valueConstraint": {
-                  "valueTemplateRefs": [],
+                  "valueTemplateRefs": [
+                    "lc:RT:bf2:Provision:Name"
+                  ],
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
@@ -8262,7 +8268,9 @@
                 "type": "resource",
                 "resourceTemplates": [],
                 "valueConstraint": {
-                  "valueTemplateRefs": [],
+                  "valueTemplateRefs": [
+                    "lc:RT:bf2:AppliesTo"
+                  ],
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
@@ -8303,7 +8311,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2022-09-14T20:40:02.975Z",
+      "updateDate": "2022-09-14T20:42:55.924Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",
