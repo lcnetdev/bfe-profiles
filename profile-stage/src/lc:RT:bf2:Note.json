@@ -27,7 +27,9 @@
           "https://id.loc.gov/vocabulary/mnotetype"
         ],
         "defaults": [],
-        "valueDataType": {}
+        "valueDataType": {
+          "dataTypeURI": "http://www.w3.org/2000/01/rdf-schema#Resource"
+        }
       },
       "propertyLabel": "Note type",
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/noteType",

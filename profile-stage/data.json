@@ -30135,7 +30135,9 @@
                     "https://id.loc.gov/vocabulary/mnotetype"
                   ],
                   "defaults": [],
-                  "valueDataType": {}
+                  "valueDataType": {
+                    "dataTypeURI": "http://www.w3.org/2000/01/rdf-schema#Resource"
+                  }
                 },
                 "propertyLabel": "Note type",
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/noteType",
@@ -30278,7 +30280,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2022-08-25T18:47:13.322Z",
+      "updateDate": "2022-09-20T19:16:52.183Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",
