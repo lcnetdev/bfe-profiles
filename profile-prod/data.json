@@ -6674,7 +6674,8 @@
                 },
                 "mandatory": "false",
                 "repeatable": "true",
-                "type": "resource"
+                "type": "resource",
+                "remark": "http://access.rdatoolkit.org/4.6.html"
               },
               {
                 "propertyLabel": "Notes about the Item",
@@ -6777,7 +6778,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2022-08-01T14:42:49.955Z",
+      "updateDate": "2022-09-21T15:06:51.713Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",
