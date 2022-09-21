@@ -728,7 +728,7 @@
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/originPlace",
                 "propertyLabel": "Place of Origin of the Work",
-                "remark": "https://original.rdatoolkit.org/6.5.html"
+                "remark": "http://original.rdatoolkit.org/rdachp6_rda6-3164.html"
               },
               {
                 "mandatory": "false",
@@ -833,7 +833,7 @@
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/awards",
                 "propertyLabel": "Award note",
-                "remark": ""
+                "remark": "http://original.rdatoolkit.org/rdachp7_rda7-2095.html"
               },
               {
                 "mandatory": "false",
@@ -912,7 +912,7 @@
               {
                 "mandatory": "true",
                 "repeatable": "true",
-                "type": "resource",
+                "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [],
@@ -959,7 +959,7 @@
               {
                 "mandatory": "false",
                 "repeatable": "true",
-                "type": "resource",
+                "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [],
@@ -1791,7 +1791,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2022-08-25T18:42:44.849Z",
+      "updateDate": "2022-09-21T14:58:05.262Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",
