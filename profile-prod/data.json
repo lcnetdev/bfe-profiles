@@ -14136,7 +14136,8 @@
                   "defaults": []
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/electronicLocator",
-                "propertyLabel": "URL of Item"
+                "propertyLabel": "URL of Item",
+                "remark": "http://access.rdatoolkit.org/4.6.html"
               },
               {
                 "mandatory": "false",
@@ -14470,7 +14471,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.059Z",
-      "updateDate": "2022-08-02T16:22:14.018Z",
+      "updateDate": "2022-09-21T15:01:29.493Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.059Z",
