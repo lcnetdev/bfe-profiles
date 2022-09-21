@@ -82,7 +82,8 @@
         ],
         "useValuesFrom": [],
         "defaults": []
-      }
+      },
+      "remark": "http://access.rdatoolkit.org/4.6.html"
     },
     {
       "propertyLabel": "Notes about the Item",

@@ -10948,7 +10948,8 @@
                   ],
                   "useValuesFrom": [],
                   "defaults": []
-                }
+                },
+                "remark": "http://access.rdatoolkit.org/4.6.html"
               },
               {
                 "propertyLabel": "Notes about the Item",
@@ -11380,7 +11381,7 @@
     },
     "metadata": {
       "createDate": "2019-04-11T20:45:09.452Z",
-      "updateDate": "2022-08-04T12:51:42.534Z",
+      "updateDate": "2022-09-21T15:02:09.596Z",
       "createUser": null,
       "updateUser": null
     },
