@@ -15546,7 +15546,8 @@
                 },
                 "mandatory": "false",
                 "repeatable": "true",
-                "type": "resource"
+                "type": "resource",
+                "remark": "http://access.rdatoolkit.org/4.6.html"
               },
               {
                 "propertyLabel": "Notes about the Item",
@@ -15597,7 +15598,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2022-06-09T16:05:33.328Z",
+      "updateDate": "2022-09-21T15:08:20.266Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",
