@@ -72,7 +72,8 @@
         "valueDataType": {}
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/electronicLocator",
-      "propertyLabel": "URL of Item"
+      "propertyLabel": "URL of Item",
+      "remark": "http://access.rdatoolkit.org/4.6.html"
     },
     {
       "mandatory": "false",
