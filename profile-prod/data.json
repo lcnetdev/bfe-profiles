@@ -1537,7 +1537,8 @@
                 },
                 "mandatory": "false",
                 "repeatable": "true",
-                "type": "resource"
+                "type": "resource",
+                "remark": "http://access.rdatoolkit.org/4.6.html"
               },
               {
                 "mandatory": "false",
@@ -1791,7 +1792,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2022-09-21T14:58:05.262Z",
+      "updateDate": "2022-09-21T15:01:50.903Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",

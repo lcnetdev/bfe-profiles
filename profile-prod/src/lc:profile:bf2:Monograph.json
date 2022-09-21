@@ -925,7 +925,8 @@
           },
           "mandatory": "false",
           "repeatable": "true",
-          "type": "resource"
+          "type": "resource",
+          "remark": "http://access.rdatoolkit.org/4.6.html"
         },
         {
           "mandatory": "false",
