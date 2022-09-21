@@ -2564,7 +2564,7 @@
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/electronicLocation",
                 "propertyLabel": "URL of digital item",
-                "remark": ""
+                "remark": "http://access.rdatoolkit.org/4.6.html"
               },
               {
                 "mandatory": "false",
@@ -2995,7 +2995,7 @@
     },
     "metadata": {
       "createDate": "2018-09-05T19:18:43.112Z",
-      "updateDate": "2022-08-02T13:51:05.014Z",
+      "updateDate": "2022-09-21T15:08:48.647Z",
       "createUser": null,
       "updateUser": null
     },
