@@ -448,7 +448,7 @@
             ],
             "id": "lc:RT:bf2:SeriesHub2",
             "resourceURI": "http://id.loc.gov/ontologies/bflc/Relationship",
-            "resourceLabel": "Input Series Hub"
+            "resourceLabel": "Input Series"
           },
           {
             "propertyTemplates": [
@@ -510,7 +510,7 @@
             ],
             "id": "lc:RT:bf2:SeriesHubSearch2",
             "resourceURI": "http://id.loc.gov/ontologies/bibframe/Series",
-            "resourceLabel": "Series Hub (input)"
+            "resourceLabel": "Series (input)"
           },
           {
             "propertyTemplates": [
@@ -684,7 +684,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2022-09-21T19:25:16.253Z",
+      "updateDate": "2022-09-21T20:31:22.643Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",
