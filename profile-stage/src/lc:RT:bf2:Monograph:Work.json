@@ -427,7 +427,9 @@
         ],
         "useValuesFrom": [],
         "defaults": [],
-        "valueDataType": {}
+        "valueDataType": {
+          "dataTypeURI": "http://id.loc.gov/ontologies/bflc/Relationship"
+        }
       },
       "propertyURI": "http://id.loc.gov/ontologies/bflc/relationship",
       "propertyLabel": "Input Series Hub",

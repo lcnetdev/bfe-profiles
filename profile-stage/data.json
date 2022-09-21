@@ -1126,7 +1126,9 @@
                   ],
                   "useValuesFrom": [],
                   "defaults": [],
-                  "valueDataType": {}
+                  "valueDataType": {
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bflc/Relationship"
+                  }
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bflc/relationship",
                 "propertyLabel": "Input Series Hub",
@@ -1895,7 +1897,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2022-09-21T17:49:20.936Z",
+      "updateDate": "2022-09-21T18:22:44.472Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",
