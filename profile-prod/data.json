@@ -7949,14 +7949,17 @@
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/electronicLocator",
                 "resourceTemplates": [],
                 "valueConstraint": {
-                  "valueTemplateRefs": [],
+                  "valueTemplateRefs": [
+                    "lc:RT:bf2:URL"
+                  ],
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
                 },
                 "mandatory": "false",
                 "repeatable": "true",
-                "type": "resource"
+                "type": "resource",
+                "remark": "http://access.rdatoolkit.org/4.6.html"
               },
               {
                 "propertyLabel": "Notes about the Item",
@@ -8314,7 +8317,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2022-09-14T20:42:55.924Z",
+      "updateDate": "2022-09-21T15:06:19.943Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",

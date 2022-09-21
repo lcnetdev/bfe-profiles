@@ -62,14 +62,17 @@
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/electronicLocator",
       "resourceTemplates": [],
       "valueConstraint": {
-        "valueTemplateRefs": [],
+        "valueTemplateRefs": [
+          "lc:RT:bf2:URL"
+        ],
         "useValuesFrom": [],
         "defaults": [],
         "valueDataType": {}
       },
       "mandatory": "false",
       "repeatable": "true",
-      "type": "resource"
+      "type": "resource",
+      "remark": "http://access.rdatoolkit.org/4.6.html"
     },
     {
       "propertyLabel": "Notes about the Item",
