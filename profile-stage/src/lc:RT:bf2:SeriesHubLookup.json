@@ -35,7 +35,7 @@
         "useValuesFrom": [],
         "defaults": [],
         "valueDataType": {
-          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Series"
+          "dataTypeURI": ""
         }
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/relatedTo",

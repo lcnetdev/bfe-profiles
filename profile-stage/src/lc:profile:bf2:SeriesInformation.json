@@ -82,7 +82,7 @@
       "resourceURI": "http://id.loc.gov/ontologies/bibframe/Instance",
       "id": "lc:RT:bf2:SeriesInformation",
       "resourceLabel": "Series Statement (unused)",
-      "remark": "http://access.rdatoolkit.org/rdachp2_rda2-7632.html"
+      "remark": ""
     },
     {
       "propertyTemplates": [
@@ -121,7 +121,7 @@
             "useValuesFrom": [],
             "defaults": [],
             "valueDataType": {
-              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Hub"
+              "dataTypeURI": ""
             }
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/relatedTo",
@@ -221,7 +221,7 @@
         }
       ],
       "id": "lc:RT:bf2:SeriesHubSearch2",
-      "resourceURI": "http://id.loc.gov/ontologies/bibframe/Hub",
+      "resourceURI": "http://id.loc.gov/ontologies/bibframe/Series",
       "resourceLabel": "Series Hub (input)"
     },
     {
@@ -321,7 +321,7 @@
             "useValuesFrom": [],
             "defaults": [],
             "valueDataType": {
-              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Series"
+              "dataTypeURI": ""
             }
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/relatedTo",

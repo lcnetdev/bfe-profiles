@@ -370,7 +370,7 @@
             "resourceURI": "http://id.loc.gov/ontologies/bibframe/Instance",
             "id": "lc:RT:bf2:SeriesInformation",
             "resourceLabel": "Series Statement (unused)",
-            "remark": "http://access.rdatoolkit.org/rdachp2_rda2-7632.html"
+            "remark": ""
           },
           {
             "propertyTemplates": [
@@ -409,7 +409,7 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Hub"
+                    "dataTypeURI": ""
                   }
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/relatedTo",
@@ -509,7 +509,7 @@
               }
             ],
             "id": "lc:RT:bf2:SeriesHubSearch2",
-            "resourceURI": "http://id.loc.gov/ontologies/bibframe/Hub",
+            "resourceURI": "http://id.loc.gov/ontologies/bibframe/Series",
             "resourceLabel": "Series Hub (input)"
           },
           {
@@ -609,7 +609,7 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Series"
+                    "dataTypeURI": ""
                   }
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/relatedTo",
@@ -684,7 +684,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2022-09-21T18:31:29.948Z",
+      "updateDate": "2022-09-21T19:25:16.253Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",
