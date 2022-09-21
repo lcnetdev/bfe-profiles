@@ -605,7 +605,7 @@
       },
       "mandatory": "false",
       "repeatable": "true",
-      "remark": ""
+      "remark": "http://access.rdatoolkit.org/4.6.html"
     },
     {
       "mandatory": "false",
