@@ -509,7 +509,7 @@
               }
             ],
             "id": "lc:RT:bf2:SeriesHubSearch2",
-            "resourceURI": "http://id.loc.gov/ontologies/bflc/Uncontrolled",
+            "resourceURI": "http://id.loc.gov/ontologies/bibframe/Hub",
             "resourceLabel": "Series Hub (input)"
           },
           {
@@ -679,12 +679,12 @@
         "title": "BIBFRAME 2.0 Series Information",
         "date": "2017-06-07",
         "author": "NDMSO",
-        "description": "Instance, Series Information"
+        "description": "Series Information"
       }
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2022-09-21T17:50:37.440Z",
+      "updateDate": "2022-09-21T18:31:29.948Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",

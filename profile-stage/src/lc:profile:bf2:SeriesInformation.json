@@ -221,7 +221,7 @@
         }
       ],
       "id": "lc:RT:bf2:SeriesHubSearch2",
-      "resourceURI": "http://id.loc.gov/ontologies/bflc/Uncontrolled",
+      "resourceURI": "http://id.loc.gov/ontologies/bibframe/Hub",
       "resourceLabel": "Series Hub (input)"
     },
     {
@@ -391,5 +391,5 @@
   "title": "BIBFRAME 2.0 Series Information",
   "date": "2017-06-07",
   "author": "NDMSO",
-  "description": "Instance, Series Information"
+  "description": "Series Information"
 }
