@@ -52,6 +52,6 @@
     }
   ],
   "id": "lc:RT:bf2:SeriesHubSearch2",
-  "resourceURI": "http://id.loc.gov/ontologies/bibframe/Hub",
+  "resourceURI": "http://id.loc.gov/ontologies/bflc/Uncontrolled",
   "resourceLabel": "Series Hub (input)"
 }

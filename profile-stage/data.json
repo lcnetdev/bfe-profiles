@@ -504,7 +504,7 @@
               }
             ],
             "id": "lc:RT:bf2:SeriesHubSearch2",
-            "resourceURI": "http://id.loc.gov/ontologies/bibframe/Hub",
+            "resourceURI": "http://id.loc.gov/ontologies/bflc/Uncontrolled",
             "resourceLabel": "Series Hub (input)"
           },
           {
@@ -679,7 +679,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2022-09-13T20:02:23.445Z",
+      "updateDate": "2022-09-21T17:43:09.392Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",
