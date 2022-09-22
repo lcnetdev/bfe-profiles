@@ -11925,6 +11925,102 @@
             "id": "lc:RT:bf2:Brief:Instance",
             "resourceURI": "http://id.loc.gov/ontologies/bibframe/Instance",
             "resourceLabel": "Related Instances"
+          },
+          {
+            "propertyTemplates": [
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "lookup",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [
+                    "lc:RT:bf2:Relation"
+                  ],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bflc/Relation"
+                  }
+                },
+                "propertyURI": "http://id.loc.gov/ontologies/bflc/relation",
+                "propertyLabel": "Relationship designator"
+              },
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "resource",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {}
+                },
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/title",
+                "propertyLabel": "Title"
+              },
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "resource",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {}
+                },
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/identifiedBy",
+                "propertyLabel": "Identifiers"
+              }
+            ],
+            "id": "lc:RT:bf2:RelWorkInput",
+            "resourceURI": "http://id.loc.gov/ontologies/bflc/Relationship",
+            "resourceLabel": "Related work not in LC catalog"
+          },
+          {
+            "propertyTemplates": [
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "literal",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {}
+                },
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/mainTitle",
+                "propertyLabel": "Input title"
+              }
+            ],
+            "id": "lc:RT:bf2:RelWorkInputTitle",
+            "resourceURI": "http://id.loc.gov/ontologies/bibframe/Title",
+            "resourceLabel": "Input title"
+          },
+          {
+            "propertyTemplates": [
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "literal",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {}
+                },
+                "propertyURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+                "propertyLabel": "Input OCLC number (with \"(OCoLC)\")",
+                "remark": "Idiomatic property used for structured values."
+              }
+            ],
+            "id": "lc:RT:bf2:RelWorkInputNumber",
+            "resourceURI": "http://id.loc.gov/ontologies/bibframe/Local",
+            "resourceLabel": "Input OCLC number"
           }
         ],
         "id": "lc:profile:bf2:RelatedWorkorExpression",
@@ -11936,7 +12032,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2022-07-19T21:55:38.797Z",
+      "updateDate": "2022-09-22T19:59:53.533Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",
