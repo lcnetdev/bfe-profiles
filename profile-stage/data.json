@@ -3759,7 +3759,7 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bflc/PrimaryContribution"
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Contribution"
                   }
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/contribution",
@@ -3916,7 +3916,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2022-09-22T19:44:00.244Z",
+      "updateDate": "2022-09-22T19:47:06.649Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",
