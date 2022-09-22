@@ -3844,13 +3844,13 @@
               {
                 "mandatory": "false",
                 "repeatable": "true",
-                "type": "resource",
+                "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
-                  "valueTemplateRefs": [
-                    "lc:RT:bf2:Relation"
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [
+                    "http://id.loc.gov/entities/relationships"
                   ],
-                  "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {
                     "dataTypeURI": "http://id.loc.gov/ontologies/bflc/Relation"
@@ -3874,7 +3874,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2022-09-08T20:21:39.297Z",
+      "updateDate": "2022-09-22T19:33:33.188Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",
