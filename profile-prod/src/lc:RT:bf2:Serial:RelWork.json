@@ -41,22 +41,6 @@
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [
-          "lc:RT:bf2:NoteSimple"
-        ],
-        "useValuesFrom": [],
-        "defaults": [],
-        "valueDataType": {}
-      },
-      "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
-      "propertyLabel": "Note"
-    },
-    {
-      "mandatory": "false",
-      "repeatable": "true",
-      "type": "resource",
-      "resourceTemplates": [],
-      "valueConstraint": {
-        "valueTemplateRefs": [
           "lc:RT:bf2:Identifiers:LCCN",
           "lc:RT:bf2:Identifiers:Local"
         ],
