@@ -668,7 +668,9 @@
           "lc:RT:bf2:Serial:RelWork"
         ],
         "useValuesFrom": [],
-        "valueDataType": {},
+        "valueDataType": {
+          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Work"
+        },
         "repeatable": "false",
         "editable": "true",
         "defaults": []
