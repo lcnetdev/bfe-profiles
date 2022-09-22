@@ -3733,7 +3733,7 @@
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [
-                    "lc:RT:bf2:WorkTitle"
+                    "lc:RT:bf2:RelWorkInputTitle"
                   ],
                   "useValuesFrom": [],
                   "defaults": [],
@@ -3895,7 +3895,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2022-09-22T19:37:52.641Z",
+      "updateDate": "2022-09-22T19:39:05.338Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",

@@ -511,7 +511,7 @@
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [
-              "lc:RT:bf2:WorkTitle"
+              "lc:RT:bf2:RelWorkInputTitle"
             ],
             "useValuesFrom": [],
             "defaults": [],
