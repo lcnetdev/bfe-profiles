@@ -496,7 +496,7 @@
         {
           "mandatory": "false",
           "repeatable": "true",
-          "type": "lookup",
+          "type": "resource",
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [
@@ -517,7 +517,9 @@
           "type": "resource",
           "resourceTemplates": [],
           "valueConstraint": {
-            "valueTemplateRefs": [],
+            "valueTemplateRefs": [
+              "lc:RT:bf2:RelWorkInputTitle"
+            ],
             "useValuesFrom": [],
             "defaults": [],
             "valueDataType": {}
@@ -531,7 +533,9 @@
           "type": "resource",
           "resourceTemplates": [],
           "valueConstraint": {
-            "valueTemplateRefs": [],
+            "valueTemplateRefs": [
+              "lc:RT:bf2:RelWorkInputNumber"
+            ],
             "useValuesFrom": [],
             "defaults": [],
             "valueDataType": {}
