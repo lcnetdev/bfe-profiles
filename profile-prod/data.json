@@ -1032,6 +1032,22 @@
               {
                 "mandatory": "false",
                 "repeatable": "true",
+                "type": "lookup",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [
+                    "https://preprod-8080.id.loc.gov/resources/works/"
+                  ],
+                  "defaults": [],
+                  "valueDataType": {}
+                },
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/otherPhysicalFormat",
+                "propertyLabel": "Other physical format"
+              },
+              {
+                "mandatory": "false",
+                "repeatable": "true",
                 "type": "resource",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -1808,7 +1824,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2022-09-22T17:51:00.306Z",
+      "updateDate": "2022-09-22T18:00:45.851Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",
