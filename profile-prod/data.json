@@ -1069,6 +1069,22 @@
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [
+                    "lc:RT:bf2:RelWorkInput"
+                  ],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {}
+                },
+                "propertyURI": "http://id.loc.gov/ontologies/bflc/relationship",
+                "propertyLabel": "Related work not in LC catalog"
+              },
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "resource",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [
                     "lc:RT:bf2:Monograph:Dissertation"
                   ],
                   "useValuesFrom": [],
@@ -1824,7 +1840,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2022-09-22T18:02:26.325Z",
+      "updateDate": "2022-09-22T20:02:05.650Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",
