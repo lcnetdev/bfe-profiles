@@ -65,8 +65,7 @@
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [
-          "lc:RT:bf2:Identifiers:Local",
-          "lc:RT:bf2:Identifiers:ISBN"
+          "lc:RT:bf2:RelWorkInputNumber"
         ],
         "useValuesFrom": [],
         "defaults": [],
