@@ -3847,6 +3847,28 @@
               {
                 "mandatory": "false",
                 "repeatable": "true",
+                "type": "literal",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {}
+                },
+                "propertyURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+                "propertyLabel": "Input OCLC number",
+                "remark": ""
+              }
+            ],
+            "resourceURI": "http://id.loc.gov/ontologies/bibframe/Local",
+            "id": "lc:RT:bf2:RelWorkInputNumber",
+            "resourceLabel": "Input OCLC number"
+          },
+          {
+            "propertyTemplates": [
+              {
+                "mandatory": "false",
+                "repeatable": "true",
                 "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -3895,7 +3917,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2022-09-22T19:39:05.338Z",
+      "updateDate": "2022-09-22T19:43:04.088Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",
