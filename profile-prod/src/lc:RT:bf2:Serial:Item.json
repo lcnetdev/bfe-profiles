@@ -5,12 +5,21 @@
       "propertyLabel": "Held by",
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/heldBy",
       "resourceTemplates": [],
-      "type": "resource",
+      "type": "lookup",
       "valueConstraint": {
         "valueTemplateRefs": [],
-        "useValuesFrom": [],
-        "defaults": [],
-        "valueDataType": {}
+        "useValuesFrom": [
+          "http://id.loc.gov/vocabulary/organizations"
+        ],
+        "defaults": [
+          {
+            "defaultURI": "http://id.loc.gov/vocabulary/organizations/dlc",
+            "defaultLiteral": "United States. Library of Congress"
+          }
+        ],
+        "valueDataType": {
+          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Agent"
+        }
       },
       "mandatory": "false",
       "repeatable": "false"
@@ -20,7 +29,9 @@
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/shelfMark",
       "resourceTemplates": [],
       "valueConstraint": {
-        "valueTemplateRefs": [],
+        "valueTemplateRefs": [
+          "lc:RT:bf2:Identifiers:LC"
+        ],
         "useValuesFrom": [],
         "defaults": [],
         "valueDataType": {}
@@ -34,10 +45,14 @@
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/sublocation",
       "resourceTemplates": [],
       "valueConstraint": {
-        "valueTemplateRefs": [],
+        "valueTemplateRefs": [
+          "lc:RT:bf2:Item:Location"
+        ],
         "useValuesFrom": [],
         "defaults": [],
-        "valueDataType": {}
+        "valueDataType": {
+          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Sublocation"
+        }
       },
       "mandatory": "false",
       "repeatable": "true",
@@ -48,7 +63,9 @@
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/identifiedBy",
       "resourceTemplates": [],
       "valueConstraint": {
-        "valueTemplateRefs": [],
+        "valueTemplateRefs": [
+          "lc:RT:bf2:Identifiers:Barcode"
+        ],
         "useValuesFrom": [],
         "defaults": [],
         "valueDataType": {}
@@ -79,7 +96,9 @@
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
       "resourceTemplates": [],
       "valueConstraint": {
-        "valueTemplateRefs": [],
+        "valueTemplateRefs": [
+          "lc:RT:bf2:Note"
+        ],
         "useValuesFrom": [],
         "defaults": [],
         "valueDataType": {}
@@ -93,7 +112,11 @@
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/usageAndAccessPolicy",
       "resourceTemplates": [],
       "valueConstraint": {
-        "valueTemplateRefs": [],
+        "valueTemplateRefs": [
+          "lc:RT:bf2:Item:Access",
+          "lc:RT:bf2:Item:Use",
+          "lc:RT:bf2:Item:Retention"
+        ],
         "useValuesFrom": [],
         "defaults": [],
         "valueDataType": {}
@@ -108,7 +131,10 @@
       "type": "resource",
       "resourceTemplates": [],
       "valueConstraint": {
-        "valueTemplateRefs": [],
+        "valueTemplateRefs": [
+          "lc:RT:bf2:Item:Enumeration",
+          "lc:RT:bf2:Item:Chronology"
+        ],
         "useValuesFrom": [],
         "defaults": [],
         "valueDataType": {}
