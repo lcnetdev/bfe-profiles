@@ -70,7 +70,7 @@
           "propertyLabel": "Applies to"
         }
       ],
-      "id": "lc:RT:bf2:SeriesHub2",
+      "id": "lc:RT:bf2:SeriesHub",
       "resourceURI": "http://id.loc.gov/ontologies/bflc/Relationship",
       "resourceLabel": "Input Series Hub"
     },
@@ -132,7 +132,7 @@
           "propertyLabel": "ISSN"
         }
       ],
-      "id": "lc:RT:bf2:SeriesHubSearch2",
+      "id": "lc:RT:bf2:SeriesHubInput",
       "resourceURI": "http://id.loc.gov/ontologies/bibframe/Series",
       "resourceLabel": "Series (input)"
     },
@@ -153,7 +153,7 @@
           "propertyLabel": "Title"
         }
       ],
-      "id": "lc:RT:bf2:SeriesHubTitle2",
+      "id": "lc:RT:bf2:SeriesHubTitle",
       "resourceURI": "http://id.loc.gov/ontologies/bibframe/Title",
       "resourceLabel": "Series Hub Title"
     },
@@ -192,7 +192,7 @@
           "propertyLabel": "Incorrect, Invalid or Canceled?"
         }
       ],
-      "id": "lc:RT:bf2:SeriesHubIssn2",
+      "id": "lc:RT:bf2:SeriesHubIssn",
       "resourceURI": "http://id.loc.gov/ontologies/bibframe/Issn",
       "resourceLabel": "Series Hub ISSN"
     },
@@ -227,7 +227,9 @@
           "type": "resource",
           "resourceTemplates": [],
           "valueConstraint": {
-            "valueTemplateRefs": [],
+            "valueTemplateRefs": [
+              "lc:RT:bf2:SeriesHubLookup2"
+            ],
             "useValuesFrom": [],
             "defaults": [],
             "valueDataType": {}

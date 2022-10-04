@@ -29,15 +29,13 @@
       "type": "resource",
       "resourceTemplates": [],
       "valueConstraint": {
-        "valueTemplateRefs": [
-          "lc:RT:bf2:SeriesHubLookup2"
-        ],
+        "valueTemplateRefs": [],
         "useValuesFrom": [],
         "defaults": [],
         "valueDataType": {}
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/relatedTo",
-      "propertyLabel": "Search Series Hub"
+      "propertyLabel": "Series Hub"
     },
     {
       "mandatory": "false",
@@ -52,9 +50,25 @@
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/seriesEnumeration",
       "propertyLabel": "Series enumeration"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "resource",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [
+          "lc:RT:bf2:AppliesTo"
+        ],
+        "useValuesFrom": [],
+        "defaults": [],
+        "valueDataType": {}
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bflc/appliesTo",
+      "propertyLabel": "Applies to"
     }
   ],
-  "id": "lc:RT:bf2:SeriesHubLookup",
+  "id": "lc:RT:bf2:SeriesHub",
   "resourceURI": "http://id.loc.gov/ontologies/bflc/Relationship",
-  "resourceLabel": "Search Series Hub"
+  "resourceLabel": "Input Series Hub"
 }
