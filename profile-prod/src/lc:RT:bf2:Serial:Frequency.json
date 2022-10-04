@@ -7,7 +7,9 @@
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [],
-        "useValuesFrom": [],
+        "useValuesFrom": [
+          "http://id.loc.gov/vocabulary/frequencies"
+        ],
         "defaults": [],
         "valueDataType": {}
       },
@@ -36,7 +38,9 @@
       "type": "resource",
       "resourceTemplates": [],
       "valueConstraint": {
-        "valueTemplateRefs": [],
+        "valueTemplateRefs": [
+          "lc:RT:bf2:NoteSimple"
+        ],
         "useValuesFrom": [],
         "defaults": [],
         "valueDataType": {}

@@ -8175,7 +8175,9 @@
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [],
-                  "useValuesFrom": [],
+                  "useValuesFrom": [
+                    "http://id.loc.gov/vocabulary/frequencies"
+                  ],
                   "defaults": [],
                   "valueDataType": {}
                 },
@@ -8204,7 +8206,9 @@
                 "type": "resource",
                 "resourceTemplates": [],
                 "valueConstraint": {
-                  "valueTemplateRefs": [],
+                  "valueTemplateRefs": [
+                    "lc:RT:bf2:NoteSimple"
+                  ],
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
@@ -8391,7 +8395,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2022-10-04T20:27:58.078Z",
+      "updateDate": "2022-10-04T20:29:43.220Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",
