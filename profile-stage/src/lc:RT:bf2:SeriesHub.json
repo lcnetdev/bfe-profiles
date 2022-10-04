@@ -21,8 +21,7 @@
         }
       },
       "propertyURI": "http://id.loc.gov/ontologies/bflc/relation",
-      "propertyLabel": "Relationship",
-      "remark": "Used with Work, Instance or Item"
+      "propertyLabel": "Relationship"
     },
     {
       "mandatory": "false",
@@ -31,22 +30,16 @@
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [
-          "lc:RT:bf2:SeriesHubSearch"
+          "lc:RT:bf2:SeriesHubSearch2"
         ],
         "useValuesFrom": [],
-        "defaults": [
-          {
-            "defaultURI": "",
-            "defaultLiteral": ""
-          }
-        ],
+        "defaults": [],
         "valueDataType": {
-          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Hub"
+          "dataTypeURI": ""
         }
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/relatedTo",
-      "propertyLabel": "Search Series Hub",
-      "remark": ""
+      "propertyLabel": "Series Hub"
     },
     {
       "mandatory": "false",
@@ -60,8 +53,7 @@
         "valueDataType": {}
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/seriesEnumeration",
-      "propertyLabel": "Series enumeration",
-      "remark": ""
+      "propertyLabel": "Series enumeration"
     },
     {
       "mandatory": "false",
@@ -77,11 +69,10 @@
         "valueDataType": {}
       },
       "propertyURI": "http://id.loc.gov/ontologies/bflc/appliesTo",
-      "propertyLabel": "Applies to",
-      "remark": ""
+      "propertyLabel": "Applies to"
     }
   ],
   "id": "lc:RT:bf2:SeriesHub",
   "resourceURI": "http://id.loc.gov/ontologies/bflc/Relationship",
-  "resourceLabel": "Series Hub (Work)"
+  "resourceLabel": "Input Series Hub"
 }

@@ -446,9 +446,9 @@
                 "propertyLabel": "Applies to"
               }
             ],
-            "id": "lc:RT:bf2:SeriesHub2",
+            "id": "lc:RT:bf2:SeriesHub",
             "resourceURI": "http://id.loc.gov/ontologies/bflc/Relationship",
-            "resourceLabel": "Input Series"
+            "resourceLabel": "Input Series Hub"
           },
           {
             "propertyTemplates": [
@@ -684,7 +684,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2022-09-21T20:31:22.643Z",
+      "updateDate": "2022-10-04T19:14:33.069Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",

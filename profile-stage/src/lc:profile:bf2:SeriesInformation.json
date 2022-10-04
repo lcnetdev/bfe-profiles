@@ -158,9 +158,9 @@
           "propertyLabel": "Applies to"
         }
       ],
-      "id": "lc:RT:bf2:SeriesHub2",
+      "id": "lc:RT:bf2:SeriesHub",
       "resourceURI": "http://id.loc.gov/ontologies/bflc/Relationship",
-      "resourceLabel": "Input Series"
+      "resourceLabel": "Input Series Hub"
     },
     {
       "propertyTemplates": [
