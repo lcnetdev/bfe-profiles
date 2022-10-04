@@ -35,7 +35,7 @@
         "valueDataType": {}
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/relatedTo",
-      "propertyLabel": "Series Hub"
+      "propertyLabel": "Search Series Hub"
     },
     {
       "mandatory": "false",
@@ -50,25 +50,9 @@
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/seriesEnumeration",
       "propertyLabel": "Series enumeration"
-    },
-    {
-      "mandatory": "false",
-      "repeatable": "true",
-      "type": "resource",
-      "resourceTemplates": [],
-      "valueConstraint": {
-        "valueTemplateRefs": [
-          "lc:RT:bf2:AppliesTo"
-        ],
-        "useValuesFrom": [],
-        "defaults": [],
-        "valueDataType": {}
-      },
-      "propertyURI": "http://id.loc.gov/ontologies/bflc/appliesTo",
-      "propertyLabel": "Applies to"
     }
   ],
-  "id": "lc:RT:bf2:SeriesHub2",
+  "id": "lc:RT:bf2:SeriesHubLookup",
   "resourceURI": "http://id.loc.gov/ontologies/bflc/Relationship",
-  "resourceLabel": "Input Series Hub"
+  "resourceLabel": "Search Series Hub"
 }

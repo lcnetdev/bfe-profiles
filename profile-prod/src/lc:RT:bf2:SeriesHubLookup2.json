@@ -1,0 +1,24 @@
+{
+  "propertyTemplates": [
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [
+          "https://preprod-8080.id.loc.gov/resources/hubs/",
+          "https://preprod-8080.id.loc.gov/resources/works/"
+        ],
+        "defaults": [],
+        "valueDataType": {}
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/Hub",
+      "propertyLabel": "Search Series Hub"
+    }
+  ],
+  "id": "lc:RT:bf2:SeriesHubLookup2",
+  "resourceURI": "http://www.w3.org/2000/01/rdf-schema#Resource",
+  "resourceLabel": "Search Hub"
+}
