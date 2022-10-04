@@ -423,7 +423,7 @@
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [
-          "lc:RT:bf2:SeriesHubInput"
+          "lc:RT:bf2:SeriesHub"
         ],
         "useValuesFrom": [],
         "defaults": [],
