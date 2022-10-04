@@ -29440,6 +29440,27 @@
             "id": "lc:RT:bf2:SeriesInformation",
             "resourceLabel": "Series Statement (unused)",
             "remark": "http://access.rdatoolkit.org/rdachp2_rda2-7632.html"
+          },
+          {
+            "propertyTemplates": [
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "lookup",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {}
+                },
+                "propertyURI": "http://id.loc.gov/ontologies/bflc/relation",
+                "propertyLabel": "Relationship"
+              }
+            ],
+            "id": "lc:RT:bf2:SeriesHub2",
+            "resourceURI": "http://id.loc.gov/ontologies/bflc/Relationship",
+            "resourceLabel": "Input Series"
           }
         ],
         "id": "lc:profile:bf2:SeriesInformation",
@@ -29451,7 +29472,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2019-09-12T16:06:49.970Z",
+      "updateDate": "2022-10-04T18:54:51.184Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",

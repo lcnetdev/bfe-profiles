@@ -83,6 +83,27 @@
       "id": "lc:RT:bf2:SeriesInformation",
       "resourceLabel": "Series Statement (unused)",
       "remark": "http://access.rdatoolkit.org/rdachp2_rda2-7632.html"
+    },
+    {
+      "propertyTemplates": [
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "lookup",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [],
+            "useValuesFrom": [],
+            "defaults": [],
+            "valueDataType": {}
+          },
+          "propertyURI": "http://id.loc.gov/ontologies/bflc/relation",
+          "propertyLabel": "Relationship"
+        }
+      ],
+      "id": "lc:RT:bf2:SeriesHub2",
+      "resourceURI": "http://id.loc.gov/ontologies/bflc/Relationship",
+      "resourceLabel": "Input Series"
     }
   ],
   "id": "lc:profile:bf2:SeriesInformation",
