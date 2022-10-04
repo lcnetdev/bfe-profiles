@@ -508,7 +508,7 @@
                 "propertyLabel": "ISSN"
               }
             ],
-            "id": "lc:RT:bf2:SeriesHubSearch2",
+            "id": "lc:RT:bf2:SeriesHubInput",
             "resourceURI": "http://id.loc.gov/ontologies/bibframe/Series",
             "resourceLabel": "Series (input)"
           },
@@ -529,7 +529,7 @@
                 "propertyLabel": "Title"
               }
             ],
-            "id": "lc:RT:bf2:SeriesHubTitle2",
+            "id": "lc:RT:bf2:SeriesHubTitle",
             "resourceURI": "http://id.loc.gov/ontologies/bibframe/Title",
             "resourceLabel": "Series Hub Title"
           },
@@ -568,7 +568,7 @@
                 "propertyLabel": "Incorrect, Invalid or Canceled?"
               }
             ],
-            "id": "lc:RT:bf2:SeriesHubIssn2",
+            "id": "lc:RT:bf2:SeriesHubIssn",
             "resourceURI": "http://id.loc.gov/ontologies/bibframe/Issn",
             "resourceLabel": "Series Hub ISSN"
           },
@@ -684,7 +684,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2022-10-04T19:14:33.069Z",
+      "updateDate": "2022-10-04T19:15:13.735Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",

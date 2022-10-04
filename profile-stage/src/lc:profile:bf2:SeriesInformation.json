@@ -220,7 +220,7 @@
           "propertyLabel": "ISSN"
         }
       ],
-      "id": "lc:RT:bf2:SeriesHubSearch2",
+      "id": "lc:RT:bf2:SeriesHubInput",
       "resourceURI": "http://id.loc.gov/ontologies/bibframe/Series",
       "resourceLabel": "Series (input)"
     },
@@ -241,7 +241,7 @@
           "propertyLabel": "Title"
         }
       ],
-      "id": "lc:RT:bf2:SeriesHubTitle2",
+      "id": "lc:RT:bf2:SeriesHubTitle",
       "resourceURI": "http://id.loc.gov/ontologies/bibframe/Title",
       "resourceLabel": "Series Hub Title"
     },
@@ -280,7 +280,7 @@
           "propertyLabel": "Incorrect, Invalid or Canceled?"
         }
       ],
-      "id": "lc:RT:bf2:SeriesHubIssn2",
+      "id": "lc:RT:bf2:SeriesHubIssn",
       "resourceURI": "http://id.loc.gov/ontologies/bibframe/Issn",
       "resourceLabel": "Series Hub ISSN"
     },
