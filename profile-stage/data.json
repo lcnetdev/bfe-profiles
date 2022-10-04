@@ -404,7 +404,7 @@
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [
-                    "lc:RT:bf2:SeriesHubSearch2"
+                    "lc:RT:bf2:SeriesHubInput"
                   ],
                   "useValuesFrom": [],
                   "defaults": [],
@@ -459,7 +459,7 @@
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [
-                    "lc:RT:bf2:SeriesHubTitle2"
+                    "lc:RT:bf2:SeriesHubTitle"
                   ],
                   "useValuesFrom": [],
                   "defaults": [],
@@ -498,7 +498,7 @@
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [
-                    "lc:RT:bf2:SeriesHubIssn2"
+                    "lc:RT:bf2:SeriesHubIssn"
                   ],
                   "useValuesFrom": [],
                   "defaults": [],
@@ -684,7 +684,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2022-10-04T19:15:13.735Z",
+      "updateDate": "2022-10-04T19:16:30.590Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",
