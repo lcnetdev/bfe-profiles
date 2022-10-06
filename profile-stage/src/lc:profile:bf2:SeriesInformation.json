@@ -421,7 +421,7 @@
         {
           "mandatory": "true",
           "repeatable": "true",
-          "type": "target",
+          "type": "lookup",
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [],

@@ -709,7 +709,7 @@
               {
                 "mandatory": "true",
                 "repeatable": "true",
-                "type": "target",
+                "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [],
@@ -743,7 +743,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2022-10-06T18:49:00.131Z",
+      "updateDate": "2022-10-06T18:50:27.927Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",
