@@ -548,24 +548,6 @@
                 },
                 "propertyURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
                 "propertyLabel": "ISSN"
-              },
-              {
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "lookup",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [
-                    "http://id.loc.gov/vocabulary/mstatus"
-                  ],
-                  "defaults": [],
-                  "valueDataType": {
-                    "dataTypeURI": ""
-                  }
-                },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/status",
-                "propertyLabel": "Incorrect, Invalid or Canceled?"
               }
             ],
             "id": "lc:RT:bf2:SeriesHubIssn",
@@ -727,7 +709,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2022-10-06T19:02:54.117Z",
+      "updateDate": "2022-10-06T19:04:55.503Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",
