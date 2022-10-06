@@ -20,12 +20,8 @@
       "type": "target",
       "resourceTemplates": [],
       "valueConstraint": {
-        "valueTemplateRefs": [
-          ""
-        ],
-        "useValuesFrom": [
-          ""
-        ],
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
         "defaults": [
           {
             "defaultURI": "http://id.loc.gov/vocabulary/mstatus/cancinv",
@@ -35,7 +31,7 @@
         "valueDataType": {
           "dataTypeURI": ""
         },
-        "editable": "false"
+        "editable": "true"
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/status",
       "propertyLabel": "ISSN Status"
