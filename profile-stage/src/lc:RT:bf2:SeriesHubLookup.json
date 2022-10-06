@@ -8,31 +8,8 @@
       "valueConstraint": {
         "valueTemplateRefs": [],
         "useValuesFrom": [
-          "http://id.loc.gov/ontologies/bibframe"
+          "https://preprod-8080.id.loc.gov/resources/hubs/"
         ],
-        "defaults": [
-          {
-            "defaultURI": "http://id.loc.gov/ontologies/bibframe/hasSeries",
-            "defaultLiteral": "Has Series"
-          }
-        ],
-        "valueDataType": {
-          "dataTypeURI": "http://id.loc.gov/ontologies/bflc/Relation"
-        }
-      },
-      "propertyURI": "http://id.loc.gov/ontologies/bflc/relation",
-      "propertyLabel": "Relationship"
-    },
-    {
-      "mandatory": "false",
-      "repeatable": "true",
-      "type": "resource",
-      "resourceTemplates": [],
-      "valueConstraint": {
-        "valueTemplateRefs": [
-          "lc:RT:bf2:SeriesHubLookup2"
-        ],
-        "useValuesFrom": [],
         "defaults": [],
         "valueDataType": {
           "dataTypeURI": ""
