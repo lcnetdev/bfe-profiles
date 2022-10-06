@@ -17,7 +17,7 @@
     {
       "mandatory": "true",
       "repeatable": "true",
-      "type": "lookup",
+      "type": "target",
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [
@@ -29,7 +29,7 @@
         "defaults": [
           {
             "defaultURI": "http://id.loc.gov/vocabulary/mstatus/cancinv",
-            "defaultLiteral": ""
+            "defaultLiteral": "Cancelled"
           }
         ],
         "valueDataType": {

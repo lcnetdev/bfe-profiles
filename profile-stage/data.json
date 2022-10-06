@@ -709,7 +709,7 @@
               {
                 "mandatory": "true",
                 "repeatable": "true",
-                "type": "lookup",
+                "type": "target",
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [
@@ -721,7 +721,7 @@
                   "defaults": [
                     {
                       "defaultURI": "http://id.loc.gov/vocabulary/mstatus/cancinv",
-                      "defaultLiteral": ""
+                      "defaultLiteral": "Cancelled"
                     }
                   ],
                   "valueDataType": {
@@ -747,7 +747,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2022-10-06T18:41:18.835Z",
+      "updateDate": "2022-10-06T18:42:22.315Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",
