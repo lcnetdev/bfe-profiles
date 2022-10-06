@@ -20,12 +20,22 @@
       "type": "lookup",
       "resourceTemplates": [],
       "valueConstraint": {
-        "valueTemplateRefs": [],
-        "useValuesFrom": [
-          "http://id.loc.gov/vocabulary/mstatus/cancinv"
+        "valueTemplateRefs": [
+          ""
         ],
-        "defaults": [],
-        "valueDataType": {}
+        "useValuesFrom": [
+          ""
+        ],
+        "defaults": [
+          {
+            "defaultURI": "http://id.loc.gov/vocabulary/mstatus/cancinv",
+            "defaultLiteral": ""
+          }
+        ],
+        "valueDataType": {
+          "dataTypeURI": ""
+        },
+        "editable": "false"
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/status",
       "propertyLabel": "ISSN Status"

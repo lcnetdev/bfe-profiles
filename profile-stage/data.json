@@ -712,12 +712,22 @@
                 "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [
-                    "http://id.loc.gov/vocabulary/mstatus/cancinv"
+                  "valueTemplateRefs": [
+                    ""
                   ],
-                  "defaults": [],
-                  "valueDataType": {}
+                  "useValuesFrom": [
+                    ""
+                  ],
+                  "defaults": [
+                    {
+                      "defaultURI": "http://id.loc.gov/vocabulary/mstatus/cancinv",
+                      "defaultLiteral": ""
+                    }
+                  ],
+                  "valueDataType": {
+                    "dataTypeURI": ""
+                  },
+                  "editable": "false"
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/status",
                 "propertyLabel": "ISSN Status"
@@ -737,7 +747,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2022-10-06T18:38:04.984Z",
+      "updateDate": "2022-10-06T18:41:18.835Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",
