@@ -35,7 +35,7 @@
         ],
         "defaults": [],
         "valueDataType": {
-          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Work"
+          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Series"
         }
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/relatedTo",
