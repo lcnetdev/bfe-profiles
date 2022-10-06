@@ -53,7 +53,7 @@
         "valueDataType": {}
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/identifiedBy",
-      "propertyLabel": "ISSN"
+      "propertyLabel": "Valid ISSN"
     }
   ],
   "id": "lc:RT:bf2:SeriesHubInput",
