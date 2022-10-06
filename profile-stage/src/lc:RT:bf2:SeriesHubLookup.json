@@ -26,16 +26,16 @@
     {
       "mandatory": "false",
       "repeatable": "true",
-      "type": "resource",
+      "type": "lookup",
       "resourceTemplates": [],
       "valueConstraint": {
-        "valueTemplateRefs": [
-          "lc:RT:bf2:SeriesHubLookup2"
+        "valueTemplateRefs": [],
+        "useValuesFrom": [
+          "https://preprod-8080.id.loc.gov/resources/hubs/"
         ],
-        "useValuesFrom": [],
         "defaults": [],
         "valueDataType": {
-          "dataTypeURI": ""
+          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Hub"
         }
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/relatedTo",
