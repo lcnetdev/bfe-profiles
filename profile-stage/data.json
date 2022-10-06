@@ -563,7 +563,9 @@
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [],
-                  "useValuesFrom": [],
+                  "useValuesFrom": [
+                    "http://id.loc.gov/ontologies/bibframe"
+                  ],
                   "defaults": [
                     {
                       "defaultURI": "http://id.loc.gov/ontologies/bibframe/hasSeries",
@@ -580,13 +582,13 @@
               {
                 "mandatory": "false",
                 "repeatable": "true",
-                "type": "lookup",
+                "type": "resource",
                 "resourceTemplates": [],
                 "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [
-                    "https://preprod-8080.id.loc.gov/resources/hubs/"
+                  "valueTemplateRefs": [
+                    "lc:RT:bf2:SeriesHubLookup2"
                   ],
+                  "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {
                     "dataTypeURI": ""
@@ -707,7 +709,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2022-10-06T19:19:10.691Z",
+      "updateDate": "2022-10-06T19:22:33.921Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",
