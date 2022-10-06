@@ -591,7 +591,7 @@
                   ],
                   "defaults": [],
                   "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Hub"
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Work"
                   }
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/relatedTo",
@@ -709,7 +709,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2022-10-06T21:52:10.630Z",
+      "updateDate": "2022-10-06T21:53:59.112Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",
