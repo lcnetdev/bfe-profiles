@@ -506,6 +506,22 @@
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/identifiedBy",
                 "propertyLabel": "Valid ISSN"
+              },
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "resource",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [
+                    "lc:RT:bf2:SeriesHubIssnCancelled"
+                  ],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {}
+                },
+                "propertyLabel": "Cancelled ISSN",
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/identifiedBy"
               }
             ],
             "id": "lc:RT:bf2:SeriesHubInput",
@@ -721,7 +737,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2022-10-06T18:35:39.587Z",
+      "updateDate": "2022-10-06T18:38:04.984Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",

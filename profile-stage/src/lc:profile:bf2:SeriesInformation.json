@@ -218,6 +218,22 @@
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/identifiedBy",
           "propertyLabel": "Valid ISSN"
+        },
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "resource",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [
+              "lc:RT:bf2:SeriesHubIssnCancelled"
+            ],
+            "useValuesFrom": [],
+            "defaults": [],
+            "valueDataType": {}
+          },
+          "propertyLabel": "Cancelled ISSN",
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/identifiedBy"
         }
       ],
       "id": "lc:RT:bf2:SeriesHubInput",
