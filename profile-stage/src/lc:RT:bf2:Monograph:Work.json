@@ -432,7 +432,7 @@
         }
       },
       "propertyURI": "http://id.loc.gov/ontologies/bflc/relationship",
-      "propertyLabel": "Input Series Hub",
+      "propertyLabel": "Input Transcribed Series",
       "remark": ""
     },
     {

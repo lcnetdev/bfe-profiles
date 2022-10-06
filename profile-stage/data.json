@@ -1131,7 +1131,7 @@
                   }
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bflc/relationship",
-                "propertyLabel": "Input Series Hub",
+                "propertyLabel": "Input Transcribed Series",
                 "remark": ""
               },
               {
@@ -1929,7 +1929,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2022-10-06T18:26:48.499Z",
+      "updateDate": "2022-10-06T18:28:22.014Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",
