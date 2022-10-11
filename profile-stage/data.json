@@ -36548,7 +36548,7 @@
                   "remark": "EDTF"
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/date",
-                "propertyLabel": "Date (to/from 008)",
+                "propertyLabel": "EDTF Date (to/from 008)",
                 "remark": ""
               },
               {
@@ -36871,7 +36871,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2022-10-11T15:57:23.303Z",
+      "updateDate": "2022-10-11T16:01:09.417Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",
