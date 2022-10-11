@@ -22294,7 +22294,7 @@
                   "valueDataType": {}
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/date",
-                "propertyLabel": "Date (from 008)"
+                "propertyLabel": "Date (to/from 008)"
               },
               {
                 "mandatory": "false",
@@ -22312,7 +22312,7 @@
                   }
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/place",
-                "propertyLabel": "Search place of publication (from 008)"
+                "propertyLabel": "Search place of publication (to/from 008)"
               },
               {
                 "mandatory": "false",
@@ -22326,7 +22326,7 @@
                   "valueDataType": {}
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bflc/simplePlace",
-                "propertyLabel": "Place (from 26X $a)"
+                "propertyLabel": "Place (to/from 26X $a)"
               },
               {
                 "mandatory": "false",
@@ -22340,7 +22340,7 @@
                   "valueDataType": {}
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bflc/simpleAgent",
-                "propertyLabel": "Name (from 26X $b)"
+                "propertyLabel": "Name (to/from 26X $b)"
               },
               {
                 "mandatory": "false",
@@ -22354,7 +22354,7 @@
                   "valueDataType": {}
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bflc/simpleDate",
-                "propertyLabel": "Date (from 26X $c)"
+                "propertyLabel": "Date (to/from 26X $c)"
               }
             ],
             "id": "lc:RT:bf2:PubInfoNew",
@@ -22375,7 +22375,7 @@
                   "valueDataType": {}
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/date",
-                "propertyLabel": "Date (from 008)"
+                "propertyLabel": "Date (to/from 008)"
               },
               {
                 "mandatory": "false",
@@ -22393,7 +22393,7 @@
                   }
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/place",
-                "propertyLabel": "Search place of publication (from 008)"
+                "propertyLabel": "Search place of publication (to/from 008)"
               },
               {
                 "mandatory": "false",
@@ -22407,7 +22407,7 @@
                   "valueDataType": {}
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bflc/simplePlace",
-                "propertyLabel": "Place (from 26X $a)"
+                "propertyLabel": "Place (to/from 26X $a)"
               },
               {
                 "mandatory": "false",
@@ -22421,7 +22421,7 @@
                   "valueDataType": {}
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bflc/simpleAgent",
-                "propertyLabel": "Name (from 26X $b)"
+                "propertyLabel": "Name (to/from 26X $b)"
               },
               {
                 "mandatory": "false",
@@ -22435,7 +22435,7 @@
                   "valueDataType": {}
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bflc/simpleDate",
-                "propertyLabel": "Date (from 26X $c)"
+                "propertyLabel": "Date (to/from 26X $c)"
               }
             ],
             "id": "lc:RT:bf2:DistInfoNew",
@@ -22456,7 +22456,7 @@
                   "valueDataType": {}
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/date",
-                "propertyLabel": "Date (from 008)"
+                "propertyLabel": "Date (to/from 008)"
               },
               {
                 "mandatory": "false",
@@ -22474,7 +22474,7 @@
                   }
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/place",
-                "propertyLabel": "Search place of publication (from 008)"
+                "propertyLabel": "Search place of publication (to/from 008)"
               },
               {
                 "mandatory": "false",
@@ -22488,7 +22488,7 @@
                   "valueDataType": {}
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bflc/simplePlace",
-                "propertyLabel": "Place (from 26X $a)"
+                "propertyLabel": "Place (to/from 26X $a)"
               },
               {
                 "mandatory": "false",
@@ -22502,7 +22502,7 @@
                   "valueDataType": {}
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bflc/simpleAgent",
-                "propertyLabel": "Name (from 26X $b)"
+                "propertyLabel": "Name (to/from 26X $b)"
               },
               {
                 "mandatory": "false",
@@ -22516,7 +22516,7 @@
                   "valueDataType": {}
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bflc/simpleDate",
-                "propertyLabel": "Date (from 26X $c)"
+                "propertyLabel": "Date (to/from 26X $c)"
               }
             ],
             "id": "lc:RT:bf2:ManuInfoNew",
@@ -22537,7 +22537,7 @@
                   "valueDataType": {}
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/date",
-                "propertyLabel": "Date (from 008)"
+                "propertyLabel": "Date (to/from 008)"
               },
               {
                 "mandatory": "false",
@@ -22555,7 +22555,7 @@
                   }
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/place",
-                "propertyLabel": "Search place of publication (from 008)"
+                "propertyLabel": "Search place of publication (to/from 008)"
               },
               {
                 "mandatory": "false",
@@ -22569,7 +22569,7 @@
                   "valueDataType": {}
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bflc/simplePlace",
-                "propertyLabel": "Place (from 26X $a)"
+                "propertyLabel": "Place (to/from 26X $a)"
               },
               {
                 "mandatory": "false",
@@ -22583,7 +22583,7 @@
                   "valueDataType": {}
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bflc/simpleAgent",
-                "propertyLabel": "Name (from 26X $b)"
+                "propertyLabel": "Name (to/from 26X $b)"
               },
               {
                 "mandatory": "false",
@@ -22597,7 +22597,7 @@
                   "valueDataType": {}
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bflc/simpleDate",
-                "propertyLabel": "Date (from 26X $c)"
+                "propertyLabel": "Date (to/from 26X $c)"
               }
             ],
             "id": "lc:RT:bf2:ProdInfoNew",
@@ -22614,7 +22614,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2022-10-04T18:53:38.729Z",
+      "updateDate": "2022-10-11T15:53:36.334Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",
