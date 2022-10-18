@@ -36,7 +36,9 @@
             ],
             "useValuesFrom": [],
             "defaults": [],
-            "valueDataType": {}
+            "valueDataType": {
+              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Series"
+            }
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/relatedTo",
           "propertyLabel": "Series Hub"
@@ -74,7 +76,7 @@
       ],
       "id": "lc:RT:bf2:SeriesHub",
       "resourceURI": "http://id.loc.gov/ontologies/bflc/Relationship",
-      "resourceLabel": "Input Series Hub"
+      "resourceLabel": "Input Transcribed Series"
     },
     {
       "propertyTemplates": [
@@ -97,7 +99,7 @@
         {
           "mandatory": "false",
           "repeatable": "true",
-          "type": "lookup",
+          "type": "resource",
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [],
@@ -174,24 +176,6 @@
           },
           "propertyURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
           "propertyLabel": "ISSN"
-        },
-        {
-          "mandatory": "false",
-          "repeatable": "true",
-          "type": "lookup",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [],
-            "useValuesFrom": [
-              "http://id.loc.gov/vocabulary/mstatus"
-            ],
-            "defaults": [],
-            "valueDataType": {
-              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Status"
-            }
-          },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/status",
-          "propertyLabel": "Incorrect, Invalid or Canceled?"
         }
       ],
       "id": "lc:RT:bf2:SeriesHubIssn",
@@ -226,15 +210,17 @@
         {
           "mandatory": "false",
           "repeatable": "true",
-          "type": "resource",
+          "type": "lookup",
           "resourceTemplates": [],
           "valueConstraint": {
-            "valueTemplateRefs": [
-              "lc:RT:bf2:SeriesHubLookup2"
+            "valueTemplateRefs": [],
+            "useValuesFrom": [
+              "https://preprod-8080.id.loc.gov/resources/hubs"
             ],
-            "useValuesFrom": [],
             "defaults": [],
-            "valueDataType": {}
+            "valueDataType": {
+              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Series"
+            }
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/relatedTo",
           "propertyLabel": "Search Series Hub"
@@ -257,30 +243,6 @@
       "id": "lc:RT:bf2:SeriesHubLookup",
       "resourceURI": "http://id.loc.gov/ontologies/bflc/Relationship",
       "resourceLabel": "Search Series Hub"
-    },
-    {
-      "propertyTemplates": [
-        {
-          "mandatory": "false",
-          "repeatable": "true",
-          "type": "lookup",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [],
-            "useValuesFrom": [
-              "https://preprod-8080.id.loc.gov/resources/hubs/",
-              "https://preprod-8080.id.loc.gov/resources/works/"
-            ],
-            "defaults": [],
-            "valueDataType": {}
-          },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/Hub",
-          "propertyLabel": "Search Series Hub"
-        }
-      ],
-      "id": "lc:RT:bf2:SeriesHubLookup2",
-      "resourceURI": "http://www.w3.org/2000/01/rdf-schema#Resource",
-      "resourceLabel": "Search Hub"
     }
   ],
   "id": "lc:profile:bf2:SeriesInformation",

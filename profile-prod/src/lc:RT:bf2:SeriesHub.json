@@ -34,7 +34,9 @@
         ],
         "useValuesFrom": [],
         "defaults": [],
-        "valueDataType": {}
+        "valueDataType": {
+          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Series"
+        }
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/relatedTo",
       "propertyLabel": "Series Hub"
@@ -72,5 +74,5 @@
   ],
   "id": "lc:RT:bf2:SeriesHub",
   "resourceURI": "http://id.loc.gov/ontologies/bflc/Relationship",
-  "resourceLabel": "Input Series Hub"
+  "resourceLabel": "Input Transcribed Series"
 }
