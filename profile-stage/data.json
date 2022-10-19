@@ -35635,14 +35635,15 @@
                     "http://id.loc.gov/authorities/genreForms"
                   ],
                   "valueDataType": {
-                    "dataTypeURI": ""
+                    "dataTypeURI": "",
+                    "remark": ""
                   },
                   "repeatable": "false",
                   "defaults": [],
-                  "remark": "http://www.w3.org/2002/07/owl#sameAs"
+                  "remark": ""
                 },
                 "propertyLabel": "Search LCGFT",
-                "propertyURI": "http://www.loc.gov/mads/rdf/v1#authoritativeLabel",
+                "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
                 "remark": ""
               },
               {
@@ -35856,7 +35857,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.059Z",
-      "updateDate": "2022-07-27T16:11:42.375Z",
+      "updateDate": "2022-10-19T15:44:34.857Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.059Z",
