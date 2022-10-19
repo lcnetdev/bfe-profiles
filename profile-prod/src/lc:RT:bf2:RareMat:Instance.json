@@ -95,10 +95,10 @@
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [
-          "lc:RT:bf2:PublicationInformation",
-          "lc:RT:bf2:DistributionInformation",
-          "lc:RT:bf2:ManufactureInformation",
-          "lc:RT:bf2:ProductionInformation"
+          "lc:RT:bf2:PubInfoNew",
+          "lc:RT:bf2:DistInfoNew",
+          "lc:RT:bf2:ManuInfoNew",
+          "lc:RT:bf2:ProdInfoNew"
         ],
         "useValuesFrom": [],
         "valueDataType": {},
@@ -106,21 +106,6 @@
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/provisionActivity",
       "propertyLabel": "Provision Activity"
-    },
-    {
-      "mandatory": "false",
-      "repeatable": "true",
-      "type": "literal",
-      "resourceTemplates": [],
-      "valueConstraint": {
-        "valueTemplateRefs": [],
-        "useValuesFrom": [],
-        "defaults": [],
-        "valueDataType": {}
-      },
-      "propertyURI": "http://id.loc.gov/ontologies/bibframe/provisionActivityStatement",
-      "propertyLabel": "Transcribed Provider Statement",
-      "remark": "https://original.rdatoolkit.org/2.8.html"
     },
     {
       "mandatory": "false",
