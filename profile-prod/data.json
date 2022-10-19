@@ -14009,10 +14009,10 @@
                   "useValuesFrom": [],
                   "valueDataType": {},
                   "valueTemplateRefs": [
-                    "lc:RT:bf2:PublicationInformation",
-                    "lc:RT:bf2:ManufactureInformation",
-                    "lc:RT:bf2:DistributionInformation",
-                    "lc:RT:bf2:ProductionInformation"
+                    "lc:RT:bf2:PubInfoNew",
+                    "lc:RT:bf2:ManuInfoNew",
+                    "lc:RT:bf2:DistInfoNew",
+                    "lc:RT:bf2:ProdInfoNew"
                   ],
                   "defaults": []
                 }
@@ -14774,7 +14774,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.059Z",
-      "updateDate": "2022-09-21T15:01:29.493Z",
+      "updateDate": "2022-10-19T12:10:12.315Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.059Z",
