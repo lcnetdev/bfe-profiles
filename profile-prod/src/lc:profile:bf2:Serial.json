@@ -779,10 +779,10 @@
           "type": "resource",
           "valueConstraint": {
             "valueTemplateRefs": [
-              "lc:RT:bf2:Serial:PubInfo",
-              "lc:RT:bf2:DistributionInformation",
-              "lc:RT:bf2:ManufactureInformation",
-              "lc:RT:bf2:ProductionInformation"
+              "lc:RT:bf2:Serial:PubInfoNew",
+              "lc:RT:bf2:DistInfoNew",
+              "lc:RT:bf2:ManuInfoNew",
+              "lc:RT:bf2:ProdInfoNew"
             ],
             "useValuesFrom": [],
             "valueDataType": {},
@@ -1462,94 +1462,6 @@
         {
           "mandatory": "false",
           "repeatable": "true",
-          "type": "lookup",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [],
-            "useValuesFrom": [
-              "http://id.loc.gov/vocabulary/countries"
-            ],
-            "defaults": [],
-            "valueDataType": {
-              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Place"
-            }
-          },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/place",
-          "propertyLabel": "Place"
-        },
-        {
-          "mandatory": "false",
-          "repeatable": "true",
-          "type": "resource",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [
-              "lc:RT:bf2:Provision:Name"
-            ],
-            "useValuesFrom": [],
-            "defaults": [],
-            "valueDataType": {}
-          },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/agent",
-          "propertyLabel": "Name"
-        },
-        {
-          "mandatory": "false",
-          "repeatable": "true",
-          "type": "literal",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [],
-            "useValuesFrom": [],
-            "defaults": [],
-            "valueDataType": {}
-          },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/date",
-          "propertyLabel": "Date"
-        },
-        {
-          "mandatory": "false",
-          "repeatable": "true",
-          "type": "resource",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [
-              "lc:RT:bf2:AppliesTo"
-            ],
-            "useValuesFrom": [],
-            "defaults": [],
-            "valueDataType": {}
-          },
-          "propertyURI": "http://id.loc.gov/ontologies/bflc/appliesTo",
-          "propertyLabel": "Applies to",
-          "remark": ""
-        },
-        {
-          "mandatory": "false",
-          "repeatable": "true",
-          "type": "lookup",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [],
-            "useValuesFrom": [
-              "http://id.loc.gov/vocabulary/mstatus"
-            ],
-            "defaults": [],
-            "valueDataType": {}
-          },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/status",
-          "propertyLabel": "Status"
-        }
-      ],
-      "id": "lc:RT:bf2:Serial:PubInfo",
-      "resourceURI": "http://id.loc.gov/ontologies/bibframe/Publication",
-      "resourceLabel": "Publication"
-    },
-    {
-      "propertyTemplates": [
-        {
-          "mandatory": "false",
-          "repeatable": "true",
           "type": "literal",
           "resourceTemplates": [],
           "valueConstraint": {
@@ -1658,7 +1570,7 @@
       ],
       "id": "lc:RT:bf2:Serial:PubInfoNew",
       "resourceURI": "http://id.loc.gov/ontologies/bibframe/Publication",
-      "resourceLabel": "Publication (new)"
+      "resourceLabel": "Publication"
     }
   ],
   "author": "NDMSO",
