@@ -17529,6 +17529,42 @@
                 "propertyURI": "http://id.loc.gov/ontologies/bflc/relationship",
                 "propertyLabel": "Related Works and Expressions",
                 "remark": "http://access.rdatoolkit.org/rdachp25_rda25-65.html"
+              },
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "resource",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [
+                    "lc:RT:bf2:SeriesHub"
+                  ],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bflc/relationship"
+                  }
+                },
+                "propertyURI": "http://id.loc.gov/ontologies/bflc/relationship",
+                "propertyLabel": "Input Transcribed Series"
+              },
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "resource",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [
+                    "lc:RT:bf2:SeriesHubLookup"
+                  ],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bflc/Relationship"
+                  }
+                },
+                "propertyURI": "http://id.loc.gov/ontologies/bflc/relationship",
+                "propertyLabel": "Search Series Hub"
               }
             ],
             "id": "lc:RT:bf2:TestCore:Work",
@@ -18253,7 +18289,7 @@
     },
     "metadata": {
       "createDate": "2019-08-13T19:17:13.434Z",
-      "updateDate": "2022-09-13T18:27:19.059Z",
+      "updateDate": "2022-10-19T13:57:16.726Z",
       "createUser": null,
       "updateUser": null
     },
