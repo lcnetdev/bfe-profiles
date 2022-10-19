@@ -27073,6 +27073,40 @@
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [
+                    "lc:RT:bf2:SeriesHub"
+                  ],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bflc/Relationship"
+                  }
+                },
+                "propertyURI": "http://id.loc.gov/ontologies/bflc/relationship",
+                "propertyLabel": "Input Transcribed Series"
+              },
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "resource",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bflc/Relationship"
+                  }
+                },
+                "propertyURI": "http://id.loc.gov/ontologies/bflc/relationship",
+                "propertyLabel": "Search Series Hub"
+              },
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "resource",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [
                     "lc:RT:bf2:RelatedWork"
                   ],
                   "useValuesFrom": [],
@@ -27952,7 +27986,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.059Z",
-      "updateDate": "2022-09-13T17:18:25.151Z",
+      "updateDate": "2022-10-19T13:17:31.771Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.059Z",
