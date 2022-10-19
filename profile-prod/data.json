@@ -10682,10 +10682,10 @@
                 "type": "resource",
                 "valueConstraint": {
                   "valueTemplateRefs": [
-                    "lc:RT:bf2:MonographNR:PubInfo",
-                    "lc:RT:bf2:MonographNR:DistInfo",
-                    "lc:RT:bf2:MonographNR:ManuInfo",
-                    "lc:RT:bf2:MonographNR:ProdInfo"
+                    "lc:RT:bf2:PubInfoNew",
+                    "lc:RT:bf2:DistInfoNew",
+                    "lc:RT:bf2:ManuInfoNew",
+                    "lc:RT:bf2:ProdInfoNew"
                   ],
                   "useValuesFrom": [],
                   "defaults": []
@@ -11479,7 +11479,7 @@
     },
     "metadata": {
       "createDate": "2019-04-11T20:45:09.452Z",
-      "updateDate": "2022-09-21T15:02:09.596Z",
+      "updateDate": "2022-10-19T12:19:24.773Z",
       "createUser": null,
       "updateUser": null
     },

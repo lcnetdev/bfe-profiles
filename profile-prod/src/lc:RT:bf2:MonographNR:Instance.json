@@ -68,10 +68,10 @@
       "type": "resource",
       "valueConstraint": {
         "valueTemplateRefs": [
-          "lc:RT:bf2:MonographNR:PubInfo",
-          "lc:RT:bf2:MonographNR:DistInfo",
-          "lc:RT:bf2:MonographNR:ManuInfo",
-          "lc:RT:bf2:MonographNR:ProdInfo"
+          "lc:RT:bf2:PubInfoNew",
+          "lc:RT:bf2:DistInfoNew",
+          "lc:RT:bf2:ManuInfoNew",
+          "lc:RT:bf2:ProdInfoNew"
         ],
         "useValuesFrom": [],
         "defaults": []
