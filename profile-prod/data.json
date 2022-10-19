@@ -22579,7 +22579,7 @@
               {
                 "mandatory": "false",
                 "repeatable": "false",
-                "type": "resource",
+                "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [],
@@ -22593,7 +22593,7 @@
                   "defaults": []
                 },
                 "propertyLabel": "Search LCGFT",
-                "propertyURI": "http://www.loc.gov/mads/rdf/v1#authoritativeLabel",
+                "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
                 "remark": ""
               },
               {
@@ -22773,7 +22773,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.059Z",
-      "updateDate": "2022-04-26T14:13:44.287Z",
+      "updateDate": "2022-10-19T15:47:04.179Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.059Z",

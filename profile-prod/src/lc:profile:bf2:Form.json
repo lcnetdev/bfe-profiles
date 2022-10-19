@@ -5,7 +5,7 @@
         {
           "mandatory": "false",
           "repeatable": "false",
-          "type": "resource",
+          "type": "lookup",
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [],
@@ -19,7 +19,7 @@
             "defaults": []
           },
           "propertyLabel": "Search LCGFT",
-          "propertyURI": "http://www.loc.gov/mads/rdf/v1#authoritativeLabel",
+          "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
           "remark": ""
         },
         {
