@@ -43,7 +43,7 @@
         }
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/source",
-      "propertyLabel": "Thesaurus (if not LCGFT)",
+      "propertyLabel": "Thesaurus",
       "remark": ""
     }
   ],

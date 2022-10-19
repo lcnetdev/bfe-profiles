@@ -35667,7 +35667,7 @@
                   }
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/source",
-                "propertyLabel": "Thesaurus (if not LCGFT)",
+                "propertyLabel": "Thesaurus",
                 "remark": ""
               }
             ],
@@ -35857,7 +35857,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.059Z",
-      "updateDate": "2022-10-19T15:44:34.857Z",
+      "updateDate": "2022-10-19T15:46:41.652Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.059Z",
