@@ -116,7 +116,7 @@
         "defaults": [],
         "valueDataType": {}
       },
-      "propertyURI": "http://id.loc.gov/ontologies/bibframe/provisionActivityStatement",
+      "propertyURI": "http://id.loc.gov/ontologies/bflc/publicationStatement",
       "propertyLabel": "Transcribed Provider Statement",
       "remark": "http://access.rdatoolkit.org/2.8.html"
     },
