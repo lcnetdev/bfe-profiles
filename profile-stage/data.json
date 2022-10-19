@@ -34560,6 +34560,24 @@
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [
+                    "lc:RT:bf2:SeriesHub"
+                  ],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bflc/Relationship"
+                  }
+                },
+                "propertyURI": "http://id.loc.gov/ontologies/bflc/relationship",
+                "propertyLabel": "Input Transcribed Series"
+              },
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "resource",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [
                     "lc:RT:bf2:RelatedWork"
                   ],
                   "useValuesFrom": [],
@@ -34899,7 +34917,7 @@
     "id": "39b055fd-b0d7-46e7-ad43-b9b9fac80265",
     "metadata": {
       "createDate": "2021-07-13T17:22:51.350Z",
-      "updateDate": "2022-09-13T18:17:26.903Z",
+      "updateDate": "2022-10-19T13:19:16.703Z",
       "createUser": null,
       "updateUser": null
     },
