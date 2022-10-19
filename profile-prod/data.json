@@ -5039,6 +5039,20 @@
                 "valueConstraint": {
                   "valueTemplateRefs": [],
                   "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {}
+                },
+                "propertyURI": "http://id.loc.gov/ontologies/bflc/publicationStatement",
+                "propertyLabel": "Transcribed provider statement"
+              },
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "literal",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [],
                   "valueDataType": {},
                   "defaults": []
                 },
@@ -5677,7 +5691,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2022-10-19T12:13:56.891Z",
+      "updateDate": "2022-10-19T12:33:19.820Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",

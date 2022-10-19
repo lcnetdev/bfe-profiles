@@ -115,6 +115,20 @@
       "valueConstraint": {
         "valueTemplateRefs": [],
         "useValuesFrom": [],
+        "defaults": [],
+        "valueDataType": {}
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bflc/publicationStatement",
+      "propertyLabel": "Transcribed provider statement"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
         "valueDataType": {},
         "defaults": []
       },
