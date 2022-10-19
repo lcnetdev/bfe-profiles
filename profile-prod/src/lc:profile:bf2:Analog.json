@@ -550,10 +550,10 @@
           "type": "resource",
           "valueConstraint": {
             "valueTemplateRefs": [
-              "lc:RT:bf2:PublicationInformation",
-              "lc:RT:bf2:ManufactureInformation",
-              "lc:RT:bf2:DistributionInformation",
-              "lc:RT:bf2:ProductionInformation"
+              "lc:RT:bf2:PubInfoNew",
+              "lc:RT:bf2:ManuInfoNew",
+              "lc:RT:bf2:DistInfoNew",
+              "lc:RT:bf2:ProdInfoNew"
             ],
             "useValuesFrom": [],
             "valueDataType": {},
