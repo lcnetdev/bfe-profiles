@@ -586,7 +586,7 @@
         }
       },
       "propertyURI": "http://id.loc.gov/ontologies/bflc/relationship",
-      "propertyLabel": "Search Series Hub"
+      "propertyLabel": "Search Series Hub (optional)"
     },
     {
       "mandatory": "false",
