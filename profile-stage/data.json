@@ -17600,7 +17600,7 @@
                   }
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bflc/relationship",
-                "propertyLabel": "Search Series Hub"
+                "propertyLabel": "Search Series Hub (optional)"
               }
             ],
             "id": "lc:RT:bf2:TestCore:Work",
@@ -18325,7 +18325,7 @@
     },
     "metadata": {
       "createDate": "2019-08-13T19:17:13.434Z",
-      "updateDate": "2022-10-19T13:57:16.726Z",
+      "updateDate": "2022-10-20T17:36:29.782Z",
       "createUser": null,
       "updateUser": null
     },
