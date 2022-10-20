@@ -14045,21 +14045,6 @@
               },
               {
                 "mandatory": "false",
-                "propertyLabel": "Series statement",
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/seriesStatement",
-                "remark": "https://original.rdatoolkit.org/2.12.html",
-                "repeatable": "true",
-                "resourceTemplates": [],
-                "type": "literal",
-                "valueConstraint": {
-                  "useValuesFrom": [],
-                  "valueDataType": {},
-                  "valueTemplateRefs": [],
-                  "defaults": []
-                }
-              },
-              {
-                "mandatory": "false",
                 "propertyLabel": "Mode of Issuance",
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/issuance",
                 "remark": "https://original.rdatoolkit.org/2.13.html",
@@ -14785,7 +14770,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.059Z",
-      "updateDate": "2022-10-20T17:37:56.643Z",
+      "updateDate": "2022-10-20T17:42:48.258Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.059Z",
