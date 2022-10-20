@@ -9359,21 +9359,6 @@
               {
                 "mandatory": "false",
                 "repeatable": "true",
-                "type": "literal",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [],
-                  "valueDataType": {},
-                  "defaults": []
-                },
-                "propertyLabel": "Series statement",
-                "remark": "https://original.rdatoolkit.org/2.12.html",
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/seriesStatement"
-              },
-              {
-                "mandatory": "false",
-                "repeatable": "true",
                 "type": "resource",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -10441,7 +10426,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2022-10-20T17:39:09.704Z",
+      "updateDate": "2022-10-20T17:45:06.424Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",
