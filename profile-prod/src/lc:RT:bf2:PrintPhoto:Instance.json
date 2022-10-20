@@ -100,21 +100,6 @@
     {
       "mandatory": "false",
       "repeatable": "true",
-      "type": "literal",
-      "resourceTemplates": [],
-      "valueConstraint": {
-        "valueTemplateRefs": [],
-        "useValuesFrom": [],
-        "defaults": [],
-        "valueDataType": {}
-      },
-      "propertyURI": "http://id.loc.gov/ontologies/bibframe/seriesStatement",
-      "propertyLabel": "Series statement",
-      "remark": "https://original.rdatoolkit.org/2.12.html"
-    },
-    {
-      "mandatory": "false",
-      "repeatable": "true",
       "type": "resource",
       "resourceTemplates": [],
       "valueConstraint": {
