@@ -12976,7 +12976,7 @@
                   }
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bflc/relationship",
-                "propertyLabel": "Search Series Hub"
+                "propertyLabel": "Search Series Hub (optional)"
               },
               {
                 "mandatory": "false",
@@ -13632,7 +13632,7 @@
     },
     "metadata": {
       "createDate": "2019-04-11T20:45:09.452Z",
-      "updateDate": "2022-10-19T13:21:16.450Z",
+      "updateDate": "2022-10-20T17:27:24.354Z",
       "createUser": null,
       "updateUser": null
     },
