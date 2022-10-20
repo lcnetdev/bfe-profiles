@@ -27530,7 +27530,7 @@
                   }
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bflc/relationship",
-                "propertyLabel": "Search Series Hub"
+                "propertyLabel": "Search Series Hub (optional)"
               },
               {
                 "mandatory": "false",
@@ -28418,7 +28418,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.059Z",
-      "updateDate": "2022-10-19T13:17:31.771Z",
+      "updateDate": "2022-10-20T17:26:42.725Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.059Z",
