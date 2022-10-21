@@ -1027,7 +1027,7 @@
                   "valueDataType": {}
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/otherEdition",
-                "propertyLabel": "Other edition"
+                "propertyLabel": "Other edition (search BFDB)"
               },
               {
                 "mandatory": "false",
@@ -1043,7 +1043,7 @@
                   "valueDataType": {}
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/otherPhysicalFormat",
-                "propertyLabel": "Other physical format"
+                "propertyLabel": "Other physical format (search BFDB)"
               },
               {
                 "mandatory": "false",
@@ -1859,7 +1859,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2022-10-20T17:43:49.140Z",
+      "updateDate": "2022-10-21T14:26:01.073Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",

@@ -415,7 +415,7 @@
             "valueDataType": {}
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/otherEdition",
-          "propertyLabel": "Other edition"
+          "propertyLabel": "Other edition (search BFDB)"
         },
         {
           "mandatory": "false",
@@ -431,7 +431,7 @@
             "valueDataType": {}
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/otherPhysicalFormat",
-          "propertyLabel": "Other physical format"
+          "propertyLabel": "Other physical format (search BFDB)"
         },
         {
           "mandatory": "false",
