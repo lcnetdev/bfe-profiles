@@ -11519,7 +11519,7 @@
               {
                 "mandatory": "false",
                 "repeatable": "true",
-                "type": "resource",
+                "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [
@@ -12096,7 +12096,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2022-09-22T20:01:12.583Z",
+      "updateDate": "2022-10-21T14:22:09.982Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",
