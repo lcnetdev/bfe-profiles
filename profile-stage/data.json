@@ -8989,7 +8989,7 @@
                   "defaults": [],
                   "valueDataType": {}
                 },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/Frequency",
+                "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
                 "propertyLabel": "Lookup",
                 "remark": "http://access.rdatoolkit.org/2.14.html"
               },
@@ -9727,7 +9727,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2022-10-20T17:29:43.050Z",
+      "updateDate": "2022-10-21T15:05:36.611Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",
