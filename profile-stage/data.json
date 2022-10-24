@@ -34216,13 +34216,11 @@
               {
                 "mandatory": "false",
                 "repeatable": "true",
-                "type": "lookup",
+                "type": "literal",
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [],
-                  "useValuesFrom": [
-                    "http://id.loc.gov/vocabulary/resourceComponents"
-                  ],
+                  "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
                 },
@@ -34316,7 +34314,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.059Z",
-      "updateDate": "2022-10-24T16:19:04.366Z",
+      "updateDate": "2022-10-24T18:51:11.272Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.059Z",
