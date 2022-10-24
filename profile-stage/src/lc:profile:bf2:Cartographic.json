@@ -547,21 +547,6 @@
         },
         {
           "mandatory": "false",
-          "propertyLabel": "Series statement",
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/seriesStatement",
-          "remark": "http://access.rdatoolkit.org/2.12.html",
-          "repeatable": "true",
-          "resourceTemplates": [],
-          "type": "literal",
-          "valueConstraint": {
-            "useValuesFrom": [],
-            "valueDataType": {},
-            "valueTemplateRefs": [],
-            "defaults": []
-          }
-        },
-        {
-          "mandatory": "false",
           "propertyLabel": "Mode of Issuance",
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/issuance",
           "remark": "http://access.rdatoolkit.org/2.13.html",
