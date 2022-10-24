@@ -34495,13 +34495,13 @@
               {
                 "mandatory": "false",
                 "repeatable": "true",
-                "type": "resource",
+                "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
-                  "valueTemplateRefs": [
-                    "lc:RT:bf2:Language:Parts"
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [
+                    "http://id.loc.gov/vocabulary/languages"
                   ],
-                  "useValuesFrom": [],
                   "valueDataType": {
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Language"
                   },
@@ -34881,7 +34881,7 @@
     "id": "39b055fd-b0d7-46e7-ad43-b9b9fac80265",
     "metadata": {
       "createDate": "2021-07-13T17:22:51.350Z",
-      "updateDate": "2022-10-24T15:49:26.727Z",
+      "updateDate": "2022-10-24T16:23:04.729Z",
       "createUser": null,
       "updateUser": null
     },
