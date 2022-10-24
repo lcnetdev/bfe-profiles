@@ -772,23 +772,6 @@
           "remark": "http://access.rdatoolkit.org/2.11.html"
         },
         {
-          "mandatory": "false",
-          "repeatable": "true",
-          "type": "literal",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [],
-            "useValuesFrom": [],
-            "valueDataType": {
-              "dataTypeLabelHint": ""
-            },
-            "defaults": []
-          },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/seriesStatement",
-          "propertyLabel": "Series statement",
-          "remark": "http://access.rdatoolkit.org/2.12.html"
-        },
-        {
           "propertyLabel": "URL of Instance",
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/electronicLocator",
           "resourceTemplates": [],

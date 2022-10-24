@@ -17884,23 +17884,6 @@
                 "remark": "http://access.rdatoolkit.org/2.11.html"
               },
               {
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "literal",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [],
-                  "valueDataType": {
-                    "dataTypeLabelHint": ""
-                  },
-                  "defaults": []
-                },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/seriesStatement",
-                "propertyLabel": "Series statement",
-                "remark": "http://access.rdatoolkit.org/2.12.html"
-              },
-              {
                 "propertyLabel": "URL of Instance",
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/electronicLocator",
                 "resourceTemplates": [],
@@ -18298,7 +18281,7 @@
     },
     "metadata": {
       "createDate": "2019-08-13T19:17:13.434Z",
-      "updateDate": "2022-10-20T17:36:29.782Z",
+      "updateDate": "2022-10-24T16:08:09.779Z",
       "createUser": null,
       "updateUser": null
     },
