@@ -325,7 +325,7 @@
         },
         {
           "mandatory": "false",
-          "repeatable": "false",
+          "repeatable": "true",
           "type": "resource",
           "resourceTemplates": [],
           "valueConstraint": {
