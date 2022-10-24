@@ -13,7 +13,7 @@
               "http://id.loc.gov/vocabulary/languages"
             ],
             "valueDataType": {
-              "dataTypeURI": "",
+              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Language",
               "remark": ""
             },
             "valueLanguage": "",
