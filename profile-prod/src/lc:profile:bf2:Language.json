@@ -23,7 +23,7 @@
             "defaults": [],
             "validatePattern": ""
           },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/Language",
+          "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
           "propertyLabel": "Language code",
           "remark": ""
         },
