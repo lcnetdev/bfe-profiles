@@ -2,7 +2,7 @@
   "propertyTemplates": [
     {
       "mandatory": "false",
-      "repeatable": "false",
+      "repeatable": "true",
       "type": "lookup",
       "resourceTemplates": [],
       "valueConstraint": {
