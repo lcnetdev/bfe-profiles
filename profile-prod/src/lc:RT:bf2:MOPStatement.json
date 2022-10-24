@@ -14,6 +14,24 @@
       "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label",
       "propertyLabel": "Medium of performance",
       "remark": "https://original.rdatoolkit.org/6.15.html"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [
+          "http://id.loc.gov/vocabulary/mstatus"
+        ],
+        "defaults": [],
+        "valueDataType": {
+          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Status"
+        }
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/status",
+      "propertyLabel": "Status (partial)"
     }
   ],
   "id": "lc:RT:bf2:MOPStatement",
