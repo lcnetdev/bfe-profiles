@@ -1249,7 +1249,7 @@
               "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/FileType"
             }
           },
-          "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/FileType",
           "propertyLabel": "File Type"
         }
       ],
