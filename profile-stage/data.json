@@ -20067,15 +20067,15 @@
               {
                 "mandatory": "false",
                 "repeatable": "true",
-                "type": "resource",
+                "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
-                  "valueTemplateRefs": [
-                    "lc:RT:bf2:Language:Source"
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [
+                    "http://id.loc.gov/vocabulary/languages"
                   ],
-                  "useValuesFrom": [],
                   "valueDataType": {
-                    "dataTypeURI": ""
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Language"
                   },
                   "editable": "false",
                   "repeatable": "true",
@@ -20822,7 +20822,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2022-10-24T16:02:30.317Z",
+      "updateDate": "2022-10-24T17:23:07.026Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",
