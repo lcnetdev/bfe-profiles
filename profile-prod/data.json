@@ -8874,10 +8874,10 @@
                 "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [
-                    "http://id.loc.gov/vocabulary/languages"
+                  "valueTemplateRefs": [
+                    "lc:RT:bf2:Language2"
                   ],
+                  "useValuesFrom": [],
                   "valueDataType": {
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Language"
                   },
@@ -10322,7 +10322,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2022-10-24T19:29:27.477Z",
+      "updateDate": "2022-10-24T20:01:46.581Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",

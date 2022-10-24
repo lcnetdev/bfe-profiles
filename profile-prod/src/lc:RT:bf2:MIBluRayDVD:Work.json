@@ -282,10 +282,10 @@
       "type": "lookup",
       "resourceTemplates": [],
       "valueConstraint": {
-        "valueTemplateRefs": [],
-        "useValuesFrom": [
-          "http://id.loc.gov/vocabulary/languages"
+        "valueTemplateRefs": [
+          "lc:RT:bf2:Language2"
         ],
+        "useValuesFrom": [],
         "valueDataType": {
           "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Language"
         },
