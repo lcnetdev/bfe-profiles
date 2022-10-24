@@ -20425,21 +20425,6 @@
                 "remark": "http://access.rdatoolkit.org/2.11.html"
               },
               {
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "literal",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [],
-                  "valueDataType": {},
-                  "defaults": []
-                },
-                "propertyLabel": "Series statement",
-                "remark": "http://access.rdatoolkit.org/2.12.html",
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/seriesStatement"
-              },
-              {
                 "propertyLabel": "Identifiers",
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/identifiedBy",
                 "resourceTemplates": [],
@@ -20960,7 +20945,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2022-10-20T17:33:28.499Z",
+      "updateDate": "2022-10-24T16:02:30.317Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",
