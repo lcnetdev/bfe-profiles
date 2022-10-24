@@ -937,7 +937,7 @@
               },
               {
                 "mandatory": "false",
-                "repeatable": "true",
+                "repeatable": "false",
                 "type": "resource",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -1859,7 +1859,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2022-10-21T14:26:01.073Z",
+      "updateDate": "2022-10-24T19:19:52.440Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",

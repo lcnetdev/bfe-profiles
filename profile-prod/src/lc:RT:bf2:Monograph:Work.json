@@ -323,7 +323,7 @@
     },
     {
       "mandatory": "false",
-      "repeatable": "true",
+      "repeatable": "false",
       "type": "resource",
       "resourceTemplates": [],
       "valueConstraint": {
