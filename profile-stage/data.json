@@ -15826,38 +15826,6 @@
                 "remark": "http://access.rdatoolkit.org/2.11.html"
               },
               {
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "literal",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [],
-                  "valueDataType": {
-                    "dataTypeLabelHint": ""
-                  },
-                  "defaults": []
-                },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/seriesStatement",
-                "propertyLabel": "Series statement",
-                "remark": "http://access.rdatoolkit.org/2.12.html"
-              },
-              {
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "literal",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [],
-                  "defaults": [],
-                  "valueDataType": {}
-                },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/seriesEnumeration",
-                "propertyLabel": "Series enumeration",
-                "remark": "http://access.rdatoolkit.org/2.12.9.html"
-              },
-              {
                 "mandatory": "true",
                 "repeatable": "true",
                 "type": "resource",
@@ -16537,20 +16505,6 @@
               {
                 "mandatory": "false",
                 "repeatable": "true",
-                "type": "literal",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [],
-                  "defaults": [],
-                  "valueDataType": {}
-                },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/seriesStatement",
-                "propertyLabel": "Series statement"
-              },
-              {
-                "mandatory": "false",
-                "repeatable": "true",
                 "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -17098,7 +17052,7 @@
     },
     "metadata": {
       "createDate": "2019-06-13T12:32:28.719Z",
-      "updateDate": "2022-10-20T17:36:58.007Z",
+      "updateDate": "2022-10-24T16:10:57.462Z",
       "createUser": null,
       "updateUser": null
     },
