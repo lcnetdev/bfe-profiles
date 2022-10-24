@@ -22033,22 +22033,6 @@
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/Language",
                 "propertyLabel": "Language code",
                 "remark": ""
-              },
-              {
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "resource",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [
-                    "lc:RT:bf2:Language:Note"
-                  ],
-                  "useValuesFrom": [],
-                  "defaults": [],
-                  "valueDataType": {}
-                },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
-                "propertyLabel": "Language note"
               }
             ],
             "resourceURI": "http://id.loc.gov/ontologies/bibframe/Language",
@@ -22088,7 +22072,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.059Z",
-      "updateDate": "2022-05-16T20:41:03.578Z",
+      "updateDate": "2022-10-24T19:18:36.592Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.059Z",
