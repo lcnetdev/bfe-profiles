@@ -14241,36 +14241,6 @@
               {
                 "mandatory": "false",
                 "repeatable": "true",
-                "type": "literal",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [],
-                  "defaults": [],
-                  "valueDataType": {}
-                },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/seriesStatement",
-                "propertyLabel": "Series statement",
-                "remark": "http://access.rdatoolkit.org/2.12.html"
-              },
-              {
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "literal",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [],
-                  "defaults": [],
-                  "valueDataType": {}
-                },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/seriesEnumeration",
-                "propertyLabel": "Series enumeration",
-                "remark": "http://access.rdatoolkit.org/2.12.9.html"
-              },
-              {
-                "mandatory": "false",
-                "repeatable": "true",
                 "type": "resource",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -15287,7 +15257,7 @@
     },
     "metadata": {
       "createDate": "2018-09-05T19:18:07.698Z",
-      "updateDate": "2022-09-13T18:33:00.600Z",
+      "updateDate": "2022-10-24T16:13:42.776Z",
       "createUser": null,
       "updateUser": null
     },
