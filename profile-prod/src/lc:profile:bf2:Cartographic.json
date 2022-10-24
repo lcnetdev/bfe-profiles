@@ -1172,7 +1172,7 @@
             "defaults": [],
             "valueDataType": {}
           },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/FileType",
+          "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
           "propertyLabel": "File Type"
         }
       ],
