@@ -25016,42 +25016,12 @@
                 "valueConstraint": {
                   "valueTemplateRefs": [],
                   "useValuesFrom": [],
-                  "defaults": [],
-                  "valueDataType": {}
-                },
-                "propertyURI": "http://id.loc.gov/ontologies/bflc/publicationStatement",
-                "propertyLabel": "Transcribed Provider Statement",
-                "remark": "http://access.rdatoolkit.org/2.8.html"
-              },
-              {
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "literal",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [],
                   "valueDataType": {},
                   "defaults": []
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/copyrightDate",
                 "propertyLabel": "Copyright Date",
                 "remark": "http://access.rdatoolkit.org/2.11.html"
-              },
-              {
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "literal",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [],
-                  "valueDataType": {},
-                  "defaults": []
-                },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/seriesStatement",
-                "propertyLabel": "Series statement",
-                "remark": "http://access.rdatoolkit.org/2.12.html"
               },
               {
                 "mandatory": "false",
@@ -25739,7 +25709,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2022-10-20T17:29:16.817Z",
+      "updateDate": "2022-10-24T15:56:16.883Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",
