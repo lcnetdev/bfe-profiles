@@ -1229,7 +1229,12 @@
             "useValuesFrom": [
               "http://id.loc.gov/vocabulary/mfiletype"
             ],
-            "defaults": [],
+            "defaults": [
+              {
+                "defaultURI": "http://id.loc.gov/vocabulary/mfiletype",
+                "defaultLiteral": "image file"
+              }
+            ],
             "valueDataType": {
               "dataTypeURI": ""
             }

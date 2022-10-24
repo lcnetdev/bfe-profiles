@@ -27909,7 +27909,12 @@
                   "useValuesFrom": [
                     "http://id.loc.gov/vocabulary/mfiletype"
                   ],
-                  "defaults": [],
+                  "defaults": [
+                    {
+                      "defaultURI": "http://id.loc.gov/vocabulary/mfiletype",
+                      "defaultLiteral": "image file"
+                    }
+                  ],
                   "valueDataType": {
                     "dataTypeURI": ""
                   }
@@ -27955,7 +27960,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.059Z",
-      "updateDate": "2022-10-24T16:22:14.313Z",
+      "updateDate": "2022-10-24T18:58:53.412Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.059Z",
