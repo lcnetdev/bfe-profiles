@@ -35036,23 +35036,6 @@
                 "remark": "http://access.rdatoolkit.org/2.11.html"
               },
               {
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "literal",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [],
-                  "valueDataType": {
-                    "dataTypeLabelHint": ""
-                  },
-                  "defaults": []
-                },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/seriesStatement",
-                "propertyLabel": "Series statement",
-                "remark": "http://access.rdatoolkit.org/2.12.html"
-              },
-              {
                 "mandatory": "true",
                 "repeatable": "true",
                 "type": "resource",
@@ -35236,7 +35219,7 @@
     "id": "39b055fd-b0d7-46e7-ad43-b9b9fac80265",
     "metadata": {
       "createDate": "2021-07-13T17:22:51.350Z",
-      "updateDate": "2022-10-19T13:19:16.703Z",
+      "updateDate": "2022-10-24T15:49:26.727Z",
       "createUser": null,
       "updateUser": null
     },
