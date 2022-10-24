@@ -14599,7 +14599,12 @@
                   "useValuesFrom": [
                     "http://id.loc.gov/vocabulary/mfiletype"
                   ],
-                  "defaults": [],
+                  "defaults": [
+                    {
+                      "defaultURI": "http://id.loc.gov/vocabulary/mfiletype/image",
+                      "defaultLiteral": "image file"
+                    }
+                  ],
                   "valueDataType": {}
                 },
                 "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
@@ -14699,7 +14704,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.059Z",
-      "updateDate": "2022-10-24T18:55:36.668Z",
+      "updateDate": "2022-10-24T19:04:38.193Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.059Z",

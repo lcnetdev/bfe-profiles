@@ -1169,7 +1169,12 @@
             "useValuesFrom": [
               "http://id.loc.gov/vocabulary/mfiletype"
             ],
-            "defaults": [],
+            "defaults": [
+              {
+                "defaultURI": "http://id.loc.gov/vocabulary/mfiletype/image",
+                "defaultLiteral": "image file"
+              }
+            ],
             "valueDataType": {}
           },
           "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
