@@ -12,7 +12,7 @@
         ],
         "defaults": [
           {
-            "defaultURI": "http://id.loc.gov/vocabulary/mfiletype",
+            "defaultURI": "http://id.loc.gov/vocabulary/mfiletype/image",
             "defaultLiteral": "image file"
           }
         ],

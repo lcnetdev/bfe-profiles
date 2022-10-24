@@ -27911,7 +27911,7 @@
                   ],
                   "defaults": [
                     {
-                      "defaultURI": "http://id.loc.gov/vocabulary/mfiletype",
+                      "defaultURI": "http://id.loc.gov/vocabulary/mfiletype/image",
                       "defaultLiteral": "image file"
                     }
                   ],
@@ -27960,7 +27960,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.059Z",
-      "updateDate": "2022-10-24T18:58:53.412Z",
+      "updateDate": "2022-10-24T19:03:13.782Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.059Z",
