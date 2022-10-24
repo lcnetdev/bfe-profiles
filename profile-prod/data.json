@@ -8869,15 +8869,15 @@
               {
                 "mandatory": "false",
                 "repeatable": "true",
-                "type": "resource",
+                "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
-                  "valueTemplateRefs": [
-                    "lc:RT:bf2:MIBluRayDVD:Lang"
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [
+                    "http://id.loc.gov/vocabulary/languages"
                   ],
-                  "useValuesFrom": [],
                   "valueDataType": {
-                    "dataTypeURI": ""
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Language"
                   },
                   "editable": "false",
                   "repeatable": "true",
@@ -10215,67 +10215,6 @@
               {
                 "mandatory": "false",
                 "repeatable": "true",
-                "type": "lookup",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [
-                    "http://id.loc.gov/vocabulary/languages"
-                  ],
-                  "defaults": [],
-                  "valueDataType": {}
-                },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/Language",
-                "propertyLabel": "Language code"
-              },
-              {
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "resource",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [
-                    "lc:RT:bf2:MIBluRayDVD:LangNote"
-                  ],
-                  "useValuesFrom": [],
-                  "defaults": [],
-                  "valueDataType": {}
-                },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
-                "propertyLabel": "Language note"
-              }
-            ],
-            "id": "lc:RT:bf2:MIBluRayDVD:Lang",
-            "resourceURI": "http://id.loc.gov/ontologies/bibframe/Language",
-            "resourceLabel": "Language"
-          },
-          {
-            "propertyTemplates": [
-              {
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "literal",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [],
-                  "defaults": [],
-                  "valueDataType": {}
-                },
-                "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label",
-                "propertyLabel": "Language note",
-                "remark": "A human-readable name for the subject."
-              }
-            ],
-            "id": "lc:RT:bf2:MIBluRayDVD:LangNote",
-            "resourceURI": "http://id.loc.gov/ontologies/bibframe/Note",
-            "resourceLabel": "Language note"
-          },
-          {
-            "propertyTemplates": [
-              {
-                "mandatory": "false",
-                "repeatable": "true",
                 "type": "resource",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -10381,7 +10320,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2022-10-20T17:45:06.424Z",
+      "updateDate": "2022-10-24T19:29:27.477Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",
