@@ -283,15 +283,15 @@
         {
           "mandatory": "false",
           "repeatable": "true",
-          "type": "resource",
+          "type": "lookup",
           "valueConstraint": {
-            "valueTemplateRefs": [
-              "lc:RT:bf2:Language2"
-            ],
+            "valueTemplateRefs": [],
             "valueDataType": {
               "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Language"
             },
-            "useValuesFrom": [],
+            "useValuesFrom": [
+              "http://id.loc.gov/vocabulary/languages"
+            ],
             "defaults": []
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/language",
