@@ -28413,7 +28413,7 @@
                     "dataTypeURI": ""
                   }
                 },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/FileType",
+                "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
                 "propertyLabel": "File Type"
               }
             ],
@@ -28454,7 +28454,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.059Z",
-      "updateDate": "2022-10-20T17:26:42.725Z",
+      "updateDate": "2022-10-24T14:00:58.592Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.059Z",
