@@ -10618,10 +10618,10 @@
               {
                 "mandatory": "false",
                 "repeatable": "true",
-                "type": "resource",
+                "type": "lookup",
                 "valueConstraint": {
                   "valueTemplateRefs": [
-                    "lc:RT:bf2:Language:Parts"
+                    "lc:RT:bf2:Language2"
                   ],
                   "valueDataType": {
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Language"
@@ -11407,7 +11407,7 @@
     },
     "metadata": {
       "createDate": "2019-04-11T20:45:09.452Z",
-      "updateDate": "2022-10-26T19:53:39.604Z",
+      "updateDate": "2022-10-26T19:54:28.543Z",
       "createUser": null,
       "updateUser": null
     },

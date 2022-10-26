@@ -283,10 +283,10 @@
         {
           "mandatory": "false",
           "repeatable": "true",
-          "type": "resource",
+          "type": "lookup",
           "valueConstraint": {
             "valueTemplateRefs": [
-              "lc:RT:bf2:Language:Parts"
+              "lc:RT:bf2:Language2"
             ],
             "valueDataType": {
               "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Language"
