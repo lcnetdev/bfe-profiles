@@ -12843,12 +12843,12 @@
               {
                 "mandatory": "false",
                 "repeatable": "true",
-                "type": "lookup",
+                "type": "resource",
                 "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [
-                    "http://id.loc.gov/vocabulary/languages"
+                  "valueTemplateRefs": [
+                    "lc:RT:bf2:Language2"
                   ],
+                  "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Language"
@@ -13607,7 +13607,7 @@
     },
     "metadata": {
       "createDate": "2019-04-11T20:45:09.452Z",
-      "updateDate": "2022-10-24T16:24:21.094Z",
+      "updateDate": "2022-10-26T20:02:09.204Z",
       "createUser": null,
       "updateUser": null
     },
