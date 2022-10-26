@@ -26944,13 +26944,13 @@
               {
                 "mandatory": "false",
                 "repeatable": "true",
-                "type": "lookup",
+                "type": "resource",
                 "resourceTemplates": [],
                 "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [
-                    "http://id.loc.gov/vocabulary/languages"
+                  "valueTemplateRefs": [
+                    "lc:RT:bf2:Language2"
                   ],
+                  "useValuesFrom": [],
                   "valueDataType": {
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Language"
                   },
@@ -27960,7 +27960,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.059Z",
-      "updateDate": "2022-10-24T19:03:13.782Z",
+      "updateDate": "2022-10-26T20:00:58.099Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.059Z",
