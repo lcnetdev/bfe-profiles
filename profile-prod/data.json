@@ -8541,7 +8541,7 @@
                   "valueDataType": {}
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bflc/appliesTo",
-                "propertyLabel": "Applies to"
+                "propertyLabel": "Applies to (to/from 26X $3)"
               },
               {
                 "mandatory": "false",
@@ -8577,7 +8577,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2022-10-26T19:59:35.876Z",
+      "updateDate": "2022-10-27T13:36:20.719Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",

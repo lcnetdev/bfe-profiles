@@ -1570,7 +1570,7 @@
             "valueDataType": {}
           },
           "propertyURI": "http://id.loc.gov/ontologies/bflc/appliesTo",
-          "propertyLabel": "Applies to"
+          "propertyLabel": "Applies to (to/from 26X $3)"
         },
         {
           "mandatory": "false",
