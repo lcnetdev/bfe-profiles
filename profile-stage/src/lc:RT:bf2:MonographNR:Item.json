@@ -7,9 +7,18 @@
       "type": "resource",
       "valueConstraint": {
         "valueTemplateRefs": [],
-        "useValuesFrom": [],
-        "defaults": [],
-        "valueDataType": {}
+        "useValuesFrom": [
+          "http://id.loc.gov/vocabulary/organizations"
+        ],
+        "defaults": [
+          {
+            "defaultURI": "http://id.loc.gov/vocabulary/organizations/dlc",
+            "defaultLiteral": "United States. Library of Congress"
+          }
+        ],
+        "valueDataType": {
+          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Agent"
+        }
       },
       "mandatory": "false",
       "repeatable": "false",
