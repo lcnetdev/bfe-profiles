@@ -734,13 +734,13 @@
           "type": "resource",
           "resourceTemplates": [],
           "valueConstraint": {
-            "valueTemplateRefs": [
-              ""
-            ],
+            "valueTemplateRefs": [],
             "useValuesFrom": [
               "http://id.loc.gov/vocabulary/organizations"
             ],
-            "valueDataType": {},
+            "valueDataType": {
+              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Agent"
+            },
             "defaults": [
               {
                 "defaultURI": "http://id.loc.gov/vocabulary/organizations/dlc",
