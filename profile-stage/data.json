@@ -5123,7 +5123,7 @@
                 "propertyLabel": "Held by",
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/heldBy",
                 "resourceTemplates": [],
-                "type": "resource",
+                "type": "lookup",
                 "valueConstraint": {
                   "valueTemplateRefs": [],
                   "useValuesFrom": [
@@ -5428,7 +5428,7 @@
     "id": "2be36dfb-c101-4641-8af1-27b04ddf3958",
     "metadata": {
       "createDate": "2022-05-10T21:00:39.811Z",
-      "updateDate": "2022-10-28T15:43:43.285Z",
+      "updateDate": "2022-10-31T16:06:47.623Z",
       "createUser": null,
       "updateUser": null
     },
