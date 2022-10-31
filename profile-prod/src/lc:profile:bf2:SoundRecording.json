@@ -940,7 +940,7 @@
           "propertyLabel": "Held by",
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/heldBy",
           "resourceTemplates": [],
-          "type": "resource",
+          "type": "lookup",
           "valueConstraint": {
             "valueTemplateRefs": [],
             "useValuesFrom": [
