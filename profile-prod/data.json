@@ -11120,7 +11120,7 @@
               {
                 "propertyLabel": "Held by",
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/heldBy",
-                "type": "resource",
+                "type": "lookup",
                 "valueConstraint": {
                   "useValuesFrom": [
                     "http://id.loc.gov/vocabulary/organizations"
@@ -11407,7 +11407,7 @@
     },
     "metadata": {
       "createDate": "2019-04-11T20:45:09.452Z",
-      "updateDate": "2022-10-26T19:54:28.543Z",
+      "updateDate": "2022-10-31T18:22:03.388Z",
       "createUser": null,
       "updateUser": null
     },

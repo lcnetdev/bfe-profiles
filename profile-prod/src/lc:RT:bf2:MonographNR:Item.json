@@ -4,7 +4,7 @@
     {
       "propertyLabel": "Held by",
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/heldBy",
-      "type": "resource",
+      "type": "lookup",
       "valueConstraint": {
         "useValuesFrom": [
           "http://id.loc.gov/vocabulary/organizations"
