@@ -1520,7 +1520,7 @@
                 "propertyLabel": "Held by",
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/heldBy",
                 "resourceTemplates": [],
-                "type": "resource",
+                "type": "lookup",
                 "valueConstraint": {
                   "valueTemplateRefs": [],
                   "useValuesFrom": [
@@ -1859,7 +1859,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2022-10-26T19:57:06.581Z",
+      "updateDate": "2022-10-31T18:21:47.022Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",
