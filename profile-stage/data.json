@@ -1592,7 +1592,7 @@
                       "defaultLiteral": "United States. Library of Congress"
                     }
                   ],
-                  "editable": "false"
+                  "editable": "true"
                 },
                 "mandatory": "false",
                 "repeatable": "false"
@@ -1916,7 +1916,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2022-10-26T20:02:46.675Z",
+      "updateDate": "2022-10-31T13:42:41.961Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",
