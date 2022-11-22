@@ -561,7 +561,7 @@
         {
           "mandatory": "false",
           "repeatable": "true",
-          "type": "resource",
+          "type": "lookup",
           "valueConstraint": {
             "useValuesFrom": [
               "http://id.loc.gov/vocabulary/issuance"
