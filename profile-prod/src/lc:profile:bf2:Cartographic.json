@@ -549,7 +549,7 @@
           "remark": "https://original.rdatoolkit.org/2.13.html",
           "repeatable": "true",
           "resourceTemplates": [],
-          "type": "resource",
+          "type": "lookup",
           "valueConstraint": {
             "useValuesFrom": [
               "http://id.loc.gov/vocabulary/issuance"

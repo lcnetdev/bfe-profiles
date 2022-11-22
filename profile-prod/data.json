@@ -13920,7 +13920,7 @@
                 "remark": "https://original.rdatoolkit.org/2.13.html",
                 "repeatable": "true",
                 "resourceTemplates": [],
-                "type": "resource",
+                "type": "lookup",
                 "valueConstraint": {
                   "useValuesFrom": [
                     "http://id.loc.gov/vocabulary/issuance"
@@ -14647,7 +14647,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.059Z",
-      "updateDate": "2022-10-31T18:21:03.549Z",
+      "updateDate": "2022-11-22T19:10:43.256Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.059Z",
