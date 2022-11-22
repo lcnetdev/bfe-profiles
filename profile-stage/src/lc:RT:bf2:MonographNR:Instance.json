@@ -120,7 +120,7 @@
     {
       "mandatory": "false",
       "repeatable": "true",
-      "type": "resource",
+      "type": "lookup",
       "valueConstraint": {
         "valueTemplateRefs": [],
         "useValuesFrom": [
