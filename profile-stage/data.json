@@ -4816,7 +4816,7 @@
               {
                 "mandatory": "false",
                 "repeatable": "true",
-                "type": "resource",
+                "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [],
@@ -5428,7 +5428,7 @@
     "id": "2be36dfb-c101-4641-8af1-27b04ddf3958",
     "metadata": {
       "createDate": "2022-05-10T21:00:39.811Z",
-      "updateDate": "2022-10-31T16:06:47.623Z",
+      "updateDate": "2022-11-22T19:06:39.095Z",
       "createUser": null,
       "updateUser": null
     },
