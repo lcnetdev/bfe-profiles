@@ -32268,7 +32268,7 @@
               {
                 "mandatory": "false",
                 "repeatable": "true",
-                "type": "resource",
+                "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [],
@@ -32902,7 +32902,7 @@
     "id": "ce021882-2189-495e-b638-126d03f724a5",
     "metadata": {
       "createDate": "2021-08-02T18:47:18.815Z",
-      "updateDate": "2022-10-31T16:07:31.551Z",
+      "updateDate": "2022-11-22T19:07:35.392Z",
       "createUser": null,
       "updateUser": null
     },
