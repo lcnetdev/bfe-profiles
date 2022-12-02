@@ -10099,6 +10099,21 @@
             "propertyTemplates": [
               {
                 "mandatory": "false",
+                "repeatable": "true",
+                "type": "literal",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {}
+                },
+                "propertyURI": "http://id.loc.gov/ontologies/bflc/nonSortNum",
+                "propertyLabel": "Non-sort character count",
+                "remark": ""
+              },
+              {
+                "mandatory": "false",
                 "repeatable": "false",
                 "type": "literal",
                 "resourceTemplates": [],
@@ -10229,6 +10244,21 @@
           },
           {
             "propertyTemplates": [
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "literal",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {}
+                },
+                "propertyURI": "http://id.loc.gov/ontologies/bflc/nonSortNum",
+                "propertyLabel": "Non-sort character count",
+                "remark": ""
+              },
               {
                 "mandatory": "false",
                 "repeatable": "false",
@@ -10474,6 +10504,21 @@
           },
           {
             "propertyTemplates": [
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "literal",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {}
+                },
+                "propertyURI": "http://id.loc.gov/ontologies/bflc/nonSortNum",
+                "propertyLabel": "Non-sort character count",
+                "remark": ""
+              },
               {
                 "mandatory": "false",
                 "repeatable": "false",
@@ -11041,7 +11086,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.062Z",
-      "updateDate": "2022-09-07T13:59:26.717Z",
+      "updateDate": "2022-12-02T14:38:31.780Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.062Z",
