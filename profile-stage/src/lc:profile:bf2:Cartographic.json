@@ -112,7 +112,7 @@
         {
           "mandatory": "false",
           "repeatable": "true",
-          "type": "resource",
+          "type": "lookup",
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [],
@@ -238,7 +238,7 @@
         {
           "mandatory": "false",
           "repeatable": "true",
-          "type": "resource",
+          "type": "lookup",
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [],
@@ -285,7 +285,7 @@
         {
           "mandatory": "false",
           "repeatable": "true",
-          "type": "resource",
+          "type": "lookup",
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [],
@@ -651,7 +651,7 @@
           "remark": "http://access.rdatoolkit.org/3.2.html",
           "repeatable": "true",
           "resourceTemplates": [],
-          "type": "resource",
+          "type": "lookup",
           "valueConstraint": {
             "useValuesFrom": [
               "http://id.loc.gov/vocabulary/mediaTypes"
@@ -677,7 +677,7 @@
           "remark": "http://access.rdatoolkit.org/3.3.html",
           "repeatable": "true",
           "resourceTemplates": [],
-          "type": "resource",
+          "type": "lookup",
           "valueConstraint": {
             "useValuesFrom": [
               "http://id.loc.gov/vocabulary/carriers"
@@ -731,7 +731,7 @@
         {
           "mandatory": "false",
           "repeatable": "true",
-          "type": "resource",
+          "type": "lookup",
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [],
@@ -750,7 +750,7 @@
         {
           "mandatory": "false",
           "repeatable": "true",
-          "type": "resource",
+          "type": "lookup",
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [],
@@ -769,7 +769,7 @@
         {
           "mandatory": "false",
           "repeatable": "true",
-          "type": "resource",
+          "type": "lookup",
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [],
@@ -1046,7 +1046,7 @@
         {
           "mandatory": "false",
           "repeatable": "true",
-          "type": "resource",
+          "type": "lookup",
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [],
@@ -1065,7 +1065,7 @@
         {
           "mandatory": "false",
           "repeatable": "true",
-          "type": "resource",
+          "type": "lookup",
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [],
