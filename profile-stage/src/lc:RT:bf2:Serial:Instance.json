@@ -200,7 +200,7 @@
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/media",
       "repeatable": "true",
       "resourceTemplates": [],
-      "type": "resource",
+      "type": "lookup",
       "valueConstraint": {
         "valueTemplateRefs": [],
         "useValuesFrom": [
@@ -245,7 +245,7 @@
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/carrier",
       "repeatable": "true",
       "resourceTemplates": [],
-      "type": "resource",
+      "type": "lookup",
       "valueConstraint": {
         "valueTemplateRefs": [],
         "useValuesFrom": [
@@ -398,22 +398,6 @@
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/hasItem",
       "propertyLabel": "Has Item",
       "remark": "Item which is an example of the described Instance."
-    },
-    {
-      "mandatory": "true",
-      "repeatable": "false",
-      "type": "resource",
-      "resourceTemplates": [],
-      "valueConstraint": {
-        "valueTemplateRefs": [
-          "lc:RT:bf2:AdminMetadata:BFDB"
-        ],
-        "useValuesFrom": [],
-        "valueDataType": {},
-        "defaults": []
-      },
-      "propertyURI": "http://id.loc.gov/ontologies/bibframe/adminMetadata",
-      "propertyLabel": "Administrative Metadata"
     }
   ],
   "resourceLabel": "BIBFRAME Instance",
