@@ -274,7 +274,7 @@
         {
           "mandatory": "false",
           "repeatable": "true",
-          "type": "resource",
+          "type": "lookup",
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [],
@@ -712,7 +712,7 @@
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/media",
           "repeatable": "true",
           "resourceTemplates": [],
-          "type": "resource",
+          "type": "lookup",
           "valueConstraint": {
             "valueTemplateRefs": [],
             "useValuesFrom": [
@@ -736,7 +736,7 @@
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/carrier",
           "repeatable": "true",
           "resourceTemplates": [],
-          "type": "resource",
+          "type": "lookup",
           "valueConstraint": {
             "valueTemplateRefs": [],
             "useValuesFrom": [
@@ -897,7 +897,7 @@
             ],
             "useValuesFrom": [],
             "valueDataType": {
-              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Sublocation"
+              "dataTypeURI": ""
             },
             "defaults": []
           },
@@ -1036,7 +1036,7 @@
         {
           "mandatory": "false",
           "repeatable": "true",
-          "type": "resource",
+          "type": "lookup",
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [],
@@ -1055,7 +1055,7 @@
         {
           "mandatory": "false",
           "repeatable": "true",
-          "type": "resource",
+          "type": "lookup",
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [],
@@ -1074,7 +1074,7 @@
         {
           "mandatory": "false",
           "repeatable": "true",
-          "type": "resource",
+          "type": "lookup",
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [],
@@ -1314,7 +1314,7 @@
         {
           "mandatory": "false",
           "repeatable": "false",
-          "type": "resource",
+          "type": "lookup",
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [],
@@ -1362,7 +1362,9 @@
             ],
             "useValuesFrom": [],
             "defaults": [],
-            "valueDataType": {}
+            "valueDataType": {
+              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Contribution"
+            }
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/contribution",
           "propertyLabel": "Collection"
