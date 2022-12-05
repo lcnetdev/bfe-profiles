@@ -34310,7 +34310,7 @@
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [
-                    "lc:RT:bf2:Language:Note"
+                    "lc:RT:bf2:NoteSimple"
                   ],
                   "useValuesFrom": [],
                   "defaults": [],
@@ -34335,7 +34335,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.059Z",
-      "updateDate": "2022-10-26T20:16:40.374Z",
+      "updateDate": "2022-12-05T19:29:37.361Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.059Z",

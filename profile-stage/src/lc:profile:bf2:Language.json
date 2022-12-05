@@ -104,7 +104,7 @@
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [
-              "lc:RT:bf2:Language:Note"
+              "lc:RT:bf2:NoteSimple"
             ],
             "useValuesFrom": [],
             "defaults": [],
