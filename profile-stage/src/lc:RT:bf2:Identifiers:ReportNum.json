@@ -18,7 +18,7 @@
     {
       "mandatory": "false",
       "repeatable": "true",
-      "type": "literal",
+      "type": "lookup",
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [],
