@@ -37493,7 +37493,7 @@
                   "valueDataType": {}
                 },
                 "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label",
-                "propertyLabel": "Label",
+                "propertyLabel": "Generation process",
                 "remark": ""
               }
             ],
@@ -37513,7 +37513,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.056Z",
-      "updateDate": "2022-12-05T19:00:34.708Z",
+      "updateDate": "2022-12-05T19:02:19.143Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.056Z",
