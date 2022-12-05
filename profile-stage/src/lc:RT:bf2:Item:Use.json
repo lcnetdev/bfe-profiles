@@ -6,7 +6,7 @@
       "type": "literal",
       "valueConstraint": {
         "valueDataType": {
-          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/UsePolicy"
+          "dataTypeURI": ""
         },
         "useValuesFrom": [],
         "valueTemplateRefs": [],

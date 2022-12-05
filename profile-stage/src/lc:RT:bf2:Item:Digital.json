@@ -3,7 +3,7 @@
     {
       "mandatory": "false",
       "repeatable": "true",
-      "type": "resource",
+      "type": "literal-lang",
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [],
