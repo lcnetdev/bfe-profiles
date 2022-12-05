@@ -28289,7 +28289,7 @@
               {
                 "mandatory": "false",
                 "repeatable": "true",
-                "type": "resource",
+                "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [],
@@ -28723,9 +28723,7 @@
                 "type": "literal",
                 "resourceTemplates": [],
                 "valueConstraint": {
-                  "valueTemplateRefs": [
-                    ""
-                  ],
+                  "valueTemplateRefs": [],
                   "useValuesFrom": [],
                   "valueDataType": {},
                   "defaults": []
@@ -28890,7 +28888,7 @@
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/media",
                 "repeatable": "true",
                 "resourceTemplates": [],
-                "type": "resource",
+                "type": "lookup",
                 "valueConstraint": {
                   "valueTemplateRefs": [],
                   "useValuesFrom": [
@@ -28916,7 +28914,7 @@
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/carrier",
                 "repeatable": "true",
                 "resourceTemplates": [],
-                "type": "resource",
+                "type": "lookup",
                 "valueConstraint": {
                   "valueTemplateRefs": [],
                   "useValuesFrom": [
@@ -29126,7 +29124,7 @@
               {
                 "mandatory": "false",
                 "repeatable": "true",
-                "type": "resource",
+                "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [],
@@ -29317,7 +29315,7 @@
                   ],
                   "useValuesFrom": [],
                   "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Sublocation"
+                    "dataTypeURI": ""
                   },
                   "defaults": []
                 },
@@ -29518,7 +29516,7 @@
                   "valueDataType": {},
                   "defaults": []
                 },
-                "propertyLabel": "value",
+                "propertyLabel": "Supplementary content URL",
                 "remark": "Idiomatic property used for structured values.",
                 "propertyURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value"
               },
@@ -29777,7 +29775,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2022-11-22T19:01:18.194Z",
+      "updateDate": "2022-12-05T20:22:54.285Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",

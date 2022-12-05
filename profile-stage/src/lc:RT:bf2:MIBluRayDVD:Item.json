@@ -68,7 +68,7 @@
         ],
         "useValuesFrom": [],
         "valueDataType": {
-          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Sublocation"
+          "dataTypeURI": ""
         },
         "defaults": []
       },
