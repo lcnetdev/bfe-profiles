@@ -35349,7 +35349,7 @@
                   ],
                   "valueDataType": {
                     "remark": "",
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Place"
+                    "dataTypeURI": ""
                   },
                   "repeatable": "false",
                   "defaults": [],
@@ -35357,25 +35357,6 @@
                 },
                 "propertyLabel": "Search LCNAF/LCSH",
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/Place"
-              },
-              {
-                "mandatory": "false",
-                "repeatable": "false",
-                "type": "literal",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [],
-                  "valueDataType": {
-                    "dataTypeURI": "",
-                    "remark": "http://id.loc.gov/ontologies/bibframe/Place"
-                  },
-                  "repeatable": "false",
-                  "defaults": []
-                },
-                "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label",
-                "propertyLabel": "Record Place (if it does not appear above)",
-                "remark": "http://access.rdatoolkit.org/6.5.html"
               }
             ],
             "id": "lc:RT:bf2:Place",
@@ -35507,7 +35488,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2022-04-20T18:48:52.527Z",
+      "updateDate": "2022-12-05T20:36:06.990Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",
