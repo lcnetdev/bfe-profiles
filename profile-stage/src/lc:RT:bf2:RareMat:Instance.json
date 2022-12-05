@@ -234,7 +234,7 @@
     {
       "mandatory": "false",
       "repeatable": "true",
-      "type": "resource",
+      "type": "lookup",
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [],
@@ -258,7 +258,7 @@
     {
       "mandatory": "false",
       "repeatable": "true",
-      "type": "resource",
+      "type": "lookup",
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [],
@@ -314,16 +314,16 @@
     {
       "mandatory": "false",
       "repeatable": "true",
-      "type": "resource",
+      "type": "lookup",
       "resourceTemplates": [],
       "valueConstraint": {
-        "valueTemplateRefs": [
-          "lc:RT:bf2:RareMat:BookFormat"
+        "valueTemplateRefs": [],
+        "useValuesFrom": [
+          "http://id.loc.gov/vocabulary/bookformat"
         ],
-        "useValuesFrom": [],
         "defaults": [],
         "valueDataType": {
-          "dataTypeURI": ""
+          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/BookFormat"
         }
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/bookFormat",
