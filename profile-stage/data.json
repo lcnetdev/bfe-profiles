@@ -3858,6 +3858,21 @@
                   "defaults": [],
                   "valueDataType": {}
                 },
+                "propertyURI": "http://id.loc.gov/ontologies/bflc/nonSortNum",
+                "propertyLabel": "Non-sort character count",
+                "remark": ""
+              },
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "literal",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {}
+                },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/mainTitle",
                 "propertyLabel": "Input title"
               }
@@ -3941,7 +3956,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2022-12-05T21:17:49.066Z",
+      "updateDate": "2022-12-06T19:33:39.927Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",
