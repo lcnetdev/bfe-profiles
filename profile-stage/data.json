@@ -10711,6 +10711,21 @@
               {
                 "mandatory": "false",
                 "repeatable": "true",
+                "type": "literal",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {}
+                },
+                "propertyURI": "http://id.loc.gov/ontologies/bflc/nonSortNum",
+                "propertyLabel": "Non-sort character count",
+                "remark": ""
+              },
+              {
+                "mandatory": "false",
+                "repeatable": "true",
                 "type": "literal-lang",
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/mainTitle",
                 "propertyLabel": "Main Title",
@@ -11051,7 +11066,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.062Z",
-      "updateDate": "2022-12-06T20:20:38.338Z",
+      "updateDate": "2022-12-06T20:21:47.996Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.062Z",
