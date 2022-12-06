@@ -17,12 +17,12 @@
     {
       "mandatory": "false",
       "repeatable": "true",
-      "type": "literal",
+      "type": "lookup",
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [],
         "useValuesFrom": [
-          "http://mlvlp04.loc.gov:3000/verso/api/configs?filter[where][configType]=noteTypes&filter[fields][json]=true"
+          "http://id.loc.gov/vocabulary/mnotetype"
         ],
         "defaults": [],
         "valueDataType": {}
