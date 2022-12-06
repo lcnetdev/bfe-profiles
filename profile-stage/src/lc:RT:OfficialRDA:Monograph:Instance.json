@@ -20,7 +20,7 @@
     {
       "mandatory": "false",
       "repeatable": "true",
-      "type": "resource",
+      "type": "lookup",
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [],
@@ -272,8 +272,7 @@
           "lc:RT:bf2:Identifiers:LCCN",
           "lc:RT:bf2:Identifiers:ISBN",
           "lc:RT:bf2:Identifiers:Local",
-          "lc:RT:bf2:Identifiers:Other",
-          ""
+          "lc:RT:bf2:Identifiers:Other"
         ],
         "useValuesFrom": [],
         "defaults": [],
@@ -303,7 +302,7 @@
     {
       "mandatory": "false",
       "repeatable": "true",
-      "type": "resource",
+      "type": "lookup",
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [],
@@ -328,7 +327,7 @@
     {
       "mandatory": "true",
       "repeatable": "true",
-      "type": "resource",
+      "type": "lookup",
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [],

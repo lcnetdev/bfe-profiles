@@ -25,7 +25,7 @@
         {
           "mandatory": "false",
           "repeatable": "true",
-          "type": "literal",
+          "type": "resource",
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [
@@ -42,7 +42,7 @@
         {
           "mandatory": "false",
           "repeatable": "true",
-          "type": "literal",
+          "type": "resource",
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [
@@ -95,10 +95,12 @@
         {
           "mandatory": "false",
           "repeatable": "true",
-          "type": "lookup",
+          "type": "resource",
           "resourceTemplates": [],
           "valueConstraint": {
-            "valueTemplateRefs": [],
+            "valueTemplateRefs": [
+              "lc:RT:bf2:Place"
+            ],
             "useValuesFrom": [],
             "defaults": [],
             "valueDataType": {
@@ -169,8 +171,7 @@
             "valueTemplateRefs": [
               "lc:RT:bf2:Components",
               "lc:RT:bf2:Topic:Place:Components",
-              "lc:RT:bf2:Topic:SubjectWork",
-              ""
+              "lc:RT:bf2:Topic:SubjectWork"
             ],
             "useValuesFrom": [],
             "defaults": [],
@@ -218,7 +219,7 @@
         {
           "mandatory": "true",
           "repeatable": "true",
-          "type": "resource",
+          "type": "lookup",
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [],
@@ -300,7 +301,7 @@
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [
-              "lc:RT:bf2:Language:Parts"
+              "lc:RT:bf2:Language2"
             ],
             "useValuesFrom": [],
             "defaults": [],
@@ -407,7 +408,7 @@
         {
           "mandatory": "true",
           "repeatable": "true",
-          "type": "resource",
+          "type": "lookup",
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [],
@@ -558,7 +559,7 @@
         {
           "mandatory": "false",
           "repeatable": "true",
-          "type": "resource",
+          "type": "lookup",
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [],
@@ -810,8 +811,7 @@
               "lc:RT:bf2:Identifiers:LCCN",
               "lc:RT:bf2:Identifiers:ISBN",
               "lc:RT:bf2:Identifiers:Local",
-              "lc:RT:bf2:Identifiers:Other",
-              ""
+              "lc:RT:bf2:Identifiers:Other"
             ],
             "useValuesFrom": [],
             "defaults": [],
@@ -841,7 +841,7 @@
         {
           "mandatory": "false",
           "repeatable": "true",
-          "type": "resource",
+          "type": "lookup",
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [],
@@ -866,7 +866,7 @@
         {
           "mandatory": "true",
           "repeatable": "true",
-          "type": "resource",
+          "type": "lookup",
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [],
