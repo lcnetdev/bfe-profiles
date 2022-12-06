@@ -330,7 +330,7 @@
     {
       "mandatory": "false",
       "repeatable": "true",
-      "type": "resource",
+      "type": "lookup",
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [],
@@ -468,15 +468,14 @@
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [
-          "lc:RT:bf2:RelatedWork",
-          "lc:RT:bf2:RelatedExpression"
+          "lc:RT:bf2:RelatedWork"
         ],
         "useValuesFrom": [],
         "valueDataType": {},
         "defaults": []
       },
       "propertyURI": "http://id.loc.gov/ontologies/bflc/relationship",
-      "propertyLabel": "Related Works or Expressions",
+      "propertyLabel": "Related Work",
       "remark": ""
     },
     {
