@@ -219,7 +219,7 @@
         },
         {
           "repeatable": "false",
-          "type": "resource",
+          "type": "lookup",
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [],
@@ -243,7 +243,7 @@
         },
         {
           "repeatable": "false",
-          "type": "resource",
+          "type": "lookup",
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [],
@@ -261,7 +261,7 @@
           "mandatory": "false"
         },
         {
-          "type": "resource",
+          "type": "lookup",
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [],
@@ -322,7 +322,7 @@
         {
           "mandatory": "true",
           "repeatable": "false",
-          "type": "lookup",
+          "type": "resource",
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [
@@ -342,7 +342,7 @@
         {
           "mandatory": "true",
           "repeatable": "false",
-          "type": "resource",
+          "type": "lookup",
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [],
@@ -368,7 +368,7 @@
         {
           "mandatory": "true",
           "repeatable": "false",
-          "type": "lookup",
+          "type": "resource",
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [

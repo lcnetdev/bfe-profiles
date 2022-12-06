@@ -35510,7 +35510,7 @@
               },
               {
                 "repeatable": "false",
-                "type": "resource",
+                "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [],
@@ -35534,7 +35534,7 @@
               },
               {
                 "repeatable": "false",
-                "type": "resource",
+                "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [],
@@ -35552,7 +35552,7 @@
                 "mandatory": "false"
               },
               {
-                "type": "resource",
+                "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [],
@@ -35613,7 +35613,7 @@
               {
                 "mandatory": "true",
                 "repeatable": "false",
-                "type": "lookup",
+                "type": "resource",
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [
@@ -35633,7 +35633,7 @@
               {
                 "mandatory": "true",
                 "repeatable": "false",
-                "type": "resource",
+                "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [],
@@ -35659,7 +35659,7 @@
               {
                 "mandatory": "true",
                 "repeatable": "false",
-                "type": "lookup",
+                "type": "resource",
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [
@@ -35708,7 +35708,7 @@
     },
     "metadata": {
       "createDate": "2019-12-13T20:26:47.554Z",
-      "updateDate": "2022-04-07T20:34:58.291Z",
+      "updateDate": "2022-12-06T20:55:17.623Z",
       "createUser": null,
       "updateUser": null
     },
