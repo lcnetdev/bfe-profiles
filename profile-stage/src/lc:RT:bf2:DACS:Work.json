@@ -7,8 +7,7 @@
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [
-          "lc:RT:bf2:WorkTitle",
-          "lc:RT:bf2:WorkVariantTitle"
+          "lc:RT:bf2:WorkTitle"
         ],
         "useValuesFrom": [],
         "defaults": [],
@@ -29,7 +28,9 @@
         ],
         "useValuesFrom": [],
         "defaults": [],
-        "valueDataType": {}
+        "valueDataType": {
+          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Contribution"
+        }
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/contribution",
       "propertyLabel": "Contributor and role",
@@ -77,7 +78,7 @@
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [
-          "lc:RT:bf2:Contents"
+          "lc:RT:bf2:Summary"
         ],
         "useValuesFrom": [],
         "defaults": [],
@@ -90,7 +91,7 @@
     {
       "mandatory": "false",
       "repeatable": "true",
-      "type": "resource",
+      "type": "lookup",
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [],
@@ -112,7 +113,7 @@
     {
       "mandatory": "false",
       "repeatable": "true",
-      "type": "resource",
+      "type": "lookup",
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [],

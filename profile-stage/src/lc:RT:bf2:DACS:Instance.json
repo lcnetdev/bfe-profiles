@@ -21,7 +21,7 @@
     {
       "mandatory": "false",
       "repeatable": "true",
-      "type": "resource",
+      "type": "lookup",
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [],
@@ -44,7 +44,7 @@
     {
       "mandatory": "false",
       "repeatable": "true",
-      "type": "resource",
+      "type": "lookup",
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [],
@@ -67,7 +67,7 @@
     {
       "mandatory": "false",
       "repeatable": "true",
-      "type": "resource",
+      "type": "lookup",
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [],
@@ -126,7 +126,10 @@
       "type": "resource",
       "resourceTemplates": [],
       "valueConstraint": {
-        "valueTemplateRefs": [],
+        "valueTemplateRefs": [
+          "lc:RT:bf2:Components",
+          "lc:RT:bf2:Topic:Place:Components"
+        ],
         "useValuesFrom": [],
         "defaults": [],
         "valueDataType": {}

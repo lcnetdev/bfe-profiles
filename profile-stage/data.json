@@ -36345,8 +36345,7 @@
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [
-                    "lc:RT:bf2:WorkTitle",
-                    "lc:RT:bf2:WorkVariantTitle"
+                    "lc:RT:bf2:WorkTitle"
                   ],
                   "useValuesFrom": [],
                   "defaults": [],
@@ -36367,7 +36366,9 @@
                   ],
                   "useValuesFrom": [],
                   "defaults": [],
-                  "valueDataType": {}
+                  "valueDataType": {
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Contribution"
+                  }
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/contribution",
                 "propertyLabel": "Contributor and role",
@@ -36415,7 +36416,7 @@
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [
-                    "lc:RT:bf2:Contents"
+                    "lc:RT:bf2:Summary"
                   ],
                   "useValuesFrom": [],
                   "defaults": [],
@@ -36428,7 +36429,7 @@
               {
                 "mandatory": "false",
                 "repeatable": "true",
-                "type": "resource",
+                "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [],
@@ -36450,7 +36451,7 @@
               {
                 "mandatory": "false",
                 "repeatable": "true",
-                "type": "resource",
+                "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [],
@@ -36520,7 +36521,7 @@
               {
                 "mandatory": "false",
                 "repeatable": "true",
-                "type": "resource",
+                "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [],
@@ -36543,7 +36544,7 @@
               {
                 "mandatory": "false",
                 "repeatable": "true",
-                "type": "resource",
+                "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [],
@@ -36566,7 +36567,7 @@
               {
                 "mandatory": "false",
                 "repeatable": "true",
-                "type": "resource",
+                "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [],
@@ -36625,7 +36626,10 @@
                 "type": "resource",
                 "resourceTemplates": [],
                 "valueConstraint": {
-                  "valueTemplateRefs": [],
+                  "valueTemplateRefs": [
+                    "lc:RT:bf2:Components",
+                    "lc:RT:bf2:Topic:Place:Components"
+                  ],
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
@@ -36650,7 +36654,7 @@
     },
     "metadata": {
       "createDate": "2019-03-27T15:54:51.943Z",
-      "updateDate": "2022-02-07T21:24:00.544Z",
+      "updateDate": "2022-12-06T21:23:48.651Z",
       "createUser": null,
       "updateUser": null
     },
