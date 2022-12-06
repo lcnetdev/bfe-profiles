@@ -38530,7 +38530,7 @@
               {
                 "mandatory": "false",
                 "repeatable": "true",
-                "type": "list",
+                "type": "resource",
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [
@@ -38551,7 +38551,7 @@
               {
                 "mandatory": "false",
                 "repeatable": "true",
-                "type": "resource",
+                "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [],
@@ -38592,7 +38592,7 @@
     "id": "8917607a-509f-466c-bdb5-1cad67e5c9af",
     "metadata": {
       "createDate": "2020-12-21T14:05:49.850Z",
-      "updateDate": "2021-01-26T20:44:44.951Z",
+      "updateDate": "2022-12-06T20:53:30.000Z",
       "createUser": null,
       "updateUser": null
     },
