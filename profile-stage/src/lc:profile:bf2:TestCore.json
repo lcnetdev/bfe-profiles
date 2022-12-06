@@ -140,7 +140,7 @@
         {
           "mandatory": "true",
           "repeatable": "true",
-          "type": "resource",
+          "type": "lookup",
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [],
@@ -187,7 +187,7 @@
         {
           "mandatory": "false",
           "repeatable": "true",
-          "type": "resource",
+          "type": "lookup",
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [],
@@ -610,7 +610,7 @@
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/media",
           "repeatable": "true",
           "resourceTemplates": [],
-          "type": "resource",
+          "type": "lookup",
           "valueConstraint": {
             "valueTemplateRefs": [],
             "useValuesFrom": [
@@ -636,7 +636,7 @@
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/carrier",
           "repeatable": "true",
           "resourceTemplates": [],
-          "type": "resource",
+          "type": "lookup",
           "valueConstraint": {
             "valueTemplateRefs": [],
             "useValuesFrom": [
@@ -974,7 +974,7 @@
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [
-              "lc:RT:bf2:Item:ImmAcqSource"
+              "lc:RT:bf2:ImmAcqSource"
             ],
             "useValuesFrom": [],
             "valueDataType": {},
@@ -1108,13 +1108,13 @@
         {
           "mandatory": "false",
           "repeatable": "true",
-          "type": "literal",
+          "type": "lookup",
           "resourceTemplates": [],
           "valueConstraint": {
-            "valueTemplateRefs": [],
-            "useValuesFrom": [
-              ""
+            "valueTemplateRefs": [
+              "lc:RT:bf2:Agent:bfCorp"
             ],
+            "useValuesFrom": [],
             "valueDataType": {
               "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Agent"
             },
