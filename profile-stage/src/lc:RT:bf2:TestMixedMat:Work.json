@@ -257,7 +257,7 @@
     {
       "mandatory": "true",
       "repeatable": "true",
-      "type": "resource",
+      "type": "lookup",
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [],
@@ -304,7 +304,7 @@
     {
       "mandatory": "false",
       "repeatable": "true",
-      "type": "resource",
+      "type": "lookup",
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [],
@@ -364,15 +364,14 @@
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [
-          "lc:RT:bf2:RelatedWork",
-          "lc:RT:bf2:RelatedExpression"
+          "lc:RT:bf2:RelatedWork"
         ],
         "useValuesFrom": [],
         "valueDataType": {},
         "defaults": []
       },
       "propertyURI": "http://id.loc.gov/ontologies/bflc/relationship",
-      "propertyLabel": "Related Works and Expressions",
+      "propertyLabel": "Related Work",
       "remark": "http://access.rdatoolkit.org/rdachp25_rda25-65.html"
     },
     {
@@ -419,7 +418,8 @@
       "valueConstraint": {
         "valueTemplateRefs": [
           "lc:RT:bf2:TestMixedMat:Print",
-          "lc:RT:bf2:TestMixedMat:InstanceSR"
+          "lc:RT:bf2:TestMixedMat:InstanceSR",
+          "lc:RT:bf2:TestMixedMat:InstanceVR"
         ],
         "useValuesFrom": [],
         "defaults": [],
