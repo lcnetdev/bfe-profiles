@@ -17,7 +17,7 @@
     {
       "mandatory": "false",
       "repeatable": "true",
-      "type": "list",
+      "type": "resource",
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [
