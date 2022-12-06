@@ -23419,7 +23419,7 @@
               {
                 "mandatory": "false",
                 "repeatable": "true",
-                "type": "resource",
+                "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [],
@@ -23540,7 +23540,7 @@
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [
-                    "lc:RT:bf2:SoundCD:RelatedWork"
+                    "lc:RT:bf2:RelatedWork"
                   ],
                   "useValuesFrom": [],
                   "valueDataType": {},
@@ -23783,7 +23783,7 @@
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/media",
                 "repeatable": "true",
                 "resourceTemplates": [],
-                "type": "resource",
+                "type": "lookup",
                 "valueConstraint": {
                   "valueTemplateRefs": [],
                   "useValuesFrom": [
@@ -23809,7 +23809,7 @@
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/carrier",
                 "repeatable": "true",
                 "resourceTemplates": [],
-                "type": "resource",
+                "type": "lookup",
                 "valueConstraint": {
                   "valueTemplateRefs": [],
                   "useValuesFrom": [
@@ -23888,7 +23888,7 @@
               {
                 "mandatory": "false",
                 "repeatable": "true",
-                "type": "resource",
+                "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [],
@@ -24155,174 +24155,6 @@
             ],
             "resourceLabel": "BIBFRAME Item",
             "resourceURI": "http://id.loc.gov/ontologies/bibframe/Item"
-          },
-          {
-            "propertyTemplates": [
-              {
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "resource",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [
-                    "lc:RT:bf2:SoundCD:RelWork"
-                  ],
-                  "useValuesFrom": [],
-                  "defaults": [],
-                  "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Work"
-                  }
-                },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/relatedTo",
-                "propertyLabel": "Related Work"
-              },
-              {
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "resource",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [
-                    "lc:RT:bf2:Relation"
-                  ],
-                  "useValuesFrom": [],
-                  "defaults": [],
-                  "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bflc/Relation"
-                  }
-                },
-                "propertyURI": "http://id.loc.gov/ontologies/bflc/relation",
-                "propertyLabel": "Relationship Designator"
-              },
-              {
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "resource",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [
-                    "lc:RT:bf2:Note"
-                  ],
-                  "useValuesFrom": [],
-                  "defaults": [],
-                  "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Note"
-                  }
-                },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
-                "propertyLabel": "Description of Related Work"
-              },
-              {
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "resource",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [
-                    "lc:RT:bf2:AppliesTo"
-                  ],
-                  "useValuesFrom": [],
-                  "defaults": [],
-                  "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bflc/AppliesTo"
-                  }
-                },
-                "propertyURI": "http://id.loc.gov/ontologies/bflc/appliesTo",
-                "propertyLabel": "Applies to"
-              }
-            ],
-            "id": "lc:RT:bf2:SoundCD:RelatedWork",
-            "resourceURI": "http://id.loc.gov/ontologies/bflc/Relationship",
-            "resourceLabel": "Related works"
-          },
-          {
-            "propertyTemplates": [
-              {
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "lookup",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [
-                    "https://preprod-8230.id.loc.gov/resources/works"
-                  ],
-                  "defaults": [],
-                  "valueDataType": {}
-                },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/Work",
-                "propertyLabel": "Lookup"
-              },
-              {
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "resource",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [
-                    "lc:RT:bf2:Agents:Contribution"
-                  ],
-                  "useValuesFrom": [],
-                  "defaults": [],
-                  "valueDataType": {}
-                },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/contribution",
-                "propertyLabel": "Contributors"
-              },
-              {
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "resource",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [
-                    "lc:RT:bf2:WorkTitle"
-                  ],
-                  "useValuesFrom": [],
-                  "defaults": [],
-                  "valueDataType": {}
-                },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/title",
-                "propertyLabel": "Title"
-              },
-              {
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "resource",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [
-                    "lc:RT:bf2:Identifiers:LCCN",
-                    "lc:RT:bf2:Identifiers:ISBN",
-                    "lc:RT:bf2:Identifiers:Local"
-                  ],
-                  "useValuesFrom": [],
-                  "defaults": [],
-                  "valueDataType": {}
-                },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/identifiedBy",
-                "propertyLabel": "Identifiers"
-              },
-              {
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "resource",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [
-                    "lc:RT:bf2:PMOMedPerf:PerfMed"
-                  ],
-                  "useValuesFrom": [],
-                  "defaults": [],
-                  "valueDataType": {}
-                },
-                "propertyURI": "http://performedmusicontology.org/ontology/hasMedium",
-                "propertyLabel": "Medium of Performance"
-              }
-            ],
-            "id": "lc:RT:bf2:SoundCD:RelWork",
-            "resourceURI": "http://id.loc.gov/ontologies/bibframe/Work",
-            "resourceLabel": "Related work (lookup or input)"
           }
         ],
         "author": "NDMSO",
@@ -24336,7 +24168,7 @@
     "id": "2bb005e9-e706-4261-b21c-6137d6644584",
     "metadata": {
       "createDate": "2021-09-28T14:32:49.848Z",
-      "updateDate": "2022-11-22T19:03:51.836Z",
+      "updateDate": "2022-12-06T20:05:20.098Z",
       "createUser": null,
       "updateUser": null
     },
