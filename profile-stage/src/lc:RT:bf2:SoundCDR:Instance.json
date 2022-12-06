@@ -163,7 +163,7 @@
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/media",
       "repeatable": "true",
       "resourceTemplates": [],
-      "type": "resource",
+      "type": "lookup",
       "valueConstraint": {
         "valueTemplateRefs": [],
         "useValuesFrom": [
@@ -189,7 +189,7 @@
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/carrier",
       "repeatable": "true",
       "resourceTemplates": [],
-      "type": "resource",
+      "type": "lookup",
       "valueConstraint": {
         "valueTemplateRefs": [],
         "useValuesFrom": [
@@ -342,7 +342,7 @@
     {
       "mandatory": "false",
       "repeatable": "true",
-      "type": "resource",
+      "type": "lookup",
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [],
@@ -415,7 +415,7 @@
     {
       "mandatory": "false",
       "repeatable": "true",
-      "type": "resource",
+      "type": "lookup",
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [],

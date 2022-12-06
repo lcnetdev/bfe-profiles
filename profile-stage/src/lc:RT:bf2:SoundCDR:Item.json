@@ -76,12 +76,12 @@
       "type": "resource"
     },
     {
-      "propertyLabel": "URL of Item",
-      "propertyURI": "http://id.loc.gov/ontologies/bibframe/electronicLocator",
+      "propertyLabel": "Notes about the Item",
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [
-          "lc:RT:bf2:URL"
+          "lc:RT:bf2:Note"
         ],
         "useValuesFrom": [],
         "valueDataType": {},
@@ -92,12 +92,12 @@
       "type": "resource"
     },
     {
-      "propertyLabel": "Notes about the Item",
-      "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
+      "propertyLabel": "URL of Item",
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/electronicLocator",
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [
-          "lc:RT:bf2:Note"
+          "lc:RT:bf2:URL"
         ],
         "useValuesFrom": [],
         "valueDataType": {},

@@ -334,7 +334,7 @@
         {
           "mandatory": "false",
           "repeatable": "true",
-          "type": "resource",
+          "type": "lookup",
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [],
@@ -652,7 +652,7 @@
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/media",
           "repeatable": "true",
           "resourceTemplates": [],
-          "type": "resource",
+          "type": "lookup",
           "valueConstraint": {
             "valueTemplateRefs": [],
             "useValuesFrom": [
@@ -678,7 +678,7 @@
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/carrier",
           "repeatable": "true",
           "resourceTemplates": [],
-          "type": "resource",
+          "type": "lookup",
           "valueConstraint": {
             "valueTemplateRefs": [],
             "useValuesFrom": [
@@ -831,7 +831,7 @@
         {
           "mandatory": "false",
           "repeatable": "true",
-          "type": "resource",
+          "type": "lookup",
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [],
@@ -904,7 +904,7 @@
         {
           "mandatory": "false",
           "repeatable": "true",
-          "type": "resource",
+          "type": "lookup",
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [],
@@ -1051,12 +1051,12 @@
           "type": "resource"
         },
         {
-          "propertyLabel": "URL of Item",
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/electronicLocator",
+          "propertyLabel": "Notes about the Item",
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [
-              "lc:RT:bf2:URL"
+              "lc:RT:bf2:Note"
             ],
             "useValuesFrom": [],
             "valueDataType": {},
@@ -1067,12 +1067,12 @@
           "type": "resource"
         },
         {
-          "propertyLabel": "Notes about the Item",
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
+          "propertyLabel": "URL of Item",
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/electronicLocator",
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [
-              "lc:RT:bf2:Note"
+              "lc:RT:bf2:URL"
             ],
             "useValuesFrom": [],
             "valueDataType": {},
