@@ -237,6 +237,20 @@
             "defaults": [],
             "valueDataType": {}
           },
+          "propertyURI": "http://id.loc.gov/ontologies/bflc/nonSortNum",
+          "propertyLabel": "Non-sort character count"
+        },
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "literal",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [],
+            "useValuesFrom": [],
+            "defaults": [],
+            "valueDataType": {}
+          },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/mainTitle",
           "propertyLabel": "Title"
         }

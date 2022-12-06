@@ -525,6 +525,20 @@
                   "defaults": [],
                   "valueDataType": {}
                 },
+                "propertyURI": "http://id.loc.gov/ontologies/bflc/nonSortNum",
+                "propertyLabel": "Non-sort character count"
+              },
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "literal",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {}
+                },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/mainTitle",
                 "propertyLabel": "Title"
               }
@@ -669,7 +683,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2022-12-05T21:32:45.587Z",
+      "updateDate": "2022-12-06T18:32:17.012Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",
