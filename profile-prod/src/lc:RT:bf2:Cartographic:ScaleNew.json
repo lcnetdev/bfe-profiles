@@ -2,26 +2,6 @@
   "propertyTemplates": [
     {
       "mandatory": "false",
-      "repeatable": "false",
-      "type": "lookup",
-      "resourceTemplates": [],
-      "valueConstraint": {
-        "valueTemplateRefs": [],
-        "useValuesFrom": [
-          "http://id.loc.gov/vocabulary/mscale"
-        ],
-        "defaults": [],
-        "valueDataType": {
-          "dataTypeURI": ""
-        },
-        "editable": "false"
-      },
-      "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
-      "propertyLabel": "Lookup",
-      "remark": ""
-    },
-    {
-      "mandatory": "false",
       "repeatable": "true",
       "type": "literal",
       "resourceTemplates": [],
@@ -38,5 +18,5 @@
   ],
   "id": "lc:RT:bf2:Cartographic:ScaleNew",
   "resourceURI": "http://id.loc.gov/ontologies/bibframe/Scale",
-  "resourceLabel": "Scale"
+  "resourceLabel": "Numeric Scale value"
 }

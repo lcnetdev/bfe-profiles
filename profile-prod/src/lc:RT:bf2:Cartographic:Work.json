@@ -357,6 +357,24 @@
     {
       "mandatory": "false",
       "repeatable": "true",
+      "type": "lookup",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [
+          "http://id.loc.gov/vocabulary/mscale"
+        ],
+        "defaults": [],
+        "valueDataType": {
+          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Scale"
+        }
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/ccale",
+      "propertyLabel": "Search Scale term"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
       "type": "resource",
       "resourceTemplates": [],
       "valueConstraint": {
@@ -368,7 +386,7 @@
         "defaults": []
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/scale",
-      "propertyLabel": "Scale information",
+      "propertyLabel": "Numeric Scale value",
       "remark": "https://original.rdatoolkit.org/7.25.html"
     },
     {
