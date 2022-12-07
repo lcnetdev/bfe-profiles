@@ -12070,7 +12070,7 @@
               {
                 "mandatory": "false",
                 "repeatable": "false",
-                "type": "resource",
+                "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [],
@@ -12106,7 +12106,7 @@
                   "defaults": [
                     {
                       "defaultURI": "http://id.loc.gov/vocabulary/organizations/dlc",
-                      "defaultLiteral": "DLC"
+                      "defaultLiteral": "United States, Library of Congress"
                     }
                   ],
                   "valueDataType": {
@@ -12230,7 +12230,7 @@
                   "valueDataType": {}
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/itemPortion",
-                "propertyLabel": "Cutter number"
+                "propertyLabel": "Additional call number information"
               },
               {
                 "mandatory": "false",
@@ -12271,7 +12271,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.059Z",
-      "updateDate": "2022-07-15T20:25:32.689Z",
+      "updateDate": "2022-12-07T20:52:04.488Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.059Z",

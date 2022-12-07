@@ -35,7 +35,7 @@
         {
           "mandatory": "false",
           "repeatable": "false",
-          "type": "resource",
+          "type": "lookup",
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [],
@@ -71,7 +71,7 @@
             "defaults": [
               {
                 "defaultURI": "http://id.loc.gov/vocabulary/organizations/dlc",
-                "defaultLiteral": "DLC"
+                "defaultLiteral": "United States, Library of Congress"
               }
             ],
             "valueDataType": {
@@ -195,7 +195,7 @@
             "valueDataType": {}
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/itemPortion",
-          "propertyLabel": "Cutter number"
+          "propertyLabel": "Additional call number information"
         },
         {
           "mandatory": "false",

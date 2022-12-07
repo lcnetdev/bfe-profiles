@@ -33,7 +33,7 @@
     {
       "mandatory": "false",
       "repeatable": "false",
-      "type": "resource",
+      "type": "lookup",
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [],
@@ -69,7 +69,7 @@
         "defaults": [
           {
             "defaultURI": "http://id.loc.gov/vocabulary/organizations/dlc",
-            "defaultLiteral": "DLC"
+            "defaultLiteral": "United States, Library of Congress"
           }
         ],
         "valueDataType": {
