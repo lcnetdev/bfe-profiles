@@ -23043,7 +23043,7 @@
               {
                 "mandatory": "true",
                 "repeatable": "false",
-                "type": "resource",
+                "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [],
@@ -23063,7 +23063,7 @@
               {
                 "mandatory": "false",
                 "repeatable": "false",
-                "type": "resource",
+                "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [],
@@ -23119,7 +23119,7 @@
               {
                 "mandatory": "true",
                 "repeatable": "false",
-                "type": "resource",
+                "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [],
@@ -23144,7 +23144,7 @@
               {
                 "mandatory": "true",
                 "repeatable": "true",
-                "type": "resource",
+                "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [],
@@ -23169,7 +23169,7 @@
               {
                 "mandatory": "true",
                 "repeatable": "true",
-                "type": "resource",
+                "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [],
@@ -23194,7 +23194,7 @@
               {
                 "mandatory": "true",
                 "repeatable": "false",
-                "type": "resource",
+                "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [],
@@ -23220,7 +23220,7 @@
               {
                 "mandatory": "true",
                 "repeatable": "true",
-                "type": "resource",
+                "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [],
@@ -23352,7 +23352,7 @@
               {
                 "mandatory": "true",
                 "repeatable": "false",
-                "type": "resource",
+                "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [],
@@ -23377,7 +23377,7 @@
               {
                 "mandatory": "true",
                 "repeatable": "false",
-                "type": "resource",
+                "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [],
@@ -23402,7 +23402,7 @@
               {
                 "mandatory": "true",
                 "repeatable": "true",
-                "type": "resource",
+                "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [],
@@ -23428,7 +23428,7 @@
               {
                 "mandatory": "true",
                 "repeatable": "false",
-                "type": "resource",
+                "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [],
@@ -23455,7 +23455,7 @@
               {
                 "mandatory": "true",
                 "repeatable": "true",
-                "type": "resource",
+                "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [],
@@ -23481,7 +23481,7 @@
               {
                 "mandatory": "true",
                 "repeatable": "false",
-                "type": "resource",
+                "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [],
@@ -23563,7 +23563,7 @@
               {
                 "mandatory": "false",
                 "repeatable": "true",
-                "type": "resource",
+                "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [],
@@ -23597,7 +23597,7 @@
                   "valueDataType": {}
                 },
                 "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label",
-                "propertyLabel": "Label",
+                "propertyLabel": "Generation process",
                 "remark": ""
               }
             ],
@@ -23617,7 +23617,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.056Z",
-      "updateDate": "2022-02-22T21:02:49.444Z",
+      "updateDate": "2022-12-07T19:18:50.282Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.056Z",
