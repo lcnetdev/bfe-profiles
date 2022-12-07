@@ -12,7 +12,7 @@
         ],
         "defaults": [],
         "valueDataType": {
-          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Scale"
+          "dataTypeURI": ""
         },
         "editable": "false"
       },

@@ -14574,7 +14574,7 @@
                     }
                   ],
                   "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/FileType"
+                    "dataTypeURI": ""
                   }
                 },
                 "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
@@ -14599,7 +14599,7 @@
                   ],
                   "defaults": [],
                   "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Scale"
+                    "dataTypeURI": ""
                   },
                   "editable": "false"
                 },
@@ -14638,7 +14638,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.059Z",
-      "updateDate": "2022-12-07T16:59:38.167Z",
+      "updateDate": "2022-12-07T17:05:34.786Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.059Z",

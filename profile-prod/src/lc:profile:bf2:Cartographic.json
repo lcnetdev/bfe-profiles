@@ -1203,7 +1203,7 @@
               }
             ],
             "valueDataType": {
-              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/FileType"
+              "dataTypeURI": ""
             }
           },
           "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
@@ -1228,7 +1228,7 @@
             ],
             "defaults": [],
             "valueDataType": {
-              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Scale"
+              "dataTypeURI": ""
             },
             "editable": "false"
           },
