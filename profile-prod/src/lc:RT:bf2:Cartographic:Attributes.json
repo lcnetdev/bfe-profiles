@@ -18,7 +18,7 @@
     {
       "mandatory": "false",
       "repeatable": "true",
-      "type": "resource",
+      "type": "lookup",
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [],
@@ -26,7 +26,9 @@
           "http://id.loc.gov/vocabulary/mprojection"
         ],
         "defaults": [],
-        "valueDataType": {}
+        "valueDataType": {
+          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Projection"
+        }
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/projection",
       "propertyLabel": "Projection",
@@ -35,7 +37,7 @@
     {
       "mandatory": "false",
       "repeatable": "true",
-      "type": "resource",
+      "type": "lookup",
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [],
@@ -43,7 +45,9 @@
           "http://id.loc.gov/vocabulary/mrelief"
         ],
         "defaults": [],
-        "valueDataType": {}
+        "valueDataType": {
+          "dataTypeURI": "http://id.loc.gov/ontologies/bflc/Relief"
+        }
       },
       "propertyURI": "http://id.loc.gov/ontologies/bflc/relief",
       "propertyLabel": "Relief",

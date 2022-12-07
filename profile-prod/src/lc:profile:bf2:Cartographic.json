@@ -61,7 +61,7 @@
         {
           "mandatory": "false",
           "repeatable": "false",
-          "type": "resource",
+          "type": "lookup",
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [],
@@ -69,7 +69,9 @@
               "http://id.loc.gov/vocabulary/mgovtpubtype"
             ],
             "defaults": [],
-            "valueDataType": {}
+            "valueDataType": {
+              "dataTypeURI": "http://id.loc.gov/ontologies/bflc/GovernmentPubType"
+            }
           },
           "propertyURI": "http://id.loc.gov/ontologies/bflc/governmentPubType",
           "propertyLabel": "Government publication"
@@ -253,14 +255,16 @@
         {
           "mandatory": "false",
           "repeatable": "true",
-          "type": "resource",
+          "type": "lookup",
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [],
             "useValuesFrom": [
               "http://id.loc.gov/vocabulary/contentTypes"
             ],
-            "valueDataType": {},
+            "valueDataType": {
+              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Content"
+            },
             "editable": "false",
             "repeatable": "true",
             "defaults": [
@@ -298,14 +302,16 @@
         {
           "mandatory": "false",
           "repeatable": "true",
-          "type": "resource",
+          "type": "lookup",
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [],
             "useValuesFrom": [
               "http://id.loc.gov/vocabulary/mscript"
             ],
-            "valueDataType": {},
+            "valueDataType": {
+              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Script"
+            },
             "defaults": []
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/notation",
@@ -334,18 +340,20 @@
         {
           "mandatory": "false",
           "repeatable": "true",
-          "type": "resource",
+          "type": "lookup",
           "resourceTemplates": [],
           "valueConstraint": {
-            "valueTemplateRefs": [
-              "lc:RT:bf2:ColorContent"
+            "valueTemplateRefs": [],
+            "useValuesFrom": [
+              "http://id.loc.gov/vocabulary/mcolor"
             ],
-            "useValuesFrom": [],
-            "valueDataType": {},
+            "valueDataType": {
+              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/ColorContent"
+            },
             "defaults": []
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/colorContent",
-          "propertyLabel": "Color Content",
+          "propertyLabel": "Color Content (lookup or note)",
           "remark": "https://original.rdatoolkit.org/7.17.html"
         },
         {
@@ -627,12 +635,14 @@
           "remark": "https://original.rdatoolkit.org/3.2.html",
           "repeatable": "true",
           "resourceTemplates": [],
-          "type": "resource",
+          "type": "lookup",
           "valueConstraint": {
             "useValuesFrom": [
               "http://id.loc.gov/vocabulary/mediaTypes"
             ],
-            "valueDataType": {},
+            "valueDataType": {
+              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Media"
+            },
             "valueTemplateRefs": [],
             "editable": "false",
             "repeatable": "true",
@@ -651,12 +661,14 @@
           "remark": "https://original.rdatoolkit.org/3.3.html",
           "repeatable": "true",
           "resourceTemplates": [],
-          "type": "resource",
+          "type": "lookup",
           "valueConstraint": {
             "useValuesFrom": [
               "http://id.loc.gov/vocabulary/carriers"
             ],
-            "valueDataType": {},
+            "valueDataType": {
+              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Carrier"
+            },
             "valueTemplateRefs": [],
             "editable": "false",
             "repeatable": "true",
@@ -703,14 +715,16 @@
         {
           "mandatory": "false",
           "repeatable": "true",
-          "type": "resource",
+          "type": "lookup",
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [],
             "useValuesFrom": [
               "http://id.loc.gov/vocabulary/mmaterial"
             ],
-            "valueDataType": {},
+            "valueDataType": {
+              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/BaseMaterial"
+            },
             "defaults": []
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/baseMaterial",
@@ -720,14 +734,16 @@
         {
           "mandatory": "false",
           "repeatable": "true",
-          "type": "resource",
+          "type": "lookup",
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [],
             "useValuesFrom": [
               "http://id.loc.gov/vocabulary/mlayout"
             ],
-            "valueDataType": {},
+            "valueDataType": {
+              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Layout"
+            },
             "defaults": []
           },
           "propertyLabel": "Layout",
@@ -737,14 +753,16 @@
         {
           "mandatory": "false",
           "repeatable": "true",
-          "type": "resource",
+          "type": "lookup",
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [],
             "useValuesFrom": [
               "http://id.loc.gov/vocabulary/mpolarity"
             ],
-            "valueDataType": {},
+            "valueDataType": {
+              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Polarity"
+            },
             "editable": "true",
             "repeatable": "true",
             "defaults": []
@@ -998,7 +1016,7 @@
         {
           "mandatory": "false",
           "repeatable": "true",
-          "type": "resource",
+          "type": "lookup",
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [],
@@ -1006,7 +1024,9 @@
               "http://id.loc.gov/vocabulary/mprojection"
             ],
             "defaults": [],
-            "valueDataType": {}
+            "valueDataType": {
+              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Projection"
+            }
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/projection",
           "propertyLabel": "Projection",
@@ -1015,7 +1035,7 @@
         {
           "mandatory": "false",
           "repeatable": "true",
-          "type": "resource",
+          "type": "lookup",
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [],
@@ -1023,7 +1043,9 @@
               "http://id.loc.gov/vocabulary/mrelief"
             ],
             "defaults": [],
-            "valueDataType": {}
+            "valueDataType": {
+              "dataTypeURI": "http://id.loc.gov/ontologies/bflc/Relief"
+            }
           },
           "propertyURI": "http://id.loc.gov/ontologies/bflc/relief",
           "propertyLabel": "Relief",
@@ -1131,7 +1153,8 @@
               "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Source"
             }
           },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/source"
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/source",
+          "propertyLabel": "Source"
         }
       ],
       "id": "lc:RT:bf2:Cartographic:GeoCoverage",
@@ -1203,7 +1226,7 @@
             "valueDataType": {},
             "editable": "false"
           },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/Scale",
+          "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
           "propertyLabel": "Lookup",
           "remark": ""
         },
@@ -1226,44 +1249,6 @@
       "id": "lc:RT:bf2:Cartographic:ScaleNew",
       "resourceURI": "http://id.loc.gov/ontologies/bibframe/Scale",
       "resourceLabel": "Scale"
-    },
-    {
-      "propertyTemplates": [
-        {
-          "mandatory": "false",
-          "repeatable": "true",
-          "type": "literal",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [],
-            "useValuesFrom": [],
-            "valueDataType": {},
-            "defaults": []
-          },
-          "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label",
-          "propertyLabel": "Scale",
-          "remark": "http://access.rdatoolkit.org/7.25.html"
-        },
-        {
-          "mandatory": "false",
-          "repeatable": "true",
-          "type": "resource",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [
-              "lc:RT:bf2:Note"
-            ],
-            "useValuesFrom": [],
-            "valueDataType": {},
-            "defaults": []
-          },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
-          "propertyLabel": "Additional Scale Information"
-        }
-      ],
-      "id": "lc:RT:bf2:Cartographic:Scale",
-      "resourceURI": "http://id.loc.gov/ontologies/bibframe/Scale",
-      "resourceLabel": "Scale (original)"
     }
   ],
   "author": "NDMSO",

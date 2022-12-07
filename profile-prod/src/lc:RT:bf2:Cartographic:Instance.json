@@ -186,12 +186,14 @@
       "remark": "https://original.rdatoolkit.org/3.2.html",
       "repeatable": "true",
       "resourceTemplates": [],
-      "type": "resource",
+      "type": "lookup",
       "valueConstraint": {
         "useValuesFrom": [
           "http://id.loc.gov/vocabulary/mediaTypes"
         ],
-        "valueDataType": {},
+        "valueDataType": {
+          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Media"
+        },
         "valueTemplateRefs": [],
         "editable": "false",
         "repeatable": "true",
@@ -210,12 +212,14 @@
       "remark": "https://original.rdatoolkit.org/3.3.html",
       "repeatable": "true",
       "resourceTemplates": [],
-      "type": "resource",
+      "type": "lookup",
       "valueConstraint": {
         "useValuesFrom": [
           "http://id.loc.gov/vocabulary/carriers"
         ],
-        "valueDataType": {},
+        "valueDataType": {
+          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Carrier"
+        },
         "valueTemplateRefs": [],
         "editable": "false",
         "repeatable": "true",
@@ -262,14 +266,16 @@
     {
       "mandatory": "false",
       "repeatable": "true",
-      "type": "resource",
+      "type": "lookup",
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [],
         "useValuesFrom": [
           "http://id.loc.gov/vocabulary/mmaterial"
         ],
-        "valueDataType": {},
+        "valueDataType": {
+          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/BaseMaterial"
+        },
         "defaults": []
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/baseMaterial",
@@ -279,14 +285,16 @@
     {
       "mandatory": "false",
       "repeatable": "true",
-      "type": "resource",
+      "type": "lookup",
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [],
         "useValuesFrom": [
           "http://id.loc.gov/vocabulary/mlayout"
         ],
-        "valueDataType": {},
+        "valueDataType": {
+          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Layout"
+        },
         "defaults": []
       },
       "propertyLabel": "Layout",
@@ -296,14 +304,16 @@
     {
       "mandatory": "false",
       "repeatable": "true",
-      "type": "resource",
+      "type": "lookup",
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [],
         "useValuesFrom": [
           "http://id.loc.gov/vocabulary/mpolarity"
         ],
-        "valueDataType": {},
+        "valueDataType": {
+          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Polarity"
+        },
         "editable": "true",
         "repeatable": "true",
         "defaults": []

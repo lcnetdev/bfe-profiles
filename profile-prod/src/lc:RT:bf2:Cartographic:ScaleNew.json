@@ -14,7 +14,7 @@
         "valueDataType": {},
         "editable": "false"
       },
-      "propertyURI": "http://id.loc.gov/ontologies/bibframe/Scale",
+      "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
       "propertyLabel": "Lookup",
       "remark": ""
     },

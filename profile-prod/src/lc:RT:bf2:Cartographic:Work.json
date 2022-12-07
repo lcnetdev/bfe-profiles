@@ -59,7 +59,7 @@
     {
       "mandatory": "false",
       "repeatable": "false",
-      "type": "resource",
+      "type": "lookup",
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [],
@@ -67,7 +67,9 @@
           "http://id.loc.gov/vocabulary/mgovtpubtype"
         ],
         "defaults": [],
-        "valueDataType": {}
+        "valueDataType": {
+          "dataTypeURI": "http://id.loc.gov/ontologies/bflc/GovernmentPubType"
+        }
       },
       "propertyURI": "http://id.loc.gov/ontologies/bflc/governmentPubType",
       "propertyLabel": "Government publication"
@@ -251,14 +253,16 @@
     {
       "mandatory": "false",
       "repeatable": "true",
-      "type": "resource",
+      "type": "lookup",
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [],
         "useValuesFrom": [
           "http://id.loc.gov/vocabulary/contentTypes"
         ],
-        "valueDataType": {},
+        "valueDataType": {
+          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Content"
+        },
         "editable": "false",
         "repeatable": "true",
         "defaults": [
@@ -296,14 +300,16 @@
     {
       "mandatory": "false",
       "repeatable": "true",
-      "type": "resource",
+      "type": "lookup",
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [],
         "useValuesFrom": [
           "http://id.loc.gov/vocabulary/mscript"
         ],
-        "valueDataType": {},
+        "valueDataType": {
+          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Script"
+        },
         "defaults": []
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/notation",
@@ -332,18 +338,20 @@
     {
       "mandatory": "false",
       "repeatable": "true",
-      "type": "resource",
+      "type": "lookup",
       "resourceTemplates": [],
       "valueConstraint": {
-        "valueTemplateRefs": [
-          "lc:RT:bf2:ColorContent"
+        "valueTemplateRefs": [],
+        "useValuesFrom": [
+          "http://id.loc.gov/vocabulary/mcolor"
         ],
-        "useValuesFrom": [],
-        "valueDataType": {},
+        "valueDataType": {
+          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/ColorContent"
+        },
         "defaults": []
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/colorContent",
-      "propertyLabel": "Color Content",
+      "propertyLabel": "Color Content (lookup or note)",
       "remark": "https://original.rdatoolkit.org/7.17.html"
     },
     {
