@@ -217,20 +217,20 @@
         {
           "mandatory": "false",
           "repeatable": "true",
-          "type": "resource",
+          "type": "lookup",
           "resourceTemplates": [],
           "valueConstraint": {
-            "valueTemplateRefs": [
-              "lc:RT:bf2:ColorContent"
+            "valueTemplateRefs": [],
+            "useValuesFrom": [
+              "http://id.loc.gov/vocabulary/mcolor"
             ],
-            "useValuesFrom": [],
             "defaults": [],
             "valueDataType": {
               "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/ColorContent"
             }
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/colorContent",
-          "propertyLabel": "Color content"
+          "propertyLabel": "Color content (lookup or note)"
         },
         {
           "mandatory": "false",
