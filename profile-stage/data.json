@@ -7374,7 +7374,7 @@
                   },
                   "editable": "false"
                 },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/FileType",
+                "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
                 "propertyLabel": "Lookup",
                 "remark": "http://access.rdatoolkit.org/3.19.2.html"
               }
@@ -7414,7 +7414,7 @@
     },
     "metadata": {
       "createDate": "2018-09-26T14:53:15.546Z",
-      "updateDate": "2022-12-07T20:54:24.363Z",
+      "updateDate": "2022-12-07T20:57:01.566Z",
       "createUser": null,
       "updateUser": null
     },

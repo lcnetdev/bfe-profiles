@@ -17,7 +17,7 @@
         },
         "editable": "false"
       },
-      "propertyURI": "http://id.loc.gov/ontologies/bibframe/FileType",
+      "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
       "propertyLabel": "Lookup",
       "remark": "http://access.rdatoolkit.org/3.19.2.html"
     }
