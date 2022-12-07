@@ -129,22 +129,6 @@
     },
     {
       "mandatory": "false",
-      "repeatable": "true",
-      "type": "resource",
-      "resourceTemplates": [],
-      "valueConstraint": {
-        "valueTemplateRefs": [
-          "lc:RT:bf2:GPOClass"
-        ],
-        "useValuesFrom": [],
-        "defaults": [],
-        "valueDataType": {}
-      },
-      "propertyURI": "http://id.loc.gov/ontologies/bibframe/classification",
-      "propertyLabel": "SuDoc number"
-    },
-    {
-      "mandatory": "false",
       "propertyLabel": "Identifiers",
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/identifiedBy",
       "remark": "",
@@ -366,7 +350,7 @@
     },
     {
       "mandatory": "false",
-      "propertyLabel": "Uniform Resource Locator",
+      "propertyLabel": "URL of Instance",
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/electronicLocator",
       "remark": "http://access.rdatoolkit.org/4.6.html",
       "repeatable": "true",
@@ -398,22 +382,6 @@
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/contribution",
       "propertyLabel": "Contributors",
       "remark": "http://access.rdatoolkit.org/21.1.html"
-    },
-    {
-      "mandatory": "true",
-      "repeatable": "false",
-      "type": "resource",
-      "resourceTemplates": [],
-      "valueConstraint": {
-        "valueTemplateRefs": [
-          "lc:RT:bf2:AdminMetadata:BFDB"
-        ],
-        "useValuesFrom": [],
-        "valueDataType": {},
-        "defaults": []
-      },
-      "propertyURI": "http://id.loc.gov/ontologies/bibframe/adminMetadata",
-      "propertyLabel": "Administrative Metadata"
     },
     {
       "mandatory": "false",

@@ -62,6 +62,24 @@
         {
           "mandatory": "false",
           "repeatable": "true",
+          "type": "lookup",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [],
+            "useValuesFrom": [
+              "http://id.loc.gov/vocabulary/mgovtpubtype"
+            ],
+            "defaults": [],
+            "valueDataType": {
+              "dataTypeURI": "http://id.loc.gov/ontologies/bflc/GovernmentPubType"
+            }
+          },
+          "propertyURI": "http://id.loc.gov/ontologies/bflc/governmentPubType",
+          "propertyLabel": "Government publication"
+        },
+        {
+          "mandatory": "false",
+          "repeatable": "true",
           "type": "resource",
           "resourceTemplates": [],
           "valueConstraint": {
@@ -354,7 +372,7 @@
             }
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/scale",
-          "propertyLabel": "Scale term or note"
+          "propertyLabel": "Search Scale term"
         },
         {
           "mandatory": "false",
@@ -370,7 +388,7 @@
             "defaults": []
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/scale",
-          "propertyLabel": "Scale value"
+          "propertyLabel": "Numeric Scale value"
         },
         {
           "mandatory": "false",
@@ -572,22 +590,6 @@
               }
             ]
           }
-        },
-        {
-          "mandatory": "false",
-          "repeatable": "true",
-          "type": "resource",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [
-              "lc:RT:bf2:GPOClass"
-            ],
-            "useValuesFrom": [],
-            "defaults": [],
-            "valueDataType": {}
-          },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/classification",
-          "propertyLabel": "SuDoc number"
         },
         {
           "mandatory": "false",
@@ -812,7 +814,7 @@
         },
         {
           "mandatory": "false",
-          "propertyLabel": "Uniform Resource Locator",
+          "propertyLabel": "URL of Instance",
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/electronicLocator",
           "remark": "http://access.rdatoolkit.org/4.6.html",
           "repeatable": "true",
@@ -844,22 +846,6 @@
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/contribution",
           "propertyLabel": "Contributors",
           "remark": "http://access.rdatoolkit.org/21.1.html"
-        },
-        {
-          "mandatory": "true",
-          "repeatable": "false",
-          "type": "resource",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [
-              "lc:RT:bf2:AdminMetadata:BFDB"
-            ],
-            "useValuesFrom": [],
-            "valueDataType": {},
-            "defaults": []
-          },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/adminMetadata",
-          "propertyLabel": "Administrative Metadata"
         },
         {
           "mandatory": "false",
@@ -1161,10 +1147,10 @@
             ],
             "defaults": [],
             "valueDataType": {
-              "dataTypeURI": ""
+              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/GeographicCoverage"
             }
           },
-          "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label",
+          "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
           "propertyLabel": "Input GAC or classification code",
           "remark": ""
         },
@@ -1269,7 +1255,7 @@
       ],
       "id": "lc:RT:bf2:Cartographic:ScaleNew",
       "resourceURI": "http://id.loc.gov/ontologies/bibframe/Scale",
-      "resourceLabel": "Scale value"
+      "resourceLabel": "Numeric Scale value"
     }
   ],
   "author": "NDMSO",
