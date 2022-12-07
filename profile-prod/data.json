@@ -19157,7 +19157,7 @@
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
                 "propertyLabel": "Relationship Designator",
-                "type": "resource",
+                "type": "lookup",
                 "mandatory": "false",
                 "repeatable": "true",
                 "resourceTemplates": [],
@@ -19195,6 +19195,29 @@
                 "mandatory": "false",
                 "repeatable": "true",
                 "resourceTemplates": []
+              },
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "lookup",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [
+                    "http://id.loc.gov/vocabulary/organizations"
+                  ],
+                  "defaults": [
+                    {
+                      "defaultURI": "http://id.loc.gov/vocabulary/organizations/dlc",
+                      "defaultLiteral": "DLC"
+                    }
+                  ],
+                  "valueDataType": {
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bflc/ApplicableInstitution"
+                  }
+                },
+                "propertyURI": "http://id.loc.gov/ontologies/bflc/applicableInstitution",
+                "propertyLabel": "Applicable institution"
               }
             ]
           }
@@ -19208,7 +19231,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.058Z",
-      "updateDate": "2022-05-27T13:21:33.819Z",
+      "updateDate": "2022-12-07T20:49:11.890Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.058Z",

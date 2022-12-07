@@ -27,7 +27,7 @@
     {
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
       "propertyLabel": "Relationship Designator",
-      "type": "resource",
+      "type": "lookup",
       "mandatory": "false",
       "repeatable": "true",
       "resourceTemplates": [],

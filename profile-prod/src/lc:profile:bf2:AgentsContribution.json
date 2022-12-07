@@ -29,7 +29,7 @@
         {
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
           "propertyLabel": "Relationship Designator",
-          "type": "resource",
+          "type": "lookup",
           "mandatory": "false",
           "repeatable": "true",
           "resourceTemplates": [],
@@ -67,6 +67,29 @@
           "mandatory": "false",
           "repeatable": "true",
           "resourceTemplates": []
+        },
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "lookup",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [],
+            "useValuesFrom": [
+              "http://id.loc.gov/vocabulary/organizations"
+            ],
+            "defaults": [
+              {
+                "defaultURI": "http://id.loc.gov/vocabulary/organizations/dlc",
+                "defaultLiteral": "DLC"
+              }
+            ],
+            "valueDataType": {
+              "dataTypeURI": "http://id.loc.gov/ontologies/bflc/ApplicableInstitution"
+            }
+          },
+          "propertyURI": "http://id.loc.gov/ontologies/bflc/applicableInstitution",
+          "propertyLabel": "Applicable institution"
         }
       ]
     }
