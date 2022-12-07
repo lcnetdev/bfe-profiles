@@ -919,7 +919,7 @@
             ],
             "defaults": [],
             "valueDataType": {
-              "dataTypeURI": "",
+              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/FileType",
               "remark": ""
             },
             "editable": "false"
