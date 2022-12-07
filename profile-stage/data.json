@@ -24474,7 +24474,7 @@
                   "defaults": []
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/colorContent",
-                "propertyLabel": "Color Content",
+                "propertyLabel": "Color Content (lookup or note)",
                 "remark": "http://access.rdatoolkit.org/7.17.html"
               },
               {
@@ -25359,7 +25359,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2022-12-07T16:09:56.695Z",
+      "updateDate": "2022-12-07T16:13:27.820Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",
