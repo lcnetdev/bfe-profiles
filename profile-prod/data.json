@@ -14499,7 +14499,9 @@
                     "http://id.loc.gov/vocabulary/geographicAreas"
                   ],
                   "defaults": [],
-                  "valueDataType": {}
+                  "valueDataType": {
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/GeographicCoverage"
+                  }
                 },
                 "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
                 "propertyLabel": "Input GAC or classification code"
@@ -14571,7 +14573,9 @@
                       "defaultLiteral": "image file"
                     }
                   ],
-                  "valueDataType": {}
+                  "valueDataType": {
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/FileType"
+                  }
                 },
                 "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
                 "propertyLabel": "File Type"
@@ -14634,7 +14638,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.059Z",
-      "updateDate": "2022-12-07T16:45:01.330Z",
+      "updateDate": "2022-12-07T16:54:59.717Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.059Z",
