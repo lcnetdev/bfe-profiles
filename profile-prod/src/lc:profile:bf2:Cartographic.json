@@ -1223,7 +1223,9 @@
               "http://id.loc.gov/vocabulary/mscale"
             ],
             "defaults": [],
-            "valueDataType": {},
+            "valueDataType": {
+              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Scale"
+            },
             "editable": "false"
           },
           "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",

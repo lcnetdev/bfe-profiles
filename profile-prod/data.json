@@ -14594,7 +14594,9 @@
                     "http://id.loc.gov/vocabulary/mscale"
                   ],
                   "defaults": [],
-                  "valueDataType": {},
+                  "valueDataType": {
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Scale"
+                  },
                   "editable": "false"
                 },
                 "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
@@ -14632,7 +14634,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.059Z",
-      "updateDate": "2022-12-07T16:42:02.903Z",
+      "updateDate": "2022-12-07T16:45:01.330Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.059Z",
