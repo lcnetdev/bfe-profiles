@@ -25805,14 +25805,16 @@
               {
                 "mandatory": "false",
                 "repeatable": "true",
-                "type": "resource",
+                "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
-                  "valueTemplateRefs": [
-                    "lc:RT:bf2:ColorContent"
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [
+                    "http://id.loc.gov/vocabulary/mcolor"
                   ],
-                  "useValuesFrom": [],
-                  "valueDataType": {},
+                  "valueDataType": {
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/ColorContent"
+                  },
                   "defaults": []
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/colorContent",
@@ -26495,7 +26497,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2022-12-05T20:28:03.151Z",
+      "updateDate": "2022-12-07T16:08:53.087Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",
