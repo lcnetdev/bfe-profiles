@@ -6646,33 +6646,6 @@
                 "valueConstraint": {
                   "valueTemplateRefs": [],
                   "useValuesFrom": [
-                    "http://id.loc.gov/vocabulary/mcolor"
-                  ],
-                  "defaults": [],
-                  "valueDataType": {
-                    "dataTypeURI": ""
-                  },
-                  "editable": "false"
-                },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/ColorContent",
-                "propertyLabel": "Lookup or note",
-                "remark": "http://access.rdatoolkit.org/7.17.html"
-              }
-            ],
-            "id": "lc:RT:bf2:ColorContent",
-            "resourceURI": "http://id.loc.gov/ontologies/bibframe/ColorContent",
-            "resourceLabel": "Color content"
-          },
-          {
-            "propertyTemplates": [
-              {
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "lookup",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [
                     "http://id.loc.gov/vocabulary/mencformat"
                   ],
                   "defaults": [],
@@ -7468,7 +7441,7 @@
     },
     "metadata": {
       "createDate": "2018-09-26T14:53:15.546Z",
-      "updateDate": "2022-12-05T19:17:58.447Z",
+      "updateDate": "2022-12-07T16:27:24.117Z",
       "createUser": null,
       "updateUser": null
     },
