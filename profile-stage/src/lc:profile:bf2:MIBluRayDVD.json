@@ -1328,7 +1328,7 @@
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [
-              "lc:RT:bf2:Agent:bfCorp"
+              "lc:RT:bf2:Agents:bfContribution"
             ],
             "useValuesFrom": [],
             "valueDataType": {
