@@ -12189,7 +12189,7 @@
                   }
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/colorContent",
-                "propertyLabel": "Color Content"
+                "propertyLabel": "Color Content (lookup or note)"
               },
               {
                 "mandatory": "false",
@@ -12590,7 +12590,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2022-12-07T16:06:46.324Z",
+      "updateDate": "2022-12-07T16:11:58.075Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",
