@@ -158,27 +158,6 @@
           "valueConstraint": {
             "valueTemplateRefs": [],
             "useValuesFrom": [],
-            "valueDataType": {},
-            "defaults": []
-          },
-          "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label",
-          "propertyLabel": "Script"
-        }
-      ],
-      "id": "lc:RT:bf2:Script",
-      "resourceURI": "http://id.loc.gov/ontologies/bibframe/Script",
-      "resourceLabel": "Script"
-    },
-    {
-      "propertyTemplates": [
-        {
-          "mandatory": "false",
-          "repeatable": "true",
-          "type": "literal",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [],
-            "useValuesFrom": [],
             "defaults": [],
             "valueDataType": {}
           },
