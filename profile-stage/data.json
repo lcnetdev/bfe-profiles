@@ -29876,14 +29876,14 @@
                 "propertyLabel": "Name of collection",
                 "valueConstraint": {
                   "repeatable": "true",
-                  "useValuesFrom": [
-                    "http://id.loc.gov/authorities/names"
+                  "useValuesFrom": [],
+                  "valueTemplateRefs": [
+                    "lc:RT:bf2:Agent:bfCorp"
                   ],
-                  "valueTemplateRefs": [],
                   "defaults": []
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/agent",
-                "type": "lookup",
+                "type": "resource",
                 "mandatory": "false",
                 "repeatable": "true",
                 "resourceTemplates": []
@@ -29924,7 +29924,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.058Z",
-      "updateDate": "2022-12-07T19:23:44.441Z",
+      "updateDate": "2022-12-07T19:29:43.346Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.058Z",

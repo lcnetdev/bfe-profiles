@@ -7,14 +7,14 @@
       "propertyLabel": "Name of collection",
       "valueConstraint": {
         "repeatable": "true",
-        "useValuesFrom": [
-          "http://id.loc.gov/authorities/names"
+        "useValuesFrom": [],
+        "valueTemplateRefs": [
+          "lc:RT:bf2:Agent:bfCorp"
         ],
-        "valueTemplateRefs": [],
         "defaults": []
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/agent",
-      "type": "lookup",
+      "type": "resource",
       "mandatory": "false",
       "repeatable": "true",
       "resourceTemplates": []
