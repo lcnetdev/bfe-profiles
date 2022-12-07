@@ -21816,33 +21816,6 @@
               {
                 "mandatory": "false",
                 "repeatable": "true",
-                "type": "lookup",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [
-                    "http://id.loc.gov/vocabulary/relators"
-                  ],
-                  "valueDataType": {
-                    "dataTypeURI": ""
-                  },
-                  "repeatable": "false",
-                  "defaults": [],
-                  "editable": "false"
-                },
-                "propertyLabel": "Search MARC relator term",
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/Role"
-              }
-            ],
-            "id": "lc:RT:bf2:Agent:Role",
-            "resourceURI": "http://id.loc.gov/ontologies/bibframe/Role",
-            "resourceLabel": "Role (unused)"
-          },
-          {
-            "propertyTemplates": [
-              {
-                "mandatory": "false",
-                "repeatable": "true",
                 "type": "literal",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -21927,7 +21900,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.059Z",
-      "updateDate": "2022-05-19T19:16:20.764Z",
+      "updateDate": "2022-12-07T19:20:48.383Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.059Z",
