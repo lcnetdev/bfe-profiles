@@ -4,6 +4,21 @@
       "propertyTemplates": [
         {
           "mandatory": "false",
+          "repeatable": "true",
+          "type": "literal",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [],
+            "useValuesFrom": [],
+            "defaults": [],
+            "valueDataType": {}
+          },
+          "propertyURI": "http://id.loc.gov/ontologies/bflc/nonSortNum",
+          "propertyLabel": "Non-sort character count",
+          "remark": ""
+        },
+        {
+          "mandatory": "false",
           "repeatable": "false",
           "type": "literal",
           "resourceTemplates": [],
@@ -70,6 +85,21 @@
       "propertyTemplates": [
         {
           "mandatory": "false",
+          "repeatable": "true",
+          "type": "literal",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [],
+            "useValuesFrom": [],
+            "defaults": [],
+            "valueDataType": {}
+          },
+          "propertyURI": "http://id.loc.gov/ontologies/bflc/nonSortNum",
+          "propertyLabel": "Non-sort character count",
+          "remark": ""
+        },
+        {
+          "mandatory": "false",
           "repeatable": "false",
           "type": "literal",
           "resourceTemplates": [],
@@ -134,6 +164,21 @@
     },
     {
       "propertyTemplates": [
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "literal",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [],
+            "useValuesFrom": [],
+            "defaults": [],
+            "valueDataType": {}
+          },
+          "propertyURI": "http://id.loc.gov/ontologies/bflc/nonSortNum",
+          "propertyLabel": "Non-sort character count",
+          "remark": ""
+        },
         {
           "mandatory": "false",
           "repeatable": "false",
@@ -394,6 +439,21 @@
     },
     {
       "propertyTemplates": [
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "literal",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [],
+            "useValuesFrom": [],
+            "defaults": [],
+            "valueDataType": {}
+          },
+          "propertyURI": "http://id.loc.gov/ontologies/bflc/nonSortNum",
+          "propertyLabel": "Non-sort character count",
+          "remark": ""
+        },
         {
           "mandatory": "false",
           "repeatable": "false",
@@ -665,6 +725,21 @@
     },
     {
       "propertyTemplates": [
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "literal",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [],
+            "useValuesFrom": [],
+            "defaults": [],
+            "valueDataType": {}
+          },
+          "propertyURI": "http://id.loc.gov/ontologies/bflc/nonSortNum",
+          "propertyLabel": "Non-sort character count",
+          "remark": ""
+        },
         {
           "mandatory": "false",
           "repeatable": "true",

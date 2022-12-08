@@ -23603,6 +23603,21 @@
             "propertyTemplates": [
               {
                 "mandatory": "false",
+                "repeatable": "true",
+                "type": "literal",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {}
+                },
+                "propertyURI": "http://id.loc.gov/ontologies/bflc/nonSortNum",
+                "propertyLabel": "Non-sort character count",
+                "remark": ""
+              },
+              {
+                "mandatory": "false",
                 "repeatable": "false",
                 "type": "literal",
                 "resourceTemplates": [],
@@ -23669,6 +23684,21 @@
             "propertyTemplates": [
               {
                 "mandatory": "false",
+                "repeatable": "true",
+                "type": "literal",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {}
+                },
+                "propertyURI": "http://id.loc.gov/ontologies/bflc/nonSortNum",
+                "propertyLabel": "Non-sort character count",
+                "remark": ""
+              },
+              {
+                "mandatory": "false",
                 "repeatable": "false",
                 "type": "literal",
                 "resourceTemplates": [],
@@ -23733,6 +23763,21 @@
           },
           {
             "propertyTemplates": [
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "literal",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {}
+                },
+                "propertyURI": "http://id.loc.gov/ontologies/bflc/nonSortNum",
+                "propertyLabel": "Non-sort character count",
+                "remark": ""
+              },
               {
                 "mandatory": "false",
                 "repeatable": "false",
@@ -23993,6 +24038,21 @@
           },
           {
             "propertyTemplates": [
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "literal",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {}
+                },
+                "propertyURI": "http://id.loc.gov/ontologies/bflc/nonSortNum",
+                "propertyLabel": "Non-sort character count",
+                "remark": ""
+              },
               {
                 "mandatory": "false",
                 "repeatable": "false",
@@ -24264,6 +24324,21 @@
           },
           {
             "propertyTemplates": [
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "literal",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {}
+                },
+                "propertyURI": "http://id.loc.gov/ontologies/bflc/nonSortNum",
+                "propertyLabel": "Non-sort character count",
+                "remark": ""
+              },
               {
                 "mandatory": "false",
                 "repeatable": "true",
@@ -24548,7 +24623,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.062Z",
-      "updateDate": "2022-02-17T20:41:16.934Z",
+      "updateDate": "2022-12-08T17:53:19.657Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.062Z",
