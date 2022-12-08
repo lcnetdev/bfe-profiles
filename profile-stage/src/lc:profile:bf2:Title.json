@@ -452,6 +452,20 @@
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/mainTitle",
           "propertyLabel": "Key Title"
+        },
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "literal",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [],
+            "useValuesFrom": [],
+            "defaults": [],
+            "valueDataType": {}
+          },
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/qualifier",
+          "propertyLabel": "Qualifying information"
         }
       ],
       "resourceURI": "http://id.loc.gov/ontologies/bibframe/KeyTitle",

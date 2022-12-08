@@ -10449,6 +10449,20 @@
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/mainTitle",
                 "propertyLabel": "Key Title"
+              },
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "literal",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {}
+                },
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/qualifier",
+                "propertyLabel": "Qualifying information"
               }
             ],
             "resourceURI": "http://id.loc.gov/ontologies/bibframe/KeyTitle",
@@ -11018,7 +11032,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.062Z",
-      "updateDate": "2022-12-06T20:21:47.996Z",
+      "updateDate": "2022-12-08T17:53:36.718Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.062Z",
