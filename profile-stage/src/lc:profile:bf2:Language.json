@@ -116,7 +116,7 @@
       ],
       "id": "lc:RT:bf2:Language:Source",
       "resourceURI": "http://id.loc.gov/ontologies/bibframe/Language",
-      "resourceLabel": "Language source"
+      "resourceLabel": "Language source (test)"
     }
   ],
   "id": "lc:profile:bf2:Language",
