@@ -183,7 +183,8 @@
       ],
       "id": "lc:RT:bf2:ColorContent",
       "resourceURI": "http://id.loc.gov/ontologies/bibframe/ColorContent",
-      "resourceLabel": "Color content"
+      "resourceLabel": "Color content",
+      "remark": "delete?"
     },
     {
       "propertyTemplates": [
