@@ -716,15 +716,17 @@
         {
           "mandatory": "false",
           "repeatable": "true",
-          "type": "resource",
+          "type": "lookup",
           "resourceTemplates": [],
           "valueConstraint": {
-            "valueTemplateRefs": [
-              "lc:RT:bf2:RareMat:BookFormat"
+            "valueTemplateRefs": [],
+            "useValuesFrom": [
+              "http://id.loc.gov/vocabulary/bookformat"
             ],
-            "useValuesFrom": [],
             "defaults": [],
-            "valueDataType": {}
+            "valueDataType": {
+              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/BookFormat"
+            }
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/bookFormat",
           "propertyLabel": "Book format"
@@ -1080,27 +1082,6 @@
       "id": "lc:RT:bf2:RareMat:RefWork",
       "resourceURI": "http://id.loc.gov/ontologies/bibframe/Work",
       "resourceLabel": "References"
-    },
-    {
-      "propertyTemplates": [
-        {
-          "mandatory": "false",
-          "repeatable": "true",
-          "type": "literal",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [],
-            "useValuesFrom": [],
-            "defaults": [],
-            "valueDataType": {}
-          },
-          "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label",
-          "propertyLabel": "Book format"
-        }
-      ],
-      "id": "lc:RT:bf2:RareMat:BookFormat",
-      "resourceURI": "http://id.loc.gov/ontologies/bibframe/BookFormat",
-      "resourceLabel": "Book format"
     },
     {
       "propertyTemplates": [
