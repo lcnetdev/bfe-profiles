@@ -34912,7 +34912,7 @@
                   ],
                   "defaults": [],
                   "valueDataType": {
-                    "dataTypeURI": ""
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/GenreForm"
                   }
                 },
                 "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
@@ -35026,7 +35026,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.059Z",
-      "updateDate": "2022-12-05T19:19:10.799Z",
+      "updateDate": "2022-12-09T16:20:43.865Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.059Z",
