@@ -189,7 +189,7 @@
       "propertyLabel": "Media type",
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/media",
       "repeatable": "true",
-      "type": "resource",
+      "type": "lookup",
       "valueConstraint": {
         "useValuesFrom": [
           "http://id.loc.gov/vocabulary/mediaTypes"
@@ -213,7 +213,7 @@
       "propertyLabel": "Carrier type",
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/carrier",
       "repeatable": "true",
-      "type": "resource",
+      "type": "lookup",
       "valueConstraint": {
         "useValuesFrom": [
           "http://id.loc.gov/vocabulary/carriers"

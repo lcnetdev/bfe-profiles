@@ -59,7 +59,7 @@
     {
       "mandatory": "false",
       "repeatable": "false",
-      "type": "resource",
+      "type": "lookup",
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [],
@@ -257,7 +257,7 @@
     {
       "mandatory": "false",
       "repeatable": "true",
-      "type": "resource",
+      "type": "lookup",
       "valueConstraint": {
         "useValuesFrom": [
           "http://id.loc.gov/vocabulary/contentTypes"
@@ -281,7 +281,7 @@
     {
       "mandatory": "false",
       "repeatable": "true",
-      "type": "lookup",
+      "type": "resource",
       "valueConstraint": {
         "valueTemplateRefs": [
           "lc:RT:bf2:Language2"
@@ -300,7 +300,7 @@
     {
       "mandatory": "false",
       "repeatable": "true",
-      "type": "resource",
+      "type": "lookup",
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [],
@@ -319,7 +319,7 @@
     {
       "mandatory": "false",
       "repeatable": "true",
-      "type": "resource",
+      "type": "lookup",
       "valueConstraint": {
         "useValuesFrom": [
           "http://id.loc.gov/vocabulary/millus"
@@ -338,12 +338,12 @@
     {
       "mandatory": "false",
       "repeatable": "true",
-      "type": "resource",
+      "type": "lookup",
       "valueConstraint": {
-        "valueTemplateRefs": [
-          "lc:RT:bf2:ColorContent"
+        "valueTemplateRefs": [],
+        "useValuesFrom": [
+          "http://id.loc.gov/vocabulary/mcolor"
         ],
-        "useValuesFrom": [],
         "defaults": []
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/colorContent",

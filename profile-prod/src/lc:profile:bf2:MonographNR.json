@@ -61,7 +61,7 @@
         {
           "mandatory": "false",
           "repeatable": "false",
-          "type": "resource",
+          "type": "lookup",
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [],
@@ -259,7 +259,7 @@
         {
           "mandatory": "false",
           "repeatable": "true",
-          "type": "resource",
+          "type": "lookup",
           "valueConstraint": {
             "useValuesFrom": [
               "http://id.loc.gov/vocabulary/contentTypes"
@@ -283,7 +283,7 @@
         {
           "mandatory": "false",
           "repeatable": "true",
-          "type": "lookup",
+          "type": "resource",
           "valueConstraint": {
             "valueTemplateRefs": [
               "lc:RT:bf2:Language2"
@@ -302,7 +302,7 @@
         {
           "mandatory": "false",
           "repeatable": "true",
-          "type": "resource",
+          "type": "lookup",
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [],
@@ -321,7 +321,7 @@
         {
           "mandatory": "false",
           "repeatable": "true",
-          "type": "resource",
+          "type": "lookup",
           "valueConstraint": {
             "useValuesFrom": [
               "http://id.loc.gov/vocabulary/millus"
@@ -340,12 +340,12 @@
         {
           "mandatory": "false",
           "repeatable": "true",
-          "type": "resource",
+          "type": "lookup",
           "valueConstraint": {
-            "valueTemplateRefs": [
-              "lc:RT:bf2:ColorContent"
+            "valueTemplateRefs": [],
+            "useValuesFrom": [
+              "http://id.loc.gov/vocabulary/mcolor"
             ],
-            "useValuesFrom": [],
             "defaults": []
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/colorContent",
@@ -634,7 +634,7 @@
           "propertyLabel": "Media type",
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/media",
           "repeatable": "true",
-          "type": "resource",
+          "type": "lookup",
           "valueConstraint": {
             "useValuesFrom": [
               "http://id.loc.gov/vocabulary/mediaTypes"
@@ -658,7 +658,7 @@
           "propertyLabel": "Carrier type",
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/carrier",
           "repeatable": "true",
-          "type": "resource",
+          "type": "lookup",
           "valueConstraint": {
             "useValuesFrom": [
               "http://id.loc.gov/vocabulary/carriers"
@@ -1040,27 +1040,6 @@
       "id": "lc:RT:bf2:MonographNR:Summary",
       "resourceURI": "http://id.loc.gov/ontologies/bibframe/Summary",
       "resourceLabel": "Summary note"
-    },
-    {
-      "propertyTemplates": [
-        {
-          "mandatory": "false",
-          "repeatable": "true",
-          "type": "literal-lang",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [],
-            "useValuesFrom": [],
-            "defaults": [],
-            "valueDataType": {}
-          },
-          "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label",
-          "propertyLabel": "Input Name"
-        }
-      ],
-      "id": "lc:RT:bf2:MonographNR:PubName",
-      "resourceURI": "http://id.loc.gov/ontologies/bibframe/Agent",
-      "resourceLabel": "Name"
     }
   ],
   "author": "NDMSO",
