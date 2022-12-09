@@ -17,11 +17,13 @@
     {
       "mandatory": "false",
       "repeatable": "true",
-      "type": "resource",
+      "type": "lookup",
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [],
-        "useValuesFrom": [],
+        "useValuesFrom": [
+          "https://id.loc.gov/vocabulary/genreFormSchemes"
+        ],
         "defaults": [
           {
             "defaultURI": "http://id.loc.gov/vocabulary/genreFormSchemes/gsafd",

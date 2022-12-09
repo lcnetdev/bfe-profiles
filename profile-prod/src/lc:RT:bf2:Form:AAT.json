@@ -19,5 +19,6 @@
   ],
   "id": "lc:RT:bf2:Form:AAT",
   "resourceURI": "http://id.loc.gov/ontologies/bibframe/GenreForm",
-  "resourceLabel": "Getty AAT"
+  "resourceLabel": "Getty AAT",
+  "remark": "does this still work?"
 }

@@ -46,27 +46,6 @@
       "id": "lc:RT:bf2:Language2",
       "resourceLabel": "Language",
       "remark": ""
-    },
-    {
-      "propertyTemplates": [
-        {
-          "mandatory": "false",
-          "repeatable": "true",
-          "type": "literal",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [],
-            "useValuesFrom": [],
-            "valueDataType": {},
-            "defaults": []
-          },
-          "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label",
-          "propertyLabel": "Language note"
-        }
-      ],
-      "id": "lc:RT:bf2:Language:Note",
-      "resourceURI": "http://id.loc.gov/ontologies/bibframe/Note",
-      "resourceLabel": "Language note"
     }
   ],
   "id": "lc:profile:bf2:Language",
