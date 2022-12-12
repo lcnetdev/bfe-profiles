@@ -28985,7 +28985,7 @@
                 "type": "resource",
                 "valueConstraint": {
                   "valueTemplateRefs": [
-                    "lc:RT:bf2:MIBluRayDVD:URL"
+                    "lc:RT:bf2:URL"
                   ],
                   "useValuesFrom": [],
                   "valueDataType": {},
@@ -29545,7 +29545,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2022-12-12T14:30:29.987Z",
+      "updateDate": "2022-12-12T14:32:48.967Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",

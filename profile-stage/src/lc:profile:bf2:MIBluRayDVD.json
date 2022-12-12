@@ -1181,7 +1181,7 @@
           "type": "resource",
           "valueConstraint": {
             "valueTemplateRefs": [
-              "lc:RT:bf2:MIBluRayDVD:URL"
+              "lc:RT:bf2:URL"
             ],
             "useValuesFrom": [],
             "valueDataType": {},
