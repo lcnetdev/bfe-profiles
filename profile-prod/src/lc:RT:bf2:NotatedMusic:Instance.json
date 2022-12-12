@@ -109,21 +109,6 @@
     {
       "mandatory": "false",
       "repeatable": "true",
-      "type": "literal",
-      "resourceTemplates": [],
-      "valueConstraint": {
-        "valueTemplateRefs": [],
-        "useValuesFrom": [],
-        "valueDataType": {},
-        "defaults": []
-      },
-      "propertyLabel": "Series statement",
-      "remark": "https://original.rdatoolkit.org/2.12.html",
-      "propertyURI": "http://id.loc.gov/ontologies/bibframe/seriesStatement"
-    },
-    {
-      "mandatory": "false",
-      "repeatable": "true",
       "type": "lookup",
       "resourceTemplates": [],
       "valueConstraint": {
@@ -212,7 +197,7 @@
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/media",
       "repeatable": "true",
       "resourceTemplates": [],
-      "type": "resource",
+      "type": "lookup",
       "valueConstraint": {
         "valueTemplateRefs": [],
         "useValuesFrom": [
@@ -238,7 +223,7 @@
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/carrier",
       "repeatable": "true",
       "resourceTemplates": [],
-      "type": "resource",
+      "type": "lookup",
       "valueConstraint": {
         "valueTemplateRefs": [],
         "useValuesFrom": [

@@ -300,7 +300,7 @@
     {
       "mandatory": "false",
       "repeatable": "true",
-      "type": "resource",
+      "type": "lookup",
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [],
@@ -364,7 +364,7 @@
     {
       "mandatory": "false",
       "repeatable": "true",
-      "type": "resource",
+      "type": "lookup",
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [],
@@ -383,7 +383,7 @@
     {
       "mandatory": "false",
       "repeatable": "true",
-      "type": "resource",
+      "type": "lookup",
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [],
@@ -402,7 +402,7 @@
     {
       "mandatory": "false",
       "repeatable": "true",
-      "type": "resource",
+      "type": "lookup",
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [],
@@ -440,24 +440,26 @@
     {
       "mandatory": "false",
       "repeatable": "true",
-      "type": "resource",
+      "type": "lookup",
       "resourceTemplates": [],
       "valueConstraint": {
-        "valueTemplateRefs": [
-          "lc:RT:bf2:ColorContent"
+        "valueTemplateRefs": [],
+        "useValuesFrom": [
+          "http://id.loc.gov/vocabulary/mcolor"
         ],
-        "useValuesFrom": [],
-        "valueDataType": {},
+        "valueDataType": {
+          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/ColorContent"
+        },
         "defaults": []
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/colorContent",
-      "propertyLabel": "Color Content",
+      "propertyLabel": "Color Content (lookup or note)",
       "remark": "https://original.rdatoolkit.org/7.17.html"
     },
     {
       "mandatory": "false",
       "repeatable": "true",
-      "type": "resource",
+      "type": "lookup",
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [],
