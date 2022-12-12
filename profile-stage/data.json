@@ -28980,7 +28980,7 @@
               },
               {
                 "propertyLabel": "Uniform Resource Locator",
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/supplementaryContent",
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/electronicLocator",
                 "resourceTemplates": [],
                 "type": "resource",
                 "valueConstraint": {
@@ -29286,44 +29286,6 @@
                   "valueDataType": {},
                   "defaults": []
                 },
-                "propertyLabel": "Supplementary content URL",
-                "remark": "Idiomatic property used for structured values.",
-                "propertyURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value"
-              },
-              {
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "resource",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [
-                    "lc:RT:bf2:NoteSimple"
-                  ],
-                  "useValuesFrom": [],
-                  "valueDataType": {},
-                  "defaults": []
-                },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
-                "propertyLabel": "Note"
-              }
-            ],
-            "resourceURI": "http://id.loc.gov/ontologies/bibframe/SupplementaryContent",
-            "id": "lc:RT:bf2:MIBluRayDVD:URL",
-            "resourceLabel": "URL"
-          },
-          {
-            "propertyTemplates": [
-              {
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "literal",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [],
-                  "valueDataType": {},
-                  "defaults": []
-                },
                 "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label",
                 "propertyLabel": "Event"
               },
@@ -29394,45 +29356,6 @@
             "resourceURI": "http://id.loc.gov/ontologies/bibframe/ContentAccessibility",
             "id": "lc:RT:bf2:MIBluRayDVD:AccCont",
             "resourceLabel": "Accessibility content"
-          },
-          {
-            "propertyTemplates": [
-              {
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "lookup",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [
-                    "http://id.loc.gov/vocabulary/languages"
-                  ],
-                  "defaults": [],
-                  "valueDataType": {}
-                },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/Language",
-                "propertyLabel": "Language code"
-              },
-              {
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "resource",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [
-                    "lc:RT:bf2:Note"
-                  ],
-                  "useValuesFrom": [],
-                  "defaults": [],
-                  "valueDataType": {}
-                },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
-                "propertyLabel": "Language note"
-              }
-            ],
-            "id": "lc:RT:bf2:MIBluRayDVD:Lang",
-            "resourceURI": "http://id.loc.gov/ontologies/bibframe/Language",
-            "resourceLabel": "Language"
           },
           {
             "propertyTemplates": [
@@ -29545,7 +29468,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2022-12-12T14:32:48.967Z",
+      "updateDate": "2022-12-12T14:36:21.365Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",

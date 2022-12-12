@@ -563,7 +563,7 @@
     },
     {
       "propertyLabel": "Uniform Resource Locator",
-      "propertyURI": "http://id.loc.gov/ontologies/bibframe/supplementaryContent",
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/electronicLocator",
       "resourceTemplates": [],
       "type": "resource",
       "valueConstraint": {
