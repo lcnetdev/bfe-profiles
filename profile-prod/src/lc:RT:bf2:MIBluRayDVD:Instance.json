@@ -239,7 +239,7 @@
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/media",
       "repeatable": "true",
       "resourceTemplates": [],
-      "type": "resource",
+      "type": "lookup",
       "valueConstraint": {
         "valueTemplateRefs": [],
         "useValuesFrom": [
@@ -265,7 +265,7 @@
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/carrier",
       "repeatable": "true",
       "resourceTemplates": [],
-      "type": "resource",
+      "type": "lookup",
       "valueConstraint": {
         "valueTemplateRefs": [],
         "useValuesFrom": [
@@ -332,22 +332,6 @@
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/duration",
       "propertyLabel": "Duration",
       "remark": "http://access.rdatoolkit.org/7.22.html"
-    },
-    {
-      "mandatory": "false",
-      "repeatable": "true",
-      "type": "resource",
-      "resourceTemplates": [],
-      "valueConstraint": {
-        "valueTemplateRefs": [
-          "lc:RT:bf2:Language2"
-        ],
-        "useValuesFrom": [],
-        "valueDataType": {},
-        "defaults": []
-      },
-      "propertyLabel": "Optional Language Tracks (MARC 546 Field)",
-      "propertyURI": "http://id.loc.gov/ontologies/bibframe/language"
     },
     {
       "mandatory": "false",
@@ -582,7 +566,7 @@
       "type": "resource",
       "valueConstraint": {
         "valueTemplateRefs": [
-          "lc:RT:bf2:MIBluRayDVD:URL"
+          "lc:RT:bf2:URL"
         ],
         "useValuesFrom": [],
         "valueDataType": {},

@@ -255,7 +255,7 @@
         {
           "mandatory": "false",
           "repeatable": "true",
-          "type": "resource",
+          "type": "lookup",
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [],
@@ -371,20 +371,20 @@
         {
           "mandatory": "false",
           "repeatable": "true",
-          "type": "resource",
+          "type": "lookup",
           "resourceTemplates": [],
           "valueConstraint": {
-            "valueTemplateRefs": [
-              "lc:RT:bf2:ColorContent"
+            "valueTemplateRefs": [],
+            "useValuesFrom": [
+              "http://id.loc.gov/vocabulary/mcolor"
             ],
-            "useValuesFrom": [],
             "valueDataType": {
-              "dataTypeURI": ""
+              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/ColorContent"
             },
             "defaults": []
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/colorContent",
-          "propertyLabel": "Color Content",
+          "propertyLabel": "Color Content (lookup or note)",
           "remark": "https://original.rdatoolkit.org/7.17.html"
         },
         {
@@ -844,7 +844,7 @@
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/media",
           "repeatable": "true",
           "resourceTemplates": [],
-          "type": "resource",
+          "type": "lookup",
           "valueConstraint": {
             "valueTemplateRefs": [],
             "useValuesFrom": [
@@ -870,7 +870,7 @@
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/carrier",
           "repeatable": "true",
           "resourceTemplates": [],
-          "type": "resource",
+          "type": "lookup",
           "valueConstraint": {
             "valueTemplateRefs": [],
             "useValuesFrom": [
@@ -937,22 +937,6 @@
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/duration",
           "propertyLabel": "Duration",
           "remark": "http://access.rdatoolkit.org/7.22.html"
-        },
-        {
-          "mandatory": "false",
-          "repeatable": "true",
-          "type": "resource",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [
-              "lc:RT:bf2:Language2"
-            ],
-            "useValuesFrom": [],
-            "valueDataType": {},
-            "defaults": []
-          },
-          "propertyLabel": "Optional Language Tracks (MARC 546 Field)",
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/language"
         },
         {
           "mandatory": "false",
@@ -1187,7 +1171,7 @@
           "type": "resource",
           "valueConstraint": {
             "valueTemplateRefs": [
-              "lc:RT:bf2:MIBluRayDVD:URL"
+              "lc:RT:bf2:URL"
             ],
             "useValuesFrom": [],
             "valueDataType": {},
@@ -1474,44 +1458,6 @@
       "id": "lc:RT:bf2:MIBluRayDVD:Aspect",
       "resourceURI": "http://id.loc.gov/ontologies/bibframe/AspectRatio",
       "resourceLabel": "Aspect ratio (Numeric)"
-    },
-    {
-      "propertyTemplates": [
-        {
-          "mandatory": "false",
-          "repeatable": "true",
-          "type": "literal",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [],
-            "useValuesFrom": [],
-            "valueDataType": {},
-            "defaults": []
-          },
-          "propertyLabel": "Uniform Resource Locator",
-          "remark": "",
-          "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label"
-        },
-        {
-          "mandatory": "false",
-          "repeatable": "true",
-          "type": "resource",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [
-              "lc:RT:bf2:Note"
-            ],
-            "useValuesFrom": [],
-            "valueDataType": {},
-            "defaults": []
-          },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
-          "propertyLabel": "Note"
-        }
-      ],
-      "resourceURI": "http://id.loc.gov/ontologies/bibframe/SupplementaryContent",
-      "id": "lc:RT:bf2:MIBluRayDVD:URL",
-      "resourceLabel": "URL"
     },
     {
       "propertyTemplates": [
