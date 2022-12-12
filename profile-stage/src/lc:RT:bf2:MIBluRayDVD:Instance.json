@@ -358,22 +358,6 @@
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [
-          "lc:RT:bf2:Language2"
-        ],
-        "useValuesFrom": [],
-        "valueDataType": {},
-        "defaults": []
-      },
-      "propertyLabel": "Optional Language Tracks (MARC 546 Field)",
-      "propertyURI": "http://id.loc.gov/ontologies/bibframe/language"
-    },
-    {
-      "mandatory": "false",
-      "repeatable": "true",
-      "type": "resource",
-      "resourceTemplates": [],
-      "valueConstraint": {
-        "valueTemplateRefs": [
           "lc:RT:bf2:Note"
         ],
         "useValuesFrom": [],

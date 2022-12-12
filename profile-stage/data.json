@@ -28775,22 +28775,6 @@
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [
-                    "lc:RT:bf2:Language2"
-                  ],
-                  "useValuesFrom": [],
-                  "valueDataType": {},
-                  "defaults": []
-                },
-                "propertyLabel": "Optional Language Tracks (MARC 546 Field)",
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/language"
-              },
-              {
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "resource",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [
                     "lc:RT:bf2:Note"
                   ],
                   "useValuesFrom": [],
@@ -29561,7 +29545,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2022-12-07T19:25:50.299Z",
+      "updateDate": "2022-12-12T14:30:29.987Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",
