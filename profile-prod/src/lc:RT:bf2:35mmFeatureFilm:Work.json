@@ -333,7 +333,7 @@
         }
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/colorContent",
-      "propertyLabel": "Color Content",
+      "propertyLabel": "Color Content (lookup or note)",
       "remark": "https://original.rdatoolkit.org/7.17.html"
     },
     {
