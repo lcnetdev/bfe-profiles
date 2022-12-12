@@ -1166,7 +1166,7 @@
         },
         {
           "propertyLabel": "Uniform Resource Locator",
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/supplementaryContent",
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/electronicLocator",
           "resourceTemplates": [],
           "type": "resource",
           "valueConstraint": {
@@ -1540,33 +1540,6 @@
       "resourceURI": "http://id.loc.gov/ontologies/bibframe/ContentAccessibility",
       "id": "lc:RT:bf2:MIBluRayDVD:AccCont",
       "resourceLabel": "Accessibility content"
-    },
-    {
-      "propertyTemplates": [
-        {
-          "mandatory": "false",
-          "repeatable": "true",
-          "type": "literal",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [],
-            "useValuesFrom": [],
-            "defaults": [
-              {
-                "defaultURI": "",
-                "defaultLiteral": "c-Motion Pic & TV/MBRS"
-              }
-            ],
-            "valueDataType": {}
-          },
-          "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label",
-          "propertyLabel": "Item location",
-          "remark": ""
-        }
-      ],
-      "id": "lc:RT:bf2:MIBluRayDVD:ItemLocation",
-      "resourceURI": "http://id.loc.gov/ontologies/bibframe/Sublocation",
-      "resourceLabel": "Item location"
     },
     {
       "propertyTemplates": [
