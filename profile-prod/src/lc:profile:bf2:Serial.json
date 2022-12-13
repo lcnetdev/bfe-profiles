@@ -450,7 +450,7 @@
         {
           "mandatory": "false",
           "repeatable": "true",
-          "type": "lookup",
+          "type": "resource",
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [],
@@ -466,7 +466,7 @@
         {
           "mandatory": "false",
           "repeatable": "true",
-          "type": "lookup",
+          "type": "resource",
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [],
@@ -483,7 +483,7 @@
         {
           "mandatory": "false",
           "repeatable": "true",
-          "type": "lookup",
+          "type": "resource",
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [],
@@ -500,7 +500,7 @@
         {
           "mandatory": "false",
           "repeatable": "true",
-          "type": "lookup",
+          "type": "resource",
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [],
@@ -517,7 +517,7 @@
         {
           "mandatory": "false",
           "repeatable": "true",
-          "type": "lookup",
+          "type": "resource",
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [],
@@ -534,7 +534,7 @@
         {
           "mandatory": "false",
           "repeatable": "true",
-          "type": "lookup",
+          "type": "resource",
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [],
@@ -550,7 +550,7 @@
         {
           "mandatory": "false",
           "repeatable": "true",
-          "type": "lookup",
+          "type": "resource",
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [],
@@ -567,7 +567,7 @@
         {
           "mandatory": "false",
           "repeatable": "true",
-          "type": "lookup",
+          "type": "resource",
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [],
@@ -584,7 +584,7 @@
         {
           "mandatory": "false",
           "repeatable": "true",
-          "type": "lookup",
+          "type": "resource",
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [],
@@ -601,7 +601,7 @@
         {
           "mandatory": "false",
           "repeatable": "true",
-          "type": "lookup",
+          "type": "resource",
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [],
@@ -618,7 +618,7 @@
         {
           "mandatory": "false",
           "repeatable": "true",
-          "type": "lookup",
+          "type": "resource",
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [],
@@ -635,7 +635,7 @@
         {
           "mandatory": "false",
           "repeatable": "true",
-          "type": "lookup",
+          "type": "resource",
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [],
@@ -652,7 +652,7 @@
         {
           "mandatory": "false",
           "repeatable": "true",
-          "type": "lookup",
+          "type": "resource",
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [],
