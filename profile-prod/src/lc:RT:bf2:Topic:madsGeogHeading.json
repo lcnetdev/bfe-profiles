@@ -16,20 +16,6 @@
       },
       "propertyURI": "http://www.loc.gov/mads/rdf/v1#Geographic",
       "propertyLabel": "Search LCNAF/LCSH"
-    },
-    {
-      "mandatory": "false",
-      "repeatable": "true",
-      "type": "literal",
-      "resourceTemplates": [],
-      "valueConstraint": {
-        "valueTemplateRefs": [],
-        "useValuesFrom": [],
-        "defaults": [],
-        "valueDataType": {}
-      },
-      "propertyURI": "http://www.loc.gov/mads/rdf/v1#authoritativeLabel",
-      "propertyLabel": "Input Geographic term"
     }
   ],
   "id": "lc:RT:bf2:Topic:madsGeogHeading",
