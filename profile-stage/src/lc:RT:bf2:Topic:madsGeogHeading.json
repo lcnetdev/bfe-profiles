@@ -8,28 +8,14 @@
       "valueConstraint": {
         "valueTemplateRefs": [],
         "useValuesFrom": [
-          "http://id.loc.gov/authorities/names",
+          "http://preprod.id.loc.gov/authorities/names",
           "http://id.loc.gov/authorities/subjects"
         ],
         "defaults": [],
         "valueDataType": {}
       },
-      "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
+      "propertyURI": "http://www.loc.gov/mads/rdf/v1#Geographic",
       "propertyLabel": "Search LCNAF/LCSH"
-    },
-    {
-      "mandatory": "false",
-      "repeatable": "true",
-      "type": "literal",
-      "resourceTemplates": [],
-      "valueConstraint": {
-        "valueTemplateRefs": [],
-        "useValuesFrom": [],
-        "defaults": [],
-        "valueDataType": {}
-      },
-      "propertyURI": "http://www.loc.gov/mads/rdf/v1#authoritativeLabel",
-      "propertyLabel": "Input Geographic term"
     }
   ],
   "id": "lc:RT:bf2:Topic:madsGeogHeading",
