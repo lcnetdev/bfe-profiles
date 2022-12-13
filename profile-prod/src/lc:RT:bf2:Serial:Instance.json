@@ -97,7 +97,9 @@
         "useValuesFrom": [
           "http://id.loc.gov/vocabulary/issuance"
         ],
-        "valueDataType": {},
+        "valueDataType": {
+          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Issuance"
+        },
         "repeatable": "true",
         "editable": "false",
         "defaults": [
@@ -161,13 +163,15 @@
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/media",
       "repeatable": "true",
       "resourceTemplates": [],
-      "type": "resource",
+      "type": "lookup",
       "valueConstraint": {
         "valueTemplateRefs": [],
         "useValuesFrom": [
           "http://id.loc.gov/vocabulary/mediaTypes"
         ],
-        "valueDataType": {},
+        "valueDataType": {
+          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Media"
+        },
         "repeatable": "true",
         "editable": "false",
         "defaults": [
@@ -225,13 +229,15 @@
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/carrier",
       "repeatable": "true",
       "resourceTemplates": [],
-      "type": "resource",
+      "type": "lookup",
       "valueConstraint": {
         "valueTemplateRefs": [],
         "useValuesFrom": [
           "http://id.loc.gov/vocabulary/carriers"
         ],
-        "valueDataType": {},
+        "valueDataType": {
+          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Carrier"
+        },
         "repeatable": "true",
         "editable": "false",
         "defaults": [
@@ -364,7 +370,9 @@
       "type": "resource",
       "resourceTemplates": [],
       "valueConstraint": {
-        "valueTemplateRefs": [],
+        "valueTemplateRefs": [
+          "lc:RT:bf2:Serial:Item"
+        ],
         "useValuesFrom": [],
         "defaults": [],
         "valueDataType": {}

@@ -11,9 +11,11 @@
           "http://id.loc.gov/vocabulary/frequencies"
         ],
         "defaults": [],
-        "valueDataType": {}
+        "valueDataType": {
+          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Frequency"
+        }
       },
-      "propertyURI": "http://id.loc.gov/ontologies/bibframe/Frequency",
+      "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
       "propertyLabel": "Lookup",
       "remark": "http://access.rdatoolkit.org/2.14.html"
     },
