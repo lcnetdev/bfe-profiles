@@ -11,9 +11,11 @@
           "http://id.loc.gov/vocabulary/mplayspeed"
         ],
         "defaults": [],
-        "valueDataType": {}
+        "valueDataType": {
+          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/PlayingSpeed"
+        }
       },
-      "propertyURI": "http://id.loc.gov/ontologies/bibframe/PlayingSpeed",
+      "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
       "propertyLabel": "Lookup",
       "remark": "https://original.rdatoolkit.org/3.16.4.html"
     }

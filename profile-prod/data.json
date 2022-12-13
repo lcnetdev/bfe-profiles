@@ -6172,7 +6172,7 @@
               {
                 "mandatory": "false",
                 "repeatable": "true",
-                "type": "resource",
+                "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [],
@@ -6557,7 +6557,7 @@
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/media",
                 "repeatable": "true",
                 "resourceTemplates": [],
-                "type": "resource",
+                "type": "lookup",
                 "valueConstraint": {
                   "valueTemplateRefs": [],
                   "useValuesFrom": [
@@ -6583,7 +6583,7 @@
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/carrier",
                 "repeatable": "true",
                 "resourceTemplates": [],
-                "type": "resource",
+                "type": "lookup",
                 "valueConstraint": {
                   "valueTemplateRefs": [],
                   "useValuesFrom": [
@@ -6662,7 +6662,7 @@
               {
                 "mandatory": "false",
                 "repeatable": "true",
-                "type": "resource",
+                "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [],
@@ -6703,7 +6703,7 @@
               {
                 "mandatory": "false",
                 "repeatable": "true",
-                "type": "resource",
+                "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [],
@@ -6928,13 +6928,13 @@
                     "http://id.loc.gov/vocabulary/mgroove"
                   ],
                   "valueDataType": {
-                    "dataTypeURI": "",
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/GrooveCharacteristic",
                     "remark": ""
                   },
                   "defaults": [],
                   "editable": "false"
                 },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/GrooveCharacteristic",
+                "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
                 "propertyLabel": "Lookup",
                 "remark": "https://original.rdatoolkit.org/3.16.5.html"
               }
@@ -6956,9 +6956,11 @@
                     "http://id.loc.gov/vocabulary/mplayspeed"
                   ],
                   "defaults": [],
-                  "valueDataType": {}
+                  "valueDataType": {
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/PlayingSpeed"
+                  }
                 },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/PlayingSpeed",
+                "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
                 "propertyLabel": "Lookup",
                 "remark": "https://original.rdatoolkit.org/3.16.4.html"
               }
@@ -6978,7 +6980,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2022-11-22T19:13:52.964Z",
+      "updateDate": "2022-12-13T20:14:40.303Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",
