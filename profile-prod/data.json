@@ -2090,7 +2090,7 @@
               {
                 "mandatory": "false",
                 "repeatable": "true",
-                "type": "resource",
+                "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [],
@@ -2163,7 +2163,7 @@
               {
                 "mandatory": "false",
                 "repeatable": "true",
-                "type": "resource",
+                "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [],
@@ -2182,16 +2182,16 @@
               {
                 "mandatory": "false",
                 "repeatable": "true",
-                "type": "resource",
+                "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
-                  "valueTemplateRefs": [
-                    "lc:RT:bf2:ColorContent"
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [
+                    "http://id.loc.gov/vocabulary/mcolor"
                   ],
-                  "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {
-                    "dataTypeURI": ""
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/ColorContent"
                   }
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/colorContent",
@@ -2469,7 +2469,7 @@
               {
                 "mandatory": "false",
                 "repeatable": "true",
-                "type": "resource",
+                "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [],
@@ -2493,7 +2493,7 @@
               {
                 "mandatory": "false",
                 "repeatable": "true",
-                "type": "resource",
+                "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [],
@@ -2549,7 +2549,7 @@
               {
                 "mandatory": "false",
                 "repeatable": "true",
-                "type": "resource",
+                "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [],
@@ -2568,7 +2568,7 @@
               {
                 "mandatory": "false",
                 "repeatable": "true",
-                "type": "resource",
+                "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [],
@@ -2905,15 +2905,17 @@
               {
                 "mandatory": "false",
                 "repeatable": "true",
-                "type": "literal",
+                "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [],
                   "useValuesFrom": [
-                    "http://mlvlp04.loc.gov:3000/verso/api/configs?filter[where][configType]=noteTypes&filter[fields][json]=true"
+                    "https://id.loc.gov/vocabulary/mnotetype"
                   ],
                   "defaults": [],
-                  "valueDataType": {}
+                  "valueDataType": {
+                    "dataTypeURI": ""
+                  }
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/noteType",
                 "propertyLabel": "Note type"
@@ -2963,7 +2965,7 @@
               {
                 "mandatory": "false",
                 "repeatable": "false",
-                "type": "resource",
+                "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [],
@@ -3015,7 +3017,7 @@
               {
                 "mandatory": "false",
                 "repeatable": "false",
-                "type": "resource",
+                "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [],
@@ -3149,7 +3151,7 @@
     },
     "metadata": {
       "createDate": "2018-09-05T19:18:43.112Z",
-      "updateDate": "2022-11-22T19:15:14.723Z",
+      "updateDate": "2022-12-13T20:44:32.539Z",
       "createUser": null,
       "updateUser": null
     },
