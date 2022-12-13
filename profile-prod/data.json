@@ -6928,13 +6928,13 @@
                     "http://id.loc.gov/vocabulary/mgroove"
                   ],
                   "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/GrooveCharacteristic",
+                    "dataTypeURI": "",
                     "remark": ""
                   },
                   "defaults": [],
                   "editable": "false"
                 },
-                "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/GrooveCharacteristic",
                 "propertyLabel": "Lookup",
                 "remark": "https://original.rdatoolkit.org/3.16.5.html"
               }
@@ -6957,10 +6957,10 @@
                   ],
                   "defaults": [],
                   "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/PlayingSpeed"
+                    "dataTypeURI": ""
                   }
                 },
-                "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/PlayingSpeed",
                 "propertyLabel": "Lookup",
                 "remark": "https://original.rdatoolkit.org/3.16.4.html"
               }
@@ -6980,7 +6980,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2022-12-13T20:14:40.303Z",
+      "updateDate": "2022-12-13T20:17:25.134Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",
