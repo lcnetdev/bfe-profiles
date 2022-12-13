@@ -6,9 +6,7 @@
       "type": "lookup",
       "resourceTemplates": [],
       "valueConstraint": {
-        "valueTemplateRefs": [
-          ""
-        ],
+        "valueTemplateRefs": [],
         "useValuesFrom": [
           "http://id.loc.gov/vocabulary/organizations"
         ],
