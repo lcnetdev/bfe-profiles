@@ -37385,22 +37385,6 @@
                 },
                 "propertyLabel": "Search LCNAF/LCSH",
                 "propertyURI": "http://www.w3.org/2002/07/owl#sameAs"
-              },
-              {
-                "mandatory": "false",
-                "repeatable": "false",
-                "type": "literal",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [],
-                  "valueDataType": {},
-                  "editable": "true",
-                  "repeatable": "false",
-                  "defaults": []
-                },
-                "propertyURI": "http://www.loc.gov/mads/rdf/v1#authoritativeLabel",
-                "propertyLabel": "Input Geographic Term"
               }
             ],
             "id": "lc:RT:bf2:Topic:madsGeographic",
@@ -37758,7 +37742,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.062Z",
-      "updateDate": "2022-12-13T20:36:06.624Z",
+      "updateDate": "2022-12-13T20:37:04.604Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.062Z",

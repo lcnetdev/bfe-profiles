@@ -21,22 +21,6 @@
       },
       "propertyLabel": "Search LCNAF/LCSH",
       "propertyURI": "http://www.w3.org/2002/07/owl#sameAs"
-    },
-    {
-      "mandatory": "false",
-      "repeatable": "false",
-      "type": "literal",
-      "resourceTemplates": [],
-      "valueConstraint": {
-        "valueTemplateRefs": [],
-        "useValuesFrom": [],
-        "valueDataType": {},
-        "editable": "true",
-        "repeatable": "false",
-        "defaults": []
-      },
-      "propertyURI": "http://www.loc.gov/mads/rdf/v1#authoritativeLabel",
-      "propertyLabel": "Input Geographic Term"
     }
   ],
   "id": "lc:RT:bf2:Topic:madsGeographic",
