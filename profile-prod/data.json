@@ -7007,7 +7007,9 @@
                     "lc:RT:bflc:Agents:PrimaryContribution"
                   ],
                   "useValuesFrom": [],
-                  "valueDataType": {},
+                  "valueDataType": {
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bflc/PrimaryContribution"
+                  },
                   "defaults": [],
                   "editable": "true"
                 },
@@ -8657,7 +8659,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2022-12-14T15:22:11.630Z",
+      "updateDate": "2022-12-14T16:33:41.405Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",

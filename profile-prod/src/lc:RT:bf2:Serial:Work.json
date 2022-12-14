@@ -10,7 +10,9 @@
           "lc:RT:bflc:Agents:PrimaryContribution"
         ],
         "useValuesFrom": [],
-        "valueDataType": {},
+        "valueDataType": {
+          "dataTypeURI": "http://id.loc.gov/ontologies/bflc/PrimaryContribution"
+        },
         "defaults": [],
         "editable": "true"
       },
