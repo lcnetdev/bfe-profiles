@@ -476,7 +476,9 @@
               "https://preprod-8080.id.loc.gov/resources/works/"
             ],
             "defaults": [],
-            "valueDataType": {},
+            "valueDataType": {
+              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Work"
+            },
             "editable": "false"
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/continues",
@@ -493,7 +495,9 @@
               "https://preprod-8080.id.loc.gov/resources/works/"
             ],
             "defaults": [],
-            "valueDataType": {},
+            "valueDataType": {
+              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Work"
+            },
             "editable": "false"
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/absorbed",
@@ -510,7 +514,9 @@
               "https://preprod-8080.id.loc.gov/resources/works/"
             ],
             "defaults": [],
-            "valueDataType": {},
+            "valueDataType": {
+              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Work"
+            },
             "editable": "false"
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/mergerOf",
@@ -527,7 +533,9 @@
               "https://preprod-8080.id.loc.gov/resources/works/"
             ],
             "defaults": [],
-            "valueDataType": {},
+            "valueDataType": {
+              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Work"
+            },
             "editable": "false"
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/separatedFrom",
@@ -544,7 +552,9 @@
               "https://preprod-8080.id.loc.gov/resources/works/"
             ],
             "defaults": [],
-            "valueDataType": {}
+            "valueDataType": {
+              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Work"
+            }
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/succeededBy",
           "propertyLabel": "Succeeded By"
@@ -560,7 +570,9 @@
               "https://preprod-8080.id.loc.gov/resources/works/"
             ],
             "defaults": [],
-            "valueDataType": {},
+            "valueDataType": {
+              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Work"
+            },
             "editable": "false"
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/continuedBy",
@@ -577,7 +589,9 @@
               "https://preprod-8080.id.loc.gov/resources/works/"
             ],
             "defaults": [],
-            "valueDataType": {},
+            "valueDataType": {
+              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Work"
+            },
             "editable": "false"
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/absorbedBy",
@@ -594,7 +608,9 @@
               "https://preprod-8080.id.loc.gov/resources/works/"
             ],
             "defaults": [],
-            "valueDataType": {},
+            "valueDataType": {
+              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Work"
+            },
             "editable": "false"
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/mergedToForm",
@@ -611,7 +627,9 @@
               "https://preprod-8080.id.loc.gov/resources/works/"
             ],
             "defaults": [],
-            "valueDataType": {},
+            "valueDataType": {
+              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Work"
+            },
             "editable": "false"
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/splitInto",
@@ -628,7 +646,9 @@
               "https://preprod-8080.id.loc.gov/resources/works/"
             ],
             "defaults": [],
-            "valueDataType": {},
+            "valueDataType": {
+              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Work"
+            },
             "editable": "false"
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/supplement",
@@ -645,7 +665,9 @@
               "https://preprod-8080.id.loc.gov/resources/works/"
             ],
             "defaults": [],
-            "valueDataType": {},
+            "valueDataType": {
+              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Work"
+            },
             "editable": "false"
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/supplementTo",
@@ -662,7 +684,9 @@
               "https://preprod-8080.id.loc.gov/resources/works/"
             ],
             "defaults": [],
-            "valueDataType": {}
+            "valueDataType": {
+              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Work"
+            }
           },
           "propertyURI": "http://id.loc.gov/ontologies/bflc/indexedIn",
           "propertyLabel": "Indexed in"
