@@ -1088,7 +1088,9 @@
                     "https://preprod-8080.id.loc.gov/resources/works/"
                   ],
                   "defaults": [],
-                  "valueDataType": {}
+                  "valueDataType": {
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Work"
+                  }
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/otherEdition",
                 "propertyLabel": "Other edition (search BFDB)"
@@ -1104,7 +1106,9 @@
                     "https://preprod-8080.id.loc.gov/resources/works/"
                   ],
                   "defaults": [],
-                  "valueDataType": {}
+                  "valueDataType": {
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Work"
+                  }
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/otherPhysicalFormat",
                 "propertyLabel": "Other physical format (search BFDB)"
@@ -1925,7 +1929,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2022-12-09T16:40:32.994Z",
+      "updateDate": "2022-12-14T20:09:47.602Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",
