@@ -7453,7 +7453,9 @@
                     "https://preprod-8080.id.loc.gov/resources/works/"
                   ],
                   "defaults": [],
-                  "valueDataType": {}
+                  "valueDataType": {
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Work"
+                  }
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/precededBy",
                 "propertyLabel": "Preceded By"
@@ -8631,7 +8633,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2022-12-13T20:09:16.822Z",
+      "updateDate": "2022-12-14T15:15:28.985Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",
