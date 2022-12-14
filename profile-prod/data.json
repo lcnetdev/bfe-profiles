@@ -7445,7 +7445,7 @@
               {
                 "mandatory": "false",
                 "repeatable": "true",
-                "type": "resource",
+                "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [],
@@ -7463,7 +7463,7 @@
               {
                 "mandatory": "false",
                 "repeatable": "true",
-                "type": "resource",
+                "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [],
@@ -7482,7 +7482,7 @@
               {
                 "mandatory": "false",
                 "repeatable": "true",
-                "type": "resource",
+                "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [],
@@ -7501,7 +7501,7 @@
               {
                 "mandatory": "false",
                 "repeatable": "true",
-                "type": "resource",
+                "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [],
@@ -7520,7 +7520,7 @@
               {
                 "mandatory": "false",
                 "repeatable": "true",
-                "type": "resource",
+                "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [],
@@ -7539,7 +7539,7 @@
               {
                 "mandatory": "false",
                 "repeatable": "true",
-                "type": "resource",
+                "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [],
@@ -7557,7 +7557,7 @@
               {
                 "mandatory": "false",
                 "repeatable": "true",
-                "type": "resource",
+                "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [],
@@ -7576,7 +7576,7 @@
               {
                 "mandatory": "false",
                 "repeatable": "true",
-                "type": "resource",
+                "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [],
@@ -7595,7 +7595,7 @@
               {
                 "mandatory": "false",
                 "repeatable": "true",
-                "type": "resource",
+                "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [],
@@ -7614,7 +7614,7 @@
               {
                 "mandatory": "false",
                 "repeatable": "true",
-                "type": "resource",
+                "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [],
@@ -7633,7 +7633,7 @@
               {
                 "mandatory": "false",
                 "repeatable": "true",
-                "type": "resource",
+                "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [],
@@ -7652,7 +7652,7 @@
               {
                 "mandatory": "false",
                 "repeatable": "true",
-                "type": "resource",
+                "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [],
@@ -7671,7 +7671,7 @@
               {
                 "mandatory": "false",
                 "repeatable": "true",
-                "type": "resource",
+                "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [],
@@ -8657,7 +8657,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2022-12-14T15:17:42.393Z",
+      "updateDate": "2022-12-14T15:22:11.630Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",
