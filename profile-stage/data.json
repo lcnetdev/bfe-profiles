@@ -29833,8 +29833,8 @@
                   "repeatable": "true",
                   "useValuesFrom": [],
                   "valueTemplateRefs": [
-                    "lc:RT:bf2:Agent:bfCorp",
                     "lc:RT:bf2:Agent:bfPerson",
+                    "lc:RT:bf2:Agent:bfCorp",
                     "lc:RT:bf2:Agent:bfConf",
                     "lc:RT:bf2:Agent:bfJurisdiction",
                     "lc:RT:bf2:Agent:bfFamily"
@@ -29926,7 +29926,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.058Z",
-      "updateDate": "2022-12-07T19:29:43.346Z",
+      "updateDate": "2022-12-14T19:35:28.119Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.058Z",
