@@ -7,8 +7,8 @@
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [
-          "lc:RT:bf2:Agent:bfCorp",
           "lc:RT:bf2:Agent:bfPerson",
+          "lc:RT:bf2:Agent:bfCorp",
           "lc:RT:bf2:Agent:bfConf",
           "lc:RT:bf2:Agent:bfJurisdiction",
           "lc:RT:bf2:Agent:bfFamily"

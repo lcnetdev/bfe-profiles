@@ -33862,8 +33862,8 @@
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [
-                    "lc:RT:bf2:Agent:bfCorp",
                     "lc:RT:bf2:Agent:bfPerson",
+                    "lc:RT:bf2:Agent:bfCorp",
                     "lc:RT:bf2:Agent:bfConf",
                     "lc:RT:bf2:Agent:bfJurisdiction",
                     "lc:RT:bf2:Agent:bfFamily"
@@ -33916,7 +33916,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.059Z",
-      "updateDate": "2022-12-05T19:05:02.250Z",
+      "updateDate": "2022-12-14T19:35:45.714Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.059Z",
