@@ -36,7 +36,7 @@
       "mandatory": "true",
       "repeatable": "true",
       "type": "resource",
-      "remark": ""
+      "remark": "https://original.rdatoolkit.org/rdachp2_rda2-3376.html"
     },
     {
       "mandatory": "false",
@@ -260,7 +260,7 @@
       "mandatory": "false",
       "repeatable": "true",
       "type": "resource",
-      "remark": ""
+      "remark": "https://original.rdatoolkit.org/3.4.html"
     },
     {
       "propertyLabel": "Dimensions",
@@ -343,7 +343,7 @@
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [
-          "lc:RT:bf2:Item:Digital"
+          "lc:RT:bf2:Monograph:Item"
         ],
         "useValuesFrom": [],
         "valueDataType": {
