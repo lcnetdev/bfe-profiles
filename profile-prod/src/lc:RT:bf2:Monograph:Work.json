@@ -487,7 +487,7 @@
         "defaults": []
       },
       "propertyURI": "http://id.loc.gov/ontologies/bflc/relationship",
-      "propertyLabel": "Related Works",
+      "propertyLabel": "Search Related Works",
       "remark": "https://original.rdatoolkit.org/25.1.html"
     },
     {

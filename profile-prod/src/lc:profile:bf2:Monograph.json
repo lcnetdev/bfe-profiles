@@ -489,7 +489,7 @@
             "defaults": []
           },
           "propertyURI": "http://id.loc.gov/ontologies/bflc/relationship",
-          "propertyLabel": "Related Works",
+          "propertyLabel": "Search Related Works",
           "remark": "https://original.rdatoolkit.org/25.1.html"
         },
         {
@@ -929,7 +929,7 @@
                 "defaultLiteral": "United States. Library of Congress"
               }
             ],
-            "editable": "false"
+            "editable": "true"
           },
           "mandatory": "false",
           "repeatable": "false"

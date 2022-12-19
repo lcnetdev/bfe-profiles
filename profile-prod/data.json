@@ -1163,7 +1163,7 @@
                   "defaults": []
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bflc/relationship",
-                "propertyLabel": "Related Works",
+                "propertyLabel": "Search Related Works",
                 "remark": "https://original.rdatoolkit.org/25.1.html"
               },
               {
@@ -1603,7 +1603,7 @@
                       "defaultLiteral": "United States. Library of Congress"
                     }
                   ],
-                  "editable": "false"
+                  "editable": "true"
                 },
                 "mandatory": "false",
                 "repeatable": "false"
@@ -1929,7 +1929,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2022-12-14T20:09:47.602Z",
+      "updateDate": "2022-12-15T14:36:55.749Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",
@@ -8444,6 +8444,24 @@
               {
                 "mandatory": "false",
                 "repeatable": "true",
+                "type": "lookup",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [
+                    "http://id.loc.gov/vocabulary/mstatus"
+                  ],
+                  "defaults": [],
+                  "valueDataType": {
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Status"
+                  }
+                },
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/status",
+                "propertyLabel": "Current or ceased?"
+              },
+              {
+                "mandatory": "false",
+                "repeatable": "true",
                 "type": "resource",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -8663,7 +8681,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2022-12-14T16:33:41.405Z",
+      "updateDate": "2022-12-19T16:56:28.629Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",

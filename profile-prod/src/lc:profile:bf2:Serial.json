@@ -1445,6 +1445,24 @@
         {
           "mandatory": "false",
           "repeatable": "true",
+          "type": "lookup",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [],
+            "useValuesFrom": [
+              "http://id.loc.gov/vocabulary/mstatus"
+            ],
+            "defaults": [],
+            "valueDataType": {
+              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Status"
+            }
+          },
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/status",
+          "propertyLabel": "Current or ceased?"
+        },
+        {
+          "mandatory": "false",
+          "repeatable": "true",
           "type": "resource",
           "resourceTemplates": [],
           "valueConstraint": {

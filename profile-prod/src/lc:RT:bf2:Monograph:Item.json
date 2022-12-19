@@ -20,7 +20,7 @@
             "defaultLiteral": "United States. Library of Congress"
           }
         ],
-        "editable": "false"
+        "editable": "true"
       },
       "mandatory": "false",
       "repeatable": "false"
