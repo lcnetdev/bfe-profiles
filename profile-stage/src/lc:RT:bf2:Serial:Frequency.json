@@ -2,6 +2,39 @@
   "propertyTemplates": [
     {
       "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": [],
+        "valueDataType": {}
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/date",
+      "propertyLabel": "Dates associated with frequency",
+      "remark": ""
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [
+          "http://id.loc.gov/vocabulary/mstatus"
+        ],
+        "defaults": [],
+        "valueDataType": {
+          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Status"
+        }
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/status",
+      "propertyLabel": "Current or ceased?"
+    },
+    {
+      "mandatory": "false",
       "repeatable": "false",
       "type": "lookup",
       "resourceTemplates": [],
@@ -16,21 +49,6 @@
       "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
       "propertyLabel": "Lookup",
       "remark": "http://access.rdatoolkit.org/2.14.html"
-    },
-    {
-      "mandatory": "false",
-      "repeatable": "true",
-      "type": "literal",
-      "resourceTemplates": [],
-      "valueConstraint": {
-        "valueTemplateRefs": [],
-        "useValuesFrom": [],
-        "defaults": [],
-        "valueDataType": {}
-      },
-      "propertyURI": "http://id.loc.gov/ontologies/bibframe/date",
-      "propertyLabel": "Dates associated with frequency",
-      "remark": ""
     },
     {
       "mandatory": "false",
