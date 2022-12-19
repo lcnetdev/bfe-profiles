@@ -2,18 +2,20 @@
   "propertyTemplates": [
     {
       "mandatory": "false",
-      "repeatable": "true",
-      "type": "literal",
+      "repeatable": "false",
+      "type": "lookup",
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [],
-        "useValuesFrom": [],
+        "useValuesFrom": [
+          "http://id.loc.gov/vocabulary/frequencies"
+        ],
         "defaults": [],
         "valueDataType": {}
       },
-      "propertyURI": "http://id.loc.gov/ontologies/bibframe/date",
-      "propertyLabel": "Dates associated with frequency",
-      "remark": ""
+      "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
+      "propertyLabel": "Lookup frequency",
+      "remark": "http://access.rdatoolkit.org/2.14.html"
     },
     {
       "mandatory": "false",
@@ -35,20 +37,18 @@
     },
     {
       "mandatory": "false",
-      "repeatable": "false",
-      "type": "lookup",
+      "repeatable": "true",
+      "type": "literal",
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [],
-        "useValuesFrom": [
-          "http://id.loc.gov/vocabulary/frequencies"
-        ],
+        "useValuesFrom": [],
         "defaults": [],
         "valueDataType": {}
       },
-      "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
-      "propertyLabel": "Lookup",
-      "remark": "http://access.rdatoolkit.org/2.14.html"
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/date",
+      "propertyLabel": "Dates associated with frequency",
+      "remark": ""
     },
     {
       "mandatory": "false",
