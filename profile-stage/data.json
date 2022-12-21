@@ -26767,7 +26767,8 @@
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [
-                    "lc:RT:bf2:Cartographic:Attributes"
+                    "lc:RT:bf2:Cartographic:Attributes",
+                    "lc:RT:bf2:Cartographic:Projection"
                   ],
                   "useValuesFrom": [],
                   "valueDataType": {},
@@ -27943,7 +27944,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.059Z",
-      "updateDate": "2022-12-21T19:45:42.450Z",
+      "updateDate": "2022-12-21T19:46:05.841Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.059Z",
