@@ -23210,7 +23210,7 @@
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [
-                    "lc:RT:bf2:Identifiers:Local"
+                    "lc:RT:bf2:AdminMetadata:Identifier"
                   ],
                   "useValuesFrom": [],
                   "defaults": [],
@@ -23584,7 +23584,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.056Z",
-      "updateDate": "2022-12-21T19:32:35.182Z",
+      "updateDate": "2022-12-21T19:32:54.850Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.056Z",

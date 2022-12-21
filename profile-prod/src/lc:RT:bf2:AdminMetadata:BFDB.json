@@ -241,7 +241,7 @@
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [
-          "lc:RT:bf2:Identifiers:Local"
+          "lc:RT:bf2:AdminMetadata:Identifier"
         ],
         "useValuesFrom": [],
         "defaults": [],
