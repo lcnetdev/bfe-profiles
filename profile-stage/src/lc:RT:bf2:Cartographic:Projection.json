@@ -1,0 +1,25 @@
+{
+  "propertyTemplates": [
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [
+          "http://id.loc.gov/vocabulary/mprojection"
+        ],
+        "defaults": [],
+        "valueDataType": {
+          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Projection"
+        }
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/projection",
+      "propertyLabel": "Projection"
+    }
+  ],
+  "id": "lc:RT:bf2:Cartographic:Projection",
+  "resourceURI": "http://id.loc.gov/ontologies/bibframe/Cartographic",
+  "resourceLabel": "Projection"
+}
