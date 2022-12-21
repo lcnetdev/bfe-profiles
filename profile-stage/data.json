@@ -26767,8 +26767,7 @@
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [
-                    "lc:RT:bf2:Cartographic:Attributes",
-                    "lc:RT:bf2:Cartographic:Projection"
+                    "lc:RT:bf2:Cartographic:Attributes"
                   ],
                   "useValuesFrom": [],
                   "valueDataType": {},
@@ -27907,31 +27906,6 @@
             "id": "lc:RT:bf2:Cartographic:ScaleNew",
             "resourceURI": "http://id.loc.gov/ontologies/bibframe/Scale",
             "resourceLabel": "Numeric Scale value"
-          },
-          {
-            "propertyTemplates": [
-              {
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "lookup",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [
-                    "http://id.loc.gov/vocabulary/mprojection"
-                  ],
-                  "defaults": [],
-                  "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Projection"
-                  }
-                },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/projection",
-                "propertyLabel": "Projection"
-              }
-            ],
-            "id": "lc:RT:bf2:Cartographic:Projection",
-            "resourceURI": "http://id.loc.gov/ontologies/bibframe/Cartographic",
-            "resourceLabel": "Projection"
           }
         ],
         "author": "NDMSO",
@@ -27944,7 +27918,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.059Z",
-      "updateDate": "2022-12-21T19:46:05.841Z",
+      "updateDate": "2022-12-21T19:54:13.360Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.059Z",

@@ -115,8 +115,7 @@
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [
-          "lc:RT:bf2:Cartographic:Attributes",
-          "lc:RT:bf2:Cartographic:Projection"
+          "lc:RT:bf2:Cartographic:Attributes"
         ],
         "useValuesFrom": [],
         "valueDataType": {},
