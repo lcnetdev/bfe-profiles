@@ -8,9 +8,7 @@
       "valueConstraint": {
         "valueTemplateRefs": [],
         "useValuesFrom": [],
-        "valueDataType": {
-          "remark": "http://id.loc.gov/ontologies/bflc/catalogerId"
-        },
+        "valueDataType": {},
         "defaults": []
       },
       "propertyURI": "http://id.loc.gov/ontologies/bflc/catalogerId",
@@ -23,14 +21,9 @@
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [],
-        "useValuesFrom": [
-          "http://id.loc.gov/vocabulary/menclvl"
-        ],
-        "valueDataType": {
-          "dataTypeURI": "http://id.loc.gov/ontologies/bflc/EncodingLevel"
-        },
+        "useValuesFrom": [],
         "defaults": [],
-        "editable": "false"
+        "valueDataType": {}
       },
       "propertyLabel": "Encoding level",
       "remark": "",
@@ -47,9 +40,7 @@
           "http://id.loc.gov/vocabulary/mstatus"
         ],
         "defaults": [],
-        "valueDataType": {
-          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Status"
-        },
+        "valueDataType": {},
         "editable": "false"
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/status",
@@ -64,10 +55,7 @@
       "valueConstraint": {
         "valueTemplateRefs": [],
         "useValuesFrom": [],
-        "valueDataType": {
-          "dataTypeLabelHint": "Date or date and time on which the original metadata first created.",
-          "dataTypeURI": "http://www.w3.org/2001/XMLSchema#date"
-        },
+        "valueDataType": {},
         "editable": "false",
         "defaults": []
       },
@@ -82,10 +70,7 @@
       "valueConstraint": {
         "valueTemplateRefs": [],
         "useValuesFrom": [],
-        "valueDataType": {
-          "dataTypeLabelHint": "Date or date and time on which the metadata was modified.",
-          "dataTypeURI": "http://www.w3.org/2001/XMLSchema#dateTime"
-        },
+        "valueDataType": {},
         "editable": "false",
         "defaults": []
       },
@@ -102,9 +87,7 @@
         "useValuesFrom": [
           "http://id.loc.gov/vocabulary/organizations"
         ],
-        "valueDataType": {
-          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Agent"
-        },
+        "valueDataType": {},
         "editable": "false",
         "defaults": [
           {
@@ -127,9 +110,7 @@
         "useValuesFrom": [
           "http://id.loc.gov/vocabulary/marcauthen"
         ],
-        "valueDataType": {
-          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/DescriptionAuthentication"
-        },
+        "valueDataType": {},
         "defaults": [
           {
             "defaultURI": "http://id.loc.gov/vocabulary/marcauthen/pcc",
@@ -152,9 +133,7 @@
         "useValuesFrom": [
           "http://id.loc.gov/vocabulary/descriptionConventions"
         ],
-        "valueDataType": {
-          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/DescriptionConventions"
-        },
+        "valueDataType": {},
         "editable": "false",
         "defaults": [
           {
@@ -203,9 +182,7 @@
         "useValuesFrom": [
           "http://id.loc.gov/vocabulary/organizations"
         ],
-        "valueDataType": {
-          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Agent"
-        },
+        "valueDataType": {},
         "editable": "false",
         "defaults": [
           {
@@ -278,8 +255,7 @@
         "valueTemplateRefs": [],
         "useValuesFrom": [],
         "defaults": [],
-        "valueDataType": {},
-        "editable": "false"
+        "valueDataType": {}
       },
       "propertyURI": "http://id.loc.gov/ontologies/bflc/procInfo",
       "propertyLabel": "Process Information"
@@ -290,9 +266,7 @@
       "type": "resource",
       "resourceTemplates": [],
       "valueConstraint": {
-        "valueTemplateRefs": [
-          "lc:RT:bf2:Note"
-        ],
+        "valueTemplateRefs": [],
         "useValuesFrom": [],
         "defaults": [],
         "valueDataType": {}
