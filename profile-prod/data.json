@@ -23568,7 +23568,7 @@
                 "remark": "Idiomatic property used for structured values."
               }
             ],
-            "id": "lc:profile:bf2:AdminMetadata:Identifier",
+            "id": "lc:RT:bf2:AdminMetadata:Identifier",
             "resourceURI": "http://id.loc.gov/ontologies/bibframe/Local",
             "resourceLabel": "Local identifier"
           }
@@ -23584,7 +23584,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.056Z",
-      "updateDate": "2022-12-21T19:31:07.767Z",
+      "updateDate": "2022-12-21T19:32:35.182Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.056Z",

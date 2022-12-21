@@ -1,0 +1,22 @@
+{
+  "propertyTemplates": [
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": [],
+        "valueDataType": {}
+      },
+      "propertyURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+      "propertyLabel": "Local identifier",
+      "remark": "Idiomatic property used for structured values."
+    }
+  ],
+  "id": "lc:RT:bf2:AdminMetadata:Identifier",
+  "resourceURI": "http://id.loc.gov/ontologies/bibframe/Local",
+  "resourceLabel": "Local identifier"
+}

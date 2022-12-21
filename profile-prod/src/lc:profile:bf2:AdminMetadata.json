@@ -601,7 +601,7 @@
           "remark": "Idiomatic property used for structured values."
         }
       ],
-      "id": "lc:profile:bf2:AdminMetadata:Identifier",
+      "id": "lc:RT:bf2:AdminMetadata:Identifier",
       "resourceURI": "http://id.loc.gov/ontologies/bibframe/Local",
       "resourceLabel": "Local identifier"
     }
