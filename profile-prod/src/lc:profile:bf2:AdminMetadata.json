@@ -598,7 +598,7 @@
           },
           "propertyURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
           "propertyLabel": "Local identifier",
-          "remark": "Idiomatic property used for structured values."
+          "remark": ""
         }
       ],
       "id": "lc:RT:bf2:AdminMetadata:Identifier",

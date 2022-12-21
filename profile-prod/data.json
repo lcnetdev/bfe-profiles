@@ -23565,7 +23565,7 @@
                 },
                 "propertyURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
                 "propertyLabel": "Local identifier",
-                "remark": "Idiomatic property used for structured values."
+                "remark": ""
               }
             ],
             "id": "lc:RT:bf2:AdminMetadata:Identifier",
@@ -23584,7 +23584,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.056Z",
-      "updateDate": "2022-12-21T19:32:54.850Z",
+      "updateDate": "2022-12-21T19:34:29.226Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.056Z",
