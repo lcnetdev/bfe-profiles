@@ -90,11 +90,11 @@
                 "valueConstraint": {
                   "valueTemplateRefs": [],
                   "useValuesFrom": [
-                    "http://id.loc.gov/authorities/names/"
+                    "https://id.loc.gov/vocabulary/organizations"
                   ],
                   "defaults": [
                     {
-                      "defaultURI": "http://id.loc.gov/authorities/names/n78089035",
+                      "defaultURI": "http://id.loc.gov/vocabulary/organizations/dlc",
                       "defaultLiteral": "United States. Library of Congress"
                     }
                   ],
@@ -311,7 +311,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2022-08-15T15:01:27.546Z",
+      "updateDate": "2022-12-22T16:07:46.420Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",
