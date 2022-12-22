@@ -95,11 +95,11 @@
                   "defaults": [
                     {
                       "defaultURI": "http://id.loc.gov/vocabulary/organizations/dlc",
-                      "defaultLiteral": "United States. Library of Congress"
+                      "defaultLiteral": "United States, Library of Congress"
                     }
                   ],
                   "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Agent"
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Organization"
                   }
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bflc/applicableInstitution",
@@ -311,7 +311,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2022-12-22T16:07:46.420Z",
+      "updateDate": "2022-12-22T16:09:38.182Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",
