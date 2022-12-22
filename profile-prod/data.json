@@ -21926,7 +21926,7 @@
                   "defaults": [],
                   "validatePattern": ""
                 },
-                "propertyURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+                "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
                 "propertyLabel": "Language code",
                 "remark": ""
               },
@@ -21961,7 +21961,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.059Z",
-      "updateDate": "2022-12-09T16:34:19.941Z",
+      "updateDate": "2022-12-22T14:18:17.783Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.059Z",

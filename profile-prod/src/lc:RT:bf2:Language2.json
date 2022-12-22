@@ -21,7 +21,7 @@
         "defaults": [],
         "validatePattern": ""
       },
-      "propertyURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+      "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
       "propertyLabel": "Language code",
       "remark": ""
     },
