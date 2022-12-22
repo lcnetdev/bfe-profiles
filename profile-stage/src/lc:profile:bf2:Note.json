@@ -85,12 +85,12 @@
           "valueConstraint": {
             "valueTemplateRefs": [],
             "useValuesFrom": [
-              "http://id.loc.gov/authorities/names/"
+              "https://id.loc.gov/vocabulary/organizations"
             ],
             "defaults": [
               {
-                "defaultURI": "http://id.loc.gov/authorities/names/n78089035",
-                "defaultLiteral": "Library of Congress"
+                "defaultURI": "http://id.loc.gov/vocabulary/organizations/dlc",
+                "defaultLiteral": "United States, Library of Congress"
               }
             ],
             "valueDataType": {
