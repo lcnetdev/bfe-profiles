@@ -13718,7 +13718,7 @@
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Scale"
                   }
                 },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/ccale",
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/scale",
                 "propertyLabel": "Search Scale term"
               },
               {
@@ -14612,7 +14612,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.059Z",
-      "updateDate": "2022-12-07T18:25:50.430Z",
+      "updateDate": "2022-12-22T14:23:51.306Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.059Z",
