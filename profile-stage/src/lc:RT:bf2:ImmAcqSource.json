@@ -31,7 +31,7 @@
           }
         ],
         "valueDataType": {
-          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Agent"
+          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Organization"
         }
       },
       "propertyURI": "http://id.loc.gov/ontologies/bflc/applicableInstitution",

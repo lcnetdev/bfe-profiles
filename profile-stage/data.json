@@ -29702,7 +29702,7 @@
                     }
                   ],
                   "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Agent"
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Organization"
                   }
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bflc/applicableInstitution",
@@ -29867,7 +29867,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2022-12-22T16:08:28.261Z",
+      "updateDate": "2022-12-22T16:09:55.040Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",
