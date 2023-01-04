@@ -69,7 +69,7 @@
             "valueDataType": {}
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/edition",
-          "propertyLabel": "Dewey scheme edition",
+          "propertyLabel": "Dewey full or abridged?",
           "remark": ""
         },
         {

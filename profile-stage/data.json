@@ -75,7 +75,7 @@
                   "valueDataType": {}
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/edition",
-                "propertyLabel": "Dewey scheme edition",
+                "propertyLabel": "Dewey full or abridged?",
                 "remark": ""
               },
               {
@@ -290,7 +290,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.059Z",
-      "updateDate": "2023-01-04T19:34:48.065Z",
+      "updateDate": "2023-01-04T19:37:34.493Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.059Z",
