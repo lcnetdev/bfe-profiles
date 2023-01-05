@@ -48,7 +48,7 @@
         "valueTemplateRefs": [
           "lc:RT:bf2:WorkTitle",
           "lc:RT:bf2:Title:VarTitle",
-          "lc:RT:bf2:Title:VarTitleTest"
+          "lc:RT:bf2:ParallelTitle"
         ],
         "useValuesFrom": [],
         "valueDataType": {},
