@@ -15799,7 +15799,8 @@
                 "valueConstraint": {
                   "valueTemplateRefs": [
                     "lc:RT:bf2:WorkTitle",
-                    "lc:RT:bf2:Title:VarTitle"
+                    "lc:RT:bf2:Title:VarTitle",
+                    "lc:RT:bf2:ParallelTitle"
                   ],
                   "useValuesFrom": [],
                   "valueDataType": {},
@@ -16845,7 +16846,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2022-12-13T20:25:06.124Z",
+      "updateDate": "2023-01-05T15:05:33.848Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",
