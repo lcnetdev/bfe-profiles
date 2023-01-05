@@ -23,7 +23,8 @@
       "valueConstraint": {
         "valueTemplateRefs": [
           "lc:RT:bf2:MonographNR:InstTitle",
-          "lc:RT:bf2:MonographNR:VarTitle"
+          "lc:RT:bf2:MonographNR:VarTitle",
+          "lc:RT:bf2:MonographNR:ParallelTitle"
         ],
         "useValuesFrom": [],
         "defaults": [],
