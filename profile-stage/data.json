@@ -4101,7 +4101,8 @@
                     "lc:RT:bf2:WorkTitle",
                     "lc:RT:bf2:Title:VarTitle",
                     "lc:RT:bf2:Title:KeyTitle",
-                    "lc:RT:bf2:Title:AbbrTitle"
+                    "lc:RT:bf2:Title:AbbrTitle",
+                    "lc:RT:bf2:ParallelTitle"
                   ],
                   "useValuesFrom": [],
                   "valueDataType": {},
@@ -5568,7 +5569,7 @@
     "id": "2be36dfb-c101-4641-8af1-27b04ddf3958",
     "metadata": {
       "createDate": "2022-05-10T21:00:39.811Z",
-      "updateDate": "2022-12-07T16:16:05.807Z",
+      "updateDate": "2023-01-05T15:18:05.810Z",
       "createUser": null,
       "updateUser": null
     },
