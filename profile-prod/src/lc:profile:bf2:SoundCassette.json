@@ -30,7 +30,8 @@
           "valueConstraint": {
             "valueTemplateRefs": [
               "lc:RT:bf2:WorkTitle",
-              "lc:RT:bf2:Title:VarTitle"
+              "lc:RT:bf2:Title:VarTitle",
+              "lc:RT:bf2:ParallelTitle"
             ],
             "useValuesFrom": [],
             "defaults": [],
