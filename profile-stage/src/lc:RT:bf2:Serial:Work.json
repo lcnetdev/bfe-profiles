@@ -30,7 +30,8 @@
           "lc:RT:bf2:WorkTitle",
           "lc:RT:bf2:Title:VarTitle",
           "lc:RT:bf2:Title:KeyTitle",
-          "lc:RT:bf2:Title:AbbrTitle"
+          "lc:RT:bf2:Title:AbbrTitle",
+          "lc:RT:bf2:ParallelTitle"
         ],
         "useValuesFrom": [],
         "valueDataType": {},
