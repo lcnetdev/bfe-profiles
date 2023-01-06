@@ -157,7 +157,7 @@
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Agent"
                   }
                 },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/itemPortion",
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/assigner",
                 "propertyLabel": "Assigning agency"
               }
             ],
@@ -313,7 +313,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.059Z",
-      "updateDate": "2023-01-06T21:26:36.701Z",
+      "updateDate": "2023-01-06T21:28:36.421Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.059Z",

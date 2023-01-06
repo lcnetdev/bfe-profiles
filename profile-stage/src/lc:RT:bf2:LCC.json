@@ -49,7 +49,7 @@
           "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Agent"
         }
       },
-      "propertyURI": "http://id.loc.gov/ontologies/bibframe/itemPortion",
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/assigner",
       "propertyLabel": "Assigning agency"
     }
   ],
