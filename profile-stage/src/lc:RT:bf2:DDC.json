@@ -63,12 +63,7 @@
       "valueConstraint": {
         "valueTemplateRefs": [],
         "useValuesFrom": [],
-        "defaults": [
-          {
-            "defaultURI": "",
-            "defaultLiteral": "full"
-          }
-        ],
+        "defaults": [],
         "valueDataType": {}
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/edition",

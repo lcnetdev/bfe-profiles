@@ -71,12 +71,7 @@
                 "valueConstraint": {
                   "valueTemplateRefs": [],
                   "useValuesFrom": [],
-                  "defaults": [
-                    {
-                      "defaultURI": "",
-                      "defaultLiteral": "full"
-                    }
-                  ],
+                  "defaults": [],
                   "valueDataType": {}
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/edition",
@@ -295,7 +290,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.059Z",
-      "updateDate": "2023-01-04T19:41:27.164Z",
+      "updateDate": "2023-01-06T21:23:44.025Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.059Z",
