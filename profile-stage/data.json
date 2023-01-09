@@ -8267,6 +8267,25 @@
               {
                 "mandatory": "false",
                 "repeatable": "true",
+                "type": "lookup",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [
+                    "https://preprod-8080.id.loc.gov/resources/works/",
+                    "https://preprod-8080.id.loc.gov/resources/hubs/"
+                  ],
+                  "defaults": [],
+                  "valueDataType": {
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Work"
+                  }
+                },
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/relatedTo",
+                "propertyLabel": "Related title in LC catalog"
+              },
+              {
+                "mandatory": "false",
+                "repeatable": "true",
                 "type": "resource",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -9819,7 +9838,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2023-01-05T15:14:21.553Z",
+      "updateDate": "2023-01-09T19:50:20.436Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",
