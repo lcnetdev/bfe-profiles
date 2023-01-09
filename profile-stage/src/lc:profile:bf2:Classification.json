@@ -47,12 +47,7 @@
             "defaultURI": "",
             "defaultLiteral": "",
             "editable": "true",
-            "defaults": [
-              {
-                "defaultURI": "http://id.loc.gov/vocabulary/classSchemes/ddc23",
-                "defaultLiteral": "23"
-              }
-            ]
+            "defaults": []
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/source",
           "propertyLabel": "Dewey Edition number"

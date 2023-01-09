@@ -53,12 +53,7 @@
                   "defaultURI": "",
                   "defaultLiteral": "",
                   "editable": "true",
-                  "defaults": [
-                    {
-                      "defaultURI": "http://id.loc.gov/vocabulary/classSchemes/ddc23",
-                      "defaultLiteral": "23"
-                    }
-                  ]
+                  "defaults": []
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/source",
                 "propertyLabel": "Dewey Edition number"
@@ -313,7 +308,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.059Z",
-      "updateDate": "2023-01-09T16:05:02.361Z",
+      "updateDate": "2023-01-09T16:07:11.587Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.059Z",
