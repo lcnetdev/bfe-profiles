@@ -95,6 +95,6 @@
   ],
   "id": "lc:RT:bf2:TestProfile:AllIdentifiers",
   "resourceLabel": "All types of Identifiers",
-  "author": "this would be a pick list",
+  "author": "",
   "resourceURI": "http://id.loc.gov/ontologies/bibframe/Identifier"
 }

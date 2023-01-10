@@ -15506,7 +15506,7 @@
             ],
             "id": "lc:RT:bf2:TestProfile:AllIdentifiers",
             "resourceLabel": "All types of Identifiers",
-            "author": "this would be a pick list",
+            "author": "",
             "resourceURI": "http://id.loc.gov/ontologies/bibframe/Identifier"
           }
         ],
@@ -15520,7 +15520,7 @@
     },
     "metadata": {
       "createDate": "2018-09-05T19:18:07.698Z",
-      "updateDate": "2023-01-10T15:20:33.946Z",
+      "updateDate": "2023-01-10T16:34:29.933Z",
       "createUser": null,
       "updateUser": null
     },
