@@ -1570,26 +1570,6 @@
             "defaults": [],
             "valueDataType": {}
           },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/maintitle"
-        }
-      ],
-      "id": "lc:RT:bf2:Serial:RelWorkTitle",
-      "resourceURI": "http://id.loc.gov/ontologies/bibframe/Title",
-      "resourceLabel": "Related Work Title"
-    },
-    {
-      "propertyTemplates": [
-        {
-          "mandatory": "false",
-          "repeatable": "true",
-          "type": "literal",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [],
-            "useValuesFrom": [],
-            "defaults": [],
-            "valueDataType": {}
-          },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/date",
           "propertyLabel": "EDTF Date (to/from 008)"
         },

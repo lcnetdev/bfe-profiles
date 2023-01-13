@@ -8574,26 +8574,6 @@
                   "defaults": [],
                   "valueDataType": {}
                 },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/maintitle"
-              }
-            ],
-            "id": "lc:RT:bf2:Serial:RelWorkTitle",
-            "resourceURI": "http://id.loc.gov/ontologies/bibframe/Title",
-            "resourceLabel": "Related Work Title"
-          },
-          {
-            "propertyTemplates": [
-              {
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "literal",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [],
-                  "defaults": [],
-                  "valueDataType": {}
-                },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/date",
                 "propertyLabel": "EDTF Date (to/from 008)"
               },
@@ -8707,7 +8687,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2023-01-13T16:55:38.891Z",
+      "updateDate": "2023-01-13T16:55:58.167Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",
