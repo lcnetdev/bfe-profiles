@@ -7,24 +7,6 @@
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [
-          "lc:RT:bf2:Serial:RelWork2"
-        ],
-        "useValuesFrom": [],
-        "defaults": [],
-        "valueDataType": {
-          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Work"
-        }
-      },
-      "propertyURI": "http://id.loc.gov/ontologies/bibframe/relatedTo",
-      "propertyLabel": "Related work"
-    },
-    {
-      "mandatory": "false",
-      "repeatable": "true",
-      "type": "resource",
-      "resourceTemplates": [],
-      "valueConstraint": {
-        "valueTemplateRefs": [
           "lc:RT:bf2:Relation"
         ],
         "useValuesFrom": [],
@@ -35,6 +17,29 @@
       },
       "propertyURI": "http://id.loc.gov/ontologies/bflc/relation",
       "propertyLabel": "Relationship Designator"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "resource",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [
+          "lc:RT:bf2:WorkTitle"
+        ],
+        "useValuesFrom": [],
+        "defaults": [
+          {
+            "defaultURI": "",
+            "defaultLiteral": ""
+          }
+        ],
+        "valueDataType": {
+          "dataTypeURI": ""
+        }
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/titleelatedTo",
+      "propertyLabel": "Related work"
     },
     {
       "mandatory": "false",
