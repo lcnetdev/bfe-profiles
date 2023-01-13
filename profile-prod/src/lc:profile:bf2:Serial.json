@@ -1671,6 +1671,26 @@
       "id": "lc:RT:bf2:Serial:PubInfoNew",
       "resourceURI": "http://id.loc.gov/ontologies/bibframe/Publication",
       "resourceLabel": "Publication"
+    },
+    {
+      "propertyTemplates": [
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "literal",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [],
+            "useValuesFrom": [],
+            "defaults": [],
+            "valueDataType": {}
+          },
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/maintitle"
+        }
+      ],
+      "id": "lc:RT:bf2:Serial:RelWorkTitle",
+      "resourceURI": "http://id.loc.gov/ontologies/bibframe/Title",
+      "resourceLabel": "Related Work Title"
     }
   ],
   "author": "NDMSO",
