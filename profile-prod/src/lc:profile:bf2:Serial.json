@@ -1492,7 +1492,7 @@
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [
-              "lc:RT:bf2:WorkTitle"
+              "lc:RT:bf2:Serial:RelWorkTitle"
             ],
             "useValuesFrom": [],
             "defaults": [],
@@ -1556,6 +1556,26 @@
       "id": "lc:RT:bf2:Serial:RelWork",
       "resourceURI": "http://id.loc.gov/ontologies/bibframe/Work",
       "resourceLabel": "Related works not in LC catalog"
+    },
+    {
+      "propertyTemplates": [
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "literal",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [],
+            "useValuesFrom": [],
+            "defaults": [],
+            "valueDataType": {}
+          },
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/maintitle"
+        }
+      ],
+      "id": "lc:RT:bf2:Serial:RelWorkTitle",
+      "resourceURI": "http://id.loc.gov/ontologies/bibframe/Title",
+      "resourceLabel": "Related Work Title"
     },
     {
       "propertyTemplates": [
@@ -1671,26 +1691,6 @@
       "id": "lc:RT:bf2:Serial:PubInfoNew",
       "resourceURI": "http://id.loc.gov/ontologies/bibframe/Publication",
       "resourceLabel": "Publication"
-    },
-    {
-      "propertyTemplates": [
-        {
-          "mandatory": "false",
-          "repeatable": "true",
-          "type": "literal",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [],
-            "useValuesFrom": [],
-            "defaults": [],
-            "valueDataType": {}
-          },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/maintitle"
-        }
-      ],
-      "id": "lc:RT:bf2:Serial:RelWorkTitle",
-      "resourceURI": "http://id.loc.gov/ontologies/bibframe/Title",
-      "resourceLabel": "Related Work Title"
     }
   ],
   "author": "NDMSO",
