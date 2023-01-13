@@ -7,7 +7,7 @@
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [
-          "lc:RT:bf2:Serial:RelWorkTitle"
+          "lc:RT:bf2:WorkTitle"
         ],
         "useValuesFrom": [],
         "defaults": [],
