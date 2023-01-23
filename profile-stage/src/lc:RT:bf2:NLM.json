@@ -13,6 +13,66 @@
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/classificationPortion",
       "propertyLabel": "NLM classification number"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": [],
+        "valueDataType": {}
+      },
+      "propertyLabel": "Additional call number information",
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/itemPortion"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [
+          "http://id.loc.gov/vocabulary/organizations"
+        ],
+        "defaults": [
+          {
+            "defaultURI": "http://id.loc.gov/vocabulary/organizations/dnlm",
+            "defaultLiteral": "United States, National Library of Medicine"
+          }
+        ],
+        "valueDataType": {
+          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Agent"
+        }
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/assigner",
+      "propertyLabel": "Assigning"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [
+          "https://id.loc.gov/vocabulary/mstatus"
+        ],
+        "defaults": [
+          {
+            "defaultURI": "http://id.loc.gov/vocabulary/mstatus/uba",
+            "defaultLiteral": "used by assigner"
+          }
+        ],
+        "valueDataType": {
+          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Status"
+        }
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/status",
+      "propertyLabel": "Used by assigning agency?"
     }
   ],
   "id": "lc:RT:bf2:NLM",
