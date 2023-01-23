@@ -49,7 +49,7 @@
         }
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/assigner",
-      "propertyLabel": "Assigning"
+      "propertyLabel": "Assigning agency"
     },
     {
       "mandatory": "false",

@@ -80,7 +80,7 @@
             "defaults": [
               {
                 "defaultURI": "http://id.loc.gov/vocabulary/organizations/dlc",
-                "defaultLiteral": "DLC"
+                "defaultLiteral": "United States, Library of Congress"
               }
             ],
             "valueDataType": {
@@ -88,7 +88,7 @@
             }
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/assigner",
-          "propertyLabel": "Assigner"
+          "propertyLabel": "Assigning agency"
         }
       ],
       "id": "lc:RT:bf2:DDC",
@@ -228,7 +228,7 @@
             }
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/assigner",
-          "propertyLabel": "Assigning"
+          "propertyLabel": "Assigning agency"
         },
         {
           "mandatory": "false",

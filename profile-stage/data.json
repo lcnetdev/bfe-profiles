@@ -86,7 +86,7 @@
                   "defaults": [
                     {
                       "defaultURI": "http://id.loc.gov/vocabulary/organizations/dlc",
-                      "defaultLiteral": "DLC"
+                      "defaultLiteral": "United States, Library of Congress"
                     }
                   ],
                   "valueDataType": {
@@ -94,7 +94,7 @@
                   }
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/assigner",
-                "propertyLabel": "Assigner"
+                "propertyLabel": "Assigning agency"
               }
             ],
             "id": "lc:RT:bf2:DDC",
@@ -234,7 +234,7 @@
                   }
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/assigner",
-                "propertyLabel": "Assigning"
+                "propertyLabel": "Assigning agency"
               },
               {
                 "mandatory": "false",
@@ -391,7 +391,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.059Z",
-      "updateDate": "2023-01-23T15:38:24.141Z",
+      "updateDate": "2023-01-23T15:43:34.454Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.059Z",
