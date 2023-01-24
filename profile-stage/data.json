@@ -32455,13 +32455,13 @@
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [
-                    "lc:RT:bf2:Identifiers:Shelfmark"
+                    "lc:RT:bf2:LCC"
                   ],
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
                 },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/shelfMark",
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/classification",
                 "propertyLabel": "Shelving call numbers"
               },
               {
@@ -32881,7 +32881,7 @@
     "id": "ce021882-2189-495e-b638-126d03f724a5",
     "metadata": {
       "createDate": "2021-08-02T18:47:18.815Z",
-      "updateDate": "2023-01-05T15:19:01.551Z",
+      "updateDate": "2023-01-24T20:08:30.638Z",
       "createUser": null,
       "updateUser": null
     },
