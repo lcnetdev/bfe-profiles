@@ -11414,21 +11414,6 @@
               {
                 "mandatory": "false",
                 "repeatable": "true",
-                "type": "literal",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [],
-                  "defaults": [],
-                  "valueDataType": {}
-                },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/awards",
-                "propertyLabel": "Awards",
-                "remark": ""
-              },
-              {
-                "mandatory": "false",
-                "repeatable": "true",
                 "type": "resource",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -12736,7 +12721,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2023-01-05T15:11:52.819Z",
+      "updateDate": "2023-01-24T15:07:09.459Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",
