@@ -25409,14 +25409,13 @@
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [
-                    "lc:RT:bf2:Identifiers:LC",
-                    "lc:RT:bf2:Identifiers:Shelfmark"
+                    "lc:RT:bf2:LCC"
                   ],
                   "useValuesFrom": [],
                   "valueDataType": {},
                   "defaults": []
                 },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/shelfMark",
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/classification",
                 "propertyLabel": "Shelfmarks"
               },
               {
@@ -25677,7 +25676,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2023-01-05T15:13:40.865Z",
+      "updateDate": "2023-01-24T20:03:50.090Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",
