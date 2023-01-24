@@ -349,7 +349,7 @@
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [
-              "lc:RT:bf2:MonographNR:Series"
+              "lc:RT:bf2:SeriesHubInput"
             ],
             "useValuesFrom": [],
             "defaults": [],
