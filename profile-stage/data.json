@@ -34579,7 +34579,7 @@
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [
-                    "lc:RT:bf2:RelatedWork",
+                    "lc:RT:bf2:RelWorkLookup",
                     "lc:RT:bf2:RelWorkInput"
                   ],
                   "useValuesFrom": [],
@@ -34902,7 +34902,7 @@
     "id": "39b055fd-b0d7-46e7-ad43-b9b9fac80265",
     "metadata": {
       "createDate": "2021-07-13T17:22:51.350Z",
-      "updateDate": "2023-01-24T21:18:53.333Z",
+      "updateDate": "2023-01-24T21:22:19.566Z",
       "createUser": null,
       "updateUser": null
     },
