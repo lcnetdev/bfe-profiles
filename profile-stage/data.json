@@ -13165,17 +13165,32 @@
                 "type": "resource",
                 "valueConstraint": {
                   "valueTemplateRefs": [
-                    "lc:RT:bf2:RelatedWork",
-                    "lc:RT:bf2:RelatedExpression"
+                    "lc:RT:bf2:RelatedWork"
                   ],
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bflc/relationship",
-                "propertyLabel": "Related Works or Expressions",
+                "propertyLabel": "Search Related Works",
                 "remark": "",
                 "resourceTemplates": []
+              },
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "resource",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [
+                    "lc:RT:bf2:RelWorkInput"
+                  ],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {}
+                },
+                "propertyURI": "http://id.loc.gov/ontologies/bflc/relationship",
+                "propertyLabel": "Related work not in LC catalog"
               },
               {
                 "mandatory": "false",
@@ -13975,7 +13990,7 @@
     },
     "metadata": {
       "createDate": "2019-04-11T20:45:09.452Z",
-      "updateDate": "2023-01-24T20:53:32.772Z",
+      "updateDate": "2023-01-24T21:16:51.033Z",
       "createUser": null,
       "updateUser": null
     },
