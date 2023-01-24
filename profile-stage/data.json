@@ -13548,10 +13548,10 @@
               },
               {
                 "propertyLabel": "Shelving call numbers",
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/shelfMark",
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/classification",
                 "valueConstraint": {
                   "valueTemplateRefs": [
-                    "lc:RT:bf2:Identifiers:LC"
+                    "lc:RT:bf2:LCC"
                   ],
                   "useValuesFrom": [],
                   "defaults": [],
@@ -13782,7 +13782,7 @@
     },
     "metadata": {
       "createDate": "2019-04-11T20:45:09.452Z",
-      "updateDate": "2023-01-05T15:11:05.542Z",
+      "updateDate": "2023-01-24T19:59:46.225Z",
       "createUser": null,
       "updateUser": null
     },

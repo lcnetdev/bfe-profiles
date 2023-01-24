@@ -26,10 +26,10 @@
     },
     {
       "propertyLabel": "Shelving call numbers",
-      "propertyURI": "http://id.loc.gov/ontologies/bibframe/shelfMark",
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/classification",
       "valueConstraint": {
         "valueTemplateRefs": [
-          "lc:RT:bf2:Identifiers:LC"
+          "lc:RT:bf2:LCC"
         ],
         "useValuesFrom": [],
         "defaults": [],
