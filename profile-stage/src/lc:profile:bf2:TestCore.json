@@ -419,15 +419,15 @@
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [
-              "lc:RT:bf2:RelatedWork",
-              "lc:RT:bf2:RelatedExpression"
+              "lc:RT:bf2:RelWorkLookup",
+              "lc:RT:bf2:RelWorkInput"
             ],
             "useValuesFrom": [],
             "valueDataType": {},
             "defaults": []
           },
           "propertyURI": "http://id.loc.gov/ontologies/bflc/relationship",
-          "propertyLabel": "Related Works and Expressions",
+          "propertyLabel": "Related Works",
           "remark": "http://access.rdatoolkit.org/rdachp25_rda25-65.html"
         },
         {
