@@ -26681,11 +26681,11 @@
               },
               {
                 "propertyLabel": "Shelving call numbers",
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/shelfMark",
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/classification",
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [
-                    "lc:RT:bf2:Identifiers:LC"
+                    "lc:RT:bf2:LCC"
                   ],
                   "useValuesFrom": [],
                   "valueDataType": {},
@@ -26820,7 +26820,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2023-01-05T15:13:10.547Z",
+      "updateDate": "2023-01-24T20:02:46.380Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",
