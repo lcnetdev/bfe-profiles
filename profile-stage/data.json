@@ -18954,7 +18954,8 @@
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [
-                    "lc:RT:bf2:GPORelWork"
+                    "lc:RT:bf2:GPORelWork",
+                    "lc:RT:bf2:RelWorkInput"
                   ],
                   "useValuesFrom": [],
                   "valueDataType": {},
@@ -20017,7 +20018,7 @@
     "id": "ad1be991-aeec-4a4f-81c4-891a829ae3e4",
     "metadata": {
       "createDate": "2022-05-10T19:35:43.872Z",
-      "updateDate": "2023-01-05T15:16:53.528Z",
+      "updateDate": "2023-01-24T21:39:32.635Z",
       "createUser": null,
       "updateUser": null
     },

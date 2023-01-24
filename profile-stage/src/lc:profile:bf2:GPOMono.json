@@ -415,7 +415,8 @@
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [
-              "lc:RT:bf2:GPORelWork"
+              "lc:RT:bf2:GPORelWork",
+              "lc:RT:bf2:RelWorkInput"
             ],
             "useValuesFrom": [],
             "valueDataType": {},
