@@ -29,7 +29,7 @@
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/classification",
       "valueConstraint": {
         "valueTemplateRefs": [
-          "lc:RT:bf2:LCC"
+          "lc:RT:bf2:Item:LCC"
         ],
         "useValuesFrom": [],
         "defaults": [],
