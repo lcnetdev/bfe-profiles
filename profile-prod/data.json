@@ -1215,7 +1215,7 @@
                   "defaults": []
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bflc/relationship",
-                "propertyLabel": "Search Related Works",
+                "propertyLabel": "Search Related works",
                 "remark": "https://original.rdatoolkit.org/25.1.html"
               },
               {
@@ -1982,7 +1982,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2023-01-19T21:04:27.032Z",
+      "updateDate": "2023-01-24T21:20:19.175Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",
