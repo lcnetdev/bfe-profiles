@@ -17220,7 +17220,7 @@
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [
-                    "lc:RT:bf2:LCC"
+                    "lc:RT:bf2:Item:LCC"
                   ],
                   "useValuesFrom": [],
                   "valueDataType": {},
@@ -17346,7 +17346,7 @@
     },
     "metadata": {
       "createDate": "2019-06-13T12:32:28.719Z",
-      "updateDate": "2023-01-24T20:09:34.238Z",
+      "updateDate": "2023-01-24T20:28:00.169Z",
       "createUser": null,
       "updateUser": null
     },
