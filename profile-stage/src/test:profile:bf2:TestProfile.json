@@ -183,23 +183,6 @@
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [
-              "test:RT:bf2:TestProfile:RelWork",
-              "lc:RT:bf2:Serial:RelWork"
-            ],
-            "useValuesFrom": [],
-            "defaults": [],
-            "valueDataType": {}
-          },
-          "propertyURI": "http://id.loc.gov/ontologies/bflc/relationship",
-          "propertyLabel": "Relationships"
-        },
-        {
-          "mandatory": "false",
-          "repeatable": "true",
-          "type": "resource",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [
               "lc:RT:bf2:Form",
               "lc:RT:bf2:Form:AAT",
               "lc:RT:bf2:MarcGT"
@@ -886,66 +869,6 @@
       "propertyTemplates": [
         {
           "mandatory": "false",
-          "repeatable": "true",
-          "type": "resource",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [],
-            "useValuesFrom": [
-              "http://mlvlp04.loc.gov:8230/resources/works"
-            ],
-            "defaults": [],
-            "valueDataType": {
-              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Work"
-            }
-          },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/relatedTo",
-          "propertyLabel": "Search related works",
-          "remark": ""
-        },
-        {
-          "mandatory": "false",
-          "repeatable": "true",
-          "type": "resource",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [],
-            "useValuesFrom": [
-              "http://id.loc.gov/entities/relationships"
-            ],
-            "defaults": [],
-            "valueDataType": {
-              "dataTypeURI": "http://id.loc.gov/ontologies/bflc/Relation"
-            }
-          },
-          "propertyLabel": "Relationship Designator search",
-          "propertyURI": "http://id.loc.gov/ontologies/bflc/relation"
-        },
-        {
-          "mandatory": "false",
-          "repeatable": "true",
-          "type": "resource",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [
-              "lc:RT:bf2:Relation"
-            ],
-            "useValuesFrom": [],
-            "defaults": [],
-            "valueDataType": {}
-          },
-          "propertyURI": "http://id.loc.gov/ontologies/bflc/relation",
-          "propertyLabel": "Input Relationships Designator"
-        }
-      ],
-      "id": "lc:RT:bf2:TestProfile:RelatedWork",
-      "resourceURI": "http://id.loc.gov/ontologies/bibframe/Note",
-      "resourceLabel": "Test related works"
-    },
-    {
-      "propertyTemplates": [
-        {
-          "mandatory": "false",
           "repeatable": "false",
           "type": "literal",
           "resourceTemplates": [],
@@ -1431,63 +1354,6 @@
       "id": "lc:RT:bf2:TestProfile:TestAgent",
       "resourceURI": "http://id.loc.gov/ontologies/bibframe/Contribution",
       "resourceLabel": "Agent test"
-    },
-    {
-      "propertyTemplates": [
-        {
-          "mandatory": "false",
-          "repeatable": "true",
-          "type": "resource",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [
-              "lc:RT:bf2:Brief:Work"
-            ],
-            "useValuesFrom": [],
-            "defaults": [],
-            "valueDataType": {
-              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Work"
-            }
-          },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/relatedTo",
-          "propertyLabel": "Related Work"
-        },
-        {
-          "mandatory": "false",
-          "repeatable": "true",
-          "type": "resource",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [
-              "lc:RT:bf2:Relation"
-            ],
-            "useValuesFrom": [],
-            "defaults": [],
-            "valueDataType": {}
-          },
-          "propertyURI": "http://id.loc.gov/ontologies/bflc/relation",
-          "propertyLabel": "Relationship Designator"
-        },
-        {
-          "mandatory": "false",
-          "repeatable": "true",
-          "type": "resource",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [
-              "lc:RT:bf2:Note"
-            ],
-            "useValuesFrom": [],
-            "defaults": [],
-            "valueDataType": {}
-          },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
-          "propertyLabel": "Note"
-        }
-      ],
-      "id": "test:RT:bf2:TestProfile:RelWork",
-      "resourceURI": "http://id.loc.gov/ontologies/bflc/Relationship",
-      "resourceLabel": "Related Work test"
     },
     {
       "propertyTemplates": [
