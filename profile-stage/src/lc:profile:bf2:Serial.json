@@ -750,7 +750,7 @@
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [
-              "lc:RT:bf2:RelatedWork"
+              "lc:RT:bf2:RelWorkLookup"
             ],
             "useValuesFrom": [],
             "defaults": [],
@@ -760,7 +760,7 @@
             "editable": "false"
           },
           "propertyURI": "http://id.loc.gov/ontologies/bflc/relationship",
-          "propertyLabel": "Related title"
+          "propertyLabel": "Search related work"
         },
         {
           "mandatory": "false",
@@ -778,7 +778,7 @@
             "defaults": []
           },
           "propertyURI": "http://id.loc.gov/ontologies/bflc/relationship",
-          "propertyLabel": "Related Works (not in LC catalog)",
+          "propertyLabel": "Related work not in LC catalog",
           "remark": ""
         },
         {
@@ -1867,7 +1867,7 @@
       ],
       "id": "lc:RT:bf2:Serial:RelWork",
       "resourceURI": "http://id.loc.gov/ontologies/bflc/Relationship",
-      "resourceLabel": "Related works not in LC catalog"
+      "resourceLabel": "Related work not in LC catalog"
     },
     {
       "propertyTemplates": [
