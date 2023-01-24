@@ -369,7 +369,8 @@
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [
-              "lc:RT:bf2:RelatedWork"
+              "lc:RT:bf2:RelWorkLookup",
+              "lc:RT:bf2:RelWorkInput"
             ],
             "useValuesFrom": [],
             "valueDataType": {},
