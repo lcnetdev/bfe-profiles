@@ -16,9 +16,7 @@
             "defaultLiteral": "United States. Library of Congress"
           }
         ],
-        "valueDataType": {
-          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Agent"
-        }
+        "valueDataType": {}
       },
       "mandatory": "false",
       "repeatable": "false",
@@ -53,9 +51,7 @@
         ],
         "useValuesFrom": [],
         "defaults": [],
-        "valueDataType": {
-          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Sublocation"
-        }
+        "valueDataType": {}
       }
     },
     {

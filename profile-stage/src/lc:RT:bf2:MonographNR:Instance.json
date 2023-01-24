@@ -110,9 +110,7 @@
         ],
         "useValuesFrom": [],
         "defaults": [],
-        "valueDataType": {
-          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Contribution"
-        }
+        "valueDataType": {}
       },
       "remark": "http://access.rdatoolkit.org/19.3.html",
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/contribution",
@@ -133,9 +131,7 @@
             "defaultLiteral": "single unit"
           }
         ],
-        "valueDataType": {
-          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Issuance"
-        }
+        "valueDataType": {}
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/issuance",
       "propertyLabel": "Mode of Issuance",
@@ -208,9 +204,7 @@
             "defaultLiteral": "unmediated"
           }
         ],
-        "valueDataType": {
-          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Media"
-        }
+        "valueDataType": {}
       },
       "mandatory": "false",
       "remark": "http://access.rdatoolkit.org/3.2.html",
@@ -232,9 +226,7 @@
             "defaultLiteral": "volume"
           }
         ],
-        "valueDataType": {
-          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Carrier"
-        }
+        "valueDataType": {}
       },
       "mandatory": "false",
       "remark": "http://access.rdatoolkit.org/3.3.html",
