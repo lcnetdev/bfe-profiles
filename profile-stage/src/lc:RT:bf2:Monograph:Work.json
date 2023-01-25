@@ -97,7 +97,7 @@
       },
       "propertyURI": "http://id.loc.gov/ontologies/bflc/governmentPubType",
       "propertyLabel": "Government publication",
-      "remark": "https://guides.loc.gov/c.php?g=1170551&p=8592108&preview=003264c97f504caf990125066b248e24"
+      "remark": ""
     },
     {
       "mandatory": "false",
