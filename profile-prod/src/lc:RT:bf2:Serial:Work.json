@@ -699,7 +699,7 @@
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [
-          "lc:RT:bf2:RelatedWork"
+          "lc:RT:bf2:RelWorkLookup"
         ],
         "useValuesFrom": [],
         "defaults": [],
@@ -707,7 +707,7 @@
         "editable": "false"
       },
       "propertyURI": "http://id.loc.gov/ontologies/bflc/relationship",
-      "propertyLabel": "Related title"
+      "propertyLabel": "Search related work"
     },
     {
       "mandatory": "false",
@@ -716,18 +716,18 @@
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [
-          "lc:RT:bf2:Serial:RelWork"
+          "lc:RT:bf2:RelWorkInput"
         ],
         "useValuesFrom": [],
         "valueDataType": {
-          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Work"
+          "dataTypeURI": ""
         },
         "repeatable": "false",
         "editable": "true",
         "defaults": []
       },
-      "propertyURI": "http://id.loc.gov/ontologies/bibframe/relatedTo",
-      "propertyLabel": "Related Works (not in LC catalog)",
+      "propertyURI": "http://id.loc.gov/ontologies/bflc/relationship",
+      "propertyLabel": "Related work not in LC catalog",
       "remark": "https://original.rdatoolkit.org/25.1.html"
     },
     {
