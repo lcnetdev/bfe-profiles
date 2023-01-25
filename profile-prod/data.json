@@ -13939,15 +13939,31 @@
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [
-                    "lc:RT:bf2:RelatedWork"
+                    "lc:RT:bf2:RelWorkLookup"
                   ],
                   "useValuesFrom": [],
                   "valueDataType": {},
                   "defaults": []
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bflc/relationship",
-                "propertyLabel": "Related Works",
+                "propertyLabel": "Search related work",
                 "remark": "https://original.rdatoolkit.org/25.1.html"
+              },
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "resource",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [
+                    "lc:RT:bf2:RelWorkInput"
+                  ],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {}
+                },
+                "propertyURI": "http://id.loc.gov/ontologies/bflc/relationship",
+                "propertyLabel": "Related work not in LC catalog"
               },
               {
                 "mandatory": "false",
@@ -14770,7 +14786,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.059Z",
-      "updateDate": "2023-01-05T14:58:13.147Z",
+      "updateDate": "2023-01-25T15:36:20.851Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.059Z",
