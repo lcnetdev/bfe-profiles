@@ -927,7 +927,7 @@
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [
-              "lc:RT:bf2:Identifiers:LC"
+              "lc:RT:bf2:Item:LCC"
             ],
             "useValuesFrom": [],
             "valueDataType": {},
