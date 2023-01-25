@@ -9926,12 +9926,11 @@
               },
               {
                 "propertyLabel": "Call numbers",
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/shelfMark",
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/classification",
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [
-                    "lc:RT:bf2:Identifiers:LC",
-                    "lc:RT:bf2:Identifiers:Shelfmark"
+                    "lc:RT:bf2:Item:LCC"
                   ],
                   "useValuesFrom": [],
                   "valueDataType": {},
@@ -10347,7 +10346,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2023-01-25T20:46:03.021Z",
+      "updateDate": "2023-01-25T20:58:37.136Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",
