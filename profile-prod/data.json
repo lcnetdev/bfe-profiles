@@ -9179,21 +9179,6 @@
               {
                 "mandatory": "false",
                 "repeatable": "true",
-                "type": "literal",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [],
-                  "valueDataType": {},
-                  "defaults": []
-                },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/awards",
-                "propertyLabel": "Award",
-                "remark": "https://original.rdatoolkit.org/7.28.html"
-              },
-              {
-                "mandatory": "false",
-                "repeatable": "true",
                 "type": "resource",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -10363,7 +10348,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2023-01-25T15:40:35.970Z",
+      "updateDate": "2023-01-25T20:46:03.021Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",
