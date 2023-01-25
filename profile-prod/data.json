@@ -12146,7 +12146,25 @@
                   }
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/relatedTo",
-                "propertyLabel": "Search related works"
+                "propertyLabel": "Search related work"
+              },
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "lookup",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [
+                    "http://id.loc.gov/entities/relationships"
+                  ],
+                  "defaults": [],
+                  "valueDataType": {
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bflc/Relation"
+                  }
+                },
+                "propertyURI": "http://id.loc.gov/ontologies/bflc/relation",
+                "propertyLabel": "Relationship designator"
               }
             ],
             "id": "lc:RT:bf2:RelWorkLookup",
@@ -12163,7 +12181,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2023-01-25T15:28:43.446Z",
+      "updateDate": "2023-01-25T15:29:41.833Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",

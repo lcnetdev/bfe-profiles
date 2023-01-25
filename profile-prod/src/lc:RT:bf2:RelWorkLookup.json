@@ -17,7 +17,25 @@
         }
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/relatedTo",
-      "propertyLabel": "Search related works"
+      "propertyLabel": "Search related work"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [
+          "http://id.loc.gov/entities/relationships"
+        ],
+        "defaults": [],
+        "valueDataType": {
+          "dataTypeURI": "http://id.loc.gov/ontologies/bflc/Relation"
+        }
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bflc/relation",
+      "propertyLabel": "Relationship designator"
     }
   ],
   "id": "lc:RT:bf2:RelWorkLookup",
