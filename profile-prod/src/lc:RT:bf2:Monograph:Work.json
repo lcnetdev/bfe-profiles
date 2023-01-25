@@ -481,14 +481,14 @@
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [
-          "lc:RT:bf2:RelatedWork"
+          "lc:RT:bf2:RelWorkLookup"
         ],
         "useValuesFrom": [],
         "valueDataType": {},
         "defaults": []
       },
       "propertyURI": "http://id.loc.gov/ontologies/bflc/relationship",
-      "propertyLabel": "Search Related works",
+      "propertyLabel": "Search related work",
       "remark": "https://original.rdatoolkit.org/25.1.html"
     },
     {
