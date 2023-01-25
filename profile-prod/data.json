@@ -4104,12 +4104,11 @@
               },
               {
                 "propertyLabel": "Call numbers",
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/shelfMark",
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/classification",
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [
-                    "lc:RT:bf2:Identifiers:LC",
-                    "lc:RT:bf2:Identifiers:Shelfmark"
+                    "lc:RT:bf2:Item:LCC"
                   ],
                   "useValuesFrom": [],
                   "valueDataType": {},
@@ -4770,7 +4769,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2023-01-25T20:45:29.464Z",
+      "updateDate": "2023-01-25T20:57:57.340Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",
