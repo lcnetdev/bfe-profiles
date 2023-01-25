@@ -210,21 +210,6 @@
     {
       "mandatory": "false",
       "repeatable": "true",
-      "type": "literal",
-      "resourceTemplates": [],
-      "valueConstraint": {
-        "valueTemplateRefs": [],
-        "useValuesFrom": [],
-        "defaults": [],
-        "valueDataType": {}
-      },
-      "propertyURI": "http://id.loc.gov/ontologies/bibframe/awards",
-      "propertyLabel": "Award note",
-      "remark": "http://original.rdatoolkit.org/rdachp7_rda7-2095.html"
-    },
-    {
-      "mandatory": "false",
-      "repeatable": "true",
       "type": "resource",
       "resourceTemplates": [],
       "valueConstraint": {
