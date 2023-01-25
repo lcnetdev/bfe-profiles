@@ -191,21 +191,6 @@
         {
           "mandatory": "false",
           "repeatable": "true",
-          "type": "literal",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [],
-            "useValuesFrom": [],
-            "defaults": [],
-            "valueDataType": {}
-          },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/awards",
-          "propertyLabel": "Awards",
-          "remark": "https://original.rdatoolkit.org/7.28.html"
-        },
-        {
-          "mandatory": "false",
-          "repeatable": "true",
           "type": "resource",
           "resourceTemplates": [],
           "valueConstraint": {
