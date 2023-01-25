@@ -923,7 +923,7 @@
         },
         {
           "propertyLabel": "Shelving call numbers",
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/shelfMark",
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/classification",
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [

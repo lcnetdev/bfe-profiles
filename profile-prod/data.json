@@ -1648,7 +1648,7 @@
               },
               {
                 "propertyLabel": "Shelving call numbers",
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/shelfMark",
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/classification",
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [
@@ -1967,7 +1967,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2023-01-25T20:56:30.922Z",
+      "updateDate": "2023-01-25T20:57:17.897Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",
