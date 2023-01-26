@@ -11971,28 +11971,6 @@
             "id": "lc:RT:bf2:35mmFeatureFilm:Item",
             "propertyTemplates": [
               {
-                "propertyLabel": "Held by",
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/heldBy",
-                "resourceTemplates": [],
-                "type": "lookup",
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [
-                    "http://id.loc.gov/vocabulary/organizations"
-                  ],
-                  "valueDataType": {},
-                  "defaults": [
-                    {
-                      "defaultURI": "http://id.loc.gov/vocabulary/organizations/dlc",
-                      "defaultLiteral": "United States. Library of Congress"
-                    }
-                  ],
-                  "editable": "true"
-                },
-                "mandatory": "false",
-                "repeatable": "false"
-              },
-              {
                 "propertyLabel": "Call numbers",
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/classification",
                 "resourceTemplates": [],
@@ -12025,24 +12003,6 @@
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/contribution",
                 "propertyLabel": "Collection"
-              },
-              {
-                "propertyLabel": "Location",
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/sublocation",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [
-                    "lc:RT:bf2:Item:Location"
-                  ],
-                  "useValuesFrom": [],
-                  "valueDataType": {
-                    "dataTypeURI": ""
-                  },
-                  "defaults": []
-                },
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "resource"
               },
               {
                 "propertyLabel": "URL of Item",
@@ -12646,7 +12606,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2023-01-24T21:28:33.064Z",
+      "updateDate": "2023-01-26T20:42:25.220Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",
