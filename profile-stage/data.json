@@ -36793,9 +36793,13 @@
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [],
-                  "useValuesFrom": [],
+                  "useValuesFrom": [
+                    "http://id.loc.gov/vocabulary/menclvl"
+                  ],
                   "defaults": [],
-                  "valueDataType": {}
+                  "valueDataType": {
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bflc/EncodingLevel"
+                  }
                 },
                 "propertyLabel": "Encoding level",
                 "remark": "",
@@ -37324,7 +37328,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.056Z",
-      "updateDate": "2022-12-21T19:34:45.709Z",
+      "updateDate": "2023-01-26T16:11:49.001Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.056Z",

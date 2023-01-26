@@ -23,9 +23,13 @@
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [],
-            "useValuesFrom": [],
+            "useValuesFrom": [
+              "http://id.loc.gov/vocabulary/menclvl"
+            ],
             "defaults": [],
-            "valueDataType": {}
+            "valueDataType": {
+              "dataTypeURI": "http://id.loc.gov/ontologies/bflc/EncodingLevel"
+            }
           },
           "propertyLabel": "Encoding level",
           "remark": "",
