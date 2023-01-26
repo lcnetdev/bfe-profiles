@@ -749,22 +749,6 @@
       "propertyTemplates": [
         {
           "mandatory": "false",
-          "repeatable": "false",
-          "type": "resource",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [
-              "lc:RT:bf2:Identifiers:Barcode"
-            ],
-            "useValuesFrom": [],
-            "defaults": [],
-            "valueDataType": {}
-          },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/identifiedBy",
-          "propertyLabel": "Barcode"
-        },
-        {
-          "mandatory": "false",
           "repeatable": "true",
           "type": "resource",
           "resourceTemplates": [],
