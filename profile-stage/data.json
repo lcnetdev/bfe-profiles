@@ -26431,28 +26431,6 @@
             "id": "lc:RT:bf2:NotatedMusic:Item",
             "propertyTemplates": [
               {
-                "propertyLabel": "Held by",
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/heldBy",
-                "resourceTemplates": [],
-                "type": "lookup",
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [
-                    "http://id.loc.gov/vocabulary/organizations"
-                  ],
-                  "valueDataType": {},
-                  "defaults": [
-                    {
-                      "defaultURI": "http://id.loc.gov/vocabulary/organizations/dlc",
-                      "defaultLiteral": "United States. Library of Congress"
-                    }
-                  ],
-                  "editable": "false"
-                },
-                "mandatory": "false",
-                "repeatable": "false"
-              },
-              {
                 "propertyLabel": "Shelving call numbers",
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/classification",
                 "resourceTemplates": [],
@@ -26462,40 +26440,6 @@
                   ],
                   "useValuesFrom": [],
                   "valueDataType": {},
-                  "defaults": []
-                },
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "resource"
-              },
-              {
-                "propertyLabel": "Item Barcode",
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/identifiedBy",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [
-                    "lc:RT:bf2:Identifiers:Barcode"
-                  ],
-                  "useValuesFrom": [],
-                  "valueDataType": {},
-                  "defaults": []
-                },
-                "mandatory": "false",
-                "repeatable": "false",
-                "type": "resource"
-              },
-              {
-                "propertyLabel": "Location",
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/sublocation",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [
-                    "lc:RT:bf2:Item:Location"
-                  ],
-                  "useValuesFrom": [],
-                  "valueDataType": {
-                    "dataTypeURI": ""
-                  },
                   "defaults": []
                 },
                 "mandatory": "false",
@@ -26593,7 +26537,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2023-01-24T21:31:47.175Z",
+      "updateDate": "2023-01-26T20:43:23.220Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",
