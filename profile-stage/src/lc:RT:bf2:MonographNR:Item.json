@@ -2,27 +2,6 @@
   "id": "lc:RT:bf2:MonographNR:Item",
   "propertyTemplates": [
     {
-      "propertyLabel": "Held by",
-      "propertyURI": "http://id.loc.gov/ontologies/bibframe/heldBy",
-      "type": "lookup",
-      "valueConstraint": {
-        "valueTemplateRefs": [],
-        "useValuesFrom": [
-          "http://id.loc.gov/vocabulary/organizations"
-        ],
-        "defaults": [
-          {
-            "defaultURI": "http://id.loc.gov/vocabulary/organizations/dlc",
-            "defaultLiteral": "United States. Library of Congress"
-          }
-        ],
-        "valueDataType": {}
-      },
-      "mandatory": "false",
-      "repeatable": "false",
-      "resourceTemplates": []
-    },
-    {
       "propertyLabel": "Shelving call numbers",
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/classification",
       "valueConstraint": {
@@ -35,38 +14,6 @@
       },
       "mandatory": "false",
       "repeatable": "true",
-      "type": "resource",
-      "resourceTemplates": []
-    },
-    {
-      "propertyLabel": "Location",
-      "propertyURI": "http://id.loc.gov/ontologies/bibframe/sublocation",
-      "mandatory": "false",
-      "repeatable": "true",
-      "type": "resource",
-      "resourceTemplates": [],
-      "valueConstraint": {
-        "valueTemplateRefs": [
-          "lc:RT:bf2:Item:Location"
-        ],
-        "useValuesFrom": [],
-        "defaults": [],
-        "valueDataType": {}
-      }
-    },
-    {
-      "propertyLabel": "Item Barcode",
-      "propertyURI": "http://id.loc.gov/ontologies/bibframe/identifiedBy",
-      "valueConstraint": {
-        "valueTemplateRefs": [
-          "lc:RT:bf2:Identifiers:Barcode"
-        ],
-        "useValuesFrom": [],
-        "defaults": [],
-        "valueDataType": {}
-      },
-      "mandatory": "false",
-      "repeatable": "false",
       "type": "resource",
       "resourceTemplates": []
     },
