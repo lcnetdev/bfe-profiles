@@ -36808,24 +36808,6 @@
               {
                 "mandatory": "false",
                 "repeatable": "false",
-                "type": "lookup",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [
-                    "http://id.loc.gov/vocabulary/mstatus"
-                  ],
-                  "defaults": [],
-                  "valueDataType": {},
-                  "editable": "false"
-                },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/status",
-                "propertyLabel": "Status",
-                "remark": ""
-              },
-              {
-                "mandatory": "false",
-                "repeatable": "false",
                 "type": "literal",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -37328,7 +37310,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.056Z",
-      "updateDate": "2023-01-26T16:11:49.001Z",
+      "updateDate": "2023-01-26T16:13:43.637Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.056Z",

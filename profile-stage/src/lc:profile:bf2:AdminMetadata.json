@@ -38,24 +38,6 @@
         {
           "mandatory": "false",
           "repeatable": "false",
-          "type": "lookup",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [],
-            "useValuesFrom": [
-              "http://id.loc.gov/vocabulary/mstatus"
-            ],
-            "defaults": [],
-            "valueDataType": {},
-            "editable": "false"
-          },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/status",
-          "propertyLabel": "Status",
-          "remark": ""
-        },
-        {
-          "mandatory": "false",
-          "repeatable": "false",
           "type": "literal",
           "resourceTemplates": [],
           "valueConstraint": {
