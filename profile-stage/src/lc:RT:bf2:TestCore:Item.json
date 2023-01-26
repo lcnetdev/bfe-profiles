@@ -2,30 +2,6 @@
   "id": "lc:RT:bf2:TestCore:Item",
   "propertyTemplates": [
     {
-      "propertyLabel": "Held by",
-      "propertyURI": "http://id.loc.gov/ontologies/bibframe/heldBy",
-      "resourceTemplates": [],
-      "type": "lookup",
-      "valueConstraint": {
-        "valueTemplateRefs": [],
-        "useValuesFrom": [
-          "http://id.loc.gov/vocabulary/organizations"
-        ],
-        "valueDataType": {
-          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Agent"
-        },
-        "defaults": [
-          {
-            "defaultURI": "http://id.loc.gov/vocabulary/organizations/dlc",
-            "defaultLiteral": "United States. Library of Congress"
-          }
-        ],
-        "editable": "false"
-      },
-      "mandatory": "false",
-      "repeatable": "false"
-    },
-    {
       "propertyLabel": "Shelving call numbers",
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/classification",
       "resourceTemplates": [],
@@ -42,37 +18,19 @@
       "type": "resource"
     },
     {
-      "propertyLabel": "Held in sublocation",
-      "propertyURI": "http://id.loc.gov/ontologies/bibframe/sublocation",
+      "propertyLabel": "URL of Item",
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/electronicLocator",
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [
-          "lc:RT:bf2:Item:Location"
-        ],
-        "useValuesFrom": [],
-        "valueDataType": {
-          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Sublocation"
-        },
-        "defaults": []
-      },
-      "mandatory": "false",
-      "repeatable": "true",
-      "type": "resource"
-    },
-    {
-      "propertyLabel": "Barcode",
-      "propertyURI": "http://id.loc.gov/ontologies/bibframe/identifiedBy",
-      "resourceTemplates": [],
-      "valueConstraint": {
-        "valueTemplateRefs": [
-          "lc:RT:bf2:Identifiers:Barcode"
+          "lc:RT:bf2:URL"
         ],
         "useValuesFrom": [],
         "valueDataType": {},
         "defaults": []
       },
       "mandatory": "false",
-      "repeatable": "false",
+      "repeatable": "true",
       "type": "resource"
     },
     {
@@ -82,22 +40,6 @@
       "valueConstraint": {
         "valueTemplateRefs": [
           "lc:RT:bf2:Note"
-        ],
-        "useValuesFrom": [],
-        "valueDataType": {},
-        "defaults": []
-      },
-      "mandatory": "false",
-      "repeatable": "true",
-      "type": "resource"
-    },
-    {
-      "propertyLabel": "URL of Item",
-      "propertyURI": "http://id.loc.gov/ontologies/bibframe/electronicLocator",
-      "resourceTemplates": [],
-      "valueConstraint": {
-        "valueTemplateRefs": [
-          "lc:RT:bf2:URL"
         ],
         "useValuesFrom": [],
         "valueDataType": {},
