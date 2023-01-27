@@ -6704,30 +6704,6 @@
             "id": "lc:RT:bf2:Analog:Item",
             "propertyTemplates": [
               {
-                "propertyLabel": "Held by",
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/heldBy",
-                "resourceTemplates": [],
-                "type": "lookup",
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [
-                    "http://id.loc.gov/vocabulary/organizations"
-                  ],
-                  "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Agent"
-                  },
-                  "defaults": [
-                    {
-                      "defaultURI": "http://id.loc.gov/vocabulary/organizations/dlc",
-                      "defaultLiteral": "United States. Library of Congress"
-                    }
-                  ],
-                  "editable": "false"
-                },
-                "mandatory": "false",
-                "repeatable": "false"
-              },
-              {
                 "propertyLabel": "Call numbers",
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/classification",
                 "resourceTemplates": [],
@@ -6737,40 +6713,6 @@
                   ],
                   "useValuesFrom": [],
                   "valueDataType": {},
-                  "defaults": []
-                },
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "resource"
-              },
-              {
-                "propertyLabel": "Item Barcode",
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/identifiedBy",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [
-                    "lc:RT:bf2:Identifiers:Barcode"
-                  ],
-                  "useValuesFrom": [],
-                  "valueDataType": {},
-                  "defaults": []
-                },
-                "mandatory": "false",
-                "repeatable": "false",
-                "type": "resource"
-              },
-              {
-                "propertyLabel": "Location",
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/sublocation",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [
-                    "lc:RT:bf2:Item:Location"
-                  ],
-                  "useValuesFrom": [],
-                  "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Sublocation"
-                  },
                   "defaults": []
                 },
                 "mandatory": "false",
@@ -6897,7 +6839,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2023-01-25T21:01:05.130Z",
+      "updateDate": "2023-01-27T15:31:58.535Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",
