@@ -873,28 +873,6 @@
       "id": "lc:RT:bf2:35mmFeatureFilm:Item",
       "propertyTemplates": [
         {
-          "propertyLabel": "Held by",
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/heldBy",
-          "resourceTemplates": [],
-          "type": "lookup",
-          "valueConstraint": {
-            "valueTemplateRefs": [],
-            "useValuesFrom": [
-              "http://id.loc.gov/vocabulary/organizations"
-            ],
-            "valueDataType": {},
-            "defaults": [
-              {
-                "defaultURI": "http://id.loc.gov/vocabulary/organizations/dlc",
-                "defaultLiteral": "United States. Library of Congress"
-              }
-            ],
-            "editable": "true"
-          },
-          "mandatory": "false",
-          "repeatable": "false"
-        },
-        {
           "propertyLabel": "Call numbers",
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/classification",
           "resourceTemplates": [],
@@ -927,29 +905,6 @@
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/contribution",
           "propertyLabel": "Collection"
-        },
-        {
-          "propertyLabel": "Location",
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/sublocation",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [
-              "lc:RT:bf2:Item:Location"
-            ],
-            "useValuesFrom": [],
-            "valueDataType": {
-              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Sublocation"
-            },
-            "defaults": [
-              {
-                "defaultURI": "",
-                "defaultLiteral": "c-Motion Pic & TV/MBRS"
-              }
-            ]
-          },
-          "mandatory": "false",
-          "repeatable": "true",
-          "type": "resource"
         },
         {
           "propertyLabel": "URL of Item",
