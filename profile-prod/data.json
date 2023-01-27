@@ -11099,29 +11099,6 @@
             "id": "lc:RT:bf2:MonographNR:Item",
             "propertyTemplates": [
               {
-                "propertyLabel": "Held by",
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/heldBy",
-                "type": "lookup",
-                "valueConstraint": {
-                  "useValuesFrom": [
-                    "http://id.loc.gov/vocabulary/organizations"
-                  ],
-                  "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Agent"
-                  },
-                  "defaults": [
-                    {
-                      "defaultURI": "http://id.loc.gov/vocabulary/organizations/dlc",
-                      "defaultLiteral": "United States. Library of Congress"
-                    }
-                  ],
-                  "valueTemplateRefs": []
-                },
-                "mandatory": "false",
-                "repeatable": "false",
-                "resourceTemplates": []
-              },
-              {
                 "propertyLabel": "Shelving call numbers",
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/classification",
                 "valueConstraint": {
@@ -11133,36 +11110,6 @@
                 },
                 "mandatory": "false",
                 "repeatable": "true",
-                "type": "resource",
-                "resourceTemplates": []
-              },
-              {
-                "propertyLabel": "Location",
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/sublocation",
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "resource",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [
-                    "lc:RT:bf2:Item:Location"
-                  ],
-                  "useValuesFrom": [],
-                  "defaults": []
-                }
-              },
-              {
-                "propertyLabel": "Item Barcode",
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/identifiedBy",
-                "valueConstraint": {
-                  "valueTemplateRefs": [
-                    "lc:RT:bf2:Identifiers:Barcode"
-                  ],
-                  "useValuesFrom": [],
-                  "defaults": []
-                },
-                "mandatory": "false",
-                "repeatable": "false",
                 "type": "resource",
                 "resourceTemplates": []
               },
@@ -11367,7 +11314,7 @@
     },
     "metadata": {
       "createDate": "2019-04-11T20:45:09.452Z",
-      "updateDate": "2023-01-25T20:57:00.490Z",
+      "updateDate": "2023-01-27T15:28:55.248Z",
       "createUser": null,
       "updateUser": null
     },
