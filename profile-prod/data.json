@@ -5552,7 +5552,12 @@
                   "valueDataType": {
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Source"
                   },
-                  "defaults": []
+                  "defaults": [
+                    {
+                      "defaultURI": "http://id.loc.gov/vocabulary/genreFormSchemes/rbmscv",
+                      "defaultLiteral": "RBMS Controlled Vocabularies"
+                    }
+                  ]
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/source",
                 "propertyLabel": "Source of term"
@@ -5666,7 +5671,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2023-01-27T15:31:00.950Z",
+      "updateDate": "2023-02-07T15:15:27.973Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",
