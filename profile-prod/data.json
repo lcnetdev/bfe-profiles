@@ -21827,11 +21827,13 @@
                 "valueConstraint": {
                   "valueTemplateRefs": [],
                   "useValuesFrom": [
-                    "http://id.loc.gov/authorities/geographics"
+                    "http://id.loc.gov/authorities/names",
+                    "http://id.loc.gov/authorities/subjects",
+                    "http://id.loc.gov/vocabulary/geographicAreas"
                   ],
                   "valueDataType": {
                     "dataTypeURI": "",
-                    "remark": ""
+                    "remark": "http://id.loc.gov/authorities/geographics"
                   },
                   "repeatable": "false",
                   "remark": "",
@@ -21974,7 +21976,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.059Z",
-      "updateDate": "2023-02-10T21:22:31.326Z",
+      "updateDate": "2023-02-10T21:35:21.017Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.059Z",
