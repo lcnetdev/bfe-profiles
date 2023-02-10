@@ -34129,9 +34129,8 @@
                 "valueConstraint": {
                   "valueTemplateRefs": [],
                   "useValuesFrom": [
-                    "http://id.loc.gov/authorities/names",
-                    "http://id.loc.gov/authorities/subjects",
-                    "http://id.loc.gov/vocabulary/geographicAreas"
+                    "http://id.loc.gov/authorities/geographics",
+                    "http://id.loc.gov/authorities/subjects"
                   ],
                   "valueDataType": {
                     "dataTypeURI": "",
@@ -34303,7 +34302,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.059Z",
-      "updateDate": "2023-02-10T14:59:32.398Z",
+      "updateDate": "2023-02-10T20:29:56.000Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.059Z",
