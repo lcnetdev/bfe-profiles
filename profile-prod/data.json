@@ -21827,7 +21827,7 @@
                 "valueConstraint": {
                   "valueTemplateRefs": [],
                   "useValuesFrom": [
-                    "http://id.loc.gov/vocabulary/geographicAreas"
+                    "http://id.loc.gov/authorities/geographics"
                   ],
                   "valueDataType": {
                     "dataTypeURI": "",
@@ -21838,8 +21838,8 @@
                   "defaults": [],
                   "editable": "false"
                 },
-                "propertyLabel": "Search GAC codes and terms",
-                "remark": "",
+                "propertyLabel": "Search LCNAF, LCSH or GAC",
+                "remark": "http://access.rdatoolkit.org/7.3.html",
                 "propertyURI": "http://www.w3.org/2002/07/owl#sameAs"
               }
             ],
@@ -21974,7 +21974,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.059Z",
-      "updateDate": "2022-12-09T16:20:40.808Z",
+      "updateDate": "2023-02-10T21:19:48.953Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.059Z",

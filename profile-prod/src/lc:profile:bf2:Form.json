@@ -55,7 +55,7 @@
           "valueConstraint": {
             "valueTemplateRefs": [],
             "useValuesFrom": [
-              "http://id.loc.gov/vocabulary/geographicAreas"
+              "http://id.loc.gov/authorities/geographics"
             ],
             "valueDataType": {
               "dataTypeURI": "",
@@ -66,8 +66,8 @@
             "defaults": [],
             "editable": "false"
           },
-          "propertyLabel": "Search GAC codes and terms",
-          "remark": "",
+          "propertyLabel": "Search LCNAF, LCSH or GAC",
+          "remark": "http://access.rdatoolkit.org/7.3.html",
           "propertyURI": "http://www.w3.org/2002/07/owl#sameAs"
         }
       ],
