@@ -34143,7 +34143,7 @@
                 },
                 "propertyLabel": "Search LCNAF, LCSH or GAC",
                 "remark": "http://access.rdatoolkit.org/7.3.html",
-                "propertyURI": "http://www.w3.org/2002/07/owl#sameAs"
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/geographicCoverage"
               }
             ],
             "id": "lc:RT:bf2:Form:Geog",
@@ -34301,7 +34301,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.059Z",
-      "updateDate": "2023-02-10T21:39:12.475Z",
+      "updateDate": "2023-02-14T16:03:45.225Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.059Z",
