@@ -24216,7 +24216,7 @@
                   ],
                   "defaults": [],
                   "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/GenreForm"
+                    "dataTypeURI": ""
                   }
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/genreForm",
@@ -24981,7 +24981,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2023-02-14T16:42:43.333Z",
+      "updateDate": "2023-02-14T16:44:30.868Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",

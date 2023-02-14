@@ -371,7 +371,7 @@
             ],
             "defaults": [],
             "valueDataType": {
-              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/GenreForm"
+              "dataTypeURI": ""
             }
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/genreForm",
