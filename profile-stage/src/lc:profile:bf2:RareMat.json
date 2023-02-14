@@ -128,6 +128,25 @@
           "valueConstraint": {
             "valueTemplateRefs": [],
             "useValuesFrom": [
+              "http://id.loc.gov/authorities/genreForms",
+              "http://id.loc.gov/vocabulary/rbmscv"
+            ],
+            "defaults": [],
+            "valueDataType": {
+              "dataTypeURI": ""
+            }
+          },
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/genreForm",
+          "propertyLabel": "Multi Form/Genre (test)"
+        },
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "lookup",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [],
+            "useValuesFrom": [
               "http://id.loc.gov/vocabulary/maudience"
             ],
             "valueDataType": {
@@ -357,25 +376,6 @@
           },
           "propertyURI": "http://id.loc.gov/ontologies/bflc/relationship",
           "propertyLabel": "Related work not in LC catalog"
-        },
-        {
-          "mandatory": "false",
-          "repeatable": "true",
-          "type": "lookup",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [],
-            "useValuesFrom": [
-              "http://id.loc.gov/authorities/genreForms",
-              "http://id.loc.gov/vocabulary/rbmscv"
-            ],
-            "defaults": [],
-            "valueDataType": {
-              "dataTypeURI": ""
-            }
-          },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/genreForm",
-          "propertyLabel": "Multi genre-form test"
         },
         {
           "mandatory": "false",

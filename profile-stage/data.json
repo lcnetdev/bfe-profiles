@@ -23973,6 +23973,25 @@
                 "valueConstraint": {
                   "valueTemplateRefs": [],
                   "useValuesFrom": [
+                    "http://id.loc.gov/authorities/genreForms",
+                    "http://id.loc.gov/vocabulary/rbmscv"
+                  ],
+                  "defaults": [],
+                  "valueDataType": {
+                    "dataTypeURI": ""
+                  }
+                },
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/genreForm",
+                "propertyLabel": "Multi Form/Genre (test)"
+              },
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "lookup",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [
                     "http://id.loc.gov/vocabulary/maudience"
                   ],
                   "valueDataType": {
@@ -24202,25 +24221,6 @@
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bflc/relationship",
                 "propertyLabel": "Related work not in LC catalog"
-              },
-              {
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "lookup",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [
-                    "http://id.loc.gov/authorities/genreForms",
-                    "http://id.loc.gov/vocabulary/rbmscv"
-                  ],
-                  "defaults": [],
-                  "valueDataType": {
-                    "dataTypeURI": ""
-                  }
-                },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/genreForm",
-                "propertyLabel": "Multi genre-form test"
               },
               {
                 "mandatory": "false",
@@ -24981,7 +24981,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2023-02-14T16:44:30.868Z",
+      "updateDate": "2023-02-14T19:02:09.578Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",
