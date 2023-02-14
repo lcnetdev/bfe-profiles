@@ -965,7 +965,8 @@
                   "repeatable": "true"
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/geographicCoverage",
-                "propertyLabel": "(Geographic) Coverage of the Content"
+                "propertyLabel": "(Geographic) Coverage of the Content",
+                "remark": "http://access.rdatoolkit.org/7.3.html"
               },
               {
                 "mandatory": "false",
@@ -2018,7 +2019,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2023-01-26T20:41:52.153Z",
+      "updateDate": "2023-02-14T21:30:37.011Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",

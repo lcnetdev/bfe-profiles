@@ -151,7 +151,8 @@
         "repeatable": "true"
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/geographicCoverage",
-      "propertyLabel": "(Geographic) Coverage of the Content"
+      "propertyLabel": "(Geographic) Coverage of the Content",
+      "remark": "http://access.rdatoolkit.org/7.3.html"
     },
     {
       "mandatory": "false",
