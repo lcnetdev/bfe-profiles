@@ -12,11 +12,12 @@
         ],
         "defaults": [],
         "valueDataType": {
-          "dataTypeURI": "http://id.loc.gov/ontologies/bflc/CaptureStorage"
+          "dataTypeURI": "",
+          "remark": "http://id.loc.gov/ontologies/bflc/CaptureStorage"
         },
         "editable": "false"
       },
-      "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
+      "propertyURI": "http://id.loc.gov/ontologies/bflc/captureStorage",
       "propertyLabel": "Lookup",
       "remark": ""
     }
