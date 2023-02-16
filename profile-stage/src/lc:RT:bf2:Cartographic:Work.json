@@ -36,7 +36,8 @@
         "defaults": []
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/title",
-      "propertyLabel": "Title Information"
+      "propertyLabel": "Title Information",
+      "remark": "http://original.rdatoolkit.org/rdachp6_rda6-1935.html"
     },
     {
       "mandatory": "false",
@@ -250,7 +251,8 @@
         "defaults": []
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/summary",
-      "propertyLabel": "Summary"
+      "propertyLabel": "Summary",
+      "remark": "http://original.rdatoolkit.org/rdachp7_rda7-774.html"
     },
     {
       "mandatory": "false",
@@ -334,7 +336,8 @@
         "defaults": []
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/supplementaryContent",
-      "propertyLabel": "Supplementary Content"
+      "propertyLabel": "Supplementary Content",
+      "remark": "http://original.rdatoolkit.org/rdachp7_rda7-1213.html"
     },
     {
       "mandatory": "false",
@@ -371,7 +374,8 @@
         }
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/scale",
-      "propertyLabel": "Search Scale term"
+      "propertyLabel": "Search Scale term",
+      "remark": "http://original.rdatoolkit.org/rdachp7_rda7-1757.html"
     },
     {
       "mandatory": "false",
