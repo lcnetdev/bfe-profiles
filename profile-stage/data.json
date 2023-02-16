@@ -26518,7 +26518,9 @@
                 "type": "resource",
                 "resourceTemplates": [],
                 "valueConstraint": {
-                  "valueTemplateRefs": [],
+                  "valueTemplateRefs": [
+                    "lc:RT:bf2:SeriesHubLookup"
+                  ],
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {
@@ -27314,7 +27316,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.059Z",
-      "updateDate": "2023-02-16T16:32:43.814Z",
+      "updateDate": "2023-02-16T16:34:30.920Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.059Z",
