@@ -393,7 +393,8 @@
             "defaults": []
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/scale",
-          "propertyLabel": "Numeric Scale value"
+          "propertyLabel": "Numeric Scale value",
+          "remark": "http://access.rdatoolkit.org/7.25.1.html"
         },
         {
           "mandatory": "false",
@@ -1197,7 +1198,7 @@
           },
           "propertyURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
           "propertyLabel": "Scale value (ex: 1:100)",
-          "remark": "http://access.rdatoolkit.org/7.25.1.html"
+          "remark": ""
         }
       ],
       "id": "lc:RT:bf2:Cartographic:ScaleNew",

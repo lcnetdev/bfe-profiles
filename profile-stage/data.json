@@ -26491,7 +26491,8 @@
                   "defaults": []
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/scale",
-                "propertyLabel": "Numeric Scale value"
+                "propertyLabel": "Numeric Scale value",
+                "remark": "http://access.rdatoolkit.org/7.25.1.html"
               },
               {
                 "mandatory": "false",
@@ -27295,7 +27296,7 @@
                 },
                 "propertyURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
                 "propertyLabel": "Scale value (ex: 1:100)",
-                "remark": "http://access.rdatoolkit.org/7.25.1.html"
+                "remark": ""
               }
             ],
             "id": "lc:RT:bf2:Cartographic:ScaleNew",
@@ -27313,7 +27314,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.059Z",
-      "updateDate": "2023-02-16T16:29:57.374Z",
+      "updateDate": "2023-02-16T16:32:43.814Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.059Z",
