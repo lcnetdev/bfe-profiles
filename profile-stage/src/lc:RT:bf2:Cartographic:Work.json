@@ -144,7 +144,7 @@
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/intendedAudience",
       "propertyLabel": "Intended Audience",
-      "remark": "http://original.rdatoolkit.org/7.7.html"
+      "remark": "http://original.rdatoolkit.org/rdachp7_rda7-634.html"
     },
     {
       "mandatory": "false",

@@ -26244,7 +26244,7 @@
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/intendedAudience",
                 "propertyLabel": "Intended Audience",
-                "remark": "http://original.rdatoolkit.org/7.7.html"
+                "remark": "http://original.rdatoolkit.org/rdachp7_rda7-634.html"
               },
               {
                 "mandatory": "false",
@@ -27313,7 +27313,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.059Z",
-      "updateDate": "2023-02-16T16:27:26.964Z",
+      "updateDate": "2023-02-16T16:28:44.711Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.059Z",
