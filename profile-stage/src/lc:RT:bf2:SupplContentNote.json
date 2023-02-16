@@ -13,7 +13,7 @@
       },
       "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label",
       "propertyLabel": "Note",
-      "remark": "A human-readable name for the subject."
+      "remark": ""
     },
     {
       "mandatory": "false",

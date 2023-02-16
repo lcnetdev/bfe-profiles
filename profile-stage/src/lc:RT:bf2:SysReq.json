@@ -13,7 +13,7 @@
       },
       "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label",
       "propertyLabel": "System Requirement",
-      "remark": "http://access.rdatoolkit.org/3.20.html"
+      "remark": ""
     }
   ],
   "id": "lc:RT:bf2:SysReq",

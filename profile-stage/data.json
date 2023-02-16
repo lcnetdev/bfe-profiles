@@ -28982,7 +28982,7 @@
                 },
                 "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label",
                 "propertyLabel": "Contents note",
-                "remark": "http://access.rdatoolkit.org/lcpschp25_lcps25-354.html"
+                "remark": ""
               },
               {
                 "mandatory": "false",
@@ -29108,7 +29108,7 @@
                 },
                 "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label",
                 "propertyLabel": "Summary note",
-                "remark": "http://access.rdatoolkit.org/7.10.html"
+                "remark": ""
               }
             ],
             "id": "lc:RT:bf2:Summary",
@@ -29130,7 +29130,7 @@
                 },
                 "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label",
                 "propertyLabel": "Note",
-                "remark": "A human-readable name for the subject."
+                "remark": ""
               },
               {
                 "mandatory": "false",
@@ -29166,7 +29166,7 @@
                 },
                 "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label",
                 "propertyLabel": "System Requirement",
-                "remark": "http://access.rdatoolkit.org/3.20.html"
+                "remark": ""
               }
             ],
             "id": "lc:RT:bf2:SysReq",
@@ -29204,7 +29204,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2022-12-22T16:09:55.040Z",
+      "updateDate": "2023-02-16T16:31:40.714Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",
