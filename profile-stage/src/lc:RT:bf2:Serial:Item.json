@@ -96,7 +96,7 @@
         "defaults": []
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/acquisitionSource",
-      "remark": "http://access.rdatoolkit.org/rdachp4_rda4-93.html",
+      "remark": "http://original.rdatoolkit.org/rdachp4_rda4-93.html",
       "propertyLabel": "Contact information"
     }
   ],
