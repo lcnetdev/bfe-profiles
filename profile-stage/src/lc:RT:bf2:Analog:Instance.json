@@ -38,7 +38,7 @@
       "mandatory": "true",
       "repeatable": "true",
       "type": "resource",
-      "remark": ""
+      "remark": "https://original.rdatoolkit.org/rdachp2_rda2-3376.html"
     },
     {
       "mandatory": "false",
@@ -52,7 +52,7 @@
         "defaults": []
       },
       "propertyLabel": "Statement of Responsibility",
-      "remark": "http://access.rdatoolkit.org/2.4.2.html",
+      "remark": "http://original.rdatoolkit.org/2.4.2.html",
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/responsibilityStatement"
     },
     {
@@ -68,7 +68,7 @@
       "mandatory": "false",
       "repeatable": "true",
       "type": "literal",
-      "remark": "http://access.rdatoolkit.org/2.5.html"
+      "remark": "http://original.rdatoolkit.org/2.5.html"
     },
     {
       "propertyLabel": "Provision Activity",
@@ -103,7 +103,7 @@
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/copyrightDate",
       "propertyLabel": "Copyright Date",
-      "remark": "http://access.rdatoolkit.org/2.11.html"
+      "remark": "http://original.rdatoolkit.org/2.11.html"
     },
     {
       "mandatory": "false",
@@ -129,7 +129,7 @@
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/issuance",
       "propertyLabel": "Mode of Issuance",
-      "remark": "http://access.rdatoolkit.org/2.13.html"
+      "remark": "http://original.rdatoolkit.org/2.13.html"
     },
     {
       "propertyLabel": "Identifiers",
@@ -172,7 +172,7 @@
         "defaults": []
       },
       "propertyLabel": "Notes about the Instance",
-      "remark": "http://access.rdatoolkit.org/2.17.html",
+      "remark": "http://original.rdatoolkit.org/2.17.html",
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/note"
     },
     {
@@ -203,7 +203,7 @@
         "defaults": []
       },
       "propertyLabel": "Credits",
-      "remark": "http://access.rdatoolkit.org/2.17.3.5.html",
+      "remark": "http://original.rdatoolkit.org/2.17.3.5.html",
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/credits"
     },
     {
@@ -230,7 +230,7 @@
         ]
       },
       "mandatory": "false",
-      "remark": "http://access.rdatoolkit.org/3.2.html"
+      "remark": "http://original.rdatoolkit.org/3.2.html"
     },
     {
       "propertyLabel": "Carrier type",
@@ -256,7 +256,7 @@
         ]
       },
       "mandatory": "false",
-      "remark": "http://access.rdatoolkit.org/3.3.html"
+      "remark": "http://original.rdatoolkit.org/3.3.html"
     },
     {
       "propertyLabel": "Extent",
@@ -273,7 +273,7 @@
       "mandatory": "false",
       "repeatable": "true",
       "type": "resource",
-      "remark": ""
+      "remark": "https://original.rdatoolkit.org/3.4.html"
     },
     {
       "propertyLabel": "Dimensions",
@@ -296,7 +296,7 @@
       "mandatory": "false",
       "repeatable": "false",
       "type": "literal",
-      "remark": "http://access.rdatoolkit.org/3.5.html"
+      "remark": "http://original.rdatoolkit.org/3.5.html"
     },
     {
       "mandatory": "false",
@@ -311,7 +311,7 @@
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/duration",
       "propertyLabel": "Duration",
-      "remark": ""
+      "remark": "http://original.rdatoolkit.org/rdachp7_rda7-1572.html"
     },
     {
       "mandatory": "false",
@@ -332,7 +332,7 @@
         "defaults": []
       },
       "propertyLabel": "Base Material",
-      "remark": "http://access.rdatoolkit.org/3.6.html",
+      "remark": "http://original.rdatoolkit.org/3.6.html",
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/baseMaterial"
     },
     {
@@ -351,7 +351,7 @@
         "defaults": []
       },
       "propertyLabel": "Applied Material",
-      "remark": "http://access.rdatoolkit.org/3.7.html",
+      "remark": "http://original.rdatoolkit.org/3.7.html",
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/appliedMaterial"
     },
     {
@@ -389,7 +389,7 @@
         "defaults": []
       },
       "propertyLabel": "Recording Generation",
-      "remark": "http://access.rdatoolkit.org/3.10.html",
+      "remark": "http://original.rdatoolkit.org/3.10.html",
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/generation"
     },
     {
@@ -434,7 +434,7 @@
       },
       "mandatory": "false",
       "repeatable": "true",
-      "remark": "http://access.rdatoolkit.org/4.6.html"
+      "remark": "http://original.rdatoolkit.org/4.6.html"
     },
     {
       "mandatory": "true",
