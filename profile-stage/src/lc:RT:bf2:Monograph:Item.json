@@ -32,7 +32,7 @@
       "mandatory": "false",
       "repeatable": "true",
       "type": "resource",
-      "remark": "http://access.rdatoolkit.org/4.6.html"
+      "remark": "http://original.rdatoolkit.org/4.6.html"
     },
     {
       "mandatory": "false",

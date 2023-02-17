@@ -50,7 +50,7 @@
         "defaults": []
       },
       "propertyLabel": "Statement of Responsibility",
-      "remark": "http://access.rdatoolkit.org/2.4.2.html",
+      "remark": "http://original.rdatoolkit.org/2.4.2.html",
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/responsibilityStatement"
     },
     {
@@ -66,7 +66,7 @@
       "mandatory": "false",
       "repeatable": "true",
       "type": "literal",
-      "remark": "http://access.rdatoolkit.org/2.5.html"
+      "remark": "http://original.rdatoolkit.org/2.5.html"
     },
     {
       "mandatory": "false",
@@ -103,7 +103,7 @@
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/copyrightDate",
       "propertyLabel": "Copyright Date",
-      "remark": "http://access.rdatoolkit.org/2.11.html"
+      "remark": "http://original.rdatoolkit.org/2.11.html"
     },
     {
       "mandatory": "false",
@@ -122,7 +122,7 @@
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/contribution",
       "propertyLabel": "Contribution",
-      "remark": "http://id.loc.gov/ontologies/bibframe/contribution"
+      "remark": "http://original.rdatoolkit.org/19.3.html"
     },
     {
       "mandatory": "true",
@@ -148,7 +148,7 @@
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/issuance",
       "propertyLabel": "Mode of Issuance",
-      "remark": "http://access.rdatoolkit.org/2.13.html"
+      "remark": "http://original.rdatoolkit.org/2.13.html"
     },
     {
       "propertyLabel": "Identifiers",
@@ -185,7 +185,7 @@
         "defaults": []
       },
       "propertyLabel": "Notes about the Instance",
-      "remark": "http://access.rdatoolkit.org/2.17.html",
+      "remark": "http://original.rdatoolkit.org/2.17.html",
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/note"
     },
     {
@@ -244,7 +244,7 @@
         ]
       },
       "mandatory": "true",
-      "remark": "http://access.rdatoolkit.org/3.2.html"
+      "remark": "http://original.rdatoolkit.org/3.2.html"
     },
     {
       "propertyLabel": "Extent",
@@ -277,7 +277,7 @@
       "mandatory": "false",
       "repeatable": "true",
       "type": "literal",
-      "remark": "http://access.rdatoolkit.org/3.5.html"
+      "remark": "http://original.rdatoolkit.org/3.5.html"
     },
     {
       "propertyLabel": "Carrier type",
@@ -303,7 +303,7 @@
         ]
       },
       "mandatory": "true",
-      "remark": "http://access.rdatoolkit.org/3.3.html"
+      "remark": "http://original.rdatoolkit.org/3.3.html"
     },
     {
       "propertyLabel": "URL of Instance",
@@ -320,7 +320,7 @@
       },
       "mandatory": "false",
       "repeatable": "true",
-      "remark": "http://access.rdatoolkit.org/4.6.html"
+      "remark": "http://original.rdatoolkit.org/4.6.html"
     },
     {
       "mandatory": "false",
