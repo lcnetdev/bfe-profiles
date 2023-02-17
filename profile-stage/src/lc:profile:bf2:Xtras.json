@@ -74,7 +74,7 @@
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/place",
           "propertyLabel": "Place of Capture",
-          "remark": "http://access.rdatoolkit.org/7.11.2.html"
+          "remark": "http://original.rdatoolkit.org/7.11.2.html"
         },
         {
           "mandatory": "false",
@@ -89,7 +89,7 @@
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/date",
           "propertyLabel": "Date of Capture",
-          "remark": "http://access.rdatoolkit.org/7.11.3.html"
+          "remark": "http://original.rdatoolkit.org/7.11.3.html"
         },
         {
           "mandatory": "false",
@@ -177,7 +177,7 @@
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/EncodingFormat",
           "propertyLabel": "Encoding format",
-          "remark": "http://access.rdatoolkit.org/3.19.3.html"
+          "remark": "http://original.rdatoolkit.org/3.19.3.html"
         }
       ],
       "id": "lc:RT:bf2:EncFmt",
@@ -221,7 +221,7 @@
           },
           "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label",
           "propertyLabel": "File size",
-          "remark": "http://access.rdatoolkit.org/3.19.4.html"
+          "remark": "http://original.rdatoolkit.org/3.19.4.html"
         }
       ],
       "id": "lc:RT:bf2:FileSize",
@@ -249,7 +249,7 @@
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/FileType",
           "propertyLabel": "Lookup",
-          "remark": "http://access.rdatoolkit.org/3.19.2.html"
+          "remark": "http://original.rdatoolkit.org/3.19.2.html"
         }
       ],
       "id": "lc:RT:bf2:FileType",
@@ -277,7 +277,7 @@
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/PlaybackChannels",
           "propertyLabel": "Lookup",
-          "remark": "http://access.rdatoolkit.org/3.16.8.html"
+          "remark": "http://original.rdatoolkit.org/3.16.8.html"
         }
       ],
       "id": "lc:RT:bf2:Playback",
@@ -299,7 +299,7 @@
           },
           "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label",
           "propertyLabel": "Playing speed",
-          "remark": "http://access.rdatoolkit.org/3.16.4.html"
+          "remark": "http://original.rdatoolkit.org/3.16.4.html"
         }
       ],
       "id": "lc:RT:bf2:PlayingSpeed",
@@ -326,7 +326,7 @@
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/PresentationFormat",
           "propertyLabel": "Lookup",
-          "remark": "http://access.rdatoolkit.org/3.17.2.html"
+          "remark": "http://original.rdatoolkit.org/3.17.2.html"
         }
       ],
       "id": "lc:RT:bf2:ProjFormat",
@@ -402,7 +402,7 @@
           },
           "propertyLabel": "Lookup",
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/RecordingMedium",
-          "remark": "http://access.rdatoolkit.org/3.16.3.html"
+          "remark": "http://original.rdatoolkit.org/3.16.3.html"
         }
       ],
       "id": "lc:RT:bf2:RecMedium",
@@ -430,7 +430,7 @@
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/RecordingMedium",
           "propertyLabel": "Lookup",
-          "remark": "http://access.rdatoolkit.org/3.16.3.html"
+          "remark": "http://original.rdatoolkit.org/3.16.3.html"
         }
       ],
       "id": "lc:RT:bf2:RecMedium2",
@@ -458,7 +458,7 @@
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/RegionalEncoding",
           "propertyLabel": "Lookup",
-          "remark": "http://access.rdatoolkit.org/3.19.6.3.html"
+          "remark": "http://original.rdatoolkit.org/3.19.6.3.html"
         }
       ],
       "id": "lc:RT:bf2:RegEncoding",
@@ -480,7 +480,7 @@
           },
           "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label",
           "propertyLabel": "Resolution",
-          "remark": "http://access.rdatoolkit.org/3.19.5.html"
+          "remark": "http://original.rdatoolkit.org/3.19.5.html"
         }
       ],
       "id": "lc:RT:bf2:Resolution",
@@ -508,7 +508,7 @@
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/SoundContent",
           "propertyLabel": "Lookup",
-          "remark": "http://access.rdatoolkit.org/7.18.html"
+          "remark": ""
         }
       ],
       "id": "lc:RT:bf2:SoundContent",
@@ -536,7 +536,7 @@
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/PlaybackCharacteristic",
           "propertyLabel": "Lookup",
-          "remark": "http://access.rdatoolkit.org/3.16.9.html"
+          "remark": "http://original.rdatoolkit.org/3.16.9.html"
         }
       ],
       "id": "lc:RT:bf2:SpecPlayback",
@@ -564,7 +564,7 @@
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/RecordingMethod",
           "propertyLabel": "Lookup",
-          "remark": "http://access.rdatoolkit.org/3.16.2.html"
+          "remark": "http://original.rdatoolkit.org/3.16.2.html"
         }
       ],
       "id": "lc:RT:bf2:TypeRec",
@@ -592,7 +592,7 @@
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/RecordingMethod",
           "propertyLabel": "Lookup",
-          "remark": "http://access.rdatoolkit.org/3.16.2.html"
+          "remark": "http://original.rdatoolkit.org/3.16.2.html"
         }
       ],
       "id": "lc:RT:bf2:TypeRec2",
@@ -858,7 +858,7 @@
           },
           "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label",
           "propertyLabel": "Medium of performance",
-          "remark": "http://access.rdatoolkit.org/7.21.html"
+          "remark": "http://original.rdatoolkit.org/7.21.html"
         },
         {
           "mandatory": "false",
@@ -899,7 +899,7 @@
           },
           "propertyLabel": "Encoding format",
           "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label",
-          "remark": "http://access.rdatoolkit.org/3.19.3.html"
+          "remark": "http://original.rdatoolkit.org/3.19.3.html"
         }
       ],
       "id": "lc:RT:bf2:MIBluRayDVD:EncFmt",
@@ -927,7 +927,7 @@
           },
           "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
           "propertyLabel": "Lookup",
-          "remark": "http://access.rdatoolkit.org/3.19.2.html"
+          "remark": "http://original.rdatoolkit.org/3.19.2.html"
         }
       ],
       "id": "lc:RT:bf2:MIBluRayDVD:FileType",

@@ -19,7 +19,7 @@
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/SoundContent",
       "propertyLabel": "Lookup",
-      "remark": "http://access.rdatoolkit.org/7.18.html"
+      "remark": ""
     }
   ],
   "id": "lc:RT:bf2:SoundContent",

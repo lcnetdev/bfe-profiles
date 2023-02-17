@@ -18,7 +18,7 @@
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/place",
       "propertyLabel": "Place of Capture",
-      "remark": "http://access.rdatoolkit.org/7.11.2.html"
+      "remark": "http://original.rdatoolkit.org/7.11.2.html"
     },
     {
       "mandatory": "false",
@@ -33,7 +33,7 @@
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/date",
       "propertyLabel": "Date of Capture",
-      "remark": "http://access.rdatoolkit.org/7.11.3.html"
+      "remark": "http://original.rdatoolkit.org/7.11.3.html"
     },
     {
       "mandatory": "false",

@@ -14,7 +14,7 @@
       },
       "propertyLabel": "Encoding format",
       "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label",
-      "remark": "http://access.rdatoolkit.org/3.19.3.html"
+      "remark": "http://original.rdatoolkit.org/3.19.3.html"
     }
   ],
   "id": "lc:RT:bf2:MIBluRayDVD:EncFmt",

@@ -19,7 +19,7 @@
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/RegionalEncoding",
       "propertyLabel": "Lookup",
-      "remark": "http://access.rdatoolkit.org/3.19.6.3.html"
+      "remark": "http://original.rdatoolkit.org/3.19.6.3.html"
     }
   ],
   "id": "lc:RT:bf2:RegEncoding",

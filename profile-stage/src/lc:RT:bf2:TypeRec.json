@@ -19,7 +19,7 @@
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/RecordingMethod",
       "propertyLabel": "Lookup",
-      "remark": "http://access.rdatoolkit.org/3.16.2.html"
+      "remark": "http://original.rdatoolkit.org/3.16.2.html"
     }
   ],
   "id": "lc:RT:bf2:TypeRec",

@@ -19,7 +19,7 @@
       },
       "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
       "propertyLabel": "Lookup",
-      "remark": "http://access.rdatoolkit.org/3.19.2.html"
+      "remark": "http://original.rdatoolkit.org/3.19.2.html"
     }
   ],
   "id": "lc:RT:bf2:MIBluRayDVD:FileType",

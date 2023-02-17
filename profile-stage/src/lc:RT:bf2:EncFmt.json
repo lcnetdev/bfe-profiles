@@ -15,7 +15,7 @@
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/EncodingFormat",
       "propertyLabel": "Encoding format",
-      "remark": "http://access.rdatoolkit.org/3.19.3.html"
+      "remark": "http://original.rdatoolkit.org/3.19.3.html"
     }
   ],
   "id": "lc:RT:bf2:EncFmt",

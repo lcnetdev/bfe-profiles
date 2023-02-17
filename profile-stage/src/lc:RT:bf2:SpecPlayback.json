@@ -19,7 +19,7 @@
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/PlaybackCharacteristic",
       "propertyLabel": "Lookup",
-      "remark": "http://access.rdatoolkit.org/3.16.9.html"
+      "remark": "http://original.rdatoolkit.org/3.16.9.html"
     }
   ],
   "id": "lc:RT:bf2:SpecPlayback",
