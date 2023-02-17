@@ -15,7 +15,8 @@
         "valueDataType": {}
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/title",
-      "propertyLabel": "Title Information"
+      "propertyLabel": "Title Information",
+      "remark": "https://original.rdatoolkit.org/rdachp2_rda2-3376.html"
     },
     {
       "mandatory": "false",
@@ -29,7 +30,8 @@
         "valueDataType": {}
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/responsibilityStatement",
-      "propertyLabel": "Statement of Responsibility"
+      "propertyLabel": "Statement of Responsibility",
+      "remark": "http://original.rdatoolkit.org/2.4.2.html"
     },
     {
       "mandatory": "false",
@@ -62,7 +64,8 @@
         "valueDataType": {}
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/copyrightDate",
-      "propertyLabel": "Copyright Date"
+      "propertyLabel": "Copyright Date",
+      "remark": "http://original.rdatoolkit.org/2.11.html"
     },
     {
       "mandatory": "false",
@@ -85,7 +88,8 @@
         }
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/issuance",
-      "propertyLabel": "Mode of Issuance"
+      "propertyLabel": "Mode of Issuance",
+      "remark": "http://original.rdatoolkit.org/2.13.html"
     },
     {
       "mandatory": "false",
@@ -155,7 +159,8 @@
         "valueDataType": {}
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/credits",
-      "propertyLabel": "Credits"
+      "propertyLabel": "Credits",
+      "remark": "http://original.rdatoolkit.org/2.17.3.5.html"
     },
     {
       "mandatory": "false",
@@ -194,7 +199,8 @@
         }
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/media",
-      "propertyLabel": "Media type"
+      "propertyLabel": "Media type",
+      "remark": "http://original.rdatoolkit.org/3.2.html"
     },
     {
       "mandatory": "false",
@@ -217,7 +223,8 @@
         }
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/carrier",
-      "propertyLabel": "Carrier type"
+      "propertyLabel": "Carrier type",
+      "remark": "http://original.rdatoolkit.org/3.3.html"
     },
     {
       "mandatory": "false",
@@ -233,7 +240,8 @@
         "valueDataType": {}
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/extent",
-      "propertyLabel": "Extent"
+      "propertyLabel": "Extent",
+      "remark": "https://original.rdatoolkit.org/3.4.html"
     },
     {
       "mandatory": "false",
@@ -247,7 +255,8 @@
         "valueDataType": {}
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/dimensions",
-      "propertyLabel": "Dimensions"
+      "propertyLabel": "Dimensions",
+      "remark": "http://original.rdatoolkit.org/3.5.html"
     },
     {
       "mandatory": "false",
@@ -265,7 +274,8 @@
         }
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/baseMaterial",
-      "propertyLabel": "Base Material"
+      "propertyLabel": "Base Material",
+      "remark": "http://original.rdatoolkit.org/3.6.html"
     },
     {
       "mandatory": "false",
@@ -319,7 +329,8 @@
         "valueDataType": {}
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/systemRequirement",
-      "propertyLabel": "System Requirement"
+      "propertyLabel": "System Requirement",
+      "remark": "http://original.rdatoolkit.org/rdachp3_rda3-5469.html"
     },
     {
       "mandatory": "false",
