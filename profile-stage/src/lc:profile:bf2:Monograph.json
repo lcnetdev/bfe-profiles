@@ -57,7 +57,8 @@
             "defaults": []
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/title",
-          "propertyLabel": "Title Information"
+          "propertyLabel": "Title Information",
+          "remark": "http://original.rdatoolkit.org/rdachp6_rda6-1935.html"
         },
         {
           "mandatory": "false",
