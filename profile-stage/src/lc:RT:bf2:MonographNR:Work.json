@@ -33,7 +33,8 @@
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/title",
       "propertyLabel": "Title Information",
-      "resourceTemplates": []
+      "resourceTemplates": [],
+      "remark": "http://original.rdatoolkit.org/rdachp6_rda6-1935.html"
     },
     {
       "mandatory": "false",
@@ -98,7 +99,8 @@
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/geographicCoverage",
       "propertyLabel": "(Geographic) Coverage of the Content",
-      "resourceTemplates": []
+      "resourceTemplates": [],
+      "remark": "https://original.rdatoolkit.org/7.3.html"
     },
     {
       "mandatory": "false",
@@ -129,7 +131,8 @@
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/intendedAudience",
       "propertyLabel": "Intended Audience",
-      "resourceTemplates": []
+      "resourceTemplates": [],
+      "remark": "http://original.rdatoolkit.org/rdachp7_rda7-634.html"
     },
     {
       "mandatory": "false",
@@ -194,7 +197,8 @@
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/summary",
       "propertyLabel": "Summary",
-      "resourceTemplates": []
+      "resourceTemplates": [],
+      "remark": "http://original.rdatoolkit.org/rdachp7_rda7-774.html"
     },
     {
       "mandatory": "false",
@@ -338,7 +342,8 @@
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/supplementaryContent",
       "propertyLabel": "Supplementary Content",
-      "resourceTemplates": []
+      "resourceTemplates": [],
+      "remark": "http://original.rdatoolkit.org/rdachp7_rda7-1213.html"
     },
     {
       "mandatory": "false",

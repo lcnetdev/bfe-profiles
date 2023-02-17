@@ -35,7 +35,8 @@
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/title",
           "propertyLabel": "Title Information",
-          "resourceTemplates": []
+          "resourceTemplates": [],
+          "remark": "http://original.rdatoolkit.org/rdachp6_rda6-1935.html"
         },
         {
           "mandatory": "false",
@@ -100,7 +101,8 @@
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/geographicCoverage",
           "propertyLabel": "(Geographic) Coverage of the Content",
-          "resourceTemplates": []
+          "resourceTemplates": [],
+          "remark": "https://original.rdatoolkit.org/7.3.html"
         },
         {
           "mandatory": "false",
@@ -131,7 +133,8 @@
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/intendedAudience",
           "propertyLabel": "Intended Audience",
-          "resourceTemplates": []
+          "resourceTemplates": [],
+          "remark": "http://original.rdatoolkit.org/rdachp7_rda7-634.html"
         },
         {
           "mandatory": "false",
@@ -196,7 +199,8 @@
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/summary",
           "propertyLabel": "Summary",
-          "resourceTemplates": []
+          "resourceTemplates": [],
+          "remark": "http://original.rdatoolkit.org/rdachp7_rda7-774.html"
         },
         {
           "mandatory": "false",
@@ -340,7 +344,8 @@
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/supplementaryContent",
           "propertyLabel": "Supplementary Content",
-          "resourceTemplates": []
+          "resourceTemplates": [],
+          "remark": "http://original.rdatoolkit.org/rdachp7_rda7-1213.html"
         },
         {
           "mandatory": "false",
@@ -466,7 +471,8 @@
           "mandatory": "true",
           "repeatable": "true",
           "type": "resource",
-          "resourceTemplates": []
+          "resourceTemplates": [],
+          "remark": "http://original.rdatoolkit.org/rdachp2_rda2-3075.html"
         },
         {
           "mandatory": "false",
@@ -604,7 +610,8 @@
           "mandatory": "false",
           "repeatable": "true",
           "type": "resource",
-          "resourceTemplates": []
+          "resourceTemplates": [],
+          "remark": "http://original.rdatoolkit.org/rdachp3_rda3-2080.html"
         },
         {
           "propertyLabel": "Dimensions",
@@ -921,7 +928,7 @@
           },
           "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label",
           "propertyLabel": "Contents note",
-          "remark": "http://access.rdatoolkit.org/lcpschp25_lcps25-354.html"
+          "remark": ""
         },
         {
           "mandatory": "false",
@@ -957,7 +964,7 @@
           },
           "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label",
           "propertyLabel": "Summary note",
-          "remark": "http://access.rdatoolkit.org/7.10.html"
+          "remark": ""
         }
       ],
       "id": "lc:RT:bf2:MonographNR:Summary",

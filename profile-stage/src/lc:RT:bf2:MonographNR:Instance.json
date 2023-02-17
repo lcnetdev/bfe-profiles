@@ -33,7 +33,8 @@
       "mandatory": "true",
       "repeatable": "true",
       "type": "resource",
-      "resourceTemplates": []
+      "resourceTemplates": [],
+      "remark": "http://original.rdatoolkit.org/rdachp2_rda2-3075.html"
     },
     {
       "mandatory": "false",
@@ -171,7 +172,8 @@
       "mandatory": "false",
       "repeatable": "true",
       "type": "resource",
-      "resourceTemplates": []
+      "resourceTemplates": [],
+      "remark": "http://original.rdatoolkit.org/rdachp3_rda3-2080.html"
     },
     {
       "propertyLabel": "Dimensions",
