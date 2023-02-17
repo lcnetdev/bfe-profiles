@@ -37,7 +37,7 @@
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/custodialHistory",
       "propertyLabel": "Custodial History/Provenance",
-      "remark": "http://access.rdatoolkit.org/2.18.html"
+      "remark": "http://original.rdatoolkit.org/2.18.html"
     },
     {
       "mandatory": "false",

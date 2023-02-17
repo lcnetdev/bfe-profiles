@@ -18,7 +18,7 @@
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/contribution",
       "propertyLabel": "Creator of Work",
-      "remark": "http://access.rdatoolkit.org/19.2.html"
+      "remark": "http://original.rdatoolkit.org/19.2.html"
     },
     {
       "mandatory": "true",
@@ -36,7 +36,8 @@
         "defaults": []
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/title",
-      "propertyLabel": "Title Information"
+      "propertyLabel": "Title Information",
+      "remark": "http://original.rdatoolkit.org/rdachp6_rda6-1935.html"
     },
     {
       "mandatory": "false",
@@ -57,7 +58,7 @@
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/contribution",
       "propertyLabel": "Contribution",
-      "remark": "http://access.rdatoolkit.org/19.3.html"
+      "remark": "http://original.rdatoolkit.org/19.3.html"
     },
     {
       "mandatory": "false",
@@ -78,7 +79,7 @@
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/subject",
       "propertyLabel": "Subject of the Work",
-      "remark": "http://access.rdatoolkit.org/rdachp23_rda23-12.html"
+      "remark": "http://original.rdatoolkit.org/rdachp23_rda23-12.html"
     },
     {
       "mandatory": "false",
@@ -116,7 +117,7 @@
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/genreForm",
       "propertyLabel": "Form/Genre",
-      "remark": "http://access.rdatoolkit.org/6.3.html"
+      "remark": "http://original.rdatoolkit.org/6.3.html"
     },
     {
       "mandatory": "false",
@@ -154,7 +155,7 @@
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/intendedAudience",
       "propertyLabel": "Intended Audience",
-      "remark": "http://access.rdatoolkit.org/7.7.html"
+      "remark": "http://original.rdatoolkit.org/7.7.html"
     },
     {
       "mandatory": "false",
@@ -202,7 +203,8 @@
         "defaults": []
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/summary",
-      "propertyLabel": "Summary"
+      "propertyLabel": "Summary",
+      "remark": "https://original.rdatoolkit.org/7.10.html"
     },
     {
       "mandatory": "false",
@@ -228,7 +230,7 @@
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/content",
       "propertyLabel": "Content Type",
-      "remark": "http://access.rdatoolkit.org/6.9.html"
+      "remark": "http://original.rdatoolkit.org/6.9.html"
     },
     {
       "mandatory": "false",
@@ -249,7 +251,7 @@
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/language",
       "propertyLabel": "Language",
-      "remark": "http://access.rdatoolkit.org/6.11.html"
+      "remark": "http://original.rdatoolkit.org/6.11.html"
     },
     {
       "mandatory": "false",
@@ -267,7 +269,8 @@
         "defaults": []
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/illustrativeContent",
-      "propertyLabel": "Illustrative Content"
+      "propertyLabel": "Illustrative Content",
+      "remark": "http://original.rdatoolkit.org/7.15.html"
     },
     {
       "mandatory": "false",
@@ -286,7 +289,7 @@
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/colorContent",
       "propertyLabel": "Color Content (lookup or note)",
-      "remark": "http://access.rdatoolkit.org/7.17.html"
+      "remark": "http://original.rdatoolkit.org/7.17.html"
     },
     {
       "mandatory": "false",
@@ -304,7 +307,8 @@
         "defaults": []
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/supplementaryContent",
-      "propertyLabel": "Supplementary Content"
+      "propertyLabel": "Supplementary Content",
+      "remark": "https://original.rdatoolkit.org/7.16.html"
     },
     {
       "mandatory": "false",
