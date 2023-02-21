@@ -16107,7 +16107,7 @@
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/duration",
                 "propertyLabel": "Duration",
-                "remark": ""
+                "remark": "http://original.rdatoolkit.org/rdachp7_rda7-1572.html"
               },
               {
                 "mandatory": "false",
@@ -16320,7 +16320,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2023-01-27T15:32:49.707Z",
+      "updateDate": "2023-02-21T21:20:07.837Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",
