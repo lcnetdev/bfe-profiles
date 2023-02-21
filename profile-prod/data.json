@@ -21827,30 +21827,6 @@
                 "valueConstraint": {
                   "valueTemplateRefs": [],
                   "useValuesFrom": [
-                    "https://lookup.ld4l.org/authorities/search/linked_data/getty_aat_ld4l_cache?q="
-                  ],
-                  "defaults": [],
-                  "valueDataType": {}
-                },
-                "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
-                "propertyLabel": "Search Getty AAT"
-              }
-            ],
-            "id": "lc:RT:bf2:Form:AAT",
-            "resourceURI": "http://id.loc.gov/ontologies/bibframe/GenreForm",
-            "resourceLabel": "Getty AAT",
-            "remark": "does this still work?"
-          },
-          {
-            "propertyTemplates": [
-              {
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "lookup",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [
                     "http://id.loc.gov/vocabulary/marcgt"
                   ],
                   "defaults": [],
@@ -21944,7 +21920,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.059Z",
-      "updateDate": "2023-02-13T15:43:00.828Z",
+      "updateDate": "2023-02-21T20:43:12.340Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.059Z",

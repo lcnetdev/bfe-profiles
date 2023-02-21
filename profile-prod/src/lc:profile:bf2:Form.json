@@ -85,30 +85,6 @@
           "valueConstraint": {
             "valueTemplateRefs": [],
             "useValuesFrom": [
-              "https://lookup.ld4l.org/authorities/search/linked_data/getty_aat_ld4l_cache?q="
-            ],
-            "defaults": [],
-            "valueDataType": {}
-          },
-          "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
-          "propertyLabel": "Search Getty AAT"
-        }
-      ],
-      "id": "lc:RT:bf2:Form:AAT",
-      "resourceURI": "http://id.loc.gov/ontologies/bibframe/GenreForm",
-      "resourceLabel": "Getty AAT",
-      "remark": "does this still work?"
-    },
-    {
-      "propertyTemplates": [
-        {
-          "mandatory": "false",
-          "repeatable": "true",
-          "type": "lookup",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [],
-            "useValuesFrom": [
               "http://id.loc.gov/vocabulary/marcgt"
             ],
             "defaults": [],
