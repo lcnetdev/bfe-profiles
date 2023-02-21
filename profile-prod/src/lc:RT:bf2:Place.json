@@ -12,18 +12,18 @@
         ],
         "valueDataType": {
           "remark": "",
-          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Place"
+          "dataTypeURI": ""
         },
         "repeatable": "false",
         "defaults": [],
         "validatePattern": ""
       },
       "propertyLabel": "Search LCNAF",
-      "propertyURI": "http://www.w3.org/2002/07/owl#sameAs"
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/place"
     }
   ],
   "id": "lc:RT:bf2:Place",
   "resourceURI": "http://id.loc.gov/ontologies/bibframe/Place",
-  "resourceLabel": "Place",
+  "resourceLabel": "Place (unused)",
   "contact": ""
 }
