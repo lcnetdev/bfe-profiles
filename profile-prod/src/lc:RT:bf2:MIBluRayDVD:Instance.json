@@ -331,7 +331,7 @@
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/duration",
       "propertyLabel": "Duration",
-      "remark": "http://access.rdatoolkit.org/7.22.html"
+      "remark": "http://original.rdatoolkit.org/7.22.html"
     },
     {
       "mandatory": "false",
