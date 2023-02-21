@@ -47,8 +47,7 @@
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [
-          "lc:RT:bf2:Form",
-          "lc:RT:bf2:Form:AAT"
+          "lc:RT:bf2:Form"
         ],
         "useValuesFrom": [],
         "valueDataType": {

@@ -17427,8 +17427,7 @@
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [
-                    "lc:RT:bf2:Form",
-                    "lc:RT:bf2:Form:AAT"
+                    "lc:RT:bf2:Form"
                   ],
                   "useValuesFrom": [],
                   "valueDataType": {
@@ -18425,7 +18424,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2023-01-27T15:30:33.302Z",
+      "updateDate": "2023-02-21T20:43:28.866Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",
