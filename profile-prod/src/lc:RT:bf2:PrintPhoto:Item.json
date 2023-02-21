@@ -47,7 +47,7 @@
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/electronicLocation",
       "propertyLabel": "URL of digital item",
-      "remark": "http://access.rdatoolkit.org/4.6.html"
+      "remark": "http://original.rdatoolkit.org/4.6.html"
     },
     {
       "mandatory": "false",
