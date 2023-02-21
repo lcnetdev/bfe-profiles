@@ -12128,56 +12128,6 @@
                 "valueConstraint": {
                   "valueTemplateRefs": [],
                   "useValuesFrom": [
-                    "http://id.loc.gov/vocabulary/mcolor"
-                  ],
-                  "defaults": [],
-                  "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/ColorContent"
-                  },
-                  "editable": "false"
-                },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/ColorContent",
-                "propertyLabel": "Lookup or note",
-                "remark": ""
-              }
-            ],
-            "id": "lc:RT:bf2:ColorContent",
-            "resourceURI": "http://id.loc.gov/ontologies/bibframe/ColorContent",
-            "resourceLabel": "Color content",
-            "remark": "delete?"
-          },
-          {
-            "propertyTemplates": [
-              {
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "literal",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [],
-                  "defaults": [],
-                  "valueDataType": {}
-                },
-                "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label",
-                "propertyLabel": "Digital Characteristics note",
-                "remark": "http://access.rdatoolkit.org/3.19.1.4.html"
-              }
-            ],
-            "id": "lc:RT:bf2:DigChar",
-            "resourceURI": "http://id.loc.gov/ontologies/bibframe/DigitalCharacteristic",
-            "resourceLabel": "Digital Characteristics"
-          },
-          {
-            "propertyTemplates": [
-              {
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "lookup",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [
                     "http://id.loc.gov/vocabulary/mencformat"
                   ],
                   "defaults": [],
@@ -12439,7 +12389,12 @@
                   "useValuesFrom": [
                     "http://id.loc.gov/vocabulary/mrecmedium"
                   ],
-                  "defaults": [],
+                  "defaults": [
+                    {
+                      "defaultURI": "http://id.loc.gov/vocabulary/mrecmedium/opt",
+                      "defaultLiteral": "optical"
+                    }
+                  ],
                   "valueDataType": {
                     "dataTypeURI": ""
                   },
@@ -12466,7 +12421,12 @@
                   "useValuesFrom": [
                     "http://id.loc.gov/vocabulary/mrecmedium"
                   ],
-                  "defaults": [],
+                  "defaults": [
+                    {
+                      "defaultURI": "http://id.loc.gov/vocabulary/mrecmedium/mag",
+                      "defaultLiteral": "magnetic"
+                    }
+                  ],
                   "valueDataType": {
                     "dataTypeURI": ""
                   },
@@ -12598,7 +12558,12 @@
                   "useValuesFrom": [
                     "http://id.loc.gov/vocabulary/mrectype"
                   ],
-                  "defaults": [],
+                  "defaults": [
+                    {
+                      "defaultURI": "http://id.loc.gov/vocabulary/mrectype/digital",
+                      "defaultLiteral": "digital"
+                    }
+                  ],
                   "valueDataType": {
                     "dataTypeURI": ""
                   },
@@ -12625,7 +12590,12 @@
                   "useValuesFrom": [
                     "http://id.loc.gov/vocabulary/mrectype"
                   ],
-                  "defaults": [],
+                  "defaults": [
+                    {
+                      "defaultURI": "http://id.loc.gov/vocabulary/mrectype/analog",
+                      "defaultLiteral": "analog"
+                    }
+                  ],
                   "valueDataType": {
                     "dataTypeURI": ""
                   },
@@ -13007,7 +12977,7 @@
     },
     "metadata": {
       "createDate": "2018-09-26T14:53:15.546Z",
-      "updateDate": "2022-12-09T16:11:50.601Z",
+      "updateDate": "2023-02-21T20:40:24.774Z",
       "createUser": null,
       "updateUser": null
     },

@@ -10,7 +10,12 @@
         "useValuesFrom": [
           "http://id.loc.gov/vocabulary/mrecmedium"
         ],
-        "defaults": [],
+        "defaults": [
+          {
+            "defaultURI": "http://id.loc.gov/vocabulary/mrecmedium/mag",
+            "defaultLiteral": "magnetic"
+          }
+        ],
         "valueDataType": {
           "dataTypeURI": ""
         },

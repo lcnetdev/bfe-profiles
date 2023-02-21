@@ -10,7 +10,12 @@
         "useValuesFrom": [
           "http://id.loc.gov/vocabulary/mrectype"
         ],
-        "defaults": [],
+        "defaults": [
+          {
+            "defaultURI": "http://id.loc.gov/vocabulary/mrectype/analog",
+            "defaultLiteral": "analog"
+          }
+        ],
         "valueDataType": {
           "dataTypeURI": ""
         },
