@@ -11729,11 +11729,9 @@
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [],
-                  "useValuesFrom": [
-                    "http://id.loc.gov/vocabulary/classSchemes"
-                  ],
+                  "useValuesFrom": [],
                   "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Source"
+                    "dataTypeURI": ""
                   },
                   "defaultURI": "",
                   "defaultLiteral": "",
@@ -11776,6 +11774,27 @@
             "id": "lc:RT:bf2:DDC",
             "resourceLabel": "Dewey Decimal Classification",
             "resourceURI": "http://id.loc.gov/ontologies/bibframe/ClassificationDdc"
+          },
+          {
+            "propertyTemplates": [
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "literal",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {}
+                },
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/code",
+                "propertyLabel": "Dewey Edition number"
+              }
+            ],
+            "resourceURI": "http://id.loc.gov/ontologies/bibframe/Source",
+            "id": "lc:RT:bf2:DDCEdNum",
+            "resourceLabel": "Dewey Edition number"
           },
           {
             "propertyTemplates": [
@@ -11926,7 +11945,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.059Z",
-      "updateDate": "2022-12-09T16:09:37.714Z",
+      "updateDate": "2023-02-23T20:06:35.689Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.059Z",
