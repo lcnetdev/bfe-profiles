@@ -108,7 +108,7 @@
             "defaults": [],
             "valueDataType": {}
           },
-          "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label",
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/code",
           "propertyLabel": "Dewey Edition number"
         }
       ],

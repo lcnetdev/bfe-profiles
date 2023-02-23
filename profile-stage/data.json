@@ -114,7 +114,7 @@
                   "defaults": [],
                   "valueDataType": {}
                 },
-                "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label",
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/code",
                 "propertyLabel": "Dewey Edition number"
               }
             ],
@@ -412,7 +412,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.059Z",
-      "updateDate": "2023-02-22T20:24:48.272Z",
+      "updateDate": "2023-02-23T17:01:02.123Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.059Z",
