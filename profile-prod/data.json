@@ -11728,7 +11728,9 @@
                 "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
-                  "valueTemplateRefs": [],
+                  "valueTemplateRefs": [
+                    "lc:RT:bf2:DDCEdNum"
+                  ],
                   "useValuesFrom": [],
                   "valueDataType": {
                     "dataTypeURI": ""
@@ -11745,6 +11747,25 @@
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/source",
                 "propertyLabel": "Dewey Edition number"
+              },
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "literal",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [],
+                  "defaults": [
+                    {
+                      "defaultURI": "",
+                      "defaultLiteral": "full"
+                    }
+                  ],
+                  "valueDataType": {}
+                },
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/edition",
+                "propertyLabel": "Dewey full or abridged?"
               },
               {
                 "mandatory": "false",
@@ -11945,7 +11966,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.059Z",
-      "updateDate": "2023-02-23T20:06:35.689Z",
+      "updateDate": "2023-02-23T20:07:25.808Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.059Z",

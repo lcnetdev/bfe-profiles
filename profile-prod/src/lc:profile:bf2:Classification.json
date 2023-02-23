@@ -38,7 +38,9 @@
           "type": "lookup",
           "resourceTemplates": [],
           "valueConstraint": {
-            "valueTemplateRefs": [],
+            "valueTemplateRefs": [
+              "lc:RT:bf2:DDCEdNum"
+            ],
             "useValuesFrom": [],
             "valueDataType": {
               "dataTypeURI": ""
@@ -55,6 +57,25 @@
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/source",
           "propertyLabel": "Dewey Edition number"
+        },
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "literal",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [],
+            "useValuesFrom": [],
+            "defaults": [
+              {
+                "defaultURI": "",
+                "defaultLiteral": "full"
+              }
+            ],
+            "valueDataType": {}
+          },
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/edition",
+          "propertyLabel": "Dewey full or abridged?"
         },
         {
           "mandatory": "false",
