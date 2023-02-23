@@ -1118,11 +1118,12 @@
                   },
                   "defaults": [],
                   "editable": "true",
-                  "repeatable": "true"
+                  "repeatable": "true",
+                  "remark": "http://original.rdatoolkit.org/rdachp23_rda23-12.html"
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/subject",
                 "propertyLabel": "Subjects",
-                "remark": "http://original.rdatoolkit.org/rdachp23_rda23-12.html"
+                "remark": "https://guides.loc.gov/c.php?g=1170551&p=8987775&preview=003264c97f504caf990125066b248e24"
               },
               {
                 "mandatory": "false",
@@ -2046,7 +2047,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2023-02-17T17:05:05.441Z",
+      "updateDate": "2023-02-23T20:28:27.513Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",

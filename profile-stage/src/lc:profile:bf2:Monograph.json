@@ -280,11 +280,12 @@
             },
             "defaults": [],
             "editable": "true",
-            "repeatable": "true"
+            "repeatable": "true",
+            "remark": "http://original.rdatoolkit.org/rdachp23_rda23-12.html"
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/subject",
           "propertyLabel": "Subjects",
-          "remark": "http://original.rdatoolkit.org/rdachp23_rda23-12.html"
+          "remark": "https://guides.loc.gov/c.php?g=1170551&p=8987775&preview=003264c97f504caf990125066b248e24"
         },
         {
           "mandatory": "false",
