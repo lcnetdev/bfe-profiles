@@ -42,6 +42,24 @@
           "remark": "http://original.rdatoolkit.org/19.2.html"
         },
         {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "lookup",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [],
+            "useValuesFrom": [
+              "http://id.loc.gov/authorities/demographicTerms"
+            ],
+            "defaults": [],
+            "valueDataType": {
+              "dataTypeURI": "http://id.loc.gov/ontologies/bflc/CreatorCharacteristic"
+            }
+          },
+          "propertyURI": "http://id.loc.gov/ontologies/bflc/creatorCharacteristic",
+          "propertyLabel": "Creator characteristic"
+        },
+        {
           "mandatory": "true",
           "repeatable": "true",
           "type": "resource",
