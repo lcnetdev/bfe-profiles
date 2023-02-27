@@ -887,7 +887,7 @@
                 "valueConstraint": {
                   "valueTemplateRefs": [],
                   "useValuesFrom": [
-                    "http://id.loc.gov/authorities/demographicTerms"
+                    "https://id.loc.gov/authorities/demographicTerms/suggest2?q="
                   ],
                   "defaults": [],
                   "valueDataType": {
@@ -2065,7 +2065,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2023-02-24T20:50:05.808Z",
+      "updateDate": "2023-02-27T16:48:28.372Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",
