@@ -49,7 +49,7 @@
           "valueConstraint": {
             "valueTemplateRefs": [],
             "useValuesFrom": [
-              "https://id.loc.gov/authorities/demographicTerms/suggest2?q="
+              "https://id.loc.gov/authorities/demographicTerms"
             ],
             "defaults": [],
             "valueDataType": {
