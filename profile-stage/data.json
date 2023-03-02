@@ -31770,7 +31770,7 @@
               {
                 "mandatory": "false",
                 "repeatable": "true",
-                "type": "list",
+                "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [],
@@ -31790,7 +31790,7 @@
               {
                 "mandatory": "false",
                 "repeatable": "true",
-                "type": "list",
+                "type": "literal",
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [],
@@ -32051,7 +32051,7 @@
     },
     "metadata": {
       "createDate": "2018-09-05T19:18:43.112Z",
-      "updateDate": "2023-03-02T21:08:52.211Z",
+      "updateDate": "2023-03-02T21:09:58.324Z",
       "createUser": null,
       "updateUser": null
     },

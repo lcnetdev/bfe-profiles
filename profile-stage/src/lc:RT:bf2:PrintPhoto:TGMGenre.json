@@ -3,7 +3,7 @@
     {
       "mandatory": "false",
       "repeatable": "true",
-      "type": "list",
+      "type": "lookup",
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [],
@@ -23,7 +23,7 @@
     {
       "mandatory": "false",
       "repeatable": "true",
-      "type": "list",
+      "type": "literal",
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [],
