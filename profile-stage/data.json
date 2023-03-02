@@ -31770,21 +31770,20 @@
               {
                 "mandatory": "false",
                 "repeatable": "true",
-                "type": "resource",
+                "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
-                  "valueTemplateRefs": [
-                    "lc:RT:bf2:PrintPhoto:TGMGenreSearch",
-                    "lc:RT:bf2:PrintPhoto:TGMTemporal"
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [
+                    "http://id.loc.gov/vocabulary/graphicMaterials"
                   ],
-                  "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {
-                    "dataTypeURI": "http://www.loc.gov/mads/rdf/v1#ComponentList"
+                    "dataTypeURI": ""
                   },
                   "editable": "false"
                 },
-                "propertyURI": "http://www.loc.gov/mads/rdf/v1#componentList",
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/genreForm",
                 "propertyLabel": "Search TGM",
                 "remark": ""
               },
@@ -32037,7 +32036,7 @@
     },
     "metadata": {
       "createDate": "2018-09-05T19:18:43.112Z",
-      "updateDate": "2023-02-24T20:56:47.238Z",
+      "updateDate": "2023-03-02T20:52:28.697Z",
       "createUser": null,
       "updateUser": null
     },

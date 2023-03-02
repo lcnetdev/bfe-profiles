@@ -831,21 +831,20 @@
         {
           "mandatory": "false",
           "repeatable": "true",
-          "type": "resource",
+          "type": "lookup",
           "resourceTemplates": [],
           "valueConstraint": {
-            "valueTemplateRefs": [
-              "lc:RT:bf2:PrintPhoto:TGMGenreSearch",
-              "lc:RT:bf2:PrintPhoto:TGMTemporal"
+            "valueTemplateRefs": [],
+            "useValuesFrom": [
+              "http://id.loc.gov/vocabulary/graphicMaterials"
             ],
-            "useValuesFrom": [],
             "defaults": [],
             "valueDataType": {
-              "dataTypeURI": "http://www.loc.gov/mads/rdf/v1#ComponentList"
+              "dataTypeURI": ""
             },
             "editable": "false"
           },
-          "propertyURI": "http://www.loc.gov/mads/rdf/v1#componentList",
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/genreForm",
           "propertyLabel": "Search TGM",
           "remark": ""
         },
