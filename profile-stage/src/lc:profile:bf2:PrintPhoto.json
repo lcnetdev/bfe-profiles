@@ -831,7 +831,7 @@
         {
           "mandatory": "false",
           "repeatable": "true",
-          "type": "lookup",
+          "type": "list",
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [],
@@ -851,7 +851,7 @@
         {
           "mandatory": "false",
           "repeatable": "true",
-          "type": "literal",
+          "type": "list",
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [],
