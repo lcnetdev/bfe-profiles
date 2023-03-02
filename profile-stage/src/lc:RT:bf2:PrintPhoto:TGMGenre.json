@@ -22,6 +22,20 @@
     },
     {
       "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": [],
+        "valueDataType": {}
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/genreForm",
+      "propertyLabel": "Add subdivision"
+    },
+    {
+      "mandatory": "false",
       "repeatable": "false",
       "type": "lookup",
       "resourceTemplates": [],
