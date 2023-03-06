@@ -80,13 +80,13 @@
     {
       "mandatory": "false",
       "repeatable": "true",
-      "type": "resource",
+      "type": "lookup",
       "resourceTemplates": [],
       "valueConstraint": {
-        "valueTemplateRefs": [
-          "lc:RT:bf2:Place"
+        "valueTemplateRefs": [],
+        "useValuesFrom": [
+          "http://id.loc.gov/vocabulary/countries"
         ],
-        "useValuesFrom": [],
         "defaults": [],
         "valueDataType": {
           "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Place"
