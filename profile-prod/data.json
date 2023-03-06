@@ -8410,7 +8410,7 @@
                 "valueConstraint": {
                   "valueTemplateRefs": [],
                   "useValuesFrom": [
-                    "http://id.loc.gov/authorities/names"
+                    "http://id.loc.gov/vocabulary/countries"
                   ],
                   "valueDataType": {
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Place"
@@ -9059,7 +9059,7 @@
                 "valueConstraint": {
                   "valueTemplateRefs": [],
                   "useValuesFrom": [
-                    "http://id.loc.gov/authorities/names"
+                    "http://id.loc.gov/vocabulary/countries"
                   ],
                   "defaults": [],
                   "valueDataType": {
@@ -9939,7 +9939,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2023-03-06T19:49:37.692Z",
+      "updateDate": "2023-03-06T19:52:04.249Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",
