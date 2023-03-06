@@ -20652,13 +20652,13 @@
               {
                 "mandatory": "false",
                 "repeatable": "true",
-                "type": "resource",
+                "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
-                  "valueTemplateRefs": [
-                    "lc:RT:bf2:Place"
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [
+                    "http://id.loc.gov/vocabulary/countries"
                   ],
-                  "useValuesFrom": [],
                   "valueDataType": {
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Place"
                   },
@@ -21698,7 +21698,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2023-02-21T21:41:41.676Z",
+      "updateDate": "2023-03-06T20:01:00.440Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",
