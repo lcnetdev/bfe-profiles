@@ -65,10 +65,10 @@
           "type": "resource",
           "resourceTemplates": [],
           "valueConstraint": {
-            "valueTemplateRefs": [
-              "lc:RT:bf2:Place"
+            "valueTemplateRefs": [],
+            "useValuesFrom": [
+              "http://id.loc.gov/authorities/names"
             ],
-            "useValuesFrom": [],
             "valueDataType": {
               "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Place"
             },
@@ -711,15 +711,17 @@
         {
           "mandatory": "false",
           "repeatable": "true",
-          "type": "resource",
+          "type": "lookup",
           "resourceTemplates": [],
           "valueConstraint": {
-            "valueTemplateRefs": [
-              "lc:RT:bf2:Place"
+            "valueTemplateRefs": [],
+            "useValuesFrom": [
+              "http://id.loc.gov/authorities/names"
             ],
-            "useValuesFrom": [],
             "defaults": [],
-            "valueDataType": {}
+            "valueDataType": {
+              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Place"
+            }
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/originPlace",
           "propertyLabel": "Place of origin",
