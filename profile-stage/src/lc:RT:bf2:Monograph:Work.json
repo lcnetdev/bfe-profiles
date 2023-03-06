@@ -47,7 +47,7 @@
       "valueConstraint": {
         "valueTemplateRefs": [],
         "useValuesFrom": [
-          "https://id.loc.gov/authorities/demographicTerms"
+          "http://id.loc.gov/authorities/demographicTerms"
         ],
         "defaults": [],
         "valueDataType": {
