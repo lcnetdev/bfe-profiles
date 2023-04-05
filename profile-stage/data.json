@@ -29840,6 +29840,20 @@
               {
                 "mandatory": "false",
                 "repeatable": "true",
+                "type": "literal",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {}
+                },
+                "propertyURI": "http://www.loc.gov/mads/rdf/v1#fullerName",
+                "propertyLabel": "Fuller form of name"
+              },
+              {
+                "mandatory": "false",
+                "repeatable": "true",
                 "type": "resource",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -29859,7 +29873,9 @@
                 "type": "resource",
                 "resourceTemplates": [],
                 "valueConstraint": {
-                  "valueTemplateRefs": [],
+                  "valueTemplateRefs": [
+                    "lc:RT:bf2:Agent:PersonTestID"
+                  ],
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {
@@ -29868,20 +29884,6 @@
                 },
                 "propertyLabel": "Identifiers",
                 "propertyURI": "http://www.loc.gov/mads/rdf/v1#hasIdentifier"
-              },
-              {
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "literal",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [],
-                  "defaults": [],
-                  "valueDataType": {}
-                },
-                "propertyURI": "http://www.loc.gov/mads/rdf/v1#fullerName",
-                "propertyLabel": "Fuller form of name"
               },
               {
                 "mandatory": "false",
@@ -30104,7 +30106,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.059Z",
-      "updateDate": "2023-04-05T16:05:39.139Z",
+      "updateDate": "2023-04-05T16:06:46.774Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.059Z",

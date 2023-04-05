@@ -33,6 +33,20 @@
     {
       "mandatory": "false",
       "repeatable": "true",
+      "type": "literal",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": [],
+        "valueDataType": {}
+      },
+      "propertyURI": "http://www.loc.gov/mads/rdf/v1#fullerName",
+      "propertyLabel": "Fuller form of name"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
       "type": "resource",
       "resourceTemplates": [],
       "valueConstraint": {
@@ -52,7 +66,9 @@
       "type": "resource",
       "resourceTemplates": [],
       "valueConstraint": {
-        "valueTemplateRefs": [],
+        "valueTemplateRefs": [
+          "lc:RT:bf2:Agent:PersonTestID"
+        ],
         "useValuesFrom": [],
         "defaults": [],
         "valueDataType": {
@@ -61,20 +77,6 @@
       },
       "propertyLabel": "Identifiers",
       "propertyURI": "http://www.loc.gov/mads/rdf/v1#hasIdentifier"
-    },
-    {
-      "mandatory": "false",
-      "repeatable": "true",
-      "type": "literal",
-      "resourceTemplates": [],
-      "valueConstraint": {
-        "valueTemplateRefs": [],
-        "useValuesFrom": [],
-        "defaults": [],
-        "valueDataType": {}
-      },
-      "propertyURI": "http://www.loc.gov/mads/rdf/v1#fullerName",
-      "propertyLabel": "Fuller form of name"
     },
     {
       "mandatory": "false",
