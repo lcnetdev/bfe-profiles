@@ -83,7 +83,7 @@
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [
-          "lc:RT:bf2:Agents:RWO:IdentifiedbyAuthority"
+          "lc:RT:bf2:Agent:PersonTestRWO"
         ],
         "useValuesFrom": [],
         "defaults": [],

@@ -29890,7 +29890,7 @@
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [
-                    "lc:RT:bf2:Agents:RWO:IdentifiedbyAuthority"
+                    "lc:RT:bf2:Agent:PersonTestRWO"
                   ],
                   "useValuesFrom": [],
                   "defaults": [],
@@ -30068,7 +30068,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.059Z",
-      "updateDate": "2023-04-05T15:32:36.826Z",
+      "updateDate": "2023-04-05T15:33:16.752Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.059Z",
