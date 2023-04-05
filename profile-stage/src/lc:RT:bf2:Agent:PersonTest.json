@@ -1,0 +1,35 @@
+{
+  "propertyTemplates": [
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": [],
+        "valueDataType": {}
+      },
+      "propertyLabel": "Heading",
+      "propertyURI": "http://id.loc.gov/ontologies/bflc/marcKey"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "resource",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": [],
+        "valueDataType": {}
+      },
+      "propertyURI": "http://www.loc.gov/mads/rdf/v1#hasVariant",
+      "propertyLabel": "Variant heading"
+    }
+  ],
+  "id": "lc:RT:bf2:Agent:PersonTest",
+  "resourceURI": "http://id.loc.gov/ontologies/bibframe/Person",
+  "resourceLabel": "Create Personal Name Test"
+}

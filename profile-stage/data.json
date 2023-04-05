@@ -29803,6 +29803,62 @@
             "id": "lc:RT:bf2:Agent:Identifier:Source",
             "resourceURI": "http://id.loc.gov/ontologies/bibframe/Source",
             "resourceLabel": "Source"
+          },
+          {
+            "propertyTemplates": [
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "literal",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {}
+                },
+                "propertyLabel": "Heading",
+                "propertyURI": "http://id.loc.gov/ontologies/bflc/marcKey"
+              },
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "resource",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {}
+                },
+                "propertyURI": "http://www.loc.gov/mads/rdf/v1#hasVariant",
+                "propertyLabel": "Variant heading"
+              }
+            ],
+            "id": "lc:RT:bf2:Agent:PersonTest",
+            "resourceURI": "http://id.loc.gov/ontologies/bibframe/Person",
+            "resourceLabel": "Create Personal Name Test"
+          },
+          {
+            "propertyTemplates": [
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "literal",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {}
+                },
+                "propertyURI": "http://id.loc.gov/ontologies/bflc/marcKey",
+                "propertyLabel": "Variant heading"
+              }
+            ],
+            "id": "lc:RT:bf2:Agent:PersonTest1",
+            "resourceURI": "http://www.loc.gov/mads/rdf/v1#PersonalName",
+            "resourceLabel": "Variant heading Test"
           }
         ],
         "id": "lc:profile:bf2:Agents:Attributes",
@@ -29814,7 +29870,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.059Z",
-      "updateDate": "2022-12-07T19:21:13.111Z",
+      "updateDate": "2023-04-05T14:35:17.550Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.059Z",

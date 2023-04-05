@@ -1,0 +1,21 @@
+{
+  "propertyTemplates": [
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": [],
+        "valueDataType": {}
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bflc/marcKey",
+      "propertyLabel": "Variant heading"
+    }
+  ],
+  "id": "lc:RT:bf2:Agent:PersonTest1",
+  "resourceURI": "http://www.loc.gov/mads/rdf/v1#PersonalName",
+  "resourceLabel": "Variant heading Test"
+}
