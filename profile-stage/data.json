@@ -29940,6 +29940,123 @@
             "id": "lc:RT:bf2:Agent:PersonTest1",
             "resourceURI": "http://www.loc.gov/mads/rdf/v1#PersonalName",
             "resourceLabel": "Variant heading Test"
+          },
+          {
+            "propertyTemplates": [
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "literal",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {}
+                },
+                "propertyURI": "http://www.loc.gov/mads/rdf/v1#birthDate",
+                "propertyLabel": "Birth date"
+              },
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "literal",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {}
+                },
+                "propertyURI": "http://www.loc.gov/mads/rdf/v1#deathDate",
+                "propertyLabel": "Death date"
+              },
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "literal",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {}
+                },
+                "propertyURI": "http://www.loc.gov/mads/rdf/v1#TermsOfAddressNameElement",
+                "propertyLabel": "Title"
+              },
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "literal",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {}
+                },
+                "propertyURI": "http://www.loc.gov/mads/rdf/v1#honoraryTitle",
+                "propertyLabel": "Honorary title"
+              },
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "lookup",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [
+                    "http://id.loc.gov/authorities/genreForms"
+                  ],
+                  "defaults": [],
+                  "valueDataType": {
+                    "dataTypeURI": "http://www.loc.gov/mads/rdf/v1#RWO"
+                  }
+                },
+                "propertyURI": "http://www.loc.gov/mads/rdf/v1#fieldOfActivity",
+                "propertyLabel": "Field of activity"
+              },
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "lookup",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [
+                    "http://id.loc.gov/authorities/subjects"
+                  ],
+                  "defaults": [],
+                  "valueDataType": {
+                    "dataTypeURI": "http://www.loc.gov/mads/rdf/v1#RWO"
+                  }
+                },
+                "propertyURI": "http://www.loc.gov/mads/rdf/v1#occupation",
+                "propertyLabel": "Occupation"
+              },
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "lookup",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [
+                    "http://id.loc.gov/vocabulary/languages"
+                  ],
+                  "defaults": [],
+                  "valueDataType": {
+                    "dataTypeURI": "http://www.loc.gov/mads/rdf/v1#Language"
+                  }
+                },
+                "propertyURI": "http://www.loc.gov/mads/rdf/v1#associatedLanguage",
+                "propertyLabel": "Associated language"
+              }
+            ],
+            "id": "lc:RT:bf2:Agent:PersonTestRWO",
+            "resourceURI": "http://www.loc.gov/mads/rdf/v1#RWO",
+            "resourceLabel": "Other identifying attributes (RWO)"
           }
         ],
         "id": "lc:profile:bf2:Agents:Attributes",
@@ -29951,7 +30068,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.059Z",
-      "updateDate": "2023-04-05T14:47:54.419Z",
+      "updateDate": "2023-04-05T15:32:36.826Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.059Z",
