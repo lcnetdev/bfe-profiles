@@ -52,14 +52,14 @@
       "type": "resource",
       "resourceTemplates": [],
       "valueConstraint": {
-        "valueTemplateRefs": [
-          "lc:RT:bf2:Agent:Identifier"
-        ],
+        "valueTemplateRefs": [],
         "useValuesFrom": [],
         "defaults": [],
-        "valueDataType": {}
+        "valueDataType": {
+          "dataTypeURI": ""
+        }
       },
-      "propertyLabel": "LCCN",
+      "propertyLabel": "Identifiers",
       "propertyURI": "http://www.loc.gov/mads/rdf/v1#hasIdentifier"
     },
     {
