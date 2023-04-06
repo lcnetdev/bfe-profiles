@@ -100,9 +100,7 @@
       "type": "resource",
       "resourceTemplates": [],
       "valueConstraint": {
-        "valueTemplateRefs": [
-          "lc:RT:bf2:Agents:Source"
-        ],
+        "valueTemplateRefs": [],
         "useValuesFrom": [],
         "defaults": [],
         "valueDataType": {}
@@ -112,6 +110,6 @@
     }
   ],
   "id": "lc:RT:bf2:Agent:PersonTest",
-  "resourceURI": "http://id.loc.gov/ontologies/bibframe/Person",
+  "resourceURI": "http://www.loc.gov/mads/rdf/v1#PersonalName",
   "resourceLabel": "Create Personal Name Test"
 }

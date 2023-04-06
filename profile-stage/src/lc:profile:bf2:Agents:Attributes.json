@@ -1655,9 +1655,7 @@
           "type": "resource",
           "resourceTemplates": [],
           "valueConstraint": {
-            "valueTemplateRefs": [
-              "lc:RT:bf2:Agents:Source"
-            ],
+            "valueTemplateRefs": [],
             "useValuesFrom": [],
             "defaults": [],
             "valueDataType": {}
@@ -1667,7 +1665,7 @@
         }
       ],
       "id": "lc:RT:bf2:Agent:PersonTest",
-      "resourceURI": "http://id.loc.gov/ontologies/bibframe/Person",
+      "resourceURI": "http://www.loc.gov/mads/rdf/v1#PersonalName",
       "resourceLabel": "Create Personal Name Test"
     },
     {
@@ -1843,6 +1841,55 @@
       "resourceURI": "http://www.loc.gov/mads/rdf/v1#Identifier",
       "id": "lc:RT:bf2:Agent:PersonTestID",
       "resourceLabel": "Identifiers"
+    },
+    {
+      "propertyTemplates": [
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "literal",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [],
+            "useValuesFrom": [],
+            "defaults": [],
+            "valueDataType": {}
+          },
+          "propertyURI": "http://www.loc.gov/mads/rdf/v1#citationSource",
+          "propertyLabel": "Citation source"
+        },
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "literal",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [],
+            "useValuesFrom": [],
+            "defaults": [],
+            "valueDataType": {}
+          },
+          "propertyURI": "http://www.loc.gov/mads/rdf/v1#citationNote",
+          "propertyLabel": "Citation note"
+        },
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "literal",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [],
+            "useValuesFrom": [],
+            "defaults": [],
+            "valueDataType": {}
+          },
+          "propertyURI": "http://www.loc.gov/mads/rdf/v1#citationStatus",
+          "propertyLabel": "Citation status (found or not found)"
+        }
+      ],
+      "id": "lc:RT:bf2:Agent:PersonTestSource",
+      "resourceURI": "http://www.loc.gov/mads/rdf/v1#Source",
+      "resourceLabel": "Citation source"
     }
   ],
   "id": "lc:profile:bf2:Agents:Attributes",
