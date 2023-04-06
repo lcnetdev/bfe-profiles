@@ -63,20 +63,32 @@
     {
       "mandatory": "false",
       "repeatable": "true",
-      "type": "resource",
+      "type": "literal",
       "resourceTemplates": [],
       "valueConstraint": {
-        "valueTemplateRefs": [
-          "lc:RT:bf2:Agent:PersonTestID"
-        ],
+        "valueTemplateRefs": [],
         "useValuesFrom": [],
         "defaults": [],
         "valueDataType": {
           "dataTypeURI": ""
         }
       },
-      "propertyLabel": "Identifiers",
-      "propertyURI": "http://www.loc.gov/mads/rdf/v1#hasIdentifier"
+      "propertyLabel": "LCCN",
+      "propertyURI": "http://id.loc.gov/vocabulary/identifiers/lccn"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": [],
+        "valueDataType": {}
+      },
+      "propertyURI": "http://id.loc.gov/vocabulary/identifiers/local",
+      "propertyLabel": "Other identifer \"(OCoLC) ...\""
     },
     {
       "mandatory": "false",
@@ -109,6 +121,20 @@
       },
       "propertyURI": "http://www.loc.gov/mads/rdf/v1#hasSource",
       "propertyLabel": "Sources consulted"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": [],
+        "valueDataType": {}
+      },
+      "propertyURI": "http://www.loc.gov/mads/rdf/v1#editorialNote",
+      "propertyLabel": "Editorial note"
     }
   ],
   "id": "lc:RT:bf2:Agent:PersonTest",

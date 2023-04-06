@@ -1618,20 +1618,32 @@
         {
           "mandatory": "false",
           "repeatable": "true",
-          "type": "resource",
+          "type": "literal",
           "resourceTemplates": [],
           "valueConstraint": {
-            "valueTemplateRefs": [
-              "lc:RT:bf2:Agent:PersonTestID"
-            ],
+            "valueTemplateRefs": [],
             "useValuesFrom": [],
             "defaults": [],
             "valueDataType": {
               "dataTypeURI": ""
             }
           },
-          "propertyLabel": "Identifiers",
-          "propertyURI": "http://www.loc.gov/mads/rdf/v1#hasIdentifier"
+          "propertyLabel": "LCCN",
+          "propertyURI": "http://id.loc.gov/vocabulary/identifiers/lccn"
+        },
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "literal",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [],
+            "useValuesFrom": [],
+            "defaults": [],
+            "valueDataType": {}
+          },
+          "propertyURI": "http://id.loc.gov/vocabulary/identifiers/local",
+          "propertyLabel": "Other identifer \"(OCoLC) ...\""
         },
         {
           "mandatory": "false",
@@ -1664,6 +1676,20 @@
           },
           "propertyURI": "http://www.loc.gov/mads/rdf/v1#hasSource",
           "propertyLabel": "Sources consulted"
+        },
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "literal",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [],
+            "useValuesFrom": [],
+            "defaults": [],
+            "valueDataType": {}
+          },
+          "propertyURI": "http://www.loc.gov/mads/rdf/v1#editorialNote",
+          "propertyLabel": "Editorial note"
         }
       ],
       "id": "lc:RT:bf2:Agent:PersonTest",
@@ -1757,15 +1783,15 @@
           "valueConstraint": {
             "valueTemplateRefs": [],
             "useValuesFrom": [
-              "http://id.loc.gov/authorities/genreForms"
+              "http://id.loc.gov/authorities/names"
             ],
             "defaults": [],
             "valueDataType": {
-              "dataTypeURI": "http://www.loc.gov/mads/rdf/v1#RWO"
+              "dataTypeURI": "http://www.loc.gov/mads/rdf/v1#Geographic"
             }
           },
-          "propertyURI": "http://www.loc.gov/mads/rdf/v1#fieldOfActivity",
-          "propertyLabel": "Field of activity"
+          "propertyURI": "http://www.loc.gov/mads/rdf/v1#birthPlace",
+          "propertyLabel": "Birth place"
         },
         {
           "mandatory": "false",
@@ -1775,11 +1801,12 @@
           "valueConstraint": {
             "valueTemplateRefs": [],
             "useValuesFrom": [
-              "http://id.loc.gov/authorities/subjects"
+              "http://id.loc.gov/authorities/subjects",
+              "http://id.loc.gov/authorities/demographicTerms"
             ],
             "defaults": [],
             "valueDataType": {
-              "dataTypeURI": "http://www.loc.gov/mads/rdf/v1#RWO"
+              "dataTypeURI": "http://www.loc.gov/mads/rdf/v1#Occupation"
             }
           },
           "propertyURI": "http://www.loc.gov/mads/rdf/v1#occupation",
@@ -1807,42 +1834,6 @@
       "id": "lc:RT:bf2:Agent:PersonTestRWO",
       "resourceURI": "http://www.loc.gov/mads/rdf/v1#RWO",
       "resourceLabel": "Other identifying attributes (RWO)"
-    },
-    {
-      "propertyTemplates": [
-        {
-          "mandatory": "false",
-          "repeatable": "true",
-          "type": "literal",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [],
-            "useValuesFrom": [],
-            "defaults": [],
-            "valueDataType": {}
-          },
-          "propertyURI": "http://www.loc.gov/mads/rdf/v1#idValue",
-          "propertyLabel": "Identifier",
-          "remark": ""
-        },
-        {
-          "mandatory": "false",
-          "repeatable": "true",
-          "type": "literal",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [],
-            "useValuesFrom": [],
-            "defaults": [],
-            "valueDataType": {}
-          },
-          "propertyURI": "http://www.loc.gov/mads/rdf/v1#idScheme",
-          "propertyLabel": "ID scheme"
-        }
-      ],
-      "resourceURI": "http://www.loc.gov/mads/rdf/v1#Identifier",
-      "id": "lc:RT:bf2:Agent:PersonTestID",
-      "resourceLabel": "Identifiers"
     },
     {
       "propertyTemplates": [
