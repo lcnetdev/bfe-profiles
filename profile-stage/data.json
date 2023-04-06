@@ -29907,7 +29907,9 @@
                 "type": "resource",
                 "resourceTemplates": [],
                 "valueConstraint": {
-                  "valueTemplateRefs": [],
+                  "valueTemplateRefs": [
+                    "lc:RT:bf2:Agent:PersonTestSource"
+                  ],
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
@@ -30153,7 +30155,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.059Z",
-      "updateDate": "2023-04-06T19:45:03.420Z",
+      "updateDate": "2023-04-06T19:45:41.424Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.059Z",
