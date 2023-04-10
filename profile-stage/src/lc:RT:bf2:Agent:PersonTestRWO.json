@@ -39,20 +39,6 @@
         "defaults": [],
         "valueDataType": {}
       },
-      "propertyURI": "http://www.loc.gov/mads/rdf/v1#TermsOfAddressNameElement",
-      "propertyLabel": "Title"
-    },
-    {
-      "mandatory": "false",
-      "repeatable": "true",
-      "type": "literal",
-      "resourceTemplates": [],
-      "valueConstraint": {
-        "valueTemplateRefs": [],
-        "useValuesFrom": [],
-        "defaults": [],
-        "valueDataType": {}
-      },
       "propertyURI": "http://www.loc.gov/mads/rdf/v1#honoraryTitle",
       "propertyLabel": "Honorary title"
     },

@@ -30010,20 +30010,6 @@
                   "defaults": [],
                   "valueDataType": {}
                 },
-                "propertyURI": "http://www.loc.gov/mads/rdf/v1#TermsOfAddressNameElement",
-                "propertyLabel": "Title"
-              },
-              {
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "literal",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [],
-                  "defaults": [],
-                  "valueDataType": {}
-                },
                 "propertyURI": "http://www.loc.gov/mads/rdf/v1#honoraryTitle",
                 "propertyLabel": "Honorary title"
               },
@@ -30146,7 +30132,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.059Z",
-      "updateDate": "2023-04-06T20:22:30.660Z",
+      "updateDate": "2023-04-10T14:50:06.418Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.059Z",
