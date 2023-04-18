@@ -12635,7 +12635,9 @@
                   "valueTemplateRefs": [
                     "lc:RT:bflc:Agents:PrimaryContribution"
                   ],
-                  "valueDataType": {},
+                  "valueDataType": {
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bflc/PrimaryContribution"
+                  },
                   "useValuesFrom": [],
                   "defaults": []
                 },
@@ -13606,7 +13608,7 @@
     },
     "metadata": {
       "createDate": "2019-04-11T20:45:09.452Z",
-      "updateDate": "2023-02-17T16:42:51.460Z",
+      "updateDate": "2023-04-18T14:23:01.700Z",
       "createUser": null,
       "updateUser": null
     },
