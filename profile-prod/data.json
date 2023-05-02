@@ -8405,7 +8405,7 @@
               {
                 "mandatory": "false",
                 "repeatable": "true",
-                "type": "resource",
+                "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [],
@@ -9939,7 +9939,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2023-03-06T19:52:04.249Z",
+      "updateDate": "2023-05-02T15:18:47.512Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",
@@ -10966,7 +10966,7 @@
     },
     "metadata": {
       "createDate": "2019-04-11T20:45:09.452Z",
-      "updateDate": "2023-02-21T20:45:54.819Z",
+      "updateDate": "2023-04-18T14:22:56.528Z",
       "createUser": null,
       "updateUser": null
     },
