@@ -111,11 +111,12 @@
       "valueConstraint": {
         "valueTemplateRefs": [],
         "useValuesFrom": [
-          "http://id.loc.gov/vocabulary/countries"
+          "http://id.loc.gov/authorities/names"
         ],
         "defaults": [],
         "valueDataType": {
-          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Place"
+          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Place",
+          "remark": "lookup changed to LCNAF (cataloger request)"
         }
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/originPlace",
