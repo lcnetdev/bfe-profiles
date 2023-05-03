@@ -3100,10 +3100,11 @@
                 "valueConstraint": {
                   "valueTemplateRefs": [],
                   "useValuesFrom": [
-                    "http://id.loc.gov/vocabulary/countries"
+                    "http://id.loc.gov/authorities/names"
                   ],
                   "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Place"
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Place",
+                    "remark": "lookup changed to LCNAF (cataloger request)"
                   },
                   "defaults": []
                 },
@@ -3699,11 +3700,12 @@
                 "valueConstraint": {
                   "valueTemplateRefs": [],
                   "useValuesFrom": [
-                    "http://id.loc.gov/vocabulary/countries"
+                    "http://id.loc.gov/authorities/names"
                   ],
                   "defaults": [],
                   "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Place"
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Place",
+                    "remark": "lookup changed to LCNAF (cataloger request)"
                   }
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/originPlace",
@@ -4587,7 +4589,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2023-03-06T19:52:56.365Z",
+      "updateDate": "2023-05-03T14:47:50.143Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",
