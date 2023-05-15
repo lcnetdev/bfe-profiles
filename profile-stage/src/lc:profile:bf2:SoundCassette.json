@@ -630,15 +630,17 @@
           "valueConstraint": {
             "valueTemplateRefs": [
               "lc:RT:bf2:Identifiers:LCCN",
-              "lc:RT:bf2:Identifiers:ISBN",
-              "lc:RT:bf2:Identifiers:ISMN",
-              "lc:RT:bf2:Identifiers:PubNumber",
-              "lc:RT:bf2:Identifiers:EAN",
+              "lc:RT:bf2:Identifiers:AudioIssue",
               "lc:RT:bf2:Identifiers:UPC",
-              "lc:RT:bf2:Identifiers:ISRC",
+              "lc:RT:bf2:Identifiers:EAN",
+              "lc:RT:bf2:Identifiers:ISBN",
+              "lc:RT:bf2:Identifiers:Copyright",
               "lc:RT:bf2:Identifiers:Other",
               "lc:RT:bf2:Identifiers:Local",
-              "lc:RT:bf2:Identifiers:AudioIssue"
+              "lc:RT:bf2:Identifiers:Distributor",
+              "lc:RT:bf2:Identifiers:ISRC",
+              "lc:RT:bf2:Identifiers:ISMN",
+              "lc:RT:bf2:Identifiers:Gtin14"
             ],
             "useValuesFrom": [],
             "defaults": [],
