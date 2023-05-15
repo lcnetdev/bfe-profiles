@@ -22365,11 +22365,13 @@
                     "lc:RT:bf2:Identifiers:UPC",
                     "lc:RT:bf2:Identifiers:EAN",
                     "lc:RT:bf2:Identifiers:ISBN",
+                    "lc:RT:bf2:Identifiers:Copyright",
+                    "lc:RT:bf2:Identifiers:Other",
                     "lc:RT:bf2:Identifiers:Local",
-                    "lc:RT:bf2:Identifiers:ISMN",
-                    "lc:RT:bf2:Identifiers:MusicPub",
+                    "lc:RT:bf2:Identifiers:Distributor",
                     "lc:RT:bf2:Identifiers:ISRC",
-                    "lc:RT:bf2:Identifiers:Other"
+                    "lc:RT:bf2:Identifiers:ISMN",
+                    "lc:RT:bf2:Identifiers:Gtin14"
                   ],
                   "useValuesFrom": [],
                   "valueDataType": {},
@@ -22760,7 +22762,7 @@
     "id": "2bb005e9-e706-4261-b21c-6137d6644584",
     "metadata": {
       "createDate": "2021-09-28T14:32:49.848Z",
-      "updateDate": "2023-05-15T15:14:24.896Z",
+      "updateDate": "2023-05-15T15:19:21.853Z",
       "createUser": null,
       "updateUser": null
     },
