@@ -19247,7 +19247,7 @@
             ],
             "id": "lc:RT:bf2:Identifiers:Local",
             "resourceURI": "http://id.loc.gov/ontologies/bibframe/Local",
-            "resourceLabel": "Local system number"
+            "resourceLabel": "Local system or OCLC number"
           },
           {
             "propertyTemplates": [
@@ -19881,7 +19881,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.059Z",
-      "updateDate": "2023-01-06T21:25:49.773Z",
+      "updateDate": "2023-05-15T15:30:42.229Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.059Z",

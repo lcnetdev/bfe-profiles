@@ -573,7 +573,7 @@
       ],
       "id": "lc:RT:bf2:Identifiers:Local",
       "resourceURI": "http://id.loc.gov/ontologies/bibframe/Local",
-      "resourceLabel": "Local system number"
+      "resourceLabel": "Local system or OCLC number"
     },
     {
       "propertyTemplates": [
