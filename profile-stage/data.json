@@ -22361,15 +22361,15 @@
                 "valueConstraint": {
                   "valueTemplateRefs": [
                     "lc:RT:bf2:Identifiers:LCCN",
-                    "lc:RT:bf2:Identifiers:ISBN",
-                    "lc:RT:bf2:Identifiers:ISMN",
-                    "lc:RT:bf2:Identifiers:PubNumber",
-                    "lc:RT:bf2:Identifiers:EAN",
+                    "lc:RT:bf2:Identifiers:AudioIssue",
                     "lc:RT:bf2:Identifiers:UPC",
-                    "lc:RT:bf2:Identifiers:ISRC",
-                    "lc:RT:bf2:Identifiers:Other",
+                    "lc:RT:bf2:Identifiers:EAN",
+                    "lc:RT:bf2:Identifiers:ISBN",
                     "lc:RT:bf2:Identifiers:Local",
-                    "lc:RT:bf2:Identifiers:AudioIssue"
+                    "lc:RT:bf2:Identifiers:ISMN",
+                    "lc:RT:bf2:Identifiers:MusicPub",
+                    "lc:RT:bf2:Identifiers:ISRC",
+                    "lc:RT:bf2:Identifiers:Other"
                   ],
                   "useValuesFrom": [],
                   "valueDataType": {},
@@ -22760,7 +22760,7 @@
     "id": "2bb005e9-e706-4261-b21c-6137d6644584",
     "metadata": {
       "createDate": "2021-09-28T14:32:49.848Z",
-      "updateDate": "2023-03-06T20:00:34.898Z",
+      "updateDate": "2023-05-15T15:14:24.896Z",
       "createUser": null,
       "updateUser": null
     },
@@ -26305,10 +26305,11 @@
                 "valueConstraint": {
                   "valueTemplateRefs": [],
                   "useValuesFrom": [
-                    "http://id.loc.gov/vocabulary/countries"
+                    "http://id.loc.gov/authorities/names"
                   ],
                   "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Place"
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Place",
+                    "remark": "lookup changed to LCNAF (cataloger request)"
                   },
                   "defaults": []
                 },
@@ -26969,11 +26970,12 @@
                 "valueConstraint": {
                   "valueTemplateRefs": [],
                   "useValuesFrom": [
-                    "http://id.loc.gov/vocabulary/countries"
+                    "http://id.loc.gov/authorities/names"
                   ],
                   "defaults": [],
                   "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Place"
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Place",
+                    "remark": "lookup changed to LCNAF (cataloger request)"
                   }
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/originPlace",
@@ -27854,7 +27856,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2023-03-06T19:59:40.085Z",
+      "updateDate": "2023-05-03T14:49:30.855Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",
