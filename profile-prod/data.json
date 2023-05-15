@@ -17062,15 +17062,17 @@
                 "valueConstraint": {
                   "valueTemplateRefs": [
                     "lc:RT:bf2:Identifiers:LCCN",
-                    "lc:RT:bf2:Identifiers:ISBN",
-                    "lc:RT:bf2:Identifiers:ISMN",
-                    "lc:RT:bf2:Identifiers:PubNumber",
-                    "lc:RT:bf2:Identifiers:EAN",
+                    "lc:RT:bf2:Identifiers:AudioIssue",
                     "lc:RT:bf2:Identifiers:UPC",
-                    "lc:RT:bf2:Identifiers:ISRC",
+                    "lc:RT:bf2:Identifiers:EAN",
+                    "lc:RT:bf2:Identifiers:ISBN",
+                    "lc:RT:bf2:Identifiers:Copyright",
                     "lc:RT:bf2:Identifiers:Other",
                     "lc:RT:bf2:Identifiers:Local",
-                    "lc:RT:bf2:Identifiers:AudioIssue"
+                    "lc:RT:bf2:Identifiers:Distributor",
+                    "lc:RT:bf2:Identifiers:ISRC",
+                    "lc:RT:bf2:Identifiers:ISMN",
+                    "lc:RT:bf2:Identifiers:Gtin14"
                   ],
                   "useValuesFrom": [],
                   "defaults": [],
@@ -17437,7 +17439,7 @@
     },
     "metadata": {
       "createDate": "2019-02-28T14:21:01.066Z",
-      "updateDate": "2023-03-06T19:55:54.544Z",
+      "updateDate": "2023-05-15T15:33:59.326Z",
       "createUser": null,
       "updateUser": null
     },
