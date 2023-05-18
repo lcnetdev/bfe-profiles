@@ -387,24 +387,6 @@
     {
       "mandatory": "false",
       "repeatable": "true",
-      "type": "lookup",
-      "resourceTemplates": [],
-      "valueConstraint": {
-        "valueTemplateRefs": [],
-        "useValuesFrom": [
-          "http://id.loc.gov/vocabulary/mproduction"
-        ],
-        "defaults": [],
-        "valueDataType": {
-          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/ProductionMethod"
-        }
-      },
-      "propertyURI": "http://id.loc.gov/ontologies/bibframe/productionMethod",
-      "propertyLabel": "Production Method"
-    },
-    {
-      "mandatory": "false",
-      "repeatable": "true",
       "type": "resource",
       "resourceTemplates": [],
       "valueConstraint": {
