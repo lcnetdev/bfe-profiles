@@ -292,7 +292,9 @@
               "http://id.loc.gov/vocabulary/mscript"
             ],
             "defaults": [],
-            "valueDataType": {}
+            "valueDataType": {
+              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Notation"
+            }
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/notation",
           "propertyLabel": "Script",

@@ -12919,7 +12919,9 @@
                     "http://id.loc.gov/vocabulary/mscript"
                   ],
                   "defaults": [],
-                  "valueDataType": {}
+                  "valueDataType": {
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Notation"
+                  }
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/notation",
                 "propertyLabel": "Script",
@@ -13610,7 +13612,7 @@
     },
     "metadata": {
       "createDate": "2019-04-11T20:45:09.452Z",
-      "updateDate": "2023-04-18T14:23:01.700Z",
+      "updateDate": "2023-07-18T14:20:30.482Z",
       "createUser": null,
       "updateUser": null
     },
