@@ -311,7 +311,7 @@
             ],
             "defaults": [],
             "valueDataType": {
-              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Script"
+              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Notation"
             }
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/notation",

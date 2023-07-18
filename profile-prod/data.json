@@ -10250,7 +10250,7 @@
                   ],
                   "defaults": [],
                   "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Script"
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Notation"
                   }
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/notation",
@@ -10953,7 +10953,7 @@
     },
     "metadata": {
       "createDate": "2019-04-11T20:45:09.452Z",
-      "updateDate": "2023-04-18T14:22:56.528Z",
+      "updateDate": "2023-07-18T14:18:34.520Z",
       "createUser": null,
       "updateUser": null
     },
