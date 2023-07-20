@@ -379,6 +379,25 @@
           "valueConstraint": {
             "valueTemplateRefs": [],
             "useValuesFrom": [
+              "http://id.loc.gov/vocabulary/mscript"
+            ],
+            "defaults": [],
+            "valueDataType": {
+              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Notation"
+            }
+          },
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/notation",
+          "remark": "http://access.rdatoolkit.org/7.13.2.html",
+          "propertyLabel": "Script"
+        },
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "lookup",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [],
+            "useValuesFrom": [
               "http://id.loc.gov/vocabulary/millus"
             ],
             "valueDataType": {
