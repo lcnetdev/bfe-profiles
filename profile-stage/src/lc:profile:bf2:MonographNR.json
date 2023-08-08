@@ -464,9 +464,9 @@
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/title",
           "valueConstraint": {
             "valueTemplateRefs": [
-              "lc:RT:bf2:MonographNR:InstTitle",
-              "lc:RT:bf2:MonographNR:VarTitle",
-              "lc:RT:bf2:MonographNR:ParallelTitle"
+              "lc:RT:bf2:InstanceTitle",
+              "lc:RT:bf2:Title:VarTitle",
+              "lc:RT:bf2:ParallelTitle"
             ],
             "useValuesFrom": [],
             "defaults": [],
