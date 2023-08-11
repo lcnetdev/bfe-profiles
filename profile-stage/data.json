@@ -616,29 +616,6 @@
                 "type": "resource",
                 "resourceTemplates": [],
                 "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [
-                    "http://id.loc.gov/vocabulary/mstatus"
-                  ],
-                  "defaults": [
-                    {
-                      "defaultURI": "http://id.loc.gov/vocabulary/mstatus/t",
-                      "defaultLiteral": "transcribed"
-                    }
-                  ],
-                  "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Status"
-                  }
-                },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/status",
-                "propertyLabel": "Status"
-              },
-              {
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "resource",
-                "resourceTemplates": [],
-                "valueConstraint": {
                   "valueTemplateRefs": [
                     "lc:RT:bf2:SeriesHubIssn"
                   ],
@@ -843,7 +820,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2023-08-11T14:12:39.996Z",
+      "updateDate": "2023-08-11T14:14:19.855Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",
