@@ -255,7 +255,7 @@
             "useValuesFrom": [],
             "defaults": [],
             "valueDataType": {
-              "dataTypeURI": "http://id.loc.gov/ontologies/bflc/PrimaryContribution"
+              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/PrimaryContribution"
             }
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/contribution",
