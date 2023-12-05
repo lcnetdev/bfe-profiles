@@ -13676,7 +13676,7 @@
                   ],
                   "useValuesFrom": [],
                   "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bflc/PrimaryContribution"
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/PrimaryContribution"
                   },
                   "defaults": []
                 },
@@ -15237,7 +15237,7 @@
     },
     "metadata": {
       "createDate": "2018-09-05T19:18:07.698Z",
-      "updateDate": "2023-01-26T20:50:27.138Z",
+      "updateDate": "2023-12-05T16:10:20.619Z",
       "createUser": null,
       "updateUser": null
     },
