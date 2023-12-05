@@ -21754,7 +21754,7 @@
                   ],
                   "useValuesFrom": [],
                   "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bflc/PrimaryContribution"
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/PrimaryContribution"
                   },
                   "defaults": [],
                   "editable": "true"
@@ -22788,7 +22788,7 @@
     "id": "2bb005e9-e706-4261-b21c-6137d6644584",
     "metadata": {
       "createDate": "2021-09-28T14:32:49.848Z",
-      "updateDate": "2023-05-15T15:19:21.853Z",
+      "updateDate": "2023-12-05T16:06:40.790Z",
       "createUser": null,
       "updateUser": null
     },
