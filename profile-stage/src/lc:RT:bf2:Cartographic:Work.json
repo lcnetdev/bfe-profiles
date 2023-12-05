@@ -11,7 +11,7 @@
         ],
         "useValuesFrom": [],
         "valueDataType": {
-          "dataTypeURI": "http://id.loc.gov/ontologies/bflc/PrimaryContribution"
+          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/PrimaryContribution"
         },
         "defaults": [],
         "editable": "true"
