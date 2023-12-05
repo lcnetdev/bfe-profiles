@@ -49,5 +49,5 @@
   ],
   "id": "lc:RT:bflc:Agents:PrimaryContribution",
   "resourceLabel": "Primary Contribution",
-  "resourceURI": "http://id.loc.gov/ontologies/bflc/PrimaryContribution"
+  "resourceURI": "http://id.loc.gov/ontologies/bibframe/PrimaryContribution"
 }
