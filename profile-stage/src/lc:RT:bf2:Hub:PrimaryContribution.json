@@ -41,6 +41,6 @@
   ],
   "id": "lc:RT:bf2:Hub:PrimaryContribution",
   "resourceLabel": "Primary Contributor",
-  "resourceURI": "http://id.loc.gov/ontologies/bflc/PrimaryContribution",
+  "resourceURI": "http://id.loc.gov/ontologies/bibframe/PrimaryContribution",
   "author": "NDMSO"
 }

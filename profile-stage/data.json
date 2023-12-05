@@ -33176,7 +33176,7 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bflc/PrimaryContribution"
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/PrimaryContribution"
                   }
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/contribution",
@@ -33522,7 +33522,7 @@
             ],
             "id": "lc:RT:bf2:Hub:PrimaryContribution",
             "resourceLabel": "Primary Contributor",
-            "resourceURI": "http://id.loc.gov/ontologies/bflc/PrimaryContribution",
+            "resourceURI": "http://id.loc.gov/ontologies/bibframe/PrimaryContribution",
             "author": "NDMSO"
           },
           {
@@ -33579,7 +33579,7 @@
     },
     "metadata": {
       "createDate": "2019-12-13T20:26:47.554Z",
-      "updateDate": "2022-12-06T20:55:17.623Z",
+      "updateDate": "2023-12-05T16:09:22.459Z",
       "createUser": null,
       "updateUser": null
     },
