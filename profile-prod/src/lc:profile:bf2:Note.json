@@ -136,7 +136,7 @@
             "defaults": [],
             "valueDataType": {}
           },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/noteType",
+          "propertyURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
           "propertyLabel": "Note type",
           "remark": ""
         }
