@@ -135,6 +135,42 @@
       "valueConstraint": {
         "valueTemplateRefs": [],
         "useValuesFrom": [
+          "http://id.loc.gov/vocabulary/mscale"
+        ],
+        "defaults": [],
+        "valueDataType": {
+          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Scale"
+        }
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/scale",
+      "propertyLabel": "Search Scale term",
+      "remark": "http://original.rdatoolkit.org/rdachp7_rda7-1757.html"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "resource",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [
+          "lc:RT:bf2:Cartographic:ScaleNew"
+        ],
+        "useValuesFrom": [],
+        "valueDataType": {},
+        "defaults": []
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/scale",
+      "propertyLabel": "Numeric Scale value",
+      "remark": "http://original.rdatoolkit.org/7.25.1.html"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [
           "http://id.loc.gov/vocabulary/maudience"
         ],
         "valueDataType": {
@@ -357,42 +393,6 @@
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/colorContent",
       "propertyLabel": "Color Content (lookup or note)",
       "remark": "http://original.rdatoolkit.org/7.17.html"
-    },
-    {
-      "mandatory": "false",
-      "repeatable": "true",
-      "type": "lookup",
-      "resourceTemplates": [],
-      "valueConstraint": {
-        "valueTemplateRefs": [],
-        "useValuesFrom": [
-          "http://id.loc.gov/vocabulary/mscale"
-        ],
-        "defaults": [],
-        "valueDataType": {
-          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Scale"
-        }
-      },
-      "propertyURI": "http://id.loc.gov/ontologies/bibframe/scale",
-      "propertyLabel": "Search Scale term",
-      "remark": "http://original.rdatoolkit.org/rdachp7_rda7-1757.html"
-    },
-    {
-      "mandatory": "false",
-      "repeatable": "true",
-      "type": "resource",
-      "resourceTemplates": [],
-      "valueConstraint": {
-        "valueTemplateRefs": [
-          "lc:RT:bf2:Cartographic:ScaleNew"
-        ],
-        "useValuesFrom": [],
-        "valueDataType": {},
-        "defaults": []
-      },
-      "propertyURI": "http://id.loc.gov/ontologies/bibframe/scale",
-      "propertyLabel": "Numeric Scale value",
-      "remark": "http://original.rdatoolkit.org/7.25.1.html"
     },
     {
       "mandatory": "false",
