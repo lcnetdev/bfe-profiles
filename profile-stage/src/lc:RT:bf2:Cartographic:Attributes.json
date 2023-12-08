@@ -46,10 +46,10 @@
         ],
         "defaults": [],
         "valueDataType": {
-          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Relief"
+          "dataTypeURI": "http://id.loc.gov/ontologies/bflc/Relief"
         }
       },
-      "propertyURI": "http://id.loc.gov/ontologies/bibframe/relief",
+      "propertyURI": "http://id.loc.gov/ontologies/bflc/relief",
       "propertyLabel": "Relief",
       "remark": ""
     }
