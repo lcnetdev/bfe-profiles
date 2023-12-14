@@ -34543,17 +34543,18 @@
             "propertyTemplates": [
               {
                 "mandatory": "false",
-                "repeatable": "true",
+                "repeatable": "false",
                 "type": "literal",
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [],
                   "useValuesFrom": [],
                   "valueDataType": {},
+                  "editable": "false",
                   "defaults": []
                 },
-                "propertyURI": "http://id.loc.gov/ontologies/bflc/catalogerId",
-                "propertyLabel": "Your cataloger ID (Windows ID)"
+                "propertyLabel": "Creation date",
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/creationDate"
               },
               {
                 "mandatory": "true",
@@ -34575,6 +34576,60 @@
                 "propertyURI": "http://id.loc.gov/ontologies/bflc/encodingLevel"
               },
               {
+                "mandatory": "true",
+                "repeatable": "false",
+                "type": "lookup",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [
+                    "http://id.loc.gov/vocabulary/organizations"
+                  ],
+                  "valueDataType": {
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Agent"
+                  },
+                  "editable": "false",
+                  "defaults": [
+                    {
+                      "defaultURI": "http://id.loc.gov/vocabulary/organizations/dlc",
+                      "defaultLiteral": "DLC"
+                    }
+                  ]
+                },
+                "propertyLabel": "Assigning agency",
+                "remark": "",
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/assigner"
+              },
+              {
+                "mandatory": "false",
+                "repeatable": "false",
+                "type": "literal",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [],
+                  "valueDataType": {},
+                  "editable": "false",
+                  "defaults": []
+                },
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/changeDate",
+                "propertyLabel": "Change date"
+              },
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "literal",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [],
+                  "valueDataType": {},
+                  "defaults": []
+                },
+                "propertyURI": "http://id.loc.gov/ontologies/bflc/catalogerId",
+                "propertyLabel": "Your cataloger ID (Windows ID)"
+              },
+              {
                 "mandatory": "false",
                 "repeatable": "true",
                 "type": "lookup",
@@ -34593,38 +34648,8 @@
                 "propertyLabel": "Status (new/changed/deleted)"
               },
               {
-                "mandatory": "false",
-                "repeatable": "false",
-                "type": "literal",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [],
-                  "valueDataType": {},
-                  "editable": "false",
-                  "defaults": []
-                },
-                "propertyLabel": "Creation date",
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/creationDate"
-              },
-              {
-                "mandatory": "false",
-                "repeatable": "false",
-                "type": "literal",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [],
-                  "valueDataType": {},
-                  "editable": "false",
-                  "defaults": []
-                },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/changeDate",
-                "propertyLabel": "Change date"
-              },
-              {
                 "mandatory": "true",
-                "repeatable": "false",
+                "repeatable": "true",
                 "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -34632,7 +34657,9 @@
                   "useValuesFrom": [
                     "http://id.loc.gov/vocabulary/organizations"
                   ],
-                  "valueDataType": {},
+                  "valueDataType": {
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Agent"
+                  },
                   "editable": "false",
                   "defaults": [
                     {
@@ -34641,55 +34668,9 @@
                     }
                   ]
                 },
-                "propertyLabel": "Assigning agency",
+                "propertyLabel": "Description modifier",
                 "remark": "",
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/assigner"
-              },
-              {
-                "mandatory": "true",
-                "repeatable": "true",
-                "type": "lookup",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [
-                    "http://id.loc.gov/vocabulary/marcauthen"
-                  ],
-                  "valueDataType": {},
-                  "defaults": [
-                    {
-                      "defaultURI": "http://id.loc.gov/vocabulary/marcauthen/pcc",
-                      "defaultLiteral": "pcc"
-                    }
-                  ],
-                  "editable": "false"
-                },
-                "propertyLabel": "Description authentication",
-                "remark": "",
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/descriptionAuthentication"
-              },
-              {
-                "mandatory": "true",
-                "repeatable": "true",
-                "type": "lookup",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [
-                    "http://id.loc.gov/vocabulary/descriptionConventions"
-                  ],
-                  "valueDataType": {},
-                  "editable": "false",
-                  "defaults": [
-                    {
-                      "defaultURI": "http://id.loc.gov/vocabulary/descriptionConventions/rda",
-                      "defaultLiteral": "rda"
-                    }
-                  ]
-                },
-                "propertyLabel": "Description conventions",
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/descriptionConventions",
-                "remark": ""
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/descriptionModifier"
               },
               {
                 "mandatory": "true",
@@ -34718,6 +34699,23 @@
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/descriptionLanguage"
               },
               {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "resource",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [
+                    "lc:RT:bf2:AdminMetadata:Identifier"
+                  ],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {}
+                },
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/identifiedBy",
+                "propertyLabel": "Identifier",
+                "remark": "Local Identifier"
+              },
+              {
                 "mandatory": "true",
                 "repeatable": "true",
                 "type": "lookup",
@@ -34725,20 +34723,61 @@
                 "valueConstraint": {
                   "valueTemplateRefs": [],
                   "useValuesFrom": [
-                    "http://id.loc.gov/vocabulary/organizations"
+                    "http://id.loc.gov/vocabulary/descriptionConventions"
                   ],
-                  "valueDataType": {},
+                  "valueDataType": {
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/DescriptionConventions"
+                  },
                   "editable": "false",
                   "defaults": [
                     {
-                      "defaultURI": "http://id.loc.gov/vocabulary/organizations/dlc",
-                      "defaultLiteral": "DLC"
+                      "defaultURI": "http://id.loc.gov/vocabulary/descriptionConventions/rda",
+                      "defaultLiteral": "rda"
                     }
                   ]
                 },
-                "propertyLabel": "Description modifier",
+                "propertyLabel": "Description conventions",
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/descriptionConventions",
+                "remark": ""
+              },
+              {
+                "mandatory": "false",
+                "repeatable": "false",
+                "type": "literal",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {}
+                },
+                "propertyURI": "http://id.loc.gov/ontologies/bflc/procInfo",
+                "propertyLabel": "Process Information"
+              },
+              {
+                "mandatory": "true",
+                "repeatable": "true",
+                "type": "lookup",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [
+                    "http://id.loc.gov/vocabulary/marcauthen"
+                  ],
+                  "valueDataType": {
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/DescriptionAuthentication"
+                  },
+                  "defaults": [
+                    {
+                      "defaultURI": "http://id.loc.gov/vocabulary/marcauthen/pcc",
+                      "defaultLiteral": "pcc"
+                    }
+                  ],
+                  "editable": "false"
+                },
+                "propertyLabel": "Description authentication",
                 "remark": "",
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/descriptionModifier"
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/descriptionAuthentication"
               },
               {
                 "mandatory": "false",
@@ -34758,23 +34797,6 @@
               },
               {
                 "mandatory": "false",
-                "repeatable": "true",
-                "type": "resource",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [
-                    "lc:RT:bf2:AdminMetadata:Identifier"
-                  ],
-                  "useValuesFrom": [],
-                  "defaults": [],
-                  "valueDataType": {}
-                },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/identifiedBy",
-                "propertyLabel": "Identifier",
-                "remark": "Local Identifier"
-              },
-              {
-                "mandatory": "false",
                 "repeatable": "false",
                 "type": "resource",
                 "resourceTemplates": [],
@@ -34790,20 +34812,6 @@
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/generationProcess",
                 "propertyLabel": "Generation Process"
-              },
-              {
-                "mandatory": "false",
-                "repeatable": "false",
-                "type": "literal",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [],
-                  "defaults": [],
-                  "valueDataType": {}
-                },
-                "propertyURI": "http://id.loc.gov/ontologies/bflc/procInfo",
-                "propertyLabel": "Process Information"
               },
               {
                 "mandatory": "false",
@@ -34852,7 +34860,9 @@
                   "useValuesFrom": [
                     "http://id.loc.gov/vocabulary/organizations"
                   ],
-                  "valueDataType": {},
+                  "valueDataType": {
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Agent"
+                  },
                   "editable": "false",
                   "defaults": [
                     {
@@ -34875,7 +34885,9 @@
                   "useValuesFrom": [
                     "http://id.loc.gov/vocabulary/marcauthen"
                   ],
-                  "valueDataType": {},
+                  "valueDataType": {
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/DescriptionAuthentication"
+                  },
                   "defaults": [
                     {
                       "defaultURI": "http://id.loc.gov/vocabulary/marcauthen/pcc",
@@ -34898,7 +34910,9 @@
                   "useValuesFrom": [
                     "http://id.loc.gov/vocabulary/descriptionConventions"
                   ],
-                  "valueDataType": {},
+                  "valueDataType": {
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/DescriptionConventions"
+                  },
                   "editable": "false",
                   "repeatable": "true",
                   "defaults": [
@@ -34922,7 +34936,9 @@
                   "useValuesFrom": [
                     "http://id.loc.gov/vocabulary/languages"
                   ],
-                  "valueDataType": {},
+                  "valueDataType": {
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Language"
+                  },
                   "editable": "false",
                   "repeatable": "false",
                   "defaults": [
@@ -34946,7 +34962,9 @@
                   "useValuesFrom": [
                     "http://id.loc.gov/vocabulary/organizations"
                   ],
-                  "valueDataType": {},
+                  "valueDataType": {
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Agent"
+                  },
                   "editable": "false",
                   "repeatable": "true",
                   "defaults": [
@@ -34970,7 +34988,9 @@
                   "useValuesFrom": [
                     "http://id.loc.gov/vocabulary/menclvl"
                   ],
-                  "valueDataType": {},
+                  "valueDataType": {
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bflc/EncodingLevel"
+                  },
                   "defaults": []
                 },
                 "propertyLabel": "Encoding level",
@@ -35097,7 +35117,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.056Z",
-      "updateDate": "2023-01-26T16:55:59.863Z",
+      "updateDate": "2023-12-14T20:10:28.211Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.056Z",
