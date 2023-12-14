@@ -13877,10 +13877,10 @@
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [
+                    "lc:RT:bf2:Cartographic:FileType",
                     "lc:RT:bf2:Cartographic:DataType",
                     "lc:RT:bf2:Cartographic:ObjectType",
-                    "lc:RT:bf2:Cartographic:EncodingFormat",
-                    "lc:RT:bf2:Cartographic:FileType"
+                    "lc:RT:bf2:Cartographic:EncodingFormat"
                   ],
                   "useValuesFrom": [],
                   "valueDataType": {},
@@ -14272,7 +14272,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.059Z",
-      "updateDate": "2023-02-21T20:34:35.632Z",
+      "updateDate": "2023-12-14T20:58:39.194Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.059Z",
