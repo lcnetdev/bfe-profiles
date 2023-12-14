@@ -10,12 +10,7 @@
         "useValuesFrom": [
           "http://id.loc.gov/vocabulary/mfiletype"
         ],
-        "defaults": [
-          {
-            "defaultURI": "http://id.loc.gov/vocabulary/mfiletype/image",
-            "defaultLiteral": "image file"
-          }
-        ],
+        "defaults": [],
         "valueDataType": {
           "dataTypeURI": ""
         }

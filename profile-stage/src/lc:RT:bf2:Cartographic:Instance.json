@@ -335,10 +335,10 @@
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [
+          "lc:RT:bf2:Cartographic:FileType",
           "lc:RT:bf2:Cartographic:DataType",
           "lc:RT:bf2:Cartographic:ObjectType",
-          "lc:RT:bf2:Cartographic:EncodingFormat",
-          "lc:RT:bf2:Cartographic:FileType"
+          "lc:RT:bf2:Cartographic:EncodingFormat"
         ],
         "useValuesFrom": [],
         "valueDataType": {},
