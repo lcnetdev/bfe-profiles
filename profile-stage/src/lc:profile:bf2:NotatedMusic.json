@@ -65,6 +65,39 @@
         {
           "mandatory": "false",
           "repeatable": "true",
+          "type": "literal",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [],
+            "useValuesFrom": [],
+            "defaults": [],
+            "valueDataType": {
+              "dataTypeURI": "",
+              "dataTypeLabel": "http://performedmusicontology.org/ontology/MediumType"
+            }
+          },
+          "propertyURI": "http://performedmusicontology.org/ontology/hasMediumType",
+          "propertyLabel": "has Medium Type (new)"
+        },
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "resource",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [
+              "lc:RT:bf2:NotatedMusic:MediumComp"
+            ],
+            "useValuesFrom": [],
+            "defaults": [],
+            "valueDataType": {}
+          },
+          "propertyURI": "http://performedmusicontology.org/ontology/hasMediumComponent",
+          "propertyLabel": "has Medium Component (new)"
+        },
+        {
+          "mandatory": "false",
+          "repeatable": "true",
           "type": "resource",
           "resourceTemplates": [],
           "valueConstraint": {
@@ -555,39 +588,6 @@
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/language",
           "propertyLabel": "Language",
           "remark": "http://original.rdatoolkit.org/6.11.html"
-        },
-        {
-          "mandatory": "false",
-          "repeatable": "true",
-          "type": "literal",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [],
-            "useValuesFrom": [],
-            "defaults": [],
-            "valueDataType": {
-              "dataTypeURI": "",
-              "dataTypeLabel": "http://performedmusicontology.org/ontology/MediumType"
-            }
-          },
-          "propertyURI": "http://performedmusicontology.org/ontology/hasMediumType",
-          "propertyLabel": "has Medium Type"
-        },
-        {
-          "mandatory": "false",
-          "repeatable": "true",
-          "type": "resource",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [
-              "lc:RT:bf2:NotatedMusic:MediumComp"
-            ],
-            "useValuesFrom": [],
-            "defaults": [],
-            "valueDataType": {}
-          },
-          "propertyURI": "http://performedmusicontology.org/ontology/hasMediumComponent",
-          "propertyLabel": "has Medium Component"
         },
         {
           "mandatory": "false",
