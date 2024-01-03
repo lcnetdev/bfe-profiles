@@ -35,14 +35,15 @@
     {
       "mandatory": "false",
       "repeatable": "true",
-      "type": "lookup",
+      "type": "literal",
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [],
         "useValuesFrom": [],
         "defaults": [],
         "valueDataType": {
-          "dataTypeURI": "http://performedmusicontology.org/ontology/ComponentQualifier"
+          "dataTypeURI": "",
+          "dataTypeLabel": "http://performedmusicontology.org/ontology/ComponentQualifier"
         }
       },
       "propertyURI": "http://performedmusicontology.org/ontology/hasComponentQualifier",

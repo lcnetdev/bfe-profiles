@@ -564,7 +564,8 @@
         "useValuesFrom": [],
         "defaults": [],
         "valueDataType": {
-          "dataTypeURI": "http://performedmusicontology.org/ontology/MediumType"
+          "dataTypeURI": "",
+          "dataTypeLabel": "http://performedmusicontology.org/ontology/MediumType"
         }
       },
       "propertyURI": "http://performedmusicontology.org/ontology/hasMediumType",

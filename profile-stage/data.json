@@ -24523,7 +24523,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {
-                    "dataTypeURI": "http://performedmusicontology.org/ontology/MediumType"
+                    "dataTypeURI": "",
+                    "dataTypeLabel": "http://performedmusicontology.org/ontology/MediumType"
                   }
                 },
                 "propertyURI": "http://performedmusicontology.org/ontology/hasMediumType",
@@ -25080,14 +25081,15 @@
               {
                 "mandatory": "false",
                 "repeatable": "true",
-                "type": "lookup",
+                "type": "literal",
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [],
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {
-                    "dataTypeURI": "http://performedmusicontology.org/ontology/ComponentQualifier"
+                    "dataTypeURI": "",
+                    "dataTypeLabel": "http://performedmusicontology.org/ontology/ComponentQualifier"
                   }
                 },
                 "propertyURI": "http://performedmusicontology.org/ontology/hasComponentQualifier",
@@ -25140,7 +25142,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2024-01-03T16:04:27.176Z",
+      "updateDate": "2024-01-03T16:05:43.556Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",
