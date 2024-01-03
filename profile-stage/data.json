@@ -23981,6 +23981,25 @@
                 "remark": "http://original.rdatoolkit.org/19.2.html"
               },
               {
+                "mandatory": "true",
+                "repeatable": "true",
+                "type": "resource",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [
+                    "lc:RT:bf2:WorkTitle",
+                    "lc:RT:bf2:Title:VarTitle",
+                    "lc:RT:bf2:ParallelTitle"
+                  ],
+                  "useValuesFrom": [],
+                  "valueDataType": {},
+                  "defaults": []
+                },
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/title",
+                "propertyLabel": "Title Information",
+                "remark": "http://original.rdatoolkit.org/rdachp6_rda6-1935.html"
+              },
+              {
                 "mandatory": "false",
                 "repeatable": "true",
                 "type": "resource",
@@ -23999,25 +24018,6 @@
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/genreForm",
                 "propertyLabel": "Form/Genre",
                 "remark": "http://original.rdatoolkit.org/6.3.html"
-              },
-              {
-                "mandatory": "true",
-                "repeatable": "true",
-                "type": "resource",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [
-                    "lc:RT:bf2:WorkTitle",
-                    "lc:RT:bf2:Title:VarTitle",
-                    "lc:RT:bf2:ParallelTitle"
-                  ],
-                  "useValuesFrom": [],
-                  "valueDataType": {},
-                  "defaults": []
-                },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/title",
-                "propertyLabel": "Title Information",
-                "remark": "http://original.rdatoolkit.org/rdachp6_rda6-1935.html"
               },
               {
                 "mandatory": "false",
@@ -25142,7 +25142,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2024-01-03T16:05:43.556Z",
+      "updateDate": "2024-01-03T16:42:53.294Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",
