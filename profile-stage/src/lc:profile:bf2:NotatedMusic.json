@@ -70,7 +70,7 @@
           "valueConstraint": {
             "valueTemplateRefs": [],
             "useValuesFrom": [
-              "https://preprod-8288.id.loc.gov/vocabulary/pmocomponent"
+              "https://preprod-8288.id.loc.gov/vocabulary/pmomedtype"
             ],
             "defaults": [],
             "valueDataType": {

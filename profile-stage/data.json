@@ -24027,7 +24027,7 @@
                 "valueConstraint": {
                   "valueTemplateRefs": [],
                   "useValuesFrom": [
-                    "https://preprod-8288.id.loc.gov/vocabulary/pmocomponent"
+                    "https://preprod-8288.id.loc.gov/vocabulary/pmomedtype"
                   ],
                   "defaults": [],
                   "valueDataType": {
@@ -25146,7 +25146,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2024-01-25T20:55:13.072Z",
+      "updateDate": "2024-01-25T21:28:14.570Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",
