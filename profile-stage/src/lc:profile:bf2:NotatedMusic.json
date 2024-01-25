@@ -1133,7 +1133,7 @@
             ],
             "defaults": [],
             "valueDataType": {
-              "dataTypeURI": "http://performedmusicontology.org/ontology/ComponentQualifier",
+              "dataTypeURI": "http://performedmusicontology.org/ontology/MediumComponentQualifier",
               "dataTypeLabel": "http://performedmusicontology.org/ontology/ComponentQualifier"
             }
           },

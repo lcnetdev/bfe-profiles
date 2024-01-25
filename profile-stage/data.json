@@ -25090,7 +25090,7 @@
                   ],
                   "defaults": [],
                   "valueDataType": {
-                    "dataTypeURI": "http://performedmusicontology.org/ontology/ComponentQualifier",
+                    "dataTypeURI": "http://performedmusicontology.org/ontology/MediumComponentQualifier",
                     "dataTypeLabel": "http://performedmusicontology.org/ontology/ComponentQualifier"
                   }
                 },
@@ -25144,7 +25144,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2024-01-25T17:45:33.367Z",
+      "updateDate": "2024-01-25T17:47:25.187Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",
