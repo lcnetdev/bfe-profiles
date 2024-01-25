@@ -25081,14 +25081,16 @@
               {
                 "mandatory": "false",
                 "repeatable": "true",
-                "type": "literal",
+                "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [],
-                  "useValuesFrom": [],
+                  "useValuesFrom": [
+                    "http://id.loc.gov/vocabulary/pmocomponent"
+                  ],
                   "defaults": [],
                   "valueDataType": {
-                    "dataTypeURI": "",
+                    "dataTypeURI": "http://performedmusicontology.org/ontology/ComponentQualifier",
                     "dataTypeLabel": "http://performedmusicontology.org/ontology/ComponentQualifier"
                   }
                 },
@@ -25142,7 +25144,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2024-01-24T20:46:17.103Z",
+      "updateDate": "2024-01-25T17:44:09.681Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",

@@ -1124,14 +1124,16 @@
         {
           "mandatory": "false",
           "repeatable": "true",
-          "type": "literal",
+          "type": "lookup",
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [],
-            "useValuesFrom": [],
+            "useValuesFrom": [
+              "http://id.loc.gov/vocabulary/pmocomponent"
+            ],
             "defaults": [],
             "valueDataType": {
-              "dataTypeURI": "",
+              "dataTypeURI": "http://performedmusicontology.org/ontology/ComponentQualifier",
               "dataTypeLabel": "http://performedmusicontology.org/ontology/ComponentQualifier"
             }
           },
