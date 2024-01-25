@@ -1129,7 +1129,7 @@
           "valueConstraint": {
             "valueTemplateRefs": [],
             "useValuesFrom": [
-              "http://id.loc.gov/vocabulary/pmocomponent"
+              "https://preprod-8080.id.loc.gov/vocabulary/pmocomponent"
             ],
             "defaults": [],
             "valueDataType": {
