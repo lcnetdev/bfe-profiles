@@ -24022,14 +24022,16 @@
               {
                 "mandatory": "false",
                 "repeatable": "true",
-                "type": "literal",
+                "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [],
-                  "useValuesFrom": [],
+                  "useValuesFrom": [
+                    "https://preprod-8288.id.loc.gov/vocabulary/pmocomponent"
+                  ],
                   "defaults": [],
                   "valueDataType": {
-                    "dataTypeURI": "",
+                    "dataTypeURI": "http://performedmusicontology.org/ontology/MediumType",
                     "dataTypeLabel": "http://performedmusicontology.org/ontology/MediumType"
                   }
                 },
@@ -25144,7 +25146,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2024-01-25T17:47:25.187Z",
+      "updateDate": "2024-01-25T20:55:13.072Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",

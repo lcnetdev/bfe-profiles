@@ -65,14 +65,16 @@
         {
           "mandatory": "false",
           "repeatable": "true",
-          "type": "literal",
+          "type": "lookup",
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [],
-            "useValuesFrom": [],
+            "useValuesFrom": [
+              "https://preprod-8288.id.loc.gov/vocabulary/pmocomponent"
+            ],
             "defaults": [],
             "valueDataType": {
-              "dataTypeURI": "",
+              "dataTypeURI": "http://performedmusicontology.org/ontology/MediumType",
               "dataTypeLabel": "http://performedmusicontology.org/ontology/MediumType"
             }
           },
