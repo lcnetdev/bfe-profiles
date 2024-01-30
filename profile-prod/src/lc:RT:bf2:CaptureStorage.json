@@ -16,12 +16,12 @@
         },
         "editable": "false"
       },
-      "propertyURI": "http://id.loc.gov/ontologies/bflc/CaptureStorage",
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/CaptureStorage",
       "propertyLabel": "Lookup",
       "remark": ""
     }
   ],
-  "resourceURI": "http://id.loc.gov/ontologies/bflc/CaptureStorage",
+  "resourceURI": "http://id.loc.gov/ontologies/bibframe/CaptureStorage",
   "resourceLabel": "Capture and Storage",
   "remark": "",
   "id": "lc:RT:bf2:CaptureStorage"
