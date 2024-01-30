@@ -17,7 +17,7 @@
         },
         "editable": "false"
       },
-      "propertyURI": "http://id.loc.gov/ontologies/bflc/CaptureStorage",
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/CaptureStorage",
       "propertyLabel": "Lookup",
       "remark": ""
     }

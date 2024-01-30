@@ -6791,7 +6791,7 @@
                   },
                   "editable": "false"
                 },
-                "propertyURI": "http://id.loc.gov/ontologies/bflc/CaptureStorage",
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/CaptureStorage",
                 "propertyLabel": "Lookup",
                 "remark": ""
               }
@@ -7606,7 +7606,7 @@
     },
     "metadata": {
       "createDate": "2018-09-26T14:53:15.546Z",
-      "updateDate": "2023-12-05T16:21:48.803Z",
+      "updateDate": "2024-01-30T15:11:59.771Z",
       "createUser": null,
       "updateUser": null
     },
