@@ -40,6 +40,6 @@
     }
   ],
   "id": "lc:RT:bf2:Hub:PrimaryContribution",
-  "resourceURI": "http://id.loc.gov/ontologies/bflc/PrimaryContribution",
+  "resourceURI": "http://id.loc.gov/ontologies/bibframe/PrimaryContribution",
   "resourceLabel": "Primary Contributor"
 }

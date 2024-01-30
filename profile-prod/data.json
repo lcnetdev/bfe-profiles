@@ -21993,7 +21993,7 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bflc/PrimaryContribution"
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/PrimaryContribution"
                   }
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/contribution",
@@ -22336,7 +22336,7 @@
               }
             ],
             "id": "lc:RT:bf2:Hub:PrimaryContribution",
-            "resourceURI": "http://id.loc.gov/ontologies/bflc/PrimaryContribution",
+            "resourceURI": "http://id.loc.gov/ontologies/bibframe/PrimaryContribution",
             "resourceLabel": "Primary Contributor"
           },
           {
@@ -22396,7 +22396,7 @@
     },
     "metadata": {
       "createDate": "2019-12-13T20:26:47.554Z",
-      "updateDate": "2022-10-24T19:37:28.830Z",
+      "updateDate": "2024-01-30T15:11:27.488Z",
       "createUser": null,
       "updateUser": null
     },
