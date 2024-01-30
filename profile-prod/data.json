@@ -18535,7 +18535,7 @@
             ],
             "id": "lc:RT:bflc:Agents:PrimaryContribution",
             "resourceLabel": "Primary Contribution",
-            "resourceURI": "http://id.loc.gov/ontologies/bflc/PrimaryContribution"
+            "resourceURI": "http://id.loc.gov/ontologies/bibframe/PrimaryContribution"
           }
         ],
         "author": "NDMSO",
@@ -18547,7 +18547,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.059Z",
-      "updateDate": "2022-05-27T13:21:49.582Z",
+      "updateDate": "2024-01-30T15:01:41.929Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.059Z",
