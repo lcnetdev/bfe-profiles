@@ -26171,10 +26171,10 @@
                   ],
                   "defaults": [],
                   "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bflc/Relief"
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Relief"
                   }
                 },
-                "propertyURI": "http://id.loc.gov/ontologies/bflc/relief",
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/relief",
                 "propertyLabel": "Relief",
                 "remark": ""
               }
@@ -26372,7 +26372,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.059Z",
-      "updateDate": "2023-12-14T21:03:12.377Z",
+      "updateDate": "2024-01-30T15:12:30.591Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.059Z",
