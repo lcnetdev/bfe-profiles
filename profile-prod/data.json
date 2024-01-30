@@ -12181,7 +12181,7 @@
                   },
                   "editable": "false"
                 },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/CaptureStorage",
+                "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
                 "propertyLabel": "Lookup",
                 "remark": ""
               }
@@ -13050,7 +13050,7 @@
     },
     "metadata": {
       "createDate": "2018-09-26T14:53:15.546Z",
-      "updateDate": "2024-01-30T15:06:19.713Z",
+      "updateDate": "2024-01-30T15:19:27.082Z",
       "createUser": null,
       "updateUser": null
     },
