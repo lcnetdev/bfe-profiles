@@ -23657,7 +23657,7 @@
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [
-                    "lc:RT:bf2:Item:Collection"
+                    "lc:RT:bf2:Agents:Contribution"
                   ],
                   "useValuesFrom": [],
                   "valueDataType": {
@@ -24018,7 +24018,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2023-12-05T16:06:02.931Z",
+      "updateDate": "2024-02-01T21:36:23.881Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",
