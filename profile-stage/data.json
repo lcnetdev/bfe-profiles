@@ -1777,7 +1777,7 @@
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [
-                    "lc:RT:bf2:Monograph:Item"
+                    "lc:RT:bf2:Item:Description"
                   ],
                   "useValuesFrom": [],
                   "valueDataType": {
@@ -2085,7 +2085,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2023-12-05T16:04:47.069Z",
+      "updateDate": "2024-02-01T17:19:04.478Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",

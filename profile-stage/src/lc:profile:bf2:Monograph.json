@@ -939,7 +939,7 @@
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [
-              "lc:RT:bf2:Monograph:Item"
+              "lc:RT:bf2:Item:Description"
             ],
             "useValuesFrom": [],
             "valueDataType": {
