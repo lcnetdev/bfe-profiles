@@ -2459,7 +2459,7 @@
                   "defaults": []
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/status",
-                "propertyLabel": "Incorrect, Invalid or Canceled?"
+                "propertyLabel": "Invalid/Canceled?"
               }
             ],
             "id": "lc:RT:bf2:Identifiers:ISBN",
@@ -2590,7 +2590,7 @@
                   "defaults": []
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/status",
-                "propertyLabel": "Incorrect, Invalid or Canceled?"
+                "propertyLabel": "Incorrect or Canceled?"
               }
             ],
             "id": "lc:RT:bf2:Identifiers:ISSN",
@@ -2647,7 +2647,7 @@
                   "defaults": []
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/status",
-                "propertyLabel": "Incorrect, Invalid or Canceled?"
+                "propertyLabel": "Incorrect or Canceled?"
               }
             ],
             "id": "lc:RT:bf2:Identifiers:ISSNL",
@@ -2744,7 +2744,7 @@
                   }
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/status",
-                "propertyLabel": "Invalid or Canceled?"
+                "propertyLabel": "Invalid/Canceled?"
               }
             ],
             "id": "lc:RT:bf2:Identifiers:Local",
@@ -3420,7 +3420,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.059Z",
-      "updateDate": "2023-05-15T15:14:48.670Z",
+      "updateDate": "2024-02-05T17:26:30.450Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.059Z",
