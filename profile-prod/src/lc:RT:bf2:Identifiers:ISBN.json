@@ -47,7 +47,7 @@
         "defaults": []
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/status",
-      "propertyLabel": "Incorrect, Invalid or Canceled?"
+      "propertyLabel": "Invalid/Canceled?"
     }
   ],
   "id": "lc:RT:bf2:Identifiers:ISBN",
