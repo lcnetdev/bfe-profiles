@@ -17147,9 +17147,7 @@
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [
-                    "lc:RT:bf2:GPOClass",
-                    "lc:RT:bf2:LCC",
-                    "lc:RT:bf2:DDC"
+                    "lc:RT:bf2:LCC"
                   ],
                   "useValuesFrom": [],
                   "valueDataType": {},
@@ -17165,14 +17163,14 @@
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [
-                    "lc:RT:bf2:Contents"
+                    "lc:RT:bf2:Components"
                   ],
                   "useValuesFrom": [],
-                  "valueDataType": {},
-                  "defaults": []
+                  "defaults": [],
+                  "valueDataType": {}
                 },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/tableOfContents",
-                "propertyLabel": "Contents"
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/subject",
+                "propertyLabel": "Subjects"
               },
               {
                 "mandatory": "false",
@@ -17189,25 +17187,6 @@
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/adminMetadata",
                 "propertyLabel": "Admin Metadata"
-              },
-              {
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "resource",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [
-                    "lc:RT:bf2:Form:Geog"
-                  ],
-                  "useValuesFrom": [],
-                  "valueDataType": {},
-                  "defaults": [],
-                  "editable": "true",
-                  "repeatable": "true"
-                },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/geographicCoverage",
-                "propertyLabel": "(Geographic) Coverage of the Content",
-                "remark": "https://original.rdatoolkit.org/7.3.html"
               }
             ],
             "id": "lc:RT:bf2:GPOMono:Work",
@@ -17977,7 +17956,7 @@
     "id": "ad1be991-aeec-4a4f-81c4-891a829ae3e4",
     "metadata": {
       "createDate": "2022-05-10T19:35:43.872Z",
-      "updateDate": "2024-02-05T16:22:48.494Z",
+      "updateDate": "2024-02-05T16:26:02.340Z",
       "createUser": null,
       "updateUser": null
     },
