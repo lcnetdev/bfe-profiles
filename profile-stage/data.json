@@ -17171,22 +17171,6 @@
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/subject",
                 "propertyLabel": "Subjects"
-              },
-              {
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "resource",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [
-                    "lc:RT:bf2:GPOMono:AdminMetadata"
-                  ],
-                  "useValuesFrom": [],
-                  "defaults": [],
-                  "valueDataType": {}
-                },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/adminMetadata",
-                "propertyLabel": "Admin Metadata"
               }
             ],
             "id": "lc:RT:bf2:GPOMono:Work",
@@ -17953,7 +17937,7 @@
     "id": "ad1be991-aeec-4a4f-81c4-891a829ae3e4",
     "metadata": {
       "createDate": "2022-05-10T19:35:43.872Z",
-      "updateDate": "2024-02-05T16:28:47.530Z",
+      "updateDate": "2024-02-05T16:30:11.569Z",
       "createUser": null,
       "updateUser": null
     },

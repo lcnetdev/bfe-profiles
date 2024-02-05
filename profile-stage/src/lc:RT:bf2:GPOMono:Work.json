@@ -113,22 +113,6 @@
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/subject",
       "propertyLabel": "Subjects"
-    },
-    {
-      "mandatory": "false",
-      "repeatable": "true",
-      "type": "resource",
-      "resourceTemplates": [],
-      "valueConstraint": {
-        "valueTemplateRefs": [
-          "lc:RT:bf2:GPOMono:AdminMetadata"
-        ],
-        "useValuesFrom": [],
-        "defaults": [],
-        "valueDataType": {}
-      },
-      "propertyURI": "http://id.loc.gov/ontologies/bibframe/adminMetadata",
-      "propertyLabel": "Admin Metadata"
     }
   ],
   "id": "lc:RT:bf2:GPOMono:Work",
