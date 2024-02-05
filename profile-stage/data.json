@@ -17213,43 +17213,6 @@
                 "repeatable": "false"
               },
               {
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "resource",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [
-                    "lc:RT:bf2:PubInfoNew",
-                    "lc:RT:bf2:DistInfoNew",
-                    "lc:RT:bf2:ManuInfoNew",
-                    "lc:RT:bf2:ProdInfoNew"
-                  ],
-                  "useValuesFrom": [],
-                  "valueDataType": {},
-                  "defaults": []
-                },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/provisionActivity",
-                "propertyLabel": "Provision Activity",
-                "remark": ""
-              },
-              {
-                "propertyLabel": "Extent",
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/extent",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [
-                    "lc:RT:bf2:Extent"
-                  ],
-                  "useValuesFrom": [],
-                  "valueDataType": {},
-                  "defaults": []
-                },
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "resource",
-                "remark": "https://original.rdatoolkit.org/3.4.html"
-              },
-              {
                 "propertyLabel": "Title Information",
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/title",
                 "resourceTemplates": [],
@@ -17278,52 +17241,12 @@
                 "valueConstraint": {
                   "valueTemplateRefs": [],
                   "useValuesFrom": [],
-                  "defaults": [],
-                  "valueDataType": {}
-                },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/seriesStatement",
-                "propertyLabel": "Series Statement"
-              },
-              {
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "literal",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [],
                   "valueDataType": {},
                   "defaults": []
                 },
                 "propertyLabel": "Statement of Responsibility",
                 "remark": "https://original.rdatoolkit.org/2.4.2.html",
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/responsibilityStatement"
-              },
-              {
-                "mandatory": "true",
-                "repeatable": "true",
-                "type": "lookup",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [
-                    "http://id.loc.gov/vocabulary/issuance"
-                  ],
-                  "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Issuance"
-                  },
-                  "editable": "false",
-                  "repeatable": "true",
-                  "defaults": [
-                    {
-                      "defaultURI": "http://id.loc.gov/vocabulary/issuance/mono",
-                      "defaultLiteral": "single unit"
-                    }
-                  ]
-                },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/issuance",
-                "propertyLabel": "Mode of Issuance",
-                "remark": "https://original.rdatoolkit.org/2.13.html"
               },
               {
                 "propertyLabel": "Edition Statement",
@@ -17341,19 +17264,76 @@
                 "remark": "https://original.rdatoolkit.org/2.5.html"
               },
               {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "resource",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [
+                    "lc:RT:bf2:PubInfoNew",
+                    "lc:RT:bf2:DistInfoNew",
+                    "lc:RT:bf2:ManuInfoNew",
+                    "lc:RT:bf2:ProdInfoNew"
+                  ],
+                  "useValuesFrom": [],
+                  "valueDataType": {},
+                  "defaults": []
+                },
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/provisionActivity",
+                "propertyLabel": "Provision Activity",
+                "remark": ""
+              },
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "literal",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {}
+                },
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/seriesStatement",
+                "propertyLabel": "Series Statement"
+              },
+              {
+                "mandatory": "true",
+                "repeatable": "true",
+                "type": "lookup",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [
+                    "http://id.loc.gov/vocabulary/issuance"
+                  ],
+                  "valueDataType": {
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Carrier"
+                  },
+                  "editable": "false",
+                  "repeatable": "true",
+                  "defaults": [
+                    {
+                      "defaultURI": "http://id.loc.gov/vocabulary/carriers/nc",
+                      "defaultLiteral": "volume"
+                    }
+                  ]
+                },
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/carrier",
+                "propertyLabel": "Carrier",
+                "remark": ""
+              },
+              {
                 "propertyLabel": "Identifiers",
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/identifiedBy",
                 "resourceTemplates": [],
                 "type": "resource",
                 "valueConstraint": {
                   "valueTemplateRefs": [
-                    "lc:RT:bf2:Identifiers:GPONumber",
+                    "lc:RT:bf2:Identifiers:LCCN",
                     "lc:RT:bf2:Identifiers:ISBN",
                     "lc:RT:bf2:Identifiers:Local",
-                    "lc:RT:bf2:Identifiers:Other",
-                    "lc:RT:bf2:Identifiers:ReportNum",
-                    "lc:RT:bf2:Identifiers:STRN",
-                    "lc:RT:bf2:Identifiers:LCCN"
+                    "lc:RT:bf2:Identifiers:Other"
                   ],
                   "useValuesFrom": [],
                   "valueDataType": {},
@@ -17362,6 +17342,23 @@
                 "mandatory": "false",
                 "repeatable": "true",
                 "remark": ""
+              },
+              {
+                "propertyLabel": "Extent",
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/extent",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [
+                    "lc:RT:bf2:Extent"
+                  ],
+                  "useValuesFrom": [],
+                  "valueDataType": {},
+                  "defaults": []
+                },
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "resource",
+                "remark": "https://original.rdatoolkit.org/3.4.html"
               }
             ],
             "resourceLabel": "BIBFRAME Instance",
@@ -17956,7 +17953,7 @@
     "id": "ad1be991-aeec-4a4f-81c4-891a829ae3e4",
     "metadata": {
       "createDate": "2022-05-10T19:35:43.872Z",
-      "updateDate": "2024-02-05T16:26:02.340Z",
+      "updateDate": "2024-02-05T16:28:47.530Z",
       "createUser": null,
       "updateUser": null
     },
