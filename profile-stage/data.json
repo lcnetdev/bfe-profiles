@@ -23499,16 +23499,18 @@
               {
                 "mandatory": "false",
                 "repeatable": "true",
-                "type": "literal",
+                "type": "resource",
                 "resourceTemplates": [],
                 "valueConstraint": {
-                  "valueTemplateRefs": [],
+                  "valueTemplateRefs": [
+                    "lc:RT:bf2:MOPStatement"
+                  ],
                   "useValuesFrom": [],
-                  "defaults": [],
-                  "valueDataType": {}
+                  "valueDataType": {},
+                  "defaults": []
                 },
-                "propertyURI": "http://id.loc.gov/ontologies/bflc/readMarc382",
-                "propertyLabel": "MARC 382 field"
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/musicMedium",
+                "propertyLabel": "Medium of Performance (MARC 382)"
               },
               {
                 "mandatory": "false",
@@ -23580,22 +23582,6 @@
                 },
                 "propertyURI": "http://performedmusicontology.org/ontology/hasMedium",
                 "propertyLabel": "Declared/Doubling Medium"
-              },
-              {
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "resource",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [
-                    "lc:RT:bf2:MOPStatement"
-                  ],
-                  "useValuesFrom": [],
-                  "valueDataType": {},
-                  "defaults": []
-                },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/musicMedium",
-                "propertyLabel": "Medium of Performance Statement"
               },
               {
                 "mandatory": "false",
@@ -24637,7 +24623,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2024-02-12T19:27:26.418Z",
+      "updateDate": "2024-02-12T19:31:49.202Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",
