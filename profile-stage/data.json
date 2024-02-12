@@ -7497,27 +7497,9 @@
                   "defaults": [],
                   "valueDataType": {}
                 },
-                "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label",
+                "propertyURI": "http://id.loc.gov/ontologies/bflc/readMarc382",
                 "propertyLabel": "Medium of performance",
                 "remark": "http://original.rdatoolkit.org/7.21.html"
-              },
-              {
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "lookup",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [
-                    "http://id.loc.gov/vocabulary/mstatus"
-                  ],
-                  "defaults": [],
-                  "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Status"
-                  }
-                },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/status",
-                "propertyLabel": "Status (partial)"
               }
             ],
             "id": "lc:RT:bf2:MOPStatement",
@@ -7606,7 +7588,7 @@
     },
     "metadata": {
       "createDate": "2018-09-26T14:53:15.546Z",
-      "updateDate": "2024-01-30T15:20:39.467Z",
+      "updateDate": "2024-02-12T19:32:21.493Z",
       "createUser": null,
       "updateUser": null
     },
