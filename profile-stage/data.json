@@ -23499,20 +23499,6 @@
               {
                 "mandatory": "false",
                 "repeatable": "true",
-                "type": "literal",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [],
-                  "defaults": [],
-                  "valueDataType": {}
-                },
-                "propertyURI": "http://id.loc.gov/ontologies/bflc/readMarc382",
-                "propertyLabel": "MARC 382 field"
-              },
-              {
-                "mandatory": "false",
-                "repeatable": "true",
                 "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -24637,7 +24623,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2024-02-12T14:26:14.095Z",
+      "updateDate": "2024-02-12T14:27:19.758Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",
