@@ -74,7 +74,7 @@
         "defaults": []
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/musicMedium",
-      "propertyLabel": "Medium of Performance (MARC 382)"
+      "propertyLabel": "Medium of Performance statements"
     },
     {
       "mandatory": "false",
@@ -89,7 +89,7 @@
         "defaults": [],
         "valueDataType": {
           "dataTypeURI": "http://performedmusicontology.org/ontology/MediumType",
-          "dataTypeLabel": "http://performedmusicontology.org/ontology/MediumType"
+          "dataTypeLabel": ""
         }
       },
       "propertyURI": "http://performedmusicontology.org/ontology/hasMediumType",
