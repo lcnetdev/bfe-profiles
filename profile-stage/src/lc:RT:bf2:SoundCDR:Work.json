@@ -112,7 +112,41 @@
         "defaults": []
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/musicMedium",
-      "propertyLabel": "Medium of Performance Statement"
+      "propertyLabel": "Medium of Performance statements"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [
+          "https://preprod-8288.id.loc.gov/vocabulary/pmomedtype"
+        ],
+        "defaults": [],
+        "valueDataType": {
+          "dataTypeURI": "http://performedmusicontology.org/ontology/MediumType"
+        }
+      },
+      "propertyURI": "http://performedmusicontology.org/ontology/hasMediumType",
+      "propertyLabel": "has Medium Type (new)"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "resource",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [
+          "lc:RT:bf2:NotatedMusic:MediumComp"
+        ],
+        "useValuesFrom": [],
+        "defaults": [],
+        "valueDataType": {}
+      },
+      "propertyURI": "http://performedmusicontology.org/ontology/hasMediumComponent",
+      "propertyLabel": "has Medium Component (new)"
     },
     {
       "mandatory": "false",
@@ -482,40 +516,6 @@
       },
       "propertyURI": "http://id.loc.gov/ontologies/bflc/relationship",
       "propertyLabel": "Related work not in LC catalog"
-    },
-    {
-      "mandatory": "false",
-      "repeatable": "true",
-      "type": "lookup",
-      "resourceTemplates": [],
-      "valueConstraint": {
-        "valueTemplateRefs": [],
-        "useValuesFrom": [
-          "https://preprod-8288.id.loc.gov/vocabulary/pmomedtype"
-        ],
-        "defaults": [],
-        "valueDataType": {
-          "dataTypeURI": "http://performedmusicontology.org/ontology/MediumType"
-        }
-      },
-      "propertyURI": "http://performedmusicontology.org/ontology/hasMediumType",
-      "propertyLabel": "has Medium Type (new)"
-    },
-    {
-      "mandatory": "false",
-      "repeatable": "true",
-      "type": "resource",
-      "resourceTemplates": [],
-      "valueConstraint": {
-        "valueTemplateRefs": [
-          "lc:RT:bf2:NotatedMusic:MediumComp"
-        ],
-        "useValuesFrom": [],
-        "defaults": [],
-        "valueDataType": {}
-      },
-      "propertyURI": "http://performedmusicontology.org/ontology/hasMediumComponent",
-      "propertyLabel": "has Medium Component (new)"
     },
     {
       "mandatory": "false",
