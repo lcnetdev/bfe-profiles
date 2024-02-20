@@ -12,8 +12,22 @@
         "valueDataType": {}
       },
       "propertyURI": "http://id.loc.gov/ontologies/bflc/readMarc382",
-      "propertyLabel": "Medium of performance",
+      "propertyLabel": "MARC 382 field",
       "remark": "http://original.rdatoolkit.org/7.21.html"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": [],
+        "valueDataType": {}
+      },
+      "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label",
+      "propertyLabel": "Medium of Performance text"
     }
   ],
   "id": "lc:RT:bf2:MOPStatement",
