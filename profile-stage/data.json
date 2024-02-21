@@ -18089,7 +18089,7 @@
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [
-                    "lc:RT:bf2:NotatedMusic:MediumComp"
+                    "lc:RT:bf2:SoundCDR:MediumComp"
                   ],
                   "useValuesFrom": [],
                   "defaults": [],
@@ -19147,7 +19147,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2024-02-21T20:29:33.652Z",
+      "updateDate": "2024-02-21T20:30:17.566Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",
