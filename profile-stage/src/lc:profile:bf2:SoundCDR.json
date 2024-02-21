@@ -1100,6 +1100,93 @@
       ],
       "resourceLabel": "BIBFRAME Item",
       "resourceURI": "http://id.loc.gov/ontologies/bibframe/Item"
+    },
+    {
+      "propertyTemplates": [
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "lookup",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [],
+            "useValuesFrom": [
+              "http://id.loc.gov/authorities/performanceMediums"
+            ],
+            "defaults": [],
+            "valueDataType": {
+              "dataTypeURI": "http://performedmusicontology.org/ontology/MediumOfPerformance"
+            }
+          },
+          "propertyURI": "http://performedmusicontology.org/ontology/hasMediumOfPerformance",
+          "propertyLabel": "Medium of Performance"
+        },
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "literal",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [],
+            "useValuesFrom": [],
+            "defaults": [],
+            "valueDataType": {}
+          },
+          "propertyURI": "http://performedmusicontology.org/ontology/hasMediumCount",
+          "propertyLabel": "has Medium Count"
+        },
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "lookup",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [],
+            "useValuesFrom": [
+              "https://preprod-8080.id.loc.gov/vocabulary/pmocomponent"
+            ],
+            "defaults": [],
+            "valueDataType": {
+              "dataTypeURI": "http://performedmusicontology.org/ontology/MediumComponentQualifier"
+            }
+          },
+          "propertyURI": "http://performedmusicontology.org/ontology/hasComponentQualifier",
+          "propertyLabel": "has Component Qualifier"
+        },
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "resource",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [
+              "lc:RT:bf2:NoteSimple"
+            ],
+            "useValuesFrom": [],
+            "defaults": [],
+            "valueDataType": {}
+          },
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
+          "propertyLabel": "Note"
+        },
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "literal",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [],
+            "useValuesFrom": [],
+            "defaults": [],
+            "valueDataType": {}
+          },
+          "propertyURI": "http://performedmusicontology.org/ontology/hasNumberOfHands",
+          "propertyLabel": "has Number of Hands"
+        }
+      ],
+      "id": "lc:RT:bf2:SoundCDR:MediumComp",
+      "resourceURI": "http://performedmusicontology.org/ontology/MediumComponent",
+      "resourceLabel": "Medium Component"
     }
   ],
   "author": "NDMSO",
