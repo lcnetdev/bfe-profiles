@@ -139,7 +139,7 @@
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [
-          "lc:RT:bf2:SoundCDR:MediumComp"
+          "lc:RT:bf2:PMOMedPerf:MediumComp"
         ],
         "useValuesFrom": [],
         "defaults": [],

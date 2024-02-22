@@ -18089,7 +18089,7 @@
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [
-                    "lc:RT:bf2:SoundCDR:MediumComp"
+                    "lc:RT:bf2:PMOMedPerf:MediumComp"
                   ],
                   "useValuesFrom": [],
                   "defaults": [],
@@ -19147,7 +19147,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2024-02-21T20:30:17.566Z",
+      "updateDate": "2024-02-22T19:36:59.493Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",
@@ -23655,7 +23655,7 @@
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [
-                    "lc:RT:bf2:NotatedMusic:MediumComp"
+                    "lc:RT:bf2:PMOMedPerf:MediumComp"
                   ],
                   "useValuesFrom": [],
                   "defaults": [],
@@ -24740,7 +24740,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2024-02-20T20:36:57.259Z",
+      "updateDate": "2024-02-22T19:31:08.126Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",

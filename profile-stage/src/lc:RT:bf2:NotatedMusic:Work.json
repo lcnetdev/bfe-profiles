@@ -102,7 +102,7 @@
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [
-          "lc:RT:bf2:NotatedMusic:MediumComp"
+          "lc:RT:bf2:PMOMedPerf:MediumComp"
         ],
         "useValuesFrom": [],
         "defaults": [],
