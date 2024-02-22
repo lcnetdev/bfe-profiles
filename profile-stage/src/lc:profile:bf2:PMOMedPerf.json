@@ -241,7 +241,7 @@
               "http://id.loc.gov/authorities/performanceMediums"
             ],
             "valueDataType": {
-              "dataTypeURI": "http://performedmusicontology.org/ontology/IndividualMediumOfPerformance",
+              "dataTypeURI": "",
               "remark": ""
             },
             "defaults": [],

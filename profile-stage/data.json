@@ -35651,7 +35651,7 @@
                     "http://id.loc.gov/authorities/performanceMediums"
                   ],
                   "valueDataType": {
-                    "dataTypeURI": "http://performedmusicontology.org/ontology/IndividualMediumOfPerformance",
+                    "dataTypeURI": "",
                     "remark": ""
                   },
                   "defaults": [],
@@ -35880,7 +35880,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.062Z",
-      "updateDate": "2022-12-06T20:42:08.899Z",
+      "updateDate": "2024-02-22T16:13:26.288Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.062Z",
