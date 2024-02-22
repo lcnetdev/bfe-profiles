@@ -11,8 +11,22 @@
         "defaults": [],
         "valueDataType": {}
       },
+      "propertyURI": "http://id.loc.gov/ontologies/bflc/readMarc382",
+      "propertyLabel": "MARC 382 field"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": [],
+        "valueDataType": {}
+      },
       "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label",
-      "propertyLabel": "Medium of performance",
+      "propertyLabel": "Medium of performance text",
       "remark": "https://original.rdatoolkit.org/6.15.html"
     },
     {
