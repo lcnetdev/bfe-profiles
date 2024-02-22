@@ -24709,6 +24709,94 @@
               {
                 "mandatory": "false",
                 "repeatable": "true",
+                "type": "lookup",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [
+                    "http://id.loc.gov/authorities/performanceMediums"
+                  ],
+                  "defaults": [],
+                  "valueDataType": {
+                    "dataTypeURI": "http://performedmusicontology.org/ontology/MediumOfPerformance"
+                  }
+                },
+                "propertyURI": "http://performedmusicontology.org/ontology/hasMediumOfPerformance",
+                "propertyLabel": "Medium of Performance"
+              },
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "literal",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {}
+                },
+                "propertyURI": "http://performedmusicontology.org/ontology/hasMediumCount",
+                "propertyLabel": "has Medium Count"
+              },
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "lookup",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [
+                    "https://preprod-8080.id.loc.gov/vocabulary/pmocomponent"
+                  ],
+                  "defaults": [],
+                  "valueDataType": {
+                    "dataTypeURI": "http://performedmusicontology.org/ontology/MediumComponentQualifier"
+                  }
+                },
+                "propertyURI": "http://performedmusicontology.org/ontology/hasComponentQualifier",
+                "propertyLabel": "has Component Qualifier"
+              },
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "resource",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [
+                    "lc:RT:bf2:NoteSimple"
+                  ],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {}
+                },
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
+                "propertyLabel": "Note"
+              },
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "literal",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {}
+                },
+                "propertyURI": "http://performedmusicontology.org/ontology/hasNumberOfHands",
+                "propertyLabel": "has Number of Hands"
+              }
+            ],
+            "id": "lc:RT:bf2:PMOMedPerf:MediumComp",
+            "resourceURI": "http://performedmusicontology.org/ontology/MediumComponent",
+            "resourceLabel": "Medium Component",
+            "remark": "new PMO test (2024)"
+          },
+          {
+            "propertyTemplates": [
+              {
+                "mandatory": "false",
+                "repeatable": "true",
                 "type": "resource",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -25174,7 +25262,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.062Z",
-      "updateDate": "2021-03-31T18:50:19.020Z",
+      "updateDate": "2024-02-22T19:25:37.116Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.062Z",
