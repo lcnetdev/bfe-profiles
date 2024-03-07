@@ -5804,6 +5804,40 @@
               {
                 "mandatory": "false",
                 "repeatable": "true",
+                "type": "lookup",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [
+                    "https://preprod-8288.id.loc.gov/vocabulary/pmomedtype"
+                  ],
+                  "defaults": [],
+                  "valueDataType": {
+                    "dataTypeURI": "http://performedmusicontology.org/ontology/MediumType"
+                  }
+                },
+                "propertyURI": "http://performedmusicontology.org/ontology/hasMediumType",
+                "propertyLabel": "has Medium Type (new)"
+              },
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "resource",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [
+                    "lc:RT:bf2:PMOMedPerf:MediumComp"
+                  ],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {}
+                },
+                "propertyURI": "http://performedmusicontology.org/ontology/hasMediumComponent",
+                "propertyLabel": "has Medium Component (new)"
+              },
+              {
+                "mandatory": "false",
+                "repeatable": "true",
                 "type": "literal",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -6185,40 +6219,6 @@
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/hasInstance",
                 "propertyLabel": "Add BIBFRAME Instance"
-              },
-              {
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "lookup",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [
-                    "https://preprod-8288.id.loc.gov/vocabulary/pmomedtype"
-                  ],
-                  "defaults": [],
-                  "valueDataType": {
-                    "dataTypeURI": "http://performedmusicontology.org/ontology/MediumType"
-                  }
-                },
-                "propertyURI": "http://performedmusicontology.org/ontology/hasMediumType",
-                "propertyLabel": "has Medium Type (new)"
-              },
-              {
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "resource",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [
-                    "lc:RT:bf2:PMOMedPerf:MediumComp"
-                  ],
-                  "useValuesFrom": [],
-                  "defaults": [],
-                  "valueDataType": {}
-                },
-                "propertyURI": "http://performedmusicontology.org/ontology/hasMediumComponent",
-                "propertyLabel": "has Medium Component (new)"
               }
             ],
             "id": "lc:RT:bf2:Analog:Work",
@@ -6806,7 +6806,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2024-03-07T19:31:56.009Z",
+      "updateDate": "2024-03-07T19:32:32.853Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",
