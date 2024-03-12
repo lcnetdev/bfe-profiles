@@ -24723,6 +24723,22 @@
                 },
                 "propertyURI": "http://performedmusicontology.org/ontology/hasNumberOfHands",
                 "propertyLabel": "has Number of Hands"
+              },
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "resource",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [
+                    "lc:RT:bf2:AppliesTo"
+                  ],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {}
+                },
+                "propertyURI": "http://id.loc.gov/ontologies/bflc/appliesTo",
+                "propertyLabel": "Applies to:"
               }
             ],
             "id": "lc:RT:bf2:NotatedMusic:MediumComp",
@@ -24740,7 +24756,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2024-02-22T19:31:08.126Z",
+      "updateDate": "2024-03-12T13:44:32.711Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",
