@@ -79,6 +79,22 @@
       },
       "propertyURI": "http://performedmusicontology.org/ontology/hasNumberOfHands",
       "propertyLabel": "has Number of Hands"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "resource",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [
+          "lc:RT:bf2:AppliesTo"
+        ],
+        "useValuesFrom": [],
+        "defaults": [],
+        "valueDataType": {}
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bflc/appliesTo",
+      "propertyLabel": "Applies to:"
     }
   ],
   "id": "lc:RT:bf2:SoundCDR:MediumComp",
