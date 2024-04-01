@@ -24905,6 +24905,24 @@
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bflc/appliesTo",
                 "propertyLabel": "Applies to:"
+              },
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "lookup",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [
+                    "http://id.loc.gov/vocabulary/mstatus"
+                  ],
+                  "defaults": [],
+                  "valueDataType": {
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Status"
+                  }
+                },
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/status",
+                "propertyLabel": "Status (partial)"
               }
             ],
             "id": "lc:RT:bf2:PMOMedPerf:MediumComp",
@@ -25382,7 +25400,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.062Z",
-      "updateDate": "2024-03-12T14:17:08.271Z",
+      "updateDate": "2024-04-01T19:43:18.390Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.062Z",
