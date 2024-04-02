@@ -1094,24 +1094,6 @@
         {
           "mandatory": "false",
           "repeatable": "true",
-          "type": "lookup",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [],
-            "useValuesFrom": [
-              "http://id.loc.gov/authorities/performanceMediums"
-            ],
-            "defaults": [],
-            "valueDataType": {
-              "dataTypeURI": "http://performedmusicontology.org/ontology/MediumOfPerformance"
-            }
-          },
-          "propertyURI": "http://performedmusicontology.org/ontology/hasMediumOfPerformance",
-          "propertyLabel": "Medium of Performance"
-        },
-        {
-          "mandatory": "false",
-          "repeatable": "true",
           "type": "literal",
           "resourceTemplates": [],
           "valueConstraint": {
@@ -1120,27 +1102,8 @@
             "defaults": [],
             "valueDataType": {}
           },
-          "propertyURI": "http://performedmusicontology.org/ontology/hasMediumCount",
-          "propertyLabel": "has Medium Count"
-        },
-        {
-          "mandatory": "false",
-          "repeatable": "true",
-          "type": "lookup",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [],
-            "useValuesFrom": [
-              "https://preprod-8080.id.loc.gov/vocabulary/pmocomponent"
-            ],
-            "defaults": [],
-            "valueDataType": {
-              "dataTypeURI": "http://performedmusicontology.org/ontology/MediumComponentQualifier",
-              "dataTypeLabel": "http://performedmusicontology.org/ontology/ComponentQualifier"
-            }
-          },
-          "propertyURI": "http://performedmusicontology.org/ontology/hasComponentQualifier",
-          "propertyLabel": "has Component Qualifier"
+          "propertyURI": "http://performedmusicontology.org/ontology/hasNumberOfHands",
+          "propertyLabel": "has Number of Hands"
         },
         {
           "mandatory": "false",
@@ -1170,8 +1133,45 @@
             "defaults": [],
             "valueDataType": {}
           },
-          "propertyURI": "http://performedmusicontology.org/ontology/hasNumberOfHands",
-          "propertyLabel": "has Number of Hands"
+          "propertyURI": "http://performedmusicontology.org/ontology/hasMediumCount",
+          "propertyLabel": "has Medium Count"
+        },
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "lookup",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [],
+            "useValuesFrom": [
+              "http://id.loc.gov/authorities/performanceMediums"
+            ],
+            "defaults": [],
+            "valueDataType": {
+              "dataTypeURI": "http://performedmusicontology.org/ontology/MediumOfPerformance"
+            }
+          },
+          "propertyURI": "http://performedmusicontology.org/ontology/hasMediumOfPerformance",
+          "propertyLabel": "Medium of Performance"
+        },
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "lookup",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [],
+            "useValuesFrom": [
+              "https://preprod-8080.id.loc.gov/vocabulary/pmocomponent"
+            ],
+            "defaults": [],
+            "valueDataType": {
+              "dataTypeURI": "http://performedmusicontology.org/ontology/MediumComponentQualifier",
+              "dataTypeLabel": "http://performedmusicontology.org/ontology/ComponentQualifier"
+            }
+          },
+          "propertyURI": "http://performedmusicontology.org/ontology/hasComponentQualifier",
+          "propertyLabel": "has Component Qualifier"
         },
         {
           "mandatory": "false",
@@ -1188,6 +1188,24 @@
           },
           "propertyURI": "http://id.loc.gov/ontologies/bflc/appliesTo",
           "propertyLabel": "Applies to:"
+        },
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "lookup",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [],
+            "useValuesFrom": [
+              "http://id.loc.gov/vocabulary/mstatus"
+            ],
+            "defaults": [],
+            "valueDataType": {
+              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Status"
+            }
+          },
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/status",
+          "propertyLabel": "Status (partial)"
         }
       ],
       "id": "lc:RT:bf2:NotatedMusic:MediumComp",
