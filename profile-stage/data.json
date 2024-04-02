@@ -19072,20 +19072,6 @@
               {
                 "mandatory": "false",
                 "repeatable": "true",
-                "type": "literal",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [],
-                  "defaults": [],
-                  "valueDataType": {}
-                },
-                "propertyURI": "http://performedmusicontology.org/ontology/hasMediumCount",
-                "propertyLabel": "has Medium Count"
-              },
-              {
-                "mandatory": "false",
-                "repeatable": "true",
                 "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -19128,6 +19114,20 @@
                   "defaults": [],
                   "valueDataType": {}
                 },
+                "propertyURI": "http://performedmusicontology.org/ontology/hasMediumCount",
+                "propertyLabel": "has Medium Count"
+              },
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "literal",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {}
+                },
                 "propertyURI": "http://performedmusicontology.org/ontology/hasNumberOfHands",
                 "propertyLabel": "has Number of Hands"
               },
@@ -19146,6 +19146,24 @@
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bflc/appliesTo",
                 "propertyLabel": "Applies to:"
+              },
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "lookup",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [
+                    "http://id.loc.gov/vocabulary/mstatus"
+                  ],
+                  "defaults": [],
+                  "valueDataType": {
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Status"
+                  }
+                },
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/status",
+                "propertyLabel": "Status (partial)"
               }
             ],
             "id": "lc:RT:bf2:SoundCDR:MediumComp",
@@ -19163,7 +19181,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2024-03-12T14:05:21.368Z",
+      "updateDate": "2024-04-02T19:43:11.606Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",
