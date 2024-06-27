@@ -39813,5 +39813,49 @@
     },
     "created": "2018-09-01T00:30:21.061Z",
     "modified": "2019-08-06T17:34:56.430Z"
+  },
+  {
+    "name": "MATT TEST",
+    "configType": "profile",
+    "json": {
+      "Profile": {
+        "resourceTemplates": [
+          {
+            "propertyTemplates": [
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "literal",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {}
+                },
+                "propertyURI": "https://id.loc.gov/resources/works",
+                "propertyLabel": "MAtt TEST Property"
+              }
+            ],
+            "id": "MATTTESTID",
+            "resourceURI": "https://www.id.gov",
+            "resourceLabel": "MATT TEST",
+            "author": "Matt"
+          }
+        ],
+        "id": "matt:TEST",
+        "title": "MATT TEST",
+        "author": "Matt",
+        "description": "A Test",
+        "date": "2024-06-27"
+      }
+    },
+    "id": "3d646b3d-85e8-47f4-9d67-2838607e3b2b",
+    "metadata": {
+      "createDate": "2024-06-27T17:35:22.789Z",
+      "updateDate": "2024-06-27T17:35:22.789Z",
+      "createUser": null,
+      "updateUser": null
+    }
   }
 ]

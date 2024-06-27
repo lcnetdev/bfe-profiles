@@ -1,0 +1,22 @@
+{
+  "propertyTemplates": [
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": [],
+        "valueDataType": {}
+      },
+      "propertyURI": "https://id.loc.gov/resources/works",
+      "propertyLabel": "MAtt TEST Property"
+    }
+  ],
+  "id": "MATTTESTID",
+  "resourceURI": "https://www.id.gov",
+  "resourceLabel": "MATT TEST",
+  "author": "Matt"
+}
