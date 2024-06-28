@@ -21948,7 +21948,7 @@
                 "valueConstraint": {
                   "valueTemplateRefs": [],
                   "useValuesFrom": [
-                    "http://id.loc.gov/authorities/geographics"
+                    "http://id.loc.gov/vocabulary/geographicAreas"
                   ],
                   "valueDataType": {
                     "dataTypeURI": "",
@@ -22071,7 +22071,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.059Z",
-      "updateDate": "2023-02-21T20:43:12.340Z",
+      "updateDate": "2024-06-28T17:15:37.475Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.059Z",
