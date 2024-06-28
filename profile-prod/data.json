@@ -250,8 +250,9 @@
                   "defaults": [],
                   "valueDataType": {}
                 },
-                "propertyURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
-                "propertyLabel": "URL for Supplementary Content"
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/electronicLocator",
+                "propertyLabel": "Electronic location",
+                "remark": ""
               }
             ],
             "id": "lc:RT:bf2:SupplContentNote",
@@ -290,7 +291,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2024-05-22T14:20:44.117Z",
+      "updateDate": "2024-06-28T15:42:57.420Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",

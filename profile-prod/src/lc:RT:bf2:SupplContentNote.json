@@ -26,8 +26,9 @@
         "defaults": [],
         "valueDataType": {}
       },
-      "propertyURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
-      "propertyLabel": "URL for Supplementary Content"
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/electronicLocator",
+      "propertyLabel": "Electronic location",
+      "remark": ""
     }
   ],
   "id": "lc:RT:bf2:SupplContentNote",
