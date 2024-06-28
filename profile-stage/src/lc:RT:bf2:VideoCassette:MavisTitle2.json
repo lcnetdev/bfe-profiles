@@ -1,0 +1,21 @@
+{
+  "propertyTemplates": [
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": [],
+        "valueDataType": {}
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/maintitle",
+      "propertyLabel": "Title"
+    }
+  ],
+  "id": "lc:RT:bf2:VideoCassette:MavisTitle2",
+  "resourceURI": "http://id.loc.gov/ontologies/bibframe/Title",
+  "resourceLabel": "Title"
+}
