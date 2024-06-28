@@ -32648,7 +32648,7 @@
                 "valueConstraint": {
                   "valueTemplateRefs": [],
                   "useValuesFrom": [
-                    "http://id.loc.gov/authorities/geographics"
+                    "https://id.loc.gov/vocabulary/geographicAreas"
                   ],
                   "valueDataType": {
                     "dataTypeURI": "",
@@ -32797,7 +32797,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.059Z",
-      "updateDate": "2023-02-21T20:41:59.693Z",
+      "updateDate": "2024-06-28T17:16:06.877Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.059Z",

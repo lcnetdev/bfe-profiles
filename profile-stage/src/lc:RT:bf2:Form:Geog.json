@@ -8,7 +8,7 @@
       "valueConstraint": {
         "valueTemplateRefs": [],
         "useValuesFrom": [
-          "http://id.loc.gov/authorities/geographics"
+          "https://id.loc.gov/vocabulary/geographicAreas"
         ],
         "valueDataType": {
           "dataTypeURI": "",
