@@ -1108,9 +1108,9 @@
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [
-              "lc:RT:bf2:MIBluRayDVD:FileType",
+              "lc:RT:bf2:FileType",
               "lc:RT:bf2:RegEncoding",
-              "lc:RT:bf2:MIBluRayDVD:EncFmt",
+              "lc:RT:bf2:EncFmt",
               "lc:RT:bf2:Resolution"
             ],
             "useValuesFrom": [],

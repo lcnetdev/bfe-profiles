@@ -40928,9 +40928,9 @@
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [
-                    "lc:RT:bf2:MIBluRayDVD:FileType",
+                    "lc:RT:bf2:FileType",
                     "lc:RT:bf2:RegEncoding",
-                    "lc:RT:bf2:MIBluRayDVD:EncFmt",
+                    "lc:RT:bf2:EncFmt",
                     "lc:RT:bf2:Resolution"
                   ],
                   "useValuesFrom": [],
@@ -41400,7 +41400,7 @@
     "id": "0545dd4f-0546-4a2a-99e5-b818961f91ae",
     "metadata": {
       "createDate": "2024-06-28T13:58:12.316Z",
-      "updateDate": "2024-06-28T15:02:08.262Z",
+      "updateDate": "2024-06-28T15:04:54.819Z",
       "createUser": null,
       "updateUser": null
     }
