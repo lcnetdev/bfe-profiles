@@ -1067,8 +1067,8 @@
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [
-              "lc:RT:bf2:TypeRec",
-              "lc:RT:bf2:RecMedium",
+              "lc:RT:bf2:TypeRec2",
+              "lc:RT:bf2:RecMedium2",
               "lc:RT:bf2:VideoCassette:Playback",
               "lc:RT:bf2:SpecPlayback"
             ],
