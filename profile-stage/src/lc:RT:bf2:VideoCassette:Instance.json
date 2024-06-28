@@ -297,8 +297,8 @@
         "repeatable": "true",
         "defaults": [
           {
-            "defaultURI": "http://id.loc.gov/vocabulary/carriers/vd",
-            "defaultLiteral": "videodisc"
+            "defaultURI": "http://id.loc.gov/vocabulary/carriers/vf",
+            "defaultLiteral": "videocassette"
           }
         ]
       },
