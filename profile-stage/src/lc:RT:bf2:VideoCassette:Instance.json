@@ -8,7 +8,7 @@
       "type": "resource",
       "valueConstraint": {
         "valueTemplateRefs": [
-          "lc:RT:bf2:MIBluRayDVD:Work"
+          "lc:RT:bf2:VideoCassette:Work"
         ],
         "useValuesFrom": [],
         "valueDataType": {},
@@ -427,7 +427,7 @@
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [
-          "lc:RT:bf2:MIBluRayDVD:Aspect"
+          "lc:RT:bf2:VideoCassette:Aspect"
         ],
         "useValuesFrom": [],
         "valueDataType": {},
@@ -446,7 +446,7 @@
         "valueTemplateRefs": [
           "lc:RT:bf2:TypeRec",
           "lc:RT:bf2:RecMedium",
-          "lc:RT:bf2:MIBluRayDVD:Playback",
+          "lc:RT:bf2:VideoCassette:Playback",
           "lc:RT:bf2:SpecPlayback"
         ],
         "useValuesFrom": [],
@@ -570,7 +570,7 @@
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [
-          "lc:RT:bf2:MIBluRayDVD:Item"
+          "lc:RT:bf2:VideoCassette:Item"
         ],
         "useValuesFrom": [],
         "valueDataType": {},

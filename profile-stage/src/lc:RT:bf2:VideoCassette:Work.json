@@ -262,7 +262,7 @@
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [
-          "lc:RT:bf2:MIBluRayDVD:Summary"
+          "lc:RT:bf2:VideoCassette:Summary"
         ],
         "useValuesFrom": [],
         "valueDataType": {},
@@ -342,7 +342,7 @@
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [
-          "lc:RT:bf2:MIBluRayDVD:Event"
+          "lc:RT:bf2:VideoCassette:Event"
         ],
         "useValuesFrom": [],
         "valueDataType": {},
@@ -358,7 +358,7 @@
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [
-          "lc:RT:bf2:MIBluRayDVD:AccCont"
+          "lc:RT:bf2:VideoCassette:AccCont"
         ],
         "useValuesFrom": [],
         "valueDataType": {},
@@ -468,7 +468,7 @@
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [
-          "lc:RT:bf2:MIBluRayDVD:Aspect"
+          "lc:RT:bf2:VideoCassette:Aspect"
         ],
         "useValuesFrom": [],
         "valueDataType": {},
@@ -551,7 +551,7 @@
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [
-          "lc:RT:bf2:MIBluRayDVD:MavisTitle"
+          "lc:RT:bf2:VideoCassette:MavisTitle"
         ],
         "useValuesFrom": [],
         "defaults": [],
@@ -605,7 +605,7 @@
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [
-          "lc:RT:bf2:MIBluRayDVD:Instance"
+          "lc:RT:bf2:VideoCassette:Instance"
         ],
         "useValuesFrom": [],
         "valueDataType": {},

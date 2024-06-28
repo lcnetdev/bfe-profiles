@@ -264,7 +264,7 @@
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [
-              "lc:RT:bf2:MIBluRayDVD:Summary"
+              "lc:RT:bf2:VideoCassette:Summary"
             ],
             "useValuesFrom": [],
             "valueDataType": {},
@@ -344,7 +344,7 @@
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [
-              "lc:RT:bf2:MIBluRayDVD:Event"
+              "lc:RT:bf2:VideoCassette:Event"
             ],
             "useValuesFrom": [],
             "valueDataType": {},
@@ -360,7 +360,7 @@
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [
-              "lc:RT:bf2:MIBluRayDVD:AccCont"
+              "lc:RT:bf2:VideoCassette:AccCont"
             ],
             "useValuesFrom": [],
             "valueDataType": {},
@@ -470,7 +470,7 @@
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [
-              "lc:RT:bf2:MIBluRayDVD:Aspect"
+              "lc:RT:bf2:VideoCassette:Aspect"
             ],
             "useValuesFrom": [],
             "valueDataType": {},
@@ -553,7 +553,7 @@
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [
-              "lc:RT:bf2:MIBluRayDVD:MavisTitle"
+              "lc:RT:bf2:VideoCassette:MavisTitle"
             ],
             "useValuesFrom": [],
             "defaults": [],
@@ -607,7 +607,7 @@
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [
-              "lc:RT:bf2:MIBluRayDVD:Instance"
+              "lc:RT:bf2:VideoCassette:Instance"
             ],
             "useValuesFrom": [],
             "valueDataType": {},
@@ -631,7 +631,7 @@
           "type": "resource",
           "valueConstraint": {
             "valueTemplateRefs": [
-              "lc:RT:bf2:MIBluRayDVD:Work"
+              "lc:RT:bf2:VideoCassette:Work"
             ],
             "useValuesFrom": [],
             "valueDataType": {},
@@ -1050,7 +1050,7 @@
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [
-              "lc:RT:bf2:MIBluRayDVD:Aspect"
+              "lc:RT:bf2:VideoCassette:Aspect"
             ],
             "useValuesFrom": [],
             "valueDataType": {},
@@ -1069,7 +1069,7 @@
             "valueTemplateRefs": [
               "lc:RT:bf2:TypeRec",
               "lc:RT:bf2:RecMedium",
-              "lc:RT:bf2:MIBluRayDVD:Playback",
+              "lc:RT:bf2:VideoCassette:Playback",
               "lc:RT:bf2:SpecPlayback"
             ],
             "useValuesFrom": [],
@@ -1193,7 +1193,7 @@
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [
-              "lc:RT:bf2:MIBluRayDVD:Item"
+              "lc:RT:bf2:VideoCassette:Item"
             ],
             "useValuesFrom": [],
             "valueDataType": {},
@@ -1467,27 +1467,6 @@
       "id": "lc:RT:bf2:VideoCassette:Playback",
       "resourceURI": "http://id.loc.gov/ontologies/bibframe/PlaybackChannels",
       "resourceLabel": "Playback channels"
-    },
-    {
-      "propertyTemplates": [
-        {
-          "mandatory": "false",
-          "repeatable": "true",
-          "type": "literal",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [],
-            "useValuesFrom": [],
-            "defaults": [],
-            "valueDataType": {}
-          },
-          "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label",
-          "propertyLabel": "Accessibility content"
-        }
-      ],
-      "resourceURI": "http://id.loc.gov/ontologies/bibframe/ContentAccessibility",
-      "id": "lc:RT:bf2:VideoCassette:AccCont",
-      "resourceLabel": "Accessibility content"
     },
     {
       "propertyTemplates": [
