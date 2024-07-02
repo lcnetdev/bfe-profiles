@@ -7965,11 +7965,11 @@
                 "resourceTemplates": [],
                 "type": "resource",
                 "valueConstraint": {
-                  "valueTemplateRefs": [
-                    "lc:RT:bf2:URL"
-                  ],
+                  "valueTemplateRefs": [],
                   "useValuesFrom": [],
-                  "valueDataType": {},
+                  "valueDataType": {
+                    "dataTypeURI": "http://www.w3.org/2000/01/rdf-schema#Resource"
+                  },
                   "defaults": []
                 },
                 "mandatory": "false",
@@ -8372,7 +8372,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2024-01-30T15:08:46.140Z",
+      "updateDate": "2024-07-02T13:44:18.238Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",

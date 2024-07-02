@@ -353,11 +353,11 @@
       "resourceTemplates": [],
       "type": "resource",
       "valueConstraint": {
-        "valueTemplateRefs": [
-          "lc:RT:bf2:URL"
-        ],
+        "valueTemplateRefs": [],
         "useValuesFrom": [],
-        "valueDataType": {},
+        "valueDataType": {
+          "dataTypeURI": "http://www.w3.org/2000/01/rdf-schema#Resource"
+        },
         "defaults": []
       },
       "mandatory": "false",
