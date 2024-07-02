@@ -351,12 +351,14 @@
       "propertyLabel": "URL of Instance",
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/electronicLocator",
       "resourceTemplates": [],
-      "type": "lookup",
+      "type": "resource",
       "valueConstraint": {
-        "valueTemplateRefs": [],
+        "valueTemplateRefs": [
+          "lc:RT:bf2:URL"
+        ],
         "useValuesFrom": [],
         "valueDataType": {
-          "dataTypeURI": "http://www.w3.org/2000/01/rdf-schema#Resource"
+          "dataTypeURI": ""
         },
         "defaults": []
       },
