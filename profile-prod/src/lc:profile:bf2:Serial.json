@@ -1143,7 +1143,7 @@
           "propertyLabel": "URL of Instance",
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/electronicLocator",
           "resourceTemplates": [],
-          "type": "literal",
+          "type": "lookup",
           "valueConstraint": {
             "valueTemplateRefs": [],
             "useValuesFrom": [],
