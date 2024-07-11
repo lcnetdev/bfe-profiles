@@ -28,29 +28,6 @@
         ]
       },
       {
-        "menuGroup": "Monograph (Non-Latin)",
-        "menuItems": [
-          {
-            "label": "Instance",
-            "type": [
-              "http://id.loc.gov/ontologies/bibframe/Instance"
-            ],
-            "useResourceTemplates": [
-              "lc:RT:bf2:MonographNR:Instance"
-            ]
-          },
-          {
-            "label": "Work",
-            "type": [
-              "http://id.loc.gov/ontologies/bibframe/Work"
-            ],
-            "useResourceTemplates": [
-              "lc:RT:bf2:MonographNR:Work"
-            ]
-          }
-        ]
-      },
-      {
         "menuGroup": "Notated Music",
         "menuItems": [
           {
@@ -281,7 +258,7 @@
         ]
       },
       {
-        "menuGroup": "Prints & Photographs",
+        "menuGroup": "Prints & Photographs test",
         "menuItems": [
           {
             "label": "Instance",
@@ -299,6 +276,38 @@
             ],
             "useResourceTemplates": [
               "lc:RT:bf2:PrintPhoto:Work"
+            ]
+          }
+        ]
+      },
+      {
+        "menuGroup": "Offical RDA Monograph",
+        "menuItems": [
+          {
+            "label": "Hub",
+            "type": [
+              "http://id.loc.gov/ontologies/bibframe/Hub"
+            ],
+            "useResourceTemplates": [
+              "lc:OfficialRDA:Monograph:Hub"
+            ]
+          },
+          {
+            "label": "Instance",
+            "type": [
+              "http://id.loc.gov/ontologies/bibframe/Instance"
+            ],
+            "useResourceTemplates": [
+              "lc:RT:OfficialRDA:Monograph:Instance"
+            ]
+          },
+          {
+            "label": "Work",
+            "type": [
+              "http://id.loc.gov/ontologies/bibframe/Work"
+            ],
+            "useResourceTemplates": [
+              "lc:OfficialRDA:Monograph:Expression:Work"
             ]
           }
         ]
