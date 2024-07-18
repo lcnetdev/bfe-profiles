@@ -1290,42 +1290,6 @@
               {
                 "mandatory": "false",
                 "repeatable": "true",
-                "type": "lookup",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [
-                    "https://preprod-8080.id.loc.gov/resources/works/"
-                  ],
-                  "defaults": [],
-                  "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Work"
-                  }
-                },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/otherEdition",
-                "propertyLabel": "Other edition (search BFDB)"
-              },
-              {
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "lookup",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [
-                    "https://preprod-8080.id.loc.gov/resources/works/"
-                  ],
-                  "defaults": [],
-                  "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Work"
-                  }
-                },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/otherPhysicalFormat",
-                "propertyLabel": "Other physical format (search BFDB)"
-              },
-              {
-                "mandatory": "false",
-                "repeatable": "true",
                 "type": "resource",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -1335,10 +1299,10 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bflc/Relationship"
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Relation"
                   }
                 },
-                "propertyURI": "http://id.loc.gov/ontologies/bflc/relationship",
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/relation",
                 "propertyLabel": "Input Transcribed Series",
                 "remark": ""
               },
@@ -1354,10 +1318,10 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bflc/Relationship"
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Relation"
                   }
                 },
-                "propertyURI": "http://id.loc.gov/ontologies/bflc/relationship",
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/relation",
                 "propertyLabel": "Search Series Hub (optional)"
               },
               {
@@ -1373,7 +1337,7 @@
                   "valueDataType": {},
                   "defaults": []
                 },
-                "propertyURI": "http://id.loc.gov/ontologies/bflc/relationship",
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/relation",
                 "propertyLabel": "Search related work",
                 "remark": ""
               },
@@ -1390,7 +1354,7 @@
                   "defaults": [],
                   "valueDataType": {}
                 },
-                "propertyURI": "http://id.loc.gov/ontologies/bflc/relationship",
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/relation",
                 "propertyLabel": "Related work not in LC catalog"
               },
               {
@@ -2085,7 +2049,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2024-02-01T18:13:52.302Z",
+      "updateDate": "2024-07-18T13:42:48.703Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",
