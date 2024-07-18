@@ -526,7 +526,7 @@
             "valueDataType": {},
             "defaults": []
           },
-          "propertyURI": "http://id.loc.gov/ontologies/bflc/relationship",
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/relation",
           "propertyLabel": "Search related work",
           "remark": ""
         },
@@ -543,26 +543,8 @@
             "defaults": [],
             "valueDataType": {}
           },
-          "propertyURI": "http://id.loc.gov/ontologies/bflc/relationship",
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/relation",
           "propertyLabel": "Related work not in LC catalog"
-        },
-        {
-          "mandatory": "false",
-          "repeatable": "true",
-          "type": "resource",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [
-              "lc:RT:bf2:MIBluRayDVD:MavisTitle"
-            ],
-            "useValuesFrom": [],
-            "defaults": [],
-            "valueDataType": {
-              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Work"
-            }
-          },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/dataSource",
-          "propertyLabel": "MAVIS info"
         },
         {
           "mandatory": "false",
@@ -576,10 +558,10 @@
             "useValuesFrom": [],
             "defaults": [],
             "valueDataType": {
-              "dataTypeURI": "http://id.loc.gov/ontologies/bflc/relationship"
+              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Relation"
             }
           },
-          "propertyURI": "http://id.loc.gov/ontologies/bflc/relationship",
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/relation",
           "propertyLabel": "Input Transcribed Series"
         },
         {
@@ -594,10 +576,10 @@
             "useValuesFrom": [],
             "defaults": [],
             "valueDataType": {
-              "dataTypeURI": "http://id.loc.gov/ontologies/bflc/Relationship"
+              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Relation"
             }
           },
-          "propertyURI": "http://id.loc.gov/ontologies/bflc/relationship",
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/relation",
           "propertyLabel": "Search Series Hub (optional)"
         },
         {
@@ -1488,106 +1470,6 @@
       "resourceURI": "http://id.loc.gov/ontologies/bibframe/ContentAccessibility",
       "id": "lc:RT:bf2:MIBluRayDVD:AccCont",
       "resourceLabel": "Accessibility content"
-    },
-    {
-      "propertyTemplates": [
-        {
-          "mandatory": "false",
-          "repeatable": "true",
-          "type": "resource",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [
-              "lc:RT:bf2:MIBluRayDVD:MavisTitle2"
-            ],
-            "useValuesFrom": [],
-            "defaults": [],
-            "valueDataType": {}
-          },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/title",
-          "propertyLabel": "Title"
-        },
-        {
-          "mandatory": "false",
-          "repeatable": "true",
-          "type": "resource",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [
-              "lc:RT:bf2:MIBluRayDVD:MavisId"
-            ],
-            "useValuesFrom": [],
-            "defaults": [],
-            "valueDataType": {}
-          },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/identifiedBy",
-          "propertyLabel": "Mavis number"
-        }
-      ],
-      "id": "lc:RT:bf2:MIBluRayDVD:MavisTitle",
-      "resourceURI": "http://id.loc.gov/ontologies/bibframe/Work",
-      "resourceLabel": "Related Title in Mavis"
-    },
-    {
-      "propertyTemplates": [
-        {
-          "mandatory": "false",
-          "repeatable": "true",
-          "type": "literal",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [],
-            "useValuesFrom": [],
-            "defaults": [],
-            "valueDataType": {}
-          },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/maintitle",
-          "propertyLabel": "Title"
-        }
-      ],
-      "id": "lc:RT:bf2:MIBluRayDVD:MavisTitle2",
-      "resourceURI": "http://id.loc.gov/ontologies/bibframe/Title",
-      "resourceLabel": "Title"
-    },
-    {
-      "propertyTemplates": [
-        {
-          "mandatory": "false",
-          "repeatable": "true",
-          "type": "literal",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [],
-            "useValuesFrom": [],
-            "defaults": [],
-            "valueDataType": {}
-          },
-          "propertyURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
-          "propertyLabel": "Mavis number",
-          "remark": ""
-        },
-        {
-          "mandatory": "false",
-          "repeatable": "true",
-          "type": "lookup",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [],
-            "useValuesFrom": [
-              "https://id.loc.gov/vocabulary/identifiers"
-            ],
-            "defaults": [],
-            "valueDataType": {
-              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Source"
-            }
-          },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/source",
-          "propertyLabel": "Source"
-        }
-      ],
-      "id": "lc:RT:bf2:MIBluRayDVD:MavisId",
-      "resourceURI": "http://id.loc.gov/ontologies/bibframe/Local",
-      "resourceLabel": "Mavis number"
     }
   ],
   "author": "NDMSO",
