@@ -21794,10 +21794,10 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bflc/Relationship"
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Relation"
                   }
                 },
-                "propertyURI": "http://id.loc.gov/ontologies/bflc/relationship",
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/relation",
                 "propertyLabel": "Input Transcribed Series"
               },
               {
@@ -21812,10 +21812,10 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bflc/Relationship"
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Relation"
                   }
                 },
-                "propertyURI": "http://id.loc.gov/ontologies/bflc/relationship",
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/relation",
                 "propertyLabel": "Search Series Hub (optional)"
               },
               {
@@ -21831,7 +21831,7 @@
                   "valueDataType": {},
                   "defaults": []
                 },
-                "propertyURI": "http://id.loc.gov/ontologies/bflc/relationship",
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/relation",
                 "propertyLabel": "Search related work",
                 "remark": ""
               },
@@ -21848,7 +21848,7 @@
                   "defaults": [],
                   "valueDataType": {}
                 },
-                "propertyURI": "http://id.loc.gov/ontologies/bflc/relationship",
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/relation",
                 "propertyLabel": "Related work not in LC catalog"
               },
               {
@@ -22414,7 +22414,7 @@
     "id": "2bb005e9-e706-4261-b21c-6137d6644584",
     "metadata": {
       "createDate": "2021-09-28T14:32:49.848Z",
-      "updateDate": "2024-02-20T21:26:04.576Z",
+      "updateDate": "2024-07-18T13:53:57.981Z",
       "createUser": null,
       "updateUser": null
     },
