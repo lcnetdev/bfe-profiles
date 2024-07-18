@@ -362,7 +362,7 @@
         "defaults": [],
         "valueDataType": {}
       },
-      "propertyURI": "http://id.loc.gov/ontologies/bflc/relationship",
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/relation",
       "propertyLabel": "Input Transcribed Series"
     },
     {
@@ -378,7 +378,7 @@
         "defaults": [],
         "valueDataType": {}
       },
-      "propertyURI": "http://id.loc.gov/ontologies/bflc/relationship",
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/relation",
       "propertyLabel": "Search Series Hub (optional)"
     },
     {
@@ -393,7 +393,7 @@
         "defaults": [],
         "valueDataType": {}
       },
-      "propertyURI": "http://id.loc.gov/ontologies/bflc/relationship",
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/relation",
       "propertyLabel": "Search related work",
       "remark": "",
       "resourceTemplates": []
@@ -411,7 +411,7 @@
         "defaults": [],
         "valueDataType": {}
       },
-      "propertyURI": "http://id.loc.gov/ontologies/bflc/relationship",
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/relation",
       "propertyLabel": "Related work not in LC catalog"
     },
     {

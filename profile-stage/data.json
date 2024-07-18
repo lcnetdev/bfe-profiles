@@ -13080,7 +13080,7 @@
                   "defaults": [],
                   "valueDataType": {}
                 },
-                "propertyURI": "http://id.loc.gov/ontologies/bflc/relationship",
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/relation",
                 "propertyLabel": "Input Transcribed Series"
               },
               {
@@ -13096,7 +13096,7 @@
                   "defaults": [],
                   "valueDataType": {}
                 },
-                "propertyURI": "http://id.loc.gov/ontologies/bflc/relationship",
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/relation",
                 "propertyLabel": "Search Series Hub (optional)"
               },
               {
@@ -13111,7 +13111,7 @@
                   "defaults": [],
                   "valueDataType": {}
                 },
-                "propertyURI": "http://id.loc.gov/ontologies/bflc/relationship",
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/relation",
                 "propertyLabel": "Search related work",
                 "remark": "",
                 "resourceTemplates": []
@@ -13129,7 +13129,7 @@
                   "defaults": [],
                   "valueDataType": {}
                 },
-                "propertyURI": "http://id.loc.gov/ontologies/bflc/relationship",
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/relation",
                 "propertyLabel": "Related work not in LC catalog"
               },
               {
@@ -13701,7 +13701,7 @@
     },
     "metadata": {
       "createDate": "2019-04-11T20:45:09.452Z",
-      "updateDate": "2023-12-05T16:04:23.516Z",
+      "updateDate": "2024-07-18T13:40:52.549Z",
       "createUser": null,
       "updateUser": null
     },
