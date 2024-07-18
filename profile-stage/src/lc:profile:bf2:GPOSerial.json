@@ -695,10 +695,10 @@
               }
             ],
             "valueDataType": {
-              "dataTypeURI": "http://id.loc.gov/ontologies/bflc/Relationship"
+              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Relation"
             }
           },
-          "propertyURI": "http://id.loc.gov/ontologies/bflc/relationship",
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/relation",
           "propertyLabel": "Search related works"
         },
         {
@@ -716,7 +716,7 @@
             "editable": "true",
             "defaults": []
           },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/relatedTo",
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/relation",
           "propertyLabel": "Related works not in database",
           "remark": "https://original.rdatoolkit.org/25.1.html"
         },
@@ -732,10 +732,10 @@
             "useValuesFrom": [],
             "defaults": [],
             "valueDataType": {
-              "dataTypeURI": "http://id.loc.gov/ontologies/bflc/Relationship"
+              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Relation"
             }
           },
-          "propertyURI": "http://id.loc.gov/ontologies/bflc/relationship",
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/relation",
           "propertyLabel": "Input Transcribed Series"
         },
         {
@@ -750,10 +750,10 @@
             "useValuesFrom": [],
             "defaults": [],
             "valueDataType": {
-              "dataTypeURI": "http://id.loc.gov/ontologies/bflc/Relationship"
+              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Relation"
             }
           },
-          "propertyURI": "http://id.loc.gov/ontologies/bflc/relationship",
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/relation",
           "propertyLabel": "Search Series Hub (optional)"
         },
         {

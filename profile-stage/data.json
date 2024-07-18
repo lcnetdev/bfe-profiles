@@ -4819,10 +4819,10 @@
                     }
                   ],
                   "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bflc/Relationship"
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Relation"
                   }
                 },
-                "propertyURI": "http://id.loc.gov/ontologies/bflc/relationship",
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/relation",
                 "propertyLabel": "Search related works"
               },
               {
@@ -4840,7 +4840,7 @@
                   "editable": "true",
                   "defaults": []
                 },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/relatedTo",
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/relation",
                 "propertyLabel": "Related works not in database",
                 "remark": "https://original.rdatoolkit.org/25.1.html"
               },
@@ -4856,10 +4856,10 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bflc/Relationship"
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Relation"
                   }
                 },
-                "propertyURI": "http://id.loc.gov/ontologies/bflc/relationship",
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/relation",
                 "propertyLabel": "Input Transcribed Series"
               },
               {
@@ -4874,10 +4874,10 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bflc/Relationship"
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Relation"
                   }
                 },
-                "propertyURI": "http://id.loc.gov/ontologies/bflc/relationship",
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/relation",
                 "propertyLabel": "Search Series Hub (optional)"
               },
               {
@@ -5624,7 +5624,7 @@
     "id": "2be36dfb-c101-4641-8af1-27b04ddf3958",
     "metadata": {
       "createDate": "2022-05-10T21:00:39.811Z",
-      "updateDate": "2023-12-05T16:08:13.295Z",
+      "updateDate": "2024-07-18T13:59:24.418Z",
       "createUser": null,
       "updateUser": null
     },
