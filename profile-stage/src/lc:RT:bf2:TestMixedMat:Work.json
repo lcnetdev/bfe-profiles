@@ -380,7 +380,7 @@
         "valueDataType": {},
         "defaults": []
       },
-      "propertyURI": "http://id.loc.gov/ontologies/bflc/relationship",
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/relation",
       "propertyLabel": "Related Work",
       "remark": "http://access.rdatoolkit.org/rdachp25_rda25-65.html"
     },
@@ -396,10 +396,10 @@
         "useValuesFrom": [],
         "defaults": [],
         "valueDataType": {
-          "dataTypeURI": "http://id.loc.gov/ontologies/bflc/Relationship"
+          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Relation"
         }
       },
-      "propertyURI": "http://id.loc.gov/ontologies/bflc/relationship",
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/relation",
       "propertyLabel": "Input Transcribed Series"
     },
     {
@@ -414,10 +414,10 @@
         "useValuesFrom": [],
         "defaults": [],
         "valueDataType": {
-          "dataTypeURI": "http://id.loc.gov/ontologies/bflc/Relationship"
+          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Relation"
         }
       },
-      "propertyURI": "http://id.loc.gov/ontologies/bflc/relationship",
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/relation",
       "propertyLabel": "Search Series Hub (optional)"
     },
     {
