@@ -15,11 +15,11 @@
           "dataTypeURI": ""
         }
       },
-      "propertyURI": "http://id.loc.gov/ontologies/bflc/Relation",
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/Relation",
       "propertyLabel": "Lookup"
     }
   ],
   "id": "lc:RT:bf2:Relation",
-  "resourceURI": "http://id.loc.gov/ontologies/bflc/Relation",
+  "resourceURI": "http://id.loc.gov/ontologies/bibframe/Relation",
   "resourceLabel": "Relationship Designator"
 }

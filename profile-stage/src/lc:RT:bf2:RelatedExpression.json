@@ -30,10 +30,10 @@
         "useValuesFrom": [],
         "defaults": [],
         "valueDataType": {
-          "dataTypeURI": "http://id.loc.gov/ontologies/bflc/Relation"
+          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Relationship"
         }
       },
-      "propertyURI": "http://id.loc.gov/ontologies/bflc/relation",
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/relationship",
       "propertyLabel": "Relationship Designator"
     },
     {
@@ -72,5 +72,5 @@
   ],
   "resourceLabel": "Related Expression",
   "id": "lc:RT:bf2:RelatedExpression",
-  "resourceURI": "http://id.loc.gov/ontologies/bflc/Relationship"
+  "resourceURI": "http://id.loc.gov/ontologies/bibframe/Relation"
 }

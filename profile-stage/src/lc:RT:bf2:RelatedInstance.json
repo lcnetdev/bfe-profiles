@@ -15,7 +15,7 @@
           "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Instance"
         }
       },
-      "propertyURI": "http://id.loc.gov/ontologies/bibframe/relatedTo",
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/associatedResource",
       "propertyLabel": "Related Instance"
     },
     {
@@ -33,7 +33,7 @@
           "dataTypeURI": ""
         }
       },
-      "propertyURI": "http://id.loc.gov/ontologies/bflc/relation",
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/relationship",
       "propertyLabel": "Relationship Designator",
       "remark": ""
     },
@@ -71,6 +71,6 @@
     }
   ],
   "id": "lc:RT:bf2:RelatedInstance",
-  "resourceURI": "http://id.loc.gov/ontologies/bflc/Relationship",
+  "resourceURI": "http://id.loc.gov/ontologies/bibframe/Relation",
   "resourceLabel": "Related Instance"
 }
