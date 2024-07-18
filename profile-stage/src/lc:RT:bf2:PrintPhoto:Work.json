@@ -311,10 +311,10 @@
         "useValuesFrom": [],
         "defaults": [],
         "valueDataType": {
-          "dataTypeURI": "http://id.loc.gov/ontologies/bflc/Relationship"
+          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Relation"
         }
       },
-      "propertyURI": "http://id.loc.gov/ontologies/bflc/relationship",
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/relation",
       "propertyLabel": "Input Transcribed Series"
     },
     {
@@ -329,10 +329,10 @@
         "useValuesFrom": [],
         "defaults": [],
         "valueDataType": {
-          "dataTypeURI": "http://id.loc.gov/ontologies/bflc/Relationship"
+          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Relation"
         }
       },
-      "propertyURI": "http://id.loc.gov/ontologies/bflc/relationship",
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/relation",
       "propertyLabel": "Search Series Hub (optional)"
     },
     {
