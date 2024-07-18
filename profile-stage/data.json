@@ -20667,11 +20667,11 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bflc/Relationship"
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Relation"
                   }
                 },
                 "propertyLabel": "Input Transcribed Series",
-                "propertyURI": "http://id.loc.gov/ontologies/bflc/relationship"
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/relation"
               },
               {
                 "mandatory": "false",
@@ -20685,10 +20685,10 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bflc/Relationship"
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Relation"
                   }
                 },
-                "propertyURI": "http://id.loc.gov/ontologies/bflc/relationship",
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/relation",
                 "propertyLabel": "Search Series Hub (optional)"
               },
               {
@@ -20704,7 +20704,7 @@
                   "valueDataType": {},
                   "defaults": []
                 },
-                "propertyURI": "http://id.loc.gov/ontologies/bflc/relationship",
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/relation",
                 "propertyLabel": "Search related work",
                 "remark": ""
               },
@@ -20721,7 +20721,7 @@
                   "defaults": [],
                   "valueDataType": {}
                 },
-                "propertyURI": "http://id.loc.gov/ontologies/bflc/relationship",
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/relation",
                 "propertyLabel": "Related work not in LC catalog"
               },
               {
@@ -21355,7 +21355,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2024-03-12T14:03:46.624Z",
+      "updateDate": "2024-07-18T13:54:55.337Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",
