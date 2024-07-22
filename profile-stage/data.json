@@ -3488,7 +3488,7 @@
               }
             ],
             "id": "lc:RT:bf2:RelatedWork",
-            "resourceURI": "http://id.loc.gov/ontologies/bibframe/relation",
+            "resourceURI": "http://id.loc.gov/ontologies/bibframe/Relation",
             "resourceLabel": "Related Work",
             "author": ""
           },
@@ -4128,7 +4128,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2024-07-22T17:59:20.523Z",
+      "updateDate": "2024-07-22T18:05:47.049Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",

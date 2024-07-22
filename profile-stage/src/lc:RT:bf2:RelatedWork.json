@@ -73,7 +73,7 @@
     }
   ],
   "id": "lc:RT:bf2:RelatedWork",
-  "resourceURI": "http://id.loc.gov/ontologies/bibframe/relation",
+  "resourceURI": "http://id.loc.gov/ontologies/bibframe/Relation",
   "resourceLabel": "Related Work",
   "author": ""
 }
