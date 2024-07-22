@@ -33,6 +33,29 @@
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/language",
       "propertyLabel": "Language code"
+    },
+    {
+      "mandatory": "true",
+      "repeatable": "false",
+      "type": "resource",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [
+          ""
+        ],
+        "defaults": [
+          {
+            "defaultURI": "http://id.loc.gov/vocabulary/mnotetype/lang",
+            "defaultLiteral": ""
+          }
+        ],
+        "valueDataType": {
+          "dataTypeURI": ""
+        }
+      },
+      "propertyURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "propertyLabel": "Lang type"
     }
   ],
   "id": "lc:RT:bf2:LangNote",
