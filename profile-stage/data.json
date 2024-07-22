@@ -32253,6 +32253,47 @@
             "id": "lc:RT:bf2:Language:Source",
             "resourceURI": "http://id.loc.gov/ontologies/bibframe/Language",
             "resourceLabel": "Language source (test)"
+          },
+          {
+            "propertyTemplates": [
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "lookup",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [
+                    "http://id.loc.gov/vocabulary/languages"
+                  ],
+                  "defaults": [],
+                  "valueDataType": {
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Language"
+                  }
+                },
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/language",
+                "propertyLabel": "Language code"
+              },
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "lookup",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [
+                    "http://id.loc.gov/vocabulary/resourceComponents"
+                  ],
+                  "defaults": [],
+                  "valueDataType": {}
+                },
+                "propertyURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                "propertyLabel": "Type of resource"
+              }
+            ],
+            "id": "lc:RT:bf2:LangResource",
+            "resourceURI": "http://id.loc.gov/ontologies/bibframe/Work",
+            "resourceLabel": "Language resource"
           }
         ],
         "id": "lc:profile:bf2:Language",
@@ -32265,7 +32306,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.059Z",
-      "updateDate": "2022-12-09T16:34:18.712Z",
+      "updateDate": "2024-07-22T13:50:46.848Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.059Z",
