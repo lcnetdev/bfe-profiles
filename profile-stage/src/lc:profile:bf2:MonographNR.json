@@ -270,14 +270,14 @@
           "type": "resource",
           "valueConstraint": {
             "valueTemplateRefs": [
-              "lc:RT:bf2:Language2"
+              "lc:RT:bf2:LangResource"
             ],
             "useValuesFrom": [],
             "defaults": [],
             "valueDataType": {}
           },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/language",
-          "propertyLabel": "Language",
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/accompaniedBy",
+          "propertyLabel": "Language resource",
           "resourceTemplates": [],
           "remark": "http://access.rdatoolkit.org/6.11.html"
         },
