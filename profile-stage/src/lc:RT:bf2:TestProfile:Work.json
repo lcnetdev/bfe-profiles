@@ -306,15 +306,15 @@
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [
-          "lc:RT:bf2:TestProfile:Language"
+          "lc:RT:bf2:LangResource"
         ],
         "useValuesFrom": [],
         "defaults": [],
         "valueDataType": {},
         "editable": "false"
       },
-      "propertyURI": "http://id.loc.gov/ontologies/bibframe/language",
-      "propertyLabel": "Language (menu)",
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/accompaniedBy",
+      "propertyLabel": "Language resource",
       "remark": ""
     },
     {

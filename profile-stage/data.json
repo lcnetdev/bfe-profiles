@@ -14003,15 +14003,15 @@
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [
-                    "lc:RT:bf2:TestProfile:Language"
+                    "lc:RT:bf2:LangResource"
                   ],
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {},
                   "editable": "false"
                 },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/language",
-                "propertyLabel": "Language (menu)",
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/accompaniedBy",
+                "propertyLabel": "Language resource",
                 "remark": ""
               },
               {
@@ -15287,7 +15287,7 @@
     },
     "metadata": {
       "createDate": "2018-09-05T19:18:07.698Z",
-      "updateDate": "2023-12-05T16:10:20.619Z",
+      "updateDate": "2024-07-22T16:01:56.850Z",
       "createUser": null,
       "updateUser": null
     },
