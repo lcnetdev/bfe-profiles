@@ -30077,16 +30077,16 @@
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [
-                    "lc:RT:bf2:Language2"
+                    "lc:RT:bf2:LangResource"
                   ],
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Language"
+                    "dataTypeURI": ""
                   }
                 },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/language",
-                "propertyLabel": "Language"
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/accompaniedBy",
+                "propertyLabel": "Language resource"
               },
               {
                 "mandatory": "false",
@@ -30936,7 +30936,7 @@
     "id": "ce021882-2189-495e-b638-126d03f724a5",
     "metadata": {
       "createDate": "2021-08-02T18:47:18.815Z",
-      "updateDate": "2024-07-18T14:01:19.161Z",
+      "updateDate": "2024-07-22T16:00:42.100Z",
       "createUser": null,
       "updateUser": null
     },
