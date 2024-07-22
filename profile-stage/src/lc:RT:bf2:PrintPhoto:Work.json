@@ -238,16 +238,16 @@
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [
-          "lc:RT:bf2:Language2"
+          "lc:RT:bf2:LangResource"
         ],
         "useValuesFrom": [],
         "defaults": [],
         "valueDataType": {
-          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Language"
+          "dataTypeURI": ""
         }
       },
-      "propertyURI": "http://id.loc.gov/ontologies/bibframe/language",
-      "propertyLabel": "Language"
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/accompaniedBy",
+      "propertyLabel": "Language resource"
     },
     {
       "mandatory": "false",
