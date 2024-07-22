@@ -1315,7 +1315,7 @@
                   "defaults": [],
                   "valueDataType": {}
                 },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/relationship",
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/relation",
                 "propertyLabel": "Related work not in LC catalog"
               },
               {
@@ -2065,7 +2065,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2024-07-22T18:03:36.255Z",
+      "updateDate": "2024-07-22T18:06:30.128Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",
