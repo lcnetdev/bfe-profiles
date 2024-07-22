@@ -128,15 +128,13 @@
           "valueConstraint": {
             "valueTemplateRefs": [],
             "useValuesFrom": [
-              "http://id.loc.gov/vocabulary/languages"
+              "http://id.loc.gov/vocabulary/resourceComponents"
             ],
             "defaults": [],
-            "valueDataType": {
-              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Language"
-            }
+            "valueDataType": {}
           },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/language",
-          "propertyLabel": "Language code"
+          "propertyURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+          "propertyLabel": "Type of resource"
         },
         {
           "mandatory": "false",
@@ -146,13 +144,15 @@
           "valueConstraint": {
             "valueTemplateRefs": [],
             "useValuesFrom": [
-              "http://id.loc.gov/vocabulary/resourceComponents"
+              "http://id.loc.gov/vocabulary/languages"
             ],
             "defaults": [],
-            "valueDataType": {}
+            "valueDataType": {
+              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Language"
+            }
           },
-          "propertyURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
-          "propertyLabel": "Type of resource"
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/language",
+          "propertyLabel": "Language code"
         }
       ],
       "id": "lc:RT:bf2:LangResource",
