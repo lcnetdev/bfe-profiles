@@ -11496,16 +11496,16 @@
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [
-                    "lc:RT:bf2:Language2"
+                    "lc:RT:bf2:LangResource"
                   ],
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Language"
+                    "dataTypeURI": ""
                   }
                 },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/language",
-                "propertyLabel": "Language",
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/accompaniedBy",
+                "propertyLabel": "Language resource",
                 "remark": "http://original.rdatoolkit.org/6.11.html"
               },
               {
@@ -12683,7 +12683,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2024-07-18T13:45:14.785Z",
+      "updateDate": "2024-07-22T15:49:22.525Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",
