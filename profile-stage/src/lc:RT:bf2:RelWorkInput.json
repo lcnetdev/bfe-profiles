@@ -12,10 +12,10 @@
         ],
         "defaults": [],
         "valueDataType": {
-          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Relation"
+          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Relationship"
         }
       },
-      "propertyURI": "http://id.loc.gov/ontologies/bibframe/relation",
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/relationship",
       "propertyLabel": "Relationship designator"
     },
     {
