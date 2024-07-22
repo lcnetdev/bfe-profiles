@@ -295,18 +295,18 @@
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [
-              "lc:RT:bf2:Language2"
+              "lc:RT:bf2:LangResource"
             ],
             "useValuesFrom": [],
             "valueDataType": {
-              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Language"
+              "dataTypeURI": ""
             },
             "editable": "false",
             "repeatable": "true",
             "defaults": []
           },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/language",
-          "propertyLabel": "Language",
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/accompaniedBy",
+          "propertyLabel": "Language resource",
           "remark": "http://original.rdatoolkit.org/6.11.html"
         },
         {
@@ -346,7 +346,7 @@
             "defaults": []
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/colorContent",
-          "propertyLabel": "Color Content (lookup or note)",
+          "propertyLabel": "Color Content",
           "remark": "http://original.rdatoolkit.org/7.17.html"
         },
         {
