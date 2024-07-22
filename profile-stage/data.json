@@ -32341,7 +32341,7 @@
                   ],
                   "defaults": [],
                   "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/L"
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Language"
                   }
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/language",
@@ -32363,7 +32363,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.059Z",
-      "updateDate": "2024-07-22T14:25:24.389Z",
+      "updateDate": "2024-07-22T14:42:59.079Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.059Z",

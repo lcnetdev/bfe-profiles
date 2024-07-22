@@ -189,7 +189,7 @@
             ],
             "defaults": [],
             "valueDataType": {
-              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/L"
+              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Language"
             }
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/language",
