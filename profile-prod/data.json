@@ -28619,10 +28619,10 @@
                     }
                   ],
                   "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bflc/Relation"
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/relationship"
                   }
                 },
-                "propertyURI": "http://id.loc.gov/ontologies/bflc/relation",
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/relationship",
                 "propertyLabel": "Relationship"
               },
               {
@@ -28640,7 +28640,7 @@
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Series"
                   }
                 },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/relatedTo",
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/associatedResource",
                 "propertyLabel": "Series Hub"
               },
               {
@@ -28675,7 +28675,7 @@
               }
             ],
             "id": "lc:RT:bf2:SeriesHub",
-            "resourceURI": "http://id.loc.gov/ontologies/bflc/Relationship",
+            "resourceURI": "http://id.loc.gov/ontologies/bibframe/Relation",
             "resourceLabel": "Input Transcribed Series"
           },
           {
@@ -28801,10 +28801,10 @@
                     }
                   ],
                   "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bflc/Relation"
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Relationship"
                   }
                 },
-                "propertyURI": "http://id.loc.gov/ontologies/bflc/relation",
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/relationship",
                 "propertyLabel": "Relationship"
               },
               {
@@ -28822,7 +28822,7 @@
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Series"
                   }
                 },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/relatedTo",
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/associatedResource",
                 "propertyLabel": "Search Series Hub"
               },
               {
@@ -28841,7 +28841,7 @@
               }
             ],
             "id": "lc:RT:bf2:SeriesHubLookup",
-            "resourceURI": "http://id.loc.gov/ontologies/bflc/Relationship",
+            "resourceURI": "http://id.loc.gov/ontologies/bibframe/Relation",
             "resourceLabel": "Search Series Hub"
           }
         ],
@@ -28854,7 +28854,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2023-01-24T20:59:12.877Z",
+      "updateDate": "2024-07-23T19:30:36.162Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",
