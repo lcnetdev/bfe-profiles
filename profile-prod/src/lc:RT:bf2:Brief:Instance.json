@@ -72,5 +72,5 @@
   ],
   "id": "lc:RT:bf2:Brief:Instance",
   "resourceURI": "http://id.loc.gov/ontologies/bibframe/Instance",
-  "resourceLabel": "Related Instances"
+  "resourceLabel": "Related Instances (unused)"
 }
