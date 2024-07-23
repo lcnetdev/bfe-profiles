@@ -10243,7 +10243,7 @@
                   "useValuesFrom": [],
                   "defaults": []
                 },
-                "propertyURI": "http://id.loc.gov/ontologies/bflc/relationship",
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/relation",
                 "propertyLabel": "Search related work",
                 "remark": "https://original.rdatoolkit.org/25.1.html",
                 "resourceTemplates": []
@@ -10260,10 +10260,10 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bflc/Relationship"
+                    "dataTypeURI": ""
                   }
                 },
-                "propertyURI": "http://id.loc.gov/ontologies/bflc/relationship",
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/relation",
                 "propertyLabel": "Input Transcribed Series"
               },
               {
@@ -10278,10 +10278,10 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bflc/Relationship"
+                    "dataTypeURI": ""
                   }
                 },
-                "propertyURI": "http://id.loc.gov/ontologies/bflc/relationship",
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/relation",
                 "propertyLabel": "Search Series Hub (optional)"
               },
               {
@@ -10861,7 +10861,7 @@
     },
     "metadata": {
       "createDate": "2019-04-11T20:45:09.452Z",
-      "updateDate": "2024-07-23T18:34:53.245Z",
+      "updateDate": "2024-07-23T19:56:14.190Z",
       "createUser": null,
       "updateUser": null
     },
