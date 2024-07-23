@@ -13026,7 +13026,7 @@
                   "valueDataType": {}
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/colorContent",
-                "propertyLabel": "Color Content (lookup or note)",
+                "propertyLabel": "Color Content",
                 "remark": "http://access.rdatoolkit.org/7.17.html",
                 "resourceTemplates": []
               },
@@ -13095,22 +13095,6 @@
                 "propertyLabel": "Search related work",
                 "remark": "",
                 "resourceTemplates": []
-              },
-              {
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "resource",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [
-                    "lc:RT:bf2:RelWorkInput"
-                  ],
-                  "useValuesFrom": [],
-                  "defaults": [],
-                  "valueDataType": {}
-                },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/relation",
-                "propertyLabel": "Related work not in LC catalog"
               },
               {
                 "mandatory": "false",
@@ -13681,7 +13665,7 @@
     },
     "metadata": {
       "createDate": "2019-04-11T20:45:09.452Z",
-      "updateDate": "2024-07-22T15:48:27.336Z",
+      "updateDate": "2024-07-23T18:03:10.736Z",
       "createUser": null,
       "updateUser": null
     },

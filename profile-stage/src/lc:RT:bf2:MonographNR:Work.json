@@ -328,7 +328,7 @@
         "valueDataType": {}
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/colorContent",
-      "propertyLabel": "Color Content (lookup or note)",
+      "propertyLabel": "Color Content",
       "remark": "http://access.rdatoolkit.org/7.17.html",
       "resourceTemplates": []
     },
@@ -397,22 +397,6 @@
       "propertyLabel": "Search related work",
       "remark": "",
       "resourceTemplates": []
-    },
-    {
-      "mandatory": "false",
-      "repeatable": "true",
-      "type": "resource",
-      "resourceTemplates": [],
-      "valueConstraint": {
-        "valueTemplateRefs": [
-          "lc:RT:bf2:RelWorkInput"
-        ],
-        "useValuesFrom": [],
-        "defaults": [],
-        "valueDataType": {}
-      },
-      "propertyURI": "http://id.loc.gov/ontologies/bibframe/relation",
-      "propertyLabel": "Related work not in LC catalog"
     },
     {
       "mandatory": "false",
