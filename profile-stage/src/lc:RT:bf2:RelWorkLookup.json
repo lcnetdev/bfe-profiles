@@ -8,7 +8,7 @@
       "valueConstraint": {
         "valueTemplateRefs": [],
         "useValuesFrom": [
-          "http://id.loc.gov/entities/relationships"
+          "http://id.loc.gov/vocabulary/relationship"
         ],
         "defaults": [],
         "valueDataType": {

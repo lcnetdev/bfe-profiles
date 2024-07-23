@@ -3407,7 +3407,7 @@
                 "valueConstraint": {
                   "valueTemplateRefs": [],
                   "useValuesFrom": [
-                    "http://id.loc.gov/entities/relationships"
+                    "http://id.loc.gov/vocabulary/relationship"
                   ],
                   "defaults": [],
                   "valueDataType": {
@@ -3853,7 +3853,7 @@
                 "valueConstraint": {
                   "valueTemplateRefs": [],
                   "useValuesFrom": [
-                    "http://id.loc.gov/entities/relationships"
+                    "http://id.loc.gov/vocabulary/relationship"
                   ],
                   "defaults": [],
                   "valueDataType": {
@@ -4112,7 +4112,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2024-07-22T18:08:56.119Z",
+      "updateDate": "2024-07-23T18:42:10.437Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",
