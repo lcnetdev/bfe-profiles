@@ -12,10 +12,10 @@
         ],
         "defaults": [],
         "valueDataType": {
-          "dataTypeURI": "http://id.loc.gov/ontologies/bflc/Relation"
+          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Relationship"
         }
       },
-      "propertyURI": "http://id.loc.gov/ontologies/bflc/relation",
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/relationship",
       "propertyLabel": "Relationship designator"
     },
     {
@@ -106,6 +106,6 @@
     }
   ],
   "id": "lc:RT:bf2:RelWorkInput",
-  "resourceURI": "http://id.loc.gov/ontologies/bflc/Relationship",
+  "resourceURI": "http://id.loc.gov/ontologies/bibframe/Relation",
   "resourceLabel": "Related work not in LC catalog"
 }

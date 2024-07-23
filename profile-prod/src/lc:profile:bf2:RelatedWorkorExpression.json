@@ -14,10 +14,10 @@
             ],
             "defaults": [],
             "valueDataType": {
-              "dataTypeURI": "http://id.loc.gov/ontologies/bflc/Relation"
+              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Relationship"
             }
           },
-          "propertyURI": "http://id.loc.gov/ontologies/bflc/relation",
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/relationship",
           "propertyLabel": "Relationship designator"
         },
         {
@@ -33,15 +33,15 @@
             ],
             "defaults": [],
             "valueDataType": {
-              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Work"
+              "dataTypeURI": ""
             }
           },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/relatedTo",
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/associatedResource",
           "propertyLabel": "Search related work"
         }
       ],
       "id": "lc:RT:bf2:RelWorkLookup",
-      "resourceURI": "http://id.loc.gov/ontologies/bflc/Relationship",
+      "resourceURI": "http://id.loc.gov/ontologies/bibframe/Relation",
       "resourceLabel": "Search Related Work"
     },
     {
@@ -58,10 +58,10 @@
             ],
             "defaults": [],
             "valueDataType": {
-              "dataTypeURI": "http://id.loc.gov/ontologies/bflc/Relation"
+              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Relationship"
             }
           },
-          "propertyURI": "http://id.loc.gov/ontologies/bflc/relation",
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/relationship",
           "propertyLabel": "Relationship designator"
         },
         {
@@ -152,7 +152,7 @@
         }
       ],
       "id": "lc:RT:bf2:RelWorkInput",
-      "resourceURI": "http://id.loc.gov/ontologies/bflc/Relationship",
+      "resourceURI": "http://id.loc.gov/ontologies/bibframe/Relation",
       "resourceLabel": "Related work not in LC catalog"
     },
     {
