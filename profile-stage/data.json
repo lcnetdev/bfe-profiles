@@ -3688,7 +3688,7 @@
             ],
             "id": "lc:RT:bf2:RelatedWork",
             "resourceURI": "http://id.loc.gov/ontologies/bibframe/Relation",
-            "resourceLabel": "Related Work",
+            "resourceLabel": "Related Work (unused)",
             "author": ""
           },
           {
@@ -3763,7 +3763,7 @@
                 "remark": ""
               }
             ],
-            "resourceLabel": "Related Expression",
+            "resourceLabel": "Related Expression (unused)",
             "id": "lc:RT:bf2:RelatedExpression",
             "resourceURI": "http://id.loc.gov/ontologies/bibframe/Relation"
           },
@@ -3841,7 +3841,7 @@
             ],
             "id": "lc:RT:bf2:RelatedInstance",
             "resourceURI": "http://id.loc.gov/ontologies/bibframe/Relation",
-            "resourceLabel": "Related Instance"
+            "resourceLabel": "Related Instance (unused)"
           },
           {
             "propertyTemplates": [
@@ -3866,7 +3866,7 @@
             ],
             "id": "lc:RT:bf2:Relation",
             "resourceURI": "http://id.loc.gov/ontologies/bibframe/Relation",
-            "resourceLabel": "Relationship Designator"
+            "resourceLabel": "Relationship Designator (unused)"
           },
           {
             "propertyTemplates": [
@@ -3944,7 +3944,7 @@
             ],
             "id": "lc:RT:bf2:Brief:Work",
             "resourceURI": "http://id.loc.gov/ontologies/bibframe/Work",
-            "resourceLabel": "Related Works"
+            "resourceLabel": "Related Works (unused)"
           },
           {
             "propertyTemplates": [
@@ -4026,7 +4026,7 @@
             ],
             "id": "lc:RT:bf2:Brief:Expression",
             "resourceURI": "http://id.loc.gov/ontologies/bibframe/Work",
-            "resourceLabel": "Related Expressions"
+            "resourceLabel": "Related Expressions (unused)"
           },
           {
             "propertyTemplates": [
@@ -4100,7 +4100,7 @@
             ],
             "id": "lc:RT:bf2:Brief:Instance",
             "resourceURI": "http://id.loc.gov/ontologies/bibframe/Instance",
-            "resourceLabel": "Related Instances"
+            "resourceLabel": "Related Instances (unused)"
           }
         ],
         "id": "lc:profile:bf2:RelatedWorkorExpression",
@@ -4112,7 +4112,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2024-07-23T18:42:10.437Z",
+      "updateDate": "2024-07-23T18:45:50.903Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",

@@ -72,5 +72,5 @@
   ],
   "id": "lc:RT:bf2:RelatedInstance",
   "resourceURI": "http://id.loc.gov/ontologies/bibframe/Relation",
-  "resourceLabel": "Related Instance"
+  "resourceLabel": "Related Instance (unused)"
 }

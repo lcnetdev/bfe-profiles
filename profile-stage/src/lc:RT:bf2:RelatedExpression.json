@@ -70,7 +70,7 @@
       "remark": ""
     }
   ],
-  "resourceLabel": "Related Expression",
+  "resourceLabel": "Related Expression (unused)",
   "id": "lc:RT:bf2:RelatedExpression",
   "resourceURI": "http://id.loc.gov/ontologies/bibframe/Relation"
 }
