@@ -17,10 +17,10 @@
           }
         ],
         "valueDataType": {
-          "dataTypeURI": "http://id.loc.gov/ontologies/bflc/Relation"
+          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Relationship"
         }
       },
-      "propertyURI": "http://id.loc.gov/ontologies/bflc/relation",
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/relationship",
       "propertyLabel": "Relationship"
     },
     {
@@ -38,7 +38,7 @@
           "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Series"
         }
       },
-      "propertyURI": "http://id.loc.gov/ontologies/bibframe/relatedTo",
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/associatedResource",
       "propertyLabel": "Search Series Hub"
     },
     {
@@ -56,7 +56,7 @@
       "propertyLabel": "Series enumeration"
     }
   ],
-  "resourceURI": "http://id.loc.gov/ontologies/bflc/Relationship",
+  "resourceURI": "http://id.loc.gov/ontologies/bibframe/Relation",
   "id": "lc:RT:bf2:SeriesHubLookup",
   "resourceLabel": "Search Series Hub"
 }

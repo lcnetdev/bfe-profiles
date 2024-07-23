@@ -5,90 +5,6 @@
         {
           "mandatory": "false",
           "repeatable": "true",
-          "type": "literal",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [],
-            "useValuesFrom": [],
-            "valueDataType": {},
-            "defaults": []
-          },
-          "propertyLabel": "Series Statement and ISSN",
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/seriesStatement",
-          "remark": "http://access.rdatoolkit.org/2.12.html"
-        },
-        {
-          "mandatory": "false",
-          "repeatable": "true",
-          "type": "literal",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [],
-            "useValuesFrom": [],
-            "valueDataType": {},
-            "defaults": []
-          },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/seriesEnumeration",
-          "propertyLabel": "Series Numbering",
-          "remark": "http://access.rdatoolkit.org/2.12.9.html"
-        },
-        {
-          "mandatory": "false",
-          "repeatable": "true",
-          "type": "literal",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [],
-            "useValuesFrom": [],
-            "valueDataType": {},
-            "defaults": []
-          },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/subseriesStatement",
-          "propertyLabel": "Subseries Title and ISSN",
-          "remark": "http://access.rdatoolkit.org/2.12.10.html"
-        },
-        {
-          "mandatory": "false",
-          "repeatable": "true",
-          "type": "literal",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [],
-            "useValuesFrom": [],
-            "valueDataType": {},
-            "defaults": []
-          },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/subseriesEnumeration",
-          "propertyLabel": "Numbering within Subseries",
-          "remark": "http://access.rdatoolkit.org/2.12.17.html"
-        },
-        {
-          "mandatory": "false",
-          "repeatable": "true",
-          "type": "resource",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [
-              "lc:RT:bf2:Note"
-            ],
-            "useValuesFrom": [],
-            "defaults": [],
-            "valueDataType": {}
-          },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
-          "propertyLabel": "Note"
-        }
-      ],
-      "resourceURI": "http://id.loc.gov/ontologies/bibframe/Instance",
-      "id": "lc:RT:bf2:SeriesInformation",
-      "resourceLabel": "Series Statement (unused)",
-      "remark": ""
-    },
-    {
-      "propertyTemplates": [
-        {
-          "mandatory": "false",
-          "repeatable": "true",
           "type": "lookup",
           "resourceTemplates": [],
           "valueConstraint": {
@@ -103,10 +19,10 @@
               }
             ],
             "valueDataType": {
-              "dataTypeURI": "http://id.loc.gov/ontologies/bflc/Relation"
+              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Relationship"
             }
           },
-          "propertyURI": "http://id.loc.gov/ontologies/bflc/relation",
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/relationship",
           "propertyLabel": "Relationship"
         },
         {
@@ -124,7 +40,7 @@
               "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Series"
             }
           },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/relatedTo",
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/associatedResource",
           "propertyLabel": "Series Hub"
         },
         {
@@ -159,7 +75,7 @@
         }
       ],
       "id": "lc:RT:bf2:SeriesHub",
-      "resourceURI": "http://id.loc.gov/ontologies/bflc/Relationship",
+      "resourceURI": "http://id.loc.gov/ontologies/bibframe/Relation",
       "resourceLabel": "Input Transcribed Series"
     },
     {
@@ -299,10 +215,10 @@
               }
             ],
             "valueDataType": {
-              "dataTypeURI": "http://id.loc.gov/ontologies/bflc/Relation"
+              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Relationship"
             }
           },
-          "propertyURI": "http://id.loc.gov/ontologies/bflc/relation",
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/relationship",
           "propertyLabel": "Relationship"
         },
         {
@@ -320,7 +236,7 @@
               "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Series"
             }
           },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/relatedTo",
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/associatedResource",
           "propertyLabel": "Search Series Hub"
         },
         {
@@ -338,7 +254,7 @@
           "propertyLabel": "Series enumeration"
         }
       ],
-      "resourceURI": "http://id.loc.gov/ontologies/bflc/Relationship",
+      "resourceURI": "http://id.loc.gov/ontologies/bibframe/Relation",
       "id": "lc:RT:bf2:SeriesHubLookup",
       "resourceLabel": "Search Series Hub"
     },
@@ -384,6 +300,90 @@
       "id": "lc:RT:bf2:SeriesHubIssnCancelled",
       "resourceURI": "http://id.loc.gov/ontologies/bibframe/Issn",
       "resourceLabel": "Issn, Cancelled"
+    },
+    {
+      "propertyTemplates": [
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "literal",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [],
+            "useValuesFrom": [],
+            "valueDataType": {},
+            "defaults": []
+          },
+          "propertyLabel": "Series Statement and ISSN",
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/seriesStatement",
+          "remark": "http://access.rdatoolkit.org/2.12.html"
+        },
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "literal",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [],
+            "useValuesFrom": [],
+            "valueDataType": {},
+            "defaults": []
+          },
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/seriesEnumeration",
+          "propertyLabel": "Series Numbering",
+          "remark": "http://access.rdatoolkit.org/2.12.9.html"
+        },
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "literal",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [],
+            "useValuesFrom": [],
+            "valueDataType": {},
+            "defaults": []
+          },
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/subseriesStatement",
+          "propertyLabel": "Subseries Title and ISSN",
+          "remark": "http://access.rdatoolkit.org/2.12.10.html"
+        },
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "literal",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [],
+            "useValuesFrom": [],
+            "valueDataType": {},
+            "defaults": []
+          },
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/subseriesEnumeration",
+          "propertyLabel": "Numbering within Subseries",
+          "remark": "http://access.rdatoolkit.org/2.12.17.html"
+        },
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "resource",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [
+              "lc:RT:bf2:Note"
+            ],
+            "useValuesFrom": [],
+            "defaults": [],
+            "valueDataType": {}
+          },
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
+          "propertyLabel": "Note"
+        }
+      ],
+      "resourceURI": "http://id.loc.gov/ontologies/bibframe/Instance",
+      "id": "lc:RT:bf2:SeriesInformation",
+      "resourceLabel": "Series Statement (unused)",
+      "remark": ""
     }
   ],
   "id": "lc:profile:bf2:SeriesInformation",
