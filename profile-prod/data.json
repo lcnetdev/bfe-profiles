@@ -3361,7 +3361,7 @@
                   }
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/colorContent",
-                "propertyLabel": "Color Content (lookup or note)",
+                "propertyLabel": "Color Content",
                 "remark": "https://original.rdatoolkit.org/7.17.html"
               },
               {
@@ -3456,6 +3456,23 @@
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [
+                    "lc:RT:bf2:RelWorkLookup"
+                  ],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {}
+                },
+                "propertyURI": "http://id.loc.gov/ontologies/bflc/relationship",
+                "propertyLabel": "Search related work",
+                "remark": "https://original.rdatoolkit.org/25.1.html"
+              },
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "resource",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [
                     "lc:RT:bf2:SeriesHub"
                   ],
                   "useValuesFrom": [],
@@ -3484,39 +3501,6 @@
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bflc/relationship",
                 "propertyLabel": "Search Series Hub (optional)"
-              },
-              {
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "resource",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [
-                    "lc:RT:bf2:RelWorkLookup"
-                  ],
-                  "useValuesFrom": [],
-                  "defaults": [],
-                  "valueDataType": {}
-                },
-                "propertyURI": "http://id.loc.gov/ontologies/bflc/relationship",
-                "propertyLabel": "Search related work",
-                "remark": "https://original.rdatoolkit.org/25.1.html"
-              },
-              {
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "resource",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [
-                    "lc:RT:bf2:RelWorkInput"
-                  ],
-                  "useValuesFrom": [],
-                  "defaults": [],
-                  "valueDataType": {}
-                },
-                "propertyURI": "http://id.loc.gov/ontologies/bflc/relationship",
-                "propertyLabel": "Related work not in LC catalog"
               },
               {
                 "mandatory": "false",
@@ -4557,7 +4541,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2024-01-30T15:07:05.945Z",
+      "updateDate": "2024-07-23T18:35:37.557Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",
