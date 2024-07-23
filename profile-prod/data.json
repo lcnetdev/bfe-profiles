@@ -14611,6 +14611,23 @@
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [
+                    "lc:RT:bf2:RelWorkLookup"
+                  ],
+                  "useValuesFrom": [],
+                  "valueDataType": {},
+                  "defaults": []
+                },
+                "propertyURI": "http://id.loc.gov/ontologies/bflc/relationship",
+                "propertyLabel": "Search related work",
+                "remark": "https://original.rdatoolkit.org/25.1.html"
+              },
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "resource",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [
                     "lc:RT:bf2:SeriesHub"
                   ],
                   "useValuesFrom": [],
@@ -14639,39 +14656,6 @@
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bflc/relationship",
                 "propertyLabel": "Search Series Hub (optional)"
-              },
-              {
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "resource",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [
-                    "lc:RT:bf2:RelWorkLookup"
-                  ],
-                  "useValuesFrom": [],
-                  "valueDataType": {},
-                  "defaults": []
-                },
-                "propertyURI": "http://id.loc.gov/ontologies/bflc/relationship",
-                "propertyLabel": "Search related work",
-                "remark": "https://original.rdatoolkit.org/25.1.html"
-              },
-              {
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "resource",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [
-                    "lc:RT:bf2:RelWorkInput"
-                  ],
-                  "useValuesFrom": [],
-                  "defaults": [],
-                  "valueDataType": {}
-                },
-                "propertyURI": "http://id.loc.gov/ontologies/bflc/relationship",
-                "propertyLabel": "Related work not in LC catalog"
               },
               {
                 "mandatory": "false",
@@ -15268,7 +15252,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2024-03-07T19:36:13.011Z",
+      "updateDate": "2024-07-23T18:39:56.465Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",
