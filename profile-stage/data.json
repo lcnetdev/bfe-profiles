@@ -15386,8 +15386,7 @@
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [
-                    "lc:RT:bf2:RelWorkLookup",
-                    "lc:RT:bf2:RelWorkInput"
+                    "lc:RT:bf2:RelWorkLookup"
                   ],
                   "useValuesFrom": [],
                   "valueDataType": {},
@@ -16729,7 +16728,7 @@
     },
     "metadata": {
       "createDate": "2019-06-13T12:32:28.719Z",
-      "updateDate": "2024-07-22T16:03:13.256Z",
+      "updateDate": "2024-07-23T18:17:58.347Z",
       "createUser": null,
       "updateUser": null
     },
