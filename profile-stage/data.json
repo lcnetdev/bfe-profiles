@@ -30747,7 +30747,7 @@
                   }
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/colorContent",
-                "propertyLabel": "Color content (lookup or note)"
+                "propertyLabel": "Color content"
               },
               {
                 "mandatory": "false",
@@ -31628,7 +31628,7 @@
     },
     "metadata": {
       "createDate": "2018-09-05T19:18:43.112Z",
-      "updateDate": "2024-07-22T15:59:55.484Z",
+      "updateDate": "2024-07-23T18:16:30.201Z",
       "createUser": null,
       "updateUser": null
     },

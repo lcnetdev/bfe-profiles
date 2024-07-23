@@ -231,7 +231,7 @@
             }
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/colorContent",
-          "propertyLabel": "Color content (lookup or note)"
+          "propertyLabel": "Color content"
         },
         {
           "mandatory": "false",
