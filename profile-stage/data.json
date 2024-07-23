@@ -13615,7 +13615,7 @@
                   }
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/colorContent",
-                "propertyLabel": "Color Content (lookup or note)",
+                "propertyLabel": "Color Content",
                 "remark": ""
               },
               {
@@ -13797,10 +13797,7 @@
                   "valueTemplateRefs": [
                     "lc:RT:bf2:TestProfile:RelatedWorkAll",
                     "lc:RT:bf2:TestProfile:RelatedWork1",
-                    "lc:RT:bf2:TestProfile:RelatedWork2",
-                    "lc:RT:bf2:TestProfile:RelatedWork",
-                    "lc:RT:bf2:Brief:Work",
-                    "lc:RT:bf2:SoundRec:PartWork"
+                    "lc:RT:bf2:TestProfile:RelatedWork2"
                   ],
                   "useValuesFrom": [],
                   "valueDataType": {},
@@ -14997,7 +14994,7 @@
     },
     "metadata": {
       "createDate": "2018-09-05T19:18:07.698Z",
-      "updateDate": "2024-07-22T16:01:56.850Z",
+      "updateDate": "2024-07-23T18:25:24.414Z",
       "createUser": null,
       "updateUser": null
     },
