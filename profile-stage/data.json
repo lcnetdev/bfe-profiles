@@ -27106,7 +27106,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2024-07-23T18:06:54.306Z",
+      "updateDate": "2024-07-23T19:59:08.891Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",
@@ -33881,8 +33881,8 @@
                   "editable": "false",
                   "defaults": []
                 },
-                "propertyLabel": "Creation date",
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/creationDate"
+                "propertyLabel": "Date",
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/date"
               },
               {
                 "mandatory": "true",
@@ -33927,21 +33927,6 @@
                 "propertyLabel": "Assigning agency",
                 "remark": "",
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/assigner"
-              },
-              {
-                "mandatory": "false",
-                "repeatable": "false",
-                "type": "literal",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [],
-                  "valueDataType": {},
-                  "editable": "false",
-                  "defaults": []
-                },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/changeDate",
-                "propertyLabel": "Change date"
               },
               {
                 "mandatory": "false",
@@ -34175,8 +34160,8 @@
                   "editable": "false",
                   "defaults": []
                 },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/changeDate",
-                "propertyLabel": "Change date"
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/date",
+                "propertyLabel": "Date"
               },
               {
                 "mandatory": "true",
@@ -34368,21 +34353,6 @@
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bflc/catalogerId",
                 "propertyLabel": "Your cataloger ID (Windows ID)"
-              },
-              {
-                "mandatory": "false",
-                "repeatable": "false",
-                "type": "literal",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [],
-                  "valueDataType": {},
-                  "editable": "false",
-                  "defaults": []
-                },
-                "propertyLabel": "Creation date",
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/creationDate"
               }
             ],
             "id": "lc:RT:bf2:AdminMetadata",
@@ -34445,7 +34415,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.056Z",
-      "updateDate": "2024-02-05T16:31:54.080Z",
+      "updateDate": "2024-07-24T14:17:31.312Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.056Z",

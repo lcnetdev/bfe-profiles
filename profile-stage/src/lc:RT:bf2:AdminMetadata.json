@@ -12,8 +12,8 @@
         "editable": "false",
         "defaults": []
       },
-      "propertyURI": "http://id.loc.gov/ontologies/bibframe/changeDate",
-      "propertyLabel": "Change date"
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/date",
+      "propertyLabel": "Date"
     },
     {
       "mandatory": "true",
@@ -205,21 +205,6 @@
       },
       "propertyURI": "http://id.loc.gov/ontologies/bflc/catalogerId",
       "propertyLabel": "Your cataloger ID (Windows ID)"
-    },
-    {
-      "mandatory": "false",
-      "repeatable": "false",
-      "type": "literal",
-      "resourceTemplates": [],
-      "valueConstraint": {
-        "valueTemplateRefs": [],
-        "useValuesFrom": [],
-        "valueDataType": {},
-        "editable": "false",
-        "defaults": []
-      },
-      "propertyLabel": "Creation date",
-      "propertyURI": "http://id.loc.gov/ontologies/bibframe/creationDate"
     }
   ],
   "id": "lc:RT:bf2:AdminMetadata",

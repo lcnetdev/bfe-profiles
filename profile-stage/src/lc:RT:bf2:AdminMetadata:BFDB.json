@@ -12,8 +12,8 @@
         "editable": "false",
         "defaults": []
       },
-      "propertyLabel": "Creation date",
-      "propertyURI": "http://id.loc.gov/ontologies/bibframe/creationDate"
+      "propertyLabel": "Date",
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/date"
     },
     {
       "mandatory": "true",
@@ -58,21 +58,6 @@
       "propertyLabel": "Assigning agency",
       "remark": "",
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/assigner"
-    },
-    {
-      "mandatory": "false",
-      "repeatable": "false",
-      "type": "literal",
-      "resourceTemplates": [],
-      "valueConstraint": {
-        "valueTemplateRefs": [],
-        "useValuesFrom": [],
-        "valueDataType": {},
-        "editable": "false",
-        "defaults": []
-      },
-      "propertyURI": "http://id.loc.gov/ontologies/bibframe/changeDate",
-      "propertyLabel": "Change date"
     },
     {
       "mandatory": "false",

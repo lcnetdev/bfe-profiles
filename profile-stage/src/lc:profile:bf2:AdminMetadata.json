@@ -14,8 +14,8 @@
             "editable": "false",
             "defaults": []
           },
-          "propertyLabel": "Creation date",
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/creationDate"
+          "propertyLabel": "Date",
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/date"
         },
         {
           "mandatory": "true",
@@ -60,21 +60,6 @@
           "propertyLabel": "Assigning agency",
           "remark": "",
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/assigner"
-        },
-        {
-          "mandatory": "false",
-          "repeatable": "false",
-          "type": "literal",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [],
-            "useValuesFrom": [],
-            "valueDataType": {},
-            "editable": "false",
-            "defaults": []
-          },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/changeDate",
-          "propertyLabel": "Change date"
         },
         {
           "mandatory": "false",
@@ -308,8 +293,8 @@
             "editable": "false",
             "defaults": []
           },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/changeDate",
-          "propertyLabel": "Change date"
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/date",
+          "propertyLabel": "Date"
         },
         {
           "mandatory": "true",
@@ -501,21 +486,6 @@
           },
           "propertyURI": "http://id.loc.gov/ontologies/bflc/catalogerId",
           "propertyLabel": "Your cataloger ID (Windows ID)"
-        },
-        {
-          "mandatory": "false",
-          "repeatable": "false",
-          "type": "literal",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [],
-            "useValuesFrom": [],
-            "valueDataType": {},
-            "editable": "false",
-            "defaults": []
-          },
-          "propertyLabel": "Creation date",
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/creationDate"
         }
       ],
       "id": "lc:RT:bf2:AdminMetadata",
