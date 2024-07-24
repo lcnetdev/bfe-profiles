@@ -280,23 +280,6 @@
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
       "propertyLabel": "Note",
       "remark": ""
-    },
-    {
-      "mandatory": "false",
-      "repeatable": "false",
-      "type": "literal",
-      "resourceTemplates": [],
-      "valueConstraint": {
-        "valueTemplateRefs": [],
-        "useValuesFrom": [],
-        "defaults": [],
-        "valueDataType": {
-          "dataTypeURI": "http://www.w3.org/2001/XMLSchema#date",
-          "dataTypeLabelHint": "Date"
-        }
-      },
-      "propertyURI": "http://id.loc.gov/ontologies/bibframe/date",
-      "propertyLabel": "Date"
     }
   ],
   "id": "lc:RT:bf2:AdminMetadata:BFDB",

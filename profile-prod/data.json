@@ -22311,23 +22311,6 @@
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
                 "propertyLabel": "Note",
                 "remark": ""
-              },
-              {
-                "mandatory": "false",
-                "repeatable": "false",
-                "type": "literal",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [],
-                  "defaults": [],
-                  "valueDataType": {
-                    "dataTypeURI": "http://www.w3.org/2001/XMLSchema#date",
-                    "dataTypeLabelHint": "Date"
-                  }
-                },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/date",
-                "propertyLabel": "Date"
               }
             ],
             "id": "lc:RT:bf2:AdminMetadata:BFDB",
@@ -22626,7 +22609,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.056Z",
-      "updateDate": "2024-07-24T14:18:39.542Z",
+      "updateDate": "2024-07-24T16:07:53.255Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.056Z",
