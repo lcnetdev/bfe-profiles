@@ -22094,32 +22094,14 @@
                   "valueTemplateRefs": [],
                   "useValuesFrom": [],
                   "valueDataType": {
-                    "dataTypeLabelHint": "Date or date and time on which the original metadata first created.",
+                    "dataTypeLabelHint": "",
                     "dataTypeURI": "http://www.w3.org/2001/XMLSchema#date"
                   },
                   "editable": "false",
                   "defaults": []
                 },
-                "propertyLabel": "Creation date",
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/creationDate"
-              },
-              {
-                "mandatory": "false",
-                "repeatable": "false",
-                "type": "literal",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [],
-                  "valueDataType": {
-                    "dataTypeLabelHint": "Date or date and time on which the metadata was modified.",
-                    "dataTypeURI": "http://www.w3.org/2001/XMLSchema#dateTime"
-                  },
-                  "editable": "false",
-                  "defaults": []
-                },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/changeDate",
-                "propertyLabel": "Change date"
+                "propertyLabel": "Date",
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/date"
               },
               {
                 "mandatory": "true",
@@ -22363,13 +22345,13 @@
                   "valueTemplateRefs": [],
                   "useValuesFrom": [],
                   "valueDataType": {
-                    "dataTypeLabelHint": "Date or date and time on which the metadata was modified."
+                    "dataTypeLabelHint": ""
                   },
                   "editable": "false",
                   "defaults": []
                 },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/changeDate",
-                "propertyLabel": "Change date"
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/date",
+                "propertyLabel": "Date"
               },
               {
                 "mandatory": "true",
@@ -22567,23 +22549,6 @@
               },
               {
                 "mandatory": "false",
-                "repeatable": "false",
-                "type": "literal",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [],
-                  "valueDataType": {
-                    "dataTypeLabelHint": "Date or date and time on which the original metadata first created."
-                  },
-                  "editable": "false",
-                  "defaults": []
-                },
-                "propertyLabel": "Creation date",
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/creationDate"
-              },
-              {
-                "mandatory": "false",
                 "repeatable": "true",
                 "type": "lookup",
                 "resourceTemplates": [],
@@ -22661,7 +22626,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.056Z",
-      "updateDate": "2024-07-16T17:09:04.111Z",
+      "updateDate": "2024-07-24T14:18:39.542Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.056Z",
