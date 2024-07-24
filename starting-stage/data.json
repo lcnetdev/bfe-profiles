@@ -189,7 +189,7 @@
         ]
       },
       {
-        "menuGroup": "Moving Image: BluRay DVD",
+        "menuGroup": "Moving Image: DVD",
         "menuItems": [
           {
             "label": "Instance",
@@ -212,7 +212,30 @@
         ]
       },
       {
-        "menuGroup": "Moving Image: 35mm Feature Film",
+        "menuGroup": "Moving Image: Videocassette",
+        "menuItems": [
+          {
+            "label": "Instance",
+            "type": [
+              "http://id.loc.gov/ontologies/bibframe/Instance"
+            ],
+            "useResourceTemplates": [
+              "lc:RT:bf2:VideoCassette:Instance"
+            ]
+          },
+          {
+            "label": "Work",
+            "type": [
+              "http://id.loc.gov/ontologies/bibframe/Work"
+            ],
+            "useResourceTemplates": [
+              "lc:RT:bf2:VideoCassette:Work"
+            ]
+          }
+        ]
+      },
+      {
+        "menuGroup": "Moving Image: Film",
         "menuItems": [
           {
             "label": "Instance",
