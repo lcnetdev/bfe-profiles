@@ -20095,6 +20095,22 @@
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [
+                    "lc:RT:bf2:LangNote"
+                  ],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {}
+                },
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
+                "propertyLabel": "Language note"
+              },
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "resource",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [
                     "lc:RT:bf2:Identifiers:Matrix",
                     "lc:RT:bf2:Identifiers:LCCN"
                   ],
@@ -20823,7 +20839,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2024-07-23T18:11:40.663Z",
+      "updateDate": "2024-07-29T15:29:11.361Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",
