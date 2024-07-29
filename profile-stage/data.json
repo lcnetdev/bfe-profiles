@@ -16623,6 +16623,22 @@
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [
+                    "lc:RT:bf2:LangNote"
+                  ],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {}
+                },
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
+                "propertyLabel": "Language note"
+              },
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "resource",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [
                     "lc:RT:bf2:LCC",
                     "lc:RT:bf2:DDC"
                   ],
@@ -17414,7 +17430,7 @@
     "id": "ad1be991-aeec-4a4f-81c4-891a829ae3e4",
     "metadata": {
       "createDate": "2022-05-10T19:35:43.872Z",
-      "updateDate": "2024-07-22T15:58:13.374Z",
+      "updateDate": "2024-07-29T15:34:03.695Z",
       "createUser": null,
       "updateUser": null
     },

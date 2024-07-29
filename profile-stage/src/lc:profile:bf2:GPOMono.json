@@ -91,6 +91,22 @@
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [
+              "lc:RT:bf2:LangNote"
+            ],
+            "useValuesFrom": [],
+            "defaults": [],
+            "valueDataType": {}
+          },
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
+          "propertyLabel": "Language note"
+        },
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "resource",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [
               "lc:RT:bf2:LCC",
               "lc:RT:bf2:DDC"
             ],
