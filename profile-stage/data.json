@@ -12707,6 +12707,22 @@
               {
                 "mandatory": "false",
                 "repeatable": "true",
+                "type": "resource",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [
+                    "lc:RT:bf2:LangNote"
+                  ],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {}
+                },
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
+                "propertyLabel": "Language note"
+              },
+              {
+                "mandatory": "false",
+                "repeatable": "true",
                 "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -13392,7 +13408,7 @@
     },
     "metadata": {
       "createDate": "2019-04-11T20:45:09.452Z",
-      "updateDate": "2024-07-23T18:03:10.736Z",
+      "updateDate": "2024-07-29T15:20:09.406Z",
       "createUser": null,
       "updateUser": null
     },
