@@ -265,6 +265,24 @@
     {
       "mandatory": "false",
       "repeatable": "true",
+      "type": "lookup",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [
+          "http://id.loc.gov/vocabulary/languageshttp://id.loc.gov/vocabulary/languages"
+        ],
+        "defaults": [],
+        "valueDataType": {
+          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Language"
+        }
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/language",
+      "propertyLabel": "Language (from 008 field)"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
       "type": "resource",
       "valueConstraint": {
         "valueTemplateRefs": [
