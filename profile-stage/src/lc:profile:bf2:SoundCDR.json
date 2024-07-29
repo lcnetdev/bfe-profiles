@@ -398,6 +398,24 @@
         {
           "mandatory": "false",
           "repeatable": "true",
+          "type": "lookup",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [],
+            "useValuesFrom": [
+              "http://id.loc.gov/vocabulary/languages"
+            ],
+            "defaults": [],
+            "valueDataType": {
+              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Language"
+            }
+          },
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/language",
+          "propertyLabel": "Language (008 field)"
+        },
+        {
+          "mandatory": "false",
+          "repeatable": "true",
           "type": "resource",
           "resourceTemplates": [],
           "valueConstraint": {
