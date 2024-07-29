@@ -9889,18 +9889,34 @@
                 "type": "resource",
                 "valueConstraint": {
                   "valueTemplateRefs": [
-                    "lc:RT:bf2:Language2"
+                    "lc:RT:bf2:LangResource"
                   ],
                   "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Language"
+                    "dataTypeURI": ""
                   },
                   "useValuesFrom": [],
                   "defaults": []
                 },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/language",
-                "propertyLabel": "Language",
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/accompaniedBy",
+                "propertyLabel": "Language resource",
                 "resourceTemplates": [],
                 "remark": "http://original.rdatoolkit.org/6.11.html"
+              },
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "resource",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [
+                    "lc:RT:bf2:LangNote"
+                  ],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {}
+                },
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
+                "propertyLabel": "Language note"
               },
               {
                 "mandatory": "false",
@@ -10601,7 +10617,7 @@
     },
     "metadata": {
       "createDate": "2019-04-11T20:45:09.452Z",
-      "updateDate": "2024-07-23T19:56:14.190Z",
+      "updateDate": "2024-07-29T14:30:45.663Z",
       "createUser": null,
       "updateUser": null
     },
