@@ -5,20 +5,59 @@
         {
           "mandatory": "false",
           "repeatable": "true",
-          "type": "lookup",
+          "type": "resource",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [
+              "lc:RT:bf2:Agents:Contribution"
+            ],
+            "useValuesFrom": [],
+            "valueDataType": {
+              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Contribution"
+            },
+            "defaults": [],
+            "editable": "true",
+            "repeatable": "true"
+          },
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/contribution",
+          "propertyLabel": "Other contributors",
+          "remark": "https://original.rdatoolkit.org/19.3.html"
+        },
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "resource",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [
+              "lc:RT:bf2:LangResource"
+            ],
+            "useValuesFrom": [],
+            "valueDataType": {
+              "dataTypeURI": ""
+            },
+            "editable": "false",
+            "repeatable": "true",
+            "defaults": []
+          },
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/accompaniedBy",
+          "propertyLabel": "Language resource",
+          "remark": "https://original.rdatoolkit.org/6.11.html"
+        },
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "literal",
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [],
-            "useValuesFrom": [
-              "http://id.loc.gov/vocabulary/mgovtpubtype"
-            ],
-            "defaults": [],
-            "valueDataType": {
-              "dataTypeURI": "http://id.loc.gov/ontologies/bflc/GovernmentPubType"
-            }
+            "useValuesFrom": [],
+            "valueDataType": {},
+            "defaults": []
           },
-          "propertyURI": "http://id.loc.gov/ontologies/bflc/governmentPubType",
-          "propertyLabel": "Government publication"
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/originDate",
+          "propertyLabel": "Date of Work",
+          "remark": "https://original.rdatoolkit.org/6.4.html"
         },
         {
           "mandatory": "false",
@@ -44,52 +83,20 @@
         {
           "mandatory": "false",
           "repeatable": "true",
-          "type": "lookup",
+          "type": "resource",
           "resourceTemplates": [],
           "valueConstraint": {
-            "valueTemplateRefs": [],
-            "useValuesFrom": [
-              "http://id.loc.gov/vocabulary/countries"
+            "valueTemplateRefs": [
+              "lc:RT:bf2:Form:Geog"
             ],
-            "valueDataType": {
-              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Place"
-            },
+            "useValuesFrom": [],
+            "valueDataType": {},
             "defaults": [],
             "editable": "true",
             "repeatable": "true"
           },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/originPlace",
-          "propertyLabel": "Place of Origin of the Work",
-          "remark": "http://original.rdatoolkit.org/rdachp6_rda6-3164.html"
-        },
-        {
-          "mandatory": "false",
-          "repeatable": "true",
-          "type": "literal",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [],
-            "useValuesFrom": [],
-            "valueDataType": {},
-            "defaults": []
-          },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/originDate",
-          "propertyLabel": "Date of Work",
-          "remark": "https://original.rdatoolkit.org/6.4.html"
-        },
-        {
-          "mandatory": "false",
-          "repeatable": "true",
-          "type": "literal",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [],
-            "useValuesFrom": [],
-            "valueDataType": {},
-            "defaults": []
-          },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/temporalCoverage",
-          "propertyLabel": "(Time) Coverage of the Content",
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/geographicCoverage",
+          "propertyLabel": "(Geographic) Coverage of the Content",
           "remark": "https://original.rdatoolkit.org/7.3.html"
         },
         {
@@ -114,6 +121,25 @@
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/genreForm",
           "propertyLabel": "Form/Genre",
           "remark": "https://original.rdatoolkit.org/6.3.html"
+        },
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "lookup",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [],
+            "useValuesFrom": [
+              "http://id.loc.gov/vocabulary/maudience"
+            ],
+            "valueDataType": {
+              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/IntendedAudience"
+            },
+            "defaults": []
+          },
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/intendedAudience",
+          "propertyLabel": "Intended Audience",
+          "remark": "https://original.rdatoolkit.org/7.7.html"
         },
         {
           "mandatory": "true",
@@ -141,115 +167,14 @@
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [
-              "lc:RT:bf2:Agents:Contribution"
-            ],
-            "useValuesFrom": [],
-            "valueDataType": {
-              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Contribution"
-            },
-            "defaults": [],
-            "editable": "true",
-            "repeatable": "true"
-          },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/contribution",
-          "propertyLabel": "Other contributors",
-          "remark": "https://original.rdatoolkit.org/19.3.html"
-        },
-        {
-          "mandatory": "false",
-          "repeatable": "true",
-          "type": "lookup",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [],
-            "useValuesFrom": [
-              "http://id.loc.gov/vocabulary/maudience"
-            ],
-            "valueDataType": {
-              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/IntendedAudience"
-            },
-            "defaults": []
-          },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/intendedAudience",
-          "propertyLabel": "Intended Audience",
-          "remark": "https://original.rdatoolkit.org/7.7.html"
-        },
-        {
-          "mandatory": "false",
-          "repeatable": "true",
-          "type": "resource",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [
-              "lc:RT:bf2:LCC",
-              "lc:RT:bf2:DDC",
-              "lc:RT:bf2:NLM",
-              "lc:RT:bf2:OtherClass"
+              "lc:RT:bf2:Note"
             ],
             "useValuesFrom": [],
             "valueDataType": {},
             "defaults": []
           },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/classification",
-          "propertyLabel": "Classification numbers"
-        },
-        {
-          "mandatory": "false",
-          "repeatable": "true",
-          "type": "resource",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [
-              "lc:RT:bf2:Components",
-              "lc:RT:bf2:Topic:Place:Components",
-              "lc:RT:bf2:Topic:Childrens:Components",
-              "lc:RT:bf2:Topic:SubjectWork"
-            ],
-            "useValuesFrom": [],
-            "valueDataType": {},
-            "defaults": [],
-            "editable": "true",
-            "repeatable": "true"
-          },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/subject",
-          "propertyLabel": "Subject of the Work",
-          "remark": "http://original.rdatoolkit.org/rdachp23_rda23-12.html"
-        },
-        {
-          "mandatory": "false",
-          "repeatable": "true",
-          "type": "resource",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [
-              "lc:RT:bf2:Summary"
-            ],
-            "useValuesFrom": [],
-            "valueDataType": {},
-            "defaults": []
-          },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/summary",
-          "propertyLabel": "Summary",
-          "remark": "https://original.rdatoolkit.org/7.10.html"
-        },
-        {
-          "mandatory": "false",
-          "repeatable": "true",
-          "type": "resource",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [
-              "lc:RT:bf2:Form:Geog"
-            ],
-            "useValuesFrom": [],
-            "valueDataType": {},
-            "defaults": [],
-            "editable": "true",
-            "repeatable": "true"
-          },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/geographicCoverage",
-          "propertyLabel": "(Geographic) Coverage of the Content",
-          "remark": "https://original.rdatoolkit.org/7.3.html"
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
+          "propertyLabel": "Notes about the Work"
         },
         {
           "mandatory": "true",
@@ -276,98 +201,6 @@
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/content",
           "propertyLabel": "Content Type",
           "remark": "https://original.rdatoolkit.org/6.9.html"
-        },
-        {
-          "mandatory": "false",
-          "repeatable": "true",
-          "type": "lookup",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [],
-            "useValuesFrom": [
-              "http://id.loc.gov/vocabulary/languages"
-            ],
-            "defaults": [],
-            "valueDataType": {
-              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Language"
-            }
-          },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/language",
-          "propertyLabel": "Language (008 field)"
-        },
-        {
-          "mandatory": "false",
-          "repeatable": "true",
-          "type": "resource",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [
-              "lc:RT:bf2:Note"
-            ],
-            "useValuesFrom": [],
-            "valueDataType": {},
-            "defaults": []
-          },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
-          "propertyLabel": "Notes about the Work"
-        },
-        {
-          "mandatory": "false",
-          "repeatable": "true",
-          "type": "resource",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [
-              "lc:RT:bf2:LangNote"
-            ],
-            "useValuesFrom": [],
-            "defaults": [],
-            "valueDataType": {}
-          },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
-          "propertyLabel": "Language note"
-        },
-        {
-          "mandatory": "false",
-          "repeatable": "true",
-          "type": "resource",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [
-              "lc:RT:bf2:LangResource"
-            ],
-            "useValuesFrom": [],
-            "valueDataType": {
-              "dataTypeURI": ""
-            },
-            "editable": "false",
-            "repeatable": "true",
-            "defaults": []
-          },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/accompaniedBy",
-          "propertyLabel": "Language resource",
-          "remark": "https://original.rdatoolkit.org/6.11.html"
-        },
-        {
-          "mandatory": "false",
-          "repeatable": "true",
-          "type": "lookup",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [],
-            "useValuesFrom": [
-              "http://id.loc.gov/vocabulary/millus"
-            ],
-            "valueDataType": {
-              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Illustration"
-            },
-            "repeatable": "true",
-            "editable": "false",
-            "defaults": []
-          },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/illustrativeContent",
-          "propertyLabel": "Illustrative Content",
-          "remark": "https://original.rdatoolkit.org/7.15.html"
         },
         {
           "mandatory": "false",
@@ -410,6 +243,21 @@
         {
           "mandatory": "false",
           "repeatable": "true",
+          "type": "literal",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [],
+            "useValuesFrom": [],
+            "valueDataType": {},
+            "defaults": []
+          },
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/temporalCoverage",
+          "propertyLabel": "(Time) Coverage of the Content",
+          "remark": "https://original.rdatoolkit.org/7.3.html"
+        },
+        {
+          "mandatory": "false",
+          "repeatable": "true",
           "type": "lookup",
           "resourceTemplates": [],
           "valueConstraint": {
@@ -433,6 +281,63 @@
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [
+              "lc:RT:bf2:Components",
+              "lc:RT:bf2:Topic:Place:Components",
+              "lc:RT:bf2:Topic:Childrens:Components",
+              "lc:RT:bf2:Topic:SubjectWork"
+            ],
+            "useValuesFrom": [],
+            "valueDataType": {},
+            "defaults": [],
+            "editable": "true",
+            "repeatable": "true"
+          },
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/subject",
+          "propertyLabel": "Subjects",
+          "remark": "http://original.rdatoolkit.org/rdachp23_rda23-12.html"
+        },
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "lookup",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [],
+            "useValuesFrom": [
+              "http://id.loc.gov/vocabulary/mgovtpubtype"
+            ],
+            "defaults": [],
+            "valueDataType": {
+              "dataTypeURI": "http://id.loc.gov/ontologies/bflc/GovernmentPubType"
+            }
+          },
+          "propertyURI": "http://id.loc.gov/ontologies/bflc/governmentPubType",
+          "propertyLabel": "Government publication"
+        },
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "resource",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [
+              "lc:RT:bf2:Monograph:Dissertation"
+            ],
+            "useValuesFrom": [],
+            "valueDataType": {},
+            "defaults": []
+          },
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/dissertation",
+          "propertyLabel": "Dissertation",
+          "remark": "https://original.rdatoolkit.org/7.9.html"
+        },
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "resource",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [
               "lc:RT:bf2:RelWorkLookup"
             ],
             "useValuesFrom": [],
@@ -442,6 +347,27 @@
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/relation",
           "propertyLabel": "Search related work",
           "remark": "https://original.rdatoolkit.org/25.1.html"
+        },
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "lookup",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [],
+            "useValuesFrom": [
+              "http://id.loc.gov/vocabulary/countries"
+            ],
+            "valueDataType": {
+              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Place"
+            },
+            "defaults": [],
+            "editable": "true",
+            "repeatable": "true"
+          },
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/originPlace",
+          "propertyLabel": "Place of Origin of the Work",
+          "remark": "http://original.rdatoolkit.org/rdachp6_rda6-3164.html"
         },
         {
           "mandatory": "false",
@@ -468,14 +394,35 @@
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [
-              "lc:RT:bf2:Contents"
+              "lc:RT:bf2:LangNote"
             ],
             "useValuesFrom": [],
-            "valueDataType": {},
+            "defaults": [],
+            "valueDataType": {}
+          },
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
+          "propertyLabel": "Language note"
+        },
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "lookup",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [],
+            "useValuesFrom": [
+              "http://id.loc.gov/vocabulary/millus"
+            ],
+            "valueDataType": {
+              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Illustration"
+            },
+            "repeatable": "true",
+            "editable": "false",
             "defaults": []
           },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/tableOfContents",
-          "propertyLabel": "Contents"
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/illustrativeContent",
+          "propertyLabel": "Illustrative Content",
+          "remark": "https://original.rdatoolkit.org/7.15.html"
         },
         {
           "mandatory": "false",
@@ -484,15 +431,68 @@
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [
-              "lc:RT:bf2:Monograph:Dissertation"
+              "lc:RT:bf2:SeriesHubLookup"
+            ],
+            "useValuesFrom": [],
+            "defaults": [],
+            "valueDataType": {
+              "dataTypeURI": ""
+            }
+          },
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/relation",
+          "propertyLabel": "Search Series Hub (optional)"
+        },
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "resource",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [
+              "lc:RT:bf2:Summary"
             ],
             "useValuesFrom": [],
             "valueDataType": {},
             "defaults": []
           },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/dissertation",
-          "propertyLabel": "Dissertation",
-          "remark": "https://original.rdatoolkit.org/7.9.html"
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/summary",
+          "propertyLabel": "Summary",
+          "remark": "https://original.rdatoolkit.org/7.10.html"
+        },
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "resource",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [
+              "lc:RT:bf2:LCC",
+              "lc:RT:bf2:DDC",
+              "lc:RT:bf2:NLM",
+              "lc:RT:bf2:OtherClass"
+            ],
+            "useValuesFrom": [],
+            "valueDataType": {},
+            "defaults": []
+          },
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/classification",
+          "propertyLabel": "Classification numbers"
+        },
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "resource",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [
+              "lc:RT:bf2:Contents"
+            ],
+            "useValuesFrom": [],
+            "valueDataType": {},
+            "defaults": []
+          },
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/tableOfContents",
+          "propertyLabel": "Contents"
         },
         {
           "mandatory": "false",
@@ -513,20 +513,20 @@
         {
           "mandatory": "false",
           "repeatable": "true",
-          "type": "resource",
+          "type": "lookup",
           "resourceTemplates": [],
           "valueConstraint": {
-            "valueTemplateRefs": [
-              "lc:RT:bf2:SeriesHubLookup"
+            "valueTemplateRefs": [],
+            "useValuesFrom": [
+              "http://id.loc.gov/vocabulary/languages"
             ],
-            "useValuesFrom": [],
             "defaults": [],
             "valueDataType": {
-              "dataTypeURI": ""
+              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Language"
             }
           },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/relation",
-          "propertyLabel": "Search Series Hub (optional)"
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/language",
+          "propertyLabel": "Language (008 field)"
         }
       ],
       "id": "lc:RT:bf2:Monograph:Work",
