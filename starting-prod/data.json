@@ -189,7 +189,7 @@
         ]
       },
       {
-        "menuGroup": "Moving Image: BluRay DVD",
+        "menuGroup": "Moving Image: DVD",
         "menuItems": [
           {
             "label": "Instance",
@@ -212,7 +212,7 @@
         ]
       },
       {
-        "menuGroup": "Moving Image: 35mm Feature Film",
+        "menuGroup": "Moving Image: Film",
         "menuItems": [
           {
             "label": "Instance",
