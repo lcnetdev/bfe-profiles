@@ -219,7 +219,7 @@
             ],
             "defaults": [],
             "valueDataType": {
-              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Series"
+              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Hub"
             }
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/associatedResource",
