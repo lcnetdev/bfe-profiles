@@ -663,7 +663,7 @@
                   ],
                   "defaults": [],
                   "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Series"
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Hub"
                   }
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/associatedResource",
@@ -825,7 +825,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2024-07-23T19:34:00.068Z",
+      "updateDate": "2024-08-07T14:10:48.571Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",
