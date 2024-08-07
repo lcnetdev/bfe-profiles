@@ -1154,23 +1154,6 @@
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [
-                    "lc:RT:bf2:RelWorkLookup"
-                  ],
-                  "useValuesFrom": [],
-                  "valueDataType": {},
-                  "defaults": []
-                },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/relation",
-                "propertyLabel": "Search related work",
-                "remark": "https://original.rdatoolkit.org/25.1.html"
-              },
-              {
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "resource",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [
                     "lc:RT:bf2:SeriesHub"
                   ],
                   "useValuesFrom": [],
@@ -1181,6 +1164,23 @@
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/relation",
                 "propertyLabel": "Input Transcribed Series"
+              },
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "resource",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [
+                    "lc:RT:bf2:RelWorkLookup"
+                  ],
+                  "useValuesFrom": [],
+                  "valueDataType": {},
+                  "defaults": []
+                },
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/relation",
+                "propertyLabel": "Search related work",
+                "remark": "https://original.rdatoolkit.org/25.1.html"
               },
               {
                 "mandatory": "false",
@@ -1890,7 +1890,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2024-08-01T14:42:02.432Z",
+      "updateDate": "2024-08-07T14:05:50.072Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",
