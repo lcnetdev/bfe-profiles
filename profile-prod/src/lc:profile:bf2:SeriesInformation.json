@@ -19,7 +19,7 @@
               }
             ],
             "valueDataType": {
-              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/relationship"
+              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Relationship"
             }
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/relationship",

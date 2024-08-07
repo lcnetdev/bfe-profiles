@@ -28821,7 +28821,7 @@
                     }
                   ],
                   "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/relationship"
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Relationship"
                   }
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/relationship",
@@ -29056,7 +29056,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2024-07-23T19:31:54.930Z",
+      "updateDate": "2024-08-07T14:04:35.953Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",
