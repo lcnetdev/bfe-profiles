@@ -781,6 +781,7 @@
               "lc:RT:bf2:Identifiers:Copyright",
               "lc:RT:bf2:Identifiers:UPC",
               "lc:RT:bf2:Identifiers:ISBN",
+              "lc:RT:bf2:Identifiers:Oclc",
               "lc:RT:bf2:Identifiers:PubNumber",
               "lc:RT:bf2:Identifiers:EAN",
               "lc:RT:bf2:Identifiers:Other",

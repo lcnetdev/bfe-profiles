@@ -26679,6 +26679,7 @@
                     "lc:RT:bf2:Identifiers:Copyright",
                     "lc:RT:bf2:Identifiers:UPC",
                     "lc:RT:bf2:Identifiers:ISBN",
+                    "lc:RT:bf2:Identifiers:Oclc",
                     "lc:RT:bf2:Identifiers:PubNumber",
                     "lc:RT:bf2:Identifiers:EAN",
                     "lc:RT:bf2:Identifiers:Other",
@@ -27398,7 +27399,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2024-07-29T16:02:53.716Z",
+      "updateDate": "2024-08-12T20:26:42.664Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",
