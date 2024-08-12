@@ -11492,6 +11492,7 @@
                     "lc:RT:bf2:Identifiers:LCCN",
                     "lc:RT:bf2:Identifiers:Copyright",
                     "lc:RT:bf2:Identifiers:PubNumber",
+                    "lc:RT:bf2:Identifiers:Oclc",
                     "lc:RT:bf2:Identifiers:Other",
                     "lc:RT:bf2:Identifiers:Local"
                   ],
@@ -12292,7 +12293,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2024-07-31T14:48:08.592Z",
+      "updateDate": "2024-08-12T20:25:30.426Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",
