@@ -122,7 +122,8 @@
         "valueTemplateRefs": [
           "lc:RT:bf2:Identifiers:ISBN",
           "lc:RT:bf2:Identifiers:Other",
-          "lc:RT:bf2:Identifiers:Local"
+          "lc:RT:bf2:Identifiers:Local",
+          "lc:RT:bf2:Identifiers:Oclc"
         ],
         "useValuesFrom": [],
         "valueDataType": {},

@@ -106,7 +106,8 @@
           "lc:RT:bf2:Identifiers:ISRC",
           "lc:RT:bf2:Identifiers:Other",
           "lc:RT:bf2:Identifiers:Local",
-          "lc:RT:bf2:Identifiers:AudioIssue"
+          "lc:RT:bf2:Identifiers:AudioIssue",
+          "lc:RT:bf2:Identifiers:Oclc"
         ],
         "useValuesFrom": [],
         "defaults": [],

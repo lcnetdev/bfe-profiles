@@ -139,7 +139,8 @@
           "lc:RT:bf2:Identifiers:Other",
           "lc:RT:bf2:Identifiers:Local",
           "lc:RT:bf2:Identifiers:Gtin14",
-          "lc:RT:bf2:Identifiers:VidRecNumber"
+          "lc:RT:bf2:Identifiers:VidRecNumber",
+          "lc:RT:bf2:Identifiers:Oclc"
         ],
         "useValuesFrom": [],
         "defaults": [],

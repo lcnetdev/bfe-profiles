@@ -602,7 +602,8 @@
             "valueTemplateRefs": [
               "lc:RT:bf2:Identifiers:ISBN",
               "lc:RT:bf2:Identifiers:Other",
-              "lc:RT:bf2:Identifiers:Local"
+              "lc:RT:bf2:Identifiers:Local",
+              "lc:RT:bf2:Identifiers:Oclc"
             ],
             "useValuesFrom": [],
             "valueDataType": {},
@@ -895,7 +896,8 @@
               "lc:RT:bf2:Identifiers:ISRC",
               "lc:RT:bf2:Identifiers:Other",
               "lc:RT:bf2:Identifiers:Local",
-              "lc:RT:bf2:Identifiers:AudioIssue"
+              "lc:RT:bf2:Identifiers:AudioIssue",
+              "lc:RT:bf2:Identifiers:Oclc"
             ],
             "useValuesFrom": [],
             "defaults": [],
@@ -1283,7 +1285,8 @@
               "lc:RT:bf2:Identifiers:Other",
               "lc:RT:bf2:Identifiers:Local",
               "lc:RT:bf2:Identifiers:Gtin14",
-              "lc:RT:bf2:Identifiers:VidRecNumber"
+              "lc:RT:bf2:Identifiers:VidRecNumber",
+              "lc:RT:bf2:Identifiers:Oclc"
             ],
             "useValuesFrom": [],
             "defaults": [],
