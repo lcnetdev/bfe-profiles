@@ -158,7 +158,8 @@
           "lc:RT:bf2:Identifiers:Copyright",
           "lc:RT:bf2:Identifiers:PubNumber",
           "lc:RT:bf2:Identifiers:Other",
-          "lc:RT:bf2:Identifiers:Local"
+          "lc:RT:bf2:Identifiers:Local",
+          "lc:RT:bf2:Identifiers:Oclc"
         ],
         "useValuesFrom": [],
         "defaults": [],
