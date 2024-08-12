@@ -771,6 +771,45 @@
       "propertyTemplates": [
         {
           "mandatory": "false",
+          "repeatable": "true",
+          "type": "literal",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [],
+            "useValuesFrom": [],
+            "defaults": [],
+            "valueDataType": {}
+          },
+          "propertyURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+          "propertyLabel": "OCLC number"
+        },
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "lookup",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [],
+            "useValuesFrom": [
+              "http://id.loc.gov/vocabulary/mstatus"
+            ],
+            "defaults": [],
+            "valueDataType": {
+              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Status"
+            }
+          },
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/status",
+          "propertyLabel": "Invalid/Canceled?"
+        }
+      ],
+      "id": "lc:RT:bf2:Identifiers:Oclc",
+      "resourceURI": "http://id.loc.gov/ontologies/bibframe/OclcNumber",
+      "resourceLabel": "OCLC number"
+    },
+    {
+      "propertyTemplates": [
+        {
+          "mandatory": "false",
           "repeatable": "false",
           "type": "literal",
           "resourceTemplates": [],
