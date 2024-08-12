@@ -12912,6 +12912,7 @@
                   "valueTemplateRefs": [
                     "lc:RT:bf2:Identifiers:LCCN",
                     "lc:RT:bf2:Identifiers:ISBN",
+                    "lc:RT:bf2:Identifiers:Oclc",
                     "lc:RT:bf2:Identifiers:Other",
                     "lc:RT:bf2:Identifiers:Local"
                   ],
@@ -13308,7 +13309,7 @@
     },
     "metadata": {
       "createDate": "2019-04-11T20:45:09.452Z",
-      "updateDate": "2024-07-29T15:59:51.403Z",
+      "updateDate": "2024-08-12T20:24:32.385Z",
       "createUser": null,
       "updateUser": null
     },
