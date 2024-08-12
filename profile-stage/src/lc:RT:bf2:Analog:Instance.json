@@ -150,7 +150,8 @@
           "lc:RT:bf2:Identifiers:Distributor",
           "lc:RT:bf2:Identifiers:ISRC",
           "lc:RT:bf2:Identifiers:ISMN",
-          "lc:RT:bf2:Identifiers:Gtin14"
+          "lc:RT:bf2:Identifiers:Gtin14",
+          "lc:RT:bf2:Identifiers:Oclc"
         ],
         "useValuesFrom": [],
         "valueDataType": {},
