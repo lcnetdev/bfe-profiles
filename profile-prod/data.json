@@ -7655,6 +7655,7 @@
                     "lc:RT:bf2:Identifiers:Local",
                     "lc:RT:bf2:Identifiers:PostalReg",
                     "lc:RT:bf2:Identifiers:Copyright",
+                    "lc:RT:bf2:Identifiers:Oclc",
                     "lc:RT:bf2:Identifiers:ISBN",
                     "lc:RT:bf2:Identifiers:Coden"
                   ],
@@ -8221,7 +8222,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2024-07-29T17:45:16.447Z",
+      "updateDate": "2024-08-12T20:47:56.358Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",
