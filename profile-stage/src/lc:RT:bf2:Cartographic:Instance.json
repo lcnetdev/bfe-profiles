@@ -141,8 +141,8 @@
           "remark": "template order modified for GPO use"
         },
         "valueTemplateRefs": [
-          "lc:RT:bf2:Identifiers:GPONumber",
           "lc:RT:bf2:Identifiers:ISBN",
+          "lc:RT:bf2:Identifiers:Oclc",
           "lc:RT:bf2:Identifiers:Other",
           "lc:RT:bf2:Identifiers:Local",
           "lc:RT:bf2:Identifiers:ReportNum",

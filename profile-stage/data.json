@@ -25298,8 +25298,8 @@
                     "remark": "template order modified for GPO use"
                   },
                   "valueTemplateRefs": [
-                    "lc:RT:bf2:Identifiers:GPONumber",
                     "lc:RT:bf2:Identifiers:ISBN",
+                    "lc:RT:bf2:Identifiers:Oclc",
                     "lc:RT:bf2:Identifiers:Other",
                     "lc:RT:bf2:Identifiers:Local",
                     "lc:RT:bf2:Identifiers:ReportNum",
@@ -25882,7 +25882,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.059Z",
-      "updateDate": "2024-07-29T15:59:08.370Z",
+      "updateDate": "2024-08-12T20:22:26.173Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.059Z",
