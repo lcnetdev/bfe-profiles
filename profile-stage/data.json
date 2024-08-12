@@ -13954,7 +13954,8 @@
                 "valueConstraint": {
                   "valueTemplateRefs": [
                     "lc:RT:bf2:TestProfile:ISBNtest",
-                    "lc:RT:bf2:Identifiers:LCCN"
+                    "lc:RT:bf2:Identifiers:LCCN",
+                    "lc:RT:bf2:Identifiers:Oclc"
                   ],
                   "useValuesFrom": [],
                   "defaults": [],
@@ -14949,7 +14950,7 @@
     },
     "metadata": {
       "createDate": "2018-09-05T19:18:07.698Z",
-      "updateDate": "2024-07-29T16:18:19.713Z",
+      "updateDate": "2024-08-12T20:37:59.478Z",
       "createUser": null,
       "updateUser": null
     },

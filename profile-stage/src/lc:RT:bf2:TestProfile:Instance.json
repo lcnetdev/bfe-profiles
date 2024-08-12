@@ -154,7 +154,8 @@
       "valueConstraint": {
         "valueTemplateRefs": [
           "lc:RT:bf2:TestProfile:ISBNtest",
-          "lc:RT:bf2:Identifiers:LCCN"
+          "lc:RT:bf2:Identifiers:LCCN",
+          "lc:RT:bf2:Identifiers:Oclc"
         ],
         "useValuesFrom": [],
         "defaults": [],
