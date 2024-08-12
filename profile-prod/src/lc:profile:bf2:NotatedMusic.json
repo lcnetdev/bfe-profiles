@@ -766,6 +766,7 @@
               "lc:RT:bf2:Identifiers:Distributor",
               "lc:RT:bf2:Identifiers:MusicPlate",
               "lc:RT:bf2:Identifiers:MusicPub",
+              "lc:RT:bf2:Identifiers:Oclc",
               "lc:RT:bf2:Identifiers:Other",
               "lc:RT:bf2:Identifiers:Local",
               "lc:RT:bf2:Identifiers:Copyright"
