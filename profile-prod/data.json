@@ -9003,10 +9003,11 @@
                     "lc:RT:bf2:Identifiers:ISBN",
                     "lc:RT:bf2:Identifiers:PubNumber",
                     "lc:RT:bf2:Identifiers:EAN",
+                    "lc:RT:bf2:Identifiers:Oclc",
                     "lc:RT:bf2:Identifiers:Other",
                     "lc:RT:bf2:Identifiers:Local",
                     "lc:RT:bf2:Identifiers:Gtin14",
-                    "lc:RT:bf2:Identifiers:VidRecNumber"
+                    "lc:RT:bf2:Identifiers:UPC"
                   ],
                   "useValuesFrom": [],
                   "valueDataType": {},
@@ -9814,7 +9815,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2024-07-31T14:47:14.463Z",
+      "updateDate": "2024-08-12T20:44:56.107Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",

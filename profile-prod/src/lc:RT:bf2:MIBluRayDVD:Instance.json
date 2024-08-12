@@ -160,10 +160,11 @@
           "lc:RT:bf2:Identifiers:ISBN",
           "lc:RT:bf2:Identifiers:PubNumber",
           "lc:RT:bf2:Identifiers:EAN",
+          "lc:RT:bf2:Identifiers:Oclc",
           "lc:RT:bf2:Identifiers:Other",
           "lc:RT:bf2:Identifiers:Local",
           "lc:RT:bf2:Identifiers:Gtin14",
-          "lc:RT:bf2:Identifiers:VidRecNumber"
+          "lc:RT:bf2:Identifiers:UPC"
         ],
         "useValuesFrom": [],
         "valueDataType": {},
