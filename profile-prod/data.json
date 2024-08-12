@@ -5194,7 +5194,8 @@
                     "lc:RT:bf2:Identifiers:LCCN",
                     "lc:RT:bf2:Identifiers:ISBN",
                     "lc:RT:bf2:Identifiers:Other",
-                    "lc:RT:bf2:Identifiers:Local"
+                    "lc:RT:bf2:Identifiers:Local",
+                    "lc:RT:bf2:Identifiers:Oclc"
                   ],
                   "useValuesFrom": [],
                   "valueDataType": {},
@@ -5710,7 +5711,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2024-07-29T17:41:44.390Z",
+      "updateDate": "2024-08-12T20:47:12.307Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",
