@@ -40454,6 +40454,7 @@
                     "lc:RT:bf2:Identifiers:ISBN",
                     "lc:RT:bf2:Identifiers:PubNumber",
                     "lc:RT:bf2:Identifiers:EAN",
+                    "lc:RT:bf2:Identifiers:Oclc",
                     "lc:RT:bf2:Identifiers:Other",
                     "lc:RT:bf2:Identifiers:Local",
                     "lc:RT:bf2:Identifiers:Gtin14",
@@ -41251,7 +41252,7 @@
     "id": "0545dd4f-0546-4a2a-99e5-b818961f91ae",
     "metadata": {
       "createDate": "2024-06-28T13:58:12.316Z",
-      "updateDate": "2024-07-29T16:12:54.997Z",
+      "updateDate": "2024-08-12T20:33:56.321Z",
       "createUser": null,
       "updateUser": null
     }
