@@ -19578,7 +19578,8 @@
                     "lc:RT:bf2:Identifiers:Distributor",
                     "lc:RT:bf2:Identifiers:ISRC",
                     "lc:RT:bf2:Identifiers:ISMN",
-                    "lc:RT:bf2:Identifiers:Gtin14"
+                    "lc:RT:bf2:Identifiers:Gtin14",
+                    "lc:RT:bf2:Identifiers:Oclc"
                   ],
                   "useValuesFrom": [],
                   "defaults": [],
@@ -19956,7 +19957,7 @@
     },
     "metadata": {
       "createDate": "2019-02-28T14:21:01.066Z",
-      "updateDate": "2024-07-29T16:10:14.581Z",
+      "updateDate": "2024-08-12T20:31:57.549Z",
       "createUser": null,
       "updateUser": null
     },
