@@ -30199,7 +30199,8 @@
                     "lc:RT:bf2:Identifiers:LCCN",
                     "lc:RT:bf2:Identifiers:Copyright",
                     "lc:RT:bf2:Identifiers:Other",
-                    "lc:RT:bf2:Identifiers:Local"
+                    "lc:RT:bf2:Identifiers:Local",
+                    "lc:RT:bf2:Identifiers:Oclc"
                   ],
                   "useValuesFrom": [],
                   "defaults": [],
@@ -30835,7 +30836,7 @@
     "id": "ce021882-2189-495e-b638-126d03f724a5",
     "metadata": {
       "createDate": "2021-08-02T18:47:18.815Z",
-      "updateDate": "2024-07-29T16:17:13.310Z",
+      "updateDate": "2024-08-12T20:36:50.752Z",
       "createUser": null,
       "updateUser": null
     },
