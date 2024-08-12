@@ -4988,7 +4988,8 @@
                     "lc:RT:bf2:Identifiers:PostalReg",
                     "lc:RT:bf2:Identifiers:ReportNum",
                     "lc:RT:bf2:Identifiers:STRN",
-                    "lc:RT:bf2:Identifiers:LCCN"
+                    "lc:RT:bf2:Identifiers:LCCN",
+                    "lc:RT:bf2:Identifiers:Oclc"
                   ],
                   "useValuesFrom": [],
                   "valueDataType": {},
@@ -5475,7 +5476,7 @@
     "id": "2be36dfb-c101-4641-8af1-27b04ddf3958",
     "metadata": {
       "createDate": "2022-05-10T21:00:39.811Z",
-      "updateDate": "2024-07-29T16:15:09.460Z",
+      "updateDate": "2024-08-12T20:35:35.826Z",
       "createUser": null,
       "updateUser": null
     },

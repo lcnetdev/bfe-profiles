@@ -217,7 +217,8 @@
           "lc:RT:bf2:Identifiers:PostalReg",
           "lc:RT:bf2:Identifiers:ReportNum",
           "lc:RT:bf2:Identifiers:STRN",
-          "lc:RT:bf2:Identifiers:LCCN"
+          "lc:RT:bf2:Identifiers:LCCN",
+          "lc:RT:bf2:Identifiers:Oclc"
         ],
         "useValuesFrom": [],
         "valueDataType": {},
