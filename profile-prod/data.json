@@ -2400,7 +2400,8 @@
                     "lc:RT:bf2:Identifiers:LCCN",
                     "lc:RT:bf2:Identifiers:Copyright",
                     "lc:RT:bf2:Identifiers:Other",
-                    "lc:RT:bf2:Identifiers:Local"
+                    "lc:RT:bf2:Identifiers:Local",
+                    "lc:RT:bf2:Identifiers:Oclc"
                   ],
                   "useValuesFrom": [],
                   "defaults": [],
@@ -3094,7 +3095,7 @@
     },
     "metadata": {
       "createDate": "2018-09-05T19:18:43.112Z",
-      "updateDate": "2024-07-29T17:49:54.388Z",
+      "updateDate": "2024-08-12T20:51:24.609Z",
       "createUser": null,
       "updateUser": null
     },
