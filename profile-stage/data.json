@@ -2708,7 +2708,7 @@
                   "defaults": []
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/assigner",
-                "propertyLabel": "Source of number (e.g. \"(OCoLC)\")"
+                "propertyLabel": "Source of number"
               },
               {
                 "mandatory": "false",
@@ -2731,7 +2731,7 @@
             ],
             "id": "lc:RT:bf2:Identifiers:Local",
             "resourceURI": "http://id.loc.gov/ontologies/bibframe/Local",
-            "resourceLabel": "Local system or OCLC number"
+            "resourceLabel": "Local system number"
           },
           {
             "propertyTemplates": [
@@ -3402,7 +3402,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.059Z",
-      "updateDate": "2024-02-05T17:26:30.450Z",
+      "updateDate": "2024-08-12T19:30:16.021Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.059Z",

@@ -628,7 +628,7 @@
             "defaults": []
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/assigner",
-          "propertyLabel": "Source of number (e.g. \"(OCoLC)\")"
+          "propertyLabel": "Source of number"
         },
         {
           "mandatory": "false",
@@ -651,7 +651,7 @@
       ],
       "id": "lc:RT:bf2:Identifiers:Local",
       "resourceURI": "http://id.loc.gov/ontologies/bibframe/Local",
-      "resourceLabel": "Local system or OCLC number"
+      "resourceLabel": "Local system number"
     },
     {
       "propertyTemplates": [
