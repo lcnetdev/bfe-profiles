@@ -210,7 +210,7 @@
             "repeatable": "true"
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/contribution",
-          "propertyLabel": "Other contributors",
+          "propertyLabel": "Contributors",
           "remark": "http://original.rdatoolkit.org/19.3.html"
         },
         {
