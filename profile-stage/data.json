@@ -9930,7 +9930,7 @@
               }
             ],
             "id": "lc:RT:bflc:TranscribedTitle",
-            "resourceURI": "http://id.loc.gov/ontologies/bflc/TransliteratedTitle",
+            "resourceURI": "http://id.loc.gov/ontologies/bibframe/TransliteratedTitle",
             "resourceLabel": "Transliterated Title"
           },
           {
@@ -10806,7 +10806,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.062Z",
-      "updateDate": "2022-12-08T17:53:36.718Z",
+      "updateDate": "2024-08-13T19:32:23.281Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.062Z",
