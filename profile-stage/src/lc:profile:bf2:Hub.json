@@ -42,7 +42,9 @@
           "repeatable": "false",
           "resourceTemplates": [],
           "valueConstraint": {
-            "valueTemplateRefs": [],
+            "valueTemplateRefs": [
+              "lc:RT:bf2:InstanceTitle"
+            ],
             "useValuesFrom": [],
             "defaults": [
               {
@@ -52,20 +54,22 @@
             ],
             "valueDataType": {}
           },
-          "propertyURI": "http://id.loc.gov/ontologies/bfsimple/prefTitle",
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/title",
           "propertyLabel": "Preferred Title",
           "mandatory": "false",
-          "type": "literal"
+          "type": "resource"
         },
         {
           "resourceTemplates": [],
           "valueConstraint": {
-            "valueTemplateRefs": [],
+            "valueTemplateRefs": [
+              "lc:RT:bf2:Title:VarTitle"
+            ],
             "useValuesFrom": [],
             "defaults": [],
             "valueDataType": {}
           },
-          "propertyURI": "http://id.loc.gov/ontologies/bfsimple/variantTitle",
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/title",
           "propertyLabel": "Variant Title",
           "mandatory": "false",
           "repeatable": "true",
@@ -302,14 +306,15 @@
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [
-              "lc:RT:bf2:AdminMetadata:BFDB"
+              "lc:RT:bf2:Identifiers:LCCN",
+              "lc:RT:bf2:Identifiers:Oclc"
             ],
             "useValuesFrom": [],
             "defaults": [],
             "valueDataType": {}
           },
-          "propertyLabel": "Admin Metadata",
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/adminMetadata"
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/identifiedBy",
+          "propertyLabel": "Identifiers"
         }
       ],
       "id": "lc:RT:bf2:Hub:Hub",
