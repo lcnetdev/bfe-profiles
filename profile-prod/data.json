@@ -895,7 +895,7 @@
                   "repeatable": "true"
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/contribution",
-                "propertyLabel": "Other contributors",
+                "propertyLabel": "Contributors",
                 "remark": "https://original.rdatoolkit.org/19.3.html"
               },
               {
@@ -1891,7 +1891,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2024-08-12T20:42:02.481Z",
+      "updateDate": "2024-08-13T13:09:02.640Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",
