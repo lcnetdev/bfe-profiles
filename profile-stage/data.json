@@ -32944,18 +32944,20 @@
               {
                 "resourceTemplates": [],
                 "valueConstraint": {
-                  "valueTemplateRefs": [],
+                  "valueTemplateRefs": [
+                    "lc:RT:bflc:TranscribedTitle"
+                  ],
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {},
                   "valueLanguage": "",
                   "languageURI": "http://id.loc.gov/vocabulary/languages/und"
                 },
-                "propertyURI": "http://id.loc.gov/ontologies/bfsimple/transTitle",
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/title",
                 "propertyLabel": "Transliterated Title",
                 "mandatory": "false",
                 "repeatable": "true",
-                "type": "literal"
+                "type": "resource"
               },
               {
                 "repeatable": "false",
@@ -33288,7 +33290,7 @@
     },
     "metadata": {
       "createDate": "2019-12-13T20:26:47.554Z",
-      "updateDate": "2024-08-13T19:31:24.664Z",
+      "updateDate": "2024-08-13T19:33:46.483Z",
       "createUser": null,
       "updateUser": null
     },

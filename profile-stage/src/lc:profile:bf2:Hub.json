@@ -78,18 +78,20 @@
         {
           "resourceTemplates": [],
           "valueConstraint": {
-            "valueTemplateRefs": [],
+            "valueTemplateRefs": [
+              "lc:RT:bflc:TranscribedTitle"
+            ],
             "useValuesFrom": [],
             "defaults": [],
             "valueDataType": {},
             "valueLanguage": "",
             "languageURI": "http://id.loc.gov/vocabulary/languages/und"
           },
-          "propertyURI": "http://id.loc.gov/ontologies/bfsimple/transTitle",
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/title",
           "propertyLabel": "Transliterated Title",
           "mandatory": "false",
           "repeatable": "true",
-          "type": "literal"
+          "type": "resource"
         },
         {
           "repeatable": "false",
