@@ -215,7 +215,7 @@
           "valueConstraint": {
             "valueTemplateRefs": [],
             "useValuesFrom": [
-              "https://preprod-8288.id.loc.gov/resources/hubs"
+              "https://preprod-8080.id.loc.gov/resources/hubs"
             ],
             "defaults": [],
             "valueDataType": {
