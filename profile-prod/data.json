@@ -1576,25 +1576,6 @@
                 "propertyURI": "http://id.loc.gov/ontologies/bflc/projectedProvisionDate",
                 "propertyLabel": "Projected publication date (YYMM)",
                 "remark": ""
-              },
-              {
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "resource",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [
-                    "lc:RT:bf2:Monograph:Item"
-                  ],
-                  "useValuesFrom": [],
-                  "valueDataType": {
-                    "dataTypeLabelHint": ""
-                  },
-                  "defaults": []
-                },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/hasItem",
-                "propertyLabel": "Has Item",
-                "remark": ""
               }
             ],
             "resourceLabel": "BIBFRAME Instance",
@@ -1891,7 +1872,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2024-08-13T13:09:02.640Z",
+      "updateDate": "2024-08-14T13:56:53.124Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",
