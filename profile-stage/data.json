@@ -116,7 +116,12 @@
                 "valueConstraint": {
                   "valueTemplateRefs": [],
                   "useValuesFrom": [],
-                  "defaults": [],
+                  "defaults": [
+                    {
+                      "defaultURI": "",
+                      "defaultLiteral": "23/eng/"
+                    }
+                  ],
                   "valueDataType": {}
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/code",
@@ -417,7 +422,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.059Z",
-      "updateDate": "2024-08-14T16:11:50.589Z",
+      "updateDate": "2024-08-14T16:15:50.459Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.059Z",
