@@ -29978,7 +29978,7 @@
                   }
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/accompaniedBy",
-                "propertyLabel": "Language resource"
+                "propertyLabel": "Language resource (041 $bdefgt)"
               },
               {
                 "mandatory": "false",
@@ -29994,7 +29994,7 @@
                   "valueDataType": {}
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
-                "propertyLabel": "Language note"
+                "propertyLabel": "Language note (041 $hijkmnpqr)"
               },
               {
                 "mandatory": "false",
@@ -30845,7 +30845,7 @@
     "id": "ce021882-2189-495e-b638-126d03f724a5",
     "metadata": {
       "createDate": "2021-08-02T18:47:18.815Z",
-      "updateDate": "2024-08-12T20:36:50.752Z",
+      "updateDate": "2024-08-15T18:44:48.854Z",
       "createUser": null,
       "updateUser": null
     },
