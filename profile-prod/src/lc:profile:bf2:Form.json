@@ -55,7 +55,7 @@
           "valueConstraint": {
             "valueTemplateRefs": [],
             "useValuesFrom": [
-              "http://id.loc.gov/vocabulary/geographics"
+              "http://id.loc.gov/authorities/geographics"
             ],
             "valueDataType": {
               "dataTypeURI": "",
