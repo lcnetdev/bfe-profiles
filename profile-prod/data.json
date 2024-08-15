@@ -9852,6 +9852,24 @@
               {
                 "mandatory": "false",
                 "repeatable": "true",
+                "type": "lookup",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [
+                    "https://id.loc.gov/resources/hubs"
+                  ],
+                  "defaults": [],
+                  "valueDataType": {
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Hub"
+                  }
+                },
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/expressionOf",
+                "propertyLabel": "Expression of [search for a Hub]"
+              },
+              {
+                "mandatory": "false",
+                "repeatable": "true",
                 "type": "resource",
                 "valueConstraint": {
                   "valueTemplateRefs": [
@@ -10880,7 +10898,7 @@
     },
     "metadata": {
       "createDate": "2019-04-11T20:45:09.452Z",
-      "updateDate": "2024-08-12T20:42:59.802Z",
+      "updateDate": "2024-08-15T18:09:33.985Z",
       "createUser": null,
       "updateUser": null
     },
