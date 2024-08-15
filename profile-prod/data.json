@@ -10178,7 +10178,7 @@
                   "defaults": []
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/accompaniedBy",
-                "propertyLabel": "Language resource",
+                "propertyLabel": "Language resource (041 $bdefgt)",
                 "resourceTemplates": [],
                 "remark": "http://original.rdatoolkit.org/6.11.html"
               },
@@ -10196,7 +10196,7 @@
                   "valueDataType": {}
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
-                "propertyLabel": "Language note"
+                "propertyLabel": "Language note (041 $hijkmnpqr)"
               },
               {
                 "mandatory": "false",
@@ -10898,7 +10898,7 @@
     },
     "metadata": {
       "createDate": "2019-04-11T20:45:09.452Z",
-      "updateDate": "2024-08-15T18:09:33.985Z",
+      "updateDate": "2024-08-15T18:56:49.453Z",
       "createUser": null,
       "updateUser": null
     },
