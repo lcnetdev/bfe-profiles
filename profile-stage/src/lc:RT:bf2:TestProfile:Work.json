@@ -332,7 +332,7 @@
         "editable": "false"
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/accompaniedBy",
-      "propertyLabel": "Language resource",
+      "propertyLabel": "Language resource (041 $bdefgt)",
       "remark": ""
     },
     {
@@ -349,7 +349,7 @@
         "valueDataType": {}
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
-      "propertyLabel": "Language note"
+      "propertyLabel": "Language note (041 $hijkmnpqr)"
     },
     {
       "mandatory": "false",
