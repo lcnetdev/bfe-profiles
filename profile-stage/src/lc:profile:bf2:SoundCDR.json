@@ -431,7 +431,7 @@
             "defaults": []
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/language",
-          "propertyLabel": "Language resource",
+          "propertyLabel": "Language resource (041 $bdefgt)",
           "remark": "http://original.rdatoolkit.org/6.11.html"
         },
         {
@@ -448,7 +448,7 @@
             "valueDataType": {}
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
-          "propertyLabel": "Language note"
+          "propertyLabel": "Language note (041 $hijkmnpqr)"
         },
         {
           "mandatory": "false",
