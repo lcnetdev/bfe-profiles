@@ -48,8 +48,8 @@
         "editable": "true",
         "defaults": [
           {
-            "defaultURI": "http://id.loc.gov/vocabulary/classSchemes/ddc23",
-            "defaultLiteral": "23"
+            "defaultURI": "",
+            "defaultLiteral": "23/eng"
           }
         ]
       },
