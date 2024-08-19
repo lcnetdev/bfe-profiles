@@ -22088,7 +22088,7 @@
                   "defaults": [],
                   "editable": "false"
                 },
-                "propertyLabel": "Search LCNAF, LCSH or GAC",
+                "propertyLabel": "Search LCNAF or LCSH",
                 "remark": "http://access.rdatoolkit.org/7.3.html",
                 "propertyURI": "http://www.w3.org/2002/07/owl#sameAs"
               }
@@ -22200,7 +22200,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.059Z",
-      "updateDate": "2024-08-15T19:29:39.324Z",
+      "updateDate": "2024-08-19T19:46:50.232Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.059Z",
