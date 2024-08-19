@@ -32554,7 +32554,7 @@
                   "defaults": [],
                   "editable": "true"
                 },
-                "propertyLabel": "Search LCNAF, LCSH or GAC",
+                "propertyLabel": "Search LCNAF or LCSH",
                 "remark": "http://access.rdatoolkit.org/7.3.html",
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/geographicCoverage"
               }
@@ -32691,7 +32691,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.059Z",
-      "updateDate": "2024-08-08T19:20:33.519Z",
+      "updateDate": "2024-08-19T19:46:21.224Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.059Z",
