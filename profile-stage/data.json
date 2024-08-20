@@ -20092,7 +20092,7 @@
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [
-                    "lc:RT:bf2:SoundCDR:MediumComp"
+                    "lc:RT:bf2:PMOMedPerf:MediumComp"
                   ],
                   "useValuesFrom": [],
                   "defaults": [],
@@ -20100,22 +20100,6 @@
                 },
                 "propertyURI": "http://performedmusicontology.org/ontology/hasMediumComponent",
                 "propertyLabel": "has Medium Component (new)"
-              },
-              {
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "resource",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [
-                    "lc:RT:bf2:PMOMedPerf:PerfMed"
-                  ],
-                  "useValuesFrom": [],
-                  "valueDataType": {},
-                  "defaults": []
-                },
-                "propertyURI": "http://performedmusicontology.org/ontology/hasMedium",
-                "propertyLabel": "Performed/Doubling Medium"
               },
               {
                 "mandatory": "false",
@@ -21135,7 +21119,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2024-08-20T14:54:13.294Z",
+      "updateDate": "2024-08-20T15:08:50.130Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",
