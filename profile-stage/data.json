@@ -31110,7 +31110,7 @@
                   "valueDataType": {}
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/geographicCoverage",
-                "propertyLabel": "GAC (Geographic) codes"
+                "propertyLabel": "Geographic coverage"
               },
               {
                 "mandatory": "false",
@@ -31958,7 +31958,7 @@
     },
     "metadata": {
       "createDate": "2018-09-05T19:18:43.112Z",
-      "updateDate": "2024-08-15T18:44:11.640Z",
+      "updateDate": "2024-08-20T14:58:20.293Z",
       "createUser": null,
       "updateUser": null
     },
