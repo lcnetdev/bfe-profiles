@@ -130,22 +130,6 @@
         {
           "mandatory": "false",
           "repeatable": "true",
-          "type": "resource",
-          "valueConstraint": {
-            "valueTemplateRefs": [
-              "lc:RT:bf2:Form:Geog"
-            ],
-            "useValuesFrom": [],
-            "defaults": []
-          },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/geographicCoverage",
-          "propertyLabel": "(Geographic) Coverage of the Content",
-          "resourceTemplates": [],
-          "remark": "https://original.rdatoolkit.org/7.3.html"
-        },
-        {
-          "mandatory": "false",
-          "repeatable": "true",
           "type": "literal",
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/temporalCoverage",
           "propertyLabel": "(Time) Coverage of the Content",
@@ -237,6 +221,22 @@
           "propertyLabel": "Summary",
           "resourceTemplates": [],
           "remark": "https://original.rdatoolkit.org/7.10.html"
+        },
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "resource",
+          "valueConstraint": {
+            "valueTemplateRefs": [
+              "lc:RT:bf2:Form:Geog"
+            ],
+            "useValuesFrom": [],
+            "defaults": []
+          },
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/geographicCoverage",
+          "propertyLabel": "(Geographic) Coverage of the Content",
+          "resourceTemplates": [],
+          "remark": "https://original.rdatoolkit.org/7.3.html"
         },
         {
           "mandatory": "false",

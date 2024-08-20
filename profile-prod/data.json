@@ -9977,22 +9977,6 @@
               {
                 "mandatory": "false",
                 "repeatable": "true",
-                "type": "resource",
-                "valueConstraint": {
-                  "valueTemplateRefs": [
-                    "lc:RT:bf2:Form:Geog"
-                  ],
-                  "useValuesFrom": [],
-                  "defaults": []
-                },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/geographicCoverage",
-                "propertyLabel": "(Geographic) Coverage of the Content",
-                "resourceTemplates": [],
-                "remark": "https://original.rdatoolkit.org/7.3.html"
-              },
-              {
-                "mandatory": "false",
-                "repeatable": "true",
                 "type": "literal",
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/temporalCoverage",
                 "propertyLabel": "(Time) Coverage of the Content",
@@ -10084,6 +10068,22 @@
                 "propertyLabel": "Summary",
                 "resourceTemplates": [],
                 "remark": "https://original.rdatoolkit.org/7.10.html"
+              },
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "resource",
+                "valueConstraint": {
+                  "valueTemplateRefs": [
+                    "lc:RT:bf2:Form:Geog"
+                  ],
+                  "useValuesFrom": [],
+                  "defaults": []
+                },
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/geographicCoverage",
+                "propertyLabel": "(Geographic) Coverage of the Content",
+                "resourceTemplates": [],
+                "remark": "https://original.rdatoolkit.org/7.3.html"
               },
               {
                 "mandatory": "false",
@@ -10898,7 +10898,7 @@
     },
     "metadata": {
       "createDate": "2019-04-11T20:45:09.452Z",
-      "updateDate": "2024-08-15T18:56:49.453Z",
+      "updateDate": "2024-08-20T15:19:24.380Z",
       "createUser": null,
       "updateUser": null
     },
