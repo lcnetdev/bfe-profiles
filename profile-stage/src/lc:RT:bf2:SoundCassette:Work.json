@@ -116,22 +116,6 @@
     {
       "mandatory": "false",
       "repeatable": "true",
-      "type": "resource",
-      "resourceTemplates": [],
-      "valueConstraint": {
-        "valueTemplateRefs": [
-          "lc:RT:bf2:PMOMedPerf:PerfMed"
-        ],
-        "useValuesFrom": [],
-        "defaults": [],
-        "valueDataType": {}
-      },
-      "propertyURI": "http://performedmusicontology.org/ontology/hasMedium",
-      "propertyLabel": "Performed/Doubling Medium"
-    },
-    {
-      "mandatory": "false",
-      "repeatable": "true",
       "type": "literal",
       "resourceTemplates": [],
       "valueConstraint": {
@@ -192,24 +176,6 @@
     {
       "mandatory": "false",
       "repeatable": "true",
-      "type": "resource",
-      "resourceTemplates": [],
-      "valueConstraint": {
-        "valueTemplateRefs": [
-          "lc:RT:bf2:Form:Geog"
-        ],
-        "useValuesFrom": [],
-        "defaults": [],
-        "valueDataType": {},
-        "editable": "true"
-      },
-      "propertyURI": "http://id.loc.gov/ontologies/bibframe/geographicCoverage",
-      "propertyLabel": "(Geographic) Coverage of the Content",
-      "remark": "http://original.rdatoolkit.org/7.3.html"
-    },
-    {
-      "mandatory": "false",
-      "repeatable": "true",
       "type": "literal",
       "resourceTemplates": [],
       "valueConstraint": {
@@ -260,6 +226,24 @@
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/contribution",
       "propertyLabel": "Contribution",
       "remark": "http://original.rdatoolkit.org/19.3.html"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "resource",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [
+          "lc:RT:bf2:Form:Geog"
+        ],
+        "useValuesFrom": [],
+        "defaults": [],
+        "valueDataType": {},
+        "editable": "true"
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/geographicCoverage",
+      "propertyLabel": "(Geographic) Coverage of the Content",
+      "remark": "http://original.rdatoolkit.org/7.3.html"
     },
     {
       "mandatory": "false",
