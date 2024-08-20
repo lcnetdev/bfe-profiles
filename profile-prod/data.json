@@ -7029,24 +7029,6 @@
               {
                 "mandatory": "false",
                 "repeatable": "true",
-                "type": "resource",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [
-                    "lc:RT:bf2:Form:Geog"
-                  ],
-                  "useValuesFrom": [],
-                  "valueDataType": {},
-                  "defaults": [],
-                  "editable": "true"
-                },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/geographicCoverage",
-                "propertyLabel": "(Geographic) Coverage of the Content",
-                "remark": "https://original.rdatoolkit.org/7.3.html"
-              },
-              {
-                "mandatory": "false",
-                "repeatable": "true",
                 "type": "literal",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -7123,6 +7105,24 @@
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [
+                    "lc:RT:bf2:Form:Geog"
+                  ],
+                  "useValuesFrom": [],
+                  "valueDataType": {},
+                  "defaults": [],
+                  "editable": "true"
+                },
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/geographicCoverage",
+                "propertyLabel": "(Geographic) Coverage of the Content",
+                "remark": "https://original.rdatoolkit.org/7.3.html"
+              },
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "resource",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [
                     "lc:RT:bf2:Components",
                     "lc:RT:bf2:Topic:Place:Components",
                     "lc:RT:bf2:Topic:SubjectWork"
@@ -7133,7 +7133,7 @@
                   "editable": "true"
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/subject",
-                "propertyLabel": "Subject of the Work",
+                "propertyLabel": "Subjects",
                 "remark": "http://original.rdatoolkit.org/rdachp23_rda23-12.html"
               },
               {
@@ -8239,7 +8239,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2024-08-15T19:08:48.580Z",
+      "updateDate": "2024-08-20T15:21:49.266Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",

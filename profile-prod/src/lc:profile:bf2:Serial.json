@@ -135,24 +135,6 @@
         {
           "mandatory": "false",
           "repeatable": "true",
-          "type": "resource",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [
-              "lc:RT:bf2:Form:Geog"
-            ],
-            "useValuesFrom": [],
-            "valueDataType": {},
-            "defaults": [],
-            "editable": "true"
-          },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/geographicCoverage",
-          "propertyLabel": "(Geographic) Coverage of the Content",
-          "remark": "https://original.rdatoolkit.org/7.3.html"
-        },
-        {
-          "mandatory": "false",
-          "repeatable": "true",
           "type": "literal",
           "resourceTemplates": [],
           "valueConstraint": {
@@ -229,6 +211,24 @@
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [
+              "lc:RT:bf2:Form:Geog"
+            ],
+            "useValuesFrom": [],
+            "valueDataType": {},
+            "defaults": [],
+            "editable": "true"
+          },
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/geographicCoverage",
+          "propertyLabel": "(Geographic) Coverage of the Content",
+          "remark": "https://original.rdatoolkit.org/7.3.html"
+        },
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "resource",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [
               "lc:RT:bf2:Components",
               "lc:RT:bf2:Topic:Place:Components",
               "lc:RT:bf2:Topic:SubjectWork"
@@ -239,7 +239,7 @@
             "editable": "true"
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/subject",
-          "propertyLabel": "Subject of the Work",
+          "propertyLabel": "Subjects",
           "remark": "http://original.rdatoolkit.org/rdachp23_rda23-12.html"
         },
         {
