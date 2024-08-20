@@ -100,25 +100,6 @@
     {
       "mandatory": "false",
       "repeatable": "true",
-      "type": "lookup",
-      "resourceTemplates": [],
-      "valueConstraint": {
-        "valueTemplateRefs": [],
-        "useValuesFrom": [
-          "http://id.loc.gov/vocabulary/countries"
-        ],
-        "defaults": [],
-        "valueDataType": {
-          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Place"
-        }
-      },
-      "propertyURI": "http://id.loc.gov/ontologies/bibframe/originPlace",
-      "propertyLabel": "Place associated with the Work",
-      "remark": "https://original.rdatoolkit.org/6.5.html"
-    },
-    {
-      "mandatory": "false",
-      "repeatable": "true",
       "type": "resource",
       "resourceTemplates": [],
       "valueConstraint": {
@@ -130,7 +111,7 @@
         "valueDataType": {}
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/geographicCoverage",
-      "propertyLabel": "GAC (Geographic) codes",
+      "propertyLabel": "Geographic coverage",
       "remark": "https://original.rdatoolkit.org/7.3.html"
     },
     {
@@ -147,6 +128,25 @@
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/temporalCoverage",
       "propertyLabel": "Time coverage of the Work",
       "remark": "https://original.rdatoolkit.org/7.3.html"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [
+          "http://id.loc.gov/vocabulary/countries"
+        ],
+        "defaults": [],
+        "valueDataType": {
+          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Place"
+        }
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/originPlace",
+      "propertyLabel": "Place associated with the Work",
+      "remark": "https://original.rdatoolkit.org/6.5.html"
     },
     {
       "mandatory": "false",
