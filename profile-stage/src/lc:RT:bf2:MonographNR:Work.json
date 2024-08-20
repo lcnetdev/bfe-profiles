@@ -90,23 +90,6 @@
     {
       "mandatory": "false",
       "repeatable": "true",
-      "type": "resource",
-      "valueConstraint": {
-        "valueTemplateRefs": [
-          "lc:RT:bf2:Form:Geog"
-        ],
-        "useValuesFrom": [],
-        "defaults": [],
-        "valueDataType": {}
-      },
-      "propertyURI": "http://id.loc.gov/ontologies/bibframe/geographicCoverage",
-      "propertyLabel": "(Geographic) Coverage of the Content",
-      "resourceTemplates": [],
-      "remark": "https://original.rdatoolkit.org/7.3.html"
-    },
-    {
-      "mandatory": "false",
-      "repeatable": "true",
       "type": "literal",
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/temporalCoverage",
       "propertyLabel": "(Time) Coverage of the Content",
@@ -201,6 +184,23 @@
       "propertyLabel": "Summary",
       "resourceTemplates": [],
       "remark": "http://original.rdatoolkit.org/rdachp7_rda7-774.html"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "resource",
+      "valueConstraint": {
+        "valueTemplateRefs": [
+          "lc:RT:bf2:Form:Geog"
+        ],
+        "useValuesFrom": [],
+        "defaults": [],
+        "valueDataType": {}
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/geographicCoverage",
+      "propertyLabel": "(Geographic) Coverage of the Content",
+      "resourceTemplates": [],
+      "remark": "https://original.rdatoolkit.org/7.3.html"
     },
     {
       "mandatory": "false",
