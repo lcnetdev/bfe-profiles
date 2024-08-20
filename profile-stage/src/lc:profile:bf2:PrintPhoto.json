@@ -944,7 +944,7 @@
             "useValuesFrom": [],
             "defaults": [],
             "valueDataType": {
-              "dataTypeURI": "http://www.loc.gov/mads/rdf/v1#ComplexSubject"
+              "dataTypeURI": ""
             }
           },
           "propertyLabel": "Search TGM",

@@ -31686,7 +31686,7 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {
-                    "dataTypeURI": "http://www.loc.gov/mads/rdf/v1#ComplexSubject"
+                    "dataTypeURI": ""
                   }
                 },
                 "propertyLabel": "Search TGM",
@@ -31889,7 +31889,7 @@
     },
     "metadata": {
       "createDate": "2018-09-05T19:18:43.112Z",
-      "updateDate": "2024-08-20T14:58:20.293Z",
+      "updateDate": "2024-08-20T15:54:44.889Z",
       "createUser": null,
       "updateUser": null
     },
