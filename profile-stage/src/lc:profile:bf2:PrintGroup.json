@@ -299,7 +299,7 @@
             "valueDataType": {}
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/geographicCoverage",
-          "propertyLabel": "GAC (Geographic) codes"
+          "propertyLabel": "Geographic coverage"
         },
         {
           "mandatory": "false",
