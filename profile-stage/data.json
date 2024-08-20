@@ -32550,7 +32550,7 @@
                 "valueConstraint": {
                   "valueTemplateRefs": [],
                   "useValuesFrom": [
-                    "https://lookup.ld4l.org/authorities/search/linked_data/geonames_ld4l_cache"
+                    "https://www.geonames.org/search.html?q"
                   ],
                   "defaults": [],
                   "valueDataType": {}
@@ -32574,7 +32574,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.059Z",
-      "updateDate": "2024-08-19T19:46:21.224Z",
+      "updateDate": "2024-08-20T15:48:48.629Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.059Z",
