@@ -15073,25 +15073,6 @@
               {
                 "mandatory": "false",
                 "repeatable": "true",
-                "type": "resource",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [
-                    "lc:RT:bf2:Form:Geog"
-                  ],
-                  "useValuesFrom": [],
-                  "valueDataType": {},
-                  "defaults": [],
-                  "editable": "true",
-                  "repeatable": "true"
-                },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/geographicCoverage",
-                "propertyLabel": "(Geographic) Coverage of the Content",
-                "remark": "http://original.rdatoolkit.org/7.3.html"
-              },
-              {
-                "mandatory": "false",
-                "repeatable": "true",
                 "type": "literal",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -15192,6 +15173,25 @@
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/summary",
                 "propertyLabel": "Summary",
                 "remark": "https://original.rdatoolkit.org/7.10.html"
+              },
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "resource",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [
+                    "lc:RT:bf2:Form:Geog"
+                  ],
+                  "useValuesFrom": [],
+                  "valueDataType": {},
+                  "defaults": [],
+                  "editable": "true",
+                  "repeatable": "true"
+                },
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/geographicCoverage",
+                "propertyLabel": "(Geographic) Coverage of the Content",
+                "remark": "http://original.rdatoolkit.org/7.3.html"
               },
               {
                 "mandatory": "false",
@@ -16723,7 +16723,7 @@
     },
     "metadata": {
       "createDate": "2019-06-13T12:32:28.719Z",
-      "updateDate": "2024-08-15T18:46:06.893Z",
+      "updateDate": "2024-08-20T14:59:38.812Z",
       "createUser": null,
       "updateUser": null
     },
