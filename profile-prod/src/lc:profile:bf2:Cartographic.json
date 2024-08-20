@@ -80,24 +80,6 @@
         {
           "mandatory": "false",
           "repeatable": "true",
-          "type": "resource",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [
-              "lc:RT:bf2:Cartographic:GeoCoverage"
-            ],
-            "useValuesFrom": [],
-            "valueDataType": {},
-            "defaults": [],
-            "editable": "true"
-          },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/geographicCoverage",
-          "propertyLabel": "(Geographic) Coverage of the Content",
-          "remark": "https://original.rdatoolkit.org/7.3.html"
-        },
-        {
-          "mandatory": "false",
-          "repeatable": "true",
           "type": "literal",
           "resourceTemplates": [],
           "valueConstraint": {
@@ -165,6 +147,24 @@
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/contribution",
           "propertyLabel": "Contribution",
           "remark": "https://original.rdatoolkit.org/19.3.html"
+        },
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "resource",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [
+              "lc:RT:bf2:Cartographic:GeoCoverage"
+            ],
+            "useValuesFrom": [],
+            "valueDataType": {},
+            "defaults": [],
+            "editable": "true"
+          },
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/geographicCoverage",
+          "propertyLabel": "(Geographic) Coverage of the Content",
+          "remark": "https://original.rdatoolkit.org/7.3.html"
         },
         {
           "mandatory": "false",
