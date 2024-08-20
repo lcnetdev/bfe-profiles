@@ -19034,6 +19034,40 @@
               {
                 "mandatory": "false",
                 "repeatable": "true",
+                "type": "lookup",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [
+                    "https://preprod-8288.id.loc.gov/vocabulary/pmomedtype"
+                  ],
+                  "defaults": [],
+                  "valueDataType": {
+                    "dataTypeURI": "http://performedmusicontology.org/ontology/MediumType"
+                  }
+                },
+                "propertyURI": "http://performedmusicontology.org/ontology/hasMediumType",
+                "propertyLabel": "has Medium Type (new)"
+              },
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "resource",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [
+                    "lc:RT:bf2:PMOMedPerf:MediumComp"
+                  ],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {}
+                },
+                "propertyURI": "http://performedmusicontology.org/ontology/hasMediumComponent",
+                "propertyLabel": "has Medium Component (new)"
+              },
+              {
+                "mandatory": "false",
+                "repeatable": "true",
                 "type": "literal",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -19937,7 +19971,7 @@
     },
     "metadata": {
       "createDate": "2019-02-28T14:21:01.066Z",
-      "updateDate": "2024-08-20T14:54:49.797Z",
+      "updateDate": "2024-08-20T15:10:26.123Z",
       "createUser": null,
       "updateUser": null
     },
