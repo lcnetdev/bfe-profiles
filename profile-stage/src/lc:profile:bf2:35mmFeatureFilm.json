@@ -74,23 +74,6 @@
         {
           "mandatory": "false",
           "repeatable": "true",
-          "type": "resource",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [
-              "lc:RT:bf2:Form:Geog"
-            ],
-            "useValuesFrom": [],
-            "defaults": [],
-            "valueDataType": {}
-          },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/geographicCoverage",
-          "propertyLabel": "(Geographic) Coverage of the Content",
-          "remark": "http://original.rdatoolkit.org/7.3.html"
-        },
-        {
-          "mandatory": "false",
-          "repeatable": "true",
           "type": "literal",
           "resourceTemplates": [],
           "valueConstraint": {
@@ -204,6 +187,23 @@
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/genreForm",
           "propertyLabel": "Form/Genre",
           "remark": "http://original.rdatoolkit.org/6.3.html"
+        },
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "resource",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [
+              "lc:RT:bf2:Form:Geog"
+            ],
+            "useValuesFrom": [],
+            "defaults": [],
+            "valueDataType": {}
+          },
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/geographicCoverage",
+          "propertyLabel": "(Geographic) Coverage of the Content",
+          "remark": "http://original.rdatoolkit.org/7.3.html"
         },
         {
           "mandatory": "false",
