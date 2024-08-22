@@ -1085,7 +1085,7 @@
                   "valueDataType": {}
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
-                "propertyLabel": "Language note (041 $hijkmnpqr or 041 1#))"
+                "propertyLabel": "Language note (041 $hijkmnpqr or 041 1#)"
               },
               {
                 "mandatory": "false",
@@ -1906,7 +1906,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2024-08-22T19:27:35.057Z",
+      "updateDate": "2024-08-22T19:30:07.884Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",

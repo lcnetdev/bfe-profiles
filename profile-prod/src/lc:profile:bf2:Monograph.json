@@ -380,7 +380,7 @@
             "valueDataType": {}
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
-          "propertyLabel": "Language note (041 $hijkmnpqr or 041 1#))"
+          "propertyLabel": "Language note (041 $hijkmnpqr or 041 1#)"
         },
         {
           "mandatory": "false",
