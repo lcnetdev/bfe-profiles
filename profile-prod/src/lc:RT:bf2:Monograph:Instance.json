@@ -104,25 +104,6 @@
       "remark": "https://original.rdatoolkit.org/2.11.html"
     },
     {
-      "mandatory": "false",
-      "repeatable": "true",
-      "type": "resource",
-      "resourceTemplates": [],
-      "valueConstraint": {
-        "valueTemplateRefs": [
-          "lc:RT:bf2:Agents:Contribution"
-        ],
-        "useValuesFrom": [],
-        "defaults": [],
-        "valueDataType": {
-          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Contribution"
-        }
-      },
-      "propertyURI": "http://id.loc.gov/ontologies/bibframe/contribution",
-      "propertyLabel": "Contribution",
-      "remark": "https://original.rdatoolkit.org/21.1.html"
-    },
-    {
       "mandatory": "true",
       "repeatable": "true",
       "type": "lookup",
