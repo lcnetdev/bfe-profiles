@@ -12496,7 +12496,7 @@
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/geographicCoverage",
                 "propertyLabel": "(Geographic) Coverage of the Content",
                 "resourceTemplates": [],
-                "remark": "https://original.rdatoolkit.org/7.3.html"
+                "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-GeographicCoverage(043)"
               },
               {
                 "mandatory": "false",
@@ -13281,7 +13281,7 @@
     },
     "metadata": {
       "createDate": "2019-04-11T20:45:09.452Z",
-      "updateDate": "2024-08-22T19:59:22.439Z",
+      "updateDate": "2024-08-28T18:47:38.720Z",
       "createUser": null,
       "updateUser": null
     },
