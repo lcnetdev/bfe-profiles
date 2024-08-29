@@ -805,7 +805,8 @@
                   }
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bflc/governmentPubType",
-                "propertyLabel": "Government publication"
+                "propertyLabel": "Government publication",
+                "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-MonographConsiderations(andMARC008)"
               },
               {
                 "mandatory": "false",
@@ -875,7 +876,7 @@
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/intendedAudience",
                 "propertyLabel": "Intended Audience",
-                "remark": "https://original.rdatoolkit.org/7.7.html"
+                "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-MonographConsiderations(andMARC008)"
               },
               {
                 "mandatory": "false",
@@ -1126,7 +1127,7 @@
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/illustrativeContent",
                 "propertyLabel": "Illustrative Content",
-                "remark": "https://original.rdatoolkit.org/7.15.html"
+                "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-MonographConsiderations(andMARC008)"
               },
               {
                 "mandatory": "false",
@@ -1164,7 +1165,7 @@
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/supplementaryContent",
                 "propertyLabel": "Supplementary Content",
-                "remark": "https://original.rdatoolkit.org/7.16.html"
+                "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-MonographConsiderations(andMARC008)"
               },
               {
                 "mandatory": "false",
@@ -1890,7 +1891,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2024-08-29T14:52:42.754Z",
+      "updateDate": "2024-08-29T16:21:56.544Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",

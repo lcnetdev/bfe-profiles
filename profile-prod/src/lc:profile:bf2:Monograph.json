@@ -100,7 +100,8 @@
             }
           },
           "propertyURI": "http://id.loc.gov/ontologies/bflc/governmentPubType",
-          "propertyLabel": "Government publication"
+          "propertyLabel": "Government publication",
+          "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-MonographConsiderations(andMARC008)"
         },
         {
           "mandatory": "false",
@@ -170,7 +171,7 @@
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/intendedAudience",
           "propertyLabel": "Intended Audience",
-          "remark": "https://original.rdatoolkit.org/7.7.html"
+          "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-MonographConsiderations(andMARC008)"
         },
         {
           "mandatory": "false",
@@ -421,7 +422,7 @@
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/illustrativeContent",
           "propertyLabel": "Illustrative Content",
-          "remark": "https://original.rdatoolkit.org/7.15.html"
+          "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-MonographConsiderations(andMARC008)"
         },
         {
           "mandatory": "false",
@@ -459,7 +460,7 @@
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/supplementaryContent",
           "propertyLabel": "Supplementary Content",
-          "remark": "https://original.rdatoolkit.org/7.16.html"
+          "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-MonographConsiderations(andMARC008)"
         },
         {
           "mandatory": "false",
