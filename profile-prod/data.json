@@ -1347,7 +1347,7 @@
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/provisionActivity",
                 "propertyLabel": "Provision Activity",
-                "remark": ""
+                "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-ProvisionActivity(264)"
               },
               {
                 "mandatory": "false",
@@ -1890,7 +1890,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2024-08-29T14:47:32.377Z",
+      "updateDate": "2024-08-29T14:52:42.754Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",
