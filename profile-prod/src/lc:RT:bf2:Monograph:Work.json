@@ -16,7 +16,8 @@
         }
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/expressionOf",
-      "propertyLabel": "Expression of [search for a Hub]"
+      "propertyLabel": "Expression of [search for a Hub]",
+      "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Work/ExpressionTitles"
     },
     {
       "mandatory": "false",
@@ -37,7 +38,7 @@
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/contribution",
       "propertyLabel": "Creator of Work",
-      "remark": "https://original.rdatoolkit.org/19.2.html"
+      "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Contributors(1XX,6XX,7XX)"
     },
     {
       "mandatory": "true",
@@ -56,7 +57,7 @@
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/title",
       "propertyLabel": "Title Information",
-      "remark": "https://original.rdatoolkit.org/rdachp6_rda6-2036.html"
+      "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Work/ExpressionTitles"
     },
     {
       "mandatory": "false",
@@ -79,7 +80,7 @@
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/genreForm",
       "propertyLabel": "Form/Genre",
-      "remark": "https://original.rdatoolkit.org/6.3.html"
+      "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-GenreForm(655,some008values)"
     },
     {
       "mandatory": "false",
@@ -132,7 +133,7 @@
         "repeatable": "true"
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/originPlace",
-      "propertyLabel": "Place of Origin of the Work",
+      "propertyLabel": "Country of Origin of the Work",
       "remark": "http://original.rdatoolkit.org/rdachp6_rda6-3164.html"
     },
     {
@@ -186,7 +187,7 @@
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/contribution",
       "propertyLabel": "Contributors",
-      "remark": "http://original.rdatoolkit.org/19.3.html"
+      "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Contributors(1XX,6XX,7XX)"
     },
     {
       "mandatory": "false",
@@ -254,7 +255,7 @@
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/geographicCoverage",
       "propertyLabel": "(Geographic) Coverage of the Content",
-      "remark": "https://original.rdatoolkit.org/7.3.html"
+      "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-GeographicCoverage(043)"
     },
     {
       "mandatory": "false",
@@ -276,7 +277,7 @@
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/subject",
       "propertyLabel": "Subjects",
-      "remark": "http://original.rdatoolkit.org/rdachp23_rda23-12.html"
+      "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Subjects(6XX)"
     },
     {
       "mandatory": "false",
@@ -339,7 +340,8 @@
         }
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/language",
-      "propertyLabel": "Language (008 field)"
+      "propertyLabel": "Language (008 field)",
+      "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Languages(041)"
     },
     {
       "mandatory": "false",
@@ -360,7 +362,7 @@
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/accompaniedBy",
       "propertyLabel": "Language resource (041 $bdefgt)",
-      "remark": "https://original.rdatoolkit.org/6.11.html"
+      "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Languages(041)"
     },
     {
       "mandatory": "false",
@@ -376,7 +378,8 @@
         "valueDataType": {}
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
-      "propertyLabel": "Language note (041 $hijkmnpqr or 041 1#)"
+      "propertyLabel": "Language note (041 $hijkmnpqr or 041 1#)",
+      "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Languages(041)"
     },
     {
       "mandatory": "false",
@@ -472,7 +475,8 @@
         }
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/relation",
-      "propertyLabel": "Input Transcribed Series"
+      "propertyLabel": "Input Transcribed Series",
+      "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Series(490,8XX)"
     },
     {
       "mandatory": "false",
@@ -489,7 +493,7 @@
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/relation",
       "propertyLabel": "Search related work",
-      "remark": "https://original.rdatoolkit.org/25.1.html"
+      "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Hubs(240;X00,X10,X11with$t;X30)"
     },
     {
       "mandatory": "false",
@@ -507,7 +511,8 @@
         }
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/relation",
-      "propertyLabel": "Search Series Hub (optional)"
+      "propertyLabel": "Search Series Hub (optional)",
+      "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Series(490,8XX)"
     },
     {
       "mandatory": "false",
