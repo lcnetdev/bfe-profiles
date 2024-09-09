@@ -3,25 +3,6 @@
     {
       "mandatory": "false",
       "repeatable": "true",
-      "type": "lookup",
-      "resourceTemplates": [],
-      "valueConstraint": {
-        "valueTemplateRefs": [],
-        "useValuesFrom": [
-          "https://id.loc.gov/resources/hubs"
-        ],
-        "defaults": [],
-        "valueDataType": {
-          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Hub"
-        }
-      },
-      "propertyURI": "http://id.loc.gov/ontologies/bibframe/expressionOf",
-      "propertyLabel": "Expression of [search for a Hub]",
-      "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Work/ExpressionTitles"
-    },
-    {
-      "mandatory": "false",
-      "repeatable": "true",
       "type": "resource",
       "resourceTemplates": [],
       "valueConstraint": {
@@ -90,40 +71,6 @@
       "valueConstraint": {
         "valueTemplateRefs": [],
         "useValuesFrom": [
-          "http://id.loc.gov/vocabulary/mgovtpubtype"
-        ],
-        "defaults": [],
-        "valueDataType": {
-          "dataTypeURI": "http://id.loc.gov/ontologies/bflc/GovernmentPubType"
-        }
-      },
-      "propertyURI": "http://id.loc.gov/ontologies/bflc/governmentPubType",
-      "propertyLabel": "Government publication",
-      "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-MonographConsiderations(andMARC008)"
-    },
-    {
-      "mandatory": "false",
-      "repeatable": "true",
-      "type": "literal",
-      "resourceTemplates": [],
-      "valueConstraint": {
-        "valueTemplateRefs": [],
-        "useValuesFrom": [],
-        "valueDataType": {},
-        "defaults": []
-      },
-      "propertyURI": "http://id.loc.gov/ontologies/bibframe/originDate",
-      "propertyLabel": "Date of Work",
-      "remark": "https://original.rdatoolkit.org/6.4.html"
-    },
-    {
-      "mandatory": "false",
-      "repeatable": "true",
-      "type": "lookup",
-      "resourceTemplates": [],
-      "valueConstraint": {
-        "valueTemplateRefs": [],
-        "useValuesFrom": [
           "http://id.loc.gov/vocabulary/countries"
         ],
         "valueDataType": {
@@ -155,21 +102,35 @@
     {
       "mandatory": "false",
       "repeatable": "true",
-      "type": "lookup",
+      "type": "resource",
       "resourceTemplates": [],
       "valueConstraint": {
-        "valueTemplateRefs": [],
-        "useValuesFrom": [
-          "http://id.loc.gov/vocabulary/maudience"
+        "valueTemplateRefs": [
+          "lc:RT:bf2:Note"
         ],
-        "valueDataType": {
-          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/IntendedAudience"
-        },
+        "useValuesFrom": [],
+        "valueDataType": {},
         "defaults": []
       },
-      "propertyURI": "http://id.loc.gov/ontologies/bibframe/intendedAudience",
-      "propertyLabel": "Intended Audience",
-      "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-MonographConsiderations(andMARC008)"
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
+      "propertyLabel": "Notes about the Work"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "resource",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [
+          "lc:RT:bf2:Summary"
+        ],
+        "useValuesFrom": [],
+        "valueDataType": {},
+        "defaults": []
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/summary",
+      "propertyLabel": "Summary",
+      "remark": "https://original.rdatoolkit.org/7.10.html"
     },
     {
       "mandatory": "false",
@@ -197,47 +158,20 @@
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [
-          "lc:RT:bf2:Note"
+          "lc:RT:bf2:Components",
+          "lc:RT:bf2:Topic:Place:Components",
+          "lc:RT:bf2:Topic:Childrens:Components",
+          "lc:RT:bf2:Topic:SubjectWork"
         ],
         "useValuesFrom": [],
         "valueDataType": {},
-        "defaults": []
+        "defaults": [],
+        "editable": "true",
+        "repeatable": "true"
       },
-      "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
-      "propertyLabel": "Notes about the Work"
-    },
-    {
-      "mandatory": "false",
-      "repeatable": "true",
-      "type": "resource",
-      "resourceTemplates": [],
-      "valueConstraint": {
-        "valueTemplateRefs": [
-          "lc:RT:bf2:Contents"
-        ],
-        "useValuesFrom": [],
-        "valueDataType": {},
-        "defaults": []
-      },
-      "propertyURI": "http://id.loc.gov/ontologies/bibframe/tableOfContents",
-      "propertyLabel": "Contents"
-    },
-    {
-      "mandatory": "false",
-      "repeatable": "true",
-      "type": "resource",
-      "resourceTemplates": [],
-      "valueConstraint": {
-        "valueTemplateRefs": [
-          "lc:RT:bf2:Summary"
-        ],
-        "useValuesFrom": [],
-        "valueDataType": {},
-        "defaults": []
-      },
-      "propertyURI": "http://id.loc.gov/ontologies/bibframe/summary",
-      "propertyLabel": "Summary",
-      "remark": "https://original.rdatoolkit.org/7.10.html"
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/subject",
+      "propertyLabel": "Subjects",
+      "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Subjects(6XX)"
     },
     {
       "mandatory": "false",
@@ -261,24 +195,37 @@
     {
       "mandatory": "false",
       "repeatable": "true",
+      "type": "lookup",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [
+          "http://id.loc.gov/vocabulary/mgovtpubtype"
+        ],
+        "defaults": [],
+        "valueDataType": {
+          "dataTypeURI": "http://id.loc.gov/ontologies/bflc/GovernmentPubType"
+        }
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bflc/governmentPubType",
+      "propertyLabel": "Government publication",
+      "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-MonographConsiderations(andMARC008)"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
       "type": "resource",
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [
-          "lc:RT:bf2:Components",
-          "lc:RT:bf2:Topic:Place:Components",
-          "lc:RT:bf2:Topic:Childrens:Components",
-          "lc:RT:bf2:Topic:SubjectWork"
+          "lc:RT:bf2:Contents"
         ],
         "useValuesFrom": [],
         "valueDataType": {},
-        "defaults": [],
-        "editable": "true",
-        "repeatable": "true"
+        "defaults": []
       },
-      "propertyURI": "http://id.loc.gov/ontologies/bibframe/subject",
-      "propertyLabel": "Subjects",
-      "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Subjects(6XX)"
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/tableOfContents",
+      "propertyLabel": "Contents"
     },
     {
       "mandatory": "false",
@@ -328,25 +275,6 @@
     {
       "mandatory": "false",
       "repeatable": "true",
-      "type": "lookup",
-      "resourceTemplates": [],
-      "valueConstraint": {
-        "valueTemplateRefs": [],
-        "useValuesFrom": [
-          "http://id.loc.gov/vocabulary/languages"
-        ],
-        "defaults": [],
-        "valueDataType": {
-          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Language"
-        }
-      },
-      "propertyURI": "http://id.loc.gov/ontologies/bibframe/language",
-      "propertyLabel": "Language (008 field)",
-      "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Languages(041)"
-    },
-    {
-      "mandatory": "false",
-      "repeatable": "true",
       "type": "resource",
       "resourceTemplates": [],
       "valueConstraint": {
@@ -368,18 +296,20 @@
     {
       "mandatory": "false",
       "repeatable": "true",
-      "type": "resource",
+      "type": "lookup",
       "resourceTemplates": [],
       "valueConstraint": {
-        "valueTemplateRefs": [
-          "lc:RT:bf2:LangNote"
+        "valueTemplateRefs": [],
+        "useValuesFrom": [
+          "http://id.loc.gov/vocabulary/languages"
         ],
-        "useValuesFrom": [],
         "defaults": [],
-        "valueDataType": {}
+        "valueDataType": {
+          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Language"
+        }
       },
-      "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
-      "propertyLabel": "Language note (041 $hijkmnpqr or 041 1#)",
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/language",
+      "propertyLabel": "Language (008 field)",
       "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Languages(041)"
     },
     {
@@ -400,6 +330,23 @@
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/notation",
       "propertyLabel": "Script",
       "remark": "http://access.rdatoolkit.org/7.13.2.html"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "resource",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [
+          "lc:RT:bf2:LangNote"
+        ],
+        "useValuesFrom": [],
+        "defaults": [],
+        "valueDataType": {}
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
+      "propertyLabel": "Language note (041 $hijkmnpqr or 041 1#)",
+      "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Languages(041)"
     },
     {
       "mandatory": "false",
@@ -467,6 +414,25 @@
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [
+          "lc:RT:bf2:SeriesHubLookup"
+        ],
+        "useValuesFrom": [],
+        "defaults": [],
+        "valueDataType": {
+          "dataTypeURI": ""
+        }
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/relation",
+      "propertyLabel": "Search Series Hub (optional)",
+      "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Series(490,8XX)"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "resource",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [
           "lc:RT:bf2:SeriesHub"
         ],
         "useValuesFrom": [],
@@ -503,25 +469,6 @@
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [
-          "lc:RT:bf2:SeriesHubLookup"
-        ],
-        "useValuesFrom": [],
-        "defaults": [],
-        "valueDataType": {
-          "dataTypeURI": ""
-        }
-      },
-      "propertyURI": "http://id.loc.gov/ontologies/bibframe/relation",
-      "propertyLabel": "Search Series Hub (optional)",
-      "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Series(490,8XX)"
-    },
-    {
-      "mandatory": "false",
-      "repeatable": "true",
-      "type": "resource",
-      "resourceTemplates": [],
-      "valueConstraint": {
-        "valueTemplateRefs": [
           "lc:RT:bf2:Monograph:Dissertation"
         ],
         "useValuesFrom": [],
@@ -531,6 +478,59 @@
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/dissertation",
       "propertyLabel": "Dissertation",
       "remark": "https://original.rdatoolkit.org/7.9.html"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "valueDataType": {},
+        "defaults": []
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/originDate",
+      "propertyLabel": "Date of Work",
+      "remark": "https://original.rdatoolkit.org/6.4.html"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [
+          "https://id.loc.gov/resources/hubs"
+        ],
+        "defaults": [],
+        "valueDataType": {
+          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Hub"
+        }
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/expressionOf",
+      "propertyLabel": "Expression of [search for a Hub]",
+      "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Work/ExpressionTitles"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [
+          "http://id.loc.gov/vocabulary/maudience"
+        ],
+        "valueDataType": {
+          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/IntendedAudience"
+        },
+        "defaults": []
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/intendedAudience",
+      "propertyLabel": "Intended Audience",
+      "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-MonographConsiderations(andMARC008)"
     },
     {
       "mandatory": "false",
