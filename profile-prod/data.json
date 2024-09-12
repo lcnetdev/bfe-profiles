@@ -1403,7 +1403,8 @@
                     "lc:RT:bf2:Identifiers:Oclc",
                     "lc:RT:bf2:Identifiers:Other",
                     "lc:RT:bf2:Identifiers:Local",
-                    "lc:RT:bf2:Identifiers:EAN"
+                    "lc:RT:bf2:Identifiers:EAN",
+                    "lc:RT:bf2:Identifiers:Nbn"
                   ],
                   "useValuesFrom": [],
                   "valueDataType": {},
@@ -1891,7 +1892,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2024-09-09T19:54:24.889Z",
+      "updateDate": "2024-09-12T15:14:08.388Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",
