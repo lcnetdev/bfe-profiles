@@ -19984,6 +19984,77 @@
             "resourceURI": "http://id.loc.gov/ontologies/bibframe/ShelfMark",
             "id": "lc:RT:bf2:Identifiers:Shelfmark",
             "resourceLabel": "Accession or copy number"
+          },
+          {
+            "propertyTemplates": [
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "literal",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {}
+                },
+                "propertyURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+                "propertyLabel": "National bibliographic number"
+              },
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "literal",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {}
+                },
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/qualifier",
+                "propertyLabel": "Qualifier"
+              },
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "lookup",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [
+                    "http://id.loc.gov/vocabulary/mstatus"
+                  ],
+                  "defaults": [],
+                  "valueDataType": {
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Status"
+                  }
+                },
+                "propertyLabel": "Invalid/Canceled?",
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/status"
+              },
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "resource",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [
+                    "http://id.loc.gov/vocabulary/nationalbibschemes"
+                  ],
+                  "defaults": [],
+                  "valueDataType": {
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Source"
+                  }
+                },
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/source",
+                "propertyLabel": "Source"
+              }
+            ],
+            "id": "lc:RT:bf2:Identifiers:Nbn",
+            "resourceURI": "http://id.loc.gov/ontologies/bibframe/Nbn",
+            "resourceLabel": "National bibliographic number"
           }
         ],
         "id": "lc:profile:bf2:Identifiers",
@@ -19995,7 +20066,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.059Z",
-      "updateDate": "2024-08-12T19:36:23.514Z",
+      "updateDate": "2024-09-12T15:13:01.180Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.059Z",
