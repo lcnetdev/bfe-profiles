@@ -24,13 +24,31 @@
         "useValuesFrom": [
           "http://id.loc.gov/vocabulary/organizations"
         ],
+        "defaults": [],
+        "valueDataType": {
+          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Source"
+        }
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/source",
+      "propertyLabel": "Source of number"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [
+          "http://id.loc.gov/vocabulary/organizations"
+        ],
         "valueDataType": {
           "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Agent"
         },
         "defaults": []
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/assigner",
-      "propertyLabel": "Source of number"
+      "propertyLabel": "Assigning agency"
     }
   ],
   "id": "lc:RT:bf2:Identifiers:Local",
