@@ -7660,7 +7660,8 @@
                     "lc:RT:bf2:Identifiers:Copyright",
                     "lc:RT:bf2:Identifiers:Oclc",
                     "lc:RT:bf2:Identifiers:ISBN",
-                    "lc:RT:bf2:Identifiers:Coden"
+                    "lc:RT:bf2:Identifiers:Coden",
+                    "lc:RT:bf2:Identifiers:Nbn"
                   ],
                   "useValuesFrom": [],
                   "valueDataType": {},
@@ -8225,7 +8226,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2024-08-20T15:21:49.266Z",
+      "updateDate": "2024-09-12T15:18:04.753Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",

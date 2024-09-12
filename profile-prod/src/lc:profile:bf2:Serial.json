@@ -780,7 +780,8 @@
               "lc:RT:bf2:Identifiers:Copyright",
               "lc:RT:bf2:Identifiers:Oclc",
               "lc:RT:bf2:Identifiers:ISBN",
-              "lc:RT:bf2:Identifiers:Coden"
+              "lc:RT:bf2:Identifiers:Coden",
+              "lc:RT:bf2:Identifiers:Nbn"
             ],
             "useValuesFrom": [],
             "valueDataType": {},
