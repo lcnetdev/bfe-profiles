@@ -18605,7 +18605,7 @@
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
                 "propertyLabel": "Relationship Designator",
-                "remark": "https://original.rdatoolkit.org/rdaappi_rdai-34.html"
+                "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-AgentRoles"
               }
             ],
             "id": "lc:RT:bflc:Agents:PrimaryContribution",
@@ -18622,7 +18622,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.059Z",
-      "updateDate": "2024-01-30T15:01:41.929Z",
+      "updateDate": "2024-09-23T19:03:16.337Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.059Z",

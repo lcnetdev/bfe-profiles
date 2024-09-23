@@ -44,7 +44,7 @@
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
       "propertyLabel": "Relationship Designator",
-      "remark": "https://original.rdatoolkit.org/rdaappi_rdai-34.html"
+      "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-AgentRoles"
     }
   ],
   "id": "lc:RT:bflc:Agents:PrimaryContribution",
