@@ -18659,7 +18659,8 @@
                 "type": "resource",
                 "mandatory": "false",
                 "repeatable": "true",
-                "resourceTemplates": []
+                "resourceTemplates": [],
+                "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Contributors(1XX,6XX,7XX)"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
@@ -18738,7 +18739,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.058Z",
-      "updateDate": "2024-09-23T19:02:46.462Z",
+      "updateDate": "2024-09-23T19:04:07.913Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.058Z",
