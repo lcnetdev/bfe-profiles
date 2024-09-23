@@ -18678,7 +18678,7 @@
                   "repeatable": "true",
                   "defaults": []
                 },
-                "remark": "https://original.rdatoolkit.org/rdaappi_rdai-34.html"
+                "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-AgentRoles"
               }
             ]
           },
@@ -18738,7 +18738,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.058Z",
-      "updateDate": "2024-07-03T16:22:44.435Z",
+      "updateDate": "2024-09-23T18:58:08.393Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.058Z",
