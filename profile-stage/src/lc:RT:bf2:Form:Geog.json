@@ -21,7 +21,7 @@
         "editable": "true"
       },
       "propertyLabel": "Search LCNAF or LCSH",
-      "remark": "http://access.rdatoolkit.org/7.3.html",
+      "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-GeographicCoverage(043)",
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/geographicCoverage"
     }
   ],
