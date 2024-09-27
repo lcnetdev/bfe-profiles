@@ -50,7 +50,8 @@
         "valueDataType": {}
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/provisionActivity",
-      "propertyLabel": "Provision Activity"
+      "propertyLabel": "Provision Activity",
+      "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-ProvisionActivity(264)"
     },
     {
       "mandatory": "false",
@@ -131,22 +132,6 @@
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
       "propertyLabel": "Notes about the Instance"
-    },
-    {
-      "mandatory": "false",
-      "repeatable": "true",
-      "type": "resource",
-      "resourceTemplates": [],
-      "valueConstraint": {
-        "valueTemplateRefs": [
-          "lc:RT:bf2:SupplContentNote"
-        ],
-        "useValuesFrom": [],
-        "defaults": [],
-        "valueDataType": {}
-      },
-      "propertyURI": "http://id.loc.gov/ontologies/bibframe/supplementaryContent",
-      "propertyLabel": "Supplementary Content note"
     },
     {
       "mandatory": "false",
@@ -348,6 +333,22 @@
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/hasItem",
       "propertyLabel": "Has Item"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "resource",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [
+          "lc:RT:bf2:SupplContentNote"
+        ],
+        "useValuesFrom": [],
+        "defaults": [],
+        "valueDataType": {}
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/supplementaryContent",
+      "propertyLabel": "Supplementary Content note"
     }
   ],
   "id": "lc:RT:bf2:TestMixedMat:InstanceSR",
