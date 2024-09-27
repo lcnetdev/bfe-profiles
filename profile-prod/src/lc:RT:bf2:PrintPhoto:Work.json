@@ -17,7 +17,7 @@
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/title",
       "propertyLabel": "Title",
-      "remark": "https://original.rdatoolkit.org/rdachp6_rda6-2036.html"
+      "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Work/ExpressionTitles"
     },
     {
       "mandatory": "false",
@@ -36,7 +36,7 @@
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/contribution",
       "propertyLabel": "Creator",
-      "remark": "https://original.rdatoolkit.org/19.2.html"
+      "remark": ""
     },
     {
       "mandatory": "false",
@@ -55,7 +55,7 @@
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/contribution",
       "propertyLabel": "Contributor(s)",
-      "remark": "https://original.rdatoolkit.org/19.3.html"
+      "remark": ""
     },
     {
       "mandatory": "false",
@@ -75,7 +75,7 @@
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/genreForm",
       "propertyLabel": "Form/Genre",
-      "remark": "https://original.rdatoolkit.org/6.3.html"
+      "remark": ""
     },
     {
       "mandatory": "false",
@@ -112,7 +112,7 @@
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/geographicCoverage",
       "propertyLabel": "Geographic coverage",
-      "remark": "https://original.rdatoolkit.org/7.3.html"
+      "remark": ""
     },
     {
       "mandatory": "false",
@@ -275,7 +275,8 @@
         }
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/language",
-      "propertyLabel": "Language (008 field)"
+      "propertyLabel": "Language (008 field)",
+      "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Languages(041)"
     },
     {
       "mandatory": "false",
@@ -294,7 +295,7 @@
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/accompaniedBy",
       "propertyLabel": "Language resource (041 $bdefgt)",
-      "remark": "https://original.rdatoolkit.org/6.11.html"
+      "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Languages(041)"
     },
     {
       "mandatory": "false",
@@ -310,7 +311,8 @@
         "valueDataType": {}
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
-      "propertyLabel": "Language note (041 $hijkmnpqr)"
+      "propertyLabel": "Language note (041 $hijkmnpqr)",
+      "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Languages(041)"
     },
     {
       "mandatory": "false",

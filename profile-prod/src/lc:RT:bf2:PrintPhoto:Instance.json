@@ -80,7 +80,8 @@
         "valueDataType": {}
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/provisionActivity",
-      "propertyLabel": "Provision Activity"
+      "propertyLabel": "Provision Activity",
+      "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-ProvisionActivity(264)"
     },
     {
       "mandatory": "false",
