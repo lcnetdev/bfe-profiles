@@ -16825,7 +16825,7 @@
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/contribution",
                 "propertyLabel": "Creator of Work",
-                "remark": "https://original.rdatoolkit.org/19.2.html"
+                "remark": ""
               },
               {
                 "mandatory": "true",
@@ -16869,7 +16869,8 @@
                   }
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/language",
-                "propertyLabel": "Language (008 field)"
+                "propertyLabel": "Language (008 field)",
+                "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Languages(041)"
               },
               {
                 "mandatory": "false",
@@ -16890,7 +16891,7 @@
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/accompaniedBy",
                 "propertyLabel": "Language resource (041 $bdefgt)",
-                "remark": "https://original.rdatoolkit.org/6.11.html"
+                "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Languages(041)"
               },
               {
                 "mandatory": "false",
@@ -16906,7 +16907,8 @@
                   "valueDataType": {}
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
-                "propertyLabel": "Language note (041 $hijkmnpqr)"
+                "propertyLabel": "Language note (041 $hijkmnpqr)",
+                "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Languages(041)"
               },
               {
                 "mandatory": "false",
@@ -17034,7 +17036,7 @@
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/provisionActivity",
                 "propertyLabel": "Provision Activity",
-                "remark": ""
+                "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-ProvisionActivity(264)"
               },
               {
                 "mandatory": "false",
@@ -17707,7 +17709,7 @@
     "id": "ad1be991-aeec-4a4f-81c4-891a829ae3e4",
     "metadata": {
       "createDate": "2022-05-10T19:35:43.872Z",
-      "updateDate": "2024-08-15T18:42:53.583Z",
+      "updateDate": "2024-09-27T19:35:05.185Z",
       "createUser": null,
       "updateUser": null
     },
