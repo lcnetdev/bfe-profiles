@@ -86,7 +86,7 @@
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/provisionActivity",
       "propertyLabel": "Provision Activity",
-      "remark": ""
+      "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-ProvisionActivity(264)"
     },
     {
       "mandatory": "false",
@@ -314,7 +314,7 @@
       },
       "propertyLabel": "Contribution",
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/contribution",
-      "remark": "http://original.rdatoolkit.org/21.1.2.html"
+      "remark": ""
     },
     {
       "mandatory": "false",
