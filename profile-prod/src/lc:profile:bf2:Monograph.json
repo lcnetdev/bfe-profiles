@@ -168,7 +168,7 @@
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/geographicCoverage",
           "propertyLabel": "(Geographic) Coverage of the Content",
-          "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-GeographicCoverage(043)"
+          "remark": ""
         },
         {
           "mandatory": "false",
