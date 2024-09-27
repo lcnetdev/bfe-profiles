@@ -22148,7 +22148,7 @@
                   "editable": "false"
                 },
                 "propertyLabel": "Search LCNAF or LCSH",
-                "remark": "http://access.rdatoolkit.org/7.3.html",
+                "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-GeographicCoverage(043)",
                 "propertyURI": "http://www.w3.org/2002/07/owl#sameAs"
               }
             ],
@@ -22259,7 +22259,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.059Z",
-      "updateDate": "2024-09-27T14:53:13.791Z",
+      "updateDate": "2024-09-27T15:02:31.426Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.059Z",
