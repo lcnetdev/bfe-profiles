@@ -70,7 +70,7 @@
       "mandatory": "false",
       "propertyLabel": "Provision Activity",
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/provisionActivity",
-      "remark": "",
+      "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-ProvisionActivity(264)",
       "repeatable": "true",
       "resourceTemplates": [],
       "type": "resource",
@@ -364,24 +364,6 @@
         ],
         "defaults": []
       }
-    },
-    {
-      "mandatory": "false",
-      "repeatable": "true",
-      "type": "resource",
-      "resourceTemplates": [],
-      "valueConstraint": {
-        "valueTemplateRefs": [
-          "lc:RT:bf2:Agents:Contribution"
-        ],
-        "useValuesFrom": [],
-        "valueDataType": {},
-        "defaults": [],
-        "editable": "false"
-      },
-      "propertyURI": "http://id.loc.gov/ontologies/bibframe/contribution",
-      "propertyLabel": "Contributors",
-      "remark": "http://original.rdatoolkit.org/21.1.html"
     },
     {
       "mandatory": "false",
