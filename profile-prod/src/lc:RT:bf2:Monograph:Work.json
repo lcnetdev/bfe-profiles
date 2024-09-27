@@ -189,7 +189,7 @@
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/genreForm",
       "propertyLabel": "Form/Genre",
-      "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-GenreForm(655,some008values)"
+      "remark": ""
     },
     {
       "mandatory": "false",
