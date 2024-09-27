@@ -84,7 +84,7 @@
       },
       "mandatory": "false",
       "repeatable": "true",
-      "remark": ""
+      "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-ProvisionActivity(264)"
     },
     {
       "mandatory": "false",
@@ -544,7 +544,7 @@
         "editable": "false"
       },
       "propertyLabel": "Contribution",
-      "remark": "http://original.rdatoolkit.org/rdachp21_rda21-74.html",
+      "remark": "",
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/contribution"
     },
     {
