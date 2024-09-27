@@ -783,7 +783,7 @@
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/contribution",
                 "propertyLabel": "Contributors",
-                "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Contributors(1XX,6XX,7XX)"
+                "remark": ""
               },
               {
                 "mandatory": "false",
@@ -1892,7 +1892,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2024-09-26T16:00:34.443Z",
+      "updateDate": "2024-09-27T14:50:19.880Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",
