@@ -304,6 +304,20 @@
         ]
       },
       {
+        "menuGroup": "Test BF Hub",
+        "menuItems": [
+          {
+            "label": "Hub",
+            "type": [
+              "http://id.loc.gov/ontologies/bibframe/Hub"
+            ],
+            "useResourceTemplates": [
+              "lc:RT:bf2:Hub:Hub"
+            ]
+          }
+        ]
+      },
+      {
         "menuGroup": "Official RDA Monograph",
         "menuItems": [
           {
