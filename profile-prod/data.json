@@ -3948,7 +3948,7 @@
                 },
                 "propertyLabel": "Contribution",
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/contribution",
-                "remark": "https://original.rdatoolkit.org/21.1.html"
+                "remark": ""
               },
               {
                 "propertyLabel": "URL of Instance",
@@ -4635,7 +4635,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2024-09-27T15:16:27.550Z",
+      "updateDate": "2024-09-27T15:21:12.486Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",

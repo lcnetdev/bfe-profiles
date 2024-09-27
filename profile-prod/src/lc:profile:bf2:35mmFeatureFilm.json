@@ -838,7 +838,7 @@
           },
           "propertyLabel": "Contribution",
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/contribution",
-          "remark": "https://original.rdatoolkit.org/21.1.html"
+          "remark": ""
         },
         {
           "propertyLabel": "URL of Instance",
