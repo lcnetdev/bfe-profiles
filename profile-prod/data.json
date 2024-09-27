@@ -10859,14 +10859,14 @@
         ],
         "author": "NDMSO",
         "date": "2019-04-11",
-        "description": "Work, Instance, Item for Monographs in vernacular script",
+        "description": "Unused (08/2024)",
         "id": "lc:profile:bf2:MonographNR",
         "title": "BIBFRAME 2.0 Monograph (Non-Latin)"
       }
     },
     "metadata": {
       "createDate": "2019-04-11T20:45:09.452Z",
-      "updateDate": "2024-08-22T19:57:51.305Z",
+      "updateDate": "2024-09-27T15:13:34.100Z",
       "createUser": null,
       "updateUser": null
     },
