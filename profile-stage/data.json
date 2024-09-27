@@ -31953,7 +31953,8 @@
                   "defaults": []
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/agent",
-                "propertyLabel": "Primary Contributor"
+                "propertyLabel": "Primary Contributor",
+                "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Contributors(1XX,6XX,7XX)"
               },
               {
                 "mandatory": "false",
@@ -31992,7 +31993,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.059Z",
-      "updateDate": "2024-09-27T17:39:15.473Z",
+      "updateDate": "2024-09-27T17:41:28.359Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.059Z",

@@ -22,7 +22,8 @@
         "defaults": []
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/agent",
-      "propertyLabel": "Primary Contributor"
+      "propertyLabel": "Primary Contributor",
+      "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Contributors(1XX,6XX,7XX)"
     },
     {
       "mandatory": "false",
