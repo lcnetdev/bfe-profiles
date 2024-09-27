@@ -24,7 +24,8 @@
           "type": "resource",
           "mandatory": "false",
           "repeatable": "true",
-          "resourceTemplates": []
+          "resourceTemplates": [],
+          "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Contributors(1XX,6XX,7XX)"
         },
         {
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
@@ -43,7 +44,7 @@
             "repeatable": "true",
             "defaults": []
           },
-          "remark": ""
+          "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-AgentRolesMarva+cataloging+updates#Marvacatalogingupdates-AgentRoles"
         }
       ]
     },
