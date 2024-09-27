@@ -12996,7 +12996,7 @@
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/contribution",
                 "propertyLabel": "Creator of Work",
-                "remark": "https://original.rdatoolkit.org/19.2.html"
+                "remark": ""
               },
               {
                 "mandatory": "true",
@@ -13033,7 +13033,7 @@
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/genreForm",
                 "propertyLabel": "Form/Genre",
-                "remark": "https://original.rdatoolkit.org/6.3.html"
+                "remark": ""
               },
               {
                 "mandatory": "false",
@@ -13122,7 +13122,7 @@
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/contribution",
                 "propertyLabel": "Contribution",
-                "remark": "https://original.rdatoolkit.org/19.3.html"
+                "remark": ""
               },
               {
                 "mandatory": "false",
@@ -13140,7 +13140,7 @@
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/geographicCoverage",
                 "propertyLabel": "(Geographic) Coverage of the Content",
-                "remark": "https://original.rdatoolkit.org/7.3.html"
+                "remark": ""
               },
               {
                 "mandatory": "false",
@@ -14202,7 +14202,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.059Z",
-      "updateDate": "2024-09-27T15:12:11.327Z",
+      "updateDate": "2024-09-27T15:17:27.161Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.059Z",
