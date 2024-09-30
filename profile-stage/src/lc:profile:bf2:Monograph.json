@@ -163,7 +163,8 @@
           "valueConstraint": {
             "valueTemplateRefs": [],
             "useValuesFrom": [
-              "http://id.loc.gov/authorities/demographicTerms"
+              "http://id.loc.gov/authorities/demographicTerms",
+              "http://id.loc.gov/vocabulary/maudience"
             ],
             "valueDataType": {
               "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/IntendedAudience",
