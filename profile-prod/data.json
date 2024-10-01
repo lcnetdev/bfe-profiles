@@ -23373,7 +23373,7 @@
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/mainTitle",
                 "propertyLabel": "Main Title",
-                "remark": "http://access.rdatoolkit.org/rdachp2_rda2-3376.html"
+                "remark": ""
               },
               {
                 "mandatory": "false",
@@ -23416,7 +23416,7 @@
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/subtitle",
                 "propertyLabel": "Other Title Information",
-                "remark": "http://access.rdatoolkit.org/rdachp2_rda2-3782.html"
+                "remark": ""
               }
             ],
             "id": "lc:RT:bf2:InstanceTitle",
@@ -23588,7 +23588,7 @@
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/mainTitle",
                 "propertyLabel": "Variant Title",
-                "remark": "http://access.rdatoolkit.org/rdachp2_rda2-4013.html"
+                "remark": ""
               },
               {
                 "mandatory": "false",
@@ -23631,7 +23631,7 @@
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/subtitle",
                 "propertyLabel": "Other title information",
-                "remark": "http://access.rdatoolkit.org/rdachp2_rda2-3782.html"
+                "remark": ""
               },
               {
                 "mandatory": "false",
@@ -23698,7 +23698,7 @@
                 },
                 "propertyLabel": "Parallel Title",
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/mainTitle",
-                "remark": "http://access.rdatoolkit.org/rdachp2_rda2-3695.html"
+                "remark": ""
               },
               {
                 "mandatory": "false",
@@ -23713,7 +23713,7 @@
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/subtitle",
                 "propertyLabel": "Other Title Information",
-                "remark": "http://access.rdatoolkit.org/rdachp2_rda2-3939.html"
+                "remark": ""
               },
               {
                 "mandatory": "false",
@@ -23773,7 +23773,7 @@
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
                 "propertyLabel": "Note",
-                "remark": "http://access.rdatoolkit.org/2.17.2.html"
+                "remark": ""
               }
             ],
             "id": "lc:RT:bf2:ParallelTitle",
@@ -23915,167 +23915,6 @@
                 "valueConstraint": {
                   "valueTemplateRefs": [],
                   "useValuesFrom": [],
-                  "valueDataType": {},
-                  "defaults": []
-                },
-                "propertyURI": "http://id.loc.gov/ontologies/bflc/title00MarcKey",
-                "propertyLabel": "LC Extension: title00MarcKey"
-              },
-              {
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "literal",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [],
-                  "valueDataType": {},
-                  "defaults": []
-                },
-                "propertyURI": "http://id.loc.gov/ontologies/bflc/title00MatchKey",
-                "propertyLabel": "LC Extension: title00MatchKey"
-              },
-              {
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "literal",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [],
-                  "valueDataType": {},
-                  "defaults": []
-                },
-                "propertyURI": "http://id.loc.gov/ontologies/bflc/title10MarcKey",
-                "propertyLabel": "LC Extension: title10MarcKey"
-              },
-              {
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "literal",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [],
-                  "valueDataType": {},
-                  "defaults": []
-                },
-                "propertyURI": "http://id.loc.gov/ontologies/bflc/title10MatchKey",
-                "propertyLabel": "LC Extension: title10MatchKey"
-              },
-              {
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "literal",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [],
-                  "valueDataType": {},
-                  "defaults": []
-                },
-                "propertyURI": "http://id.loc.gov/ontologies/bflc/title11MarcKey",
-                "propertyLabel": "LC Extension: title11MarcKey"
-              },
-              {
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "literal",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [],
-                  "valueDataType": {},
-                  "defaults": []
-                },
-                "propertyURI": "http://id.loc.gov/ontologies/bflc/title11MatchKey",
-                "propertyLabel": "LC Extension: title11MatchKey"
-              },
-              {
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "literal",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [],
-                  "valueDataType": {},
-                  "defaults": []
-                },
-                "propertyURI": "http://id.loc.gov/ontologies/bflc/title30MarcKey",
-                "propertyLabel": "LC Extension: title30MarcKey"
-              },
-              {
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "literal",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [],
-                  "valueDataType": {},
-                  "defaults": []
-                },
-                "propertyURI": "http://id.loc.gov/ontologies/bflc/title30MatchKey",
-                "propertyLabel": "LC Extension: title30MatchKey"
-              },
-              {
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "literal",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [],
-                  "valueDataType": {},
-                  "defaults": []
-                },
-                "propertyURI": "http://id.loc.gov/ontologies/bflc/title40MarcKey",
-                "propertyLabel": "LC Extension: title40MarcKey"
-              },
-              {
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "literal",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [],
-                  "valueDataType": {},
-                  "defaults": []
-                },
-                "propertyURI": "http://id.loc.gov/ontologies/bflc/title40MatchKey",
-                "propertyLabel": "LC Extension: title40MatchKey"
-              },
-              {
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "literal",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [],
-                  "valueDataType": {},
-                  "defaults": []
-                },
-                "propertyURI": "http://id.loc.gov/ontologies/bflc/titleSortKey",
-                "propertyLabel": "LC Extension: titleSortKey"
-              }
-            ],
-            "id": "lc:RT:bf2:BflcTitle",
-            "resourceURI": "http://id.loc.gov/ontologies/bflc",
-            "resourceLabel": "Title: BIBFRAME 2.0 LC Extension"
-          },
-          {
-            "propertyTemplates": [
-              {
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "literal",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
                 },
@@ -24089,7 +23928,7 @@
                 "type": "literal-lang",
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/mainTitle",
                 "propertyLabel": "Main Title",
-                "remark": "http://access.rdatoolkit.org/rdachp2_rda2-3376.html",
+                "remark": "",
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [],
@@ -24129,7 +23968,7 @@
                 "type": "literal-lang",
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/subtitle",
                 "propertyLabel": "Subtitle",
-                "remark": "http://access.rdatoolkit.org/rdachp2_rda2-3782.html",
+                "remark": "",
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [],
@@ -24159,7 +23998,7 @@
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/mainTitle",
                 "propertyLabel": "Variant Title",
-                "remark": "http://access.rdatoolkit.org/rdachp2_rda2-4013.html"
+                "remark": ""
               },
               {
                 "mandatory": "false",
@@ -24267,7 +24106,7 @@
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/mainTitle",
                 "propertyLabel": "Parallel Title",
-                "remark": "http://access.rdatoolkit.org/rdachp2_rda2-3695.html"
+                "remark": ""
               },
               {
                 "mandatory": "false",
@@ -24282,7 +24121,7 @@
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/subtitle",
                 "propertyLabel": "Other Title Information",
-                "remark": "http://access.rdatoolkit.org/rdachp2_rda2-3939.html"
+                "remark": ""
               },
               {
                 "mandatory": "false",
@@ -24327,7 +24166,7 @@
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
                 "propertyLabel": "Note",
-                "remark": "http://access.rdatoolkit.org/2.17.2.html"
+                "remark": ""
               }
             ],
             "id": "lc:RT:bf2:MonographNR:ParallelTitle",
@@ -24367,7 +24206,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.062Z",
-      "updateDate": "2024-10-01T16:14:56.907Z",
+      "updateDate": "2024-10-01T17:47:54.351Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.062Z",

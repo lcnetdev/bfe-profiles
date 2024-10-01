@@ -13,7 +13,7 @@
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/mainTitle",
       "propertyLabel": "Variant Title",
-      "remark": "http://access.rdatoolkit.org/rdachp2_rda2-4013.html"
+      "remark": ""
     },
     {
       "mandatory": "false",
@@ -56,7 +56,7 @@
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/subtitle",
       "propertyLabel": "Other title information",
-      "remark": "http://access.rdatoolkit.org/rdachp2_rda2-3782.html"
+      "remark": ""
     },
     {
       "mandatory": "false",

@@ -13,7 +13,7 @@
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/mainTitle",
       "propertyLabel": "Parallel Title",
-      "remark": "http://access.rdatoolkit.org/rdachp2_rda2-3695.html"
+      "remark": ""
     },
     {
       "mandatory": "false",
@@ -28,7 +28,7 @@
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/subtitle",
       "propertyLabel": "Other Title Information",
-      "remark": "http://access.rdatoolkit.org/rdachp2_rda2-3939.html"
+      "remark": ""
     },
     {
       "mandatory": "false",
@@ -73,7 +73,7 @@
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
       "propertyLabel": "Note",
-      "remark": "http://access.rdatoolkit.org/2.17.2.html"
+      "remark": ""
     }
   ],
   "id": "lc:RT:bf2:MonographNR:ParallelTitle",
