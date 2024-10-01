@@ -3671,7 +3671,7 @@
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bflc/appliesTo",
                 "propertyLabel": "Applies to",
-                "remark": "Used with Work, Instance or Item"
+                "remark": ""
               }
             ],
             "id": "lc:RT:bf2:RelWorkInput",
@@ -4236,7 +4236,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2024-07-23T19:33:17.244Z",
+      "updateDate": "2024-10-01T19:57:36.239Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",

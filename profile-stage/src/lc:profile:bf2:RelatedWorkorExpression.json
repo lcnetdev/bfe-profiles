@@ -151,7 +151,7 @@
           },
           "propertyURI": "http://id.loc.gov/ontologies/bflc/appliesTo",
           "propertyLabel": "Applies to",
-          "remark": "Used with Work, Instance or Item"
+          "remark": ""
         }
       ],
       "id": "lc:RT:bf2:RelWorkInput",
