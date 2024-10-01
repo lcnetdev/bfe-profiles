@@ -161,19 +161,18 @@
       "valueConstraint": {
         "valueTemplateRefs": [],
         "useValuesFrom": [
-          "http://id.loc.gov/authorities/demographicTerms",
           "http://id.loc.gov/vocabulary/maudience"
         ],
         "valueDataType": {
           "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/IntendedAudience",
           "remark": "",
-          "dataTypeLabel": "http://id.loc.gov/vocabulary/maudience"
+          "dataTypeLabel": ""
         },
         "defaults": []
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/intendedAudience",
-      "propertyLabel": "Intended Audience",
-      "remark": "https://original.rdatoolkit.org/7.7.html"
+      "propertyLabel": "Intended Audience (008 field)",
+      "remark": ""
     },
     {
       "mandatory": "false",
@@ -333,6 +332,24 @@
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/content",
       "propertyLabel": "Content Type",
       "remark": "http://original.rdatoolkit.org/6.9.html"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [
+          "http://id.loc.gov/authorities/demographicTerms"
+        ],
+        "defaults": [],
+        "valueDataType": {
+          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/IntendedAudience"
+        }
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/intendedAudience",
+      "propertyLabel": "Audience term or note (385 or 521 field)"
     },
     {
       "mandatory": "false",
