@@ -23537,7 +23537,7 @@
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/mainTitle",
                 "propertyLabel": "Preferred Title for Work",
-                "remark": "http://access.rdatoolkit.org/rdachp6_rda6-2036.html"
+                "remark": ""
               },
               {
                 "mandatory": "false",
@@ -24366,7 +24366,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.062Z",
-      "updateDate": "2022-12-13T20:31:02.701Z",
+      "updateDate": "2024-10-01T16:14:56.907Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.062Z",
