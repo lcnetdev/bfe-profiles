@@ -28,7 +28,7 @@
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/mainTitle",
       "propertyLabel": "Main Title",
-      "remark": "http://access.rdatoolkit.org/rdachp2_rda2-3376.html"
+      "remark": ""
     },
     {
       "mandatory": "false",
@@ -71,7 +71,7 @@
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/subtitle",
       "propertyLabel": "Other Title Information",
-      "remark": "http://access.rdatoolkit.org/rdachp2_rda2-3782.html"
+      "remark": ""
     }
   ],
   "id": "lc:RT:bf2:InstanceTitle",
