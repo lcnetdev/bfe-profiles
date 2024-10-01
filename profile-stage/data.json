@@ -751,7 +751,7 @@
                 },
                 "propertyLabel": "Series Statement and ISSN",
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/seriesStatement",
-                "remark": "http://access.rdatoolkit.org/2.12.html"
+                "remark": ""
               },
               {
                 "mandatory": "false",
@@ -766,7 +766,7 @@
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/seriesEnumeration",
                 "propertyLabel": "Series Numbering",
-                "remark": "http://access.rdatoolkit.org/2.12.9.html"
+                "remark": ""
               },
               {
                 "mandatory": "false",
@@ -781,7 +781,7 @@
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/subseriesStatement",
                 "propertyLabel": "Subseries Title and ISSN",
-                "remark": "http://access.rdatoolkit.org/2.12.10.html"
+                "remark": ""
               },
               {
                 "mandatory": "false",
@@ -796,7 +796,7 @@
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/subseriesEnumeration",
                 "propertyLabel": "Numbering within Subseries",
-                "remark": "http://access.rdatoolkit.org/2.12.17.html"
+                "remark": ""
               },
               {
                 "mandatory": "false",
@@ -830,7 +830,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2024-08-14T13:28:22.255Z",
+      "updateDate": "2024-10-01T19:59:40.358Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",
