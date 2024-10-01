@@ -1022,6 +1022,24 @@
               {
                 "mandatory": "false",
                 "repeatable": "true",
+                "type": "lookup",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [
+                    "http://id.loc.gov/authorities/demographicTerms"
+                  ],
+                  "defaults": [],
+                  "valueDataType": {
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/IntendedAudience"
+                  }
+                },
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/intendedAudience",
+                "propertyLabel": "Audience term or note (385 or 521 field)"
+              },
+              {
+                "mandatory": "false",
+                "repeatable": "true",
                 "type": "resource",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -1177,24 +1195,6 @@
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/content",
                 "propertyLabel": "Content Type",
                 "remark": "http://original.rdatoolkit.org/6.9.html"
-              },
-              {
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "lookup",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [
-                    "http://id.loc.gov/authorities/demographicTerms"
-                  ],
-                  "defaults": [],
-                  "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/IntendedAudience"
-                  }
-                },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/intendedAudience",
-                "propertyLabel": "Audience term or note (385 or 521 field)"
               },
               {
                 "mandatory": "false",
@@ -2079,7 +2079,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2024-10-01T20:13:20.870Z",
+      "updateDate": "2024-10-01T20:15:31.513Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",
