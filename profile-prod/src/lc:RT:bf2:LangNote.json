@@ -8,7 +8,7 @@
       "valueConstraint": {
         "valueTemplateRefs": [],
         "useValuesFrom": [
-          "https://id.loc.gov/search/?q=memberOf:http://id.loc.gov/vocabulary/resourceComponents/collection_LanguageNote",
+          "http://id.loc.gov/vocabulary/resourceComponents",
           "http://id.loc.gov/vocabulary/mnotetype"
         ],
         "defaults": [
