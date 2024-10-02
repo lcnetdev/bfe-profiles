@@ -7477,59 +7477,6 @@
             "id": "lc:RT:bf2:AppliesTo",
             "resourceURI": "http://id.loc.gov/ontologies/bflc/AppliesTo",
             "resourceLabel": "Applies to"
-          },
-          {
-            "propertyTemplates": [
-              {
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "lookup",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [
-                    "http://id.loc.gov/vocabulary/maudience"
-                  ],
-                  "defaults": [],
-                  "valueDataType": {}
-                },
-                "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
-                "propertyLabel": "Audience lookup (008 field)"
-              },
-              {
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "lookup",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [
-                    "http://id.loc.gov/authorities/demographicTerms"
-                  ],
-                  "defaults": [],
-                  "valueDataType": {}
-                },
-                "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
-                "propertyLabel": "Search LCDGT"
-              },
-              {
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "literal",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [],
-                  "defaults": [],
-                  "valueDataType": {}
-                },
-                "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
-                "propertyLabel": "Audience note"
-              }
-            ],
-            "id": "lc:RT:bf2:Audience",
-            "resourceLabel": "Intended audience",
-            "resourceURI": "http://id.loc.gov/ontologies/bibframe/IntendedAudience"
           }
         ],
         "id": "lc:profile:bf2:Xtras",
@@ -7541,7 +7488,7 @@
     },
     "metadata": {
       "createDate": "2018-09-26T14:53:15.546Z",
-      "updateDate": "2024-10-02T14:18:36.123Z",
+      "updateDate": "2024-10-02T14:23:47.471Z",
       "createUser": null,
       "updateUser": null
     },
