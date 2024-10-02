@@ -21188,7 +21188,7 @@
                 "valueConstraint": {
                   "valueTemplateRefs": [],
                   "useValuesFrom": [
-                    "https://id.loc.gov/search/?q=memberOf:http://id.loc.gov/vocabulary/resourceComponents/collection_LanguageResource"
+                    "http://id.loc.gov/vocabulary/resourceComponents"
                   ],
                   "defaults": [],
                   "valueDataType": {}
@@ -21277,7 +21277,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.059Z",
-      "updateDate": "2024-10-02T18:08:13.647Z",
+      "updateDate": "2024-10-02T18:08:51.900Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.059Z",

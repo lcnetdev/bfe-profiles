@@ -57,7 +57,7 @@
           "valueConstraint": {
             "valueTemplateRefs": [],
             "useValuesFrom": [
-              "https://id.loc.gov/search/?q=memberOf:http://id.loc.gov/vocabulary/resourceComponents/collection_LanguageResource"
+              "http://id.loc.gov/vocabulary/resourceComponents"
             ],
             "defaults": [],
             "valueDataType": {}
