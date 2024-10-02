@@ -317,6 +317,20 @@
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/identifiedBy",
           "propertyLabel": "Identifiers"
+        },
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "literal",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [],
+            "useValuesFrom": [],
+            "defaults": [],
+            "valueDataType": {}
+          },
+          "propertyURI": "http://id.loc.gov/ontologies/bflc/marcKey",
+          "propertyLabel": "MARC label"
         }
       ],
       "id": "lc:RT:bf2:Hub:Hub",

@@ -33011,6 +33011,20 @@
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/identifiedBy",
                 "propertyLabel": "Identifiers"
+              },
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "literal",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {}
+                },
+                "propertyURI": "http://id.loc.gov/ontologies/bflc/marcKey",
+                "propertyLabel": "MARC label"
               }
             ],
             "id": "lc:RT:bf2:Hub:Hub",
@@ -33118,7 +33132,7 @@
     },
     "metadata": {
       "createDate": "2019-12-13T20:26:47.554Z",
-      "updateDate": "2024-08-13T19:33:46.483Z",
+      "updateDate": "2024-10-02T20:36:00.499Z",
       "createUser": null,
       "updateUser": null
     },
