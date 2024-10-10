@@ -397,25 +397,6 @@
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [
-          "lc:RT:bf2:SeriesHubLookup"
-        ],
-        "useValuesFrom": [],
-        "defaults": [],
-        "valueDataType": {
-          "dataTypeURI": ""
-        }
-      },
-      "propertyURI": "http://id.loc.gov/ontologies/bibframe/relation",
-      "propertyLabel": "Search Series Hub (optional)",
-      "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Series(490,8XX)"
-    },
-    {
-      "mandatory": "false",
-      "repeatable": "true",
-      "type": "resource",
-      "resourceTemplates": [],
-      "valueConstraint": {
-        "valueTemplateRefs": [
           "lc:RT:bf2:SeriesHub"
         ],
         "useValuesFrom": [],
@@ -426,6 +407,25 @@
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/relation",
       "propertyLabel": "Input Transcribed Series",
+      "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Series(490,8XX)"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "resource",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [
+          "lc:RT:bf2:SeriesHubLookup"
+        ],
+        "useValuesFrom": [],
+        "defaults": [],
+        "valueDataType": {
+          "dataTypeURI": ""
+        }
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/relation",
+      "propertyLabel": "Search Series Hub (optional)",
       "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Series(490,8XX)"
     },
     {
