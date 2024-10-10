@@ -449,7 +449,7 @@
                   ],
                   "defaults": [
                     {
-                      "defaultURI": "http://id.loc.gov/ontologies/bibframe/hasSeries",
+                      "defaultURI": "http://id.loc.gov/vocabulary/relationship/hasSeries",
                       "defaultLiteral": "Has Series"
                     }
                   ],
@@ -481,20 +481,6 @@
               {
                 "mandatory": "false",
                 "repeatable": "true",
-                "type": "literal",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [],
-                  "defaults": [],
-                  "valueDataType": {}
-                },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/seriesEnumeration",
-                "propertyLabel": "Series enumeration"
-              },
-              {
-                "mandatory": "false",
-                "repeatable": "true",
                 "type": "resource",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -507,6 +493,20 @@
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bflc/appliesTo",
                 "propertyLabel": "Applies to"
+              },
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "literal",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {}
+                },
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/seriesEnumeration",
+                "propertyLabel": "Series enumeration"
               }
             ],
             "id": "lc:RT:bf2:SeriesHub",
@@ -830,7 +830,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2024-10-01T19:59:40.358Z",
+      "updateDate": "2024-10-10T15:40:52.400Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",

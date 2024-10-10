@@ -14,7 +14,7 @@
             ],
             "defaults": [
               {
-                "defaultURI": "http://id.loc.gov/ontologies/bibframe/hasSeries",
+                "defaultURI": "http://id.loc.gov/vocabulary/relationship/hasSeries",
                 "defaultLiteral": "Has Series"
               }
             ],
@@ -46,20 +46,6 @@
         {
           "mandatory": "false",
           "repeatable": "true",
-          "type": "literal",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [],
-            "useValuesFrom": [],
-            "defaults": [],
-            "valueDataType": {}
-          },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/seriesEnumeration",
-          "propertyLabel": "Series enumeration"
-        },
-        {
-          "mandatory": "false",
-          "repeatable": "true",
           "type": "resource",
           "resourceTemplates": [],
           "valueConstraint": {
@@ -72,6 +58,20 @@
           },
           "propertyURI": "http://id.loc.gov/ontologies/bflc/appliesTo",
           "propertyLabel": "Applies to"
+        },
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "literal",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [],
+            "useValuesFrom": [],
+            "defaults": [],
+            "valueDataType": {}
+          },
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/seriesEnumeration",
+          "propertyLabel": "Series enumeration"
         }
       ],
       "id": "lc:RT:bf2:SeriesHub",
