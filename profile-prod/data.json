@@ -28355,7 +28355,7 @@
                   ],
                   "defaults": [
                     {
-                      "defaultURI": "http://id.loc.gov/ontologies/bibframe/hasSeries",
+                      "defaultURI": "http://id.loc.gov/vocabulary/relationship/hasSeries",
                       "defaultLiteral": "Has Series"
                     }
                   ],
@@ -28595,7 +28595,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2024-10-01T20:08:19.113Z",
+      "updateDate": "2024-10-10T15:45:13.005Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",
