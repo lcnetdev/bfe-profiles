@@ -34773,7 +34773,7 @@
                   "defaults": []
                 },
                 "propertyLabel": "Search LCSH/LCNAF",
-                "propertyURI": "http://www.w3.org/2002/07/owl#sameAs"
+                "propertyURI": "http://www.loc.gov/mads/rdf/v1#Topic"
               }
             ],
             "id": "lc:RT:bf2:Topic:madsTopic",
@@ -35207,7 +35207,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.062Z",
-      "updateDate": "2022-12-13T20:37:04.604Z",
+      "updateDate": "2024-11-01T14:48:42.856Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.062Z",

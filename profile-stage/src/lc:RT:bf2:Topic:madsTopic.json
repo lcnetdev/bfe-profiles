@@ -20,7 +20,7 @@
         "defaults": []
       },
       "propertyLabel": "Search LCSH/LCNAF",
-      "propertyURI": "http://www.w3.org/2002/07/owl#sameAs"
+      "propertyURI": "http://www.loc.gov/mads/rdf/v1#Topic"
     }
   ],
   "id": "lc:RT:bf2:Topic:madsTopic",
