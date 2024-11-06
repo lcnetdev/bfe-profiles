@@ -280,6 +280,66 @@
             "id": "lc:RT:bf2:SysReq",
             "resourceURI": "http://id.loc.gov/ontologies/bibframe/SystemRequirement",
             "resourceLabel": "System Requirement"
+          },
+          {
+            "propertyTemplates": [
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "literal",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {}
+                },
+                "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label",
+                "propertyLabel": "Note"
+              },
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "lookup",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [
+                    "http://id.loc.gov/vocabulary/mnotetype"
+                  ],
+                  "defaults": [],
+                  "valueDataType": {}
+                },
+                "propertyURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                "propertyLabel": "Note type"
+              },
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "lookup",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [
+                    "http://id.loc.gov/vocabulary/organizations"
+                  ],
+                  "defaults": [
+                    {
+                      "defaultURI": "http://id.loc.gov/vocabulary/organizations/dlc",
+                      "defaultLiteral": "DLC"
+                    }
+                  ],
+                  "valueDataType": {
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bflc/ApplicableInstitution"
+                  }
+                },
+                "propertyURI": "http://id.loc.gov/ontologies/bflc/applicableInstitution",
+                "propertyLabel": "Applicable institution"
+              }
+            ],
+            "id": "lc:RT:bf2:NoteLc",
+            "resourceURI": "http://id.loc.gov/ontologies/bibframe/Note",
+            "resourceLabel": "LC-specific note"
           }
         ],
         "id": "lc:profile:bf2:Note",
@@ -291,7 +351,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2024-06-28T15:42:57.420Z",
+      "updateDate": "2024-11-06T13:43:28.810Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",
