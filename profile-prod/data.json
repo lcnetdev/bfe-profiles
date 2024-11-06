@@ -16755,22 +16755,6 @@
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [
-                    "lc:RT:bf2:Item:LCC"
-                  ],
-                  "useValuesFrom": [],
-                  "defaults": [],
-                  "valueDataType": {}
-                },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/classification",
-                "propertyLabel": "Call numbers"
-              },
-              {
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "resource",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [
                     "lc:RT:bf2:URL"
                   ],
                   "useValuesFrom": [],
@@ -16796,24 +16780,6 @@
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
                 "propertyLabel": "Notes about the Item"
-              },
-              {
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "resource",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [
-                    "lc:RT:bf2:Item:Access",
-                    "lc:RT:bf2:Item:Use",
-                    "lc:RT:bf2:Item:Retention"
-                  ],
-                  "useValuesFrom": [],
-                  "defaults": [],
-                  "valueDataType": {}
-                },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/usageAndAccessPolicy",
-                "propertyLabel": "Lending, Reproduction, and Retention Policies"
               }
             ],
             "id": "lc:RT:bf2:SoundCassette:Item",
@@ -16856,7 +16822,7 @@
     },
     "metadata": {
       "createDate": "2019-02-28T14:21:01.066Z",
-      "updateDate": "2024-09-27T15:35:28.024Z",
+      "updateDate": "2024-11-06T13:37:51.711Z",
       "createUser": null,
       "updateUser": null
     },
