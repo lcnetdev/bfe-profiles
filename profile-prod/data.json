@@ -9425,22 +9425,6 @@
             "id": "lc:RT:bf2:MIBluRayDVD:Item",
             "propertyTemplates": [
               {
-                "propertyLabel": "Call numbers",
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/classification",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [
-                    "lc:RT:bf2:Item:LCC"
-                  ],
-                  "useValuesFrom": [],
-                  "valueDataType": {},
-                  "defaults": []
-                },
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "resource"
-              },
-              {
                 "propertyLabel": "URL of Item",
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/electronicLocator",
                 "resourceTemplates": [],
@@ -9483,24 +9467,6 @@
                 "valueConstraint": {
                   "valueTemplateRefs": [
                     "lc:RT:bf2:Note"
-                  ],
-                  "useValuesFrom": [],
-                  "valueDataType": {},
-                  "defaults": []
-                },
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "resource"
-              },
-              {
-                "propertyLabel": "Lending, Reproduction, and Retention Policies",
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/usageAndAccessPolicy",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [
-                    "lc:RT:bf2:Item:Access",
-                    "lc:RT:bf2:Item:Use",
-                    "lc:RT:bf2:Item:Retention"
                   ],
                   "useValuesFrom": [],
                   "valueDataType": {},
@@ -9812,7 +9778,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2024-09-27T15:20:17.838Z",
+      "updateDate": "2024-11-06T13:34:31.110Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",
