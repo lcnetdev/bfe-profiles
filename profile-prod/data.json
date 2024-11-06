@@ -17934,22 +17934,6 @@
             "id": "lc:RT:bf2:NotatedMusic:Item",
             "propertyTemplates": [
               {
-                "propertyLabel": "Shelving call numbers",
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/classification",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [
-                    "lc:RT:bf2:Item:LCC"
-                  ],
-                  "useValuesFrom": [],
-                  "valueDataType": {},
-                  "defaults": []
-                },
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "resource"
-              },
-              {
                 "propertyLabel": "URL of Item",
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/electronicLocator",
                 "resourceTemplates": [],
@@ -17981,24 +17965,6 @@
                 "mandatory": "false",
                 "repeatable": "true",
                 "type": "resource"
-              },
-              {
-                "propertyLabel": "Lending, Reproduction, and Retention Policies",
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/usageAndAccessPolicy",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [
-                    "lc:RT:bf2:Item:Access",
-                    "lc:RT:bf2:Item:Use",
-                    "lc:RT:bf2:Item:Retention"
-                  ],
-                  "useValuesFrom": [],
-                  "valueDataType": {},
-                  "defaults": []
-                },
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "resource"
               }
             ],
             "resourceLabel": "BIBFRAME Item",
@@ -18015,7 +17981,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2024-10-07T14:28:04.855Z",
+      "updateDate": "2024-11-06T13:35:04.591Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",
