@@ -29442,7 +29442,7 @@
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [
-                    "lc:RT:bf2:PrintGroup:Note"
+                    "lc:RT:bf2:PrintPhoto:Note"
                   ],
                   "useValuesFrom": [],
                   "defaults": [],
@@ -29806,7 +29806,7 @@
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [
-                    "lc:RT:bf2:PrintGroup:Note"
+                    "lc:RT:bf2:PrintPhoto:Note"
                   ],
                   "useValuesFrom": [],
                   "defaults": [],
@@ -30086,7 +30086,7 @@
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [
-                    "lc:RT:bf2:PrintGroup:Note"
+                    "lc:RT:bf2:PrintPhoto:Note"
                   ],
                   "useValuesFrom": [],
                   "defaults": [],
@@ -30410,7 +30410,7 @@
     "id": "ce021882-2189-495e-b638-126d03f724a5",
     "metadata": {
       "createDate": "2021-08-02T18:47:18.815Z",
-      "updateDate": "2024-11-12T14:42:48.873Z",
+      "updateDate": "2024-11-12T14:43:51.041Z",
       "createUser": null,
       "updateUser": null
     },
