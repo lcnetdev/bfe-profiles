@@ -863,22 +863,6 @@
       "id": "lc:RT:bf2:35mmFeatureFilm:Item",
       "propertyTemplates": [
         {
-          "propertyLabel": "Call numbers",
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/classification",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [
-              "lc:RT:bf2:Item:LCC"
-            ],
-            "useValuesFrom": [],
-            "valueDataType": {},
-            "defaults": []
-          },
-          "mandatory": "false",
-          "repeatable": "true",
-          "type": "resource"
-        },
-        {
           "mandatory": "false",
           "repeatable": "true",
           "type": "resource",
@@ -918,7 +902,7 @@
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [
-              "lc:RT:bf2:Note"
+              "lc:RT:bf2:NoteLc"
             ],
             "useValuesFrom": [],
             "valueDataType": {},
