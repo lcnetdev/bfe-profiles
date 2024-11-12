@@ -13015,22 +13015,6 @@
             "id": "lc:RT:bf2:MonographNR:Item",
             "propertyTemplates": [
               {
-                "propertyLabel": "Shelving call numbers",
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/classification",
-                "valueConstraint": {
-                  "valueTemplateRefs": [
-                    "lc:RT:bf2:Item:LCC"
-                  ],
-                  "useValuesFrom": [],
-                  "defaults": [],
-                  "valueDataType": {}
-                },
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "resource",
-                "resourceTemplates": []
-              },
-              {
                 "propertyLabel": "URL of Item",
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/electronicLocator",
                 "mandatory": "false",
@@ -13047,29 +13031,27 @@
                 }
               },
               {
-                "propertyLabel": "Notes about the Item",
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "resource",
+                "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [
-                    "lc:RT:bf2:MonographNR:Note"
+                    "lc:RT:bf2:Agents:Contribution"
                   ],
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
                 },
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "resource",
-                "resourceTemplates": []
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/agent",
+                "propertyLabel": "Collection"
               },
               {
-                "propertyLabel": "Lending, Reproduction, and Retention Policies",
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/usageAndAccessPolicy",
+                "propertyLabel": "Notes about the Item",
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
                 "valueConstraint": {
                   "valueTemplateRefs": [
-                    "lc:RT:bf2:Item:Access",
-                    "lc:RT:bf2:Item:Retention",
-                    "lc:RT:bf2:Item:Use"
+                    "lc:RT:bf2:NoteLc"
                   ],
                   "useValuesFrom": [],
                   "defaults": [],
@@ -13216,7 +13198,7 @@
     },
     "metadata": {
       "createDate": "2019-04-11T20:45:09.452Z",
-      "updateDate": "2024-09-27T17:43:41.193Z",
+      "updateDate": "2024-11-12T14:18:22.373Z",
       "createUser": null,
       "updateUser": null
     },

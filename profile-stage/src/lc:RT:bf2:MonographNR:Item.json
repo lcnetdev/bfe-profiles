@@ -2,22 +2,6 @@
   "id": "lc:RT:bf2:MonographNR:Item",
   "propertyTemplates": [
     {
-      "propertyLabel": "Shelving call numbers",
-      "propertyURI": "http://id.loc.gov/ontologies/bibframe/classification",
-      "valueConstraint": {
-        "valueTemplateRefs": [
-          "lc:RT:bf2:Item:LCC"
-        ],
-        "useValuesFrom": [],
-        "defaults": [],
-        "valueDataType": {}
-      },
-      "mandatory": "false",
-      "repeatable": "true",
-      "type": "resource",
-      "resourceTemplates": []
-    },
-    {
       "propertyLabel": "URL of Item",
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/electronicLocator",
       "mandatory": "false",
@@ -34,29 +18,27 @@
       }
     },
     {
-      "propertyLabel": "Notes about the Item",
-      "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "resource",
+      "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [
-          "lc:RT:bf2:MonographNR:Note"
+          "lc:RT:bf2:Agents:Contribution"
         ],
         "useValuesFrom": [],
         "defaults": [],
         "valueDataType": {}
       },
-      "mandatory": "false",
-      "repeatable": "true",
-      "type": "resource",
-      "resourceTemplates": []
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/agent",
+      "propertyLabel": "Collection"
     },
     {
-      "propertyLabel": "Lending, Reproduction, and Retention Policies",
-      "propertyURI": "http://id.loc.gov/ontologies/bibframe/usageAndAccessPolicy",
+      "propertyLabel": "Notes about the Item",
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
       "valueConstraint": {
         "valueTemplateRefs": [
-          "lc:RT:bf2:Item:Access",
-          "lc:RT:bf2:Item:Retention",
-          "lc:RT:bf2:Item:Use"
+          "lc:RT:bf2:NoteLc"
         ],
         "useValuesFrom": [],
         "defaults": [],
