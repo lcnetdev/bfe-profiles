@@ -41314,7 +41314,9 @@
                 "type": "resource",
                 "resourceTemplates": [],
                 "valueConstraint": {
-                  "valueTemplateRefs": [],
+                  "valueTemplateRefs": [
+                    "lc:RT:bf2:Ibc:DescNote"
+                  ],
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
@@ -41337,32 +41339,6 @@
                 "repeatable": "true",
                 "type": "literal",
                 "remark": "https://original.rdatoolkit.org/3.5.html"
-              },
-              {
-                "mandatory": "true",
-                "repeatable": "true",
-                "type": "lookup",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [
-                    "http://id.loc.gov/vocabulary/issuance"
-                  ],
-                  "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Issuance"
-                  },
-                  "editable": "false",
-                  "repeatable": "true",
-                  "defaults": [
-                    {
-                      "defaultURI": "http://id.loc.gov/vocabulary/issuance/mono",
-                      "defaultLiteral": "single unit"
-                    }
-                  ]
-                },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/issuance",
-                "propertyLabel": "Mode of Issuance",
-                "remark": "https://original.rdatoolkit.org/2.13.html"
               },
               {
                 "mandatory": "false",
@@ -41514,7 +41490,7 @@
     "id": "0ed6ae10-940c-4063-a11e-5e187ea16aa4",
     "metadata": {
       "createDate": "2024-11-12T15:09:59.466Z",
-      "updateDate": "2024-11-12T19:06:24.430Z",
+      "updateDate": "2024-11-12T19:14:45.746Z",
       "createUser": null,
       "updateUser": null
     }
