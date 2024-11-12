@@ -45,10 +45,10 @@
         "useValuesFrom": [],
         "defaults": [],
         "valueDataType": {
-          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Contribution"
+          "dataTypeURI": ""
         }
       },
-      "propertyURI": "http://id.loc.gov/ontologies/bibframe/contribution",
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/agent",
       "propertyLabel": "Collection",
       "remark": ""
     },
