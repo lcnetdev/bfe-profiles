@@ -18545,38 +18545,6 @@
             "id": "lc:RT:bf2:SoundCDR:Item",
             "propertyTemplates": [
               {
-                "propertyLabel": "Call numbers",
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/classification",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [
-                    "lc:RT:bf2:Item:LCC"
-                  ],
-                  "useValuesFrom": [],
-                  "valueDataType": {},
-                  "defaults": []
-                },
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "resource"
-              },
-              {
-                "propertyLabel": "Notes about the Item",
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [
-                    "lc:RT:bf2:Note"
-                  ],
-                  "useValuesFrom": [],
-                  "valueDataType": {},
-                  "defaults": []
-                },
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "resource"
-              },
-              {
                 "propertyLabel": "URL of Item",
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/electronicLocator",
                 "resourceTemplates": [],
@@ -18593,14 +18561,28 @@
                 "type": "resource"
               },
               {
-                "propertyLabel": "Lending, Reproduction, and Retention Policies",
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/usageAndAccessPolicy",
+                "propertyLabel": "Notes about the Item",
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [
-                    "lc:RT:bf2:Item:Access",
-                    "lc:RT:bf2:Item:Use",
-                    "lc:RT:bf2:Item:Retention"
+                    "lc:RT:bf2:NoteLc"
+                  ],
+                  "useValuesFrom": [],
+                  "valueDataType": {},
+                  "defaults": []
+                },
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "resource"
+              },
+              {
+                "propertyLabel": "Collection",
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/agent",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [
+                    "lc:RT:bf2:Agents:Contribution"
                   ],
                   "useValuesFrom": [],
                   "valueDataType": {},
@@ -18625,7 +18607,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2024-09-27T18:22:01.345Z",
+      "updateDate": "2024-11-12T14:28:32.115Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",
