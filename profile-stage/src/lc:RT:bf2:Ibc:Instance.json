@@ -104,40 +104,13 @@
       "remark": "https://original.rdatoolkit.org/2.11.html"
     },
     {
-      "mandatory": "true",
-      "repeatable": "true",
-      "type": "lookup",
-      "resourceTemplates": [],
-      "valueConstraint": {
-        "valueTemplateRefs": [],
-        "useValuesFrom": [
-          "http://id.loc.gov/vocabulary/issuance"
-        ],
-        "valueDataType": {
-          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Issuance"
-        },
-        "editable": "false",
-        "repeatable": "true",
-        "defaults": [
-          {
-            "defaultURI": "http://id.loc.gov/vocabulary/issuance/mono",
-            "defaultLiteral": "single unit"
-          }
-        ]
-      },
-      "propertyURI": "http://id.loc.gov/ontologies/bibframe/issuance",
-      "propertyLabel": "Mode of Issuance",
-      "remark": "https://original.rdatoolkit.org/2.13.html"
-    },
-    {
-      "propertyLabel": "Identifiers",
+      "propertyLabel": "LCCN",
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/identifiedBy",
       "resourceTemplates": [],
       "type": "resource",
       "valueConstraint": {
         "valueTemplateRefs": [
-          "lc:RT:bf2:Identifiers:LCCN",
-          "lc:RT:bf2:Identifiers:ISBN"
+          "lc:RT:bf2:Identifiers:LCCN"
         ],
         "useValuesFrom": [],
         "valueDataType": {},
@@ -146,6 +119,22 @@
       "mandatory": "false",
       "repeatable": "true",
       "remark": ""
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "resource",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [
+          "lc:RT:bf2:Identifiers:ISBN"
+        ],
+        "useValuesFrom": [],
+        "defaults": [],
+        "valueDataType": {}
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/identifiedBy",
+      "propertyLabel": "ISBN"
     },
     {
       "propertyLabel": "Media type",
@@ -217,6 +206,20 @@
       "remark": "https://original.rdatoolkit.org/3.4.html"
     },
     {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "resource",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": [],
+        "valueDataType": {}
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
+      "propertyLabel": "Physical details note"
+    },
+    {
       "propertyLabel": "Dimensions",
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/dimensions",
       "resourceTemplates": [],
@@ -233,6 +236,32 @@
       "remark": "https://original.rdatoolkit.org/3.5.html"
     },
     {
+      "mandatory": "true",
+      "repeatable": "true",
+      "type": "lookup",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [
+          "http://id.loc.gov/vocabulary/issuance"
+        ],
+        "valueDataType": {
+          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Issuance"
+        },
+        "editable": "false",
+        "repeatable": "true",
+        "defaults": [
+          {
+            "defaultURI": "http://id.loc.gov/vocabulary/issuance/mono",
+            "defaultLiteral": "single unit"
+          }
+        ]
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/issuance",
+      "propertyLabel": "Mode of Issuance",
+      "remark": "https://original.rdatoolkit.org/2.13.html"
+    },
+    {
       "mandatory": "false",
       "repeatable": "true",
       "type": "resource",
@@ -247,20 +276,6 @@
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/hasItem",
       "propertyLabel": "Has Item"
-    },
-    {
-      "mandatory": "false",
-      "repeatable": "true",
-      "type": "resource",
-      "resourceTemplates": [],
-      "valueConstraint": {
-        "valueTemplateRefs": [],
-        "useValuesFrom": [],
-        "defaults": [],
-        "valueDataType": {}
-      },
-      "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
-      "propertyLabel": "Physical details note"
     }
   ],
   "resourceLabel": "BIBFRAME Instance",
