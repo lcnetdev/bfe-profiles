@@ -27066,11 +27066,11 @@
                   ],
                   "defaults": [],
                   "valueDataType": {
-                    "dataTypeURI": "http://www.w3.org/2000/01/rdf-schema#Resource"
+                    "dataTypeURI": ""
                   }
                 },
                 "propertyLabel": "Note type",
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/noteType",
+                "propertyURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
                 "remark": ""
               }
             ],
@@ -27249,7 +27249,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2024-11-12T14:14:13.417Z",
+      "updateDate": "2024-11-12T20:00:08.351Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",
