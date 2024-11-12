@@ -990,30 +990,6 @@
       "id": "lc:RT:bf2:GPOSerial:Item",
       "propertyTemplates": [
         {
-          "propertyLabel": "Held by",
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/heldBy",
-          "resourceTemplates": [],
-          "type": "lookup",
-          "valueConstraint": {
-            "valueTemplateRefs": [],
-            "useValuesFrom": [
-              "http://id.loc.gov/vocabulary/organizations"
-            ],
-            "valueDataType": {
-              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Agent"
-            },
-            "defaults": [
-              {
-                "defaultURI": "http://id.loc.gov/vocabulary/organizations/dgpo",
-                "defaultLiteral": "United States, Government Printing Office"
-              }
-            ],
-            "editable": "false"
-          },
-          "mandatory": "false",
-          "repeatable": "false"
-        },
-        {
           "propertyLabel": "URL of Item",
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/electronicLocator",
           "resourceTemplates": [],
@@ -1030,12 +1006,28 @@
           "type": "resource"
         },
         {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "resource",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [
+              "lc:RT:bf2:Agents:Contribution"
+            ],
+            "useValuesFrom": [],
+            "defaults": [],
+            "valueDataType": {}
+          },
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/agent",
+          "propertyLabel": "Collection"
+        },
+        {
           "propertyLabel": "Notes about the Item",
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [
-              "lc:RT:bf2:GPONote"
+              "lc:RT:bf2:NoteLc"
             ],
             "useValuesFrom": [],
             "valueDataType": {},
@@ -1061,22 +1053,6 @@
           },
           "propertyLabel": "Enumeration and Chronology",
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/enumerationAndChronology"
-        },
-        {
-          "mandatory": "false",
-          "repeatable": "true",
-          "type": "resource",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [
-              "lc:RT:bf2:GPOMono:AdminMetadata"
-            ],
-            "useValuesFrom": [],
-            "defaults": [],
-            "valueDataType": {}
-          },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/adminMetadata",
-          "propertyLabel": "Admin Metadata"
         }
       ],
       "resourceLabel": "BIBFRAME Item",
