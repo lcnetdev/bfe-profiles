@@ -15783,12 +15783,28 @@
                 "remark": "http://access.rdatoolkit.org/4.6.html"
               },
               {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "resource",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [
+                    "lc:RT:bf2:Agents:Contribution"
+                  ],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {}
+                },
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/agent",
+                "propertyLabel": "Collection"
+              },
+              {
                 "propertyLabel": "Notes about the Item",
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [
-                    "lc:RT:bf2:Note"
+                    "lc:RT:bf2:NoteLc"
                   ],
                   "useValuesFrom": [],
                   "valueDataType": {},
@@ -15813,7 +15829,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2024-11-06T13:38:24.096Z",
+      "updateDate": "2024-11-12T14:08:52.114Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",
