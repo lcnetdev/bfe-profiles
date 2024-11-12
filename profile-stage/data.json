@@ -25425,14 +25425,14 @@
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [
-                    "lc:RT:bf2:Note"
+                    "lc:RT:bf2:Agents:Contribution"
                   ],
                   "useValuesFrom": [],
-                  "valueDataType": {},
-                  "defaults": []
+                  "defaults": [],
+                  "valueDataType": {}
                 },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
-                "propertyLabel": "Notes about the Item"
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/agent",
+                "propertyLabel": "Collection"
               },
               {
                 "mandatory": "false",
@@ -25441,16 +25441,14 @@
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [
-                    "lc:RT:bf2:Item:Access",
-                    "lc:RT:bf2:Item:Use",
-                    "lc:RT:bf2:Item:Retention"
+                    "lc:RT:bf2:NoteLc"
                   ],
                   "useValuesFrom": [],
                   "valueDataType": {},
                   "defaults": []
                 },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/usageAndAccessPolicy",
-                "propertyLabel": "Lending, Reproduction, and Retention Policies"
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
+                "propertyLabel": "Notes about the Item"
               }
             ],
             "id": "lc:RT:bf2:Cartographic:Item",
@@ -25706,7 +25704,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.059Z",
-      "updateDate": "2024-09-27T17:38:28.549Z",
+      "updateDate": "2024-11-12T14:16:34.453Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.059Z",
@@ -27674,7 +27672,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.058Z",
-      "updateDate": "2024-09-27T17:35:22.658Z",
+      "updateDate": "2024-11-12T14:14:52.317Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.058Z",
