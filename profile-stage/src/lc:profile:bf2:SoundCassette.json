@@ -963,22 +963,6 @@
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [
-              "lc:RT:bf2:Item:LCC"
-            ],
-            "useValuesFrom": [],
-            "defaults": [],
-            "valueDataType": {}
-          },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/classification",
-          "propertyLabel": "Call numbers"
-        },
-        {
-          "mandatory": "false",
-          "repeatable": "true",
-          "type": "resource",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [
               "lc:RT:bf2:URL"
             ],
             "useValuesFrom": [],
@@ -995,14 +979,14 @@
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [
-              "lc:RT:bf2:Note"
+              "lc:RT:bf2:Agents:Contribution"
             ],
             "useValuesFrom": [],
             "defaults": [],
             "valueDataType": {}
           },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
-          "propertyLabel": "Notes about the Item"
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/agent",
+          "propertyLabel": "Collection"
         },
         {
           "mandatory": "false",
@@ -1011,16 +995,14 @@
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [
-              "lc:RT:bf2:Item:Access",
-              "lc:RT:bf2:Item:Use",
-              "lc:RT:bf2:Item:Retention"
+              "lc:RT:bf2:NoteLc"
             ],
             "useValuesFrom": [],
             "defaults": [],
             "valueDataType": {}
           },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/usageAndAccessPolicy",
-          "propertyLabel": "Lending, Reproduction, and Retention Policies"
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
+          "propertyLabel": "Notes about the Item"
         }
       ],
       "id": "lc:RT:bf2:SoundCassette:Item",
