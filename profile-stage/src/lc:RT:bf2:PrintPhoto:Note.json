@@ -43,6 +43,29 @@
       },
       "propertyURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
       "propertyLabel": "URL related to Note"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [
+          "http://id.loc.gov/vocabulary/organizations"
+        ],
+        "defaults": [
+          {
+            "defaultURI": "http://id.loc.gov/vocabulary/organizations/dlc",
+            "defaultLiteral": "DLC"
+          }
+        ],
+        "valueDataType": {
+          "dataTypeURI": "http://id.loc.gov/ontologies/bflc/ApplicableInstitution"
+        }
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bflc/applicableInstitution",
+      "propertyLabel": "Applicable institution"
     }
   ],
   "id": "lc:RT:bf2:PrintPhoto:Note",
