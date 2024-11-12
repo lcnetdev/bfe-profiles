@@ -30034,22 +30034,6 @@
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [
-                    "lc:RT:bf2:Item:LCC"
-                  ],
-                  "useValuesFrom": [],
-                  "defaults": [],
-                  "valueDataType": {}
-                },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/classification",
-                "propertyLabel": "Shelving call numbers"
-              },
-              {
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "resource",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [
                     "lc:RT:bf2:PrintGroup:AcqSource"
                   ],
                   "useValuesFrom": [],
@@ -30426,7 +30410,7 @@
     "id": "ce021882-2189-495e-b638-126d03f724a5",
     "metadata": {
       "createDate": "2021-08-02T18:47:18.815Z",
-      "updateDate": "2024-09-27T19:40:42.472Z",
+      "updateDate": "2024-11-12T14:42:48.873Z",
       "createUser": null,
       "updateUser": null
     },
