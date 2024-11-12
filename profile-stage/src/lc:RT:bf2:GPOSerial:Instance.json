@@ -312,7 +312,7 @@
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [
-          "lc:RT:bf2:GPONote"
+          "lc:RT:bf2:Note"
         ],
         "useValuesFrom": [],
         "valueDataType": {},

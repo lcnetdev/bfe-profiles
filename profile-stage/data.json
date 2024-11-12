@@ -4485,7 +4485,7 @@
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [
-                    "lc:RT:bf2:GPONote"
+                    "lc:RT:bf2:Note"
                   ],
                   "useValuesFrom": [],
                   "valueDataType": {},
@@ -5119,7 +5119,7 @@
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [
-                    "lc:RT:bf2:GPONote"
+                    "lc:RT:bf2:Note"
                   ],
                   "useValuesFrom": [],
                   "valueDataType": {},
@@ -5488,7 +5488,7 @@
     "id": "2be36dfb-c101-4641-8af1-27b04ddf3958",
     "metadata": {
       "createDate": "2022-05-10T21:00:39.811Z",
-      "updateDate": "2024-11-12T14:32:48.353Z",
+      "updateDate": "2024-11-12T14:35:54.140Z",
       "createUser": null,
       "updateUser": null
     },
