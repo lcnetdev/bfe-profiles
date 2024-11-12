@@ -41192,21 +41192,6 @@
                 "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-ProvisionActivity(264)"
               },
               {
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "literal",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [],
-                  "valueDataType": {},
-                  "defaults": []
-                },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/copyrightDate",
-                "propertyLabel": "Copyright Date",
-                "remark": "https://original.rdatoolkit.org/2.11.html"
-              },
-              {
                 "propertyLabel": "LCCN",
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/identifiedBy",
                 "resourceTemplates": [],
@@ -41490,7 +41475,7 @@
     "id": "0ed6ae10-940c-4063-a11e-5e187ea16aa4",
     "metadata": {
       "createDate": "2024-11-12T15:09:59.466Z",
-      "updateDate": "2024-11-12T19:14:45.746Z",
+      "updateDate": "2024-11-12T19:53:51.597Z",
       "createUser": null,
       "updateUser": null
     }
