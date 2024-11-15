@@ -31791,7 +31791,7 @@
                 "valueConstraint": {
                   "valueTemplateRefs": [],
                   "useValuesFrom": [
-                    "http://id.loc.gov/vocabulary/resourceComponents"
+                    "http://id.loc.gov/vocabulary/resourceComponents?resources"
                   ],
                   "defaults": [],
                   "valueDataType": {}
@@ -31832,7 +31832,7 @@
                 "valueConstraint": {
                   "valueTemplateRefs": [],
                   "useValuesFrom": [
-                    "http://id.loc.gov/vocabulary/resourceComponents",
+                    "http://id.loc.gov/vocabulary/resourceComponents?notes",
                     "http://id.loc.gov/vocabulary/mnotetype"
                   ],
                   "defaults": [
@@ -31880,7 +31880,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.059Z",
-      "updateDate": "2024-07-22T15:14:21.473Z",
+      "updateDate": "2024-11-15T19:48:35.103Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.059Z",

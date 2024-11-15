@@ -128,7 +128,7 @@
           "valueConstraint": {
             "valueTemplateRefs": [],
             "useValuesFrom": [
-              "http://id.loc.gov/vocabulary/resourceComponents"
+              "http://id.loc.gov/vocabulary/resourceComponents?resources"
             ],
             "defaults": [],
             "valueDataType": {}
@@ -169,7 +169,7 @@
           "valueConstraint": {
             "valueTemplateRefs": [],
             "useValuesFrom": [
-              "http://id.loc.gov/vocabulary/resourceComponents",
+              "http://id.loc.gov/vocabulary/resourceComponents?notes",
               "http://id.loc.gov/vocabulary/mnotetype"
             ],
             "defaults": [
