@@ -218,7 +218,7 @@
           "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-ProvisionActivity(264)"
         },
         {
-          "propertyLabel": "LCCN and ISBN",
+          "propertyLabel": "LCCN or ISBN",
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/identifiedBy",
           "resourceTemplates": [],
           "type": "resource",

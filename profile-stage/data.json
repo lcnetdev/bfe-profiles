@@ -41192,7 +41192,7 @@
                 "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-ProvisionActivity(264)"
               },
               {
-                "propertyLabel": "LCCN and ISBN",
+                "propertyLabel": "LCCN or ISBN",
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/identifiedBy",
                 "resourceTemplates": [],
                 "type": "resource",
@@ -41460,7 +41460,7 @@
     "id": "0ed6ae10-940c-4063-a11e-5e187ea16aa4",
     "metadata": {
       "createDate": "2024-11-12T15:09:59.466Z",
-      "updateDate": "2024-11-19T13:46:02.759Z",
+      "updateDate": "2024-11-19T13:46:59.987Z",
       "createUser": null,
       "updateUser": null
     }
