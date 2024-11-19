@@ -41192,13 +41192,14 @@
                 "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-ProvisionActivity(264)"
               },
               {
-                "propertyLabel": "LCCN",
+                "propertyLabel": "LCCN and ISBN",
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/identifiedBy",
                 "resourceTemplates": [],
                 "type": "resource",
                 "valueConstraint": {
                   "valueTemplateRefs": [
-                    "lc:RT:bf2:Identifiers:LCCN"
+                    "lc:RT:bf2:Identifiers:LCCN",
+                    "lc:RT:bf2:Identifiers:ISBN"
                   ],
                   "useValuesFrom": [],
                   "valueDataType": {},
@@ -41207,22 +41208,6 @@
                 "mandatory": "false",
                 "repeatable": "true",
                 "remark": ""
-              },
-              {
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "resource",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [
-                    "lc:RT:bf2:Identifiers:ISBN"
-                  ],
-                  "useValuesFrom": [],
-                  "defaults": [],
-                  "valueDataType": {}
-                },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/identifiedBy",
-                "propertyLabel": "ISBN"
               },
               {
                 "propertyLabel": "Media type",
@@ -41475,7 +41460,7 @@
     "id": "0ed6ae10-940c-4063-a11e-5e187ea16aa4",
     "metadata": {
       "createDate": "2024-11-12T15:09:59.466Z",
-      "updateDate": "2024-11-12T19:53:51.597Z",
+      "updateDate": "2024-11-19T13:46:02.759Z",
       "createUser": null,
       "updateUser": null
     }
