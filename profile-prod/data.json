@@ -351,7 +351,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2024-11-06T13:43:55.111Z",
+      "updateDate": "2024-11-12T14:14:55.844Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",
@@ -12073,22 +12073,6 @@
                 },
                 "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
                 "propertyLabel": "URL"
-              },
-              {
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "resource",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [
-                    "lc:RT:bf2:NoteSimple"
-                  ],
-                  "useValuesFrom": [],
-                  "defaults": [],
-                  "valueDataType": {}
-                },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
-                "propertyLabel": "Note"
               }
             ],
             "id": "lc:RT:bf2:URL",
@@ -12439,7 +12423,7 @@
     },
     "metadata": {
       "createDate": "2018-09-26T14:53:15.546Z",
-      "updateDate": "2024-07-02T13:48:43.027Z",
+      "updateDate": "2024-11-20T16:06:01.710Z",
       "createUser": null,
       "updateUser": null
     },
