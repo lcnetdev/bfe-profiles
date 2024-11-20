@@ -18,17 +18,19 @@
     {
       "mandatory": "false",
       "repeatable": "true",
-      "type": "literal",
+      "type": "resource",
       "resourceTemplates": [],
       "valueConstraint": {
-        "valueTemplateRefs": [],
+        "valueTemplateRefs": [
+          "lc:RT:bf2:URL"
+        ],
         "useValuesFrom": [],
         "defaults": [],
         "valueDataType": {
           "dataTypeURI": ""
         }
       },
-      "propertyURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/electronicLocator",
       "propertyLabel": "URL for Contents note",
       "remark": "Idiomatic property used for structured values."
     }
