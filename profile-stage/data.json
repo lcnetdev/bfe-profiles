@@ -1719,7 +1719,7 @@
                 "propertyLabel": "URL of Instance",
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/electronicLocator",
                 "resourceTemplates": [],
-                "type": "resource",
+                "type": "literal",
                 "valueConstraint": {
                   "valueTemplateRefs": [],
                   "useValuesFrom": [],
@@ -2028,7 +2028,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2024-11-20T16:08:27.341Z",
+      "updateDate": "2024-11-20T16:09:10.629Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",
