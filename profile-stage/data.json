@@ -1719,9 +1719,11 @@
                 "propertyLabel": "URL of Instance",
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/electronicLocator",
                 "resourceTemplates": [],
-                "type": "literal",
+                "type": "resource",
                 "valueConstraint": {
-                  "valueTemplateRefs": [],
+                  "valueTemplateRefs": [
+                    "lc:RT:bf2:URL"
+                  ],
                   "useValuesFrom": [],
                   "valueDataType": {
                     "dataTypeURI": "http://www.w3.org/2000/01/rdf-schema#Resource"
@@ -2028,7 +2030,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2024-11-20T16:09:10.629Z",
+      "updateDate": "2024-11-20T16:10:36.435Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",
