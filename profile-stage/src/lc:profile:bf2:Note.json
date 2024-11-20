@@ -54,7 +54,7 @@
               "dataTypeURI": ""
             }
           },
-          "propertyURI": "http://www.w3.org/2000/01/rdf-schema#Resource",
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/electronicLocator",
           "propertyLabel": "URL for Contents note",
           "remark": "Idiomatic property used for structured values."
         }
@@ -202,7 +202,7 @@
             "defaults": [],
             "valueDataType": {}
           },
-          "propertyURI": "http://www.w3.org/2000/01/rdf-schema#Resource",
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/electronicLocator",
           "propertyLabel": "URL for Supplementary Content"
         }
       ],

@@ -26970,7 +26970,7 @@
                     "dataTypeURI": ""
                   }
                 },
-                "propertyURI": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/electronicLocator",
                 "propertyLabel": "URL for Contents note",
                 "remark": "Idiomatic property used for structured values."
               }
@@ -27118,7 +27118,7 @@
                   "defaults": [],
                   "valueDataType": {}
                 },
-                "propertyURI": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/electronicLocator",
                 "propertyLabel": "URL for Supplementary Content"
               }
             ],
@@ -27239,7 +27239,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2024-11-20T18:06:13.781Z",
+      "updateDate": "2024-11-20T18:07:55.735Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",
