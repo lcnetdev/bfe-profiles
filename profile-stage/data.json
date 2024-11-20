@@ -26958,17 +26958,19 @@
               {
                 "mandatory": "false",
                 "repeatable": "true",
-                "type": "literal",
+                "type": "resource",
                 "resourceTemplates": [],
                 "valueConstraint": {
-                  "valueTemplateRefs": [],
+                  "valueTemplateRefs": [
+                    "lc:RT:bf2:URL"
+                  ],
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {
                     "dataTypeURI": ""
                   }
                 },
-                "propertyURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+                "propertyURI": "http://www.w3.org/2000/01/rdf-schema#Resource",
                 "propertyLabel": "URL for Contents note",
                 "remark": "Idiomatic property used for structured values."
               }
@@ -27106,15 +27108,17 @@
               {
                 "mandatory": "false",
                 "repeatable": "true",
-                "type": "literal",
+                "type": "resource",
                 "resourceTemplates": [],
                 "valueConstraint": {
-                  "valueTemplateRefs": [],
+                  "valueTemplateRefs": [
+                    "lc:RT:bf2:URL"
+                  ],
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
                 },
-                "propertyURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+                "propertyURI": "http://www.w3.org/2000/01/rdf-schema#Resource",
                 "propertyLabel": "URL for Supplementary Content"
               }
             ],
@@ -27235,7 +27239,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2024-11-12T20:01:37.351Z",
+      "updateDate": "2024-11-20T18:06:13.781Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",
