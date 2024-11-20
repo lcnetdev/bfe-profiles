@@ -26958,10 +26958,12 @@
               {
                 "mandatory": "false",
                 "repeatable": "true",
-                "type": "literal",
+                "type": "resource",
                 "resourceTemplates": [],
                 "valueConstraint": {
-                  "valueTemplateRefs": [],
+                  "valueTemplateRefs": [
+                    "lc:RT:bf2:URL"
+                  ],
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {
@@ -27237,7 +27239,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2024-11-20T18:09:42.647Z",
+      "updateDate": "2024-11-20T18:10:43.610Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",
