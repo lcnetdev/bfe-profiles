@@ -612,7 +612,7 @@
             "defaults": [],
             "valueDataType": {}
           },
-          "propertyURI": "http://whttp://www.w3.org/2002/07/owl#sameAs",
+          "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
           "propertyLabel": "URL"
         }
       ],
