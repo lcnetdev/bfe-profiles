@@ -31110,6 +31110,22 @@
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [
+                    "lc:RT:bf2:URL"
+                  ],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {}
+                },
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/electronicLocation",
+                "propertyLabel": "URL"
+              },
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "resource",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [
                     "lc:RT:bf2:Item:Access",
                     "lc:RT:bf2:Item:Use"
                   ],
@@ -31562,7 +31578,7 @@
     },
     "metadata": {
       "createDate": "2018-09-05T19:18:43.112Z",
-      "updateDate": "2024-11-12T14:42:19.837Z",
+      "updateDate": "2024-11-22T16:51:57.747Z",
       "createUser": null,
       "updateUser": null
     },
