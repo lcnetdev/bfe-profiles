@@ -1492,7 +1492,7 @@
                   "defaults": []
                 },
                 "propertyLabel": "Notes about the Instance",
-                "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Colorcontent,IllustrationsandMARC300$b",
+                "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-NotesonNotes",
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/note"
               },
               {
@@ -1922,7 +1922,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2024-11-22T16:22:14.515Z",
+      "updateDate": "2024-11-22T16:26:55.842Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",
