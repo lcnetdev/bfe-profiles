@@ -28398,8 +28398,8 @@
                   ],
                   "defaults": [
                     {
-                      "defaultURI": "http://id.loc.gov/ontologies/bibframe/hasSeries",
-                      "defaultLiteral": "Has Series"
+                      "defaultURI": "http://id.loc.gov/vocabulary/relationship/series",
+                      "defaultLiteral": "Series"
                     }
                   ],
                   "valueDataType": {
@@ -28456,7 +28456,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2024-11-26T19:24:44.883Z",
+      "updateDate": "2024-11-26T19:25:32.654Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",

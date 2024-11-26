@@ -12,8 +12,8 @@
         ],
         "defaults": [
           {
-            "defaultURI": "http://id.loc.gov/ontologies/bibframe/hasSeries",
-            "defaultLiteral": "Has Series"
+            "defaultURI": "http://id.loc.gov/vocabulary/relationship/series",
+            "defaultLiteral": "Series"
           }
         ],
         "valueDataType": {
