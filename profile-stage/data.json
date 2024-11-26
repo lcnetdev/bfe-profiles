@@ -449,8 +449,8 @@
                   ],
                   "defaults": [
                     {
-                      "defaultURI": "http://id.loc.gov/vocabulary/relationship/hasSeries",
-                      "defaultLiteral": "Has Series"
+                      "defaultURI": "http://id.loc.gov/vocabulary/relationship/series",
+                      "defaultLiteral": "Series"
                     }
                   ],
                   "valueDataType": {
@@ -830,7 +830,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2024-11-26T14:58:29.027Z",
+      "updateDate": "2024-11-26T19:25:07.576Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",
