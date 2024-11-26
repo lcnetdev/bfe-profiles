@@ -73,7 +73,7 @@
           "propertyLabel": "Variant Title",
           "mandatory": "false",
           "repeatable": "true",
-          "type": "literal"
+          "type": "resource"
         },
         {
           "resourceTemplates": [],
