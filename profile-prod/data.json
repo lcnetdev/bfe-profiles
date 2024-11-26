@@ -28212,7 +28212,7 @@
                 "valueConstraint": {
                   "valueTemplateRefs": [],
                   "useValuesFrom": [
-                    "http://id.loc.gov/ontologies/bibframe"
+                    "http://id.loc.gov/vocabulary/relationship"
                   ],
                   "defaults": [
                     {
@@ -28456,7 +28456,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2024-10-10T15:45:13.005Z",
+      "updateDate": "2024-11-26T14:57:23.749Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",
