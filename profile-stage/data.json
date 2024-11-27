@@ -34414,8 +34414,7 @@
                   "valueTemplateRefs": [
                     "lc:RT:bf2:Topic:madsTopic",
                     "lc:RT:bf2:Topic:madsGeographic",
-                    "lc:RT:bf2:Topic:madsTemporal",
-                    "lc:RT:bf2:Topic:madsGenreForm"
+                    "lc:RT:bf2:Topic:madsTemporal"
                   ],
                   "useValuesFrom": [],
                   "valueDataType": {
@@ -34463,8 +34462,7 @@
                   "valueTemplateRefs": [
                     "lc:RT:bf2:Topic:madsGeogHeading",
                     "lc:RT:bf2:Topic:madsTopicSubdivision",
-                    "lc:RT:bf2:Topic:madsTemporal",
-                    "lc:RT:bf2:Topic:madsGenreForm"
+                    "lc:RT:bf2:Topic:madsTemporal"
                   ],
                   "useValuesFrom": [],
                   "defaults": [],
@@ -34697,8 +34695,7 @@
                   "valueTemplateRefs": [
                     "lc:RT:bf2:Topic:Childrens:Topic",
                     "lc:RT:bf2:Topic:madsGeographic",
-                    "lc:RT:bf2:Topic:madsTemporal",
-                    "lc:RT:bf2:Topic:madsGenreForm"
+                    "lc:RT:bf2:Topic:madsTemporal"
                   ],
                   "useValuesFrom": [],
                   "defaults": [],
@@ -34821,43 +34818,6 @@
               {
                 "mandatory": "false",
                 "repeatable": "true",
-                "type": "lookup",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [
-                    "http://id.loc.gov/authorities/subjects"
-                  ],
-                  "defaults": [],
-                  "valueDataType": {}
-                },
-                "propertyURI": "http://www.loc.gov/mads/rdf/v1#Temporal",
-                "propertyLabel": "Search LCSH"
-              },
-              {
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "literal",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [],
-                  "defaults": [],
-                  "valueDataType": {}
-                },
-                "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label",
-                "propertyLabel": "Proposed heading"
-              }
-            ],
-            "id": "lc:RT:bf2:Topic:ChronologyTest",
-            "resourceURI": "http://www.loc.gov/mads/rdf/v1#Temporal",
-            "resourceLabel": "Chronological subdivision test"
-          },
-          {
-            "propertyTemplates": [
-              {
-                "mandatory": "false",
-                "repeatable": "true",
                 "type": "resource",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -34865,7 +34825,6 @@
                     "lc:RT:bf2:Topic:madsTopic",
                     "lc:RT:bf2:Topic:madsGeographic",
                     "lc:RT:bf2:Topic:madsTemporal",
-                    "lc:RT:bf2:Topic:madsGenreForm",
                     "lc:RT:bf2:Agent:bfPerson",
                     "lc:RT:bf2:Agent:bfCorp",
                     "lc:RT:bf2:Agent:bfConf"
@@ -34906,46 +34865,6 @@
             "id": "lc:RT:bf2:Topic:SubjectNew",
             "resourceURI": "http://id.loc.gov/ontologies/bibframe/Topic",
             "resourceLabel": "Expanded subjects"
-          },
-          {
-            "propertyTemplates": [
-              {
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "lookup",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [],
-                  "defaults": [],
-                  "valueDataType": {}
-                },
-                "propertyLabel": "Lookup",
-                "propertyURI": "http://www.loc.gov/mads/rdf/v1#componentList"
-              },
-              {
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "resource",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [
-                    "lc:RT:bf2:Topic:madsTopic",
-                    "lc:RT:bf2:Topic:madsGeographic",
-                    "lc:RT:bf2:Topic:madsTemporal",
-                    "lc:RT:bf2:Topic:madsGenreForm"
-                  ],
-                  "useValuesFrom": [],
-                  "defaults": [],
-                  "valueDataType": {}
-                },
-                "propertyURI": "http://www.loc.gov/mads/rdf/v1#componentList",
-                "propertyLabel": "Search Components"
-              }
-            ],
-            "id": "lc:RT:bf2:Topic:SubjectTest",
-            "resourceURI": "http://id.loc.gov/ontologies/bibframe/Topic",
-            "resourceLabel": "Testing complex subjects"
           }
         ],
         "id": "lc:profile:bf2:Topic",
@@ -34957,7 +34876,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.062Z",
-      "updateDate": "2024-11-01T14:48:42.856Z",
+      "updateDate": "2024-11-27T15:41:56.818Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.062Z",

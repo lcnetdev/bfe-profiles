@@ -9,8 +9,7 @@
         "valueTemplateRefs": [
           "lc:RT:bf2:Topic:madsGeogHeading",
           "lc:RT:bf2:Topic:madsTopicSubdivision",
-          "lc:RT:bf2:Topic:madsTemporal",
-          "lc:RT:bf2:Topic:madsGenreForm"
+          "lc:RT:bf2:Topic:madsTemporal"
         ],
         "useValuesFrom": [],
         "defaults": [],

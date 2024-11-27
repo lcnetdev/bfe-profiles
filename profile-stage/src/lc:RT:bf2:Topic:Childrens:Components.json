@@ -9,8 +9,7 @@
         "valueTemplateRefs": [
           "lc:RT:bf2:Topic:Childrens:Topic",
           "lc:RT:bf2:Topic:madsGeographic",
-          "lc:RT:bf2:Topic:madsTemporal",
-          "lc:RT:bf2:Topic:madsGenreForm"
+          "lc:RT:bf2:Topic:madsTemporal"
         ],
         "useValuesFrom": [],
         "defaults": [],

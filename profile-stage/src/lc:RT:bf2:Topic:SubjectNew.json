@@ -10,7 +10,6 @@
           "lc:RT:bf2:Topic:madsTopic",
           "lc:RT:bf2:Topic:madsGeographic",
           "lc:RT:bf2:Topic:madsTemporal",
-          "lc:RT:bf2:Topic:madsGenreForm",
           "lc:RT:bf2:Agent:bfPerson",
           "lc:RT:bf2:Agent:bfCorp",
           "lc:RT:bf2:Agent:bfConf"
