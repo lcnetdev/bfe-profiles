@@ -327,7 +327,7 @@
         ]
       },
       {
-        "menuGroup": "Test BF Hub",
+        "menuGroup": "Hub",
         "menuItems": [
           {
             "label": "Hub",
@@ -335,7 +335,7 @@
               "http://id.loc.gov/ontologies/bibframe/Hub"
             ],
             "useResourceTemplates": [
-              "lc:RT:bf2:Hub:Hub"
+              "lc:RT:bf2:HubBasic:Hub"
             ]
           }
         ]
