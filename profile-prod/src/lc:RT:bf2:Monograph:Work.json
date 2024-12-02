@@ -271,7 +271,7 @@
         }
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/language",
-      "propertyLabel": "Language (008 + 041 $a)",
+      "propertyLabel": "Language (008 [1st], 041 $a [others])",
       "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Languages(041)"
     },
     {
