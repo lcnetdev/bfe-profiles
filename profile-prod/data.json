@@ -8541,7 +8541,7 @@
                   }
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/language",
-                "propertyLabel": "Language (008 field)",
+                "propertyLabel": "Language (008 [1st], 041 $a [others])",
                 "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Languages(041)"
               },
               {
@@ -9797,7 +9797,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2024-11-12T14:03:26.420Z",
+      "updateDate": "2024-12-02T16:06:39.844Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",
