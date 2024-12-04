@@ -26569,26 +26569,6 @@
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/systemRequirement"
               },
               {
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "resource",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [
-                    "lc:RT:bf2:Agents:Contribution"
-                  ],
-                  "useValuesFrom": [],
-                  "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Contribution"
-                  },
-                  "defaults": [],
-                  "editable": "false"
-                },
-                "propertyLabel": "Contribution",
-                "remark": "",
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/contribution"
-              },
-              {
                 "propertyLabel": "Uniform Resource Locator",
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/electronicLocator",
                 "resourceTemplates": [],
@@ -26903,7 +26883,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2024-12-02T16:13:19.723Z",
+      "updateDate": "2024-12-04T15:43:54.652Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",
