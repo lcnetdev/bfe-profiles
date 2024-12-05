@@ -12,10 +12,10 @@
         "valueDataType": {}
       },
       "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label",
-      "propertyLabel": "Accessibility Content"
+      "propertyLabel": "Accessibility content"
     }
   ],
   "id": "lc:RT:bf2:ContAccess",
   "resourceURI": "http://id.loc.gov/ontologies/bibframe/ContentAccessibility",
-  "resourceLabel": "Accessibility Content"
+  "resourceLabel": "Accessibility content"
 }

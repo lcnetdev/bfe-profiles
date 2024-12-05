@@ -20,12 +20,12 @@
                   "valueDataType": {}
                 },
                 "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label",
-                "propertyLabel": "Accessibility Content"
+                "propertyLabel": "Accessibility content"
               }
             ],
             "id": "lc:RT:bf2:ContAccess",
             "resourceURI": "http://id.loc.gov/ontologies/bibframe/ContentAccessibility",
-            "resourceLabel": "Accessibility Content"
+            "resourceLabel": "Accessibility content"
           },
           {
             "propertyTemplates": [
@@ -110,7 +110,7 @@
             ],
             "id": "lc:RT:bf2:ImmAcqSource",
             "resourceURI": "http://id.loc.gov/ontologies/bibframe/ImmediateAcquisition",
-            "resourceLabel": "Immediate Source of Acquisition",
+            "resourceLabel": "Immediate source of acquisition",
             "author": "NDMSO"
           },
           {
@@ -173,7 +173,7 @@
             ],
             "id": "lc:RT:bf2:NoteSimple",
             "resourceURI": "http://id.loc.gov/ontologies/bibframe/Note",
-            "resourceLabel": "Simple Note"
+            "resourceLabel": "Simple note"
           },
           {
             "propertyTemplates": [
@@ -282,7 +282,7 @@
             ],
             "id": "lc:RT:bf2:SupplContent",
             "resourceURI": "http://id.loc.gov/ontologies/bibframe/SupplementaryContent",
-            "resourceLabel": "Supplementary Content"
+            "resourceLabel": "Supplementary content"
           },
           {
             "propertyTemplates": [
@@ -321,7 +321,7 @@
             ],
             "id": "lc:RT:bf2:SupplContentNote",
             "resourceURI": "http://id.loc.gov/ontologies/bibframe/SupplementaryContent",
-            "resourceLabel": "Supplementary Content note"
+            "resourceLabel": "Supplementary content note"
           },
           {
             "propertyTemplates": [
@@ -337,13 +337,13 @@
                   "valueDataType": {}
                 },
                 "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label",
-                "propertyLabel": "System Requirement",
+                "propertyLabel": "System requirement",
                 "remark": ""
               }
             ],
             "id": "lc:RT:bf2:SysReq",
             "resourceURI": "http://id.loc.gov/ontologies/bibframe/SystemRequirement",
-            "resourceLabel": "System Requirement"
+            "resourceLabel": "System requirement"
           }
         ],
         "id": "lc:profile:bf2:Note",
@@ -355,7 +355,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2024-11-20T18:07:35.618Z",
+      "updateDate": "2024-12-05T20:47:30.161Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",
