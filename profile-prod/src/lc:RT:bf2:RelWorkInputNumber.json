@@ -17,6 +17,6 @@
     }
   ],
   "id": "lc:RT:bf2:RelWorkInputNumber",
-  "resourceURI": "http://id.loc.gov/ontologies/bibframe/Local",
+  "resourceURI": "http://id.loc.gov/ontologies/bibframe/OclcNumber",
   "resourceLabel": "Input OCLC number"
 }
