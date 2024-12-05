@@ -17920,7 +17920,7 @@
                   "defaults": []
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/agent",
-                "propertyLabel": "Primary Contributor",
+                "propertyLabel": "Primary contributor",
                 "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates"
               },
               {
@@ -17942,12 +17942,12 @@
                   "editable": "true"
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
-                "propertyLabel": "Relationship Designator",
+                "propertyLabel": "Relationship designator",
                 "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-AgentRoles"
               }
             ],
             "id": "lc:RT:bflc:Agents:PrimaryContribution",
-            "resourceLabel": "Primary Contribution",
+            "resourceLabel": "Primary contribution",
             "resourceURI": "http://id.loc.gov/ontologies/bibframe/PrimaryContribution"
           }
         ],
@@ -17960,7 +17960,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.059Z",
-      "updateDate": "2024-10-01T19:41:37.031Z",
+      "updateDate": "2024-12-05T20:08:28.545Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.059Z",

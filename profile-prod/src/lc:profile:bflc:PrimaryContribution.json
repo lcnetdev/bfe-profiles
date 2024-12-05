@@ -24,7 +24,7 @@
             "defaults": []
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/agent",
-          "propertyLabel": "Primary Contributor",
+          "propertyLabel": "Primary contributor",
           "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates"
         },
         {
@@ -46,12 +46,12 @@
             "editable": "true"
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
-          "propertyLabel": "Relationship Designator",
+          "propertyLabel": "Relationship designator",
           "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-AgentRoles"
         }
       ],
       "id": "lc:RT:bflc:Agents:PrimaryContribution",
-      "resourceLabel": "Primary Contribution",
+      "resourceLabel": "Primary contribution",
       "resourceURI": "http://id.loc.gov/ontologies/bibframe/PrimaryContribution"
     }
   ],
