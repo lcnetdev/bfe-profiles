@@ -21515,7 +21515,7 @@
                   }
                 },
                 "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
-                "propertyLabel": "Search MARC Genre Terms"
+                "propertyLabel": "Search MARC genre terms"
               },
               {
                 "mandatory": "false",
@@ -21544,51 +21544,7 @@
             ],
             "id": "lc:RT:bf2:MarcGT",
             "resourceURI": "http://id.loc.gov/ontologies/bibframe/GenreForm",
-            "resourceLabel": "MARC Genre Terms"
-          },
-          {
-            "propertyTemplates": [
-              {
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "literal",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [],
-                  "defaults": [],
-                  "valueDataType": {}
-                },
-                "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label",
-                "propertyLabel": "GSAFD term"
-              },
-              {
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "lookup",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [
-                    "https://id.loc.gov/vocabulary/genreFormSchemes"
-                  ],
-                  "defaults": [
-                    {
-                      "defaultURI": "http://id.loc.gov/vocabulary/genreFormSchemes/gsafd",
-                      "defaultLiteral": "Guidelines on subject access to individual works of fiction, drama, etc"
-                    }
-                  ],
-                  "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Source"
-                  }
-                },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/source",
-                "propertyLabel": "Source of term"
-              }
-            ],
-            "id": "lc:RT:bf2:Gsafd",
-            "resourceURI": "http://id.loc.gov/ontologies/bibframe/GenreForm",
-            "resourceLabel": "Input GSAFD term"
+            "resourceLabel": "MARC genre terms"
           }
         ],
         "id": "lc:profile:bf2:Form",
@@ -21600,7 +21556,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.059Z",
-      "updateDate": "2024-09-27T15:02:31.426Z",
+      "updateDate": "2024-12-05T20:17:42.898Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.059Z",

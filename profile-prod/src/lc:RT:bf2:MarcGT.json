@@ -16,7 +16,7 @@
         }
       },
       "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
-      "propertyLabel": "Search MARC Genre Terms"
+      "propertyLabel": "Search MARC genre terms"
     },
     {
       "mandatory": "false",
@@ -45,5 +45,5 @@
   ],
   "id": "lc:RT:bf2:MarcGT",
   "resourceURI": "http://id.loc.gov/ontologies/bibframe/GenreForm",
-  "resourceLabel": "MARC Genre Terms"
+  "resourceLabel": "MARC genre terms"
 }
