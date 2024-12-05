@@ -12,7 +12,7 @@
         "defaults": []
       },
       "propertyURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
-      "propertyLabel": "Numerical values of Aspect ratio",
+      "propertyLabel": "Numeric value of aspect ratio",
       "remark": ""
     }
   ],

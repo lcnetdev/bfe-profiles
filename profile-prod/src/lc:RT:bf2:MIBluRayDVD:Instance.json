@@ -2,7 +2,7 @@
   "id": "lc:RT:bf2:MIBluRayDVD:Instance",
   "propertyTemplates": [
     {
-      "propertyLabel": "Instance Of",
+      "propertyLabel": "Instance of",
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/instanceOf",
       "resourceTemplates": [],
       "type": "resource",
@@ -18,7 +18,7 @@
       "repeatable": "false"
     },
     {
-      "propertyLabel": "Title Information",
+      "propertyLabel": "Title information",
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/title",
       "resourceTemplates": [],
       "valueConstraint": {
@@ -47,12 +47,12 @@
         "valueDataType": {},
         "defaults": []
       },
-      "propertyLabel": "Statement of Responsibility",
+      "propertyLabel": "Statement of responsibility",
       "remark": "https://original.rdatoolkit.org/2.4.2.html",
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/responsibilityStatement"
     },
     {
-      "propertyLabel": "Edition Statement",
+      "propertyLabel": "Edition statement",
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/editionStatement",
       "resourceTemplates": [],
       "valueConstraint": {
@@ -67,7 +67,7 @@
       "remark": "https://original.rdatoolkit.org/2.5.html"
     },
     {
-      "propertyLabel": "Provision Activity",
+      "propertyLabel": "Provision activity",
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/provisionActivity",
       "resourceTemplates": [],
       "type": "resource",
@@ -98,7 +98,7 @@
         "defaults": []
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/copyrightDate",
-      "propertyLabel": "Copyright Date",
+      "propertyLabel": "Copyright date",
       "remark": "https://original.rdatoolkit.org/2.11.html"
     },
     {
@@ -144,7 +144,7 @@
         ]
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/issuance",
-      "propertyLabel": "Mode of Issuance",
+      "propertyLabel": "Mode of issuance",
       "remark": "https://original.rdatoolkit.org/2.13.html"
     },
     {
@@ -234,7 +234,7 @@
         "valueDataType": {},
         "defaults": []
       },
-      "propertyLabel": "Cast/Credits",
+      "propertyLabel": "Cast/credits",
       "remark": "https://original.rdatoolkit.org/2.17.3.5.html",
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/credits"
     },
@@ -344,29 +344,13 @@
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [
-          "lc:RT:bf2:Note"
-        ],
-        "useValuesFrom": [],
-        "valueDataType": {},
-        "defaults": []
-      },
-      "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
-      "propertyLabel": "Optional Subtitles"
-    },
-    {
-      "mandatory": "false",
-      "repeatable": "true",
-      "type": "resource",
-      "resourceTemplates": [],
-      "valueConstraint": {
-        "valueTemplateRefs": [
           "lc:RT:bf2:ContAccess"
         ],
         "useValuesFrom": [],
         "valueDataType": {},
         "defaults": []
       },
-      "propertyLabel": "Accessibility Content (Closed captions/ English subtitles for the deaf and hard of hearing)",
+      "propertyLabel": "Accessibility content (Closed captions, etc.)",
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/contentAccessibility",
       "remark": "https://original.rdatoolkit.org/7.14.html"
     },
@@ -384,7 +368,7 @@
         "defaults": [],
         "editable": "false"
       },
-      "propertyLabel": "LCGFT Accessibility Term (Video recordings for ... )",
+      "propertyLabel": "LCGFT accessibility term (Video recordings for ... )",
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/genreForm"
     },
     {
@@ -401,7 +385,7 @@
         "valueDataType": {}
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/supplementaryContent",
-      "propertyLabel": "Supplementary Content note",
+      "propertyLabel": "Supplementary content note",
       "remark": "https://original.rdatoolkit.org/7.16.html"
     },
     {
@@ -420,7 +404,7 @@
         }
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/aspectRatio",
-      "propertyLabel": "Aspect Ratio",
+      "propertyLabel": "Aspect ratio",
       "remark": "https://original.rdatoolkit.org/7.19.html"
     },
     {
@@ -437,7 +421,7 @@
         "defaults": []
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/aspectRatio",
-      "propertyLabel": "Aspect Ratio (Numeric)",
+      "propertyLabel": "Aspect ratio (numeric)",
       "remark": "https://original.rdatoolkit.org/7.19.html"
     },
     {
@@ -458,7 +442,7 @@
         "defaultLiteral": "",
         "defaults": []
       },
-      "propertyLabel": "Sound Characteristics",
+      "propertyLabel": "Sound characteristics",
       "remark": "https://original.rdatoolkit.org/3.16.html",
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/soundCharacteristic"
     },
@@ -477,7 +461,7 @@
         },
         "defaults": []
       },
-      "propertyLabel": "Video Characteristics/Broadcast Standard",
+      "propertyLabel": "Video characteristics/Broadcast standard",
       "remark": "https://original.rdatoolkit.org/3.18.html",
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/videoCharacteristic"
     },
@@ -503,7 +487,7 @@
         "defaults": [],
         "editable": "true"
       },
-      "propertyLabel": "Digital File Characteristics",
+      "propertyLabel": "Digital file characteristics",
       "remark": "https://original.rdatoolkit.org/3.19.html",
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/digitalCharacteristic"
     },
@@ -520,12 +504,12 @@
         "valueDataType": {},
         "defaults": []
       },
-      "propertyLabel": "System Requirements",
+      "propertyLabel": "System requirements",
       "remark": "https://original.rdatoolkit.org/3.20.html",
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/systemRequirement"
     },
     {
-      "propertyLabel": "Uniform Resource Locator",
+      "propertyLabel": "URL of Instance",
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/electronicLocator",
       "resourceTemplates": [],
       "type": "resource",
