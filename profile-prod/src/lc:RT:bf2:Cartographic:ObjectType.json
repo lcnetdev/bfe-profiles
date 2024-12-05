@@ -12,7 +12,7 @@
         "valueDataType": {}
       },
       "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label",
-      "propertyLabel": "Cartographic Object Type",
+      "propertyLabel": "Cartographic object type",
       "remark": "https://original.rdatoolkit.org/3.19.8.html"
     },
     {
@@ -32,5 +32,5 @@
   ],
   "id": "lc:RT:bf2:Cartographic:ObjectType",
   "resourceURI": "http://id.loc.gov/ontologies/bibframe/CartographicObjectType",
-  "resourceLabel": "Cartographic Object Type"
+  "resourceLabel": "Cartographic object type"
 }

@@ -12,12 +12,12 @@
         "valueDataType": {}
       },
       "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label",
-      "propertyLabel": "Cartographic Data Type",
+      "propertyLabel": "Cartographic data type",
       "remark": "https://original.rdatoolkit.org/3.19.8.5.html"
     }
   ],
   "resourceURI": "http://id.loc.gov/ontologies/bibframe/CartographicDataType",
   "id": "lc:RT:bf2:Cartographic:DataType",
   "remark": "",
-  "resourceLabel": "Cartographic Data Type"
+  "resourceLabel": "Cartographic data type"
 }

@@ -1016,7 +1016,7 @@
       ],
       "resourceURI": "http://id.loc.gov/ontologies/bibframe/Cartographic",
       "id": "lc:RT:bf2:Cartographic:Attributes",
-      "resourceLabel": "Cartographic Attributes"
+      "resourceLabel": "Cartographic attributes"
     },
     {
       "propertyTemplates": [
@@ -1032,14 +1032,14 @@
             "valueDataType": {}
           },
           "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label",
-          "propertyLabel": "Cartographic Data Type",
+          "propertyLabel": "Cartographic data type",
           "remark": "https://original.rdatoolkit.org/3.19.8.5.html"
         }
       ],
       "resourceURI": "http://id.loc.gov/ontologies/bibframe/CartographicDataType",
       "id": "lc:RT:bf2:Cartographic:DataType",
       "remark": "",
-      "resourceLabel": "Cartographic Data Type"
+      "resourceLabel": "Cartographic data type"
     },
     {
       "propertyTemplates": [
@@ -1055,7 +1055,7 @@
             "valueDataType": {}
           },
           "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label",
-          "propertyLabel": "Cartographic Object Type",
+          "propertyLabel": "Cartographic object type",
           "remark": "https://original.rdatoolkit.org/3.19.8.html"
         },
         {
@@ -1075,7 +1075,7 @@
       ],
       "id": "lc:RT:bf2:Cartographic:ObjectType",
       "resourceURI": "http://id.loc.gov/ontologies/bibframe/CartographicObjectType",
-      "resourceLabel": "Cartographic Object Type"
+      "resourceLabel": "Cartographic object type"
     },
     {
       "propertyTemplates": [
@@ -1123,7 +1123,7 @@
       ],
       "id": "lc:RT:bf2:Cartographic:GeoCoverage",
       "resourceURI": "http://id.loc.gov/ontologies/bibframe/GeographicCoverage",
-      "resourceLabel": "Geographic Coverage"
+      "resourceLabel": "Geographic coverage"
     },
     {
       "propertyTemplates": [
@@ -1144,7 +1144,7 @@
       ],
       "id": "lc:RT:bf2:Cartographic:EncodingFormat",
       "resourceURI": "http://id.loc.gov/ontologies/bibframe/EncodingFormat",
-      "resourceLabel": "Encoding Format"
+      "resourceLabel": "Encoding format"
     },
     {
       "propertyTemplates": [
@@ -1164,12 +1164,12 @@
             }
           },
           "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
-          "propertyLabel": "File Type"
+          "propertyLabel": "File type"
         }
       ],
       "id": "lc:RT:bf2:Cartographic:FileType",
       "resourceURI": "http://id.loc.gov/ontologies/bibframe/FileType",
-      "resourceLabel": "File Type"
+      "resourceLabel": "File type"
     },
     {
       "propertyTemplates": [
@@ -1191,7 +1191,7 @@
       ],
       "id": "lc:RT:bf2:Cartographic:ScaleNew",
       "resourceURI": "http://id.loc.gov/ontologies/bibframe/Scale",
-      "resourceLabel": "Numeric Scale value"
+      "resourceLabel": "Numeric scale value"
     }
   ],
   "author": "NDMSO",
