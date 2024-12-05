@@ -18002,7 +18002,7 @@
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
-                "propertyLabel": "Relationship Designator",
+                "propertyLabel": "Relationship designator",
                 "type": "lookup",
                 "mandatory": "false",
                 "repeatable": "true",
@@ -18072,13 +18072,13 @@
         "id": "lc:profile:bf2:AgentsContribution",
         "title": "BIBFRAME 2.0 Agents Contribution",
         "date": "2017-05-13",
-        "description": "Creators and Contributors",
+        "description": "Creators and contributors",
         "author": "NDMSO"
       }
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.058Z",
-      "updateDate": "2024-10-01T19:41:10.080Z",
+      "updateDate": "2024-12-05T20:07:50.123Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.058Z",
