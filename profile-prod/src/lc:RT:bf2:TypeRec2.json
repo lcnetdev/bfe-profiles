@@ -28,5 +28,5 @@
   ],
   "id": "lc:RT:bf2:TypeRec2",
   "resourceURI": "http://id.loc.gov/ontologies/bibframe/RecordingMethod",
-  "resourceLabel": "Type of recording (Analog)"
+  "resourceLabel": "Type of recording (analog)"
 }

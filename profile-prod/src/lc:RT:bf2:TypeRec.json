@@ -28,5 +28,5 @@
   ],
   "id": "lc:RT:bf2:TypeRec",
   "resourceURI": "http://id.loc.gov/ontologies/bibframe/RecordingMethod",
-  "resourceLabel": "Type of recording (Digital)"
+  "resourceLabel": "Type of recording (digital)"
 }
