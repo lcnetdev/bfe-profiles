@@ -16,11 +16,11 @@
         }
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/PlayingSpeed",
-      "propertyLabel": "Playing Speed",
+      "propertyLabel": "Playing speed",
       "remark": "https://original.rdatoolkit.org/3.16.4.html"
     }
   ],
   "id": "lc:RT:bf2:SoundCassette:PlaySpeed",
   "resourceURI": "http://id.loc.gov/ontologies/bibframe/PlayingSpeed",
-  "resourceLabel": "Playing Speed"
+  "resourceLabel": "Playing speed"
 }

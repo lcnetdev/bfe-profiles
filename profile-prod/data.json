@@ -15541,7 +15541,7 @@
                   "valueDataType": {}
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/title",
-                "propertyLabel": "Title Information",
+                "propertyLabel": "Title information",
                 "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Work/ExpressionTitles"
               },
               {
@@ -15561,7 +15561,7 @@
                   "editable": "true"
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/genreForm",
-                "propertyLabel": "Form/Genre",
+                "propertyLabel": "Genre/Form",
                 "remark": ""
               },
               {
@@ -15599,7 +15599,7 @@
                   "editable": "true"
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/originPlace",
-                "propertyLabel": "Place of Origin of the Work",
+                "propertyLabel": "Place of origin of the Work",
                 "remark": "https://original.rdatoolkit.org/6.5.html"
               },
               {
@@ -15616,7 +15616,7 @@
                   "valueDataType": {}
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/musicMedium",
-                "propertyLabel": "Medium of Performance Statement",
+                "propertyLabel": "Medium of performance statement",
                 "remark": "https://original.rdatoolkit.org/7.21.html"
               },
               {
@@ -15665,7 +15665,7 @@
                   "valueDataType": {}
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/musicSerialNumber",
-                "propertyLabel": "Music Serial Number",
+                "propertyLabel": "Music serial number",
                 "remark": "https://original.rdatoolkit.org/6.16.html"
               },
               {
@@ -15680,7 +15680,7 @@
                   "valueDataType": {}
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/musicOpusNumber",
-                "propertyLabel": "Music Opus Number",
+                "propertyLabel": "Music opus number",
                 "remark": "https://original.rdatoolkit.org/6.16.html"
               },
               {
@@ -15695,7 +15695,7 @@
                   "valueDataType": {}
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/musicThematicNumber",
-                "propertyLabel": "Thematic Index Number",
+                "propertyLabel": "Thematic index number",
                 "remark": "https://original.rdatoolkit.org/6.16.html"
               },
               {
@@ -15725,7 +15725,7 @@
                   "valueDataType": {}
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/temporalCoverage",
-                "propertyLabel": "(Temporal) Coverage of the Content",
+                "propertyLabel": "(Temporal) coverage of the content",
                 "remark": "https://original.rdatoolkit.org/7.3.html"
               },
               {
@@ -15744,7 +15744,7 @@
                   }
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/intendedAudience",
-                "propertyLabel": "Intended Audience",
+                "propertyLabel": "Intended audience",
                 "remark": "https://original.rdatoolkit.org/7.7.html"
               },
               {
@@ -15782,7 +15782,7 @@
                   "editable": "true"
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/geographicCoverage",
-                "propertyLabel": "(Geographic) Coverage of the Content",
+                "propertyLabel": "(Geographic) coverage of the content",
                 "remark": ""
               },
               {
@@ -15802,7 +15802,7 @@
                   "editable": "true"
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/subject",
-                "propertyLabel": "Subject of the Work",
+                "propertyLabel": "Subjects",
                 "remark": "http://original.rdatoolkit.org/rdachp23_rda23-12.html"
               },
               {
@@ -15875,7 +15875,7 @@
                   }
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/content",
-                "propertyLabel": "Content Type",
+                "propertyLabel": "Content type",
                 "remark": "https://original.rdatoolkit.org/6.9.html"
               },
               {
@@ -15966,7 +15966,7 @@
                   }
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/supplementaryContent",
-                "propertyLabel": "Supplementary Content",
+                "propertyLabel": "Supplementary content",
                 "remark": "https://original.rdatoolkit.org/7.16.html"
               },
               {
@@ -16002,7 +16002,7 @@
                   }
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/relation",
-                "propertyLabel": "Input Transcribed Series",
+                "propertyLabel": "Input transcribed series",
                 "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Series(490,8XX)"
               },
               {
@@ -16021,7 +16021,7 @@
                   }
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/relation",
-                "propertyLabel": "Search Series Hub (optional)",
+                "propertyLabel": "Search series Hub (optional)",
                 "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Series(490,8XX)"
               },
               {
@@ -16061,7 +16061,7 @@
                   "valueDataType": {}
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/instanceOf",
-                "propertyLabel": "Instance Of"
+                "propertyLabel": "Instance of"
               },
               {
                 "mandatory": "true",
@@ -16079,7 +16079,7 @@
                   "valueDataType": {}
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/title",
-                "propertyLabel": "Title Information",
+                "propertyLabel": "Title information",
                 "remark": "https://original.rdatoolkit.org/rdachp2_rda2-3376.html"
               },
               {
@@ -16094,7 +16094,7 @@
                   "valueDataType": {}
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/responsibilityStatement",
-                "propertyLabel": "Statement of Responsibility",
+                "propertyLabel": "Statement of responsibility",
                 "remark": "https://original.rdatoolkit.org/2.4.2.html"
               },
               {
@@ -16109,7 +16109,7 @@
                   "valueDataType": {}
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/editionStatement",
-                "propertyLabel": "Edition Statement",
+                "propertyLabel": "Edition statement",
                 "remark": "https://original.rdatoolkit.org/2.5.html"
               },
               {
@@ -16129,7 +16129,7 @@
                   "valueDataType": {}
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/provisionActivity",
-                "propertyLabel": "Provision Activity",
+                "propertyLabel": "Provision activity",
                 "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-ProvisionActivity(264)"
               },
               {
@@ -16144,7 +16144,7 @@
                   "valueDataType": {}
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/copyrightDate",
-                "propertyLabel": "Copyright Date",
+                "propertyLabel": "Copyright date",
                 "remark": "https://original.rdatoolkit.org/2.11.html"
               },
               {
@@ -16168,7 +16168,7 @@
                   }
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/issuance",
-                "propertyLabel": "Mode of Issuance",
+                "propertyLabel": "Mode of issuance",
                 "remark": "https://original.rdatoolkit.org/2.13.html"
               },
               {
@@ -16230,7 +16230,7 @@
                   "valueDataType": {}
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/supplementaryContent",
-                "propertyLabel": "Supplementary Content note",
+                "propertyLabel": "Supplementary content note",
                 "remark": "https://original.rdatoolkit.org/7.16.html"
               },
               {
@@ -16366,7 +16366,7 @@
                   }
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/baseMaterial",
-                "propertyLabel": "Base Material",
+                "propertyLabel": "Base material",
                 "remark": "https://original.rdatoolkit.org/3.6.html"
               },
               {
@@ -16389,7 +16389,7 @@
                   "editable": "false"
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/soundCharacteristic",
-                "propertyLabel": "Sound Characteristics",
+                "propertyLabel": "Sound characteristics",
                 "remark": "https://original.rdatoolkit.org/3.16.html"
               },
               {
@@ -16406,7 +16406,7 @@
                   "valueDataType": {}
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/systemRequirement",
-                "propertyLabel": "System Requirement",
+                "propertyLabel": "System requirement",
                 "remark": "https://original.rdatoolkit.org/3.20.html"
               },
               {
@@ -16521,25 +16521,25 @@
                   }
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/PlayingSpeed",
-                "propertyLabel": "Playing Speed",
+                "propertyLabel": "Playing speed",
                 "remark": "https://original.rdatoolkit.org/3.16.4.html"
               }
             ],
             "id": "lc:RT:bf2:SoundCassette:PlaySpeed",
             "resourceURI": "http://id.loc.gov/ontologies/bibframe/PlayingSpeed",
-            "resourceLabel": "Playing Speed"
+            "resourceLabel": "Playing speed"
           }
         ],
         "id": "lc:profile:bf2:SoundCassette",
         "title": "BIBFRAME 2.0 Sound Recording-Audio Cassette",
-        "description": "Work, Instance, Item for Audio Cassette",
+        "description": "Work, Instance, Item for Audio cassette",
         "date": "2019-02-28",
         "author": "NDMSO"
       }
     },
     "metadata": {
       "createDate": "2019-02-28T14:21:01.066Z",
-      "updateDate": "2024-12-02T16:09:23.027Z",
+      "updateDate": "2024-12-05T21:11:30.033Z",
       "createUser": null,
       "updateUser": null
     },

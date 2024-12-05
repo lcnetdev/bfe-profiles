@@ -14,7 +14,7 @@
         "valueDataType": {}
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/instanceOf",
-      "propertyLabel": "Instance Of"
+      "propertyLabel": "Instance of"
     },
     {
       "mandatory": "true",
@@ -32,7 +32,7 @@
         "valueDataType": {}
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/title",
-      "propertyLabel": "Title Information",
+      "propertyLabel": "Title information",
       "remark": "https://original.rdatoolkit.org/rdachp2_rda2-3376.html"
     },
     {
@@ -47,7 +47,7 @@
         "valueDataType": {}
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/responsibilityStatement",
-      "propertyLabel": "Statement of Responsibility",
+      "propertyLabel": "Statement of responsibility",
       "remark": "https://original.rdatoolkit.org/2.4.2.html"
     },
     {
@@ -62,7 +62,7 @@
         "valueDataType": {}
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/editionStatement",
-      "propertyLabel": "Edition Statement",
+      "propertyLabel": "Edition statement",
       "remark": "https://original.rdatoolkit.org/2.5.html"
     },
     {
@@ -82,7 +82,7 @@
         "valueDataType": {}
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/provisionActivity",
-      "propertyLabel": "Provision Activity",
+      "propertyLabel": "Provision activity",
       "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-ProvisionActivity(264)"
     },
     {
@@ -97,7 +97,7 @@
         "valueDataType": {}
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/copyrightDate",
-      "propertyLabel": "Copyright Date",
+      "propertyLabel": "Copyright date",
       "remark": "https://original.rdatoolkit.org/2.11.html"
     },
     {
@@ -121,7 +121,7 @@
         }
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/issuance",
-      "propertyLabel": "Mode of Issuance",
+      "propertyLabel": "Mode of issuance",
       "remark": "https://original.rdatoolkit.org/2.13.html"
     },
     {
@@ -183,7 +183,7 @@
         "valueDataType": {}
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/supplementaryContent",
-      "propertyLabel": "Supplementary Content note",
+      "propertyLabel": "Supplementary content note",
       "remark": "https://original.rdatoolkit.org/7.16.html"
     },
     {
@@ -319,7 +319,7 @@
         }
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/baseMaterial",
-      "propertyLabel": "Base Material",
+      "propertyLabel": "Base material",
       "remark": "https://original.rdatoolkit.org/3.6.html"
     },
     {
@@ -342,7 +342,7 @@
         "editable": "false"
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/soundCharacteristic",
-      "propertyLabel": "Sound Characteristics",
+      "propertyLabel": "Sound characteristics",
       "remark": "https://original.rdatoolkit.org/3.16.html"
     },
     {
@@ -359,7 +359,7 @@
         "valueDataType": {}
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/systemRequirement",
-      "propertyLabel": "System Requirement",
+      "propertyLabel": "System requirement",
       "remark": "https://original.rdatoolkit.org/3.20.html"
     },
     {
