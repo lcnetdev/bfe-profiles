@@ -434,7 +434,7 @@
                   "defaults": []
                 },
                 "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label",
-                "propertyLabel": "Lending or Access Policy",
+                "propertyLabel": "Lending or access policy",
                 "resourceTemplates": []
               },
               {
@@ -456,7 +456,7 @@
             ],
             "id": "lc:RT:bf2:Item:Access",
             "resourceURI": "http://id.loc.gov/ontologies/bibframe/AccessPolicy",
-            "resourceLabel": "Lending or Access Policy",
+            "resourceLabel": "Lending or access Policy",
             "author": "NDMSO",
             "date": "2019-06-11"
           },
@@ -475,7 +475,7 @@
                   "defaults": []
                 },
                 "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label",
-                "propertyLabel": "Use or Reproduction Policy",
+                "propertyLabel": "Use or reproduction policy",
                 "resourceTemplates": []
               },
               {
@@ -496,7 +496,7 @@
               }
             ],
             "id": "lc:RT:bf2:Item:Use",
-            "resourceLabel": "Use or Reproduction Policy",
+            "resourceLabel": "Use or reproduction policy",
             "resourceURI": "http://id.loc.gov/ontologies/bibframe/UsePolicy",
             "author": "NDMSO",
             "date": "2019-06-11"
@@ -516,13 +516,13 @@
                   "defaults": []
                 },
                 "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label",
-                "propertyLabel": "Retention Policy",
+                "propertyLabel": "Retention policy",
                 "resourceTemplates": []
               }
             ],
             "id": "lc:RT:bf2:Item:Retention",
             "resourceURI": "http://id.loc.gov/ontologies/bibframe/RetentionPolicy",
-            "resourceLabel": "Retention Policy",
+            "resourceLabel": "Retention policy",
             "author": "NDMSO",
             "date": "2019-06-11"
           },
@@ -755,7 +755,7 @@
     },
     "metadata": {
       "createDate": "2019-08-14T18:21:23.011Z",
-      "updateDate": "2023-01-27T15:36:31.212Z",
+      "updateDate": "2024-12-05T20:22:05.671Z",
       "createUser": null,
       "updateUser": null
     },

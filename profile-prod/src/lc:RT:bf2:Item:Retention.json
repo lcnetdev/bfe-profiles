@@ -13,13 +13,13 @@
         "defaults": []
       },
       "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label",
-      "propertyLabel": "Retention Policy",
+      "propertyLabel": "Retention policy",
       "resourceTemplates": []
     }
   ],
   "id": "lc:RT:bf2:Item:Retention",
   "resourceURI": "http://id.loc.gov/ontologies/bibframe/RetentionPolicy",
-  "resourceLabel": "Retention Policy",
+  "resourceLabel": "Retention policy",
   "author": "NDMSO",
   "date": "2019-06-11"
 }
