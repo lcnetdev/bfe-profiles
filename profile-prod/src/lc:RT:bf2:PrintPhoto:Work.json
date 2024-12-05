@@ -74,7 +74,7 @@
         }
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/genreForm",
-      "propertyLabel": "Form/Genre",
+      "propertyLabel": "Genre/Form",
       "remark": ""
     },
     {
@@ -346,7 +346,7 @@
         }
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/relation",
-      "propertyLabel": "Input Transcribed Series"
+      "propertyLabel": "Input transcribed series"
     },
     {
       "mandatory": "false",
@@ -364,7 +364,7 @@
         }
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/relation",
-      "propertyLabel": "Search Series Hub (optional)"
+      "propertyLabel": "Search series Hub (optional)"
     },
     {
       "mandatory": "false",

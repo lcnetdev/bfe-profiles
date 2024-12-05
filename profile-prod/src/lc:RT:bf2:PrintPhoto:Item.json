@@ -84,7 +84,7 @@
         "valueDataType": {}
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/usageAndAccessPolicy",
-      "propertyLabel": "Lending, Reproduction, and Retention Policies"
+      "propertyLabel": "Lending, reproduction, and retention policies"
     },
     {
       "mandatory": "false",
@@ -98,7 +98,7 @@
         "valueDataType": {}
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/custodialHistory",
-      "propertyLabel": "Custodial History of Item",
+      "propertyLabel": "Custodial history",
       "remark": "https://original.rdatoolkit.org/2.18.html"
     },
     {
@@ -115,7 +115,7 @@
         "valueDataType": {}
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/immediateAcquisition",
-      "propertyLabel": "Immediate Source of Acquisition of Item"
+      "propertyLabel": "Immediate source of acquisition"
     }
   ],
   "id": "lc:RT:bf2:PrintPhoto:Item",

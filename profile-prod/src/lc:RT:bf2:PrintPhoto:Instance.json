@@ -14,7 +14,7 @@
         "valueDataType": {}
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/instanceOf",
-      "propertyLabel": "Instance Of"
+      "propertyLabel": "Instance of"
     },
     {
       "mandatory": "false",
@@ -80,7 +80,7 @@
         "valueDataType": {}
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/provisionActivity",
-      "propertyLabel": "Provision Activity",
+      "propertyLabel": "Provision activity",
       "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-ProvisionActivity(264)"
     },
     {
@@ -149,7 +149,7 @@
         "valueDataType": {}
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/supplementaryContent",
-      "propertyLabel": "Supplementary Content note",
+      "propertyLabel": "Supplementary content note",
       "remark": "https://original.rdatoolkit.org/7.16.html"
     },
     {

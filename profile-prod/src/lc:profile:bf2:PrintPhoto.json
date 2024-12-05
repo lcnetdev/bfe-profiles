@@ -76,7 +76,7 @@
             }
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/genreForm",
-          "propertyLabel": "Form/Genre",
+          "propertyLabel": "Genre/Form",
           "remark": ""
         },
         {
@@ -348,7 +348,7 @@
             }
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/relation",
-          "propertyLabel": "Input Transcribed Series"
+          "propertyLabel": "Input transcribed series"
         },
         {
           "mandatory": "false",
@@ -366,7 +366,7 @@
             }
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/relation",
-          "propertyLabel": "Search Series Hub (optional)"
+          "propertyLabel": "Search series Hub (optional)"
         },
         {
           "mandatory": "false",
@@ -405,7 +405,7 @@
             "valueDataType": {}
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/instanceOf",
-          "propertyLabel": "Instance Of"
+          "propertyLabel": "Instance of"
         },
         {
           "mandatory": "false",
@@ -471,7 +471,7 @@
             "valueDataType": {}
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/provisionActivity",
-          "propertyLabel": "Provision Activity",
+          "propertyLabel": "Provision activity",
           "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-ProvisionActivity(264)"
         },
         {
@@ -540,7 +540,7 @@
             "valueDataType": {}
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/supplementaryContent",
-          "propertyLabel": "Supplementary Content note",
+          "propertyLabel": "Supplementary content note",
           "remark": "https://original.rdatoolkit.org/7.16.html"
         },
         {
@@ -814,7 +814,7 @@
             "valueDataType": {}
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/usageAndAccessPolicy",
-          "propertyLabel": "Lending, Reproduction, and Retention Policies"
+          "propertyLabel": "Lending, reproduction, and retention policies"
         },
         {
           "mandatory": "false",
@@ -828,7 +828,7 @@
             "valueDataType": {}
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/custodialHistory",
-          "propertyLabel": "Custodial History of Item",
+          "propertyLabel": "Custodial history",
           "remark": "https://original.rdatoolkit.org/2.18.html"
         },
         {
@@ -845,7 +845,7 @@
             "valueDataType": {}
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/immediateAcquisition",
-          "propertyLabel": "Immediate Source of Acquisition of Item"
+          "propertyLabel": "Immediate source of acquisition"
         }
       ],
       "id": "lc:RT:bf2:PrintPhoto:Item",
@@ -911,7 +911,7 @@
       "id": "lc:RT:bf2:PrintPhoto:AcqSource",
       "resourceURI": "http://id.loc.gov/ontologies/bibframe/AcquisitionSource",
       "author": "NDMSO",
-      "resourceLabel": "Source of Acquisition"
+      "resourceLabel": "Source of acquisition"
     },
     {
       "propertyTemplates": [
