@@ -328,7 +328,7 @@
         }
       ],
       "id": "lc:RT:bf2:Topic:Childrens:Components",
-      "resourceLabel": "Children's subjects",
+      "resourceLabel": "CYAC subjects",
       "resourceURI": "http://id.loc.gov/ontologies/bibframe/Topic"
     },
     {
