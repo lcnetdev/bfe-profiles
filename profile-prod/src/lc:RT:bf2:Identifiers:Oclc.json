@@ -30,7 +30,7 @@
         }
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/status",
-      "propertyLabel": "Invalid/Canceled?"
+      "propertyLabel": "Invalid/canceled?"
     }
   ],
   "id": "lc:RT:bf2:Identifiers:Oclc",

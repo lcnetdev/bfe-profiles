@@ -43,7 +43,7 @@
           "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Status"
         }
       },
-      "propertyLabel": "Invalid/Canceled?",
+      "propertyLabel": "Invalid/canceled?",
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/status"
     },
     {

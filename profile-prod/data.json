@@ -18201,7 +18201,7 @@
                   }
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/status",
-                "propertyLabel": "Invalid/Canceled?",
+                "propertyLabel": "Invalid/canceled?",
                 "remark": ""
               }
             ],
@@ -18401,7 +18401,7 @@
                   "defaults": []
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/status",
-                "propertyLabel": "Invalid/Canceled?"
+                "propertyLabel": "Invalid/canceled?"
               }
             ],
             "id": "lc:RT:bf2:Identifiers:ISBN",
@@ -18529,7 +18529,7 @@
                   "defaults": []
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/status",
-                "propertyLabel": "Incorrect or Canceled?"
+                "propertyLabel": "Incorrect/canceled?"
               }
             ],
             "id": "lc:RT:bf2:Identifiers:ISSN",
@@ -18585,7 +18585,7 @@
                   "defaults": []
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/status",
-                "propertyLabel": "Incorrect or Canceled?"
+                "propertyLabel": "Incorrect/canceled?"
               }
             ],
             "id": "lc:RT:bf2:Identifiers:ISSNL",
@@ -18625,7 +18625,7 @@
                   "defaults": []
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/status",
-                "propertyLabel": "Invalid/Canceled?"
+                "propertyLabel": "Invalid/canceled?"
               }
             ],
             "id": "lc:RT:bf2:Identifiers:LCCN",
@@ -18926,7 +18926,7 @@
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Status"
                   }
                 },
-                "propertyLabel": "Invalid/Canceled?",
+                "propertyLabel": "Invalid/canceled?",
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/status"
               },
               {
@@ -18984,7 +18984,7 @@
                   }
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/status",
-                "propertyLabel": "Invalid/Canceled?"
+                "propertyLabel": "Invalid/canceled?"
               }
             ],
             "id": "lc:RT:bf2:Identifiers:Oclc",
@@ -19198,7 +19198,7 @@
                   }
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/source",
-                "propertyLabel": "Source of Stock number"
+                "propertyLabel": "Source of number"
               }
             ],
             "id": "lc:RT:bf2:Identifiers:StockNumber",
@@ -19431,7 +19431,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.059Z",
-      "updateDate": "2024-09-12T15:33:49.926Z",
+      "updateDate": "2024-12-05T20:20:54.140Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.059Z",

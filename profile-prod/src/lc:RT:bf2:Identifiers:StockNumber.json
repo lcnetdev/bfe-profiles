@@ -36,7 +36,7 @@
         }
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/source",
-      "propertyLabel": "Source of Stock number"
+      "propertyLabel": "Source of number"
     }
   ],
   "id": "lc:RT:bf2:Identifiers:StockNumber",
