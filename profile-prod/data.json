@@ -22585,7 +22585,7 @@
             ],
             "resourceURI": "http://id.loc.gov/ontologies/bibframe/GenerationProcess",
             "id": "lc:RT:bf2:AdminMetadata:GenerationProcess",
-            "resourceLabel": "Generation Process"
+            "resourceLabel": "Generation process"
           },
           {
             "propertyTemplates": [
@@ -22612,7 +22612,7 @@
         ],
         "id": "lc:profile:bf2:AdminMetadata",
         "title": "BIBFRAME 2.0 Admin Metadata",
-        "description": "Metadata for BIBFRAME Resources",
+        "description": "Metadata for BIBFRAME resources",
         "date": "2018-10-24",
         "author": "NDMSO",
         "adherence": "BIBFRAME 2.0",
@@ -22621,7 +22621,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.056Z",
-      "updateDate": "2024-07-24T16:07:53.255Z",
+      "updateDate": "2024-12-05T20:03:45.830Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.056Z",
