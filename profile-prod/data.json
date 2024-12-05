@@ -20797,7 +20797,7 @@
                   "valueDataType": {}
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/date",
-                "propertyLabel": "EDTF Date (to/from 008)"
+                "propertyLabel": "EDTF date (to/from 008)"
               },
               {
                 "mandatory": "false",
@@ -20878,7 +20878,7 @@
                   "valueDataType": {}
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/date",
-                "propertyLabel": "EDTF Date (to/from 008)"
+                "propertyLabel": "EDTF date (to/from 008)"
               },
               {
                 "mandatory": "false",
@@ -20959,7 +20959,7 @@
                   "valueDataType": {}
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/date",
-                "propertyLabel": "EDTF Date (to/from 008)"
+                "propertyLabel": "EDTF date (to/from 008)"
               },
               {
                 "mandatory": "false",
@@ -21040,7 +21040,7 @@
                   "valueDataType": {}
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/date",
-                "propertyLabel": "EDTF Date (to/from 008)"
+                "propertyLabel": "EDTF date (to/from 008)"
               },
               {
                 "mandatory": "false",
@@ -21117,7 +21117,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2022-10-19T12:34:38.568Z",
+      "updateDate": "2024-12-05T20:48:42.776Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",
