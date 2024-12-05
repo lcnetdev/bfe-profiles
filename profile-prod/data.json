@@ -21914,53 +21914,6 @@
     "modified": "2022-01-27T20:04:47.553Z"
   },
   {
-    "id": "37d5229b-50db-4ce3-8f6a-156837c67893",
-    "name": "Test BIBFRAME 2.0 Item",
-    "configType": "profile",
-    "json": {
-      "Profile": {
-        "resourceTemplates": [
-          {
-            "propertyTemplates": [
-              {
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "literal",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [],
-                  "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/AccessPolicy"
-                  },
-                  "defaults": []
-                },
-                "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label",
-                "propertyLabel": "Lending or Access Policy"
-              }
-            ],
-            "id": "lc:test:bf2:access",
-            "resourceURI": "http://id.loc.gov/ontologies/bibframe/AccessPolicy",
-            "resourceLabel": "Test Access Policy"
-          }
-        ],
-        "id": "lc:profile:bf2:Item",
-        "title": "Test BIBFRAME 2.0 Item",
-        "description": "Resource templates for items",
-        "date": "2017-08-08",
-        "author": "NDMSO",
-        "remark": "Do not use this template"
-      }
-    },
-    "metadata": {
-      "createDate": "2018-09-01T00:30:21.059Z",
-      "updateDate": "2022-01-21T18:47:33.769Z",
-      "updateUser": null
-    },
-    "created": "2018-09-01T00:30:21.059Z",
-    "modified": "2022-01-21T18:47:33.769Z"
-  },
-  {
     "id": "9feae468-ca1c-4416-a83d-3a281d3cb6c2",
     "name": "BIBFRAME 2.0 Topic",
     "configType": "profile",
