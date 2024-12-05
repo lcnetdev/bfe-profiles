@@ -23942,7 +23942,7 @@
               }
             ],
             "id": "lc:RT:bf2:Topic:Childrens:Components",
-            "resourceLabel": "Children's subjects",
+            "resourceLabel": "CYAC subject",
             "resourceURI": "http://id.loc.gov/ontologies/bibframe/Topic"
           },
           {
@@ -24126,7 +24126,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.062Z",
-      "updateDate": "2022-12-13T20:37:16.502Z",
+      "updateDate": "2024-12-05T15:52:04.657Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.062Z",
