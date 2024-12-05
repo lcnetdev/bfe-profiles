@@ -2,7 +2,7 @@
   "id": "lc:RT:bf2:Analog:Instance",
   "propertyTemplates": [
     {
-      "propertyLabel": "Instance Of",
+      "propertyLabel": "Instance of",
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/instanceOf",
       "resourceTemplates": [],
       "type": "resource",
@@ -20,7 +20,7 @@
       "repeatable": "false"
     },
     {
-      "propertyLabel": "Title Information",
+      "propertyLabel": "Title information",
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/title",
       "resourceTemplates": [],
       "valueConstraint": {
@@ -51,12 +51,12 @@
         "valueDataType": {},
         "defaults": []
       },
-      "propertyLabel": "Statement of Responsibility",
+      "propertyLabel": "Statement of responsibility",
       "remark": "https://original.rdatoolkit.org/2.4.2.html",
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/responsibilityStatement"
     },
     {
-      "propertyLabel": "Edition Statement",
+      "propertyLabel": "Edition statement",
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/editionStatement",
       "resourceTemplates": [],
       "valueConstraint": {
@@ -71,7 +71,7 @@
       "remark": "https://original.rdatoolkit.org/2.5.html"
     },
     {
-      "propertyLabel": "Provision Activity",
+      "propertyLabel": "Provision activity",
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/provisionActivity",
       "resourceTemplates": [],
       "type": "resource",
@@ -102,7 +102,7 @@
         "defaults": []
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/copyrightDate",
-      "propertyLabel": "Copyright Date",
+      "propertyLabel": "Copyright date",
       "remark": "https://original.rdatoolkit.org/2.11.html"
     },
     {
@@ -128,7 +128,7 @@
         ]
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/issuance",
-      "propertyLabel": "Mode of Issuance",
+      "propertyLabel": "Mode of issuance",
       "remark": "https://original.rdatoolkit.org/2.13.html"
     },
     {
@@ -192,7 +192,7 @@
         "valueDataType": {}
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/supplementaryContent",
-      "propertyLabel": "Supplementary Content note",
+      "propertyLabel": "Supplementary content note",
       "remark": "https://original.rdatoolkit.org/7.16.html"
     },
     {
@@ -335,7 +335,7 @@
         "repeatable": "true",
         "defaults": []
       },
-      "propertyLabel": "Base Material",
+      "propertyLabel": "Base material",
       "remark": "https://original.rdatoolkit.org/3.6.html",
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/baseMaterial"
     },
@@ -355,7 +355,7 @@
         "defaults": []
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/productionMethod",
-      "propertyLabel": "Production Method",
+      "propertyLabel": "Production method",
       "remark": "https://original.rdatoolkit.org/3.9.html"
     },
     {
@@ -373,7 +373,7 @@
         },
         "defaults": []
       },
-      "propertyLabel": "Recording Generation",
+      "propertyLabel": "Recording generation",
       "remark": "https://original.rdatoolkit.org/3.10.html",
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/generation"
     },
@@ -400,7 +400,7 @@
         "defaultLiteral": "",
         "defaults": []
       },
-      "propertyLabel": "Sound Characteristics",
+      "propertyLabel": "Sound characteristics",
       "remark": "https://original.rdatoolkit.org/3.16.html",
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/soundCharacteristic"
     },
