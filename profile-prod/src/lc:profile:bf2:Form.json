@@ -43,7 +43,7 @@
       ],
       "id": "lc:RT:bf2:Form",
       "resourceURI": "http://id.loc.gov/ontologies/bibframe/GenreForm",
-      "resourceLabel": "Form/Genre"
+      "resourceLabel": "Genre/Form"
     },
     {
       "propertyTemplates": [
