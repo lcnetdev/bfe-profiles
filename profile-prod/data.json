@@ -10547,7 +10547,7 @@
             ],
             "id": "lc:RT:bf2:RelWorkLookup",
             "resourceURI": "http://id.loc.gov/ontologies/bibframe/Relation",
-            "resourceLabel": "Search Related Work"
+            "resourceLabel": "Search related Work"
           },
           {
             "propertyTemplates": [
@@ -10713,7 +10713,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2024-10-01T20:01:13.526Z",
+      "updateDate": "2024-12-05T20:53:07.665Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",
