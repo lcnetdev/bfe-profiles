@@ -19506,7 +19506,7 @@
             ],
             "id": "lc:RT:bf2:Agent:bfCorp",
             "resourceURI": "http://id.loc.gov/ontologies/bibframe/Organization",
-            "resourceLabel": "Corporate Body"
+            "resourceLabel": "Corporate body"
           },
           {
             "propertyTemplates": [
@@ -19557,7 +19557,7 @@
           {
             "resourceURI": "http://id.loc.gov/ontologies/bibframe/Person",
             "id": "lc:RT:bf2:Agent:Person",
-            "resourceLabel": "Create Personal Name",
+            "resourceLabel": "Create personal name",
             "propertyTemplates": [
               {
                 "mandatory": "false",
@@ -19719,7 +19719,7 @@
           {
             "resourceURI": "http://id.loc.gov/ontologies/bibframe/Family",
             "id": "lc:RT:bf2:Agent:Family",
-            "resourceLabel": "Create Family Name",
+            "resourceLabel": "Create family name",
             "propertyTemplates": [
               {
                 "mandatory": "false",
@@ -19941,7 +19941,7 @@
           {
             "resourceURI": "http://id.loc.gov/ontologies/bibframe/Organization",
             "id": "lc:RT:bf2:Agent:CorporateBody",
-            "resourceLabel": "Create Corporate Body Name",
+            "resourceLabel": "Create corporate body name",
             "propertyTemplates": [
               {
                 "mandatory": "false",
@@ -20181,7 +20181,7 @@
           {
             "resourceURI": "http://id.loc.gov/ontologies/bibframe/Meeting",
             "id": "lc:RT:bf2:Agent:Conference",
-            "resourceLabel": "Create Conference Name",
+            "resourceLabel": "Create conference name",
             "propertyTemplates": [
               {
                 "mandatory": "false",
@@ -20419,7 +20419,7 @@
           {
             "resourceURI": "http://id.loc.gov/ontologies/bibframe/Jurisdiction",
             "id": "lc:RT:bf2:Agent:Jurisdiction",
-            "resourceLabel": "Create Jurisdiction Name",
+            "resourceLabel": "Create jurisdiction name",
             "propertyTemplates": [
               {
                 "mandatory": "false",
@@ -20675,7 +20675,7 @@
               }
             ],
             "id": "lc:RT:bf2:Agents:Addresses:Extended",
-            "resourceLabel": "Addresses, Extended",
+            "resourceLabel": "Addresses, extended",
             "resourceURI": "http://www.loc.gov/mads/rdf/v1#Address"
           },
           {
@@ -20704,21 +20704,19 @@
                 "type": "resource",
                 "resourceTemplates": [],
                 "valueConstraint": {
-                  "valueTemplateRefs": [
-                    "lc:RT:bf2:Agent:Role"
-                  ],
+                  "valueTemplateRefs": [],
                   "useValuesFrom": [],
                   "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Role"
+                    "dataTypeURI": ""
                   },
                   "defaults": []
                 },
-                "propertyLabel": "Relationship Designator (RDA Appendix K)",
+                "propertyLabel": "Relationship designator",
                 "remark": "http://access.rdatoolkit.org/rdaappk_rdak-15.html",
                 "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label"
               }
             ],
-            "resourceLabel": "Related Agents",
+            "resourceLabel": "Related agents",
             "id": "lc:RT:bf2:Agents:RelatedAgents",
             "resourceURI": "http://www.loc.gov/mads/rdf/v1#Authority"
           },
@@ -20785,7 +20783,7 @@
                 "remark": "http://access.rdatoolkit.org/rdachp8_rda8-531.html"
               }
             ],
-            "resourceLabel": "Sources Consulted and Cataloger's Notes",
+            "resourceLabel": "Sources consulted and cataloger's notes",
             "id": "lc:RT:bf2:Agents:Source",
             "resourceURI": "http://www.loc.gov/mads/rdf/v1#Source"
           },
@@ -20808,7 +20806,7 @@
               }
             ],
             "id": "lc:RT:bf2:Agents:VariantAgents",
-            "resourceLabel": "Variant Access Points Representing Agents",
+            "resourceLabel": "Variant access points representing agents",
             "resourceURI": "http://www.loc.gov/mads/rdf/v1#hasVariant"
           },
           {
@@ -20894,13 +20892,13 @@
         "id": "lc:profile:bf2:Agents:Attributes",
         "title": "BIBFRAME 2.0 Agents",
         "date": "2017-05-22",
-        "description": "Agents are people, organizations, jurisdictions, etc., associated with a Work or Instance",
+        "description": "Agents",
         "author": "NDMSO"
       }
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.059Z",
-      "updateDate": "2022-12-07T19:20:48.383Z",
+      "updateDate": "2024-12-05T20:07:08.133Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.059Z",

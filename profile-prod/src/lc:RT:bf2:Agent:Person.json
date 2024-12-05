@@ -1,7 +1,7 @@
 {
   "resourceURI": "http://id.loc.gov/ontologies/bibframe/Person",
   "id": "lc:RT:bf2:Agent:Person",
-  "resourceLabel": "Create Personal Name",
+  "resourceLabel": "Create personal name",
   "propertyTemplates": [
     {
       "mandatory": "false",

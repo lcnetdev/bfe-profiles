@@ -61,7 +61,7 @@
       "remark": "http://access.rdatoolkit.org/rdachp8_rda8-531.html"
     }
   ],
-  "resourceLabel": "Sources Consulted and Cataloger's Notes",
+  "resourceLabel": "Sources consulted and cataloger's notes",
   "id": "lc:RT:bf2:Agents:Source",
   "resourceURI": "http://www.loc.gov/mads/rdf/v1#Source"
 }

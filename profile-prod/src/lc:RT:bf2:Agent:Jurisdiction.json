@@ -1,7 +1,7 @@
 {
   "resourceURI": "http://id.loc.gov/ontologies/bibframe/Jurisdiction",
   "id": "lc:RT:bf2:Agent:Jurisdiction",
-  "resourceLabel": "Create Jurisdiction Name",
+  "resourceLabel": "Create jurisdiction name",
   "propertyTemplates": [
     {
       "mandatory": "false",
