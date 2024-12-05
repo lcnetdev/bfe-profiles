@@ -111,7 +111,7 @@
             "defaults": []
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/musicMedium",
-          "propertyLabel": "Medium of performance statements",
+          "propertyLabel": "Medium of performance statement",
           "remark": "https://original.rdatoolkit.org/7.21.html"
         },
         {

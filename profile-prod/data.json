@@ -16664,7 +16664,7 @@
                   "defaults": []
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/musicMedium",
-                "propertyLabel": "Medium of performance statements",
+                "propertyLabel": "Medium of performance statement",
                 "remark": "https://original.rdatoolkit.org/7.21.html"
               },
               {
@@ -17596,7 +17596,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2024-12-05T20:46:06.861Z",
+      "updateDate": "2024-12-05T21:17:20.552Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",
