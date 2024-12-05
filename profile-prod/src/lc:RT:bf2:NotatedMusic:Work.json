@@ -37,7 +37,7 @@
         "defaults": []
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/title",
-      "propertyLabel": "Title Information",
+      "propertyLabel": "Title information",
       "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Work/ExpressionTitles"
     },
     {
@@ -57,7 +57,7 @@
         "editable": "false"
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/genreForm",
-      "propertyLabel": "Form/Genre",
+      "propertyLabel": "Genre/Form",
       "remark": ""
     },
     {
@@ -92,7 +92,7 @@
         "editable": "true"
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/originPlace",
-      "propertyLabel": "Place of Origin of the Work",
+      "propertyLabel": "Place of origin of the Work",
       "remark": "https://original.rdatoolkit.org/6.5.html"
     },
     {
@@ -109,7 +109,7 @@
         "defaults": []
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/musicMedium",
-      "propertyLabel": "Medium of Performance statements",
+      "propertyLabel": "Medium of performance statements",
       "remark": "https://original.rdatoolkit.org/7.21.html"
     },
     {
@@ -158,7 +158,7 @@
         "defaults": []
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/musicSerialNumber",
-      "propertyLabel": "Music Serial Number",
+      "propertyLabel": "Music serial number",
       "remark": "https://original.rdatoolkit.org/6.16.html"
     },
     {
@@ -173,7 +173,7 @@
         "defaults": []
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/musicOpusNumber",
-      "propertyLabel": "Music Opus Number",
+      "propertyLabel": "Music opus number",
       "remark": "https://original.rdatoolkit.org/6.16.html"
     },
     {
@@ -188,7 +188,7 @@
         "defaults": []
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/musicThematicNumber",
-      "propertyLabel": "Thematic Index Number",
+      "propertyLabel": "Thematic index number",
       "remark": "https://original.rdatoolkit.org/6.16.html"
     },
     {
@@ -222,7 +222,7 @@
         "defaults": []
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/intendedAudience",
-      "propertyLabel": "Intended Audience",
+      "propertyLabel": "Intended audience",
       "remark": "https://original.rdatoolkit.org/7.7.html"
     },
     {
@@ -280,7 +280,7 @@
         "editable": "true"
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/subject",
-      "propertyLabel": "Subject of the Work",
+      "propertyLabel": "Subjects",
       "remark": "http://original.rdatoolkit.org/rdachp23_rda23-12.html"
     },
     {
@@ -338,7 +338,7 @@
         ]
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/content",
-      "propertyLabel": "Content Type",
+      "propertyLabel": "Content type",
       "remark": "https://original.rdatoolkit.org/6.9.html"
     },
     {
@@ -431,7 +431,7 @@
         "defaults": []
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/notation",
-      "propertyLabel": "Form of Musical Notation",
+      "propertyLabel": "Form of musical notation",
       "remark": "https://original.rdatoolkit.org/7.13.3.html"
     },
     {
@@ -469,7 +469,7 @@
         "defaults": []
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/illustrativeContent",
-      "propertyLabel": "Illustrative Content",
+      "propertyLabel": "Illustrative content",
       "remark": "https://original.rdatoolkit.org/7.15.html"
     },
     {
@@ -488,7 +488,7 @@
         "defaults": []
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/supplementaryContent",
-      "propertyLabel": "Supplementary Content",
+      "propertyLabel": "Supplementary content",
       "remark": "https://original.rdatoolkit.org/7.16.html"
     },
     {
@@ -507,7 +507,7 @@
         "defaults": []
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/colorContent",
-      "propertyLabel": "Color Content",
+      "propertyLabel": "Color content",
       "remark": "https://original.rdatoolkit.org/7.17.html"
     },
     {
@@ -526,7 +526,7 @@
         "defaults": []
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/musicFormat",
-      "propertyLabel": "Format of Notated Music",
+      "propertyLabel": "Format of notated music",
       "remark": "https://original.rdatoolkit.org/7.20.html"
     },
     {
@@ -577,7 +577,7 @@
         }
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/relation",
-      "propertyLabel": "Input Transcribed Series",
+      "propertyLabel": "Input transcribed series",
       "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Series(490,8XX)"
     },
     {
@@ -596,7 +596,7 @@
         }
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/relation",
-      "propertyLabel": "Search Series Hub (optional)",
+      "propertyLabel": "Search series Hub (optional)",
       "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Series(490,8XX)"
     },
     {
