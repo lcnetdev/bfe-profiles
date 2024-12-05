@@ -107,7 +107,7 @@
         "valueDataType": {}
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/usageAndAccessPolicy",
-      "propertyLabel": "Lending, Reproduction, and Retention Policies"
+      "propertyLabel": "Lending, reproduction, and retention policies"
     },
     {
       "mandatory": "false",
@@ -156,7 +156,7 @@
         "valueDataType": {}
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/digitalCharacteristic",
-      "propertyLabel": "Digital File Characteristics",
+      "propertyLabel": "Digital file characteristics",
       "remark": "https://original.rdatoolkit.org/3.19.html"
     },
     {
@@ -176,7 +176,7 @@
         "valueDataType": {}
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/soundCharacteristic",
-      "propertyLabel": "Sound Characteristics",
+      "propertyLabel": "Sound characteristics",
       "remark": "https://original.rdatoolkit.org/3.16.html"
     }
   ],

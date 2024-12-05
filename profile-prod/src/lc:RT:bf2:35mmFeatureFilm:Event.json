@@ -26,7 +26,7 @@
         "defaults": []
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/date",
-      "propertyLabel": "Date of Event"
+      "propertyLabel": "Date of event"
     }
   ],
   "id": "lc:RT:bf2:35mmFeatureFilm:Event",
