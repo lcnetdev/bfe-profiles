@@ -12,10 +12,10 @@
         "valueDataType": {}
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/code",
-      "propertyLabel": "Dewey Edition number"
+      "propertyLabel": "Dewey edition number"
     }
   ],
   "resourceURI": "http://id.loc.gov/ontologies/bibframe/Source",
   "id": "lc:RT:bf2:DDCEdNum",
-  "resourceLabel": "Dewey Edition number"
+  "resourceLabel": "Dewey edition number"
 }

@@ -8,11 +8,16 @@
       "valueConstraint": {
         "valueTemplateRefs": [],
         "useValuesFrom": [],
-        "defaults": [],
+        "defaults": [
+          {
+            "defaultURI": "",
+            "defaultLiteral": ""
+          }
+        ],
         "valueDataType": {}
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/classificationPortion",
-      "propertyLabel": "Other Classification number"
+      "propertyLabel": "Other classification number"
     },
     {
       "mandatory": "false",
@@ -54,5 +59,5 @@
   ],
   "id": "lc:RT:bf2:OtherClass",
   "resourceURI": "http://id.loc.gov/ontologies/bibframe/Classification",
-  "resourceLabel": "Other Classification number"
+  "resourceLabel": "Other classification number"
 }

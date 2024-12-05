@@ -56,7 +56,7 @@
             ]
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/source",
-          "propertyLabel": "Dewey Edition number"
+          "propertyLabel": "Dewey edition number"
         },
         {
           "mandatory": "false",
@@ -103,7 +103,7 @@
         }
       ],
       "id": "lc:RT:bf2:DDC",
-      "resourceLabel": "Dewey Decimal Classification",
+      "resourceLabel": "Dewey Decimal classification",
       "resourceURI": "http://id.loc.gov/ontologies/bibframe/ClassificationDdc"
     },
     {
@@ -120,12 +120,12 @@
             "valueDataType": {}
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/code",
-          "propertyLabel": "Dewey Edition number"
+          "propertyLabel": "Dewey edition number"
         }
       ],
       "resourceURI": "http://id.loc.gov/ontologies/bibframe/Source",
       "id": "lc:RT:bf2:DDCEdNum",
-      "resourceLabel": "Dewey Edition number"
+      "resourceLabel": "Dewey edition number"
     },
     {
       "propertyTemplates": [
@@ -206,7 +206,7 @@
         }
       ],
       "id": "lc:RT:bf2:LCC",
-      "resourceLabel": "Library of Congress Classification",
+      "resourceLabel": "Library of Congress classification",
       "resourceURI": "http://id.loc.gov/ontologies/bibframe/ClassificationLcc"
     },
     {
@@ -251,7 +251,7 @@
       ],
       "id": "lc:RT:bf2:NLM",
       "resourceURI": "http://id.loc.gov/ontologies/bibframe/ClassificationNlm",
-      "resourceLabel": "National Library of Medicine Classification"
+      "resourceLabel": "National Library of Medicine classification"
     },
     {
       "propertyTemplates": [
@@ -263,11 +263,16 @@
           "valueConstraint": {
             "valueTemplateRefs": [],
             "useValuesFrom": [],
-            "defaults": [],
+            "defaults": [
+              {
+                "defaultURI": "",
+                "defaultLiteral": ""
+              }
+            ],
             "valueDataType": {}
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/classificationPortion",
-          "propertyLabel": "Other Classification number"
+          "propertyLabel": "Other classification number"
         },
         {
           "mandatory": "false",
@@ -309,7 +314,7 @@
       ],
       "id": "lc:RT:bf2:OtherClass",
       "resourceURI": "http://id.loc.gov/ontologies/bibframe/Classification",
-      "resourceLabel": "Other Classification number"
+      "resourceLabel": "Other classification number"
     }
   ],
   "id": "lc:profile:bf2:Classification",

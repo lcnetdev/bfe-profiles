@@ -77,6 +77,6 @@
     }
   ],
   "id": "lc:RT:bf2:LCC",
-  "resourceLabel": "Library of Congress Classification",
+  "resourceLabel": "Library of Congress classification",
   "resourceURI": "http://id.loc.gov/ontologies/bibframe/ClassificationLcc"
 }

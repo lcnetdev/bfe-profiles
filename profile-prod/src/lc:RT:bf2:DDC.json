@@ -54,7 +54,7 @@
         ]
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/source",
-      "propertyLabel": "Dewey Edition number"
+      "propertyLabel": "Dewey edition number"
     },
     {
       "mandatory": "false",
@@ -101,6 +101,6 @@
     }
   ],
   "id": "lc:RT:bf2:DDC",
-  "resourceLabel": "Dewey Decimal Classification",
+  "resourceLabel": "Dewey Decimal classification",
   "resourceURI": "http://id.loc.gov/ontologies/bibframe/ClassificationDdc"
 }
