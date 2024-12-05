@@ -64,7 +64,7 @@
         "defaults": [],
         "valueDataType": {}
       },
-      "propertyLabel": "Enumeration and Chronology",
+      "propertyLabel": "Enumeration and chronology",
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/enumerationAndChronology"
     },
     {

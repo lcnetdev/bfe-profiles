@@ -12,7 +12,7 @@
         "valueDataType": {}
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/firstIssue",
-      "propertyLabel": "Numeric and/or Alphabetic Designation of First Issue or Part of Sequence",
+      "propertyLabel": "Alphanumeric designation of First issue or Part of sequence",
       "remark": "http://access.rdatoolkit.org/rdachp2_rda2-5592.html"
     },
     {
@@ -27,7 +27,7 @@
         "valueDataType": {}
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/firstIssue",
-      "propertyLabel": "Chronological Designation of First Issue or Part of Sequence",
+      "propertyLabel": "Chronological designation of First issue or Part of sequence",
       "remark": "http://access.rdatoolkit.org/rdachp2_rda2-5667.html"
     },
     {
@@ -42,7 +42,7 @@
         "valueDataType": {}
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/lastIssue",
-      "propertyLabel": "Numeric and/or Alphabetic Designation of Last Issue or Part of Sequence",
+      "propertyLabel": "Alphanumeric designation of Last issue or Part of sequence",
       "remark": "http://access.rdatoolkit.org/rdachp2_rda2-5759.html"
     },
     {
@@ -57,11 +57,11 @@
         "valueDataType": {}
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/lastIssue",
-      "propertyLabel": "Chronological Designation of Last Issue or Part of Sequence",
+      "propertyLabel": "Chronological designation of Last issue or Part of sequence",
       "remark": "http://access.rdatoolkit.org/rdachp2_rda2-5813.html"
     }
   ],
   "id": "lc:RT:bf2:Serial:EnumerationAndChronology",
   "resourceURI": "http://id.loc.gov/ontologies/bibframe/EnumerationAndChronology",
-  "resourceLabel": "Enumeration And Chronology"
+  "resourceLabel": "Enumeration and chronology"
 }
