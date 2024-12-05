@@ -12,10 +12,10 @@
         "defaults": []
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/mainTitle",
-      "propertyLabel": "Collective Title"
+      "propertyLabel": "Collective title"
     }
   ],
   "id": "lc:RT:bf2:Title:CollTitle",
   "resourceURI": "http://id.loc.gov/ontologies/bibframe/CollectiveTitle",
-  "resourceLabel": "Collective Title"
+  "resourceLabel": "Collective title"
 }

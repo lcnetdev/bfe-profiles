@@ -12,7 +12,7 @@
         "defaults": []
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/mainTitle",
-      "propertyLabel": "Abbreviated Title"
+      "propertyLabel": "Abbreviated title"
     },
     {
       "mandatory": "false",
@@ -50,5 +50,5 @@
   ],
   "resourceURI": "http://id.loc.gov/ontologies/bibframe/AbbreviatedTitle",
   "id": "lc:RT:bf2:Title:AbbrTitle",
-  "resourceLabel": "Abbreviated Key Title"
+  "resourceLabel": "Abbreviated title"
 }
