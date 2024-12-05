@@ -989,7 +989,8 @@
                 "valueConstraint": {
                   "valueTemplateRefs": [],
                   "useValuesFrom": [
-                    "http://id.loc.gov/vocabulary/maudience"
+                    "http://id.loc.gov/vocabulary/maudience",
+                    "http://id.loc.gov/authorities/demographicTerms"
                   ],
                   "valueDataType": {
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/IntendedAudience"
@@ -1922,7 +1923,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2024-12-02T15:40:27.741Z",
+      "updateDate": "2024-12-05T16:52:46.125Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",
