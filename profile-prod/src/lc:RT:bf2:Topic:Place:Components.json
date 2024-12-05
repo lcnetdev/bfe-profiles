@@ -17,7 +17,7 @@
         "valueDataType": {}
       },
       "propertyURI": "http://www.loc.gov/mads/rdf/v1#componentList",
-      "propertyLabel": "Search Subject Components"
+      "propertyLabel": "Search subject components"
     },
     {
       "mandatory": "false",

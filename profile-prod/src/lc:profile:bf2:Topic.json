@@ -23,7 +23,7 @@
             "editable": "true"
           },
           "propertyURI": "http://www.loc.gov/mads/rdf/v1#componentList",
-          "propertyLabel": "Search Subject Components"
+          "propertyLabel": "Search subject components"
         },
         {
           "mandatory": "false",
@@ -72,7 +72,7 @@
             "valueDataType": {}
           },
           "propertyURI": "http://www.loc.gov/mads/rdf/v1#componentList",
-          "propertyLabel": "Search Subject Components"
+          "propertyLabel": "Search subject components"
         },
         {
           "mandatory": "false",
@@ -128,7 +128,7 @@
       ],
       "id": "lc:RT:bf2:Topic:madsTopic",
       "resourceURI": "http://www.loc.gov/mads/rdf/v1#Topic",
-      "resourceLabel": "Heading or Topical subdivision"
+      "resourceLabel": "Heading or topical subdivision"
     },
     {
       "propertyTemplates": [
@@ -305,7 +305,7 @@
             "editable": "false"
           },
           "propertyURI": "http://www.loc.gov/mads/rdf/v1#componentList",
-          "propertyLabel": "Search Subject Components"
+          "propertyLabel": "Search subject components"
         },
         {
           "mandatory": "false",
@@ -477,7 +477,7 @@
             }
           },
           "propertyURI": "http://www.loc.gov/mads/rdf/v1#componentList",
-          "propertyLabel": "Search Subject Components"
+          "propertyLabel": "Search subject components"
         },
         {
           "mandatory": "false",
