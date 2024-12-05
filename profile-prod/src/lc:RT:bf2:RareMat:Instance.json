@@ -35,7 +35,7 @@
         "defaults": []
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/title",
-      "propertyLabel": "Title Information",
+      "propertyLabel": "Title information",
       "remark": "https://original.rdatoolkit.org/rdachp2_rda2-3376.html"
     },
     {
@@ -65,7 +65,7 @@
         "defaults": []
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/editionStatement",
-      "propertyLabel": "Edition Statement",
+      "propertyLabel": "Edition statement",
       "remark": "https://original.rdatoolkit.org/2.5.html"
     },
     {
@@ -85,7 +85,7 @@
         "defaults": []
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/provisionActivity",
-      "propertyLabel": "Provision Activity",
+      "propertyLabel": "Provision activity",
       "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-ProvisionActivity(264)"
     },
     {
@@ -100,7 +100,7 @@
         "defaults": []
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/copyrightDate",
-      "propertyLabel": "Copyright Date",
+      "propertyLabel": "Copyright date",
       "remark": "https://original.rdatoolkit.org/2.11.html"
     },
     {
@@ -118,7 +118,7 @@
         "defaults": []
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/genreForm",
-      "propertyLabel": "Form of Instance"
+      "propertyLabel": "Genre/Form"
     },
     {
       "mandatory": "false",
@@ -171,7 +171,7 @@
         "valueDataType": {}
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/supplementaryContent",
-      "propertyLabel": "Supplementary Content note",
+      "propertyLabel": "Supplementary content note",
       "remark": "https://original.rdatoolkit.org/7.16.html"
     },
     {
@@ -213,7 +213,7 @@
         ]
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/issuance",
-      "propertyLabel": "Mode of Issuance",
+      "propertyLabel": "Mode of issuance",
       "remark": "https://original.rdatoolkit.org/2.13.html"
     },
     {

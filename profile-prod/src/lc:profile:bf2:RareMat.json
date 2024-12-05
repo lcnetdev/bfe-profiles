@@ -38,7 +38,7 @@
             "defaults": []
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/title",
-          "propertyLabel": "Title Information",
+          "propertyLabel": "Title information",
           "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Work/ExpressionTitles"
         },
         {
@@ -80,7 +80,7 @@
             "repeatable": "true"
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/subject",
-          "propertyLabel": "Subject of the Work",
+          "propertyLabel": "Subjects",
           "remark": "http://original.rdatoolkit.org/rdachp23_rda23-12.html"
         },
         {
@@ -118,7 +118,7 @@
             "editable": "false"
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/genreForm",
-          "propertyLabel": "Form/Genre",
+          "propertyLabel": "Genre/Form",
           "remark": ""
         },
         {
@@ -137,7 +137,7 @@
             "defaults": []
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/intendedAudience",
-          "propertyLabel": "Intended Audience",
+          "propertyLabel": "Intended audience",
           "remark": "https://original.rdatoolkit.org/7.7.html"
         },
         {
@@ -212,7 +212,7 @@
             ]
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/content",
-          "propertyLabel": "Content Type",
+          "propertyLabel": "Content type",
           "remark": "https://original.rdatoolkit.org/6.9.html"
         },
         {
@@ -288,7 +288,7 @@
             "defaults": []
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/illustrativeContent",
-          "propertyLabel": "Illustrative Content",
+          "propertyLabel": "Illustrative content",
           "remark": "https://original.rdatoolkit.org/7.15.html"
         },
         {
@@ -307,7 +307,7 @@
             "defaults": []
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/colorContent",
-          "propertyLabel": "Color Content",
+          "propertyLabel": "Color content",
           "remark": "https://original.rdatoolkit.org/7.17.html"
         },
         {
@@ -326,7 +326,7 @@
             "defaults": []
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/supplementaryContent",
-          "propertyLabel": "Supplementary Content",
+          "propertyLabel": "Supplementary content",
           "remark": "https://original.rdatoolkit.org/7.16.html"
         },
         {
@@ -362,7 +362,7 @@
             }
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/relation",
-          "propertyLabel": "Input Transcribed Series",
+          "propertyLabel": "Input transcribed series",
           "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Series(490,8XX)"
         },
         {
@@ -381,7 +381,7 @@
             }
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/relation",
-          "propertyLabel": "Search Series Hub (optional)",
+          "propertyLabel": "Search series Hub (optional)",
           "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Series(490,8XX)"
         },
         {
@@ -442,7 +442,7 @@
             "defaults": []
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/title",
-          "propertyLabel": "Title Information",
+          "propertyLabel": "Title information",
           "remark": "https://original.rdatoolkit.org/rdachp2_rda2-3376.html"
         },
         {
@@ -472,7 +472,7 @@
             "defaults": []
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/editionStatement",
-          "propertyLabel": "Edition Statement",
+          "propertyLabel": "Edition statement",
           "remark": "https://original.rdatoolkit.org/2.5.html"
         },
         {
@@ -492,7 +492,7 @@
             "defaults": []
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/provisionActivity",
-          "propertyLabel": "Provision Activity",
+          "propertyLabel": "Provision activity",
           "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-ProvisionActivity(264)"
         },
         {
@@ -507,7 +507,7 @@
             "defaults": []
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/copyrightDate",
-          "propertyLabel": "Copyright Date",
+          "propertyLabel": "Copyright date",
           "remark": "https://original.rdatoolkit.org/2.11.html"
         },
         {
@@ -525,7 +525,7 @@
             "defaults": []
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/genreForm",
-          "propertyLabel": "Form of Instance"
+          "propertyLabel": "Genre/Form"
         },
         {
           "mandatory": "false",
@@ -578,7 +578,7 @@
             "valueDataType": {}
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/supplementaryContent",
-          "propertyLabel": "Supplementary Content note",
+          "propertyLabel": "Supplementary content note",
           "remark": "https://original.rdatoolkit.org/7.16.html"
         },
         {
@@ -620,7 +620,7 @@
             ]
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/issuance",
-          "propertyLabel": "Mode of Issuance",
+          "propertyLabel": "Mode of issuance",
           "remark": "https://original.rdatoolkit.org/2.13.html"
         },
         {
@@ -765,7 +765,7 @@
             "defaults": []
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/contribution",
-          "propertyLabel": "Agents/Collections associated with Item"
+          "propertyLabel": "Agents/collections associated with Item"
         },
         {
           "mandatory": "false",
@@ -779,7 +779,7 @@
             "defaults": []
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/custodialHistory",
-          "propertyLabel": "Custodial History/Provenance",
+          "propertyLabel": "Custodial history/Provenance",
           "remark": "https://original.rdatoolkit.org/2.18.html"
         },
         {
@@ -796,7 +796,7 @@
             "defaults": []
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/immediateAcquisition",
-          "propertyLabel": "Immediate Source of Acquisition",
+          "propertyLabel": "Immediate source of acquisition",
           "remark": ""
         },
         {
@@ -830,7 +830,7 @@
             "defaults": []
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/genreForm",
-          "propertyLabel": "Form/Genre"
+          "propertyLabel": "Genre/Form"
         },
         {
           "mandatory": "false",
@@ -864,7 +864,7 @@
             "defaults": []
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/title",
-          "propertyLabel": "Item Title"
+          "propertyLabel": "Item title"
         },
         {
           "mandatory": "false",
@@ -873,13 +873,13 @@
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [
-              "lc:RT:bf2:RelatedWork"
+              "lc:RT:bf2:RelWorkInput"
             ],
             "useValuesFrom": [],
             "valueDataType": {},
             "defaults": []
           },
-          "propertyLabel": "Related Works",
+          "propertyLabel": "Related works",
           "propertyURI": "http://id.loc.gov/ontologies/bflc/relationship"
         }
       ],
@@ -984,7 +984,7 @@
             "valueDataType": {}
           },
           "propertyURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
-          "propertyLabel": "URL for Reference"
+          "propertyLabel": "URL for reference"
         },
         {
           "mandatory": "false",

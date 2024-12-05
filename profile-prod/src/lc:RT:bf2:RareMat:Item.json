@@ -17,7 +17,7 @@
         "defaults": []
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/contribution",
-      "propertyLabel": "Agents/Collections associated with Item"
+      "propertyLabel": "Agents/collections associated with Item"
     },
     {
       "mandatory": "false",
@@ -31,7 +31,7 @@
         "defaults": []
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/custodialHistory",
-      "propertyLabel": "Custodial History/Provenance",
+      "propertyLabel": "Custodial history/Provenance",
       "remark": "https://original.rdatoolkit.org/2.18.html"
     },
     {
@@ -48,7 +48,7 @@
         "defaults": []
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/immediateAcquisition",
-      "propertyLabel": "Immediate Source of Acquisition",
+      "propertyLabel": "Immediate source of acquisition",
       "remark": ""
     },
     {
@@ -82,7 +82,7 @@
         "defaults": []
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/genreForm",
-      "propertyLabel": "Form/Genre"
+      "propertyLabel": "Genre/Form"
     },
     {
       "mandatory": "false",
@@ -116,7 +116,7 @@
         "defaults": []
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/title",
-      "propertyLabel": "Item Title"
+      "propertyLabel": "Item title"
     },
     {
       "mandatory": "false",
@@ -125,13 +125,13 @@
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [
-          "lc:RT:bf2:RelatedWork"
+          "lc:RT:bf2:RelWorkInput"
         ],
         "useValuesFrom": [],
         "valueDataType": {},
         "defaults": []
       },
-      "propertyLabel": "Related Works",
+      "propertyLabel": "Related works",
       "propertyURI": "http://id.loc.gov/ontologies/bflc/relationship"
     }
   ],
