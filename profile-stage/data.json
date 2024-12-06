@@ -33322,7 +33322,7 @@
         ],
         "id": "lc:profile:bf2:Subjects",
         "title": "Subjects",
-        "description": "testing a new configuration for subjects",
+        "description": "Test Subjects (unused)",
         "date": "2020-12-21",
         "author": "NDMSO"
       }
@@ -33330,7 +33330,7 @@
     "id": "8917607a-509f-466c-bdb5-1cad67e5c9af",
     "metadata": {
       "createDate": "2020-12-21T14:05:49.850Z",
-      "updateDate": "2022-12-06T20:53:30.000Z",
+      "updateDate": "2024-12-06T20:49:11.439Z",
       "createUser": null,
       "updateUser": null
     },
