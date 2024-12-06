@@ -18,7 +18,7 @@
         }
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/agent",
-      "propertyLabel": "Primary Contributor"
+      "propertyLabel": "Primary contributor"
     },
     {
       "mandatory": "true",
@@ -36,11 +36,11 @@
         }
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
-      "propertyLabel": "Primary Role"
+      "propertyLabel": "Role"
     }
   ],
   "id": "lc:RT:bf2:Hub:PrimaryContribution",
-  "resourceLabel": "Primary Contributor",
+  "resourceLabel": "Primary contributor",
   "resourceURI": "http://id.loc.gov/ontologies/bibframe/PrimaryContribution",
   "author": "NDMSO"
 }

@@ -18,7 +18,7 @@
             }
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/contribution",
-          "propertyLabel": "Primary Contributor"
+          "propertyLabel": "Primary contributor"
         },
         {
           "type": "resource",
@@ -55,7 +55,7 @@
             "valueDataType": {}
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/title",
-          "propertyLabel": "Preferred Title",
+          "propertyLabel": "Preferred title",
           "mandatory": "false",
           "type": "resource"
         },
@@ -70,7 +70,7 @@
             "valueDataType": {}
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/title",
-          "propertyLabel": "Variant Title",
+          "propertyLabel": "Variant title",
           "mandatory": "false",
           "repeatable": "true",
           "type": "resource"
@@ -88,7 +88,7 @@
             "languageURI": "http://id.loc.gov/vocabulary/languages/und"
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/title",
-          "propertyLabel": "Transliterated Title",
+          "propertyLabel": "Transliterated title",
           "mandatory": "false",
           "repeatable": "true",
           "type": "resource"
@@ -103,7 +103,7 @@
             "valueDataType": {}
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/originDate",
-          "propertyLabel": "Date Work Created",
+          "propertyLabel": "Date created",
           "mandatory": "false",
           "type": "literal"
         },
@@ -163,7 +163,7 @@
             }
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/musicMedium",
-          "propertyLabel": "Music Medium",
+          "propertyLabel": "Music medium",
           "mandatory": "false",
           "repeatable": "true"
         },
@@ -177,7 +177,7 @@
             "valueDataType": {}
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/musicSerialNumber",
-          "propertyLabel": "Music Serial Number",
+          "propertyLabel": "Music serial number",
           "mandatory": "false",
           "type": "literal"
         },
@@ -191,7 +191,7 @@
             "valueDataType": {}
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/musicOpusNumber",
-          "propertyLabel": "Music Opus Number",
+          "propertyLabel": "Music opus number",
           "mandatory": "false",
           "type": "literal"
         },
@@ -207,7 +207,7 @@
             "valueDataType": {}
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/musicKey",
-          "propertyLabel": "Music Key"
+          "propertyLabel": "Key"
         },
         {
           "resourceTemplates": [],
@@ -218,7 +218,7 @@
             "valueDataType": {}
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/musicThematicNumber",
-          "propertyLabel": "Music Thematic Number",
+          "propertyLabel": "Music thematic number",
           "mandatory": "false",
           "repeatable": "true",
           "type": "literal"
@@ -243,7 +243,7 @@
             }
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/translationOf",
-          "propertyLabel": "Translation Of",
+          "propertyLabel": "Translation of",
           "remark": "",
           "mandatory": "false"
         },
@@ -262,7 +262,7 @@
             }
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/arrangementOf",
-          "propertyLabel": "Arrangement Of",
+          "propertyLabel": "Arrangement of",
           "remark": "Only used for music",
           "mandatory": "false"
         },
@@ -280,7 +280,7 @@
             }
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/partOf",
-          "propertyLabel": "Is Part Of",
+          "propertyLabel": "Part of",
           "remark": "a.k.a. is Contained In",
           "mandatory": "false",
           "repeatable": "true"
@@ -358,7 +358,7 @@
             }
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/agent",
-          "propertyLabel": "Primary Contributor"
+          "propertyLabel": "Primary contributor"
         },
         {
           "mandatory": "true",
@@ -376,11 +376,11 @@
             }
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
-          "propertyLabel": "Primary Role"
+          "propertyLabel": "Role"
         }
       ],
       "id": "lc:RT:bf2:Hub:PrimaryContribution",
-      "resourceLabel": "Primary Contributor",
+      "resourceLabel": "Primary contributor",
       "resourceURI": "http://id.loc.gov/ontologies/bibframe/PrimaryContribution",
       "author": "NDMSO"
     },
@@ -423,7 +423,7 @@
         }
       ],
       "id": "lc:RT:bf2:Hub:Contribution",
-      "resourceLabel": "Other Contributor",
+      "resourceLabel": "Other contributor",
       "author": "NDMSO",
       "resourceURI": "http://id.loc.gov/ontologies/bibframe/Contribution"
     }

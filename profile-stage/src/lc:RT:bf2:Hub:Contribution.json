@@ -37,7 +37,7 @@
     }
   ],
   "id": "lc:RT:bf2:Hub:Contribution",
-  "resourceLabel": "Other Contributor",
+  "resourceLabel": "Other contributor",
   "author": "NDMSO",
   "resourceURI": "http://id.loc.gov/ontologies/bibframe/Contribution"
 }
