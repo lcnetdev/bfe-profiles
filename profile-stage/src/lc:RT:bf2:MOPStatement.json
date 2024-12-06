@@ -27,7 +27,7 @@
         "valueDataType": {}
       },
       "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label",
-      "propertyLabel": "Medium of Performance text"
+      "propertyLabel": "Medium of performance text"
     }
   ],
   "id": "lc:RT:bf2:MOPStatement",

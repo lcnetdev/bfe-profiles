@@ -17,5 +17,5 @@
   ],
   "id": "lc:RT:bf2:URL",
   "resourceURI": "http://www.w3.org/2000/01/rdf-schema#Resource",
-  "resourceLabel": "Uniform Resource Locator"
+  "resourceLabel": "URL"
 }

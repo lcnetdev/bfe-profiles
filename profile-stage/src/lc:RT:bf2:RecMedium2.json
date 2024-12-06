@@ -23,6 +23,6 @@
     }
   ],
   "id": "lc:RT:bf2:RecMedium2",
-  "resourceLabel": "Recording medium (Magnetic)",
+  "resourceLabel": "Recording medium (magnetic)",
   "resourceURI": "http://id.loc.gov/ontologies/bibframe/RecordingMedium"
 }

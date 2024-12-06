@@ -16,7 +16,7 @@
         }
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/MusicInstrument",
-      "propertyLabel": "LCMPT for Instrument"
+      "propertyLabel": "Instrument lookup"
     },
     {
       "mandatory": "false",

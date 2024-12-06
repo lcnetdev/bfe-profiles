@@ -16,7 +16,7 @@
         }
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/MusicEnsemble",
-      "propertyLabel": "LCMPT for Ensemble"
+      "propertyLabel": "Ensemble lookup"
     },
     {
       "mandatory": "false",
@@ -44,7 +44,7 @@
         "valueDataType": {}
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/ensembleType",
-      "propertyLabel": "Type of Ensemble"
+      "propertyLabel": "Type of ensemble"
     },
     {
       "mandatory": "false",

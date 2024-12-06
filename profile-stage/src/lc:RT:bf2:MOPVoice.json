@@ -16,7 +16,7 @@
         }
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/MusicVoice",
-      "propertyLabel": "LCMPT for Voice"
+      "propertyLabel": "Voice lookup"
     },
     {
       "mandatory": "false",
