@@ -52,7 +52,7 @@
       "type": "resource"
     },
     {
-      "propertyLabel": "Lending, Reproduction, and Retention Policies",
+      "propertyLabel": "Lending, reproduction, and retention policies",
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/usageAndAccessPolicy",
       "resourceTemplates": [],
       "valueConstraint": {
@@ -164,7 +164,7 @@
         }
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/baseMaterial",
-      "propertyLabel": "Base Material",
+      "propertyLabel": "Base material",
       "remark": "http://original.rdatoolkit.org/3.6.html"
     },
     {
@@ -183,7 +183,7 @@
         }
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/generation",
-      "propertyLabel": "Recording Generation",
+      "propertyLabel": "Recording generation",
       "remark": "http://original.rdatoolkit.org/3.10.html"
     },
     {
@@ -221,7 +221,7 @@
         }
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/colorContent",
-      "propertyLabel": "Color Content (lookup or note)",
+      "propertyLabel": "Color content",
       "remark": "http://original.rdatoolkit.org/7.17.html"
     },
     {
@@ -240,7 +240,7 @@
         }
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/soundContent",
-      "propertyLabel": "Sound Content",
+      "propertyLabel": "Sound content",
       "remark": "http://original.rdatoolkit.org/rdachp7_rda7-1451.html"
     },
     {
@@ -259,7 +259,7 @@
         "valueDataType": {}
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/soundCharacteristic",
-      "propertyLabel": "Sound Characteristics",
+      "propertyLabel": "Sound characteristics",
       "remark": "http://original.rdatoolkit.org/3.16.html"
     },
     {
@@ -277,7 +277,7 @@
         "valueDataType": {}
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/projectionCharacteristic",
-      "propertyLabel": "Projection Characteristics"
+      "propertyLabel": "Projection characteristics"
     },
     {
       "mandatory": "false",
@@ -295,7 +295,7 @@
         }
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/aspectRatio",
-      "propertyLabel": "Aspect Ratio",
+      "propertyLabel": "Aspect ratio",
       "remark": "http://original.rdatoolkit.org/rdachp7_rda7-1486.html"
     },
     {
@@ -312,27 +312,8 @@
         "valueDataType": {}
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/aspectRatio",
-      "propertyLabel": "Aspect Ratio (Numeric)",
+      "propertyLabel": "Aspect ratio (numeric)",
       "remark": "http://original.rdatoolkit.org/rdachp7_rda7-1486.html"
-    },
-    {
-      "mandatory": "false",
-      "repeatable": "true",
-      "type": "lookup",
-      "resourceTemplates": [],
-      "valueConstraint": {
-        "valueTemplateRefs": [],
-        "useValuesFrom": [
-          "http://id.loc.gov/vocabulary/msupplcont"
-        ],
-        "defaults": [],
-        "valueDataType": {
-          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/SupplementaryContent"
-        }
-      },
-      "propertyURI": "http://id.loc.gov/ontologies/bibframe/supplementaryContent",
-      "propertyLabel": "Supplementary content",
-      "remark": "https://original.rdatoolkit.org/7.16.html"
     },
     {
       "mandatory": "false",
@@ -349,7 +330,7 @@
         "valueDataType": {}
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/digitalCharacteristic",
-      "propertyLabel": "Digital File Characteristics"
+      "propertyLabel": "Digital file characteristics"
     }
   ],
   "resourceLabel": "BIBFRAME Item",

@@ -20,7 +20,7 @@
       "propertyLabel": "Instance of"
     },
     {
-      "propertyLabel": "Title Information",
+      "propertyLabel": "Title information",
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/title",
       "resourceTemplates": [],
       "valueConstraint": {
@@ -49,12 +49,12 @@
         "defaults": [],
         "valueDataType": {}
       },
-      "propertyLabel": "Statement of Responsibility",
+      "propertyLabel": "Statement of responsibility",
       "remark": "http://original.rdatoolkit.org/2.4.2.html",
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/responsibilityStatement"
     },
     {
-      "propertyLabel": "Edition Statement",
+      "propertyLabel": "Edition statement",
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/editionStatement",
       "resourceTemplates": [],
       "valueConstraint": {
@@ -85,7 +85,7 @@
         "valueDataType": {}
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/provisionActivity",
-      "propertyLabel": "Provision Activity",
+      "propertyLabel": "Provision activity",
       "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-ProvisionActivity(264)"
     },
     {
@@ -100,7 +100,7 @@
         "valueDataType": {}
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/copyrightDate",
-      "propertyLabel": "Copyright Date",
+      "propertyLabel": "Copyright date",
       "remark": "http://original.rdatoolkit.org/2.11.html"
     },
     {
@@ -144,7 +144,7 @@
         }
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/issuance",
-      "propertyLabel": "Mode of Issuance",
+      "propertyLabel": "Mode of issuance",
       "remark": "http://original.rdatoolkit.org/2.13.html"
     },
     {
@@ -213,7 +213,7 @@
         "defaults": [],
         "valueDataType": {}
       },
-      "propertyLabel": "Cast/Credits",
+      "propertyLabel": "Cast/credits",
       "remark": "http://original.rdatoolkit.org/2.17.3.5.html",
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/credits"
     },
@@ -242,7 +242,7 @@
       "remark": "http://original.rdatoolkit.org/3.2.html"
     },
     {
-      "propertyLabel": "Carrier Type",
+      "propertyLabel": "Carrier type",
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/carrier",
       "repeatable": "true",
       "resourceTemplates": [],

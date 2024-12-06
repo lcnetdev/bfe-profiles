@@ -136,7 +136,7 @@
         "valueDataType": {}
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/digitalCharacteristic",
-      "propertyLabel": "Digital File Characteristics"
+      "propertyLabel": "Digital file characteristics"
     },
     {
       "mandatory": "false",
@@ -155,7 +155,7 @@
         "valueDataType": {}
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/soundCharacteristic",
-      "propertyLabel": "Sound Characteristics"
+      "propertyLabel": "Sound characteristics"
     }
   ],
   "id": "lc:RT:bf2:35mmFeatureFilm:DigItem",
