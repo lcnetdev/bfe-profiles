@@ -13,13 +13,13 @@
         "defaults": []
       },
       "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label",
-      "propertyLabel": "Lending or Access Policy",
+      "propertyLabel": "Lending or access policy",
       "resourceTemplates": []
     }
   ],
   "id": "lc:RT:bf2:Item:Access",
   "resourceURI": "http://id.loc.gov/ontologies/bibframe/AccessPolicy",
-  "resourceLabel": "Lending or Access Policy",
+  "resourceLabel": "Lending or access policy",
   "author": "NDMSO",
   "date": "2019-06-11"
 }

@@ -33,7 +33,7 @@
         "valueDataType": {}
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/genreForm",
-      "propertyLabel": "Form/Genre"
+      "propertyLabel": "Genre/Form"
     },
     {
       "mandatory": "false",
@@ -65,7 +65,7 @@
         "valueDataType": {}
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/custodialHistory",
-      "propertyLabel": "Custodial History/Provenance"
+      "propertyLabel": "Custodial history/provenance"
     }
   ],
   "id": "lc:RT:bf2:Item:Description",

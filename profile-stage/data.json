@@ -9422,13 +9422,13 @@
                   "defaults": []
                 },
                 "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label",
-                "propertyLabel": "Lending or Access Policy",
+                "propertyLabel": "Lending or access policy",
                 "resourceTemplates": []
               }
             ],
             "id": "lc:RT:bf2:Item:Access",
             "resourceURI": "http://id.loc.gov/ontologies/bibframe/AccessPolicy",
-            "resourceLabel": "Lending or Access Policy",
+            "resourceLabel": "Lending or access policy",
             "author": "NDMSO",
             "date": "2019-06-11"
           },
@@ -9447,12 +9447,12 @@
                   "defaults": []
                 },
                 "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label",
-                "propertyLabel": "Use or Reproduction Policy",
+                "propertyLabel": "Use or reproduction policy",
                 "resourceTemplates": []
               }
             ],
             "id": "lc:RT:bf2:Item:Use",
-            "resourceLabel": "Use or Reproduction Policy",
+            "resourceLabel": "Use or reproduction policy",
             "resourceURI": "http://id.loc.gov/ontologies/bibframe/UsePolicy",
             "author": "NDMSO",
             "date": "2019-06-11"
@@ -9472,13 +9472,13 @@
                   "defaults": []
                 },
                 "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label",
-                "propertyLabel": "Retention Policy",
+                "propertyLabel": "Retention policy",
                 "resourceTemplates": []
               }
             ],
             "id": "lc:RT:bf2:Item:Retention",
             "resourceURI": "http://id.loc.gov/ontologies/bibframe/RetentionPolicy",
-            "resourceLabel": "Retention Policy",
+            "resourceLabel": "Retention policy",
             "author": "NDMSO",
             "date": "2019-06-11"
           },
@@ -9714,7 +9714,7 @@
                   "valueDataType": {}
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/genreForm",
-                "propertyLabel": "Form/Genre"
+                "propertyLabel": "Genre/Form"
               },
               {
                 "mandatory": "false",
@@ -9746,7 +9746,7 @@
                   "valueDataType": {}
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/custodialHistory",
-                "propertyLabel": "Custodial History/Provenance"
+                "propertyLabel": "Custodial history/provenance"
               }
             ],
             "id": "lc:RT:bf2:Item:Description",
@@ -9763,7 +9763,7 @@
     },
     "metadata": {
       "createDate": "2019-08-14T18:21:23.011Z",
-      "updateDate": "2024-02-01T18:13:29.034Z",
+      "updateDate": "2024-12-06T18:45:40.951Z",
       "createUser": null,
       "updateUser": null
     },

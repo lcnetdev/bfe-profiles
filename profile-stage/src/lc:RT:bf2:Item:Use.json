@@ -13,12 +13,12 @@
         "defaults": []
       },
       "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label",
-      "propertyLabel": "Use or Reproduction Policy",
+      "propertyLabel": "Use or reproduction policy",
       "resourceTemplates": []
     }
   ],
   "id": "lc:RT:bf2:Item:Use",
-  "resourceLabel": "Use or Reproduction Policy",
+  "resourceLabel": "Use or reproduction policy",
   "resourceURI": "http://id.loc.gov/ontologies/bibframe/UsePolicy",
   "author": "NDMSO",
   "date": "2019-06-11"
