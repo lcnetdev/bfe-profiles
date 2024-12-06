@@ -18,7 +18,7 @@
       "repeatable": "false"
     },
     {
-      "propertyLabel": "Title Information",
+      "propertyLabel": "Title information",
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/title",
       "resourceTemplates": [],
       "valueConstraint": {
@@ -40,7 +40,7 @@
       "remark": "https://original.rdatoolkit.org/rdachp2_rda2-3376.html"
     },
     {
-      "propertyLabel": "Edition Statement",
+      "propertyLabel": "Edition statement",
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/editionStatement",
       "resourceTemplates": [],
       "valueConstraint": {
@@ -105,7 +105,7 @@
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/frequency"
     },
     {
-      "propertyLabel": "Provision Activity",
+      "propertyLabel": "Provision activity",
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/provisionActivity",
       "resourceTemplates": [],
       "type": "resource",
@@ -147,7 +147,7 @@
         ]
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/issuance",
-      "propertyLabel": "Mode of Issuance",
+      "propertyLabel": "Mode of issuance",
       "remark": "http://original.rdatoolkit.org/2.13.html"
     },
     {
@@ -177,7 +177,7 @@
         "defaults": []
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/copyrightDate",
-      "propertyLabel": "Copyright Date",
+      "propertyLabel": "Copyright date",
       "remark": "http://original.rdatoolkit.org/2.11.html"
     },
     {
@@ -191,7 +191,7 @@
         "valueDataType": {},
         "defaults": []
       },
-      "propertyLabel": "Statement of Responsibility",
+      "propertyLabel": "Statement of responsibility",
       "remark": "http://original.rdatoolkit.org/2.4.2.html",
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/responsibilityStatement"
     },
@@ -348,7 +348,7 @@
         "valueDataType": {}
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/supplementaryContent",
-      "propertyLabel": "Supplementary Content note"
+      "propertyLabel": "Supplementary content URL"
     },
     {
       "mandatory": "false",

@@ -20,6 +20,21 @@
     {
       "mandatory": "false",
       "repeatable": "true",
+      "type": "literal",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": [],
+        "valueDataType": {}
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/date",
+      "propertyLabel": "Dates associated with frequency",
+      "remark": ""
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
       "type": "lookup",
       "resourceTemplates": [],
       "valueConstraint": {
@@ -34,21 +49,6 @@
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/status",
       "propertyLabel": "Current or ceased?"
-    },
-    {
-      "mandatory": "false",
-      "repeatable": "true",
-      "type": "literal",
-      "resourceTemplates": [],
-      "valueConstraint": {
-        "valueTemplateRefs": [],
-        "useValuesFrom": [],
-        "defaults": [],
-        "valueDataType": {}
-      },
-      "propertyURI": "http://id.loc.gov/ontologies/bibframe/date",
-      "propertyLabel": "Dates associated with frequency",
-      "remark": ""
     },
     {
       "mandatory": "false",
