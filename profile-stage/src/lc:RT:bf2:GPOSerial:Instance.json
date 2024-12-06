@@ -18,7 +18,7 @@
       "repeatable": "false"
     },
     {
-      "propertyLabel": "Title Information",
+      "propertyLabel": "Title information",
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/title",
       "resourceTemplates": [],
       "valueConstraint": {
@@ -40,7 +40,7 @@
       "remark": "https://original.rdatoolkit.org/rdachp2_rda2-3376.html"
     },
     {
-      "propertyLabel": "Edition Statement",
+      "propertyLabel": "Edition statement",
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/editionStatement",
       "resourceTemplates": [],
       "valueConstraint": {
@@ -55,7 +55,7 @@
       "remark": "https://original.rdatoolkit.org/2.5.html"
     },
     {
-      "propertyLabel": "Provision Activity",
+      "propertyLabel": "Provision activity",
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/provisionActivity",
       "resourceTemplates": [],
       "type": "resource",
@@ -86,7 +86,7 @@
         "defaults": []
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/copyrightDate",
-      "propertyLabel": "Copyright Date",
+      "propertyLabel": "Copyright date",
       "remark": "https://original.rdatoolkit.org/2.11.html"
     },
     {
@@ -112,7 +112,7 @@
         ]
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/issuance",
-      "propertyLabel": "Mode of Issuance",
+      "propertyLabel": "Mode of issuance",
       "remark": "https://original.rdatoolkit.org/2.13.html"
     },
     {
@@ -156,7 +156,7 @@
         "valueDataType": {},
         "defaults": []
       },
-      "propertyLabel": "Statement of Responsibility",
+      "propertyLabel": "Statement of responsibility",
       "remark": "https://original.rdatoolkit.org/2.4.2.html",
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/responsibilityStatement"
     },
@@ -336,7 +336,7 @@
         "valueDataType": {}
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/supplementaryContent",
-      "propertyLabel": "Supplementary content note",
+      "propertyLabel": "Supplementary content URL",
       "remark": "https://original.rdatoolkit.org/7.16.html"
     },
     {
@@ -353,7 +353,7 @@
         "valueDataType": {}
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/acquisitionSource",
-      "propertyLabel": "Acquisitions source (Note, Stock number)"
+      "propertyLabel": "Acquisitions source"
     },
     {
       "propertyLabel": "URL of Instance",
