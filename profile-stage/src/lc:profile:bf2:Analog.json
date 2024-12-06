@@ -1110,15 +1110,17 @@
         {
           "mandatory": "false",
           "repeatable": "true",
-          "type": "literal",
+          "type": "lookup",
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [],
-            "useValuesFrom": [],
+            "useValuesFrom": [
+              "http://id.loc.gov/vocabulary/mplayspeed"
+            ],
             "defaults": [],
             "valueDataType": {}
           },
-          "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label",
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/PlayingSpeed",
           "propertyLabel": "Playing speed",
           "remark": "http://original.rdatoolkit.org/3.16.4.html"
         }
