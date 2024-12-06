@@ -40,6 +40,6 @@
   ],
   "id": "lc:RT:bf2:ImmAcqSource",
   "resourceURI": "http://id.loc.gov/ontologies/bibframe/ImmediateAcquisition",
-  "resourceLabel": "Immediate Source of Acquisition",
+  "resourceLabel": "Immediate source of acquisition",
   "author": "NDMSO"
 }

@@ -12,11 +12,11 @@
         "valueDataType": {}
       },
       "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label",
-      "propertyLabel": "System Requirement",
+      "propertyLabel": "System requirement",
       "remark": ""
     }
   ],
   "id": "lc:RT:bf2:SysReq",
   "resourceURI": "http://id.loc.gov/ontologies/bibframe/SystemRequirement",
-  "resourceLabel": "System Requirement"
+  "resourceLabel": "System requirement"
 }
