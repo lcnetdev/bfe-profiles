@@ -29,7 +29,7 @@
         },
         {
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
-          "propertyLabel": "Relationship Designator",
+          "propertyLabel": "Relationship designator",
           "type": "lookup",
           "mandatory": "false",
           "repeatable": "true",
@@ -99,6 +99,6 @@
   "id": "lc:profile:bf2:AgentsContribution",
   "title": "BIBFRAME 2.0 Agents Contribution",
   "date": "2017-05-13",
-  "description": "Creators and Contributors",
+  "description": "Creators and contributors",
   "author": "NDMSO"
 }
