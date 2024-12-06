@@ -32082,7 +32082,7 @@
             ],
             "id": "lc:RT:bf2:Form",
             "resourceURI": "http://id.loc.gov/ontologies/bibframe/GenreForm",
-            "resourceLabel": "Form/Genre",
+            "resourceLabel": "Genre/Form",
             "remark": ""
           },
           {
@@ -32244,7 +32244,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.059Z",
-      "updateDate": "2024-09-27T17:36:16.829Z",
+      "updateDate": "2024-12-06T18:41:22.828Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.059Z",
