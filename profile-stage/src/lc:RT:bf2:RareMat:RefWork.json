@@ -35,6 +35,20 @@
     {
       "mandatory": "false",
       "repeatable": "true",
+      "type": "literal",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": [],
+        "valueDataType": {}
+      },
+      "propertyLabel": "URL for reference",
+      "propertyURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
       "type": "resource",
       "resourceTemplates": [],
       "valueConstraint": {
@@ -47,20 +61,6 @@
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
       "propertyLabel": "Location of citation"
-    },
-    {
-      "mandatory": "false",
-      "repeatable": "true",
-      "type": "literal",
-      "resourceTemplates": [],
-      "valueConstraint": {
-        "valueTemplateRefs": [],
-        "useValuesFrom": [],
-        "defaults": [],
-        "valueDataType": {}
-      },
-      "propertyLabel": "URL for Reference",
-      "propertyURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value"
     }
   ],
   "id": "lc:RT:bf2:RareMat:RefWork",
