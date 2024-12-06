@@ -29,7 +29,7 @@
             "defaults": []
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/mainTitle",
-          "propertyLabel": "Main title",
+          "propertyLabel": "Title",
           "remark": ""
         },
         {

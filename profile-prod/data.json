@@ -21289,7 +21289,7 @@
                   "defaults": []
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/mainTitle",
-                "propertyLabel": "Main title",
+                "propertyLabel": "Title",
                 "remark": ""
               },
               {
@@ -21855,7 +21855,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.062Z",
-      "updateDate": "2024-12-05T21:23:41.972Z",
+      "updateDate": "2024-12-06T20:22:13.130Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.062Z",
