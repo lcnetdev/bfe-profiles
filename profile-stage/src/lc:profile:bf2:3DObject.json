@@ -39,7 +39,7 @@
             "valueDataType": {}
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/content",
-          "propertyLabel": "Content Type"
+          "propertyLabel": "Content type"
         }
       ],
       "id": "lc:RT:bf2:3DObject:Work",
@@ -62,7 +62,7 @@
             "valueDataType": {}
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/instanceOf",
-          "propertyLabel": "Instance Of"
+          "propertyLabel": "Instance of"
         },
         {
           "mandatory": "false",
@@ -79,7 +79,7 @@
             "valueDataType": {}
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/title",
-          "propertyLabel": "Title Information"
+          "propertyLabel": "Title information"
         },
         {
           "mandatory": "false",
