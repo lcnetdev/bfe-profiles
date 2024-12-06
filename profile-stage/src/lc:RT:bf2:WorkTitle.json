@@ -30,7 +30,7 @@
         "remark": ""
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/mainTitle",
-      "propertyLabel": "Title of Work",
+      "propertyLabel": "Title",
       "remark": ""
     },
     {
@@ -62,7 +62,7 @@
       "propertyLabel": "Part name"
     }
   ],
-  "resourceLabel": "Work Title",
+  "resourceLabel": "Work title",
   "id": "lc:RT:bf2:WorkTitle",
   "resourceURI": "http://id.loc.gov/ontologies/bibframe/Title"
 }

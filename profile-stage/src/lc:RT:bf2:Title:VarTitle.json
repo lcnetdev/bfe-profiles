@@ -12,7 +12,7 @@
         "defaults": []
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/mainTitle",
-      "propertyLabel": "Variant Title",
+      "propertyLabel": "Variant title",
       "remark": ""
     },
     {
@@ -91,5 +91,5 @@
   ],
   "id": "lc:RT:bf2:Title:VarTitle",
   "resourceURI": "http://id.loc.gov/ontologies/bibframe/VariantTitle",
-  "resourceLabel": "Variant Title"
+  "resourceLabel": "Variant title"
 }

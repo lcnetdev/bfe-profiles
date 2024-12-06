@@ -29,7 +29,7 @@
             "defaults": []
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/mainTitle",
-          "propertyLabel": "Main Title",
+          "propertyLabel": "Title",
           "remark": ""
         },
         {
@@ -72,12 +72,12 @@
             "defaults": []
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/subtitle",
-          "propertyLabel": "Other Title Information",
+          "propertyLabel": "Other title information",
           "remark": ""
         }
       ],
       "id": "lc:RT:bf2:InstanceTitle",
-      "resourceLabel": "Instance Title",
+      "resourceLabel": "Instance title",
       "remark": "Title information relating to a resource: work title, preferred title, instance title, transcribed title, translated title, variant form of title, etc.",
       "resourceURI": "http://id.loc.gov/ontologies/bibframe/Title"
     },
@@ -154,13 +154,13 @@
             "valueDataType": {}
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/subtitle",
-          "propertyLabel": "Other Title Information",
+          "propertyLabel": "Other title information",
           "remark": ""
         }
       ],
       "id": "lc:RT:bflc:TranscribedTitle",
       "resourceURI": "http://id.loc.gov/ontologies/bibframe/TransliteratedTitle",
-      "resourceLabel": "Transliterated Title"
+      "resourceLabel": "Transliterated title"
     },
     {
       "propertyTemplates": [
@@ -194,7 +194,7 @@
             "remark": ""
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/mainTitle",
-          "propertyLabel": "Title of Work",
+          "propertyLabel": "Title",
           "remark": ""
         },
         {
@@ -226,7 +226,7 @@
           "propertyLabel": "Part name"
         }
       ],
-      "resourceLabel": "Work Title",
+      "resourceLabel": "Work title",
       "id": "lc:RT:bf2:WorkTitle",
       "resourceURI": "http://id.loc.gov/ontologies/bibframe/Title"
     },
@@ -244,7 +244,7 @@
             "defaults": []
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/mainTitle",
-          "propertyLabel": "Variant Title",
+          "propertyLabel": "Variant title",
           "remark": ""
         },
         {
@@ -323,7 +323,7 @@
       ],
       "id": "lc:RT:bf2:Title:VarTitle",
       "resourceURI": "http://id.loc.gov/ontologies/bibframe/VariantTitle",
-      "resourceLabel": "Variant Title"
+      "resourceLabel": "Variant title"
     },
     {
       "propertyTemplates": [
@@ -338,7 +338,7 @@
             "valueDataType": {},
             "defaults": []
           },
-          "propertyLabel": "Parallel Title",
+          "propertyLabel": "Parallel title",
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/mainTitle",
           "remark": ""
         },
@@ -354,7 +354,7 @@
             "defaults": []
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/subtitle",
-          "propertyLabel": "Other Title Information",
+          "propertyLabel": "Other title information",
           "remark": ""
         },
         {
@@ -420,7 +420,7 @@
       ],
       "id": "lc:RT:bf2:ParallelTitle",
       "resourceURI": "http://id.loc.gov/ontologies/bibframe/ParallelTitle",
-      "resourceLabel": "Parallel Title"
+      "resourceLabel": "Parallel title"
     },
     {
       "propertyTemplates": [
@@ -451,7 +451,7 @@
             "defaults": []
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/mainTitle",
-          "propertyLabel": "Key Title"
+          "propertyLabel": "Key title"
         },
         {
           "mandatory": "false",
@@ -470,7 +470,7 @@
       ],
       "resourceURI": "http://id.loc.gov/ontologies/bibframe/KeyTitle",
       "id": "lc:RT:bf2:Title:KeyTitle",
-      "resourceLabel": "Key Title"
+      "resourceLabel": "Key title"
     },
     {
       "propertyTemplates": [
@@ -486,12 +486,61 @@
             "defaults": []
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/mainTitle",
-          "propertyLabel": "Abbreviated Title"
+          "propertyLabel": "Abbreviated title"
+        },
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "literal",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [],
+            "useValuesFrom": [],
+            "defaults": [],
+            "valueDataType": {}
+          },
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/qualifier",
+          "propertyLabel": "Qualifying information"
+        },
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "resource",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [],
+            "useValuesFrom": [],
+            "defaults": [],
+            "valueDataType": {}
+          },
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/assigner",
+          "propertyLabel": "Assigner"
         }
       ],
       "resourceURI": "http://id.loc.gov/ontologies/bibframe/AbbreviatedTitle",
       "id": "lc:RT:bf2:Title:AbbrTitle",
-      "resourceLabel": "Abbreviated Title"
+      "resourceLabel": "Abbreviated title"
+    },
+    {
+      "propertyTemplates": [
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "literal",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [],
+            "useValuesFrom": [],
+            "defaults": [],
+            "valueDataType": {}
+          },
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/code",
+          "propertyLabel": "Agent code (issnkey)"
+        }
+      ],
+      "id": "lc:RT:bf2:Title:AbbrTitleAgent",
+      "resourceURI": "http://id.loc.gov/ontologies/bibframe/Agent",
+      "resourceLabel": "Assigner agent"
     },
     {
       "propertyTemplates": [
@@ -507,12 +556,12 @@
             "defaults": []
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/mainTitle",
-          "propertyLabel": "Collective Title"
+          "propertyLabel": "Collective title"
         }
       ],
       "id": "lc:RT:bf2:Title:CollTitle",
       "resourceURI": "http://id.loc.gov/ontologies/bibframe/CollectiveTitle",
-      "resourceLabel": "Collective Title"
+      "resourceLabel": "Collective title"
     },
     {
       "propertyTemplates": [
@@ -588,280 +637,9 @@
       ],
       "id": "lc:RT:bf2:MonographNR:InstTitle",
       "resourceURI": "http://id.loc.gov/ontologies/bibframe/Title",
-      "resourceLabel": "Title in Original Script",
+      "resourceLabel": "Title in Original Script (unused)",
       "author": "NDMSO",
       "date": "2019-06-11"
-    },
-    {
-      "propertyTemplates": [
-        {
-          "mandatory": "false",
-          "repeatable": "true",
-          "type": "literal-lang",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [],
-            "useValuesFrom": [],
-            "defaults": [],
-            "valueDataType": {}
-          },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/mainTitle",
-          "propertyLabel": "Variant Title",
-          "remark": ""
-        },
-        {
-          "mandatory": "false",
-          "repeatable": "true",
-          "type": "literal",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [],
-            "useValuesFrom": [],
-            "defaults": [],
-            "valueDataType": {}
-          },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/partNumber",
-          "propertyLabel": "Part number"
-        },
-        {
-          "mandatory": "false",
-          "repeatable": "true",
-          "type": "literal-lang",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [],
-            "useValuesFrom": [],
-            "defaults": [],
-            "valueDataType": {}
-          },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/partName",
-          "propertyLabel": "Part name"
-        },
-        {
-          "mandatory": "false",
-          "repeatable": "true",
-          "type": "literal",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [],
-            "useValuesFrom": [],
-            "defaults": [],
-            "valueDataType": {}
-          },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/date",
-          "propertyLabel": "Date"
-        },
-        {
-          "mandatory": "false",
-          "repeatable": "true",
-          "type": "literal",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [],
-            "useValuesFrom": [],
-            "defaults": [],
-            "valueDataType": {}
-          },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/variantType",
-          "propertyLabel": "Variant title type"
-        },
-        {
-          "mandatory": "false",
-          "repeatable": "true",
-          "type": "resource",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [
-              "lc:RT:bf2:MonographNR:NoteSimple"
-            ],
-            "useValuesFrom": [],
-            "defaults": [],
-            "valueDataType": {}
-          },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
-          "propertyLabel": "Note"
-        }
-      ],
-      "id": "lc:RT:bf2:MonographNR:VarTitle",
-      "resourceURI": "http://id.loc.gov/ontologies/bibframe/VariantTitle",
-      "resourceLabel": "Variant Title"
-    },
-    {
-      "propertyTemplates": [
-        {
-          "mandatory": "false",
-          "repeatable": "true",
-          "type": "literal-lang",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [],
-            "useValuesFrom": [],
-            "defaults": [],
-            "valueDataType": {}
-          },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/mainTitle",
-          "propertyLabel": "Parallel Title",
-          "remark": ""
-        },
-        {
-          "mandatory": "false",
-          "repeatable": "true",
-          "type": "literal-lang",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [],
-            "useValuesFrom": [],
-            "defaults": [],
-            "valueDataType": {}
-          },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/subtitle",
-          "propertyLabel": "Other Title Information",
-          "remark": ""
-        },
-        {
-          "mandatory": "false",
-          "repeatable": "true",
-          "type": "literal",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [],
-            "useValuesFrom": [],
-            "defaults": [],
-            "valueDataType": {}
-          },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/partNumber",
-          "propertyLabel": "Part number"
-        },
-        {
-          "mandatory": "false",
-          "repeatable": "true",
-          "type": "literal-lang",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [],
-            "useValuesFrom": [],
-            "defaults": [],
-            "valueDataType": {}
-          },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/partName",
-          "propertyLabel": "Part name"
-        },
-        {
-          "mandatory": "false",
-          "repeatable": "true",
-          "type": "resource",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [
-              "lc:RT:bf2:MonographNR:NoteSimple"
-            ],
-            "useValuesFrom": [],
-            "defaults": [],
-            "valueDataType": {}
-          },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
-          "propertyLabel": "Note",
-          "remark": ""
-        }
-      ],
-      "id": "lc:RT:bf2:MonographNR:ParallelTitle",
-      "resourceURI": "http://id.loc.gov/ontologies/bibframe/ParallelTitle",
-      "resourceLabel": "Parallel Title"
-    },
-    {
-      "propertyTemplates": [
-        {
-          "mandatory": "false",
-          "repeatable": "true",
-          "type": "literal",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [],
-            "useValuesFrom": [],
-            "defaults": [],
-            "valueDataType": {}
-          },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/mainTitle",
-          "propertyLabel": "Variant title"
-        },
-        {
-          "mandatory": "false",
-          "repeatable": "true",
-          "type": "literal",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [],
-            "useValuesFrom": [],
-            "defaults": [],
-            "valueDataType": {}
-          },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/partNumber",
-          "propertyLabel": "Part number"
-        },
-        {
-          "mandatory": "false",
-          "repeatable": "true",
-          "type": "literal",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [],
-            "useValuesFrom": [],
-            "defaults": [],
-            "valueDataType": {}
-          },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/partName",
-          "propertyLabel": "Part name"
-        },
-        {
-          "mandatory": "false",
-          "repeatable": "true",
-          "type": "literal",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [],
-            "useValuesFrom": [],
-            "defaults": [],
-            "valueDataType": {}
-          },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/subtitle",
-          "propertyLabel": "Remainder of title"
-        },
-        {
-          "mandatory": "false",
-          "repeatable": "true",
-          "type": "lookup",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [],
-            "useValuesFrom": [
-              "http://id.loc.gov/vocabulary/languages"
-            ],
-            "defaults": [],
-            "valueDataType": {
-              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Language"
-            }
-          },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/language",
-          "propertyLabel": "Language of translation"
-        },
-        {
-          "mandatory": "false",
-          "repeatable": "true",
-          "type": "literal",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [],
-            "useValuesFrom": [],
-            "defaults": [],
-            "valueDataType": {}
-          },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/variantType",
-          "propertyLabel": "Variant title type"
-        }
-      ],
-      "id": "lc:RT:bf2:Title:VarTitleTest",
-      "resourceURI": "http://id.loc.gov/ontologies/bibframe/VariantTitle",
-      "resourceLabel": "Variant title/Language test"
     }
   ],
   "title": "BIBFRAME 2.0 Title Information",

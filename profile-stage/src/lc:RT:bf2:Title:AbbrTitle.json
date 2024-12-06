@@ -12,10 +12,38 @@
         "defaults": []
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/mainTitle",
-      "propertyLabel": "Abbreviated Title"
+      "propertyLabel": "Abbreviated title"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": [],
+        "valueDataType": {}
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/qualifier",
+      "propertyLabel": "Qualifying information"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "resource",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": [],
+        "valueDataType": {}
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/assigner",
+      "propertyLabel": "Assigner"
     }
   ],
   "resourceURI": "http://id.loc.gov/ontologies/bibframe/AbbreviatedTitle",
   "id": "lc:RT:bf2:Title:AbbrTitle",
-  "resourceLabel": "Abbreviated Title"
+  "resourceLabel": "Abbreviated title"
 }

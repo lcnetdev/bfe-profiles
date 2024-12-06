@@ -27,7 +27,7 @@
         "defaults": []
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/mainTitle",
-      "propertyLabel": "Main Title",
+      "propertyLabel": "Title",
       "remark": ""
     },
     {
@@ -70,12 +70,12 @@
         "defaults": []
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/subtitle",
-      "propertyLabel": "Other Title Information",
+      "propertyLabel": "Other title information",
       "remark": ""
     }
   ],
   "id": "lc:RT:bf2:InstanceTitle",
-  "resourceLabel": "Instance Title",
+  "resourceLabel": "Instance title",
   "remark": "Title information relating to a resource: work title, preferred title, instance title, transcribed title, translated title, variant form of title, etc.",
   "resourceURI": "http://id.loc.gov/ontologies/bibframe/Title"
 }

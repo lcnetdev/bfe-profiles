@@ -72,7 +72,7 @@
   ],
   "id": "lc:RT:bf2:MonographNR:InstTitle",
   "resourceURI": "http://id.loc.gov/ontologies/bibframe/Title",
-  "resourceLabel": "Title in Original Script",
+  "resourceLabel": "Title in Original Script (unused)",
   "author": "NDMSO",
   "date": "2019-06-11"
 }

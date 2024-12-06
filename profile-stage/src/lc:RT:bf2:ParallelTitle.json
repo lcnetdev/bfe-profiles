@@ -11,7 +11,7 @@
         "valueDataType": {},
         "defaults": []
       },
-      "propertyLabel": "Parallel Title",
+      "propertyLabel": "Parallel title",
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/mainTitle",
       "remark": ""
     },
@@ -27,7 +27,7 @@
         "defaults": []
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/subtitle",
-      "propertyLabel": "Other Title Information",
+      "propertyLabel": "Other title information",
       "remark": ""
     },
     {
@@ -93,5 +93,5 @@
   ],
   "id": "lc:RT:bf2:ParallelTitle",
   "resourceURI": "http://id.loc.gov/ontologies/bibframe/ParallelTitle",
-  "resourceLabel": "Parallel Title"
+  "resourceLabel": "Parallel title"
 }

@@ -71,11 +71,11 @@
         "valueDataType": {}
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/subtitle",
-      "propertyLabel": "Other Title Information",
+      "propertyLabel": "Other title information",
       "remark": ""
     }
   ],
   "id": "lc:RT:bflc:TranscribedTitle",
   "resourceURI": "http://id.loc.gov/ontologies/bibframe/TransliteratedTitle",
-  "resourceLabel": "Transliterated Title"
+  "resourceLabel": "Transliterated title"
 }
