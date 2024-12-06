@@ -257,7 +257,7 @@
             "editable": "false"
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/generationProcess",
-          "propertyLabel": "Generation Process"
+          "propertyLabel": "Generation process"
         },
         {
           "mandatory": "false",
@@ -512,7 +512,7 @@
       ],
       "resourceURI": "http://id.loc.gov/ontologies/bibframe/GenerationProcess",
       "id": "lc:RT:bf2:AdminMetadata:GenerationProcess",
-      "resourceLabel": "Generation Process"
+      "resourceLabel": "Generation process"
     },
     {
       "propertyTemplates": [

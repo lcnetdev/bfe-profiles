@@ -255,7 +255,7 @@
         "editable": "false"
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/generationProcess",
-      "propertyLabel": "Generation Process"
+      "propertyLabel": "Generation process"
     },
     {
       "mandatory": "false",
