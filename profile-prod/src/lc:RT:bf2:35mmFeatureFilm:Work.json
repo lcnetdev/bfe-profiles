@@ -201,7 +201,7 @@
         "valueDataType": {}
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/geographicCoverage",
-      "propertyLabel": "(Geographic) coverage of the content",
+      "propertyLabel": "Geographic coverage",
       "remark": ""
     },
     {
