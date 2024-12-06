@@ -54,7 +54,7 @@
         }
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/status",
-      "propertyLabel": "Canceled/invalid ?"
+      "propertyLabel": "Canceled/invalid?"
     }
   ],
   "id": "lc:RT:bf2:GPOClass",
