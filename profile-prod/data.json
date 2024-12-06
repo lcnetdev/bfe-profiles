@@ -14684,7 +14684,7 @@
                   "valueDataType": {}
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/temporalCoverage",
-                "propertyLabel": "(Temporal) coverage of the content",
+                "propertyLabel": "(Time) coverage of the content",
                 "remark": "https://original.rdatoolkit.org/7.3.html"
               },
               {
@@ -14741,7 +14741,7 @@
                   "editable": "true"
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/geographicCoverage",
-                "propertyLabel": "(Geographic) coverage of the content",
+                "propertyLabel": "Geographic coverage",
                 "remark": ""
               },
               {
@@ -15498,7 +15498,7 @@
     },
     "metadata": {
       "createDate": "2019-02-28T14:21:01.066Z",
-      "updateDate": "2024-12-05T21:11:30.033Z",
+      "updateDate": "2024-12-06T14:22:22.209Z",
       "createUser": null,
       "updateUser": null
     },
