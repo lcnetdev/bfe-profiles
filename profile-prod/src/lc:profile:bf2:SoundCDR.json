@@ -228,7 +228,7 @@
             "defaults": []
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/temporalCoverage",
-          "propertyLabel": "(Temporal) coverage of the content",
+          "propertyLabel": "(Time) coverage of the content",
           "remark": "https://original.rdatoolkit.org/7.3.html"
         },
         {
@@ -287,7 +287,7 @@
             "editable": "true"
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/geographicCoverage",
-          "propertyLabel": "(Geographic) coverage of the content",
+          "propertyLabel": "Geographic coverage",
           "remark": ""
         },
         {
