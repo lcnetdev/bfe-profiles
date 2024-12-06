@@ -927,7 +927,7 @@
             ]
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/source",
-          "propertyLabel": "Source of term"
+          "propertyLabel": "Source"
         }
       ],
       "id": "lc:RT:bf2:RareMat:RBMS",

@@ -76,7 +76,7 @@
       ],
       "id": "lc:RT:bf2:SeriesHub",
       "resourceURI": "http://id.loc.gov/ontologies/bibframe/Relation",
-      "resourceLabel": "Input Transcribed Series"
+      "resourceLabel": "Input transcribed series"
     },
     {
       "propertyTemplates": [
@@ -153,13 +153,27 @@
             "defaults": [],
             "valueDataType": {}
           },
+          "propertyURI": "http://id.loc.gov/ontologies/bflc/nonSortNum",
+          "propertyLabel": "Non-sort character count"
+        },
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "literal",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [],
+            "useValuesFrom": [],
+            "defaults": [],
+            "valueDataType": {}
+          },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/mainTitle",
           "propertyLabel": "Title"
         }
       ],
       "id": "lc:RT:bf2:SeriesHubTitle",
       "resourceURI": "http://id.loc.gov/ontologies/bibframe/Title",
-      "resourceLabel": "Series Hub Title"
+      "resourceLabel": "Series Hub title"
     },
     {
       "propertyTemplates": [
@@ -223,7 +237,7 @@
             }
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/associatedResource",
-          "propertyLabel": "Search Series Hub"
+          "propertyLabel": "Search series Hub"
         },
         {
           "mandatory": "false",
@@ -242,7 +256,7 @@
       ],
       "id": "lc:RT:bf2:SeriesHubLookup",
       "resourceURI": "http://id.loc.gov/ontologies/bibframe/Relation",
-      "resourceLabel": "Search Series Hub"
+      "resourceLabel": "Search series Hub"
     }
   ],
   "id": "lc:profile:bf2:SeriesInformation",

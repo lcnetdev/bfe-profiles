@@ -184,7 +184,7 @@
             "repeatable": "true"
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/subject",
-          "propertyLabel": "Subject of the Work",
+          "propertyLabel": "Subjects",
           "remark": "http://original.rdatoolkit.org/rdachp23_rda23-12.html"
         },
         {

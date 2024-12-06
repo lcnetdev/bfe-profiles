@@ -1088,7 +1088,7 @@
       ],
       "id": "lc:RT:bf2:Analog:Sound6",
       "resourceURI": "http://id.loc.gov/ontologies/bibframe/GrooveCharacteristic",
-      "resourceLabel": "Groove Characteristic"
+      "resourceLabel": "Groove characteristic"
     },
     {
       "propertyTemplates": [
@@ -1114,7 +1114,7 @@
       ],
       "id": "lc:RT:bf2:Analog:PlayingSpeed",
       "resourceURI": "http://id.loc.gov/ontologies/bibframe/PlayingSpeed",
-      "resourceLabel": "Playing Speed"
+      "resourceLabel": "Playing speed"
     }
   ],
   "author": "NDMSO",

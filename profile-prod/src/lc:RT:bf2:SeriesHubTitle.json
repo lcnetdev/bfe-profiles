@@ -11,11 +11,25 @@
         "defaults": [],
         "valueDataType": {}
       },
+      "propertyURI": "http://id.loc.gov/ontologies/bflc/nonSortNum",
+      "propertyLabel": "Non-sort character count"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": [],
+        "valueDataType": {}
+      },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/mainTitle",
       "propertyLabel": "Title"
     }
   ],
   "id": "lc:RT:bf2:SeriesHubTitle",
   "resourceURI": "http://id.loc.gov/ontologies/bibframe/Title",
-  "resourceLabel": "Series Hub Title"
+  "resourceLabel": "Series Hub title"
 }

@@ -5457,7 +5457,7 @@
                   ]
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/source",
-                "propertyLabel": "Source of term"
+                "propertyLabel": "Source"
               }
             ],
             "id": "lc:RT:bf2:RareMat:RBMS",
@@ -5568,7 +5568,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2024-12-05T20:52:40.661Z",
+      "updateDate": "2024-12-06T19:22:15.570Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",
@@ -6669,7 +6669,7 @@
             ],
             "id": "lc:RT:bf2:Analog:Sound6",
             "resourceURI": "http://id.loc.gov/ontologies/bibframe/GrooveCharacteristic",
-            "resourceLabel": "Groove Characteristic"
+            "resourceLabel": "Groove characteristic"
           },
           {
             "propertyTemplates": [
@@ -6695,7 +6695,7 @@
             ],
             "id": "lc:RT:bf2:Analog:PlayingSpeed",
             "resourceURI": "http://id.loc.gov/ontologies/bibframe/PlayingSpeed",
-            "resourceLabel": "Playing Speed"
+            "resourceLabel": "Playing speed"
           }
         ],
         "author": "NDMSO",
@@ -6708,7 +6708,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2024-12-06T14:21:49.262Z",
+      "updateDate": "2024-12-06T20:08:00.568Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",
@@ -11233,7 +11233,7 @@
                   "repeatable": "true"
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/subject",
-                "propertyLabel": "Subject of the Work",
+                "propertyLabel": "Subjects",
                 "remark": "http://original.rdatoolkit.org/rdachp23_rda23-12.html"
               },
               {
@@ -12253,7 +12253,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.059Z",
-      "updateDate": "2024-12-06T14:18:29.138Z",
+      "updateDate": "2024-12-06T18:34:49.933Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.059Z",
@@ -26510,7 +26510,7 @@
             ],
             "id": "lc:RT:bf2:SeriesHub",
             "resourceURI": "http://id.loc.gov/ontologies/bibframe/Relation",
-            "resourceLabel": "Input Transcribed Series"
+            "resourceLabel": "Input transcribed series"
           },
           {
             "propertyTemplates": [
@@ -26587,13 +26587,27 @@
                   "defaults": [],
                   "valueDataType": {}
                 },
+                "propertyURI": "http://id.loc.gov/ontologies/bflc/nonSortNum",
+                "propertyLabel": "Non-sort character count"
+              },
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "literal",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {}
+                },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/mainTitle",
                 "propertyLabel": "Title"
               }
             ],
             "id": "lc:RT:bf2:SeriesHubTitle",
             "resourceURI": "http://id.loc.gov/ontologies/bibframe/Title",
-            "resourceLabel": "Series Hub Title"
+            "resourceLabel": "Series Hub title"
           },
           {
             "propertyTemplates": [
@@ -26657,7 +26671,7 @@
                   }
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/associatedResource",
-                "propertyLabel": "Search Series Hub"
+                "propertyLabel": "Search series Hub"
               },
               {
                 "mandatory": "false",
@@ -26676,7 +26690,7 @@
             ],
             "id": "lc:RT:bf2:SeriesHubLookup",
             "resourceURI": "http://id.loc.gov/ontologies/bibframe/Relation",
-            "resourceLabel": "Search Series Hub"
+            "resourceLabel": "Search series Hub"
           }
         ],
         "id": "lc:profile:bf2:SeriesInformation",
@@ -26688,7 +26702,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2024-11-26T19:25:32.654Z",
+      "updateDate": "2024-12-06T19:58:33.703Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",
