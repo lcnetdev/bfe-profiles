@@ -13,7 +13,7 @@
         "remark": "EDTF"
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/date",
-      "propertyLabel": "EDTF Date (to/from 008)",
+      "propertyLabel": "EDTF date (to/from 008)",
       "remark": ""
     },
     {
