@@ -27468,7 +27468,7 @@
           {
             "resourceURI": "http://id.loc.gov/ontologies/bibframe/Person",
             "id": "lc:RT:bf2:Agent:Person",
-            "resourceLabel": "Create Personal Name",
+            "resourceLabel": "Create personal name",
             "propertyTemplates": [
               {
                 "propertyLabel": "Search LCNAF",
@@ -27651,7 +27651,7 @@
           {
             "resourceURI": "http://id.loc.gov/ontologies/bibframe/Family",
             "id": "lc:RT:bf2:Agent:Family",
-            "resourceLabel": "Create Family Name",
+            "resourceLabel": "Create family name",
             "propertyTemplates": [
               {
                 "propertyLabel": "Search LCNAF",
@@ -27893,7 +27893,7 @@
           {
             "resourceURI": "http://id.loc.gov/ontologies/bibframe/Organization",
             "id": "lc:RT:bf2:Agent:CorporateBody",
-            "resourceLabel": "Create Corporate Body Name",
+            "resourceLabel": "Create corporate body name",
             "propertyTemplates": [
               {
                 "propertyLabel": "Search LCNAF",
@@ -28153,7 +28153,7 @@
           {
             "resourceURI": "http://id.loc.gov/ontologies/bibframe/Meeting",
             "id": "lc:RT:bf2:Agent:Conference",
-            "resourceLabel": "Create Conference Name",
+            "resourceLabel": "Create conference name",
             "propertyTemplates": [
               {
                 "propertyLabel": "Search LCNAF",
@@ -28411,7 +28411,7 @@
           {
             "resourceURI": "http://id.loc.gov/ontologies/bibframe/Jurisdiction",
             "id": "lc:RT:bf2:Agent:Jurisdiction",
-            "resourceLabel": "Create Jurisdiction Name",
+            "resourceLabel": "Create jurisdiction name",
             "propertyTemplates": [
               {
                 "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
@@ -28688,7 +28688,7 @@
               }
             ],
             "id": "lc:RT:bf2:Agents:Addresses:Extended",
-            "resourceLabel": "Addresses, Extended",
+            "resourceLabel": "Addresses, extended",
             "resourceURI": "http://www.loc.gov/mads/rdf/v1#Address"
           },
           {
@@ -28726,12 +28726,12 @@
                   },
                   "defaults": []
                 },
-                "propertyLabel": "Relationship Designator (RDA Appendix K)",
+                "propertyLabel": "Relationship designator",
                 "remark": "http://access.rdatoolkit.org/rdaappk_rdak-15.html",
                 "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label"
               }
             ],
-            "resourceLabel": "Related Agents",
+            "resourceLabel": "Related agents",
             "id": "lc:RT:bf2:Agents:RelatedAgents",
             "resourceURI": "http://www.loc.gov/mads/rdf/v1#Authority"
           },
@@ -28798,7 +28798,7 @@
                 "remark": "http://access.rdatoolkit.org/rdachp8_rda8-531.html"
               }
             ],
-            "resourceLabel": "Sources Consulted and Cataloger's Notes",
+            "resourceLabel": "Sources consulted and cataloger's notes",
             "id": "lc:RT:bf2:Agents:Source",
             "resourceURI": "http://www.loc.gov/mads/rdf/v1#Source"
           },
@@ -28821,7 +28821,7 @@
               }
             ],
             "id": "lc:RT:bf2:Agents:VariantAgents",
-            "resourceLabel": "Variant Access Points Representing Agents",
+            "resourceLabel": "Variant access points representing agents",
             "resourceURI": "http://www.loc.gov/mads/rdf/v1#hasVariant"
           },
           {
@@ -29044,7 +29044,7 @@
             ],
             "id": "lc:RT:bf2:Agent:PersonTest",
             "resourceURI": "http://www.loc.gov/mads/rdf/v1#PersonalName",
-            "resourceLabel": "Create Personal Name Test"
+            "resourceLabel": "Create personal name test"
           },
           {
             "propertyTemplates": [
@@ -29065,7 +29065,7 @@
             ],
             "id": "lc:RT:bf2:Agent:PersonTest1",
             "resourceURI": "http://www.loc.gov/mads/rdf/v1#PersonalName",
-            "resourceLabel": "Variant heading Test"
+            "resourceLabel": "Variant heading test"
           },
           {
             "propertyTemplates": [
@@ -29230,7 +29230,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.059Z",
-      "updateDate": "2023-04-10T14:50:06.418Z",
+      "updateDate": "2024-12-06T18:26:58.234Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.059Z",

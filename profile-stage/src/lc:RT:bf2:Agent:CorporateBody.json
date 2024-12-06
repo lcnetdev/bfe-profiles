@@ -1,7 +1,7 @@
 {
   "resourceURI": "http://id.loc.gov/ontologies/bibframe/Organization",
   "id": "lc:RT:bf2:Agent:CorporateBody",
-  "resourceLabel": "Create Corporate Body Name",
+  "resourceLabel": "Create corporate body name",
   "propertyTemplates": [
     {
       "propertyLabel": "Search LCNAF",

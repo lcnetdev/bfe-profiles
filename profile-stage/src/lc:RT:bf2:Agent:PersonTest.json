@@ -139,5 +139,5 @@
   ],
   "id": "lc:RT:bf2:Agent:PersonTest",
   "resourceURI": "http://www.loc.gov/mads/rdf/v1#PersonalName",
-  "resourceLabel": "Create Personal Name Test"
+  "resourceLabel": "Create personal name test"
 }

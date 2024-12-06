@@ -33,12 +33,12 @@
         },
         "defaults": []
       },
-      "propertyLabel": "Relationship Designator (RDA Appendix K)",
+      "propertyLabel": "Relationship designator",
       "remark": "http://access.rdatoolkit.org/rdaappk_rdak-15.html",
       "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label"
     }
   ],
-  "resourceLabel": "Related Agents",
+  "resourceLabel": "Related agents",
   "id": "lc:RT:bf2:Agents:RelatedAgents",
   "resourceURI": "http://www.loc.gov/mads/rdf/v1#Authority"
 }

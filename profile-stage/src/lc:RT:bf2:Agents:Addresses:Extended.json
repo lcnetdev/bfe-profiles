@@ -86,6 +86,6 @@
     }
   ],
   "id": "lc:RT:bf2:Agents:Addresses:Extended",
-  "resourceLabel": "Addresses, Extended",
+  "resourceLabel": "Addresses, extended",
   "resourceURI": "http://www.loc.gov/mads/rdf/v1#Address"
 }

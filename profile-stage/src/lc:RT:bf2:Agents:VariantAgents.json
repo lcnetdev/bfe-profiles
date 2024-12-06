@@ -17,6 +17,6 @@
     }
   ],
   "id": "lc:RT:bf2:Agents:VariantAgents",
-  "resourceLabel": "Variant Access Points Representing Agents",
+  "resourceLabel": "Variant access points representing agents",
   "resourceURI": "http://www.loc.gov/mads/rdf/v1#hasVariant"
 }

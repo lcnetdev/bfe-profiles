@@ -1,7 +1,7 @@
 {
   "resourceURI": "http://id.loc.gov/ontologies/bibframe/Family",
   "id": "lc:RT:bf2:Agent:Family",
-  "resourceLabel": "Create Family Name",
+  "resourceLabel": "Create family name",
   "propertyTemplates": [
     {
       "propertyLabel": "Search LCNAF",

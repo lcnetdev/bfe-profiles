@@ -1,7 +1,7 @@
 {
   "resourceURI": "http://id.loc.gov/ontologies/bibframe/Meeting",
   "id": "lc:RT:bf2:Agent:Conference",
-  "resourceLabel": "Create Conference Name",
+  "resourceLabel": "Create conference name",
   "propertyTemplates": [
     {
       "propertyLabel": "Search LCNAF",
