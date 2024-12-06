@@ -17,10 +17,10 @@
         }
       },
       "propertyURI": "http://www.loc.gov/mads/rdf/v1#componentList",
-      "propertyLabel": "Hierarchical Place"
+      "propertyLabel": "Hierarchical place"
     }
   ],
   "id": "lc:RT:bf2:PlaceHierarchy",
   "resourceURI": "http://www.loc.gov/mads/rdf/v1#HierarchicalGeographic",
-  "resourceLabel": "Hierarchical Place"
+  "resourceLabel": "Hierarchical place"
 }

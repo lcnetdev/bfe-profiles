@@ -32032,12 +32032,12 @@
                   }
                 },
                 "propertyURI": "http://www.loc.gov/mads/rdf/v1#componentList",
-                "propertyLabel": "Hierarchical Place"
+                "propertyLabel": "Hierarchical place"
               }
             ],
             "id": "lc:RT:bf2:PlaceHierarchy",
             "resourceURI": "http://www.loc.gov/mads/rdf/v1#HierarchicalGeographic",
-            "resourceLabel": "Hierarchical Place"
+            "resourceLabel": "Hierarchical place"
           },
           {
             "propertyTemplates": [
@@ -32100,7 +32100,7 @@
             ],
             "id": "lc:RT:bf2:PlaceMadsCountry",
             "resourceURI": "http://www.loc.gov/mads/rdf/v1#HierarchicalGeographic",
-            "resourceLabel": "Hierarchical Place - elements"
+            "resourceLabel": "Hierarchical place - elements"
           }
         ],
         "id": "lc:profile:bf2:Place",
@@ -32112,7 +32112,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2022-12-05T20:36:06.990Z",
+      "updateDate": "2024-12-06T19:15:50.220Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",
