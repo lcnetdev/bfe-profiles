@@ -27256,7 +27256,7 @@
                   }
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/genreForm",
-                "propertyLabel": "Form/Genre"
+                "propertyLabel": "Genre/Form"
               },
               {
                 "mandatory": "false",
@@ -27537,7 +27537,7 @@
                   }
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/relation",
-                "propertyLabel": "Input Transcribed Series",
+                "propertyLabel": "Input transcribed series",
                 "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Series(490,8XX)"
               },
               {
@@ -27556,7 +27556,7 @@
                   }
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/relation",
-                "propertyLabel": "Search Series Hub (optional)",
+                "propertyLabel": "Search series Hub (optional)",
                 "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Series(490,8XX)"
               },
               {
@@ -27659,7 +27659,7 @@
                   "valueDataType": {}
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/provisionActivity",
-                "propertyLabel": "Provision Activity",
+                "propertyLabel": "Provision activity",
                 "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-ProvisionActivity(264)"
               },
               {
@@ -27726,7 +27726,7 @@
                   "valueDataType": {}
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/supplementaryContent",
-                "propertyLabel": "Supplementary Content note"
+                "propertyLabel": "Supplementary content URL"
               },
               {
                 "mandatory": "false",
@@ -28004,7 +28004,7 @@
                   "valueDataType": {}
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/custodialHistory",
-                "propertyLabel": "Custodial History of Item",
+                "propertyLabel": "Custodial history",
                 "remark": ""
               }
             ],
@@ -28174,7 +28174,7 @@
             "id": "lc:RT:bf2:PrintGroup:AcqSource",
             "resourceURI": "http://id.loc.gov/ontologies/bibframe/AcquisitionSource",
             "author": "NDMSO",
-            "resourceLabel": "Source of Acquisition"
+            "resourceLabel": "Source of acquisition"
           },
           {
             "propertyTemplates": [
@@ -28307,7 +28307,7 @@
     "id": "ce021882-2189-495e-b638-126d03f724a5",
     "metadata": {
       "createDate": "2021-08-02T18:47:18.815Z",
-      "updateDate": "2024-12-02T16:21:30.188Z",
+      "updateDate": "2024-12-06T20:48:23.616Z",
       "createUser": null,
       "updateUser": null
     },

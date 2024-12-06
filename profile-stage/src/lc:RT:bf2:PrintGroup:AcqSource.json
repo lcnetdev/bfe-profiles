@@ -35,5 +35,5 @@
   "id": "lc:RT:bf2:PrintGroup:AcqSource",
   "resourceURI": "http://id.loc.gov/ontologies/bibframe/AcquisitionSource",
   "author": "NDMSO",
-  "resourceLabel": "Source of Acquisition"
+  "resourceLabel": "Source of acquisition"
 }

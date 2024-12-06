@@ -80,7 +80,7 @@
         "valueDataType": {}
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/custodialHistory",
-      "propertyLabel": "Custodial History of Item",
+      "propertyLabel": "Custodial history",
       "remark": ""
     }
   ],
