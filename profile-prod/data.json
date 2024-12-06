@@ -21805,27 +21805,6 @@
             "propertyTemplates": [
               {
                 "mandatory": "false",
-                "repeatable": "false",
-                "type": "literal",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [],
-                  "valueDataType": {},
-                  "defaults": []
-                },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/mainTitle",
-                "propertyLabel": "Collective title"
-              }
-            ],
-            "id": "lc:RT:bf2:Title:CollTitle",
-            "resourceURI": "http://id.loc.gov/ontologies/bibframe/CollectiveTitle",
-            "resourceLabel": "Collective title"
-          },
-          {
-            "propertyTemplates": [
-              {
-                "mandatory": "false",
                 "repeatable": "true",
                 "type": "literal",
                 "resourceTemplates": [],
@@ -21843,6 +21822,27 @@
             "resourceURI": "http://id.loc.gov/ontologies/bibframe/Agent",
             "id": "lc:RT:bf2:Title:AbbrTitleAgent",
             "resourceLabel": "Assigner agent"
+          },
+          {
+            "propertyTemplates": [
+              {
+                "mandatory": "false",
+                "repeatable": "false",
+                "type": "literal",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [],
+                  "valueDataType": {},
+                  "defaults": []
+                },
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/mainTitle",
+                "propertyLabel": "Collective title"
+              }
+            ],
+            "id": "lc:RT:bf2:Title:CollTitle",
+            "resourceURI": "http://id.loc.gov/ontologies/bibframe/CollectiveTitle",
+            "resourceLabel": "Collective title"
           }
         ],
         "title": "BIBFRAME 2.0 Title Information",
@@ -21855,7 +21855,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.062Z",
-      "updateDate": "2024-12-06T20:22:13.130Z",
+      "updateDate": "2024-12-06T20:22:59.968Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.062Z",
