@@ -16,7 +16,7 @@
         "valueDataType": {}
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/title",
-      "propertyLabel": "Title Information",
+      "propertyLabel": "Title information",
       "remark": "https://original.rdatoolkit.org/rdachp2_rda2-3376.html"
     },
     {
@@ -31,7 +31,7 @@
         "valueDataType": {}
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/responsibilityStatement",
-      "propertyLabel": "Statement of Responsibility",
+      "propertyLabel": "Statement of responsibility",
       "remark": "http://original.rdatoolkit.org/2.4.2.html"
     },
     {
@@ -46,7 +46,7 @@
         "valueDataType": {}
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/editionStatement",
-      "propertyLabel": "Edition Statement",
+      "propertyLabel": "Edition statement",
       "remark": "http://original.rdatoolkit.org/2.5.html"
     },
     {
@@ -66,7 +66,7 @@
         "valueDataType": {}
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/provisionActivity",
-      "propertyLabel": "Provision Activity",
+      "propertyLabel": "Provision activity",
       "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-ProvisionActivity(264)"
     },
     {
@@ -81,7 +81,7 @@
         "valueDataType": {}
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/copyrightDate",
-      "propertyLabel": "Copyright Date",
+      "propertyLabel": "Copyright date",
       "remark": "http://original.rdatoolkit.org/2.11.html"
     },
     {
@@ -121,7 +121,7 @@
         }
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/issuance",
-      "propertyLabel": "Mode of Issuance",
+      "propertyLabel": "Mode of Iisuance",
       "remark": "http://original.rdatoolkit.org/2.13.html"
     },
     {
@@ -322,7 +322,7 @@
         "valueDataType": {}
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/contentAccessibility",
-      "propertyLabel": "Accessibility Content"
+      "propertyLabel": "Accessibility content"
     },
     {
       "mandatory": "false",
@@ -340,7 +340,7 @@
         }
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/productionMethod",
-      "propertyLabel": "Production Method"
+      "propertyLabel": "Production method"
     },
     {
       "mandatory": "false",
@@ -372,7 +372,7 @@
         "valueDataType": {}
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/supplementaryContent",
-      "propertyLabel": "Supplementary Content note"
+      "propertyLabel": "Supplementary content URL"
     },
     {
       "mandatory": "false",
@@ -390,7 +390,7 @@
         }
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/aspectRatio",
-      "propertyLabel": "Aspect Ratio",
+      "propertyLabel": "Aspect ratio",
       "remark": "http://original.rdatoolkit.org/rdachp7_rda7-1486.html"
     },
     {
@@ -407,7 +407,7 @@
         "valueDataType": {}
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/aspectRatio",
-      "propertyLabel": "Aspect Ratio (Numeric)",
+      "propertyLabel": "Aspect ratio (numeric)",
       "remark": "http://original.rdatoolkit.org/rdachp7_rda7-1486.html"
     },
     {
@@ -427,7 +427,7 @@
         "valueDataType": {}
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/soundCharacteristic",
-      "propertyLabel": "Sound Characteristics"
+      "propertyLabel": "Sound characteristics"
     },
     {
       "mandatory": "false",
@@ -445,7 +445,7 @@
         }
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/videoCharacteristic",
-      "propertyLabel": "Video Characteristic/Broadcast Standard",
+      "propertyLabel": "Video characteristic/Broadcast standard",
       "remark": "http://original.rdatoolkit.org/rdachp3_rda3-5138.html"
     },
     {
@@ -465,7 +465,7 @@
         "valueDataType": {}
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/digitalCharacteristic",
-      "propertyLabel": "Digital Characteristics"
+      "propertyLabel": "Digital characteristics"
     },
     {
       "mandatory": "false",
@@ -481,7 +481,7 @@
         "valueDataType": {}
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/systemRequirement",
-      "propertyLabel": "System Requirements",
+      "propertyLabel": "System requirements",
       "remark": "http://original.rdatoolkit.org/3.20.1.3.html"
     },
     {
