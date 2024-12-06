@@ -3,22 +3,29 @@
     {
       "mandatory": "false",
       "repeatable": "true",
-      "type": "literal",
+      "type": "lookup",
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [],
-        "useValuesFrom": [],
-        "defaults": [],
+        "useValuesFrom": [
+          "http://id.loc.gov/vocabulary/mplayspeed"
+        ],
+        "defaults": [
+          {
+            "defaultURI": "http://id.loc.gov/vocabulary/mplayspeed/l",
+            "defaultLiteral": "1 7/8 ips"
+          }
+        ],
         "valueDataType": {
-          "dataTypeLabelHint": "1 7/8 ips"
+          "dataTypeLabelHint": ""
         }
       },
-      "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label",
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/PlayingSpeed",
       "propertyLabel": "Playing Speed",
       "remark": "http://original.rdatoolkit.org/3.16.4.html"
     }
   ],
   "id": "lc:RT:bf2:SoundCassette:PlaySpeed",
   "resourceURI": "http://id.loc.gov/ontologies/bibframe/PlayingSpeed",
-  "resourceLabel": "Playing Speed"
+  "resourceLabel": "Playing speed"
 }
