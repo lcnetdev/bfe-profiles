@@ -52,7 +52,7 @@
       "type": "resource"
     },
     {
-      "propertyLabel": "Lending, Reproduction, and Retention Policies",
+      "propertyLabel": "Lending, reproduction, and retention policies",
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/usageAndAccessPolicy",
       "resourceTemplates": [],
       "valueConstraint": {
