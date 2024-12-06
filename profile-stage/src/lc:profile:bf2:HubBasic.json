@@ -18,7 +18,7 @@
             }
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/contribution",
-          "propertyLabel": "Primary Contributor"
+          "propertyLabel": "Primary contributor"
         },
         {
           "type": "resource",
@@ -55,7 +55,7 @@
             "valueDataType": {}
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/title",
-          "propertyLabel": "Preferred Title",
+          "propertyLabel": "Preferred title",
           "mandatory": "false",
           "type": "resource"
         },
@@ -70,7 +70,7 @@
             "valueDataType": {}
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/title",
-          "propertyLabel": "Variant Title",
+          "propertyLabel": "Variant title",
           "mandatory": "false",
           "repeatable": "true",
           "type": "resource"
@@ -88,7 +88,7 @@
             "languageURI": "http://id.loc.gov/vocabulary/languages/und"
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/title",
-          "propertyLabel": "Transliterated Title",
+          "propertyLabel": "Transliterated title",
           "mandatory": "false",
           "repeatable": "true",
           "type": "resource"
@@ -103,7 +103,7 @@
             "valueDataType": {}
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/originDate",
-          "propertyLabel": "Date Work Created",
+          "propertyLabel": "Date work created",
           "mandatory": "false",
           "type": "literal"
         },
@@ -241,7 +241,7 @@
             }
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/agent",
-          "propertyLabel": "Primary Contributor"
+          "propertyLabel": "Primary contributor"
         },
         {
           "mandatory": "true",
@@ -259,11 +259,11 @@
             }
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
-          "propertyLabel": "Primary Role"
+          "propertyLabel": "Role"
         }
       ],
       "id": "lc:RT:bf2:HubBasic:PrimaryContribution",
-      "resourceLabel": "Primary Contributor",
+      "resourceLabel": "Primary contributor",
       "resourceURI": "http://id.loc.gov/ontologies/bibframe/PrimaryContribution",
       "author": "NDMSO"
     },
@@ -306,7 +306,7 @@
         }
       ],
       "id": "lc:RT:bf2:HubBasic:Contribution",
-      "resourceLabel": "Other Contributor",
+      "resourceLabel": "Other contributor",
       "author": "NDMSO",
       "resourceURI": "http://id.loc.gov/ontologies/bibframe/Contribution"
     }

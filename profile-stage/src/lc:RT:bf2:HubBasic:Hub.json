@@ -16,7 +16,7 @@
         }
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/contribution",
-      "propertyLabel": "Primary Contributor"
+      "propertyLabel": "Primary contributor"
     },
     {
       "type": "resource",
@@ -53,7 +53,7 @@
         "valueDataType": {}
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/title",
-      "propertyLabel": "Preferred Title",
+      "propertyLabel": "Preferred title",
       "mandatory": "false",
       "type": "resource"
     },
@@ -68,7 +68,7 @@
         "valueDataType": {}
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/title",
-      "propertyLabel": "Variant Title",
+      "propertyLabel": "Variant title",
       "mandatory": "false",
       "repeatable": "true",
       "type": "resource"
@@ -86,7 +86,7 @@
         "languageURI": "http://id.loc.gov/vocabulary/languages/und"
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/title",
-      "propertyLabel": "Transliterated Title",
+      "propertyLabel": "Transliterated title",
       "mandatory": "false",
       "repeatable": "true",
       "type": "resource"
@@ -101,7 +101,7 @@
         "valueDataType": {}
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/originDate",
-      "propertyLabel": "Date Work Created",
+      "propertyLabel": "Date work created",
       "mandatory": "false",
       "type": "literal"
     },
