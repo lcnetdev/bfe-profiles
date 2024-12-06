@@ -9229,7 +9229,9 @@
                 "type": "resource",
                 "resourceTemplates": [],
                 "valueConstraint": {
-                  "valueTemplateRefs": [],
+                  "valueTemplateRefs": [
+                    "lc:RT:bf2:Title:AbbrTitleAgent"
+                  ],
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
@@ -9373,7 +9375,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.062Z",
-      "updateDate": "2024-12-06T20:22:01.211Z",
+      "updateDate": "2024-12-06T20:22:40.513Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.062Z",
