@@ -104,7 +104,7 @@
             }
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/status",
-          "propertyLabel": "Invalid/Canceled?"
+          "propertyLabel": "Invalid/canceled?"
         }
       ],
       "id": "lc:RT:bf2:Identifiers:Coden",
@@ -284,7 +284,7 @@
             }
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/status",
-          "propertyLabel": "Canceled/Invalid ?"
+          "propertyLabel": "Canceled/invalid ?"
         }
       ],
       "id": "lc:RT:bf2:Identifiers:GPONumber",
@@ -361,7 +361,7 @@
             "defaults": []
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/status",
-          "propertyLabel": "Invalid/Canceled?"
+          "propertyLabel": "Invalid/canceled?"
         }
       ],
       "id": "lc:RT:bf2:Identifiers:ISBN",
@@ -492,7 +492,7 @@
             "defaults": []
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/status",
-          "propertyLabel": "Incorrect or Canceled?"
+          "propertyLabel": "Incorrect/canceled?"
         }
       ],
       "id": "lc:RT:bf2:Identifiers:ISSN",
@@ -549,7 +549,7 @@
             "defaults": []
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/status",
-          "propertyLabel": "Incorrect or Canceled?"
+          "propertyLabel": "Incorrect/canceled?"
         }
       ],
       "id": "lc:RT:bf2:Identifiers:ISSNL",
@@ -589,7 +589,7 @@
             "defaults": []
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/status",
-          "propertyLabel": "Invalid/Canceled?"
+          "propertyLabel": "Invalid/canceled?"
         }
       ],
       "id": "lc:RT:bf2:Identifiers:LCCN",
@@ -646,7 +646,7 @@
             }
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/status",
-          "propertyLabel": "Invalid/Canceled?"
+          "propertyLabel": "Invalid/canceled?"
         }
       ],
       "id": "lc:RT:bf2:Identifiers:Local",
@@ -910,7 +910,7 @@
             }
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/status",
-          "propertyLabel": "Invalid/Canceled?"
+          "propertyLabel": "Invalid/canceled?"
         },
         {
           "mandatory": "false",
@@ -967,7 +967,7 @@
             }
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/status",
-          "propertyLabel": "Invalid/Canceled?"
+          "propertyLabel": "Invalid/canceled?"
         }
       ],
       "id": "lc:RT:bf2:Identifiers:Oclc",
@@ -1328,7 +1328,7 @@
             "editable": "true"
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/code",
-          "propertyLabel": "ISSN Centre"
+          "propertyLabel": "ISSN centre"
         }
       ],
       "id": "lc:RT:bf2:Identifiers:Agent2",

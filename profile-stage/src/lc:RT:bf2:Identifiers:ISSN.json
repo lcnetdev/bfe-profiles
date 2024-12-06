@@ -50,7 +50,7 @@
         "defaults": []
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/status",
-      "propertyLabel": "Incorrect or Canceled?"
+      "propertyLabel": "Incorrect/canceled?"
     }
   ],
   "id": "lc:RT:bf2:Identifiers:ISSN",

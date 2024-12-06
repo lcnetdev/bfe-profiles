@@ -13,7 +13,7 @@
         "editable": "true"
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/code",
-      "propertyLabel": "ISSN Centre"
+      "propertyLabel": "ISSN centre"
     }
   ],
   "id": "lc:RT:bf2:Identifiers:Agent2",
