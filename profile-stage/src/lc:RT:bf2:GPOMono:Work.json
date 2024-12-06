@@ -12,7 +12,7 @@
         "valueDataType": {}
       },
       "propertyURI": "http://id.loc.gov/ontologies/bflc/aap",
-      "propertyLabel": "Authorized Access Point"
+      "propertyLabel": "Authorized access point"
     },
     {
       "mandatory": "false",
@@ -58,7 +58,7 @@
         ]
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/content",
-      "propertyLabel": "Content Type",
+      "propertyLabel": "Content type",
       "remark": "https://original.rdatoolkit.org/6.9.html"
     },
     {
