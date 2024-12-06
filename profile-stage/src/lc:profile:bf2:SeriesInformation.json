@@ -76,7 +76,7 @@
       ],
       "id": "lc:RT:bf2:SeriesHub",
       "resourceURI": "http://id.loc.gov/ontologies/bibframe/Relation",
-      "resourceLabel": "Input Transcribed Series"
+      "resourceLabel": "Input transcribed series"
     },
     {
       "propertyTemplates": [
@@ -173,7 +173,7 @@
       ],
       "id": "lc:RT:bf2:SeriesHubTitle",
       "resourceURI": "http://id.loc.gov/ontologies/bibframe/Title",
-      "resourceLabel": "Series Hub Title"
+      "resourceLabel": "Series Hub title"
     },
     {
       "propertyTemplates": [
@@ -237,7 +237,7 @@
             }
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/associatedResource",
-          "propertyLabel": "Search Series Hub"
+          "propertyLabel": "Search series Hub"
         },
         {
           "mandatory": "false",
@@ -256,7 +256,7 @@
       ],
       "resourceURI": "http://id.loc.gov/ontologies/bibframe/Relation",
       "id": "lc:RT:bf2:SeriesHubLookup",
-      "resourceLabel": "Search Series Hub"
+      "resourceLabel": "Search series Hub"
     },
     {
       "propertyTemplates": [
@@ -300,90 +300,6 @@
       "id": "lc:RT:bf2:SeriesHubIssnCancelled",
       "resourceURI": "http://id.loc.gov/ontologies/bibframe/Issn",
       "resourceLabel": "Issn, Cancelled"
-    },
-    {
-      "propertyTemplates": [
-        {
-          "mandatory": "false",
-          "repeatable": "true",
-          "type": "literal",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [],
-            "useValuesFrom": [],
-            "valueDataType": {},
-            "defaults": []
-          },
-          "propertyLabel": "Series Statement and ISSN",
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/seriesStatement",
-          "remark": ""
-        },
-        {
-          "mandatory": "false",
-          "repeatable": "true",
-          "type": "literal",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [],
-            "useValuesFrom": [],
-            "valueDataType": {},
-            "defaults": []
-          },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/seriesEnumeration",
-          "propertyLabel": "Series Numbering",
-          "remark": ""
-        },
-        {
-          "mandatory": "false",
-          "repeatable": "true",
-          "type": "literal",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [],
-            "useValuesFrom": [],
-            "valueDataType": {},
-            "defaults": []
-          },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/subseriesStatement",
-          "propertyLabel": "Subseries Title and ISSN",
-          "remark": ""
-        },
-        {
-          "mandatory": "false",
-          "repeatable": "true",
-          "type": "literal",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [],
-            "useValuesFrom": [],
-            "valueDataType": {},
-            "defaults": []
-          },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/subseriesEnumeration",
-          "propertyLabel": "Numbering within Subseries",
-          "remark": ""
-        },
-        {
-          "mandatory": "false",
-          "repeatable": "true",
-          "type": "resource",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [
-              "lc:RT:bf2:Note"
-            ],
-            "useValuesFrom": [],
-            "defaults": [],
-            "valueDataType": {}
-          },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
-          "propertyLabel": "Note"
-        }
-      ],
-      "resourceURI": "http://id.loc.gov/ontologies/bibframe/Instance",
-      "id": "lc:RT:bf2:SeriesInformation",
-      "resourceLabel": "Series Statement (unused)",
-      "remark": ""
     }
   ],
   "id": "lc:profile:bf2:SeriesInformation",

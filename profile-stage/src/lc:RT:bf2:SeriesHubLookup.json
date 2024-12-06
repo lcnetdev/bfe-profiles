@@ -39,7 +39,7 @@
         }
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/associatedResource",
-      "propertyLabel": "Search Series Hub"
+      "propertyLabel": "Search series Hub"
     },
     {
       "mandatory": "false",
@@ -58,5 +58,5 @@
   ],
   "resourceURI": "http://id.loc.gov/ontologies/bibframe/Relation",
   "id": "lc:RT:bf2:SeriesHubLookup",
-  "resourceLabel": "Search Series Hub"
+  "resourceLabel": "Search series Hub"
 }
