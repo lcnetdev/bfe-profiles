@@ -31596,7 +31596,7 @@
                   "defaults": []
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/agent",
-                "propertyLabel": "Primary Contributor",
+                "propertyLabel": "Primary contributor",
                 "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Contributors(1XX,6XX,7XX)"
               },
               {
@@ -31618,25 +31618,25 @@
                   "editable": "true"
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
-                "propertyLabel": "Relationship Designator",
+                "propertyLabel": "Relationship designator",
                 "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-AgentRolesMarva+cataloging+updates#Marvacatalogingupdates-AgentRoles"
               }
             ],
             "id": "lc:RT:bflc:Agents:PrimaryContribution",
-            "resourceLabel": "Primary Contribution",
+            "resourceLabel": "Primary contribution",
             "resourceURI": "http://id.loc.gov/ontologies/bibframe/PrimaryContribution"
           }
         ],
         "author": "NDMSO",
         "id": "lc:profile:bflc:PrimaryContribution",
         "title": "BIBFRAME 2.0 Agents Primary Contribution",
-        "description": "Primary Contribution",
+        "description": "Primary contribution",
         "date": "2017-07-18"
       }
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.059Z",
-      "updateDate": "2024-10-01T19:06:09.937Z",
+      "updateDate": "2024-12-06T18:28:34.137Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.059Z",
