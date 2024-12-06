@@ -38350,7 +38350,7 @@
                   "defaults": []
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/title",
-                "propertyLabel": "Title Information",
+                "propertyLabel": "Title information",
                 "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Work/ExpressionTitles"
               },
               {
@@ -38376,7 +38376,7 @@
                   ]
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/content",
-                "propertyLabel": "Content Type",
+                "propertyLabel": "Content type",
                 "remark": "https://original.rdatoolkit.org/6.9.html"
               },
               {
@@ -38414,7 +38414,7 @@
                   }
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/relation",
-                "propertyLabel": "Input Transcribed Series",
+                "propertyLabel": "Input transcribed series",
                 "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Series(490,8XX)"
               },
               {
@@ -38458,7 +38458,7 @@
                 "repeatable": "false"
               },
               {
-                "propertyLabel": "Title Information",
+                "propertyLabel": "Title information",
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/title",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -38489,12 +38489,12 @@
                   "valueDataType": {},
                   "defaults": []
                 },
-                "propertyLabel": "Statement of Responsibility",
+                "propertyLabel": "Statement of responsibility",
                 "remark": "https://original.rdatoolkit.org/2.4.2.html",
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/responsibilityStatement"
               },
               {
-                "propertyLabel": "Edition Statement",
+                "propertyLabel": "Edition statement",
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/editionStatement",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -38525,7 +38525,7 @@
                   "defaults": []
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/provisionActivity",
-                "propertyLabel": "Provision Activity",
+                "propertyLabel": "Provision activity",
                 "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-ProvisionActivity(264)"
               },
               {
@@ -38736,7 +38736,7 @@
                   "valueDataType": {},
                   "defaults": []
                 },
-                "propertyLabel": "Enumeration And Chronology of Item",
+                "propertyLabel": "Enumeration and chronology of Item",
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/enumerationAndChronology"
               }
             ],
@@ -38797,7 +38797,7 @@
     "id": "0ed6ae10-940c-4063-a11e-5e187ea16aa4",
     "metadata": {
       "createDate": "2024-11-12T15:09:59.466Z",
-      "updateDate": "2024-12-02T16:20:30.529Z",
+      "updateDate": "2024-12-06T20:44:34.150Z",
       "createUser": null,
       "updateUser": null
     }

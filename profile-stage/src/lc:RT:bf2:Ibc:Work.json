@@ -37,7 +37,7 @@
         "defaults": []
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/title",
-      "propertyLabel": "Title Information",
+      "propertyLabel": "Title information",
       "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Work/ExpressionTitles"
     },
     {
@@ -63,7 +63,7 @@
         ]
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/content",
-      "propertyLabel": "Content Type",
+      "propertyLabel": "Content type",
       "remark": "https://original.rdatoolkit.org/6.9.html"
     },
     {
@@ -101,7 +101,7 @@
         }
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/relation",
-      "propertyLabel": "Input Transcribed Series",
+      "propertyLabel": "Input transcribed series",
       "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Series(490,8XX)"
     },
     {
