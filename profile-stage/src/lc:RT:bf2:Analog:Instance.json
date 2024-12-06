@@ -2,7 +2,7 @@
   "id": "lc:RT:bf2:Analog:Instance",
   "propertyTemplates": [
     {
-      "propertyLabel": "Instance Of",
+      "propertyLabel": "Instance of",
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/instanceOf",
       "resourceTemplates": [],
       "type": "resource",
@@ -20,7 +20,7 @@
       "repeatable": "false"
     },
     {
-      "propertyLabel": "Title Information",
+      "propertyLabel": "Title information",
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/title",
       "resourceTemplates": [],
       "valueConstraint": {
@@ -51,12 +51,12 @@
         "valueDataType": {},
         "defaults": []
       },
-      "propertyLabel": "Statement of Responsibility",
+      "propertyLabel": "Statement of responsibility",
       "remark": "http://original.rdatoolkit.org/2.4.2.html",
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/responsibilityStatement"
     },
     {
-      "propertyLabel": "Edition Statement",
+      "propertyLabel": "Edition statement",
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/editionStatement",
       "resourceTemplates": [],
       "valueConstraint": {
@@ -71,7 +71,7 @@
       "remark": "http://original.rdatoolkit.org/2.5.html"
     },
     {
-      "propertyLabel": "Provision Activity",
+      "propertyLabel": "Provision activity",
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/provisionActivity",
       "resourceTemplates": [],
       "type": "resource",
@@ -102,7 +102,7 @@
         "defaults": []
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/copyrightDate",
-      "propertyLabel": "Copyright Date",
+      "propertyLabel": "Copyright date",
       "remark": "http://original.rdatoolkit.org/2.11.html"
     },
     {
@@ -128,7 +128,7 @@
         ]
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/issuance",
-      "propertyLabel": "Mode of Issuance",
+      "propertyLabel": "Mode of issuance",
       "remark": "http://original.rdatoolkit.org/2.13.html"
     },
     {
@@ -192,7 +192,7 @@
         "valueDataType": {}
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/supplementaryContent",
-      "propertyLabel": "Supplementary Content note"
+      "propertyLabel": "Supplementary content URL"
     },
     {
       "mandatory": "false",
@@ -334,7 +334,7 @@
         "repeatable": "true",
         "defaults": []
       },
-      "propertyLabel": "Base Material",
+      "propertyLabel": "Base material",
       "remark": "http://original.rdatoolkit.org/3.6.html",
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/baseMaterial"
     },
@@ -353,7 +353,7 @@
         },
         "defaults": []
       },
-      "propertyLabel": "Applied Material",
+      "propertyLabel": "Applied material",
       "remark": "http://original.rdatoolkit.org/3.7.html",
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/appliedMaterial"
     },
@@ -373,7 +373,7 @@
         "defaults": []
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/productionMethod",
-      "propertyLabel": "Production Method",
+      "propertyLabel": "Production method",
       "remark": ""
     },
     {
@@ -391,7 +391,7 @@
         },
         "defaults": []
       },
-      "propertyLabel": "Recording Generation",
+      "propertyLabel": "Recording generation",
       "remark": "http://original.rdatoolkit.org/3.10.html",
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/generation"
     },
@@ -418,7 +418,7 @@
         "defaultLiteral": "",
         "defaults": []
       },
-      "propertyLabel": "Sound Characteristics",
+      "propertyLabel": "Sound characteristics",
       "remark": "",
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/soundCharacteristic"
     },
@@ -438,22 +438,6 @@
       "mandatory": "false",
       "repeatable": "true",
       "remark": "http://original.rdatoolkit.org/4.6.html"
-    },
-    {
-      "mandatory": "true",
-      "repeatable": "false",
-      "type": "resource",
-      "resourceTemplates": [],
-      "valueConstraint": {
-        "valueTemplateRefs": [
-          "lc:RT:bf2:AdminMetadata:BFDB"
-        ],
-        "useValuesFrom": [],
-        "valueDataType": {},
-        "defaults": []
-      },
-      "propertyLabel": "Administrative Metadata",
-      "propertyURI": "http://id.loc.gov/ontologies/bibframe/adminMetadata"
     },
     {
       "mandatory": "false",
