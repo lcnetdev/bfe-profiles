@@ -20,5 +20,5 @@
   ],
   "id": "lc:RT:bf2:VideoCassette:Aspect",
   "resourceURI": "http://id.loc.gov/ontologies/bibframe/AspectRatio",
-  "resourceLabel": "Aspect ratio (Numeric)"
+  "resourceLabel": "Aspect ratio (numeric)"
 }
