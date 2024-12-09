@@ -57,7 +57,7 @@
           "valueConstraint": {
             "valueTemplateRefs": [],
             "useValuesFrom": [
-              "http://id.loc.gov/vocabulary/resourceComponents?resources"
+              "https://id.loc.gov/vocabulary/resourceComponents/suggest2?q=*&memberof=http://id.loc.gov/vocabulary/resourceComponents/collection_LanguageResource&count=25"
             ],
             "defaults": [],
             "valueDataType": {}
@@ -98,8 +98,7 @@
           "valueConstraint": {
             "valueTemplateRefs": [],
             "useValuesFrom": [
-              "http://id.loc.gov/vocabulary/resourceComponents?notes",
-              "http://id.loc.gov/vocabulary/mnotetype"
+              "https://id.loc.gov/vocabulary/resourceComponents/suggest2?q=*&memberof=http://id.loc.gov/vocabulary/resourceComponents/collection_LanguageResource&count=25"
             ],
             "defaults": [
               {
