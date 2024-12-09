@@ -30201,6 +30201,90 @@
             "id": "lc:RT:bf2:AdminMetadata:Identifier",
             "resourceURI": "http://id.loc.gov/ontologies/bibframe/Local",
             "resourceLabel": "Local identifier"
+          },
+          {
+            "propertyTemplates": [
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "literal",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {}
+                },
+                "propertyURI": "http://id.loc.gov/ontologies/bflc/catalogerId",
+                "propertyLabel": "Your cataloger ID (Windows ID)"
+              },
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "lookup",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [
+                    "http://id.loc.gov/vocabulary/menclvl"
+                  ],
+                  "defaults": [],
+                  "valueDataType": {
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bflc/EncodingLevel"
+                  }
+                },
+                "propertyURI": "http://id.loc.gov/ontologies/bflc/encodingLevel",
+                "propertyLabel": "Encoding level"
+              },
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "lookup",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [
+                    "http://id.loc.gov/vocabulary/descriptionConventions"
+                  ],
+                  "defaults": [
+                    {
+                      "defaultURI": "http://id.loc.gov/vocabulary/descriptionConventions/rda",
+                      "defaultLiteral": "rda"
+                    }
+                  ],
+                  "valueDataType": {}
+                },
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/descriptionConventions",
+                "propertyLabel": "Description conventions"
+              },
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "literal",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [
+                    "http://id.loc.gov/vocabulary/marcauthen"
+                  ],
+                  "defaults": [
+                    {
+                      "defaultURI": "http://id.loc.gov/vocabulary/marcauthen/pcc",
+                      "defaultLiteral": "pcc"
+                    }
+                  ],
+                  "valueDataType": {
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/DescriptionAuthentication"
+                  }
+                },
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/descriptionAuthentication",
+                "propertyLabel": "Description authentication"
+              }
+            ],
+            "id": "lc:RT:bf2:AdminMetadata:Input",
+            "resourceURI": "http://id.loc.gov/ontologies/bibframe/AdminMetadata",
+            "resourceLabel": "Admin Metadata-Cataloger input",
+            "author": "NDMSO"
           }
         ],
         "id": "lc:profile:bf2:AdminMetadata",
@@ -30214,7 +30298,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.056Z",
-      "updateDate": "2024-12-06T15:30:48.288Z",
+      "updateDate": "2024-12-09T17:13:06.958Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.056Z",
