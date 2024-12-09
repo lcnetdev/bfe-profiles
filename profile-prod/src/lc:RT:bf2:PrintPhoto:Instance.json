@@ -149,7 +149,7 @@
         "valueDataType": {}
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/supplementaryContent",
-      "propertyLabel": "Supplementary content note",
+      "propertyLabel": "Supplementary content URL",
       "remark": "https://original.rdatoolkit.org/7.16.html"
     },
     {

@@ -2374,7 +2374,7 @@
                   "valueDataType": {}
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/supplementaryContent",
-                "propertyLabel": "Supplementary content note",
+                "propertyLabel": "Supplementary content URL",
                 "remark": "https://original.rdatoolkit.org/7.16.html"
               },
               {
@@ -3035,7 +3035,7 @@
     },
     "metadata": {
       "createDate": "2018-09-05T19:18:43.112Z",
-      "updateDate": "2024-12-05T21:28:23.813Z",
+      "updateDate": "2024-12-09T16:19:46.876Z",
       "createUser": null,
       "updateUser": null
     },
