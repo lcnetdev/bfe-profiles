@@ -27119,7 +27119,7 @@
                   "valueDataType": {}
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/supplementaryContent",
-                "propertyLabel": "Supplementary Content URL"
+                "propertyLabel": "Supplementary content URL"
               },
               {
                 "mandatory": "false",
@@ -27752,7 +27752,7 @@
     },
     "metadata": {
       "createDate": "2018-09-05T19:18:43.112Z",
-      "updateDate": "2024-12-06T20:46:41.845Z",
+      "updateDate": "2024-12-09T16:21:15.862Z",
       "createUser": null,
       "updateUser": null
     },

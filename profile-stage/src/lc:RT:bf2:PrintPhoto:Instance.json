@@ -144,7 +144,7 @@
         "valueDataType": {}
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/supplementaryContent",
-      "propertyLabel": "Supplementary Content URL"
+      "propertyLabel": "Supplementary content URL"
     },
     {
       "mandatory": "false",
