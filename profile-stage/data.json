@@ -31053,7 +31053,7 @@
             ],
             "id": "lc:RT:bf2:PMOMedPerf:DecMedTest",
             "resourceURI": "http://performedmusicontology.org/ontology/DeclaredMedium",
-            "resourceLabel": "Declared Medium"
+            "resourceLabel": "Declared Medium (unused)"
           },
           {
             "propertyTemplates": [
@@ -31077,7 +31077,7 @@
             ],
             "id": "lc:RT:bf2:PMOMedPerf:MedPart2",
             "resourceURI": "http://performedmusicontology.org/ontology/MediumPart",
-            "resourceLabel": "Medium Part/Declared"
+            "resourceLabel": "Medium Part/Declared (unused)"
           },
           {
             "propertyTemplates": [
@@ -31176,7 +31176,7 @@
             ],
             "id": "lc:RT:bf2:PMOMedPerf:PerfMed",
             "resourceURI": "http://performedmusicontology.org/ontology/PerformedMedium",
-            "resourceLabel": "Performed Medium"
+            "resourceLabel": "Performed Medium (unused)"
           },
           {
             "propertyTemplates": [
@@ -31200,7 +31200,7 @@
             ],
             "id": "lc:RT:bf2:PMOMedPerf:MedPart",
             "resourceURI": "http://performedmusicontology.org/ontology/MediumPart",
-            "resourceLabel": "Medium Part/Performed"
+            "resourceLabel": "Medium Part/Performed (unused)"
           },
           {
             "propertyTemplates": [
@@ -31272,7 +31272,7 @@
             ],
             "id": "lc:RT:bf2:PMOMedPerf:MedPerfI1",
             "resourceURI": "http://performedmusicontology.org/ontology/IndividualMediumOfPerformance",
-            "resourceLabel": "Individual Medium of Performance"
+            "resourceLabel": "Individual MoP (unused)"
           },
           {
             "propertyTemplates": [
@@ -31329,7 +31329,7 @@
             ],
             "id": "lc:RT:bf2:PMOMedPerf:MedPerfI2",
             "resourceURI": "http://performedmusicontology.org/ontology/EnsembleMediumOfPerformance",
-            "resourceLabel": "Ensemble Medium of Performance"
+            "resourceLabel": "Ensemble MoP (unused)"
           },
           {
             "propertyTemplates": [
@@ -31386,7 +31386,7 @@
             ],
             "id": "lc:RT:bf2:PMOAgentPerf",
             "resourceURI": "http://id.loc.gov/ontologies/bibframe/Contribution",
-            "resourceLabel": "Agent, Role, Medium of Performance"
+            "resourceLabel": "Agent, Role, Medium of Performance test"
           },
           {
             "propertyTemplates": [
@@ -31444,7 +31444,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.062Z",
-      "updateDate": "2024-08-20T15:06:37.940Z",
+      "updateDate": "2024-12-09T14:57:41.482Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.062Z",

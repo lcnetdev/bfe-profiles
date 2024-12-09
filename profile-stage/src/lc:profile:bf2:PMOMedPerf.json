@@ -201,7 +201,7 @@
       ],
       "id": "lc:RT:bf2:PMOMedPerf:DecMedTest",
       "resourceURI": "http://performedmusicontology.org/ontology/DeclaredMedium",
-      "resourceLabel": "Declared Medium"
+      "resourceLabel": "Declared Medium (unused)"
     },
     {
       "propertyTemplates": [
@@ -225,7 +225,7 @@
       ],
       "id": "lc:RT:bf2:PMOMedPerf:MedPart2",
       "resourceURI": "http://performedmusicontology.org/ontology/MediumPart",
-      "resourceLabel": "Medium Part/Declared"
+      "resourceLabel": "Medium Part/Declared (unused)"
     },
     {
       "propertyTemplates": [
@@ -324,7 +324,7 @@
       ],
       "id": "lc:RT:bf2:PMOMedPerf:PerfMed",
       "resourceURI": "http://performedmusicontology.org/ontology/PerformedMedium",
-      "resourceLabel": "Performed Medium"
+      "resourceLabel": "Performed Medium (unused)"
     },
     {
       "propertyTemplates": [
@@ -348,7 +348,7 @@
       ],
       "id": "lc:RT:bf2:PMOMedPerf:MedPart",
       "resourceURI": "http://performedmusicontology.org/ontology/MediumPart",
-      "resourceLabel": "Medium Part/Performed"
+      "resourceLabel": "Medium Part/Performed (unused)"
     },
     {
       "propertyTemplates": [
@@ -420,7 +420,7 @@
       ],
       "id": "lc:RT:bf2:PMOMedPerf:MedPerfI1",
       "resourceURI": "http://performedmusicontology.org/ontology/IndividualMediumOfPerformance",
-      "resourceLabel": "Individual Medium of Performance"
+      "resourceLabel": "Individual MoP (unused)"
     },
     {
       "propertyTemplates": [
@@ -477,7 +477,7 @@
       ],
       "id": "lc:RT:bf2:PMOMedPerf:MedPerfI2",
       "resourceURI": "http://performedmusicontology.org/ontology/EnsembleMediumOfPerformance",
-      "resourceLabel": "Ensemble Medium of Performance"
+      "resourceLabel": "Ensemble MoP (unused)"
     },
     {
       "propertyTemplates": [
@@ -534,7 +534,7 @@
       ],
       "id": "lc:RT:bf2:PMOAgentPerf",
       "resourceURI": "http://id.loc.gov/ontologies/bibframe/Contribution",
-      "resourceLabel": "Agent, Role, Medium of Performance"
+      "resourceLabel": "Agent, Role, Medium of Performance test"
     },
     {
       "propertyTemplates": [
