@@ -46,6 +46,10 @@
           {
             "defaultURI": "http://id.loc.gov/vocabulary/descriptionConventions/rda",
             "defaultLiteral": "rda"
+          },
+          {
+            "defaultURI": "http://id.loc.gov/vocabulary/descriptionConventions/isbd",
+            "defaultLiteral": "isbd"
           }
         ],
         "valueDataType": {}

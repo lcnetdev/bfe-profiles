@@ -30266,6 +30266,10 @@
                     {
                       "defaultURI": "http://id.loc.gov/vocabulary/descriptionConventions/rda",
                       "defaultLiteral": "rda"
+                    },
+                    {
+                      "defaultURI": "http://id.loc.gov/vocabulary/descriptionConventions/isbd",
+                      "defaultLiteral": "isbd"
                     }
                   ],
                   "valueDataType": {}
@@ -30314,7 +30318,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.056Z",
-      "updateDate": "2024-12-09T18:39:51.764Z",
+      "updateDate": "2024-12-09T19:15:01.372Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.056Z",
