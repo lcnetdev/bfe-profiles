@@ -1272,7 +1272,7 @@
             }
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/issuance",
-          "propertyLabel": "Mode of Iisuance",
+          "propertyLabel": "Mode of issuance",
           "remark": "http://original.rdatoolkit.org/2.13.html"
         },
         {
@@ -1345,7 +1345,7 @@
             "valueDataType": {}
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/credits",
-          "propertyLabel": "Cast/Credits",
+          "propertyLabel": "Cast/credits",
           "remark": "http://original.rdatoolkit.org/2.17.3.5.html"
         },
         {
@@ -1450,14 +1450,14 @@
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [
-              "lc:RT:bf2:Language2"
+              "lc:RT:bf2:MIBluRayDVD:AccCont"
             ],
             "useValuesFrom": [],
             "defaults": [],
             "valueDataType": {}
           },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/language",
-          "propertyLabel": "Optional Language Tracks"
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/contentAccessibility",
+          "propertyLabel": "Accessibility content (Closed captions, etc.)"
         },
         {
           "mandatory": "false",
@@ -1466,14 +1466,14 @@
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [
-              "lc:RT:bf2:MIBluRayDVD:AccCont"
+              "lc:RT:bf2:Form"
             ],
             "useValuesFrom": [],
             "defaults": [],
             "valueDataType": {}
           },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/contentAccessibility",
-          "propertyLabel": "Accessibility content"
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/genreForm",
+          "propertyLabel": "Genre/Form"
         },
         {
           "mandatory": "false",
@@ -1492,22 +1492,6 @@
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/productionMethod",
           "propertyLabel": "Production method"
-        },
-        {
-          "mandatory": "false",
-          "repeatable": "true",
-          "type": "resource",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [
-              "lc:RT:bf2:Form"
-            ],
-            "useValuesFrom": [],
-            "defaults": [],
-            "valueDataType": {}
-          },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/genreForm",
-          "propertyLabel": "Genre/Form"
         },
         {
           "mandatory": "false",
