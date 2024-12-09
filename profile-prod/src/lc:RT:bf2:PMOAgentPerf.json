@@ -19,15 +19,17 @@
     {
       "mandatory": "false",
       "repeatable": "true",
-      "type": "resource",
+      "type": "lookup",
       "resourceTemplates": [],
       "valueConstraint": {
-        "valueTemplateRefs": [
-          "lc:RT:bf2:Agent:Role"
+        "valueTemplateRefs": [],
+        "useValuesFrom": [
+          "http://id.loc.gov/vocabulary/relators"
         ],
-        "useValuesFrom": [],
         "defaults": [],
-        "valueDataType": {}
+        "valueDataType": {
+          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Role"
+        }
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
       "propertyLabel": "Role"
@@ -35,7 +37,7 @@
     {
       "mandatory": "false",
       "repeatable": "true",
-      "type": "resource",
+      "type": "lookup",
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [],
@@ -53,5 +55,5 @@
   ],
   "id": "lc:RT:bf2:PMOAgentPerf",
   "resourceURI": "http://id.loc.gov/ontologies/bibframe/Contribution",
-  "resourceLabel": "Agent, Role, Medium of Performance"
+  "resourceLabel": "Agent, Role, Medium of Performance test"
 }
