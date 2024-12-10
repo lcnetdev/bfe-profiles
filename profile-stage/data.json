@@ -3347,8 +3347,8 @@
                 "valueConstraint": {
                   "valueTemplateRefs": [],
                   "useValuesFrom": [
-                    "http://id.loc.gov/resources/works",
-                    "http://id.loc.gov/resources/hubs"
+                    "https://preprod-8088.id.loc.gov/resources/works/",
+                    "https://preprod-8088.id.loc.gov/resources/hubs/"
                   ],
                   "defaults": [],
                   "valueDataType": {
@@ -3545,7 +3545,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2024-12-09T21:09:25.937Z",
+      "updateDate": "2024-12-10T15:47:57.805Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",
