@@ -51,7 +51,7 @@
             "defaults": [
               {
                 "defaultURI": "",
-                "defaultLiteral": "23/eng"
+                "defaultLiteral": "23/eng/[$date]"
               }
             ]
           },
