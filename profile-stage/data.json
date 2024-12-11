@@ -27900,7 +27900,7 @@
                 "valueConstraint": {
                   "valueTemplateRefs": [],
                   "useValuesFrom": [
-                    "https://id.loc.gov/vocabulary/resourceComponents/suggest2?q=*&memberof=http://id.loc.gov/vocabulary/resourceComponents/collection_LanguageResource"
+                    "https://id.loc.gov/vocabulary/resourceComponents/suggest2?q=*&memberOf=http://id.loc.gov/vocabulary/resourceComponents/collection_LanguageResource"
                   ],
                   "defaults": [],
                   "valueDataType": {}
@@ -27941,7 +27941,7 @@
                 "valueConstraint": {
                   "valueTemplateRefs": [],
                   "useValuesFrom": [
-                    "https://id.loc.gov/vocabulary/resourceComponents/suggest2?q=*&memberof=http://id.loc.gov/vocabulary/resourceComponents/collection_LanguageNote"
+                    "https://id.loc.gov/vocabulary/resourceComponents/suggest2?q=*&memberOf=http://id.loc.gov/vocabulary/resourceComponents/collection_LanguageNote"
                   ],
                   "defaults": [
                     {
@@ -27988,7 +27988,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.059Z",
-      "updateDate": "2024-12-11T18:38:28.461Z",
+      "updateDate": "2024-12-11T18:57:39.564Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.059Z",
