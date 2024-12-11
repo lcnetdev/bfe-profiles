@@ -27900,7 +27900,7 @@
                 "valueConstraint": {
                   "valueTemplateRefs": [],
                   "useValuesFrom": [
-                    "https://id.loc.gov/vocabulary/resourceComponents/suggest2?q=*&memberof=http://id.loc.gov/vocabulary/resourceComponents/collection_LanguageResource&count=25"
+                    "https://id.loc.gov/vocabulary/resourceComponents/suggest2?q=*&memberof=http://id.loc.gov/vocabulary/resourceComponents/collection_LanguageResource"
                   ],
                   "defaults": [],
                   "valueDataType": {}
@@ -27988,7 +27988,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.059Z",
-      "updateDate": "2024-12-11T18:27:28.415Z",
+      "updateDate": "2024-12-11T18:33:28.924Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.059Z",
