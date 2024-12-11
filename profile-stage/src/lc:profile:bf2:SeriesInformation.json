@@ -35,7 +35,12 @@
               "lc:RT:bf2:SeriesHubInput"
             ],
             "useValuesFrom": [],
-            "defaults": [],
+            "defaults": [
+              {
+                "defaultURI": "http://id.loc.gov/vocabulary/mstatus/t",
+                "defaultLiteral": "transcribed"
+              }
+            ],
             "valueDataType": {
               "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Series"
             }
@@ -106,12 +111,7 @@
             "useValuesFrom": [
               "http://id.loc.gov/vocabulary/mstatus"
             ],
-            "defaults": [
-              {
-                "defaultURI": "http://id.loc.gov/vocabulary/mstatus/t",
-                "defaultLiteral": "transcribed"
-              }
-            ],
+            "defaults": [],
             "valueDataType": {
               "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Status"
             }

@@ -470,7 +470,12 @@
                     "lc:RT:bf2:SeriesHubInput"
                   ],
                   "useValuesFrom": [],
-                  "defaults": [],
+                  "defaults": [
+                    {
+                      "defaultURI": "http://id.loc.gov/vocabulary/mstatus/t",
+                      "defaultLiteral": "transcribed"
+                    }
+                  ],
                   "valueDataType": {
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Series"
                   }
@@ -541,12 +546,7 @@
                   "useValuesFrom": [
                     "http://id.loc.gov/vocabulary/mstatus"
                   ],
-                  "defaults": [
-                    {
-                      "defaultURI": "http://id.loc.gov/vocabulary/mstatus/t",
-                      "defaultLiteral": "transcribed"
-                    }
-                  ],
+                  "defaults": [],
                   "valueDataType": {
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Status"
                   }
@@ -746,7 +746,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2024-12-06T19:58:32.250Z",
+      "updateDate": "2024-12-11T16:59:52.074Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",
