@@ -46,7 +46,14 @@
         "defaultURI": "",
         "defaultLiteral": "",
         "editable": "true",
-        "defaults": []
+        "defaults": [
+          {
+            "defaultURI": "",
+            "defaultLiteral": "23/eng/[$date]"
+          }
+        ],
+        "validatePattern": "",
+        "remark": ""
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/source",
       "propertyLabel": "Dewey edition number"
