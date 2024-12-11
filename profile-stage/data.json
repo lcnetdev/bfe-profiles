@@ -53,7 +53,12 @@
                   "defaultURI": "",
                   "defaultLiteral": "",
                   "editable": "true",
-                  "defaults": []
+                  "defaults": [
+                    {
+                      "defaultURI": "",
+                      "defaultLiteral": "23/eng/[$date]"
+                    }
+                  ]
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/source",
                 "propertyLabel": "Dewey edition number"
@@ -116,12 +121,7 @@
                 "valueConstraint": {
                   "valueTemplateRefs": [],
                   "useValuesFrom": [],
-                  "defaults": [
-                    {
-                      "defaultURI": "",
-                      "defaultLiteral": "23/eng/[$date]"
-                    }
-                  ],
+                  "defaults": [],
                   "valueDataType": {}
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/code",
@@ -422,7 +422,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.059Z",
-      "updateDate": "2024-12-11T15:45:13.144Z",
+      "updateDate": "2024-12-11T16:12:02.580Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.059Z",
