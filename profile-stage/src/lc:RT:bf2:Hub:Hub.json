@@ -19,24 +19,6 @@
       "propertyLabel": "Primary contributor"
     },
     {
-      "type": "resource",
-      "resourceTemplates": [],
-      "valueConstraint": {
-        "valueTemplateRefs": [
-          "lc:RT:bf2:Hub:Contribution"
-        ],
-        "useValuesFrom": [],
-        "defaults": [],
-        "valueDataType": {
-          "dataTypeURI": ""
-        }
-      },
-      "propertyURI": "http://id.loc.gov/ontologies/bibframe/contribution",
-      "propertyLabel": "Contributor",
-      "mandatory": "false",
-      "repeatable": "true"
-    },
-    {
       "repeatable": "false",
       "resourceTemplates": [],
       "valueConstraint": {

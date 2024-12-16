@@ -28567,24 +28567,6 @@
                 "propertyLabel": "Primary contributor"
               },
               {
-                "type": "resource",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [
-                    "lc:RT:bf2:Hub:Contribution"
-                  ],
-                  "useValuesFrom": [],
-                  "defaults": [],
-                  "valueDataType": {
-                    "dataTypeURI": ""
-                  }
-                },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/contribution",
-                "propertyLabel": "Contributor",
-                "mandatory": "false",
-                "repeatable": "true"
-              },
-              {
                 "repeatable": "false",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -28984,7 +28966,7 @@
     },
     "metadata": {
       "createDate": "2019-12-13T20:26:47.554Z",
-      "updateDate": "2024-12-06T20:51:39.125Z",
+      "updateDate": "2024-12-16T21:23:40.521Z",
       "createUser": null,
       "updateUser": null
     },
