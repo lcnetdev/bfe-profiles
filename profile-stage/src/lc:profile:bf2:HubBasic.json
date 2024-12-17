@@ -248,49 +248,6 @@
       "resourceLabel": "Primary contributor",
       "resourceURI": "http://id.loc.gov/ontologies/bibframe/PrimaryContribution",
       "author": "NDMSO"
-    },
-    {
-      "propertyTemplates": [
-        {
-          "mandatory": "true",
-          "repeatable": "false",
-          "type": "resource",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [
-              "lc:RT:bf2:Agent:bfPerson",
-              "lc:RT:bf2:Agent:bfCorp"
-            ],
-            "useValuesFrom": [],
-            "defaults": [],
-            "valueDataType": {}
-          },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/agent",
-          "propertyLabel": "Contributor"
-        },
-        {
-          "mandatory": "true",
-          "repeatable": "true",
-          "type": "lookup",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [],
-            "useValuesFrom": [
-              "http://id.loc.gov/vocabulary/relators"
-            ],
-            "defaults": [],
-            "valueDataType": {
-              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Role"
-            }
-          },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
-          "propertyLabel": "Role"
-        }
-      ],
-      "id": "lc:RT:bf2:HubBasic:Contribution",
-      "resourceLabel": "Other contributor",
-      "author": "NDMSO",
-      "resourceURI": "http://id.loc.gov/ontologies/bibframe/Contribution"
     }
   ],
   "id": "lc:profile:bf2:HubBasic",
