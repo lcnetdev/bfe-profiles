@@ -5869,6 +5869,22 @@
                 "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label",
                 "propertyLabel": "Extent",
                 "remark": ""
+              },
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "resource",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [
+                    "lc:RT:bf2:Note"
+                  ],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {}
+                },
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
+                "propertyLabel": "Physical details note"
               }
             ],
             "id": "lc:RT:bf2:Extent",
@@ -6614,7 +6630,7 @@
     },
     "metadata": {
       "createDate": "2018-09-26T14:53:15.546Z",
-      "updateDate": "2024-12-06T18:40:48.335Z",
+      "updateDate": "2025-01-08T14:52:58.499Z",
       "createUser": null,
       "updateUser": null
     },
