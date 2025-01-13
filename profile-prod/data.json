@@ -1736,6 +1736,22 @@
                 },
                 "propertyLabel": "Enumeration and chronology of Item",
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/enumerationAndChronology"
+              },
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "resource",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [
+                    "lc:RT:bf2:ImmAcqSource"
+                  ],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {}
+                },
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/immediateAcquisition",
+                "propertyLabel": "Immediate source of acquisition"
               }
             ],
             "resourceLabel": "BIBFRAME Item",
@@ -1821,7 +1837,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2024-12-09T16:14:55.783Z",
+      "updateDate": "2025-01-13T20:47:13.668Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",
