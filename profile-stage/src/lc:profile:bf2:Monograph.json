@@ -1017,6 +1017,22 @@
           },
           "propertyLabel": "Enumeration And Chronology of Item",
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/enumerationAndChronology"
+        },
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "resource",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [
+              "lc:RT:bf2:ImmAcqSource"
+            ],
+            "useValuesFrom": [],
+            "defaults": [],
+            "valueDataType": {}
+          },
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/immediateAcquisition",
+          "propertyLabel": "Immediate source of acquisition"
         }
       ],
       "resourceLabel": "BIBFRAME Item",
