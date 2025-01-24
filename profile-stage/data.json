@@ -8923,10 +8923,10 @@
                 "valueConstraint": {
                   "valueTemplateRefs": [],
                   "useValuesFrom": [
-                    "http://id.loc.gov/vocabulary/vartitletype"
+                    "https://preprod-8080.id.loc.gov/vocabulary/vartitletype"
                   ],
                   "valueDataType": {
-                    "dataTypeLabel": "http://id.loc.gov/ontologies/bibframe/variantType"
+                    "dataTypeLabel": ""
                   },
                   "defaults": []
                 },
@@ -9284,7 +9284,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.062Z",
-      "updateDate": "2025-01-24T14:43:40.838Z",
+      "updateDate": "2025-01-24T14:45:57.936Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.062Z",

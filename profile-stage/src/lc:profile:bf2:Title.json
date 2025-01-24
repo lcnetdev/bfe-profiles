@@ -297,10 +297,10 @@
           "valueConstraint": {
             "valueTemplateRefs": [],
             "useValuesFrom": [
-              "http://id.loc.gov/vocabulary/vartitletype"
+              "https://preprod-8080.id.loc.gov/vocabulary/vartitletype"
             ],
             "valueDataType": {
-              "dataTypeLabel": "http://id.loc.gov/ontologies/bibframe/variantType"
+              "dataTypeLabel": ""
             },
             "defaults": []
           },
