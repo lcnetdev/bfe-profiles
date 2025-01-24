@@ -8918,15 +8918,19 @@
               {
                 "mandatory": "false",
                 "repeatable": "true",
-                "type": "literal",
+                "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [],
-                  "useValuesFrom": [],
-                  "valueDataType": {},
+                  "useValuesFrom": [
+                    "http://id.loc.gov/vocabulary/vartitletype"
+                  ],
+                  "valueDataType": {
+                    "dataTypeLabel": "http://id.loc.gov/ontologies/bibframe/variantType"
+                  },
                   "defaults": []
                 },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/variantType",
+                "propertyURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
                 "propertyLabel": "Variant title type"
               },
               {
@@ -9280,7 +9284,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.062Z",
-      "updateDate": "2024-12-06T20:22:40.513Z",
+      "updateDate": "2025-01-24T14:43:40.838Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.062Z",
