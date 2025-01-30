@@ -959,32 +959,14 @@
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [],
-            "useValuesFrom": [
-              "https://preprod-8080.id.loc.gov/resources/works/"
-            ],
+            "useValuesFrom": [],
             "valueDataType": {
               "dataTypeURI": ""
             },
             "defaults": []
           },
-          "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
-          "propertyLabel": "Lookup"
-        },
-        {
-          "mandatory": "false",
-          "repeatable": "true",
-          "type": "resource",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [
-              "lc:RT:bf2:RareMat:RefTitle"
-            ],
-            "useValuesFrom": [],
-            "valueDataType": {},
-            "defaults": []
-          },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/title",
-          "propertyLabel": "Input work title (if not found)"
+          "propertyLabel": "Title"
         },
         {
           "mandatory": "false",
@@ -1094,6 +1076,27 @@
       "id": "lc:RT:bf2:RareMat:ItemLcc",
       "resourceURI": "http://id.loc.gov/ontologies/bibframe/ClassificationLcc",
       "resourceLabel": "Library of Congress classification"
+    },
+    {
+      "propertyTemplates": [
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "literal",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [],
+            "useValuesFrom": [],
+            "defaults": [],
+            "valueDataType": {}
+          },
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/mainTitle",
+          "propertyLabel": "Title"
+        }
+      ],
+      "id": "lc:RT:bf2:RareMat:RefWorkTitle",
+      "resourceURI": "http://id.loc.gov/ontologies/bibframe/Title",
+      "resourceLabel": "References title"
     }
   ],
   "id": "lc:profile:bf2:RareMat",
