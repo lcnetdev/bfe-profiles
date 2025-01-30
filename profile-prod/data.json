@@ -5301,6 +5301,22 @@
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [
+                    "lc:RT:bf2:RareMat:ItemLcc"
+                  ],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {}
+                },
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/classification",
+                "propertyLabel": "Classification number"
+              },
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "resource",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [
                     "lc:RT:bf2:Agents:Contribution"
                   ],
                   "useValuesFrom": [],
@@ -5681,7 +5697,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2025-01-30T15:46:00.371Z",
+      "updateDate": "2025-01-30T15:47:32.744Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",
