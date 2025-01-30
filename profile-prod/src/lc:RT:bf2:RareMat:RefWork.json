@@ -6,7 +6,9 @@
       "type": "lookup",
       "resourceTemplates": [],
       "valueConstraint": {
-        "valueTemplateRefs": [],
+        "valueTemplateRefs": [
+          "lc:RT:bf2:RareMat:RefWorkTitle"
+        ],
         "useValuesFrom": [],
         "valueDataType": {
           "dataTypeURI": ""

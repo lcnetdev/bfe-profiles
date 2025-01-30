@@ -958,7 +958,9 @@
           "type": "lookup",
           "resourceTemplates": [],
           "valueConstraint": {
-            "valueTemplateRefs": [],
+            "valueTemplateRefs": [
+              "lc:RT:bf2:RareMat:RefWorkTitle"
+            ],
             "useValuesFrom": [],
             "valueDataType": {
               "dataTypeURI": ""
@@ -1004,6 +1006,27 @@
       "id": "lc:RT:bf2:RareMat:RefWork",
       "resourceURI": "http://id.loc.gov/ontologies/bibframe/Work",
       "resourceLabel": "References"
+    },
+    {
+      "propertyTemplates": [
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "literal",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [],
+            "useValuesFrom": [],
+            "defaults": [],
+            "valueDataType": {}
+          },
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/mainTitle",
+          "propertyLabel": "Title"
+        }
+      ],
+      "id": "lc:RT:bf2:RareMat:RefWorkTitle",
+      "resourceURI": "http://id.loc.gov/ontologies/bibframe/Title",
+      "resourceLabel": "References title"
     },
     {
       "propertyTemplates": [
@@ -1076,27 +1099,6 @@
       "id": "lc:RT:bf2:RareMat:ItemLcc",
       "resourceURI": "http://id.loc.gov/ontologies/bibframe/ClassificationLcc",
       "resourceLabel": "Library of Congress classification"
-    },
-    {
-      "propertyTemplates": [
-        {
-          "mandatory": "false",
-          "repeatable": "true",
-          "type": "literal",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [],
-            "useValuesFrom": [],
-            "defaults": [],
-            "valueDataType": {}
-          },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/mainTitle",
-          "propertyLabel": "Title"
-        }
-      ],
-      "id": "lc:RT:bf2:RareMat:RefWorkTitle",
-      "resourceURI": "http://id.loc.gov/ontologies/bibframe/Title",
-      "resourceLabel": "References title"
     }
   ],
   "id": "lc:profile:bf2:RareMat",
