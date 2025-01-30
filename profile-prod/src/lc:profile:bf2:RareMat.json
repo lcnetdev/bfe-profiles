@@ -1089,52 +1089,6 @@
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
           "propertyLabel": "Copy note"
-        },
-        {
-          "mandatory": "false",
-          "repeatable": "true",
-          "type": "lookup",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [],
-            "useValuesFrom": [
-              "http://id.loc.gov/vocabulary/organizations"
-            ],
-            "defaults": [
-              {
-                "defaultURI": "http://id.loc.gov/vocabulary/organizations/dlc",
-                "defaultLiteral": "United States, Library of Congress"
-              }
-            ],
-            "valueDataType": {
-              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Agent"
-            }
-          },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/assigner",
-          "propertyLabel": "Assigning agency"
-        },
-        {
-          "mandatory": "false",
-          "repeatable": "true",
-          "type": "lookup",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [],
-            "useValuesFrom": [
-              "http://id.loc.gov/vocabulary/mstatus"
-            ],
-            "defaults": [
-              {
-                "defaultURI": "http://id.loc.gov/vocabulary/mstatus/uba",
-                "defaultLiteral": "used by assigner"
-              }
-            ],
-            "valueDataType": {
-              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Status"
-            }
-          },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/status",
-          "propertyLabel": "Used by assigning agency?"
         }
       ],
       "id": "lc:RT:bf2:RareMat:ItemLcc",
