@@ -4882,6 +4882,22 @@
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [
+                    "lc:RT:bf2:RareMat:RefWork"
+                  ],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {}
+                },
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/references",
+                "propertyLabel": "References"
+              },
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "resource",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [
                     "lc:RT:bf2:RelWorkLookup"
                   ],
                   "useValuesFrom": [],
@@ -5126,22 +5142,6 @@
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/supplementaryContent",
                 "propertyLabel": "Supplementary content URL",
                 "remark": "https://original.rdatoolkit.org/7.16.html"
-              },
-              {
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "resource",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [
-                    "lc:RT:bf2:RareMat:RefWork"
-                  ],
-                  "useValuesFrom": [],
-                  "valueDataType": {},
-                  "defaults": []
-                },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/references",
-                "propertyLabel": "References"
               },
               {
                 "mandatory": "false",
@@ -5656,7 +5656,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2025-01-30T15:57:23.430Z",
+      "updateDate": "2025-01-30T15:59:23.914Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",

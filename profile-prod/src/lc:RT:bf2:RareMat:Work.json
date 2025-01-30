@@ -334,6 +334,22 @@
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [
+          "lc:RT:bf2:RareMat:RefWork"
+        ],
+        "useValuesFrom": [],
+        "defaults": [],
+        "valueDataType": {}
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/references",
+      "propertyLabel": "References"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "resource",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [
           "lc:RT:bf2:RelWorkLookup"
         ],
         "useValuesFrom": [],
