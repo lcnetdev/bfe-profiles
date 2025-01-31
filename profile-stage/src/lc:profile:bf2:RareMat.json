@@ -622,22 +622,6 @@
         {
           "mandatory": "false",
           "repeatable": "true",
-          "type": "resource",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [
-              "lc:RT:bf2:RareMat:RefWork"
-            ],
-            "useValuesFrom": [],
-            "valueDataType": {},
-            "defaults": []
-          },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/references",
-          "propertyLabel": "References"
-        },
-        {
-          "mandatory": "false",
-          "repeatable": "true",
           "type": "lookup",
           "resourceTemplates": [],
           "valueConstraint": {
@@ -978,13 +962,13 @@
         {
           "mandatory": "false",
           "repeatable": "false",
-          "type": "lookup",
+          "type": "resource",
           "resourceTemplates": [],
           "valueConstraint": {
-            "valueTemplateRefs": [],
-            "useValuesFrom": [
-              "https://preprod-8080.id.loc.gov/resources/works/"
+            "valueTemplateRefs": [
+              "lc:RT:bf2:RareMat:RefWorkTitle"
             ],
+            "useValuesFrom": [],
             "valueDataType": {},
             "defaults": []
           },
@@ -998,22 +982,8 @@
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [
-              "lc:RT:bf2:RareMat:RefTitle"
+              "lc:RT:bf2:URL"
             ],
-            "useValuesFrom": [],
-            "valueDataType": {},
-            "defaults": []
-          },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/title",
-          "propertyLabel": "Input title (if not found)"
-        },
-        {
-          "mandatory": "false",
-          "repeatable": "true",
-          "type": "literal",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [],
             "useValuesFrom": [],
             "defaults": [],
             "valueDataType": {}
@@ -1028,7 +998,7 @@
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [
-              "lc:RT:bf2:Note"
+              "lc:RT:bf2:NoteSimple"
             ],
             "useValuesFrom": [],
             "valueDataType": {},
@@ -1076,14 +1046,43 @@
             "defaults": [],
             "valueDataType": {}
           },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/mainTitle",
-          "propertyLabel": "Input title (if not found)",
-          "remark": ""
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/classificationPortion",
+          "propertyLabel": "Classification number"
+        },
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "literal",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [],
+            "useValuesFrom": [],
+            "defaults": [],
+            "valueDataType": {}
+          },
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/itemPortion",
+          "propertyLabel": "Additional call number information"
+        },
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "resource",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [
+              "lc:RT:bf2:NoteSimple"
+            ],
+            "useValuesFrom": [],
+            "defaults": [],
+            "valueDataType": {}
+          },
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
+          "propertyLabel": "Copy note"
         }
       ],
-      "id": "lc:RT:bf2:RareMat:RefTitle",
-      "resourceURI": "http://id.loc.gov/ontologies/bibframe/Title",
-      "resourceLabel": "Title"
+      "id": "lc:RT:bf2:RareMat:ItemLcc",
+      "resourceURI": "http://id.loc.gov/ontologies/bibframe/ClassificationLcc",
+      "resourceLabel": "Library of Congress classification"
     },
     {
       "propertyTemplates": [

@@ -3,13 +3,13 @@
     {
       "mandatory": "false",
       "repeatable": "false",
-      "type": "lookup",
+      "type": "resource",
       "resourceTemplates": [],
       "valueConstraint": {
-        "valueTemplateRefs": [],
-        "useValuesFrom": [
-          "https://preprod-8080.id.loc.gov/resources/works/"
+        "valueTemplateRefs": [
+          "lc:RT:bf2:RareMat:RefWorkTitle"
         ],
+        "useValuesFrom": [],
         "valueDataType": {},
         "defaults": []
       },
@@ -23,22 +23,8 @@
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [
-          "lc:RT:bf2:RareMat:RefTitle"
+          "lc:RT:bf2:URL"
         ],
-        "useValuesFrom": [],
-        "valueDataType": {},
-        "defaults": []
-      },
-      "propertyURI": "http://id.loc.gov/ontologies/bibframe/title",
-      "propertyLabel": "Input title (if not found)"
-    },
-    {
-      "mandatory": "false",
-      "repeatable": "true",
-      "type": "literal",
-      "resourceTemplates": [],
-      "valueConstraint": {
-        "valueTemplateRefs": [],
         "useValuesFrom": [],
         "defaults": [],
         "valueDataType": {}
@@ -53,7 +39,7 @@
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [
-          "lc:RT:bf2:Note"
+          "lc:RT:bf2:NoteSimple"
         ],
         "useValuesFrom": [],
         "valueDataType": {},
