@@ -989,7 +989,7 @@
         {
           "mandatory": "false",
           "repeatable": "false",
-          "type": "lookup",
+          "type": "resource",
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [
@@ -1061,27 +1061,6 @@
       "id": "lc:RT:bf2:RareMat:RefWorkTitle",
       "resourceURI": "http://id.loc.gov/ontologies/bibframe/Title",
       "resourceLabel": "References title"
-    },
-    {
-      "propertyTemplates": [
-        {
-          "mandatory": "false",
-          "repeatable": "true",
-          "type": "literal",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [],
-            "useValuesFrom": [],
-            "defaults": [],
-            "valueDataType": {}
-          },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/mainTitle",
-          "propertyLabel": "Input title (if not found)"
-        }
-      ],
-      "id": "lc:RT:bf2:RareMat:RefTitle",
-      "resourceURI": "http://id.loc.gov/ontologies/bibframe/Title",
-      "resourceLabel": "Title"
     },
     {
       "propertyTemplates": [

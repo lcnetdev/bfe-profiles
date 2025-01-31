@@ -5535,7 +5535,7 @@
               {
                 "mandatory": "false",
                 "repeatable": "false",
-                "type": "lookup",
+                "type": "resource",
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [
@@ -5621,27 +5621,6 @@
                   "defaults": [],
                   "valueDataType": {}
                 },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/mainTitle",
-                "propertyLabel": "Input title (if not found)"
-              }
-            ],
-            "id": "lc:RT:bf2:RareMat:RefTitle",
-            "resourceURI": "http://id.loc.gov/ontologies/bibframe/Title",
-            "resourceLabel": "Title"
-          },
-          {
-            "propertyTemplates": [
-              {
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "literal",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [],
-                  "defaults": [],
-                  "valueDataType": {}
-                },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/classificationPortion",
                 "propertyLabel": "Classification number"
               },
@@ -5690,7 +5669,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2025-01-31T16:03:46.687Z",
+      "updateDate": "2025-01-31T17:07:04.586Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",

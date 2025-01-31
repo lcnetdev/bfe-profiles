@@ -3,7 +3,7 @@
     {
       "mandatory": "false",
       "repeatable": "false",
-      "type": "lookup",
+      "type": "resource",
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [
