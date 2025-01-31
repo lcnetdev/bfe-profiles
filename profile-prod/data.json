@@ -4551,41 +4551,20 @@
               {
                 "mandatory": "false",
                 "repeatable": "true",
-                "type": "resource",
+                "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
-                  "valueTemplateRefs": [
-                    "lc:RT:bflc:Agents:PrimaryContribution"
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [
+                    "https://id.loc.gov/resources/hubs"
                   ],
-                  "useValuesFrom": [],
-                  "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/PrimaryContribution"
-                  },
                   "defaults": [],
-                  "editable": "true"
+                  "valueDataType": {
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Hub"
+                  }
                 },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/contribution",
-                "propertyLabel": "Creator of Work",
-                "remark": ""
-              },
-              {
-                "mandatory": "true",
-                "repeatable": "true",
-                "type": "resource",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [
-                    "lc:RT:bf2:WorkTitle",
-                    "lc:RT:bf2:Title:VarTitle",
-                    "lc:RT:bf2:ParallelTitle"
-                  ],
-                  "useValuesFrom": [],
-                  "valueDataType": {},
-                  "defaults": []
-                },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/title",
-                "propertyLabel": "Title information",
-                "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Work/ExpressionTitles"
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/expressionOf",
+                "propertyLabel": "Expression of [search for a Hub]"
               },
               {
                 "mandatory": "false",
@@ -4636,15 +4615,18 @@
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [
-                    "lc:RT:bf2:LCC",
-                    "lc:RT:bf2:DDC"
+                    "lc:RT:bflc:Agents:PrimaryContribution"
                   ],
                   "useValuesFrom": [],
-                  "valueDataType": {},
-                  "defaults": []
+                  "valueDataType": {
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/PrimaryContribution"
+                  },
+                  "defaults": [],
+                  "editable": "true"
                 },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/classification",
-                "propertyLabel": "Classification numbers"
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/contribution",
+                "propertyLabel": "Creator of Work",
+                "remark": ""
               },
               {
                 "mandatory": "false",
@@ -4653,19 +4635,33 @@
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [
-                    "lc:RT:bf2:Form",
-                    "lc:RT:bf2:RareMat:RBMS"
+                    "lc:RT:bf2:Form:Geog"
                   ],
                   "useValuesFrom": [],
-                  "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/GenreForm"
-                  },
                   "defaults": [],
-                  "editable": "false"
+                  "valueDataType": {}
                 },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/genreForm",
-                "propertyLabel": "Genre/Form",
-                "remark": ""
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/geographicCoverage",
+                "propertyLabel": "Geographic coverage"
+              },
+              {
+                "mandatory": "false",
+                "repeatable": "false",
+                "type": "lookup",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [
+                    "http://id.loc.gov/vocabulary/millus"
+                  ],
+                  "valueDataType": {
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Illustration"
+                  },
+                  "defaults": []
+                },
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/illustrativeContent",
+                "propertyLabel": "Illustrative content",
+                "remark": "https://original.rdatoolkit.org/7.15.html"
               },
               {
                 "mandatory": "false",
@@ -4709,14 +4705,31 @@
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [
-                    "lc:RT:bf2:Contents"
+                    "lc:RT:bf2:RareMat:Instance"
                   ],
                   "useValuesFrom": [],
                   "valueDataType": {},
                   "defaults": []
                 },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/tableOfContents",
-                "propertyLabel": "Contents"
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/hasInstance",
+                "propertyLabel": "Add BIBFRAME Instance"
+              },
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "resource",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [
+                    "lc:RT:bf2:LangNote"
+                  ],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {}
+                },
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
+                "propertyLabel": "Language note (041 $hijkmnpqr)",
+                "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Languages(041)"
               },
               {
                 "mandatory": "false",
@@ -4738,28 +4751,78 @@
               {
                 "mandatory": "false",
                 "repeatable": "true",
-                "type": "lookup",
+                "type": "resource",
                 "resourceTemplates": [],
                 "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [
-                    "http://id.loc.gov/vocabulary/contentTypes"
+                  "valueTemplateRefs": [
+                    "lc:RT:bf2:Form",
+                    "lc:RT:bf2:RareMat:RBMS"
                   ],
+                  "useValuesFrom": [],
                   "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Content"
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/GenreForm"
+                  },
+                  "defaults": [],
+                  "editable": "false"
+                },
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/genreForm",
+                "propertyLabel": "Genre/Form",
+                "remark": ""
+              },
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "resource",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [
+                    "lc:RT:bf2:LCC",
+                    "lc:RT:bf2:DDC"
+                  ],
+                  "useValuesFrom": [],
+                  "valueDataType": {},
+                  "defaults": []
+                },
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/classification",
+                "propertyLabel": "Classification numbers"
+              },
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "resource",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [
+                    "lc:RT:bf2:RelWorkLookup"
+                  ],
+                  "useValuesFrom": [],
+                  "valueDataType": {},
+                  "defaults": []
+                },
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/relation",
+                "propertyLabel": "Search related work",
+                "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Hubs(240;X00,X10,X11with$t;X30)"
+              },
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "resource",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [
+                    "lc:RT:bf2:LangResource"
+                  ],
+                  "useValuesFrom": [],
+                  "valueDataType": {
+                    "dataTypeURI": ""
                   },
                   "editable": "false",
                   "repeatable": "true",
-                  "defaults": [
-                    {
-                      "defaultURI": "http://id.loc.gov/vocabulary/contentTypes/txt",
-                      "defaultLiteral": "text"
-                    }
-                  ]
+                  "defaults": []
                 },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/content",
-                "propertyLabel": "Content type",
-                "remark": "https://original.rdatoolkit.org/6.9.html"
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/accompaniedBy",
+                "propertyLabel": "Language resource (041 $bdefgt)",
+                "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Languages(041)"
               },
               {
                 "mandatory": "false",
@@ -4787,74 +4850,17 @@
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [
-                    "lc:RT:bf2:LangResource"
-                  ],
-                  "useValuesFrom": [],
-                  "valueDataType": {
-                    "dataTypeURI": ""
-                  },
-                  "editable": "false",
-                  "repeatable": "true",
-                  "defaults": []
-                },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/accompaniedBy",
-                "propertyLabel": "Language resource (041 $bdefgt)",
-                "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Languages(041)"
-              },
-              {
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "resource",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [
-                    "lc:RT:bf2:LangNote"
+                    "lc:RT:bf2:SeriesHub"
                   ],
                   "useValuesFrom": [],
                   "defaults": [],
-                  "valueDataType": {}
-                },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
-                "propertyLabel": "Language note (041 $hijkmnpqr)",
-                "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Languages(041)"
-              },
-              {
-                "mandatory": "false",
-                "repeatable": "false",
-                "type": "lookup",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [
-                    "http://id.loc.gov/vocabulary/millus"
-                  ],
                   "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Illustration"
-                  },
-                  "defaults": []
+                    "dataTypeURI": ""
+                  }
                 },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/illustrativeContent",
-                "propertyLabel": "Illustrative content",
-                "remark": "https://original.rdatoolkit.org/7.15.html"
-              },
-              {
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "lookup",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [
-                    "http://id.loc.gov/vocabulary/mcolor"
-                  ],
-                  "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/ColorContent"
-                  },
-                  "defaults": []
-                },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/colorContent",
-                "propertyLabel": "Color content",
-                "remark": "https://original.rdatoolkit.org/7.17.html"
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/relation",
+                "propertyLabel": "Input transcribed series",
+                "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Series(490,8XX)"
               },
               {
                 "mandatory": "false",
@@ -4874,6 +4880,25 @@
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/supplementaryContent",
                 "propertyLabel": "Supplementary content",
                 "remark": "https://original.rdatoolkit.org/7.16.html"
+              },
+              {
+                "mandatory": "true",
+                "repeatable": "true",
+                "type": "resource",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [
+                    "lc:RT:bf2:WorkTitle",
+                    "lc:RT:bf2:Title:VarTitle",
+                    "lc:RT:bf2:ParallelTitle"
+                  ],
+                  "useValuesFrom": [],
+                  "valueDataType": {},
+                  "defaults": []
+                },
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/title",
+                "propertyLabel": "Title information",
+                "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Work/ExpressionTitles"
               },
               {
                 "mandatory": "false",
@@ -4898,34 +4923,33 @@
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [
-                    "lc:RT:bf2:RelWorkLookup"
+                    "lc:RT:bf2:Contents"
                   ],
                   "useValuesFrom": [],
                   "valueDataType": {},
                   "defaults": []
                 },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/relation",
-                "propertyLabel": "Search related work",
-                "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Hubs(240;X00,X10,X11with$t;X30)"
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/tableOfContents",
+                "propertyLabel": "Contents"
               },
               {
                 "mandatory": "false",
                 "repeatable": "true",
-                "type": "resource",
+                "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
-                  "valueTemplateRefs": [
-                    "lc:RT:bf2:SeriesHub"
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [
+                    "http://id.loc.gov/vocabulary/mcolor"
                   ],
-                  "useValuesFrom": [],
-                  "defaults": [],
                   "valueDataType": {
-                    "dataTypeURI": ""
-                  }
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/ColorContent"
+                  },
+                  "defaults": []
                 },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/relation",
-                "propertyLabel": "Input transcribed series",
-                "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Series(490,8XX)"
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/colorContent",
+                "propertyLabel": "Color content",
+                "remark": "https://original.rdatoolkit.org/7.17.html"
               },
               {
                 "mandatory": "false",
@@ -4949,18 +4973,28 @@
               {
                 "mandatory": "false",
                 "repeatable": "true",
-                "type": "resource",
+                "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
-                  "valueTemplateRefs": [
-                    "lc:RT:bf2:RareMat:Instance"
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [
+                    "http://id.loc.gov/vocabulary/contentTypes"
                   ],
-                  "useValuesFrom": [],
-                  "valueDataType": {},
-                  "defaults": []
+                  "valueDataType": {
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Content"
+                  },
+                  "editable": "false",
+                  "repeatable": "true",
+                  "defaults": [
+                    {
+                      "defaultURI": "http://id.loc.gov/vocabulary/contentTypes/txt",
+                      "defaultLiteral": "text"
+                    }
+                  ]
                 },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/hasInstance",
-                "propertyLabel": "Add BIBFRAME Instance"
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/content",
+                "propertyLabel": "Content type",
+                "remark": "https://original.rdatoolkit.org/6.9.html"
               }
             ],
             "id": "lc:RT:bf2:RareMat:Work",
@@ -5656,7 +5690,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2025-01-30T15:59:23.914Z",
+      "updateDate": "2025-01-31T15:00:44.587Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",
