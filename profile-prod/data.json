@@ -5402,7 +5402,7 @@
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [
-                    "lc:RT:bf2:NoteLc"
+                    "lc:RT:bf2:Note"
                   ],
                   "useValuesFrom": [],
                   "valueDataType": {},
@@ -5461,22 +5461,6 @@
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/title",
                 "propertyLabel": "Item title"
-              },
-              {
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "resource",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [
-                    "lc:RT:bf2:RelWorkInput"
-                  ],
-                  "useValuesFrom": [],
-                  "valueDataType": {},
-                  "defaults": []
-                },
-                "propertyLabel": "Related works",
-                "propertyURI": "http://id.loc.gov/ontologies/bflc/relationship"
               }
             ],
             "id": "lc:RT:bf2:RareMat:Item",
@@ -5669,7 +5653,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2025-01-31T17:07:04.586Z",
+      "updateDate": "2025-01-31T17:25:44.305Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",

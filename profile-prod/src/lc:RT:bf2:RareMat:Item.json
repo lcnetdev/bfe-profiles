@@ -74,7 +74,7 @@
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [
-          "lc:RT:bf2:NoteLc"
+          "lc:RT:bf2:Note"
         ],
         "useValuesFrom": [],
         "valueDataType": {},
@@ -133,22 +133,6 @@
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/title",
       "propertyLabel": "Item title"
-    },
-    {
-      "mandatory": "false",
-      "repeatable": "true",
-      "type": "resource",
-      "resourceTemplates": [],
-      "valueConstraint": {
-        "valueTemplateRefs": [
-          "lc:RT:bf2:RelWorkInput"
-        ],
-        "useValuesFrom": [],
-        "valueDataType": {},
-        "defaults": []
-      },
-      "propertyLabel": "Related works",
-      "propertyURI": "http://id.loc.gov/ontologies/bflc/relationship"
     }
   ],
   "id": "lc:RT:bf2:RareMat:Item",
