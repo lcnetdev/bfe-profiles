@@ -988,8 +988,8 @@
             "valueDataType": {},
             "defaults": []
           },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/Work",
-          "propertyLabel": "Lookup"
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/title",
+          "propertyLabel": "Title"
         },
         {
           "mandatory": "false",
@@ -1041,6 +1041,27 @@
       "id": "lc:RT:bf2:RareMat:RefWork",
       "resourceURI": "http://id.loc.gov/ontologies/bibframe/Work",
       "resourceLabel": "References"
+    },
+    {
+      "propertyTemplates": [
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "literal",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [],
+            "useValuesFrom": [],
+            "defaults": [],
+            "valueDataType": {}
+          },
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/mainTitle",
+          "propertyLabel": "Title"
+        }
+      ],
+      "id": "lc:RT:bf2:RareMat:RefWorkTitle",
+      "resourceURI": "http://id.loc.gov/ontologies/bibframe/Title",
+      "resourceLabel": "References title"
     },
     {
       "propertyTemplates": [

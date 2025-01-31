@@ -13,8 +13,8 @@
         "valueDataType": {},
         "defaults": []
       },
-      "propertyURI": "http://id.loc.gov/ontologies/bibframe/Work",
-      "propertyLabel": "Lookup"
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/title",
+      "propertyLabel": "Title"
     },
     {
       "mandatory": "false",
