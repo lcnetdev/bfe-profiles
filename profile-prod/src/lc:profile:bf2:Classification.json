@@ -43,7 +43,7 @@
             ],
             "useValuesFrom": [],
             "valueDataType": {
-              "dataTypeURI": ""
+              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Source"
             },
             "defaultURI": "",
             "defaultLiteral": "",
@@ -120,7 +120,7 @@
               }
             ],
             "valueDataType": {
-              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Source"
+              "dataTypeURI": ""
             }
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/code",

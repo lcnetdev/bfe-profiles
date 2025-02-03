@@ -9808,7 +9808,7 @@
                   ],
                   "useValuesFrom": [],
                   "valueDataType": {
-                    "dataTypeURI": ""
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Source"
                   },
                   "defaultURI": "",
                   "defaultLiteral": "",
@@ -9885,7 +9885,7 @@
                     }
                   ],
                   "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Source"
+                    "dataTypeURI": ""
                   }
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/code",
@@ -10096,7 +10096,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.059Z",
-      "updateDate": "2025-02-03T17:05:53.147Z",
+      "updateDate": "2025-02-03T17:09:00.633Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.059Z",
