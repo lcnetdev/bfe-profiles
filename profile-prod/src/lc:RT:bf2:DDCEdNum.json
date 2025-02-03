@@ -14,7 +14,9 @@
             "defaultLiteral": "23/eng/[$date]"
           }
         ],
-        "valueDataType": {}
+        "valueDataType": {
+          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Source"
+        }
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/code",
       "propertyLabel": "Dewey edition number"
