@@ -8,7 +8,12 @@
       "valueConstraint": {
         "valueTemplateRefs": [],
         "useValuesFrom": [],
-        "defaults": [],
+        "defaults": [
+          {
+            "defaultURI": "",
+            "defaultLiteral": "23/eng/[$date]"
+          }
+        ],
         "valueDataType": {}
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/code",
