@@ -1096,6 +1096,49 @@
             "defaults": [],
             "valueDataType": {}
           },
+          "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label",
+          "propertyLabel": "Note",
+          "remark": "A human-readable name for the subject."
+        },
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "lookup",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [],
+            "useValuesFrom": [
+              "http://id.loc.gov/vocabulary/mnotetype"
+            ],
+            "defaults": [
+              {
+                "defaultURI": "http://id.loc.gov/vocabulary/mnotetype/loc",
+                "defaultLiteral": "location"
+              }
+            ],
+            "valueDataType": {}
+          },
+          "propertyURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+          "propertyLabel": "Note type"
+        }
+      ],
+      "id": "lc:RT:bf2:RareMat:RefNote",
+      "resourceURI": "http://id.loc.gov/ontologies/bibframe/Note",
+      "resourceLabel": "References note"
+    },
+    {
+      "propertyTemplates": [
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "literal",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [],
+            "useValuesFrom": [],
+            "defaults": [],
+            "valueDataType": {}
+          },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/classificationPortion",
           "propertyLabel": "Classification number"
         },
@@ -1193,49 +1236,6 @@
       "id": "lc:RT:bf2:RareMat:Note",
       "resourceURI": "http://id.loc.gov/ontologies/bibframe/Note",
       "resourceLabel": "Note"
-    },
-    {
-      "propertyTemplates": [
-        {
-          "mandatory": "false",
-          "repeatable": "true",
-          "type": "literal",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [],
-            "useValuesFrom": [],
-            "defaults": [],
-            "valueDataType": {}
-          },
-          "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label",
-          "propertyLabel": "Note",
-          "remark": "A human-readable name for the subject."
-        },
-        {
-          "mandatory": "false",
-          "repeatable": "true",
-          "type": "lookup",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [],
-            "useValuesFrom": [
-              "http://id.loc.gov/vocabulary/mnotetype"
-            ],
-            "defaults": [
-              {
-                "defaultURI": "http://id.loc.gov/vocabulary/mnotetype/loc",
-                "defaultLiteral": "location"
-              }
-            ],
-            "valueDataType": {}
-          },
-          "propertyURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
-          "propertyLabel": "Note type"
-        }
-      ],
-      "id": "lc:RT:bf2:RareMat:RefNote",
-      "resourceURI": "http://id.loc.gov/ontologies/bibframe/Note",
-      "resourceLabel": "References note"
     }
   ],
   "id": "lc:profile:bf2:RareMat",
