@@ -1055,7 +1055,7 @@
             "valueDataType": {}
           },
           "propertyLabel": "URL for reference",
-          "propertyURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value"
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/electronicLocator"
         }
       ],
       "id": "lc:RT:bf2:RareMat:RefWork",

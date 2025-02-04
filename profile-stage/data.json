@@ -19292,7 +19292,7 @@
                   "valueDataType": {}
                 },
                 "propertyLabel": "URL for reference",
-                "propertyURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value"
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/electronicLocator"
               }
             ],
             "id": "lc:RT:bf2:RareMat:RefWork",
@@ -19484,7 +19484,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2025-02-04T14:41:01.095Z",
+      "updateDate": "2025-02-04T14:44:55.132Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",
