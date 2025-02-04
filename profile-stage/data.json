@@ -23604,7 +23604,7 @@
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
-                "propertyLabel": "Relationship designator",
+                "propertyLabel": "Relationship designator(s)",
                 "type": "lookup",
                 "mandatory": "false",
                 "repeatable": "true",
@@ -23680,7 +23680,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.058Z",
-      "updateDate": "2024-12-06T18:27:30.949Z",
+      "updateDate": "2025-02-04T14:58:46.519Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.058Z",
