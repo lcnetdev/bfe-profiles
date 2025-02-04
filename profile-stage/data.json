@@ -19430,6 +19430,49 @@
             "id": "lc:RT:bf2:RareMat:Note",
             "resourceURI": "http://id.loc.gov/ontologies/bibframe/Note",
             "resourceLabel": "Note"
+          },
+          {
+            "propertyTemplates": [
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "literal",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {}
+                },
+                "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label",
+                "propertyLabel": "Note",
+                "remark": "A human-readable name for the subject."
+              },
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "lookup",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [
+                    "http://id.loc.gov/vocabulary/mnotetype"
+                  ],
+                  "defaults": [
+                    {
+                      "defaultURI": "http://id.loc.gov/vocabulary/mnotetype/loc",
+                      "defaultLiteral": "location"
+                    }
+                  ],
+                  "valueDataType": {}
+                },
+                "propertyURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                "propertyLabel": "Note type"
+              }
+            ],
+            "id": "lc:RT:bf2:RareMat:RefNote",
+            "resourceURI": "http://id.loc.gov/ontologies/bibframe/Note",
+            "resourceLabel": "References note"
           }
         ],
         "id": "lc:profile:bf2:RareMat",
@@ -19441,7 +19484,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2025-01-31T17:26:04.192Z",
+      "updateDate": "2025-02-04T14:33:36.815Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",
