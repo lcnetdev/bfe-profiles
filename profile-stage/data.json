@@ -19334,7 +19334,7 @@
                   "valueDataType": {}
                 },
                 "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label",
-                "propertyLabel": "Note",
+                "propertyLabel": "Location",
                 "remark": "A human-readable name for the subject."
               },
               {
@@ -19484,7 +19484,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2025-02-04T14:38:36.957Z",
+      "updateDate": "2025-02-04T14:41:01.095Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",
