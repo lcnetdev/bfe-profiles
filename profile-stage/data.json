@@ -19269,22 +19269,6 @@
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [
-                    "lc:RT:bf2:URL"
-                  ],
-                  "useValuesFrom": [],
-                  "defaults": [],
-                  "valueDataType": {}
-                },
-                "propertyLabel": "URL for reference",
-                "propertyURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value"
-              },
-              {
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "resource",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [
                     "lc:RT:bf2:RareMat:RefNote"
                   ],
                   "useValuesFrom": [],
@@ -19293,6 +19277,22 @@
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
                 "propertyLabel": "Location of citation"
+              },
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "resource",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [
+                    "lc:RT:bf2:URL"
+                  ],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {}
+                },
+                "propertyLabel": "URL for reference",
+                "propertyURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value"
               }
             ],
             "id": "lc:RT:bf2:RareMat:RefWork",
@@ -19484,7 +19484,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2025-02-04T14:35:35.202Z",
+      "updateDate": "2025-02-04T14:38:36.957Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",
