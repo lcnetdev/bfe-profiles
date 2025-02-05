@@ -46,7 +46,12 @@
         "defaultURI": "",
         "defaultLiteral": "",
         "editable": "true",
-        "defaults": [],
+        "defaults": [
+          {
+            "defaultURI": "",
+            "defaultLiteral": "23/eng/[$date]"
+          }
+        ],
         "validatePattern": "",
         "remark": ""
       },
