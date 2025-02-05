@@ -9813,12 +9813,7 @@
                   "defaultURI": "",
                   "defaultLiteral": "",
                   "editable": "true",
-                  "defaults": [
-                    {
-                      "defaultURI": "",
-                      "defaultLiteral": "23/eng/[$date]"
-                    }
-                  ],
+                  "defaults": [],
                   "validatePattern": "",
                   "remark": ""
                 },
@@ -10101,7 +10096,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.059Z",
-      "updateDate": "2025-02-05T18:14:11.777Z",
+      "updateDate": "2025-02-05T18:21:10.345Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.059Z",
