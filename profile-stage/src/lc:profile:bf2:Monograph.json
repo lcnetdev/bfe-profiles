@@ -180,6 +180,22 @@
         {
           "mandatory": "false",
           "repeatable": "true",
+          "type": "lookup",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [],
+            "useValuesFrom": [
+              "http://id.loc.gov/authorities/demographicTerms"
+            ],
+            "defaults": [],
+            "valueDataType": {}
+          },
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/intendedAudience",
+          "propertyLabel": "Intended audience (LCDGT lookup)"
+        },
+        {
+          "mandatory": "false",
+          "repeatable": "true",
           "type": "resource",
           "resourceTemplates": [],
           "valueConstraint": {
