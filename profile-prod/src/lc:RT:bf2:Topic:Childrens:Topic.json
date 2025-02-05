@@ -17,7 +17,7 @@
         "editable": "false"
       },
       "propertyURI": "http://www.loc.gov/mads/rdf/v1#Topic",
-      "propertyLabel": "Search LCAC/LCSH/LCNAF"
+      "propertyLabel": "Search CYAC/LCSH/LCNAF"
     }
   ],
   "id": "lc:RT:bf2:Topic:Childrens:Topic",
