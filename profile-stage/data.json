@@ -946,7 +946,9 @@
                     "http://id.loc.gov/authorities/demographicTerms"
                   ],
                   "defaults": [],
-                  "valueDataType": {}
+                  "valueDataType": {
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/IntendedAudience"
+                  }
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/intendedAudience",
                 "propertyLabel": "Intended audience (LCDGT lookup)"
@@ -1892,7 +1894,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2025-02-05T14:42:33.239Z",
+      "updateDate": "2025-02-05T14:46:00.950Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",

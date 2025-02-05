@@ -185,7 +185,9 @@
           "http://id.loc.gov/authorities/demographicTerms"
         ],
         "defaults": [],
-        "valueDataType": {}
+        "valueDataType": {
+          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/IntendedAudience"
+        }
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/intendedAudience",
       "propertyLabel": "Intended audience (LCDGT lookup)"
