@@ -906,8 +906,6 @@
                 "valueConstraint": {
                   "valueTemplateRefs": [
                     "lc:RT:bf2:Components",
-                    "lc:RT:bf2:Topic:Place:Components",
-                    "lc:RT:bf2:Topic:Childrens:Components",
                     "lc:RT:bf2:Topic:SubjectWork"
                   ],
                   "useValuesFrom": [],
@@ -1837,7 +1835,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2025-01-13T20:47:13.668Z",
+      "updateDate": "2025-02-06T17:16:40.201Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",
