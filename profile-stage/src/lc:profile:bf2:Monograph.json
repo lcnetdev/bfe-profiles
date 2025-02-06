@@ -291,8 +291,6 @@
           "valueConstraint": {
             "valueTemplateRefs": [
               "lc:RT:bf2:Components",
-              "lc:RT:bf2:Topic:Place:Components",
-              "lc:RT:bf2:Topic:Childrens:Components",
               "lc:RT:bf2:Topic:SubjectWork"
             ],
             "useValuesFrom": [],
