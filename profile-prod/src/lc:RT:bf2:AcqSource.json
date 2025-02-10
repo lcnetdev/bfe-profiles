@@ -45,6 +45,20 @@
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
       "propertyLabel": "Note"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": [],
+        "valueDataType": {}
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/acquisitionTerms",
+      "propertyLabel": "Terms of availability"
     }
   ],
   "id": "lc:RT:bf2:AcqSource",
