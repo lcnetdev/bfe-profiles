@@ -20838,7 +20838,7 @@
                   "useValuesFrom": [],
                   "valueDataType": {
                     "dataTypeLabelHint": "",
-                    "dataTypeURI": "http://www.w3.org/2001/XMLSchema#date"
+                    "dataTypeURI": ""
                   },
                   "editable": "false",
                   "defaults": []
@@ -21352,7 +21352,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.056Z",
-      "updateDate": "2024-12-05T20:03:45.830Z",
+      "updateDate": "2025-02-13T12:34:30.597Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.056Z",

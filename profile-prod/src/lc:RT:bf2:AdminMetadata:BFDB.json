@@ -64,7 +64,7 @@
         "useValuesFrom": [],
         "valueDataType": {
           "dataTypeLabelHint": "",
-          "dataTypeURI": "http://www.w3.org/2001/XMLSchema#date"
+          "dataTypeURI": ""
         },
         "editable": "false",
         "defaults": []
