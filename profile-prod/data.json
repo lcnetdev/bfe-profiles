@@ -22372,7 +22372,6 @@
                   "valueTemplateRefs": [],
                   "useValuesFrom": [
                     "http://id.loc.gov/authorities/childrensSubjects",
-                    "http://id.loc.gov/authorities/subjects",
                     "http://id.loc.gov/authorities/names"
                   ],
                   "defaults": [],
@@ -22380,7 +22379,7 @@
                   "editable": "false"
                 },
                 "propertyURI": "http://www.loc.gov/mads/rdf/v1#Topic",
-                "propertyLabel": "Search CYAC/LCSH/LCNAF"
+                "propertyLabel": "Search CYAC/LCNAF"
               }
             ],
             "id": "lc:RT:bf2:Topic:Childrens:Topic",
@@ -22542,7 +22541,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.062Z",
-      "updateDate": "2025-02-05T18:01:06.389Z",
+      "updateDate": "2025-02-19T20:12:30.425Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.062Z",

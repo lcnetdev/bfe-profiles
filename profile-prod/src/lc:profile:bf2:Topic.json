@@ -347,7 +347,6 @@
             "valueTemplateRefs": [],
             "useValuesFrom": [
               "http://id.loc.gov/authorities/childrensSubjects",
-              "http://id.loc.gov/authorities/subjects",
               "http://id.loc.gov/authorities/names"
             ],
             "defaults": [],
@@ -355,7 +354,7 @@
             "editable": "false"
           },
           "propertyURI": "http://www.loc.gov/mads/rdf/v1#Topic",
-          "propertyLabel": "Search CYAC/LCSH/LCNAF"
+          "propertyLabel": "Search CYAC/LCNAF"
         }
       ],
       "id": "lc:RT:bf2:Topic:Childrens:Topic",
