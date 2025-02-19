@@ -111,7 +111,7 @@
           "valueConstraint": {
             "valueTemplateRefs": [],
             "useValuesFrom": [
-              "http://id.loc.gov/vocabulary/maudience"
+              "http://id.loc.gov/bflists/intendedAudiences"
             ],
             "defaults": [],
             "valueDataType": {}

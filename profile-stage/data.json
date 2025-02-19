@@ -10887,7 +10887,7 @@
                 "valueConstraint": {
                   "valueTemplateRefs": [],
                   "useValuesFrom": [
-                    "http://id.loc.gov/vocabulary/maudience"
+                    "http://id.loc.gov/bflists/intendedAudiences"
                   ],
                   "defaults": [],
                   "valueDataType": {}
@@ -11745,7 +11745,7 @@
     },
     "metadata": {
       "createDate": "2019-04-11T20:45:09.452Z",
-      "updateDate": "2024-11-12T14:18:22.373Z",
+      "updateDate": "2025-02-19T21:51:23.079Z",
       "createUser": null,
       "updateUser": null
     },
