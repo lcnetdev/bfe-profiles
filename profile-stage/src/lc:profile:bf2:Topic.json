@@ -342,7 +342,6 @@
             "valueTemplateRefs": [],
             "useValuesFrom": [
               "http://id.loc.gov/authorities/childrensSubjects",
-              "http://id.loc.gov/authorities/subjects",
               "http://id.loc.gov/authorities/names"
             ],
             "defaults": [],
@@ -350,7 +349,7 @@
             "editable": "false"
           },
           "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
-          "propertyLabel": "Search CYAC/LCSH/LCNAF"
+          "propertyLabel": "Search CYAC/LCNAF"
         }
       ],
       "id": "lc:RT:bf2:Topic:Childrens:Topic",
