@@ -938,24 +938,6 @@
               {
                 "mandatory": "false",
                 "repeatable": "true",
-                "type": "lookup",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [
-                    "http://id.loc.gov/bflists/intendedAudiences"
-                  ],
-                  "defaults": [],
-                  "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/IntendedAudience"
-                  }
-                },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/intendedAudience",
-                "propertyLabel": "Intended audience (LCDGT lookup)"
-              },
-              {
-                "mandatory": "false",
-                "repeatable": "true",
                 "type": "resource",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -1894,7 +1876,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2025-02-19T22:01:19.892Z",
+      "updateDate": "2025-02-20T15:46:57.267Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",
