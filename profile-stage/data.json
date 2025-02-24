@@ -1034,7 +1034,8 @@
                     "lc:RT:bf2:Components",
                     "lc:RT:bf2:Topic:SubjectWork",
                     "lc:RT:bf2:Topic:Place:Components",
-                    "lc:RT:bf2:Topic:Childrens:Components"
+                    "lc:RT:bf2:Topic:Childrens:Components",
+                    "lc:RT:bf2:Topic:Event"
                   ],
                   "useValuesFrom": [],
                   "valueDataType": {
@@ -1876,7 +1877,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2025-02-20T15:46:57.267Z",
+      "updateDate": "2025-02-24T20:54:52.837Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",
