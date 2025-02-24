@@ -34,7 +34,7 @@
         ],
         "defaults": [],
         "valueDataType": {
-          "dataTypeURI": "http://id.loc.gov/vocabulary/subjectSchemes/lcsh"
+          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Source"
         },
         "valueLanguage": ""
       },

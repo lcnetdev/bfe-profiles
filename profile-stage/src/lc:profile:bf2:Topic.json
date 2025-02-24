@@ -36,7 +36,7 @@
             ],
             "defaults": [],
             "valueDataType": {
-              "dataTypeURI": "http://id.loc.gov/vocabulary/subjectSchemes/lcsh"
+              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Source"
             },
             "valueLanguage": ""
           },
@@ -480,6 +480,24 @@
           },
           "propertyURI": "http://www.loc.gov/mads/rdf/v1#authoritativeLabel",
           "propertyLabel": "Search LCNAF/LCSH"
+        },
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "lookup",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [],
+            "useValuesFrom": [
+              "http://id.loc.gov/vocabulary/subjectSchemes"
+            ],
+            "defaults": [],
+            "valueDataType": {
+              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Source"
+            }
+          },
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/source",
+          "propertyLabel": "Thesaurus"
         }
       ],
       "id": "lc:RT:bf2:Topic:Event",
