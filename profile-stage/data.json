@@ -30979,7 +30979,31 @@
             ],
             "id": "lc:RT:bf2:Topic:SubjectNew",
             "resourceURI": "http://id.loc.gov/ontologies/bibframe/Topic",
-            "resourceLabel": "Expanded subjects"
+            "resourceLabel": "Expanded subjects (test)"
+          },
+          {
+            "propertyTemplates": [
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "lookup",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [
+                    "http://id.loc.gov/authorities/names",
+                    "http://id.loc.gov/authorities/subjects"
+                  ],
+                  "defaults": [],
+                  "valueDataType": {}
+                },
+                "propertyURI": "http://www.loc.gov/mads/rdf/v1#authoritativeLabel",
+                "propertyLabel": "Search LCNAF/LCSH"
+              }
+            ],
+            "id": "lc:RT:bf2:Topic:Event",
+            "resourceURI": "http://id.loc.gov/ontologies/bibframe/Event",
+            "resourceLabel": "Events"
           }
         ],
         "id": "lc:profile:bf2:Topic",
@@ -30991,7 +31015,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.062Z",
-      "updateDate": "2025-02-19T20:11:59.581Z",
+      "updateDate": "2025-02-24T20:51:44.816Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.062Z",
