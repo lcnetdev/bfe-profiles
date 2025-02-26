@@ -269,7 +269,7 @@
           "valueConstraint": {
             "valueTemplateRefs": [],
             "useValuesFrom": [
-              "http://id.loc.gov/vocabulary/maudience"
+              "http://id.loc.gov/bflists/intendedAudiences"
             ],
             "valueDataType": {
               "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/IntendedAudience"
