@@ -37699,8 +37699,7 @@
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [
-                    "lc:RT:bf2:Agent:bfPerson",
-                    "lc:RT:bf2:Agent:bfCorp"
+                    "lc:RT:bf2:Agents:Contribution"
                   ],
                   "useValuesFrom": [],
                   "defaults": [],
@@ -38352,7 +38351,7 @@
     "id": "82af545a-f246-4d72-ba34-735ffbb6ef09",
     "metadata": {
       "createDate": "2025-02-27T15:54:23.686Z",
-      "updateDate": "2025-02-27T16:27:48.107Z",
+      "updateDate": "2025-02-27T16:30:10.234Z",
       "createUser": null,
       "updateUser": null
     }
