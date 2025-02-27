@@ -37699,6 +37699,25 @@
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [
+                    "lc:RT:bf2:Agent:bfPerson",
+                    "lc:RT:bf2:Agent:bfCorp"
+                  ],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Contribution"
+                  }
+                },
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/contribution",
+                "propertyLabel": "Contributors"
+              },
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "resource",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [
                     "lc:RT:bf2:Note"
                   ],
                   "useValuesFrom": [],
@@ -38333,7 +38352,7 @@
     "id": "82af545a-f246-4d72-ba34-735ffbb6ef09",
     "metadata": {
       "createDate": "2025-02-27T15:54:23.686Z",
-      "updateDate": "2025-02-27T15:56:22.173Z",
+      "updateDate": "2025-02-27T16:27:48.107Z",
       "createUser": null,
       "updateUser": null
     }
