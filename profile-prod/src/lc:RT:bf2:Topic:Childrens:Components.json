@@ -32,8 +32,8 @@
         ],
         "defaults": [
           {
-            "defaultURI": "http://id.loc.gov/vocabulary/subjectSchemes/lcac",
-            "defaultLiteral": "Library of Congress children's subject headings"
+            "defaultURI": "http://id.loc.gov/vocabulary/subjectSchemes/cyac",
+            "defaultLiteral": "Children’s and Young Adults’ Cataloging subject headings"
           }
         ],
         "valueDataType": {

@@ -307,15 +307,17 @@
         {
           "mandatory": "false",
           "repeatable": "true",
-          "type": "literal",
+          "type": "lookup",
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [],
-            "useValuesFrom": [],
+            "useValuesFrom": [
+              "https://preprod-8080.id.loc.gov/vocabulary/vartitletype"
+            ],
             "valueDataType": {},
             "defaults": []
           },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/variantType",
+          "propertyURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
           "propertyLabel": "Variant title type"
         },
         {

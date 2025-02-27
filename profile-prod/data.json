@@ -21714,15 +21714,17 @@
               {
                 "mandatory": "false",
                 "repeatable": "true",
-                "type": "literal",
+                "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [],
-                  "useValuesFrom": [],
+                  "useValuesFrom": [
+                    "https://preprod-8080.id.loc.gov/vocabulary/vartitletype"
+                  ],
                   "valueDataType": {},
                   "defaults": []
                 },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/variantType",
+                "propertyURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
                 "propertyLabel": "Variant title type"
               },
               {
@@ -22002,7 +22004,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.062Z",
-      "updateDate": "2024-12-06T20:22:59.968Z",
+      "updateDate": "2025-02-27T22:29:41.673Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.062Z",
@@ -22386,8 +22388,8 @@
                   ],
                   "defaults": [
                     {
-                      "defaultURI": "http://id.loc.gov/vocabulary/subjectSchemes/lcac",
-                      "defaultLiteral": "Library of Congress children's subject headings"
+                      "defaultURI": "http://id.loc.gov/vocabulary/subjectSchemes/cyac",
+                      "defaultLiteral": "Children’s and Young Adults’ Cataloging subject headings"
                     }
                   ],
                   "valueDataType": {
@@ -22583,7 +22585,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.062Z",
-      "updateDate": "2025-02-19T20:12:30.425Z",
+      "updateDate": "2025-02-27T17:06:54.307Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.062Z",
