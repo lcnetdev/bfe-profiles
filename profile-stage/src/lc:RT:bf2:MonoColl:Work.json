@@ -300,7 +300,7 @@
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [
-          "lc:RT:bf2:Monograph:Instance"
+          "lc:RT:bf2:MonoColl:Instance"
         ],
         "useValuesFrom": [],
         "defaults": [],

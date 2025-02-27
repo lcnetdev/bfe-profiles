@@ -37954,7 +37954,7 @@
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [
-                    "lc:RT:bf2:Monograph:Instance"
+                    "lc:RT:bf2:MonoColl:Instance"
                   ],
                   "useValuesFrom": [],
                   "defaults": [],
@@ -37978,7 +37978,7 @@
                 "type": "resource",
                 "valueConstraint": {
                   "valueTemplateRefs": [
-                    "lc:RT:bf2:Monograph:Work"
+                    "lc:RT:bf2:MonoColl:Work"
                   ],
                   "useValuesFrom": [],
                   "valueDataType": {},
@@ -38216,7 +38216,7 @@
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [
-                    "lc:RT:bf2:Monograph:Item"
+                    "lc:RT:bf2:MonoColl:Item"
                   ],
                   "useValuesFrom": [],
                   "defaults": [],
@@ -38333,7 +38333,7 @@
     "id": "82af545a-f246-4d72-ba34-735ffbb6ef09",
     "metadata": {
       "createDate": "2025-02-27T15:54:23.686Z",
-      "updateDate": "2025-02-27T15:54:23.686Z",
+      "updateDate": "2025-02-27T15:56:22.173Z",
       "createUser": null,
       "updateUser": null
     }

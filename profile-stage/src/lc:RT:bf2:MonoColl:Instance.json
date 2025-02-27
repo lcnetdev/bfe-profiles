@@ -8,7 +8,7 @@
       "type": "resource",
       "valueConstraint": {
         "valueTemplateRefs": [
-          "lc:RT:bf2:Monograph:Work"
+          "lc:RT:bf2:MonoColl:Work"
         ],
         "useValuesFrom": [],
         "valueDataType": {},
@@ -246,7 +246,7 @@
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [
-          "lc:RT:bf2:Monograph:Item"
+          "lc:RT:bf2:MonoColl:Item"
         ],
         "useValuesFrom": [],
         "defaults": [],
