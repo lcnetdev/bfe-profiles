@@ -165,8 +165,8 @@
         "useValuesFrom": [],
         "valueDataType": {
           "dataTypeURI": "",
-          "remark": "http://id.loc.gov/vocabulary/maudience",
-          "dataTypeLabel": "http://id.loc.gov/ontologies/bibframe/IntendedAudience"
+          "remark": "",
+          "dataTypeLabel": ""
         },
         "defaults": []
       },
