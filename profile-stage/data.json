@@ -22704,21 +22704,6 @@
                 "propertyLabel": "Contents"
               },
               {
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "literal",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [],
-                  "valueDataType": {},
-                  "defaults": []
-                },
-                "propertyLabel": "Cast/credits",
-                "remark": "http://original.rdatoolkit.org/2.17.3.5.html",
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/credits"
-              },
-              {
                 "propertyLabel": "Media type",
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/media",
                 "repeatable": "true",
@@ -23252,7 +23237,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2024-12-06T19:09:02.187Z",
+      "updateDate": "2025-02-28T16:31:59.406Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",
