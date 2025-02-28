@@ -14733,21 +14733,6 @@
               {
                 "mandatory": "false",
                 "repeatable": "true",
-                "type": "literal",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [],
-                  "valueDataType": {},
-                  "defaults": []
-                },
-                "propertyLabel": "Credits",
-                "remark": "http://original.rdatoolkit.org/2.17.3.5.html",
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/credits"
-              },
-              {
-                "mandatory": "false",
-                "repeatable": "true",
                 "type": "resource",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -14983,7 +14968,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2024-12-06T20:15:56.217Z",
+      "updateDate": "2025-02-28T16:34:34.195Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",
