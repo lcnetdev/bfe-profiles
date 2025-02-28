@@ -19228,7 +19228,7 @@
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [
-                    "lc:RT:bf2:RareMat:RefNote"
+                    "lc:RT:bf2:RareMat:RefWorkNote"
                   ],
                   "useValuesFrom": [],
                   "valueDataType": {},
@@ -19443,7 +19443,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2025-02-28T18:06:23.982Z",
+      "updateDate": "2025-02-28T18:07:23.179Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",
