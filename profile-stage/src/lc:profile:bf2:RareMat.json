@@ -1010,6 +1010,29 @@
       "propertyTemplates": [
         {
           "mandatory": "false",
+          "repeatable": "true",
+          "type": "lookup",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [],
+            "useValuesFrom": [
+              "http://id.loc.gov/vocabulary/relationship"
+            ],
+            "defaults": [
+              {
+                "defaultURI": "http://id.loc.gov/vocabulary/relationship/references",
+                "defaultLiteral": "references"
+              }
+            ],
+            "valueDataType": {
+              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Relationship"
+            }
+          },
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/relationship",
+          "propertyLabel": "Relationship"
+        },
+        {
+          "mandatory": "false",
           "repeatable": "false",
           "type": "resource",
           "resourceTemplates": [],
@@ -1058,7 +1081,7 @@
         }
       ],
       "id": "lc:RT:bf2:RareMat:RefWork",
-      "resourceURI": "http://id.loc.gov/ontologies/bibframe/Work",
+      "resourceURI": "http://id.loc.gov/ontologies/bibframe/Relation",
       "resourceLabel": "References"
     },
     {
@@ -1121,7 +1144,7 @@
           "propertyLabel": "Note type"
         }
       ],
-      "id": "lc:RT:bf2:RareMat:RefNote",
+      "id": "lc:RT:bf2:RareMat:RefWorkNote",
       "resourceURI": "http://id.loc.gov/ontologies/bibframe/Note",
       "resourceLabel": "References note"
     },

@@ -1,0 +1,43 @@
+{
+  "propertyTemplates": [
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": [],
+        "valueDataType": {}
+      },
+      "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label",
+      "propertyLabel": "Location",
+      "remark": "A human-readable name for the subject."
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [
+          "http://id.loc.gov/vocabulary/mnotetype"
+        ],
+        "defaults": [
+          {
+            "defaultURI": "http://id.loc.gov/vocabulary/mnotetype/loc",
+            "defaultLiteral": "location"
+          }
+        ],
+        "valueDataType": {}
+      },
+      "propertyURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "propertyLabel": "Note type"
+    }
+  ],
+  "id": "lc:RT:bf2:RareMat:RefWorkNote",
+  "resourceURI": "http://id.loc.gov/ontologies/bibframe/Note",
+  "resourceLabel": "References note"
+}
