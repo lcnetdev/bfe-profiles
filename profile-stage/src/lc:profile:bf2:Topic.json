@@ -314,8 +314,8 @@
             ],
             "defaults": [
               {
-                "defaultURI": "http://id.loc.gov/vocabulary/subjectSchemes/lcac",
-                "defaultLiteral": "lcac"
+                "defaultURI": "http://id.loc.gov/vocabulary/subjectSchemes/cyac",
+                "defaultLiteral": "Children’s and Young Adults’ Cataloging subject headings"
               }
             ],
             "valueDataType": {

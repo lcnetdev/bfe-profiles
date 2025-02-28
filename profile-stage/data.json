@@ -10064,21 +10064,6 @@
                 "propertyLabel": "Immediate source of acquisition note"
               },
               {
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "literal",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [],
-                  "defaults": [],
-                  "valueDataType": {}
-                },
-                "propertyLabel": "Cast/credits",
-                "remark": "http://original.rdatoolkit.org/2.17.3.5.html",
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/credits"
-              },
-              {
                 "propertyLabel": "Media type",
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/media",
                 "repeatable": "true",
@@ -10746,7 +10731,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2024-12-06T19:02:24.872Z",
+      "updateDate": "2025-02-28T16:31:09.760Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",
@@ -30834,8 +30819,8 @@
                   ],
                   "defaults": [
                     {
-                      "defaultURI": "http://id.loc.gov/vocabulary/subjectSchemes/lcac",
-                      "defaultLiteral": "lcac"
+                      "defaultURI": "http://id.loc.gov/vocabulary/subjectSchemes/cyac",
+                      "defaultLiteral": "Children’s and Young Adults’ Cataloging subject headings"
                     }
                   ],
                   "valueDataType": {
@@ -31034,7 +31019,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.062Z",
-      "updateDate": "2025-02-24T20:53:38.791Z",
+      "updateDate": "2025-02-27T17:06:57.452Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.062Z",
