@@ -62,6 +62,24 @@
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/electronicLocator",
                 "propertyLabel": "URL for Contents note",
                 "remark": "Idiomatic property used for structured values."
+              },
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "lookup",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [
+                    "http://id.loc.gov/vocabulary/mstatus"
+                  ],
+                  "defaults": [],
+                  "valueDataType": {
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Status"
+                  }
+                },
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/status",
+                "propertyLabel": "Partial or incomplete?"
               }
             ],
             "id": "lc:RT:bf2:Contents",
@@ -355,7 +373,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2024-12-05T20:47:30.161Z",
+      "updateDate": "2025-02-28T18:18:22.947Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",

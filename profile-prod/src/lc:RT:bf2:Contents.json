@@ -33,6 +33,24 @@
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/electronicLocator",
       "propertyLabel": "URL for Contents note",
       "remark": "Idiomatic property used for structured values."
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [
+          "http://id.loc.gov/vocabulary/mstatus"
+        ],
+        "defaults": [],
+        "valueDataType": {
+          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Status"
+        }
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/status",
+      "propertyLabel": "Partial or incomplete?"
     }
   ],
   "id": "lc:RT:bf2:Contents",
