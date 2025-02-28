@@ -18568,7 +18568,7 @@
                   "defaults": [],
                   "valueDataType": {}
                 },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/references",
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/relation",
                 "propertyLabel": "References"
               },
               {
@@ -19443,7 +19443,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2025-02-28T18:07:23.179Z",
+      "updateDate": "2025-02-28T18:08:11.460Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",

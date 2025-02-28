@@ -394,7 +394,7 @@
             "defaults": [],
             "valueDataType": {}
           },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/references",
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/relation",
           "propertyLabel": "References"
         },
         {
