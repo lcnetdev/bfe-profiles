@@ -761,21 +761,6 @@
           "remark": "https://original.rdatoolkit.org/7.16.html"
         },
         {
-          "mandatory": "false",
-          "repeatable": "true",
-          "type": "literal",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [],
-            "useValuesFrom": [],
-            "valueDataType": {},
-            "defaults": []
-          },
-          "propertyLabel": "Credits",
-          "remark": "https://original.rdatoolkit.org/2.17.3.5.html",
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/credits"
-        },
-        {
           "propertyLabel": "Media type",
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/media",
           "repeatable": "true",
