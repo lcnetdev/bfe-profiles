@@ -733,21 +733,6 @@
         {
           "mandatory": "false",
           "repeatable": "true",
-          "type": "literal",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [],
-            "useValuesFrom": [],
-            "defaults": [],
-            "valueDataType": {}
-          },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/credits",
-          "propertyLabel": "Credits",
-          "remark": "https://original.rdatoolkit.org/2.17.3.5.html"
-        },
-        {
-          "mandatory": "false",
-          "repeatable": "true",
           "type": "lookup",
           "resourceTemplates": [],
           "valueConstraint": {
