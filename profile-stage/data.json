@@ -35490,15 +35490,15 @@
               {
                 "mandatory": "false",
                 "repeatable": "true",
-                "type": "lookup",
+                "type": "resource",
                 "resourceTemplates": [],
                 "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [
-                    "http://id.loc.gov/vocabulary/maudience"
+                  "valueTemplateRefs": [
+                    "lc:RT:bf2:Audience"
                   ],
+                  "useValuesFrom": [],
                   "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/IntendedAudience"
+                    "dataTypeURI": ""
                   },
                   "defaults": []
                 },
@@ -36741,7 +36741,7 @@
     "id": "0545dd4f-0546-4a2a-99e5-b818961f91ae",
     "metadata": {
       "createDate": "2024-06-28T13:58:12.316Z",
-      "updateDate": "2025-02-28T16:35:15.063Z",
+      "updateDate": "2025-02-28T19:36:56.956Z",
       "createUser": null,
       "updateUser": null
     }
