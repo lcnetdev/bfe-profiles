@@ -14238,21 +14238,6 @@
                 "remark": "https://original.rdatoolkit.org/7.16.html"
               },
               {
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "literal",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [],
-                  "valueDataType": {},
-                  "defaults": []
-                },
-                "propertyLabel": "Credits",
-                "remark": "https://original.rdatoolkit.org/2.17.3.5.html",
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/credits"
-              },
-              {
                 "propertyLabel": "Media type",
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/media",
                 "repeatable": "true",
@@ -14552,7 +14537,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2024-12-09T16:18:36.158Z",
+      "updateDate": "2025-02-28T16:42:21.779Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",
