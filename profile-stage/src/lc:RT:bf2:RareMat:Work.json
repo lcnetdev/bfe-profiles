@@ -126,7 +126,7 @@
         ],
         "useValuesFrom": [],
         "valueDataType": {
-          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/GenreForm"
+          "dataTypeURI": ""
         },
         "defaults": [],
         "editable": "false"

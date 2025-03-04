@@ -3,11 +3,14 @@
     {
       "mandatory": "false",
       "repeatable": "true",
-      "type": "literal",
+      "type": "lookup",
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [],
-        "useValuesFrom": [],
+        "useValuesFrom": [
+          "https://preprod-8088.id.loc.gov/resources/works/",
+          "https://preprod-8088.id.loc.gov/resources/hubs/"
+        ],
         "defaults": [],
         "valueDataType": {}
       },
