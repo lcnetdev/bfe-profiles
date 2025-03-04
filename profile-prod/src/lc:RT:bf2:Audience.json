@@ -27,7 +27,12 @@
         "useValuesFrom": [
           "http://id.loc.gov/vocabulary/subjectSchemes"
         ],
-        "defaults": [],
+        "defaults": [
+          {
+            "defaultURI": "",
+            "defaultLiteral": ""
+          }
+        ],
         "valueDataType": {
           "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Source"
         }
