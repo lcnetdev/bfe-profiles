@@ -304,7 +304,7 @@
             "defaults": [
               {
                 "defaultURI": "http://id.loc.gov/authorities/demographicTerms",
-                "defaultLiteral": "lcdgt"
+                "defaultLiteral": "Library of Congress demographic group term and code list"
               }
             ],
             "valueDataType": {
