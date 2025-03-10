@@ -5582,7 +5582,7 @@
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [
-                    "lc:RT:bf2:NoteSimple"
+                    "lc:RT:bf2:RareMat:RefWorkNote"
                   ],
                   "useValuesFrom": [],
                   "valueDataType": {},
@@ -5646,6 +5646,48 @@
                   "defaults": [],
                   "valueDataType": {}
                 },
+                "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label",
+                "propertyLabel": "Location"
+              },
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "lookup",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [
+                    "http://id.loc.gov/vocabulary/mnotetype"
+                  ],
+                  "defaults": [
+                    {
+                      "defaultURI": "http://id.loc.gov/vocabulary/mnotetype/loc",
+                      "defaultLiteral": "location"
+                    }
+                  ],
+                  "valueDataType": {}
+                },
+                "propertyURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                "propertyLabel": "Note type"
+              }
+            ],
+            "id": "lc:RT:bf2:RareMat:RefWorkNote",
+            "resourceURI": "http://id.loc.gov/ontologies/bibframe/Note",
+            "resourceLabel": "References note"
+          },
+          {
+            "propertyTemplates": [
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "literal",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {}
+                },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/classificationPortion",
                 "propertyLabel": "Classification number"
               },
@@ -5683,48 +5725,6 @@
             "id": "lc:RT:bf2:RareMat:ItemLcc",
             "resourceURI": "http://id.loc.gov/ontologies/bibframe/ClassificationLcc",
             "resourceLabel": "Library of Congress classification"
-          },
-          {
-            "propertyTemplates": [
-              {
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "literal",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [],
-                  "defaults": [],
-                  "valueDataType": {}
-                },
-                "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label",
-                "propertyLabel": "Location"
-              },
-              {
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "lookup",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [
-                    "http://id.loc.gov/vocabulary/mnotetype"
-                  ],
-                  "defaults": [
-                    {
-                      "defaultURI": "http://id.loc.gov/vocabulary/mnotetype/loc",
-                      "defaultLiteral": "location"
-                    }
-                  ],
-                  "valueDataType": {}
-                },
-                "propertyURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
-                "propertyLabel": "Note type"
-              }
-            ],
-            "id": "lc:RT:bf2:RareMat:RefWorkNote",
-            "resourceURI": "http://id.loc.gov/ontologies/bibframe/Note",
-            "resourceLabel": "References note"
           }
         ],
         "id": "lc:profile:bf2:RareMat",
@@ -5736,7 +5736,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2025-03-10T17:22:02.537Z",
+      "updateDate": "2025-03-10T17:23:07.783Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",

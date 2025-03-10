@@ -48,7 +48,7 @@
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [
-          "lc:RT:bf2:NoteSimple"
+          "lc:RT:bf2:RareMat:RefWorkNote"
         ],
         "useValuesFrom": [],
         "valueDataType": {},
