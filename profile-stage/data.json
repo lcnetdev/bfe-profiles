@@ -27945,23 +27945,27 @@
                   "defaults": [],
                   "validatePattern": ""
                 },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/Language",
+                "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
                 "propertyLabel": "Language code",
                 "remark": ""
               },
               {
                 "mandatory": "false",
                 "repeatable": "true",
-                "type": "literal",
+                "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [],
-                  "useValuesFrom": [],
+                  "useValuesFrom": [
+                    "http://id.loc.gov/vocabulary/languageschemes"
+                  ],
                   "defaults": [],
-                  "valueDataType": {}
+                  "valueDataType": {
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Source"
+                  }
                 },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/part",
-                "propertyLabel": "Part"
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/source",
+                "propertyLabel": "Source of language code"
               }
             ],
             "resourceURI": "http://id.loc.gov/ontologies/bibframe/Language",
@@ -28103,7 +28107,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.059Z",
-      "updateDate": "2025-03-11T19:40:14.965Z",
+      "updateDate": "2025-03-11T19:51:24.568Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.059Z",

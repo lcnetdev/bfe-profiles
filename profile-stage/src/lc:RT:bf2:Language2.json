@@ -21,23 +21,27 @@
         "defaults": [],
         "validatePattern": ""
       },
-      "propertyURI": "http://id.loc.gov/ontologies/bibframe/Language",
+      "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
       "propertyLabel": "Language code",
       "remark": ""
     },
     {
       "mandatory": "false",
       "repeatable": "true",
-      "type": "literal",
+      "type": "lookup",
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [],
-        "useValuesFrom": [],
+        "useValuesFrom": [
+          "http://id.loc.gov/vocabulary/languageschemes"
+        ],
         "defaults": [],
-        "valueDataType": {}
+        "valueDataType": {
+          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Source"
+        }
       },
-      "propertyURI": "http://id.loc.gov/ontologies/bibframe/part",
-      "propertyLabel": "Part"
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/source",
+      "propertyLabel": "Source of language code"
     }
   ],
   "resourceURI": "http://id.loc.gov/ontologies/bibframe/Language",
