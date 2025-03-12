@@ -18299,7 +18299,8 @@
                 "valueConstraint": {
                   "valueTemplateRefs": [
                     "lc:RT:bf2:Form",
-                    "lc:RT:bf2:RareMat:RBMS"
+                    "lc:RT:bf2:RareMat:RBMS",
+                    "lc:RT:bf2:Topic:madsTopic"
                   ],
                   "useValuesFrom": [],
                   "valueDataType": {
@@ -19412,7 +19413,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2025-03-04T18:46:03.800Z",
+      "updateDate": "2025-03-12T19:05:20.651Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",

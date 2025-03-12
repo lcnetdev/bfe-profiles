@@ -122,7 +122,8 @@
       "valueConstraint": {
         "valueTemplateRefs": [
           "lc:RT:bf2:Form",
-          "lc:RT:bf2:RareMat:RBMS"
+          "lc:RT:bf2:RareMat:RBMS",
+          "lc:RT:bf2:Topic:madsTopic"
         ],
         "useValuesFrom": [],
         "valueDataType": {
