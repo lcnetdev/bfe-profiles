@@ -30697,13 +30697,12 @@
                 "valueConstraint": {
                   "valueTemplateRefs": [],
                   "useValuesFrom": [
-                    "https://id.loc.gov/resources/hubs",
-                    "https://preprod-8230.id.loc.gov/resources/hubs/"
+                    "https://preprod-8080.id.loc.gov/resources/hubs/"
                   ],
                   "defaults": [],
                   "valueDataType": {}
                 },
-                "propertyLabel": "Search Works and Hubs",
+                "propertyLabel": "Search Hubs",
                 "propertyURI": "http://www.loc.gov/mads/rdf/v1#authoritativeLabel",
                 "remark": "A human-readable name for the subject."
               }
@@ -30946,7 +30945,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.062Z",
-      "updateDate": "2025-02-27T17:06:57.452Z",
+      "updateDate": "2025-03-17T18:54:59.056Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.062Z",

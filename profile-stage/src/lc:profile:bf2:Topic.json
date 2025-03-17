@@ -265,13 +265,12 @@
           "valueConstraint": {
             "valueTemplateRefs": [],
             "useValuesFrom": [
-              "https://id.loc.gov/resources/hubs",
-              "https://preprod-8230.id.loc.gov/resources/hubs/"
+              "https://preprod-8080.id.loc.gov/resources/hubs/"
             ],
             "defaults": [],
             "valueDataType": {}
           },
-          "propertyLabel": "Search Works and Hubs",
+          "propertyLabel": "Search Hubs",
           "propertyURI": "http://www.loc.gov/mads/rdf/v1#authoritativeLabel",
           "remark": "A human-readable name for the subject."
         }
