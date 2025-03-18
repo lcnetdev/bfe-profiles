@@ -3373,12 +3373,26 @@
                   }
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/associatedResource",
-                "propertyLabel": "Search related works"
+                "propertyLabel": "Search related works/series"
+              },
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "literal",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {}
+                },
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/seriesEnumeration",
+                "propertyLabel": "Series enumeration (if applicable)"
               }
             ],
             "id": "lc:RT:bf2:RelWorkLookup",
             "resourceURI": "http://id.loc.gov/ontologies/bibframe/Relation",
-            "resourceLabel": "Search related work"
+            "resourceLabel": "Search related work/series"
           },
           {
             "propertyTemplates": [
@@ -3562,7 +3576,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2024-12-10T15:47:57.805Z",
+      "updateDate": "2025-03-18T17:52:04.566Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",
@@ -30709,7 +30723,7 @@
             ],
             "id": "lc:RT:bf2:Topic:SubjectWork",
             "resourceURI": "http://id.loc.gov/ontologies/bibframe/Work",
-            "resourceLabel": "Work as subject",
+            "resourceLabel": "Hub as subject",
             "author": "NDMSO"
           },
           {
@@ -30945,7 +30959,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.062Z",
-      "updateDate": "2025-03-17T18:54:59.056Z",
+      "updateDate": "2025-03-18T16:34:20.573Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.062Z",
