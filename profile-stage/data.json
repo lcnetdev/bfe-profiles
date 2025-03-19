@@ -19182,20 +19182,6 @@
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/associatedResource",
                 "propertyLabel": "Title"
-              },
-              {
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "literal",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [],
-                  "defaults": [],
-                  "valueDataType": {}
-                },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/seriesEnumeration",
-                "propertyLabel": "Series enumeration"
               }
             ],
             "id": "lc:RT:bf2:RareMat:RefWork",
@@ -19444,7 +19430,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2025-03-19T17:47:18.470Z",
+      "updateDate": "2025-03-19T17:51:53.836Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",
