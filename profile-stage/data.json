@@ -18546,7 +18546,7 @@
                   "defaults": []
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/relation",
-                "propertyLabel": "References/Related Works",
+                "propertyLabel": "References/Related Works/Series",
                 "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Hubs(240;X00,X10,X11with$t;X30)"
               },
               {
@@ -19189,6 +19189,20 @@
                 },
                 "propertyLabel": "URL for reference",
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/electronicLocator"
+              },
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "literal",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {}
+                },
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/seriesEnumeration",
+                "propertyLabel": "Series enumeration"
               }
             ],
             "id": "lc:RT:bf2:RareMat:RefWork",
@@ -19383,7 +19397,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2025-03-19T13:16:49.898Z",
+      "updateDate": "2025-03-19T13:18:58.037Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",
