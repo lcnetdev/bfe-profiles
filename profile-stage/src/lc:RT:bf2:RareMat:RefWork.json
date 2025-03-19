@@ -10,7 +10,12 @@
         "useValuesFrom": [
           "http://id.loc.gov/vocabulary/relationship"
         ],
-        "defaults": [],
+        "defaults": [
+          {
+            "defaultURI": "http://id.loc.gov/vocabulary/relationship/references",
+            "defaultLiteral": "references"
+          }
+        ],
         "valueDataType": {
           "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Relationship"
         }
@@ -53,5 +58,5 @@
   ],
   "id": "lc:RT:bf2:RareMat:RefWork",
   "resourceURI": "http://id.loc.gov/ontologies/bibframe/Relation",
-  "resourceLabel": "References/Related Works/Series"
+  "resourceLabel": "References"
 }

@@ -982,7 +982,12 @@
             "useValuesFrom": [
               "http://id.loc.gov/vocabulary/relationship"
             ],
-            "defaults": [],
+            "defaults": [
+              {
+                "defaultURI": "http://id.loc.gov/vocabulary/relationship/references",
+                "defaultLiteral": "references"
+              }
+            ],
             "valueDataType": {
               "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Relationship"
             }
@@ -1025,24 +1030,21 @@
       ],
       "id": "lc:RT:bf2:RareMat:RefWork",
       "resourceURI": "http://id.loc.gov/ontologies/bibframe/Relation",
-      "resourceLabel": "References/Related Works/Series"
+      "resourceLabel": "References"
     },
     {
       "propertyTemplates": [
         {
           "mandatory": "false",
           "repeatable": "true",
-          "type": "lookup",
+          "type": "resource",
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [],
-            "useValuesFrom": [
-              "https://preprod-8088.id.loc.gov/resources/works/",
-              "https://preprod-8088.id.loc.gov/resources/hubs/"
-            ],
+            "useValuesFrom": [],
             "defaults": [],
             "valueDataType": {
-              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Title"
+              "dataTypeURI": ""
             }
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/title",
@@ -1083,7 +1085,28 @@
       ],
       "id": "lc:RT:bf2:RareMat:RefWorkTitle",
       "resourceURI": "http://id.loc.gov/ontologies/bibframe/Work",
-      "resourceLabel": "Title"
+      "resourceLabel": "References title"
+    },
+    {
+      "propertyTemplates": [
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "literal",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [],
+            "useValuesFrom": [],
+            "defaults": [],
+            "valueDataType": {}
+          },
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/mainTitle",
+          "propertyLabel": "Input title"
+        }
+      ],
+      "id": "lc:RT:bf2:RareMat:RefWorkTitle2",
+      "resourceURI": "http://id.loc.gov/ontologies/bibframe/Title",
+      "resourceLabel": "Input title"
     },
     {
       "propertyTemplates": [
