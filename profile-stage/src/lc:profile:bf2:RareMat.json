@@ -995,38 +995,6 @@
         {
           "mandatory": "false",
           "repeatable": "true",
-          "type": "resource",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [
-              "lc:RT:bf2:RareMat:RefWorkNote"
-            ],
-            "useValuesFrom": [],
-            "valueDataType": {},
-            "defaults": []
-          },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
-          "propertyLabel": "Location of citation"
-        },
-        {
-          "mandatory": "false",
-          "repeatable": "true",
-          "type": "resource",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [
-              "lc:RT:bf2:URL"
-            ],
-            "useValuesFrom": [],
-            "defaults": [],
-            "valueDataType": {}
-          },
-          "propertyLabel": "URL for reference",
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/electronicLocator"
-        },
-        {
-          "mandatory": "false",
-          "repeatable": "true",
           "type": "literal",
           "resourceTemplates": [],
           "valueConstraint": {
@@ -1063,6 +1031,38 @@
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/title",
           "propertyLabel": "Title"
+        },
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "resource",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [
+              "lc:RT:bf2:RareMat:RefWorkNote"
+            ],
+            "useValuesFrom": [],
+            "defaults": [],
+            "valueDataType": {}
+          },
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
+          "propertyLabel": "Location of citation"
+        },
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "resource",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [
+              "lc:RT:bf2:URL"
+            ],
+            "useValuesFrom": [],
+            "defaults": [],
+            "valueDataType": {}
+          },
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/electronicLocator",
+          "propertyLabel": "URL for reference"
         }
       ],
       "id": "lc:RT:bf2:RareMat:RefWorkTitle",
