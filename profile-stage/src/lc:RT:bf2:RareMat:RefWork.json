@@ -10,12 +10,7 @@
         "useValuesFrom": [
           "http://id.loc.gov/vocabulary/relationship"
         ],
-        "defaults": [
-          {
-            "defaultURI": "http://id.loc.gov/vocabulary/relationship/references",
-            "defaultLiteral": "references"
-          }
-        ],
+        "defaults": [],
         "valueDataType": {
           "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Relationship"
         }

@@ -19153,12 +19153,7 @@
                   "useValuesFrom": [
                     "http://id.loc.gov/vocabulary/relationship"
                   ],
-                  "defaults": [
-                    {
-                      "defaultURI": "http://id.loc.gov/vocabulary/relationship/references",
-                      "defaultLiteral": "references"
-                    }
-                  ],
+                  "defaults": [],
                   "valueDataType": {
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Relationship"
                   }
@@ -19241,7 +19236,7 @@
             ],
             "id": "lc:RT:bf2:RareMat:RefWorkTitle",
             "resourceURI": "http://id.loc.gov/ontologies/bibframe/Title",
-            "resourceLabel": "References title"
+            "resourceLabel": "Related title"
           },
           {
             "propertyTemplates": [
@@ -19407,7 +19402,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2025-03-12T19:07:17.786Z",
+      "updateDate": "2025-03-19T13:14:35.717Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",
