@@ -6,7 +6,9 @@
       "type": "resource",
       "resourceTemplates": [],
       "valueConstraint": {
-        "valueTemplateRefs": [],
+        "valueTemplateRefs": [
+          "lc:RT:bf2:RareMat:RefWorkTitle2"
+        ],
         "useValuesFrom": [],
         "defaults": [],
         "valueDataType": {
@@ -14,7 +16,7 @@
         }
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/title",
-      "propertyLabel": "Title"
+      "propertyLabel": "Input title"
     },
     {
       "mandatory": "false",

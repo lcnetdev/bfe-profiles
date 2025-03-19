@@ -19210,7 +19210,9 @@
                 "type": "resource",
                 "resourceTemplates": [],
                 "valueConstraint": {
-                  "valueTemplateRefs": [],
+                  "valueTemplateRefs": [
+                    "lc:RT:bf2:RareMat:RefWorkTitle2"
+                  ],
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {
@@ -19218,7 +19220,7 @@
                   }
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/title",
-                "propertyLabel": "Title"
+                "propertyLabel": "Input title"
               },
               {
                 "mandatory": "false",
@@ -19442,7 +19444,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2025-03-19T17:46:24.764Z",
+      "updateDate": "2025-03-19T17:47:18.470Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",
