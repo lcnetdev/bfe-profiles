@@ -19231,7 +19231,7 @@
             ],
             "id": "lc:RT:bf2:RareMat:RefWorkTitle",
             "resourceURI": "http://id.loc.gov/ontologies/bibframe/Title",
-            "resourceLabel": "Related title"
+            "resourceLabel": "Title"
           },
           {
             "propertyTemplates": [
@@ -19397,7 +19397,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2025-03-19T13:18:58.037Z",
+      "updateDate": "2025-03-19T13:55:21.058Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",
