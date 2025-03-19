@@ -18546,8 +18546,24 @@
                   "defaults": []
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/relation",
-                "propertyLabel": "References/Related Works/Series",
+                "propertyLabel": "References",
                 "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Hubs(240;X00,X10,X11with$t;X30)"
+              },
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "resource",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [
+                    "lc:RT:bf2:RelWorkLookup"
+                  ],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {}
+                },
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/relation",
+                "propertyLabel": "Related Works/Series"
               },
               {
                 "mandatory": "false",
@@ -19403,7 +19419,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2025-03-19T15:50:21.551Z",
+      "updateDate": "2025-03-19T15:52:19.859Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",
