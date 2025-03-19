@@ -19179,7 +19179,7 @@
             ],
             "id": "lc:RT:bf2:RareMat:RefWork",
             "resourceURI": "http://id.loc.gov/ontologies/bibframe/Relation",
-            "resourceLabel": "Related Works"
+            "resourceLabel": "References/Related Works/Series"
           },
           {
             "propertyTemplates": [
@@ -19403,7 +19403,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2025-03-19T15:13:39.569Z",
+      "updateDate": "2025-03-19T15:50:21.551Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",
