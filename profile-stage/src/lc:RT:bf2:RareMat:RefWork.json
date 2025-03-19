@@ -28,10 +28,12 @@
           "lc:RT:bf2:RareMat:RefWorkTitle"
         ],
         "useValuesFrom": [],
-        "valueDataType": {},
+        "valueDataType": {
+          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Work"
+        },
         "defaults": []
       },
-      "propertyURI": "http://id.loc.gov/ontologies/bibframe/title",
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/associatedResource",
       "propertyLabel": "Title"
     },
     {

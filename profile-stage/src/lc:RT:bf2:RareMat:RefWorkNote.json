@@ -12,8 +12,8 @@
         "valueDataType": {}
       },
       "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label",
-      "propertyLabel": "Location",
-      "remark": "A human-readable name for the subject."
+      "propertyLabel": "Location of citation",
+      "remark": ""
     },
     {
       "mandatory": "false",

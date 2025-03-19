@@ -19154,10 +19154,12 @@
                     "lc:RT:bf2:RareMat:RefWorkTitle"
                   ],
                   "useValuesFrom": [],
-                  "valueDataType": {},
+                  "valueDataType": {
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Work"
+                  },
                   "defaults": []
                 },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/title",
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/associatedResource",
                 "propertyLabel": "Title"
               },
               {
@@ -19225,14 +19227,16 @@
                     "https://preprod-8088.id.loc.gov/resources/hubs/"
                   ],
                   "defaults": [],
-                  "valueDataType": {}
+                  "valueDataType": {
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Title"
+                  }
                 },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/mainTitle",
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/title",
                 "propertyLabel": "Title"
               }
             ],
             "id": "lc:RT:bf2:RareMat:RefWorkTitle",
-            "resourceURI": "http://id.loc.gov/ontologies/bibframe/Title",
+            "resourceURI": "http://id.loc.gov/ontologies/bibframe/Work",
             "resourceLabel": "Title"
           },
           {
@@ -19249,8 +19253,8 @@
                   "valueDataType": {}
                 },
                 "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label",
-                "propertyLabel": "Location",
-                "remark": "A human-readable name for the subject."
+                "propertyLabel": "Location of citation",
+                "remark": ""
               },
               {
                 "mandatory": "false",
@@ -19399,7 +19403,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2025-03-19T14:38:42.017Z",
+      "updateDate": "2025-03-19T15:02:40.462Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",

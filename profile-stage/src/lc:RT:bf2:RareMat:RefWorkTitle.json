@@ -12,13 +12,15 @@
           "https://preprod-8088.id.loc.gov/resources/hubs/"
         ],
         "defaults": [],
-        "valueDataType": {}
+        "valueDataType": {
+          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Title"
+        }
       },
-      "propertyURI": "http://id.loc.gov/ontologies/bibframe/mainTitle",
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/title",
       "propertyLabel": "Title"
     }
   ],
   "id": "lc:RT:bf2:RareMat:RefWorkTitle",
-  "resourceURI": "http://id.loc.gov/ontologies/bibframe/Title",
+  "resourceURI": "http://id.loc.gov/ontologies/bibframe/Work",
   "resourceLabel": "Title"
 }
