@@ -276,7 +276,7 @@
         }
       ],
       "id": "lc:RT:bf2:Topic:SubjectWork",
-      "resourceURI": "http://id.loc.gov/ontologies/bibframe/Work",
+      "resourceURI": "http://id.loc.gov/ontologies/bibframe/Hub",
       "resourceLabel": "Hub as subject",
       "author": "NDMSO"
     },

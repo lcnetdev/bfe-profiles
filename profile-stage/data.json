@@ -30726,7 +30726,7 @@
               }
             ],
             "id": "lc:RT:bf2:Topic:SubjectWork",
-            "resourceURI": "http://id.loc.gov/ontologies/bibframe/Work",
+            "resourceURI": "http://id.loc.gov/ontologies/bibframe/Hub",
             "resourceLabel": "Hub as subject",
             "author": "NDMSO"
           },
@@ -30963,7 +30963,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.062Z",
-      "updateDate": "2025-03-18T16:34:20.573Z",
+      "updateDate": "2025-03-19T19:42:27.892Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.062Z",
