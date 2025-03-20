@@ -19176,7 +19176,7 @@
                   ],
                   "useValuesFrom": [],
                   "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Work"
+                    "dataTypeURI": ""
                   },
                   "defaults": []
                 },
@@ -19430,7 +19430,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2025-03-19T19:14:02.768Z",
+      "updateDate": "2025-03-20T14:53:29.459Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",
