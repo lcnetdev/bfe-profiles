@@ -34,7 +34,7 @@
         ],
         "useValuesFrom": [],
         "valueDataType": {
-          "dataTypeURI": ""
+          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Work"
         },
         "defaults": []
       },
