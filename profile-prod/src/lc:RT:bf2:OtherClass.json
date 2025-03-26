@@ -8,12 +8,7 @@
       "valueConstraint": {
         "valueTemplateRefs": [],
         "useValuesFrom": [],
-        "defaults": [
-          {
-            "defaultURI": "",
-            "defaultLiteral": ""
-          }
-        ],
+        "defaults": [],
         "valueDataType": {}
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/classificationPortion",

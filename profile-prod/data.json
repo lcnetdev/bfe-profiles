@@ -10074,12 +10074,7 @@
                 "valueConstraint": {
                   "valueTemplateRefs": [],
                   "useValuesFrom": [],
-                  "defaults": [
-                    {
-                      "defaultURI": "",
-                      "defaultLiteral": ""
-                    }
-                  ],
+                  "defaults": [],
                   "valueDataType": {}
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/classificationPortion",
@@ -10138,7 +10133,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.059Z",
-      "updateDate": "2025-02-05T18:22:52.199Z",
+      "updateDate": "2025-03-26T14:16:12.895Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.059Z",
