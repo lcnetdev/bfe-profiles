@@ -7226,7 +7226,7 @@
                   "editable": "false"
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/relation",
-                "propertyLabel": "Search related work",
+                "propertyLabel": "Search related work/series",
                 "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Hubs(240;X00,X10,X11with$t;X30)"
               },
               {
@@ -7265,25 +7265,6 @@
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/relation",
                 "propertyLabel": "Input transcribed series",
-                "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Series(490,8XX)"
-              },
-              {
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "resource",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [
-                    "lc:RT:bf2:SeriesHubLookup"
-                  ],
-                  "useValuesFrom": [],
-                  "defaults": [],
-                  "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Relation"
-                  }
-                },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/relation",
-                "propertyLabel": "Search series Hub (optional)",
                 "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Series(490,8XX)"
               },
               {
@@ -7367,21 +7348,6 @@
               {
                 "mandatory": "false",
                 "repeatable": "true",
-                "type": "literal",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [],
-                  "defaults": [],
-                  "valueDataType": {}
-                },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/firstIssue",
-                "propertyLabel": "First issue date or designation",
-                "remark": "http://original.rdatoolkit.org/2.6.2.html"
-              },
-              {
-                "mandatory": "false",
-                "repeatable": "true",
                 "type": "resource",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -7394,25 +7360,6 @@
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/pubFrequency",
                 "propertyLabel": "Publication frequency (new)"
-              },
-              {
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "resource",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [
-                    "lc:RT:bf2:Serial:Frequency"
-                  ],
-                  "useValuesFrom": [],
-                  "valueDataType": {
-                    "dataTypeURI": ""
-                  },
-                  "defaults": []
-                },
-                "propertyLabel": "Frequency",
-                "remark": "",
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/frequency"
               },
               {
                 "propertyLabel": "Provision activity",
@@ -7463,6 +7410,40 @@
               {
                 "mandatory": "false",
                 "repeatable": "true",
+                "type": "resource",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [
+                    "lc:RT:bf2:Serial:Frequency"
+                  ],
+                  "useValuesFrom": [],
+                  "valueDataType": {
+                    "dataTypeURI": ""
+                  },
+                  "defaults": []
+                },
+                "propertyLabel": "Frequency",
+                "remark": "",
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/frequency"
+              },
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "literal",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {}
+                },
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/firstIssue",
+                "propertyLabel": "First issue date or designation",
+                "remark": "http://original.rdatoolkit.org/2.6.2.html"
+              },
+              {
+                "mandatory": "false",
+                "repeatable": "true",
                 "type": "literal",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -7506,6 +7487,27 @@
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/responsibilityStatement"
               },
               {
+                "propertyLabel": "Identifiers",
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/identifiedBy",
+                "resourceTemplates": [],
+                "type": "resource",
+                "valueConstraint": {
+                  "valueTemplateRefs": [
+                    "lc:RT:bf2:Identifiers:LCCN",
+                    "lc:RT:bf2:Identifiers:Other",
+                    "lc:RT:bf2:Identifiers:Local",
+                    "lc:RT:bf2:Identifiers:Oclc",
+                    "lc:RT:bf2:Identifiers:Nbn"
+                  ],
+                  "useValuesFrom": [],
+                  "valueDataType": {},
+                  "defaults": []
+                },
+                "mandatory": "false",
+                "repeatable": "true",
+                "remark": ""
+              },
+              {
                 "propertyLabel": "Media type",
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/media",
                 "repeatable": "true",
@@ -7530,27 +7532,6 @@
                 },
                 "mandatory": "false",
                 "remark": "http://original.rdatoolkit.org/3.2.html"
-              },
-              {
-                "propertyLabel": "Identifiers",
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/identifiedBy",
-                "resourceTemplates": [],
-                "type": "resource",
-                "valueConstraint": {
-                  "valueTemplateRefs": [
-                    "lc:RT:bf2:Identifiers:LCCN",
-                    "lc:RT:bf2:Identifiers:Other",
-                    "lc:RT:bf2:Identifiers:Local",
-                    "lc:RT:bf2:Identifiers:Oclc",
-                    "lc:RT:bf2:Identifiers:Nbn"
-                  ],
-                  "useValuesFrom": [],
-                  "valueDataType": {},
-                  "defaults": []
-                },
-                "mandatory": "false",
-                "repeatable": "true",
-                "remark": ""
               },
               {
                 "propertyLabel": "Carrier type",
@@ -7617,23 +7598,6 @@
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [
-                    "lc:RT:bf2:AcqSource"
-                  ],
-                  "useValuesFrom": [],
-                  "defaults": [],
-                  "valueDataType": {}
-                },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/acquisitionSource",
-                "propertyLabel": "Source of acquisition",
-                "remark": ""
-              },
-              {
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "resource",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [
                     "lc:RT:bf2:Note"
                   ],
                   "useValuesFrom": [],
@@ -7659,6 +7623,23 @@
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/supplementaryContent",
                 "propertyLabel": "Supplementary content URL"
+              },
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "resource",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [
+                    "lc:RT:bf2:AcqSource"
+                  ],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {}
+                },
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/acquisitionSource",
+                "propertyLabel": "Acquisitions source (Note, Stock number)",
+                "remark": ""
               },
               {
                 "mandatory": "false",
@@ -7767,24 +7748,6 @@
                 "type": "resource"
               },
               {
-                "propertyLabel": "Lending, reproduction, and retention policies",
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/usageAndAccessPolicy",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [
-                    "lc:RT:bf2:Item:Access",
-                    "lc:RT:bf2:Item:Use",
-                    "lc:RT:bf2:Item:Retention"
-                  ],
-                  "useValuesFrom": [],
-                  "valueDataType": {},
-                  "defaults": []
-                },
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "resource"
-              },
-              {
                 "mandatory": "false",
                 "repeatable": "true",
                 "type": "resource",
@@ -7815,6 +7778,24 @@
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/acquisitionSource",
                 "remark": "http://original.rdatoolkit.org/rdachp4_rda4-93.html",
                 "propertyLabel": "Contact information"
+              },
+              {
+                "propertyLabel": "Lending, reproduction, and retention policies",
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/usageAndAccessPolicy",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [
+                    "lc:RT:bf2:Item:Access",
+                    "lc:RT:bf2:Item:Use",
+                    "lc:RT:bf2:Item:Retention"
+                  ],
+                  "useValuesFrom": [],
+                  "valueDataType": {},
+                  "defaults": []
+                },
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "resource"
               }
             ],
             "resourceLabel": "BIBFRAME Item",
@@ -8229,7 +8210,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2025-02-28T19:33:03.238Z",
+      "updateDate": "2025-04-01T14:16:33.632Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",
