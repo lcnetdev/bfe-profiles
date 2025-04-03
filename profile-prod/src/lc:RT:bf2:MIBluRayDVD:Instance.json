@@ -164,7 +164,7 @@
           "lc:RT:bf2:Identifiers:Other",
           "lc:RT:bf2:Identifiers:Local",
           "lc:RT:bf2:Identifiers:Gtin14",
-          "lc:RT:bf2:Identifiers:UPC"
+          "lc:RT:bf2:Identifiers:VidRecNumber"
         ],
         "useValuesFrom": [],
         "valueDataType": {},
