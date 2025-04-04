@@ -1786,6 +1786,20 @@
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/immediateAcquisition",
                 "propertyLabel": "Immediate source of acquisition"
+              },
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "literal",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {}
+                },
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/custodialHistory",
+                "propertyLabel": "Custodial history/Provenance"
               }
             ],
             "resourceLabel": "BIBFRAME Item",
@@ -1871,7 +1885,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2025-03-10T14:59:12.827Z",
+      "updateDate": "2025-04-04T20:10:03.616Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",
