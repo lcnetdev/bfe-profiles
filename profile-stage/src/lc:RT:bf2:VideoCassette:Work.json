@@ -150,26 +150,6 @@
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [
-          "lc:RT:bflc:Agents:PrimaryContribution"
-        ],
-        "useValuesFrom": [],
-        "valueDataType": {
-          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/PrimaryContribution"
-        },
-        "defaults": [],
-        "editable": "true"
-      },
-      "propertyURI": "http://id.loc.gov/ontologies/bibframe/contribution",
-      "propertyLabel": "Creator of Work",
-      "remark": ""
-    },
-    {
-      "mandatory": "false",
-      "repeatable": "true",
-      "type": "resource",
-      "resourceTemplates": [],
-      "valueConstraint": {
-        "valueTemplateRefs": [
           "lc:RT:bf2:Agents:Contribution"
         ],
         "useValuesFrom": [],
@@ -394,7 +374,7 @@
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [
-          "lc:RT:bf2:VideoCassette:AccCont"
+          "lc:RT:bf2:MIBluRayDVD:AccCont"
         ],
         "useValuesFrom": [],
         "valueDataType": {},

@@ -52,24 +52,6 @@
       "type": "resource"
     },
     {
-      "propertyLabel": "Lending, reproduction, and retention policies",
-      "propertyURI": "http://id.loc.gov/ontologies/bibframe/usageAndAccessPolicy",
-      "resourceTemplates": [],
-      "valueConstraint": {
-        "valueTemplateRefs": [
-          "lc:RT:bf2:Item:Access",
-          "lc:RT:bf2:Item:Use",
-          "lc:RT:bf2:Item:Retention"
-        ],
-        "useValuesFrom": [],
-        "valueDataType": {},
-        "defaults": []
-      },
-      "mandatory": "false",
-      "repeatable": "true",
-      "type": "resource"
-    },
-    {
       "mandatory": "false",
       "repeatable": "true",
       "type": "resource",
