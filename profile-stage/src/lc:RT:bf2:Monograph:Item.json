@@ -25,7 +25,7 @@
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [
-          "lc:RT:bf2:Agents:bfContribution"
+          "lc:RT:bf2:Agents:Contribution"
         ],
         "useValuesFrom": [],
         "defaults": [],
@@ -34,7 +34,7 @@
         }
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/contribution",
-      "propertyLabel": "Collection",
+      "propertyLabel": "Collection/contribution",
       "remark": ""
     },
     {
