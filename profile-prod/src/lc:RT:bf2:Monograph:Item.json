@@ -25,7 +25,7 @@
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [
-          "lc:RT:bf2:Agents:Contribution"
+          "lc:RT:bf2:Agents:bfContribution"
         ],
         "useValuesFrom": [],
         "defaults": [],
