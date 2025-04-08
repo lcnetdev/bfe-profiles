@@ -19023,7 +19023,7 @@
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [
-                    "lc:RT:bf2:Note"
+                    "lc:RT:bf2:NoteLc"
                   ],
                   "useValuesFrom": [],
                   "valueDataType": {},
@@ -19425,7 +19425,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2025-03-20T14:58:14.901Z",
+      "updateDate": "2025-04-08T19:01:29.298Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",

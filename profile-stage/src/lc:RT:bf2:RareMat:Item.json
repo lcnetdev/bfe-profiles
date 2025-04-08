@@ -79,7 +79,7 @@
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [
-          "lc:RT:bf2:Note"
+          "lc:RT:bf2:NoteLc"
         ],
         "useValuesFrom": [],
         "valueDataType": {},
