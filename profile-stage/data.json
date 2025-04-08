@@ -21484,9 +21484,11 @@
                   ],
                   "useValuesFrom": [],
                   "defaults": [],
-                  "valueDataType": {}
+                  "valueDataType": {
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Contribution"
+                  }
                 },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/agent",
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/contribution",
                 "propertyLabel": "Collection/contribution"
               },
               {
@@ -21759,7 +21761,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.059Z",
-      "updateDate": "2025-04-08T19:38:24.487Z",
+      "updateDate": "2025-04-08T19:49:28.889Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.059Z",
