@@ -854,7 +854,7 @@
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [
-              "lc:RT:bf2:Agent:bfCorp"
+              "lc:RT:bf2:Agents:bfContribution"
             ],
             "useValuesFrom": [],
             "valueDataType": {
@@ -863,7 +863,7 @@
             "defaults": []
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/contribution",
-          "propertyLabel": "Collection"
+          "propertyLabel": "Collection/contribution"
         },
         {
           "propertyLabel": "URL of Item",

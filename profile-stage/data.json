@@ -10184,7 +10184,7 @@
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [
-                    "lc:RT:bf2:Agent:bfCorp"
+                    "lc:RT:bf2:Agents:bfContribution"
                   ],
                   "useValuesFrom": [],
                   "valueDataType": {
@@ -10193,7 +10193,7 @@
                   "defaults": []
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/contribution",
-                "propertyLabel": "Collection"
+                "propertyLabel": "Collection/contribution"
               },
               {
                 "propertyLabel": "URL of Item",
@@ -10722,7 +10722,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2025-02-28T19:29:33.624Z",
+      "updateDate": "2025-04-08T19:39:18.191Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",
