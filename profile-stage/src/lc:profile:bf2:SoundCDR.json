@@ -1056,12 +1056,12 @@
           "type": "resource"
         },
         {
-          "propertyLabel": "Collection",
+          "propertyLabel": "Collection/contribution",
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/agent",
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [
-              "lc:RT:bf2:Agents:Contribution"
+              "lc:RT:bf2:Agents:bfContribution"
             ],
             "useValuesFrom": [],
             "valueDataType": {},
