@@ -1040,15 +1040,17 @@
           "type": "resource"
         },
         {
-          "propertyLabel": "Notes about the Item",
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
+          "propertyLabel": "Collection/contribution",
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/contribution",
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [
-              "lc:RT:bf2:NoteLc"
+              "lc:RT:bf2:Agents:bfContribution"
             ],
             "useValuesFrom": [],
-            "valueDataType": {},
+            "valueDataType": {
+              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Contribution"
+            },
             "defaults": []
           },
           "mandatory": "false",
@@ -1056,12 +1058,12 @@
           "type": "resource"
         },
         {
-          "propertyLabel": "Collection/contribution",
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/agent",
+          "propertyLabel": "Notes about the Item",
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [
-              "lc:RT:bf2:Agents:bfContribution"
+              "lc:RT:bf2:NoteLc"
             ],
             "useValuesFrom": [],
             "valueDataType": {},
