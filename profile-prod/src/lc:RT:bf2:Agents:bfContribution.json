@@ -1,15 +1,19 @@
 {
   "resourceURI": "http://id.loc.gov/ontologies/bibframe/Contribution",
   "id": "lc:RT:bf2:Agents:bfContribution",
-  "resourceLabel": "Collection",
+  "resourceLabel": "Collection/contribution",
   "propertyTemplates": [
     {
-      "propertyLabel": "Name of collection",
+      "propertyLabel": "Search LCNAF",
       "valueConstraint": {
         "repeatable": "true",
         "useValuesFrom": [],
         "valueTemplateRefs": [
-          "lc:RT:bf2:Agent:bfCorp"
+          "lc:RT:bf2:Agent:bfPerson",
+          "lc:RT:bf2:Agent:bfCorp",
+          "lc:RT:bf2:Agent:bfConf",
+          "lc:RT:bf2:Agent:bfFamily",
+          "lc:RT:bf2:Agent:bfJurisdiction"
         ],
         "defaults": []
       },
@@ -19,6 +23,24 @@
       "repeatable": "true",
       "resourceTemplates": [],
       "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Contributors(1XX,6XX,7XX)"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [
+          "http://id.loc.gov/vocabulary/relators"
+        ],
+        "defaults": [],
+        "valueDataType": {
+          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Role"
+        }
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
+      "propertyLabel": "Relationship designator(s)"
     },
     {
       "mandatory": "false",
@@ -43,5 +65,6 @@
       "propertyURI": "http://id.loc.gov/ontologies/bflc/applicableInstitution",
       "propertyLabel": "Applicable institution"
     }
-  ]
+  ],
+  "remark": "for items"
 }
