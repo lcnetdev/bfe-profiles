@@ -1714,7 +1714,7 @@
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [
-                    "lc:RT:bf2:Agents:Contribution"
+                    "lc:RT:bf2:Agents:bfContribution"
                   ],
                   "useValuesFrom": [],
                   "defaults": [],
@@ -1873,7 +1873,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2025-04-07T18:30:20.771Z",
+      "updateDate": "2025-04-08T19:32:26.146Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",
