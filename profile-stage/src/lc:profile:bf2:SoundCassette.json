@@ -948,14 +948,14 @@
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [
-              "lc:RT:bf2:Agents:Contribution"
+              "lc:RT:bf2:Agents:bfContribution"
             ],
             "useValuesFrom": [],
             "defaults": [],
             "valueDataType": {}
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/agent",
-          "propertyLabel": "Collection"
+          "propertyLabel": "Collection/contribution"
         },
         {
           "mandatory": "false",
