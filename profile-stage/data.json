@@ -37204,7 +37204,7 @@
                   }
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/contribution",
-                "propertyLabel": "Collection"
+                "propertyLabel": "Collection/contribution"
               },
               {
                 "propertyLabel": "Notes about the Item",
@@ -37297,7 +37297,7 @@
     "id": "0ed6ae10-940c-4063-a11e-5e187ea16aa4",
     "metadata": {
       "createDate": "2024-11-12T15:09:59.466Z",
-      "updateDate": "2024-12-06T20:44:34.150Z",
+      "updateDate": "2025-04-08T19:56:16.314Z",
       "createUser": null,
       "updateUser": null
     }
