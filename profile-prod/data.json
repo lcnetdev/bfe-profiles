@@ -13512,14 +13512,16 @@
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [
-                    "lc:RT:bf2:Agents:Contribution"
+                    "lc:RT:bf2:Agents:bfContribution"
                   ],
                   "useValuesFrom": [],
                   "defaults": [],
-                  "valueDataType": {}
+                  "valueDataType": {
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Contribution"
+                  }
                 },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/agent",
-                "propertyLabel": "Collection"
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/contribution",
+                "propertyLabel": "Collection/contribution"
               },
               {
                 "propertyLabel": "Notes about the Item",
@@ -13552,7 +13554,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2025-03-04T17:05:29.272Z",
+      "updateDate": "2025-04-08T20:11:36.406Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",
