@@ -26377,7 +26377,7 @@
                   }
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/contribution",
-                "propertyLabel": "Collection",
+                "propertyLabel": "Collection/contribution",
                 "remark": ""
               },
               {
@@ -26711,7 +26711,7 @@
     "id": "ce021882-2189-495e-b638-126d03f724a5",
     "metadata": {
       "createDate": "2021-08-02T18:47:18.815Z",
-      "updateDate": "2024-12-06T20:48:23.616Z",
+      "updateDate": "2025-04-08T19:58:01.320Z",
       "createUser": null,
       "updateUser": null
     },
