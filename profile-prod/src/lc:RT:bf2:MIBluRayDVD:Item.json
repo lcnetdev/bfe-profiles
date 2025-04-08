@@ -35,7 +35,7 @@
         "validatePattern": ""
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/contribution",
-      "propertyLabel": "Collection"
+      "propertyLabel": "Collection/contribution"
     },
     {
       "propertyLabel": "Notes on the Item",
