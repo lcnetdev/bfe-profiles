@@ -24,14 +24,16 @@
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [
-          "lc:RT:bf2:Agents:Contribution"
+          "lc:RT:bf2:Agents:bfContribution"
         ],
         "useValuesFrom": [],
         "defaults": [],
-        "valueDataType": {}
+        "valueDataType": {
+          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Contribution"
+        }
       },
-      "propertyURI": "http://id.loc.gov/ontologies/bibframe/agent",
-      "propertyLabel": "Collection"
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/contribution",
+      "propertyLabel": "Collection/contribution"
     },
     {
       "mandatory": "false",
