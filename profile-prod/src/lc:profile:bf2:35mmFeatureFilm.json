@@ -879,7 +879,7 @@
             "defaults": []
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/contribution",
-          "propertyLabel": "Collection"
+          "propertyLabel": "Collection/contribution"
         },
         {
           "propertyLabel": "URL of Item",

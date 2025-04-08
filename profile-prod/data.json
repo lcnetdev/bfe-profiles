@@ -3992,7 +3992,7 @@
                   "defaults": []
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/contribution",
-                "propertyLabel": "Collection"
+                "propertyLabel": "Collection/contribution"
               },
               {
                 "propertyLabel": "URL of Item",
@@ -4566,7 +4566,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2025-03-04T16:59:37.043Z",
+      "updateDate": "2025-04-08T20:04:49.760Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",
