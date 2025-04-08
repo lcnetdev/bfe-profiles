@@ -18110,14 +18110,14 @@
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [
-                    "lc:RT:bf2:Agents:Contribution"
+                    "lc:RT:bf2:Agents:bfContribution"
                   ],
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/agent",
-                "propertyLabel": "Collection"
+                "propertyLabel": "Collection/contribution"
               },
               {
                 "propertyLabel": "Notes about the Item",
@@ -18151,7 +18151,7 @@
     "id": "2bb005e9-e706-4261-b21c-6137d6644584",
     "metadata": {
       "createDate": "2021-09-28T14:32:49.848Z",
-      "updateDate": "2025-02-28T19:33:51.465Z",
+      "updateDate": "2025-04-08T19:43:32.651Z",
       "createUser": null,
       "updateUser": null
     },
