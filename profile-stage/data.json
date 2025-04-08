@@ -27532,7 +27532,7 @@
                   }
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/contribution",
-                "propertyLabel": "Collection",
+                "propertyLabel": "Collection/contribution",
                 "remark": ""
               },
               {
@@ -27902,7 +27902,7 @@
     },
     "metadata": {
       "createDate": "2018-09-05T19:18:43.112Z",
-      "updateDate": "2024-12-09T16:21:15.862Z",
+      "updateDate": "2025-04-08T19:57:27.797Z",
       "createUser": null,
       "updateUser": null
     },
