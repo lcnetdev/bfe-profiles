@@ -1002,9 +1002,11 @@
             ],
             "useValuesFrom": [],
             "defaults": [],
-            "valueDataType": {}
+            "valueDataType": {
+              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Contribution"
+            }
           },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/agent",
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/contribution",
           "propertyLabel": "Collection/contribution"
         },
         {
