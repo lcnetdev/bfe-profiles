@@ -23570,15 +23570,19 @@
           {
             "resourceURI": "http://id.loc.gov/ontologies/bibframe/Contribution",
             "id": "lc:RT:bf2:Agents:bfContribution",
-            "resourceLabel": "Collection",
+            "resourceLabel": "Collection/contribution",
             "propertyTemplates": [
               {
-                "propertyLabel": "Name of collection",
+                "propertyLabel": "Search LCNAF",
                 "valueConstraint": {
                   "repeatable": "true",
                   "useValuesFrom": [],
                   "valueTemplateRefs": [
-                    "lc:RT:bf2:Agent:bfCorp"
+                    "lc:RT:bf2:Agent:bfPerson",
+                    "lc:RT:bf2:Agent:bfCorp",
+                    "lc:RT:bf2:Agent:bfConf",
+                    "lc:RT:bf2:Agent:bfFamily",
+                    "lc:RT:bf2:Agent:bfJurisdiction"
                   ],
                   "defaults": []
                 },
@@ -23587,6 +23591,24 @@
                 "mandatory": "false",
                 "repeatable": "true",
                 "resourceTemplates": []
+              },
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "lookup",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [
+                    "http://id.loc.gov/vocabulary/relators"
+                  ],
+                  "defaults": [],
+                  "valueDataType": {
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Role"
+                  }
+                },
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
+                "propertyLabel": "Relationship designator(s)"
               },
               {
                 "mandatory": "false",
@@ -23612,7 +23634,8 @@
                 "propertyLabel": "Applicable institution",
                 "remark": ""
               }
-            ]
+            ],
+            "remark": "for items"
           }
         ],
         "id": "lc:profile:bf2:AgentsContribution",
@@ -23624,7 +23647,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.058Z",
-      "updateDate": "2025-02-04T14:58:46.519Z",
+      "updateDate": "2025-04-08T19:26:02.487Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.058Z",
