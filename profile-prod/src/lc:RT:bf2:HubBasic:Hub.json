@@ -56,24 +56,6 @@
       "type": "resource"
     },
     {
-      "resourceTemplates": [],
-      "valueConstraint": {
-        "valueTemplateRefs": [
-          "lc:RT:bflc:TranscribedTitle"
-        ],
-        "useValuesFrom": [],
-        "defaults": [],
-        "valueDataType": {},
-        "valueLanguage": "",
-        "languageURI": "http://id.loc.gov/vocabulary/languages/und"
-      },
-      "propertyURI": "http://id.loc.gov/ontologies/bibframe/title",
-      "propertyLabel": "Transliterated title",
-      "mandatory": "false",
-      "repeatable": "true",
-      "type": "resource"
-    },
-    {
       "repeatable": "false",
       "resourceTemplates": [],
       "valueConstraint": {

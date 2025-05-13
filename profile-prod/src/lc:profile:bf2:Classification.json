@@ -302,12 +302,7 @@
             "useValuesFrom": [
               "http://id.loc.gov/vocabulary/organizations"
             ],
-            "defaults": [
-              {
-                "defaultURI": "http://id.loc.gov/vocabulary/organizations/dnal",
-                "defaultLiteral": "United States, National Agricultural Library"
-              }
-            ],
+            "defaults": [],
             "valueDataType": {
               "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Agent"
             }

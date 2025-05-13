@@ -3,24 +3,6 @@
     {
       "mandatory": "false",
       "repeatable": "true",
-      "type": "lookup",
-      "resourceTemplates": [],
-      "valueConstraint": {
-        "valueTemplateRefs": [],
-        "useValuesFrom": [
-          "http://id.loc.gov/vocabulary/relationship"
-        ],
-        "defaults": [],
-        "valueDataType": {
-          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Relationship"
-        }
-      },
-      "propertyURI": "http://id.loc.gov/ontologies/bibframe/relationship",
-      "propertyLabel": "Relationship designator"
-    },
-    {
-      "mandatory": "false",
-      "repeatable": "true",
       "type": "resource",
       "resourceTemplates": [],
       "valueConstraint": {
@@ -103,6 +85,24 @@
       },
       "propertyURI": "http://id.loc.gov/ontologies/bflc/appliesTo",
       "propertyLabel": "Applies to"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [
+          "http://id.loc.gov/vocabulary/relationship"
+        ],
+        "defaults": [],
+        "valueDataType": {
+          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Relationship"
+        }
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/relationship",
+      "propertyLabel": "Relationship designator"
     }
   ],
   "id": "lc:RT:bf2:RelWorkInput",

@@ -142,7 +142,8 @@
           "lc:RT:bf2:Identifiers:Other",
           "lc:RT:bf2:Identifiers:Local",
           "lc:RT:bf2:Identifiers:EAN",
-          "lc:RT:bf2:Identifiers:Nbn"
+          "lc:RT:bf2:Identifiers:Nbn",
+          "lc:RT:bf2:Identifiers:LCOverseas"
         ],
         "useValuesFrom": [],
         "valueDataType": {},

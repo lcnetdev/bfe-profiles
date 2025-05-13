@@ -117,14 +117,13 @@
     {
       "mandatory": "false",
       "repeatable": "true",
-      "type": "resource",
+      "type": "lookup",
       "resourceTemplates": [],
       "valueConstraint": {
-        "valueTemplateRefs": [
-          "lc:RT:bf2:Form",
-          "lc:RT:bf2:RareMat:RBMS"
+        "valueTemplateRefs": [],
+        "useValuesFrom": [
+          "http://id.loc.gov/authorities/genreForms"
         ],
-        "useValuesFrom": [],
         "valueDataType": {
           "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/GenreForm"
         },
@@ -394,25 +393,6 @@
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/relation",
       "propertyLabel": "Input transcribed series",
-      "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Series(490,8XX)"
-    },
-    {
-      "mandatory": "false",
-      "repeatable": "true",
-      "type": "resource",
-      "resourceTemplates": [],
-      "valueConstraint": {
-        "valueTemplateRefs": [
-          "lc:RT:bf2:SeriesHubLookup"
-        ],
-        "useValuesFrom": [],
-        "defaults": [],
-        "valueDataType": {
-          "dataTypeURI": ""
-        }
-      },
-      "propertyURI": "http://id.loc.gov/ontologies/bibframe/relation",
-      "propertyLabel": "Search series Hub (optional)",
       "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Series(490,8XX)"
     },
     {
