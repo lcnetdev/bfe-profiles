@@ -3,15 +3,17 @@
     {
       "mandatory": "false",
       "repeatable": "true",
-      "type": "literal",
+      "type": "lookup",
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [],
-        "useValuesFrom": [],
+        "useValuesFrom": [
+          "http://id.loc.gov/vocabulary/mencformat"
+        ],
         "defaults": [],
         "valueDataType": {}
       },
-      "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label",
+      "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
       "propertyLabel": "Digital image format",
       "remark": ""
     }

@@ -365,7 +365,7 @@
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [
-              "lc:RT:bf2:SeriesHubLookup"
+              "lc:RT:bf2:RelWorkLookup"
             ],
             "useValuesFrom": [],
             "defaults": [],
@@ -374,7 +374,7 @@
             }
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/relation",
-          "propertyLabel": "Search series Hub (optional)",
+          "propertyLabel": "Search related work/series",
           "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Series(490,8XX)"
         },
         {

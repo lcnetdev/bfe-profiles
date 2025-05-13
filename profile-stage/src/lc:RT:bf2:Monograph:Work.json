@@ -343,7 +343,9 @@
         "valueTemplateRefs": [
           "lc:RT:bf2:Language2"
         ],
-        "useValuesFrom": [],
+        "useValuesFrom": [
+          "http://id.loc.gov/vocabulary/languages"
+        ],
         "defaults": [],
         "valueDataType": {
           "dataTypeURI": "",
@@ -478,7 +480,7 @@
       "valueConstraint": {
         "valueTemplateRefs": [],
         "useValuesFrom": [
-          "http://id.loc.gov/authorities/demographicTerms"
+          "http://id.loc.gov/authorities/demographicTerms/collection_LCDGT_General"
         ],
         "defaults": [],
         "valueDataType": {

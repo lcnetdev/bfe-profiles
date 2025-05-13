@@ -305,22 +305,6 @@
           "remark": "https://original.rdatoolkit.org/3.4.html"
         },
         {
-          "mandatory": "false",
-          "repeatable": "true",
-          "type": "resource",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [
-              "lc:RT:bf2:Ibc:DescNote"
-            ],
-            "useValuesFrom": [],
-            "defaults": [],
-            "valueDataType": {}
-          },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
-          "propertyLabel": "Physical details note"
-        },
-        {
           "propertyLabel": "Dimensions",
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/dimensions",
           "resourceTemplates": [],
@@ -335,6 +319,22 @@
           "repeatable": "true",
           "type": "literal",
           "remark": "https://original.rdatoolkit.org/3.5.html"
+        },
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "resource",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [
+              "lc:RT:bf2:AdminMetadata"
+            ],
+            "useValuesFrom": [],
+            "defaults": [],
+            "valueDataType": {}
+          },
+          "propertyLabel": "Admin Metadata",
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/adminMetadata"
         },
         {
           "mandatory": "false",
@@ -431,48 +431,6 @@
       ],
       "resourceLabel": "BIBFRAME Item",
       "resourceURI": "http://id.loc.gov/ontologies/bibframe/Item"
-    },
-    {
-      "propertyTemplates": [
-        {
-          "mandatory": "false",
-          "repeatable": "true",
-          "type": "literal",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [],
-            "useValuesFrom": [],
-            "defaults": [],
-            "valueDataType": {}
-          },
-          "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label",
-          "propertyLabel": "Physical details note"
-        },
-        {
-          "mandatory": "false",
-          "repeatable": "true",
-          "type": "literal",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [],
-            "useValuesFrom": [
-              "http://id.loc.gov/vocabulary/mnotetype"
-            ],
-            "defaults": [
-              {
-                "defaultURI": "http://id.loc.gov/vocabulary/mnotetype/physical",
-                "defaultLiteral": "physical details"
-              }
-            ],
-            "valueDataType": {}
-          },
-          "propertyURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
-          "propertyLabel": "Note type"
-        }
-      ],
-      "id": "lc:RT:bf2:Ibc:DescNote",
-      "resourceURI": "http://id.loc.gov/ontologies/bibframe/Note",
-      "resourceLabel": "Description note"
     }
   ],
   "author": "NDMSO",

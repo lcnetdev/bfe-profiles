@@ -176,22 +176,6 @@
       "remark": "https://original.rdatoolkit.org/3.4.html"
     },
     {
-      "mandatory": "false",
-      "repeatable": "true",
-      "type": "resource",
-      "resourceTemplates": [],
-      "valueConstraint": {
-        "valueTemplateRefs": [
-          "lc:RT:bf2:Ibc:DescNote"
-        ],
-        "useValuesFrom": [],
-        "defaults": [],
-        "valueDataType": {}
-      },
-      "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
-      "propertyLabel": "Physical details note"
-    },
-    {
       "propertyLabel": "Dimensions",
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/dimensions",
       "resourceTemplates": [],
@@ -206,6 +190,22 @@
       "repeatable": "true",
       "type": "literal",
       "remark": "https://original.rdatoolkit.org/3.5.html"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "resource",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [
+          "lc:RT:bf2:AdminMetadata"
+        ],
+        "useValuesFrom": [],
+        "defaults": [],
+        "valueDataType": {}
+      },
+      "propertyLabel": "Admin Metadata",
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/adminMetadata"
     },
     {
       "mandatory": "false",

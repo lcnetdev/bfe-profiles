@@ -10,24 +10,6 @@
           "valueConstraint": {
             "valueTemplateRefs": [],
             "useValuesFrom": [
-              "http://id.loc.gov/vocabulary/relationship"
-            ],
-            "defaults": [],
-            "valueDataType": {
-              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Relationship"
-            }
-          },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/relationship",
-          "propertyLabel": "Relationship designator"
-        },
-        {
-          "mandatory": "false",
-          "repeatable": "true",
-          "type": "lookup",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [],
-            "useValuesFrom": [
               "https://preprod-8088.id.loc.gov/resources/works/",
               "https://preprod-8088.id.loc.gov/resources/hubs/"
             ],
@@ -52,14 +34,7 @@
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/seriesEnumeration",
           "propertyLabel": "Series enumeration (if applicable)"
-        }
-      ],
-      "id": "lc:RT:bf2:RelWorkLookup",
-      "resourceURI": "http://id.loc.gov/ontologies/bibframe/Relation",
-      "resourceLabel": "Search related work/series"
-    },
-    {
-      "propertyTemplates": [
+        },
         {
           "mandatory": "false",
           "repeatable": "true",
@@ -77,7 +52,14 @@
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/relationship",
           "propertyLabel": "Relationship designator"
-        },
+        }
+      ],
+      "id": "lc:RT:bf2:RelWorkLookup",
+      "resourceURI": "http://id.loc.gov/ontologies/bibframe/Relation",
+      "resourceLabel": "Search related work/series"
+    },
+    {
+      "propertyTemplates": [
         {
           "mandatory": "false",
           "repeatable": "true",
@@ -166,6 +148,24 @@
           "propertyURI": "http://id.loc.gov/ontologies/bflc/appliesTo",
           "propertyLabel": "Applies to",
           "remark": ""
+        },
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "lookup",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [],
+            "useValuesFrom": [
+              "http://id.loc.gov/vocabulary/relationship"
+            ],
+            "defaults": [],
+            "valueDataType": {
+              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Relationship"
+            }
+          },
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/relationship",
+          "propertyLabel": "Relationship designator"
         }
       ],
       "id": "lc:RT:bf2:RelWorkInput",

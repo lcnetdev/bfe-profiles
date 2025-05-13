@@ -9,7 +9,7 @@
         "valueTemplateRefs": [],
         "useValuesFrom": [],
         "valueDataType": {
-          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/AspectRatio"
+          "dataTypeURI": ""
         },
         "defaults": []
       },
