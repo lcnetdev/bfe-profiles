@@ -44,7 +44,7 @@
         "defaults": [],
         "valueDataType": {}
       },
-      "propertyURI": "http://id.loc.gov/ontologies/bibframe/date",
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/physicalLocation",
       "propertyLabel": "Location of citation"
     },
     {

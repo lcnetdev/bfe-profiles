@@ -19422,7 +19422,7 @@
                   "defaults": [],
                   "valueDataType": {}
                 },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/date",
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/physicalLocation",
                 "propertyLabel": "Location of citation"
               },
               {
@@ -19503,7 +19503,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2025-05-15T15:00:57.071Z",
+      "updateDate": "2025-05-15T15:02:48.575Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",
