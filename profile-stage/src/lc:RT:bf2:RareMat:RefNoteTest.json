@@ -3,6 +3,22 @@
     {
       "mandatory": "false",
       "repeatable": "true",
+      "type": "resource",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [
+          "lc:RT:bf2:URL"
+        ],
+        "useValuesFrom": [],
+        "defaults": [],
+        "valueDataType": {}
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/electronicLocator",
+      "propertyLabel": "URL"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
       "type": "literal",
       "resourceTemplates": [],
       "valueConstraint": {
@@ -14,6 +30,35 @@
       "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label",
       "propertyLabel": "References note",
       "remark": ""
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": [],
+        "valueDataType": {}
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/date",
+      "propertyLabel": "Location of citation"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": [],
+        "valueDataType": {}
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/date",
+      "propertyLabel": "Date of coverage",
+      "remark": "lc:RT:bf2:RareMat:Note"
     },
     {
       "mandatory": "false",
@@ -32,39 +77,6 @@
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/noteType",
       "propertyLabel": "Note type (new)"
-    },
-    {
-      "mandatory": "false",
-      "repeatable": "true",
-      "type": "resource",
-      "resourceTemplates": [],
-      "valueConstraint": {
-        "valueTemplateRefs": [
-          "lc:RT:bf2:RareMat:Note"
-        ],
-        "useValuesFrom": [],
-        "defaults": [],
-        "valueDataType": {}
-      },
-      "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
-      "propertyLabel": "Coverage or location",
-      "remark": "lc:RT:bf2:RareMat:Note"
-    },
-    {
-      "mandatory": "false",
-      "repeatable": "true",
-      "type": "resource",
-      "resourceTemplates": [],
-      "valueConstraint": {
-        "valueTemplateRefs": [
-          "lc:RT:bf2:URL"
-        ],
-        "useValuesFrom": [],
-        "defaults": [],
-        "valueDataType": {}
-      },
-      "propertyURI": "http://id.loc.gov/ontologies/bibframe/electronicLocator",
-      "propertyLabel": "URL"
     },
     {
       "mandatory": "false",
