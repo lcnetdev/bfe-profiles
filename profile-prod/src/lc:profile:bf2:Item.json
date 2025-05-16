@@ -66,8 +66,22 @@
             "defaults": []
           },
           "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label",
-          "propertyLabel": "Lending or access policy",
+          "propertyLabel": "Access policy",
           "resourceTemplates": []
+        },
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "literal",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [],
+            "useValuesFrom": [],
+            "defaults": [],
+            "valueDataType": {}
+          },
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/qualifier",
+          "propertyLabel": "Qualifier"
         },
         {
           "mandatory": "false",
@@ -88,7 +102,7 @@
       ],
       "id": "lc:RT:bf2:Item:Access",
       "resourceURI": "http://id.loc.gov/ontologies/bibframe/AccessPolicy",
-      "resourceLabel": "Lending or access Policy",
+      "resourceLabel": "Access policy",
       "author": "NDMSO",
       "date": "2019-06-11"
     },
