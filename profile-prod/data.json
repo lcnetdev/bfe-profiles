@@ -1645,6 +1645,22 @@
                 "remark": "https://original.rdatoolkit.org/3.3.html"
               },
               {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "resource",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [
+                    "lc:RT:bf2:Item:Access"
+                  ],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {}
+                },
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/usageAndAccessPolicy",
+                "propertyLabel": "Access policy"
+              },
+              {
                 "propertyLabel": "URL of Instance",
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/electronicLocator",
                 "resourceTemplates": [],
@@ -1882,7 +1898,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2025-05-13T17:34:31.736Z",
+      "updateDate": "2025-05-16T12:30:47.407Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",
