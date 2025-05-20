@@ -270,7 +270,7 @@
                 "propertyLabel": "Notation note"
               }
             ],
-            "id": "lc:profile:bf2:Notation",
+            "id": "lc:RT:bf2:Notation",
             "resourceURI": "http://id.loc.gov/ontologies/bibframe/Notation",
             "resourceLabel": "Notation note"
           },
@@ -394,7 +394,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2025-05-20T17:48:18.693Z",
+      "updateDate": "2025-05-20T17:50:28.161Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",
