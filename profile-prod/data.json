@@ -1123,6 +1123,22 @@
               {
                 "mandatory": "false",
                 "repeatable": "true",
+                "type": "resource",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [
+                    "lc:RT:bf2:Notation"
+                  ],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {}
+                },
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/notation",
+                "propertyLabel": "Notation note"
+              },
+              {
+                "mandatory": "false",
+                "repeatable": "true",
                 "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -1903,7 +1919,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2025-05-16T12:30:47.407Z",
+      "updateDate": "2025-05-20T17:51:32.736Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",

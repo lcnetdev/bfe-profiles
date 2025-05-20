@@ -317,6 +317,22 @@
         {
           "mandatory": "false",
           "repeatable": "true",
+          "type": "resource",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [
+              "lc:RT:bf2:Notation"
+            ],
+            "useValuesFrom": [],
+            "defaults": [],
+            "valueDataType": {}
+          },
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/notation",
+          "propertyLabel": "Notation note"
+        },
+        {
+          "mandatory": "false",
+          "repeatable": "true",
           "type": "lookup",
           "resourceTemplates": [],
           "valueConstraint": {
