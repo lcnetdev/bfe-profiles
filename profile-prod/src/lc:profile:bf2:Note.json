@@ -261,6 +261,27 @@
             "valueDataType": {}
           },
           "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label",
+          "propertyLabel": "Notation note"
+        }
+      ],
+      "id": "lc:profile:bf2:Notation",
+      "resourceURI": "http://id.loc.gov/ontologies/bibframe/Notation",
+      "resourceLabel": "Notation note"
+    },
+    {
+      "propertyTemplates": [
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "literal",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [],
+            "useValuesFrom": [],
+            "defaults": [],
+            "valueDataType": {}
+          },
+          "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label",
           "propertyLabel": "Summary note",
           "remark": ""
         }
