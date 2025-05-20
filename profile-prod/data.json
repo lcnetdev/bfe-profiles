@@ -468,22 +468,6 @@
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/qualifier",
                 "propertyLabel": "Qualifier"
-              },
-              {
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "resource",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [
-                    "lc:RT:bf2:Item:Source"
-                  ],
-                  "useValuesFrom": [],
-                  "defaults": [],
-                  "valueDataType": {}
-                },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/source",
-                "propertyLabel": "Source"
               }
             ],
             "id": "lc:RT:bf2:Item:Access",
@@ -787,7 +771,7 @@
     },
     "metadata": {
       "createDate": "2019-08-14T18:21:23.011Z",
-      "updateDate": "2025-05-16T12:29:39.611Z",
+      "updateDate": "2025-05-16T12:32:41.336Z",
       "createUser": null,
       "updateUser": null
     },
@@ -7813,6 +7797,22 @@
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [
+                    "lc:RT:bf2:Item:LCC"
+                  ],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {}
+                },
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/classification",
+                "propertyLabel": "Copy, issue, offprint number"
+              },
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "resource",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [
                     "lc:RT:bf2:Agents:bfContribution"
                   ],
                   "useValuesFrom": [],
@@ -8145,7 +8145,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2025-05-12T20:02:46.219Z",
+      "updateDate": "2025-05-20T12:48:04.426Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",

@@ -25,6 +25,22 @@
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [
+          "lc:RT:bf2:Item:LCC"
+        ],
+        "useValuesFrom": [],
+        "defaults": [],
+        "valueDataType": {}
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/classification",
+      "propertyLabel": "Copy, issue, offprint number"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "resource",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [
           "lc:RT:bf2:Agents:bfContribution"
         ],
         "useValuesFrom": [],
