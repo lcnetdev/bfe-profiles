@@ -28,7 +28,7 @@
         ]
       },
       {
-        "menuGroup": "IBC Monograph",
+        "menuGroup": "IBC description",
         "menuItems": [
           {
             "label": "Instance",
@@ -276,6 +276,47 @@
             ],
             "useResourceTemplates": [
               "lc:RT:bf2:35mmFeatureFilm:Work"
+            ]
+          }
+        ]
+      },
+      {
+        "menuGroup": "Mixed Materials",
+        "menuItems": [
+          {
+            "label": "Monograph Instance",
+            "type": [
+              "http://id.loc.gov/ontologies/bibframe/Instance"
+            ],
+            "useResourceTemplates": [
+              "lc:RT:bf2:TestMixedMat:Print"
+            ]
+          },
+          {
+            "label": "Sound Recording Instance",
+            "type": [
+              "http://id.loc.gov/ontologies/bibframe/Instance"
+            ],
+            "useResourceTemplates": [
+              "lc:RT:bf2:TestMixedMat:InstanceSR"
+            ]
+          },
+          {
+            "label": "Video Recording Instance",
+            "type": [
+              "http://id.loc.gov/ontologies/bibframe/Instance"
+            ],
+            "useResourceTemplates": [
+              "lc:RT:bf2:TestMixedMat:InstanceVR"
+            ]
+          },
+          {
+            "label": "Work",
+            "type": [
+              "http://id.loc.gov/ontologies/bibframe/Work"
+            ],
+            "useResourceTemplates": [
+              "lc:RT:bf2:TestMixedMat:Work"
             ]
           }
         ]
