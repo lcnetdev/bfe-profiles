@@ -37006,7 +37006,7 @@
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [
-                    "lc:RT:bf2:LCC"
+                    "lc:RT:bf2:LccMlc"
                   ],
                   "useValuesFrom": [],
                   "defaults": [],
@@ -37388,7 +37388,7 @@
     "id": "0ed6ae10-940c-4063-a11e-5e187ea16aa4",
     "metadata": {
       "createDate": "2024-11-12T15:09:59.466Z",
-      "updateDate": "2025-05-21T19:08:08.753Z",
+      "updateDate": "2025-05-21T19:17:40.654Z",
       "createUser": null,
       "updateUser": null
     }

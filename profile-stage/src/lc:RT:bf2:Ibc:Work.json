@@ -92,7 +92,7 @@
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [
-          "lc:RT:bf2:LCC"
+          "lc:RT:bf2:LccMlc"
         ],
         "useValuesFrom": [],
         "defaults": [],
