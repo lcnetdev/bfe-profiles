@@ -161,6 +161,22 @@
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [
+          "lc:RT:bf2:AcqSource"
+        ],
+        "useValuesFrom": [],
+        "defaults": [],
+        "valueDataType": {}
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/acquisitionSource",
+      "propertyLabel": "Acquisitions identifiers"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "resource",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [
           "lc:RT:bf2:Note"
         ],
         "useValuesFrom": [],
@@ -289,6 +305,22 @@
       "remark": "http://original.rdatoolkit.org/3.3.html"
     },
     {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "resource",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [
+          "lc:RT:bf2:Item:Access"
+        ],
+        "useValuesFrom": [],
+        "defaults": [],
+        "valueDataType": {}
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/usageAndAccessPolicy",
+      "propertyLabel": "Access policy"
+    },
+    {
       "propertyLabel": "URL of Instance",
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/electronicLocator",
       "resourceTemplates": [],
@@ -306,22 +338,6 @@
       "mandatory": "false",
       "repeatable": "true",
       "remark": "http://original.rdatoolkit.org/4.6.html"
-    },
-    {
-      "mandatory": "false",
-      "repeatable": "true",
-      "type": "resource",
-      "resourceTemplates": [],
-      "valueConstraint": {
-        "valueTemplateRefs": [
-          "lc:RT:bf2:Item:Access"
-        ],
-        "useValuesFrom": [],
-        "defaults": [],
-        "valueDataType": {}
-      },
-      "propertyURI": "http://id.loc.gov/ontologies/bibframe/usageAndAccessPolicy",
-      "propertyLabel": "Access policy"
     },
     {
       "mandatory": "false",
