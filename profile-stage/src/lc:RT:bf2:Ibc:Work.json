@@ -92,14 +92,14 @@
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [
-          "lc:RT:bf2:LccMlc"
+          "lc:RT:bf2:LCC"
         ],
         "useValuesFrom": [],
         "defaults": [],
         "valueDataType": {}
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/classification",
-      "propertyLabel": "MLC number"
+      "propertyLabel": "LC call number"
     },
     {
       "mandatory": "false",
