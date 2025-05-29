@@ -63,6 +63,24 @@
         {
           "mandatory": "false",
           "repeatable": "true",
+          "type": "lookup",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [],
+            "useValuesFrom": [
+              "http://id.loc.gov/vocabulary/relationship"
+            ],
+            "defaults": [],
+            "valueDataType": {
+              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Relationship"
+            }
+          },
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/relationship",
+          "propertyLabel": "Relationship designator"
+        },
+        {
+          "mandatory": "false",
+          "repeatable": "true",
           "type": "resource",
           "resourceTemplates": [],
           "valueConstraint": {
@@ -112,7 +130,7 @@
             "valueDataType": {}
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/identifiedBy",
-          "propertyLabel": "Identifiers"
+          "propertyLabel": "Identifiers (OCLC, ISBN)"
         },
         {
           "mandatory": "false",
@@ -145,24 +163,6 @@
           },
           "propertyURI": "http://id.loc.gov/ontologies/bflc/appliesTo",
           "propertyLabel": "Applies to"
-        },
-        {
-          "mandatory": "false",
-          "repeatable": "true",
-          "type": "lookup",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [],
-            "useValuesFrom": [
-              "http://id.loc.gov/vocabulary/relationship"
-            ],
-            "defaults": [],
-            "valueDataType": {
-              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Relationship"
-            }
-          },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/relationship",
-          "propertyLabel": "Relationship designator"
         }
       ],
       "id": "lc:RT:bf2:RelWorkInput",
@@ -211,6 +211,27 @@
       "id": "lc:RT:bf2:RelWorkInputNumber",
       "resourceURI": "http://id.loc.gov/ontologies/bibframe/OclcNumber",
       "resourceLabel": "Input OCLC number"
+    },
+    {
+      "propertyTemplates": [
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "literal",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [],
+            "useValuesFrom": [],
+            "defaults": [],
+            "valueDataType": {}
+          },
+          "propertyURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+          "propertyLabel": "Input ISBN"
+        }
+      ],
+      "id": "lc:RT:bf2:RelWorkInputIsbn",
+      "resourceURI": "http://id.loc.gov/ontologies/bibframe/Isbn",
+      "resourceLabel": "Input ISBN"
     }
   ],
   "id": "lc:profile:bf2:RelatedWorkorExpression",
