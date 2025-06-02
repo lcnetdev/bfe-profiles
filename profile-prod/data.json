@@ -1714,6 +1714,24 @@
                 "propertyLabel": "Access policy"
               },
               {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "lookup",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [
+                    "http://id.loc.gov/vocabulary/mtactile"
+                  ],
+                  "defaults": [],
+                  "valueDataType": {
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/TactileNotation"
+                  }
+                },
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/notation",
+                "propertyLabel": "Braille?"
+              },
+              {
                 "propertyLabel": "URL of Instance",
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/electronicLocator",
                 "resourceTemplates": [],
@@ -1951,7 +1969,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2025-05-29T20:43:31.996Z",
+      "updateDate": "2025-06-02T18:47:21.888Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",
