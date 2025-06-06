@@ -3025,6 +3025,22 @@
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/qualifier",
                 "propertyLabel": "Qualifier"
+              },
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "resource",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [
+                    "lc:RT:bf2:Identifiers:Source"
+                  ],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {}
+                },
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/source",
+                "propertyLabel": "Source"
               }
             ],
             "id": "lc:RT:bf2:Identifiers:Other",
@@ -3453,7 +3469,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.059Z",
-      "updateDate": "2024-12-06T18:43:58.577Z",
+      "updateDate": "2025-06-06T19:27:04.605Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.059Z",
