@@ -28,6 +28,24 @@
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/qualifier",
       "propertyLabel": "Qualifier"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "resource",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [
+          "lc:RT:bf2:Identifiers:Source"
+        ],
+        "useValuesFrom": [],
+        "defaults": [],
+        "valueDataType": {
+          "dataTypeURI": ""
+        }
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/source",
+      "propertyLabel": "Source"
     }
   ],
   "id": "lc:RT:bf2:Identifiers:Other",
