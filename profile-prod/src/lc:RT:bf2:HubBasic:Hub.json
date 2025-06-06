@@ -153,6 +153,7 @@
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [
+          "lc:RT:bf2:Identifiers:Other",
           "lc:RT:bf2:Identifiers:LCCN",
           "lc:RT:bf2:Identifiers:Oclc"
         ],
