@@ -37588,6 +37588,7 @@
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [
+                    "lc:RT:bf2:Identifiers:Other",
                     "lc:RT:bf2:Identifiers:LCCN",
                     "lc:RT:bf2:Identifiers:Oclc"
                   ],
@@ -37676,7 +37677,7 @@
     "id": "80a0b44a-655d-4c70-b7ca-94ba413bf961",
     "metadata": {
       "createDate": "2024-12-02T16:55:05.589Z",
-      "updateDate": "2025-04-14T18:17:50.153Z",
+      "updateDate": "2025-06-06T19:27:45.599Z",
       "createUser": null,
       "updateUser": null
     }
