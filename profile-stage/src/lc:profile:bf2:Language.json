@@ -87,24 +87,6 @@
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/language",
           "propertyLabel": "Language code"
-        },
-        {
-          "mandatory": "false",
-          "repeatable": "true",
-          "type": "lookup",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [],
-            "useValuesFrom": [
-              "http://id.loc.gov/vocabulary/languageschemes"
-            ],
-            "defaults": [],
-            "valueDataType": {
-              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Source"
-            }
-          },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/source",
-          "propertyLabel": "Source of language code"
         }
       ],
       "id": "lc:RT:bf2:LangResource",
@@ -152,24 +134,6 @@
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/language",
           "propertyLabel": "Language code"
-        },
-        {
-          "mandatory": "false",
-          "repeatable": "true",
-          "type": "lookup",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [],
-            "useValuesFrom": [
-              "http://id.loc.gov/vocabulary/languageschemes"
-            ],
-            "defaults": [],
-            "valueDataType": {
-              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Source"
-            }
-          },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/source",
-          "propertyLabel": "Source of language code"
         }
       ],
       "id": "lc:RT:bf2:LangNote",
