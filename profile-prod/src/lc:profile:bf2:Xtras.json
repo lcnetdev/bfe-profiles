@@ -220,15 +220,14 @@
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [
-              "lc:RT:bf2:AppliesTo"
+              "lc:RT:bf2:Note"
             ],
             "useValuesFrom": [],
             "defaults": [],
             "valueDataType": {}
           },
-          "propertyURI": "http://id.loc.gov/ontologies/bflc/appliesTo",
-          "propertyLabel": "Applies to",
-          "remark": ""
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
+          "propertyLabel": "Physical details note"
         }
       ],
       "id": "lc:RT:bf2:Extent",

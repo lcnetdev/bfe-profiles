@@ -10418,15 +10418,14 @@
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [
-                    "lc:RT:bf2:AppliesTo"
+                    "lc:RT:bf2:Note"
                   ],
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
                 },
-                "propertyURI": "http://id.loc.gov/ontologies/bflc/appliesTo",
-                "propertyLabel": "Applies to",
-                "remark": ""
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
+                "propertyLabel": "Physical details note"
               }
             ],
             "id": "lc:RT:bf2:Extent",
@@ -11257,7 +11256,7 @@
     },
     "metadata": {
       "createDate": "2018-09-26T14:53:15.546Z",
-      "updateDate": "2025-06-09T19:04:37.045Z",
+      "updateDate": "2025-06-09T21:02:38.399Z",
       "createUser": null,
       "updateUser": null
     },
