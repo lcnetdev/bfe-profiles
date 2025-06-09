@@ -34,6 +34,29 @@
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/language",
       "propertyLabel": "Language code"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [
+          "http://id.loc.gov/vocabulary/languageschemes"
+        ],
+        "defaults": [
+          {
+            "defaultURI": "http://id.loc.gov/vocabulary/languageschemes/iso6393",
+            "defaultLiteral": "iso639-3"
+          }
+        ],
+        "valueDataType": {
+          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Source"
+        }
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/source",
+      "propertyLabel": "ISO 639-3 code?"
     }
   ],
   "id": "lc:RT:bf2:LangResource",
