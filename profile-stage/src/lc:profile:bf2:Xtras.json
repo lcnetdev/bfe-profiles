@@ -324,12 +324,18 @@
             "useValuesFrom": [
               "http://id.loc.gov/vocabulary/subjectSchemes"
             ],
-            "defaults": [],
+            "defaults": [
+              {
+                "defaultURI": "http://id.loc.gov/vocabulary/subjectSchemes/lcdgt",
+                "defaultLiteral": "lcdgt"
+              }
+            ],
             "valueDataType": {
               "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Source"
             }
           },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/source"
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/source",
+          "propertyLabel": "Source"
         }
       ],
       "resourceURI": "http://id.loc.gov/ontologies/bibframe/IntendedAudience",
