@@ -19805,6 +19805,22 @@
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [
+                    "lc:RT:bf2:PMOMedPerf:DecMedTest"
+                  ],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {}
+                },
+                "propertyURI": "http://performedmusicontology.org/ontology/hasDeclaredMedium",
+                "propertyLabel": "Original PMO Declared Medium"
+              },
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "resource",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [
                     "lc:RT:bf2:Components",
                     "lc:RT:bf2:Topic:Place:Components",
                     "lc:RT:bf2:Topic:SubjectWork"
@@ -20741,7 +20757,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2025-05-12T19:52:03.783Z",
+      "updateDate": "2025-06-11T14:37:05.776Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",
