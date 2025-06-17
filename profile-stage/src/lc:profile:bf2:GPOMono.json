@@ -310,7 +310,7 @@
           "remark": ""
         },
         {
-          "propertyLabel": "Extent",
+          "propertyLabel": "Physical description",
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/extent",
           "resourceTemplates": [],
           "valueConstraint": {
