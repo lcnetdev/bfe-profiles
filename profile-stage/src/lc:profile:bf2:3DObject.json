@@ -122,6 +122,36 @@
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/carrier",
           "propertyLabel": "Carrier type"
+        },
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "resource",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [
+              "lc:RT:bf2:Extent"
+            ],
+            "useValuesFrom": [],
+            "defaults": [],
+            "valueDataType": {}
+          },
+          "propertyLabel": "Physical description",
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/extent"
+        },
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "literal",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [],
+            "useValuesFrom": [],
+            "defaults": [],
+            "valueDataType": {}
+          },
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/dimensions",
+          "propertyLabel": "Dimensions"
         }
       ],
       "id": "lc:RT:bf2:3DObject:Instance",
