@@ -9116,7 +9116,7 @@
                 "remark": "https://original.rdatoolkit.org/3.3.html"
               },
               {
-                "propertyLabel": "Extent",
+                "propertyLabel": "Physical description",
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/extent",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -9590,7 +9590,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2025-05-12T20:01:18.658Z",
+      "updateDate": "2025-06-17T14:08:18.200Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",
