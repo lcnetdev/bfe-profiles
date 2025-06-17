@@ -31,7 +31,7 @@
         }
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/noteType",
-      "propertyLabel": "Note type (new)"
+      "propertyLabel": "Note type"
     },
     {
       "mandatory": "false",
@@ -53,7 +53,9 @@
       "type": "resource",
       "resourceTemplates": [],
       "valueConstraint": {
-        "valueTemplateRefs": [],
+        "valueTemplateRefs": [
+          "lc:RT:bf2:RareMat:RefNoteEnum"
+        ],
         "useValuesFrom": [],
         "defaults": [],
         "valueDataType": {}
