@@ -1,0 +1,22 @@
+{
+  "propertyTemplates": [
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": [],
+        "valueDataType": {}
+      },
+      "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label",
+      "propertyLabel": "Date of coverage",
+      "remark": ""
+    }
+  ],
+  "id": "lc:RT:bf2:RareMat:RefNoteEnum",
+  "resourceURI": "http://id.loc.gov/ontologies/bibframe/EnumerationAndChronology",
+  "resourceLabel": "Date of coverage"
+}
