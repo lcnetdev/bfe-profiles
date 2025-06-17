@@ -245,7 +245,7 @@
         "valueDataType": {}
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/extent",
-      "propertyLabel": "Extent"
+      "propertyLabel": "Physical description"
     },
     {
       "mandatory": "false",
