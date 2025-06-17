@@ -686,7 +686,7 @@
             "defaults": []
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/extent",
-          "propertyLabel": "Extent",
+          "propertyLabel": "Physical description",
           "remark": "https://original.rdatoolkit.org/3.4.html"
         },
         {
