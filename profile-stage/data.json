@@ -37224,7 +37224,7 @@
                 "remark": "https://original.rdatoolkit.org/3.3.html"
               },
               {
-                "propertyLabel": "Extent",
+                "propertyLabel": "Physical description",
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/extent",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -37396,7 +37396,7 @@
     "id": "0ed6ae10-940c-4063-a11e-5e187ea16aa4",
     "metadata": {
       "createDate": "2024-11-12T15:09:59.466Z",
-      "updateDate": "2025-05-22T14:56:59.983Z",
+      "updateDate": "2025-06-17T13:51:40.638Z",
       "createUser": null,
       "updateUser": null
     }
