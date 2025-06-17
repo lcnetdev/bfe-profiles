@@ -633,6 +633,21 @@
           "remark": "https://original.rdatoolkit.org/rdachp2_rda2-3376.html"
         },
         {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "literal",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [],
+            "useValuesFrom": [],
+            "valueDataType": {},
+            "defaults": []
+          },
+          "propertyLabel": "Statement of responsibility",
+          "remark": "http://original.rdatoolkit.org/2.4.2.html",
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/responsibilityStatement"
+        },
+        {
           "propertyLabel": "Edition statement",
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/editionStatement",
           "resourceTemplates": [],
@@ -646,22 +661,6 @@
           "repeatable": "true",
           "type": "literal",
           "remark": "http://original.rdatoolkit.org/2.5.html"
-        },
-        {
-          "mandatory": "false",
-          "repeatable": "true",
-          "type": "resource",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [
-              "lc:RT:bf2:Serial:PubFreq"
-            ],
-            "useValuesFrom": [],
-            "defaults": [],
-            "valueDataType": {}
-          },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/pubFrequency",
-          "propertyLabel": "Publication frequency (new)"
         },
         {
           "propertyLabel": "Provision activity",
@@ -682,6 +681,21 @@
           "mandatory": "false",
           "repeatable": "true",
           "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-ProvisionActivity(264)"
+        },
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "literal",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [],
+            "useValuesFrom": [],
+            "valueDataType": {},
+            "defaults": []
+          },
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/copyrightDate",
+          "propertyLabel": "Copyright date",
+          "remark": "http://original.rdatoolkit.org/2.11.html"
         },
         {
           "mandatory": "false",
@@ -708,6 +722,22 @@
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/issuance",
           "propertyLabel": "Mode of issuance",
           "remark": "http://original.rdatoolkit.org/2.13.html"
+        },
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "resource",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [
+              "lc:RT:bf2:Serial:PubFreq"
+            ],
+            "useValuesFrom": [],
+            "defaults": [],
+            "valueDataType": {}
+          },
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/pubFrequency",
+          "propertyLabel": "Publication frequency (new)"
         },
         {
           "mandatory": "false",
@@ -757,36 +787,6 @@
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/lastIssue",
           "propertyLabel": "Last issue date or designation",
           "remark": "http://original.rdatoolkit.org/2.6.4.html"
-        },
-        {
-          "mandatory": "false",
-          "repeatable": "true",
-          "type": "literal",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [],
-            "useValuesFrom": [],
-            "valueDataType": {},
-            "defaults": []
-          },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/copyrightDate",
-          "propertyLabel": "Copyright date",
-          "remark": "http://original.rdatoolkit.org/2.11.html"
-        },
-        {
-          "mandatory": "false",
-          "repeatable": "true",
-          "type": "literal",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [],
-            "useValuesFrom": [],
-            "valueDataType": {},
-            "defaults": []
-          },
-          "propertyLabel": "Statement of responsibility",
-          "remark": "http://original.rdatoolkit.org/2.4.2.html",
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/responsibilityStatement"
         },
         {
           "propertyLabel": "Identifiers",
