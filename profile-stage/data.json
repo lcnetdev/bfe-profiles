@@ -15874,7 +15874,7 @@
                   "valueDataType": {}
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/extent",
-                "propertyLabel": "Extent",
+                "propertyLabel": "Physical description",
                 "remark": "https://original.rdatoolkit.org/3.4.html"
               },
               {
@@ -16110,7 +16110,7 @@
     },
     "metadata": {
       "createDate": "2019-02-28T14:21:01.066Z",
-      "updateDate": "2025-05-12T19:54:26.349Z",
+      "updateDate": "2025-06-17T13:47:34.913Z",
       "createUser": null,
       "updateUser": null
     },
