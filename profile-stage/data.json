@@ -12601,7 +12601,7 @@
                 "remark": "http://original.rdatoolkit.org/3.3.html"
               },
               {
-                "propertyLabel": "Extent",
+                "propertyLabel": "Physical description",
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/extent",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -12902,7 +12902,7 @@
                   "valueDataType": {}
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/extent",
-                "propertyLabel": "Extent",
+                "propertyLabel": "Physical description",
                 "remark": "https://original.rdatoolkit.org/3.4.html"
               },
               {
@@ -13261,7 +13261,7 @@
                   "valueDataType": {}
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/extent",
-                "propertyLabel": "Extent",
+                "propertyLabel": "Physical description",
                 "remark": "https://original.rdatoolkit.org/3.4.html"
               },
               {
@@ -13597,7 +13597,7 @@
     },
     "metadata": {
       "createDate": "2019-06-13T12:32:28.719Z",
-      "updateDate": "2025-05-13T20:41:07.017Z",
+      "updateDate": "2025-06-17T13:54:24.003Z",
       "createUser": null,
       "updateUser": null
     },

@@ -701,7 +701,7 @@
           "remark": "http://original.rdatoolkit.org/3.3.html"
         },
         {
-          "propertyLabel": "Extent",
+          "propertyLabel": "Physical description",
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/extent",
           "resourceTemplates": [],
           "valueConstraint": {
@@ -1002,7 +1002,7 @@
             "valueDataType": {}
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/extent",
-          "propertyLabel": "Extent",
+          "propertyLabel": "Physical description",
           "remark": "https://original.rdatoolkit.org/3.4.html"
         },
         {
@@ -1361,7 +1361,7 @@
             "valueDataType": {}
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/extent",
-          "propertyLabel": "Extent",
+          "propertyLabel": "Physical description",
           "remark": "https://original.rdatoolkit.org/3.4.html"
         },
         {
