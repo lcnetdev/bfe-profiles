@@ -73,7 +73,8 @@
           "valueConstraint": {
             "valueTemplateRefs": [],
             "useValuesFrom": [
-              "http://id.loc.gov/vocabulary/languages"
+              "http://id.loc.gov/vocabulary/languages",
+              "http://id.loc.gov/vocabulary/iso639-3"
             ],
             "defaults": [],
             "valueDataType": {

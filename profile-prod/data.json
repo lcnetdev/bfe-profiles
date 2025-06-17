@@ -19783,7 +19783,8 @@
                 "valueConstraint": {
                   "valueTemplateRefs": [],
                   "useValuesFrom": [
-                    "http://id.loc.gov/vocabulary/languages"
+                    "http://id.loc.gov/vocabulary/languages",
+                    "http://id.loc.gov/vocabulary/iso639-3"
                   ],
                   "defaults": [],
                   "valueDataType": {
@@ -19855,7 +19856,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.059Z",
-      "updateDate": "2025-04-17T17:59:32.950Z",
+      "updateDate": "2025-06-17T19:00:57.098Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.059Z",
