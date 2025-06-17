@@ -493,22 +493,6 @@
       "id": "lc:RT:bf2:Cartographic:Instance",
       "propertyTemplates": [
         {
-          "mandatory": "false",
-          "propertyLabel": "Instance of",
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/instanceOf",
-          "repeatable": "false",
-          "resourceTemplates": [],
-          "type": "resource",
-          "valueConstraint": {
-            "useValuesFrom": [],
-            "valueDataType": {},
-            "valueTemplateRefs": [
-              "lc:RT:bf2:Cartographic:Work"
-            ],
-            "defaults": []
-          }
-        },
-        {
           "mandatory": "true",
           "propertyLabel": "Title information",
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/title",
@@ -523,6 +507,22 @@
               "lc:RT:bf2:InstanceTitle",
               "lc:RT:bf2:Title:VarTitle",
               "lc:RT:bf2:ParallelTitle"
+            ],
+            "defaults": []
+          }
+        },
+        {
+          "mandatory": "false",
+          "propertyLabel": "Instance of",
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/instanceOf",
+          "repeatable": "false",
+          "resourceTemplates": [],
+          "type": "resource",
+          "valueConstraint": {
+            "useValuesFrom": [],
+            "valueDataType": {},
+            "valueTemplateRefs": [
+              "lc:RT:bf2:Cartographic:Work"
             ],
             "defaults": []
           }
@@ -544,41 +544,6 @@
         },
         {
           "mandatory": "false",
-          "propertyLabel": "Edition statement",
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/editionStatement",
-          "remark": "http://original.rdatoolkit.org/2.5.html",
-          "repeatable": "true",
-          "resourceTemplates": [],
-          "type": "literal",
-          "valueConstraint": {
-            "useValuesFrom": [],
-            "valueDataType": {},
-            "valueTemplateRefs": [],
-            "defaults": []
-          }
-        },
-        {
-          "mandatory": "false",
-          "propertyLabel": "Provision activity",
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/provisionActivity",
-          "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-ProvisionActivity(264)",
-          "repeatable": "true",
-          "resourceTemplates": [],
-          "type": "resource",
-          "valueConstraint": {
-            "useValuesFrom": [],
-            "valueDataType": {},
-            "valueTemplateRefs": [
-              "lc:RT:bf2:PubInfoNew",
-              "lc:RT:bf2:ManuInfoNew",
-              "lc:RT:bf2:DistInfoNew",
-              "lc:RT:bf2:ProdInfoNew"
-            ],
-            "defaults": []
-          }
-        },
-        {
-          "mandatory": "false",
           "propertyLabel": "Copyright date",
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/copyrightDate",
           "remark": "http://original.rdatoolkit.org/2.11.html",
@@ -589,6 +554,23 @@
             "useValuesFrom": [],
             "valueDataType": {},
             "valueTemplateRefs": [],
+            "defaults": []
+          }
+        },
+        {
+          "mandatory": "false",
+          "propertyLabel": "Notes about the Instance",
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
+          "remark": "http://original.rdatoolkit.org/2.17.html",
+          "repeatable": "true",
+          "resourceTemplates": [],
+          "type": "resource",
+          "valueConstraint": {
+            "useValuesFrom": [],
+            "valueDataType": {},
+            "valueTemplateRefs": [
+              "lc:RT:bf2:Note"
+            ],
             "defaults": []
           }
         },
@@ -644,23 +626,6 @@
         },
         {
           "mandatory": "false",
-          "propertyLabel": "Notes about the Instance",
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
-          "remark": "http://original.rdatoolkit.org/2.17.html",
-          "repeatable": "true",
-          "resourceTemplates": [],
-          "type": "resource",
-          "valueConstraint": {
-            "useValuesFrom": [],
-            "valueDataType": {},
-            "valueTemplateRefs": [
-              "lc:RT:bf2:Note"
-            ],
-            "defaults": []
-          }
-        },
-        {
-          "mandatory": "false",
           "repeatable": "true",
           "type": "resource",
           "resourceTemplates": [],
@@ -677,28 +642,49 @@
         },
         {
           "mandatory": "false",
-          "propertyLabel": "Media type",
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/media",
-          "remark": "http://original.rdatoolkit.org/3.2.html",
+          "propertyLabel": "Edition statement",
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/editionStatement",
+          "remark": "http://original.rdatoolkit.org/2.5.html",
           "repeatable": "true",
           "resourceTemplates": [],
-          "type": "lookup",
+          "type": "literal",
           "valueConstraint": {
-            "useValuesFrom": [
-              "http://id.loc.gov/vocabulary/mediaTypes"
-            ],
-            "valueDataType": {
-              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Media"
-            },
+            "useValuesFrom": [],
+            "valueDataType": {},
             "valueTemplateRefs": [],
-            "editable": "false",
-            "repeatable": "true",
-            "defaults": [
-              {
-                "defaultURI": "http://id.loc.gov/vocabulary/mediaTypes/n",
-                "defaultLiteral": "unmediated"
-              }
-            ]
+            "defaults": []
+          }
+        },
+        {
+          "mandatory": "false",
+          "propertyLabel": "Dimensions",
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/dimensions",
+          "remark": "http://original.rdatoolkit.org/3.5.html",
+          "repeatable": "true",
+          "resourceTemplates": [],
+          "type": "literal",
+          "valueConstraint": {
+            "useValuesFrom": [],
+            "valueDataType": {},
+            "valueTemplateRefs": [],
+            "defaults": []
+          }
+        },
+        {
+          "mandatory": "false",
+          "propertyLabel": "Physical description",
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/extent",
+          "remark": "http://original.rdatoolkit.org/rdachp3_rda3-2080.html",
+          "repeatable": "true",
+          "resourceTemplates": [],
+          "type": "resource",
+          "valueConstraint": {
+            "useValuesFrom": [],
+            "valueDataType": {},
+            "valueTemplateRefs": [
+              "lc:RT:bf2:Extent"
+            ],
+            "defaults": []
           }
         },
         {
@@ -725,38 +711,6 @@
                 "defaultLiteral": "sheet"
               }
             ]
-          }
-        },
-        {
-          "mandatory": "false",
-          "propertyLabel": "Extent",
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/extent",
-          "remark": "http://original.rdatoolkit.org/rdachp3_rda3-2080.html",
-          "repeatable": "true",
-          "resourceTemplates": [],
-          "type": "resource",
-          "valueConstraint": {
-            "useValuesFrom": [],
-            "valueDataType": {},
-            "valueTemplateRefs": [
-              "lc:RT:bf2:Extent"
-            ],
-            "defaults": []
-          }
-        },
-        {
-          "mandatory": "false",
-          "propertyLabel": "Dimensions",
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/dimensions",
-          "remark": "http://original.rdatoolkit.org/3.5.html",
-          "repeatable": "true",
-          "resourceTemplates": [],
-          "type": "literal",
-          "valueConstraint": {
-            "useValuesFrom": [],
-            "valueDataType": {},
-            "valueTemplateRefs": [],
-            "defaults": []
           }
         },
         {
@@ -796,6 +750,65 @@
           "propertyLabel": "Layout",
           "remark": "http://original.rdatoolkit.org/3.11.html",
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/layout"
+        },
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "resource",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [
+              "lc:RT:bf2:Cartographic:Item"
+            ],
+            "useValuesFrom": [],
+            "valueDataType": {},
+            "defaults": []
+          },
+          "propertyLabel": "Has Item",
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/hasItem"
+        },
+        {
+          "mandatory": "false",
+          "propertyLabel": "URL of Instance",
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/electronicLocator",
+          "remark": "http://original.rdatoolkit.org/4.6.html",
+          "repeatable": "true",
+          "resourceTemplates": [],
+          "type": "resource",
+          "valueConstraint": {
+            "useValuesFrom": [],
+            "valueDataType": {},
+            "valueTemplateRefs": [
+              "lc:RT:bf2:URL"
+            ],
+            "defaults": []
+          }
+        },
+        {
+          "mandatory": "false",
+          "propertyLabel": "Media type",
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/media",
+          "remark": "http://original.rdatoolkit.org/3.2.html",
+          "repeatable": "true",
+          "resourceTemplates": [],
+          "type": "lookup",
+          "valueConstraint": {
+            "useValuesFrom": [
+              "http://id.loc.gov/vocabulary/mediaTypes"
+            ],
+            "valueDataType": {
+              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Media"
+            },
+            "valueTemplateRefs": [],
+            "editable": "false",
+            "repeatable": "true",
+            "defaults": [
+              {
+                "defaultURI": "http://id.loc.gov/vocabulary/mediaTypes/n",
+                "defaultLiteral": "unmediated"
+              }
+            ]
+          }
         },
         {
           "mandatory": "false",
@@ -841,9 +854,9 @@
         },
         {
           "mandatory": "false",
-          "propertyLabel": "URL of Instance",
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/electronicLocator",
-          "remark": "http://original.rdatoolkit.org/4.6.html",
+          "propertyLabel": "Provision activity",
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/provisionActivity",
+          "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-ProvisionActivity(264)",
           "repeatable": "true",
           "resourceTemplates": [],
           "type": "resource",
@@ -851,26 +864,13 @@
             "useValuesFrom": [],
             "valueDataType": {},
             "valueTemplateRefs": [
-              "lc:RT:bf2:URL"
+              "lc:RT:bf2:PubInfoNew",
+              "lc:RT:bf2:ManuInfoNew",
+              "lc:RT:bf2:DistInfoNew",
+              "lc:RT:bf2:ProdInfoNew"
             ],
             "defaults": []
           }
-        },
-        {
-          "mandatory": "false",
-          "repeatable": "true",
-          "type": "resource",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [
-              "lc:RT:bf2:Cartographic:Item"
-            ],
-            "useValuesFrom": [],
-            "valueDataType": {},
-            "defaults": []
-          },
-          "propertyLabel": "Has Item",
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/hasItem"
         }
       ],
       "resourceLabel": "BIBFRAME Instance",
