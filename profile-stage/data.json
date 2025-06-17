@@ -1102,7 +1102,8 @@
                     "lc:RT:bf2:Language2"
                   ],
                   "useValuesFrom": [
-                    "http://id.loc.gov/vocabulary/languages"
+                    "http://id.loc.gov/vocabulary/languages",
+                    "http://id.loc.gov/vocabulary/iso639-3"
                   ],
                   "defaults": [],
                   "valueDataType": {
@@ -2008,7 +2009,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2025-06-17T13:37:32.137Z",
+      "updateDate": "2025-06-17T19:03:52.995Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",
