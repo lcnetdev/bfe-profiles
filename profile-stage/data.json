@@ -28118,7 +28118,8 @@
                 "valueConstraint": {
                   "valueTemplateRefs": [],
                   "useValuesFrom": [
-                    "http://id.loc.gov/vocabulary/languages"
+                    "http://id.loc.gov/vocabulary/languages",
+                    "http://id.loc.gov/vocabulary/iso639-3"
                   ],
                   "valueDataType": {
                     "dataTypeURI": "",
@@ -28134,24 +28135,6 @@
                 "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
                 "propertyLabel": "Language code",
                 "remark": ""
-              },
-              {
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "lookup",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [
-                    "http://id.loc.gov/vocabulary/languageschemes"
-                  ],
-                  "defaults": [],
-                  "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Source"
-                  }
-                },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/source",
-                "propertyLabel": "Source of language code"
               }
             ],
             "resourceURI": "http://id.loc.gov/ontologies/bibframe/Language",
@@ -28195,29 +28178,6 @@
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/language",
                 "propertyLabel": "Language code"
-              },
-              {
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "lookup",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [
-                    "http://id.loc.gov/vocabulary/languageschemes"
-                  ],
-                  "defaults": [
-                    {
-                      "defaultURI": "http://id.loc.gov/vocabulary/languageschemes/iso6393",
-                      "defaultLiteral": "iso639-3"
-                    }
-                  ],
-                  "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Source"
-                  }
-                },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/source",
-                "propertyLabel": "ISO 639-3 code?"
               }
             ],
             "id": "lc:RT:bf2:LangResource",
@@ -28282,7 +28242,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.059Z",
-      "updateDate": "2025-06-17T19:03:03.263Z",
+      "updateDate": "2025-06-17T19:09:30.422Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.059Z",

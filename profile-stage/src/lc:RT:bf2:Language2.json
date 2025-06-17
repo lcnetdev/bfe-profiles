@@ -8,7 +8,8 @@
       "valueConstraint": {
         "valueTemplateRefs": [],
         "useValuesFrom": [
-          "http://id.loc.gov/vocabulary/languages"
+          "http://id.loc.gov/vocabulary/languages",
+          "http://id.loc.gov/vocabulary/iso639-3"
         ],
         "valueDataType": {
           "dataTypeURI": "",
@@ -24,24 +25,6 @@
       "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
       "propertyLabel": "Language code",
       "remark": ""
-    },
-    {
-      "mandatory": "false",
-      "repeatable": "true",
-      "type": "lookup",
-      "resourceTemplates": [],
-      "valueConstraint": {
-        "valueTemplateRefs": [],
-        "useValuesFrom": [
-          "http://id.loc.gov/vocabulary/languageschemes"
-        ],
-        "defaults": [],
-        "valueDataType": {
-          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Source"
-        }
-      },
-      "propertyURI": "http://id.loc.gov/ontologies/bibframe/source",
-      "propertyLabel": "Source of language code"
     }
   ],
   "resourceURI": "http://id.loc.gov/ontologies/bibframe/Language",
