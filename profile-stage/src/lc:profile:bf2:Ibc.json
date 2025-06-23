@@ -234,14 +234,15 @@
           "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-ProvisionActivity(264)"
         },
         {
-          "propertyLabel": "LCCN or ISBN",
+          "propertyLabel": "Identifiers",
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/identifiedBy",
           "resourceTemplates": [],
           "type": "resource",
           "valueConstraint": {
             "valueTemplateRefs": [
               "lc:RT:bf2:Identifiers:LCCN",
-              "lc:RT:bf2:Identifiers:ISBN"
+              "lc:RT:bf2:Identifiers:ISBN",
+              "lc:RT:bf2:Identifiers:Local"
             ],
             "useValuesFrom": [],
             "valueDataType": {},
