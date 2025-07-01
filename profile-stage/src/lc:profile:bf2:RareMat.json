@@ -586,7 +586,7 @@
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [
-              "lc:RT:bf2:RareMat:RefWork"
+              "lc:RT:bf2:RareMat:RefNote"
             ],
             "useValuesFrom": [],
             "defaults": [],
@@ -994,7 +994,7 @@
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [
-              "lc:RT:bf2:RareMat:RefWorkCoverage"
+              "lc:RT:bf2:RareMat:RefNoteCoverage"
             ],
             "useValuesFrom": [],
             "defaults": [],

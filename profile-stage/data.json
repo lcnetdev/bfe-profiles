@@ -18867,7 +18867,7 @@
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [
-                    "lc:RT:bf2:RareMat:RefWork"
+                    "lc:RT:bf2:RareMat:RefNote"
                   ],
                   "useValuesFrom": [],
                   "defaults": [],
@@ -19275,7 +19275,7 @@
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [
-                    "lc:RT:bf2:RareMat:RefWorkCoverage"
+                    "lc:RT:bf2:RareMat:RefNoteCoverage"
                   ],
                   "useValuesFrom": [],
                   "defaults": [],
@@ -19501,7 +19501,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2025-07-01T14:19:42.965Z",
+      "updateDate": "2025-07-01T14:20:48.825Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",
