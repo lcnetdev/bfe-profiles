@@ -989,69 +989,20 @@
       "propertyTemplates": [
         {
           "mandatory": "false",
-          "repeatable": "true",
-          "type": "lookup",
+          "repeatable": "false",
+          "type": "literal",
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [],
-            "useValuesFrom": [
-              "http://id.loc.gov/vocabulary/relationship"
-            ],
-            "defaults": [
-              {
-                "defaultURI": "http://id.loc.gov/vocabulary/relationship/references",
-                "defaultLiteral": "references"
-              }
-            ],
-            "valueDataType": {
-              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Relationship"
-            }
-          },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/relationship",
-          "propertyLabel": "Relationship"
-        },
-        {
-          "mandatory": "false",
-          "repeatable": "false",
-          "type": "resource",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [
-              "lc:RT:bf2:RareMat:RefWorkTitle"
-            ],
             "useValuesFrom": [],
             "valueDataType": {
-              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Work"
+              "dataTypeURI": ""
             },
             "defaults": []
           },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/associatedResource",
-          "propertyLabel": "Title"
-        }
-      ],
-      "id": "lc:RT:bf2:RareMat:RefWork",
-      "resourceURI": "http://id.loc.gov/ontologies/bibframe/Relation",
-      "resourceLabel": "References"
-    },
-    {
-      "propertyTemplates": [
-        {
-          "mandatory": "false",
-          "repeatable": "true",
-          "type": "resource",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [
-              "lc:RT:bf2:RareMat:RefWorkTitle2"
-            ],
-            "useValuesFrom": [],
-            "defaults": [],
-            "valueDataType": {
-              "dataTypeURI": ""
-            }
-          },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/title",
-          "propertyLabel": "Input title"
+          "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label",
+          "propertyLabel": "Name of source",
+          "remark": ""
         },
         {
           "mandatory": "false",
@@ -1059,15 +1010,28 @@
           "type": "resource",
           "resourceTemplates": [],
           "valueConstraint": {
-            "valueTemplateRefs": [
-              "lc:RT:bf2:RareMat:RefWorkNote"
-            ],
+            "valueTemplateRefs": [],
             "useValuesFrom": [],
             "defaults": [],
             "valueDataType": {}
           },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
-          "propertyLabel": "Location of citation"
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/enumerationAndChronology",
+          "propertyLabel": "Coverage of source",
+          "remark": ""
+        },
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "literal",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [],
+            "useValuesFrom": [],
+            "defaults": [],
+            "valueDataType": {}
+          },
+          "propertyURI": "http://id.loc.gov/ontologies/bflc/citation",
+          "propertyLabel": "Location within source"
         },
         {
           "mandatory": "false",
@@ -1083,12 +1047,29 @@
             "valueDataType": {}
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/electronicLocator",
-          "propertyLabel": "URL for reference"
+          "propertyLabel": "URL",
+          "remark": ""
+        },
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "resource",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [
+              "lc:RT:bf2:AppliesTo"
+            ],
+            "useValuesFrom": [],
+            "defaults": [],
+            "valueDataType": {}
+          },
+          "propertyURI": "http://id.loc.gov/ontologies/bflc/appliesTo",
+          "propertyLabel": "Applies to"
         }
       ],
-      "id": "lc:RT:bf2:RareMat:RefWorkTitle",
-      "resourceURI": "http://id.loc.gov/ontologies/bibframe/Work",
-      "resourceLabel": "References title"
+      "id": "lc:RT:bf2:RareMat:RefWork",
+      "resourceURI": "http://id.loc.gov/ontologies/bibframe/Note",
+      "resourceLabel": "References"
     },
     {
       "propertyTemplates": [
@@ -1103,13 +1084,13 @@
             "defaults": [],
             "valueDataType": {}
           },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/mainTitle",
-          "propertyLabel": "Input title"
+          "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label",
+          "propertyLabel": "Coverage of source"
         }
       ],
-      "id": "lc:RT:bf2:RareMat:RefWorkTitle2",
-      "resourceURI": "http://id.loc.gov/ontologies/bibframe/Title",
-      "resourceLabel": "Input title"
+      "id": "lc:RT:bf2:RareMat:RefWorkCoverage",
+      "resourceURI": "http://id.loc.gov/ontologies/bibframe/EnumerationAndChronology",
+      "resourceLabel": "Coverage of source"
     },
     {
       "propertyTemplates": [
