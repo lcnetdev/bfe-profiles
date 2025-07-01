@@ -1059,7 +1059,7 @@
               }
             ],
             "valueDataType": {
-              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Agent"
+              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Organization"
             }
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/assigner",
@@ -1326,7 +1326,7 @@
         }
       ],
       "id": "lc:RT:bf2:Identifiers:Agent",
-      "resourceURI": "http://id.loc.gov/ontologies/bibframe/Agent",
+      "resourceURI": "http://id.loc.gov/ontologies/bibframe/Organization",
       "resourceLabel": "Assigner"
     },
     {

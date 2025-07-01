@@ -3081,7 +3081,7 @@
                     }
                   ],
                   "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Agent"
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Organization"
                   }
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/assigner",
@@ -3348,7 +3348,7 @@
               }
             ],
             "id": "lc:RT:bf2:Identifiers:Agent",
-            "resourceURI": "http://id.loc.gov/ontologies/bibframe/Agent",
+            "resourceURI": "http://id.loc.gov/ontologies/bibframe/Organization",
             "resourceLabel": "Assigner"
           },
           {
@@ -3470,7 +3470,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.059Z",
-      "updateDate": "2025-07-01T13:43:45.378Z",
+      "updateDate": "2025-07-01T13:46:52.692Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.059Z",
