@@ -167,7 +167,7 @@
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [
-          "lc:RT:bf2:RareMat:RefNoteTest"
+          "lc:RT:bf2:RareMat:RefWork"
         ],
         "useValuesFrom": [],
         "defaults": [],

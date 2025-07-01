@@ -2,6 +2,40 @@
   "propertyTemplates": [
     {
       "mandatory": "false",
+      "repeatable": "false",
+      "type": "literal",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "valueDataType": {
+          "dataTypeURI": ""
+        },
+        "defaults": []
+      },
+      "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label",
+      "propertyLabel": "Name of source",
+      "remark": ""
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "resource",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [
+          "lc:RT:bf2:RareMat:RefWorkCoverage"
+        ],
+        "useValuesFrom": [],
+        "defaults": [],
+        "valueDataType": {}
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/enumerationAndChronology",
+      "propertyLabel": "Coverage of source",
+      "remark": ""
+    },
+    {
+      "mandatory": "false",
       "repeatable": "true",
       "type": "literal",
       "resourceTemplates": [],
@@ -11,9 +45,41 @@
         "defaults": [],
         "valueDataType": {}
       },
-      "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label",
-      "propertyLabel": "Location",
-      "remark": "A human-readable name for the subject."
+      "propertyURI": "http://id.loc.gov/ontologies/bflc/citation",
+      "propertyLabel": "Location within source"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "resource",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [
+          "lc:RT:bf2:URL"
+        ],
+        "useValuesFrom": [],
+        "defaults": [],
+        "valueDataType": {}
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/electronicLocator",
+      "propertyLabel": "URL",
+      "remark": ""
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "resource",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [
+          "lc:RT:bf2:AppliesTo"
+        ],
+        "useValuesFrom": [],
+        "defaults": [],
+        "valueDataType": {}
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bflc/appliesTo",
+      "propertyLabel": "Applies to"
     },
     {
       "mandatory": "false",
@@ -27,17 +93,18 @@
         ],
         "defaults": [
           {
-            "defaultURI": "http://id.loc.gov/vocabulary/mnotetype/loc",
-            "defaultLiteral": "location"
+            "defaultURI": "http://id.loc.gov/vocabulary/mnotetype/refcitation",
+            "defaultLiteral": "reference citation"
           }
         ],
         "valueDataType": {}
       },
       "propertyURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
-      "propertyLabel": "Note type"
+      "propertyLabel": "Note type",
+      "remark": ""
     }
   ],
   "id": "lc:RT:bf2:RareMat:RefNote",
   "resourceURI": "http://id.loc.gov/ontologies/bibframe/Note",
-  "resourceLabel": "References note"
+  "resourceLabel": "References"
 }
