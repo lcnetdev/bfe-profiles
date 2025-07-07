@@ -955,6 +955,23 @@
       "propertyTemplates": [
         {
           "mandatory": "false",
+          "repeatable": "false",
+          "type": "literal",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [],
+            "useValuesFrom": [],
+            "valueDataType": {
+              "dataTypeURI": ""
+            },
+            "defaults": []
+          },
+          "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label",
+          "propertyLabel": "Note/name of source",
+          "remark": ""
+        },
+        {
+          "mandatory": "false",
           "repeatable": "true",
           "type": "lookup",
           "resourceTemplates": [],
@@ -973,40 +990,6 @@
           },
           "propertyURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
           "propertyLabel": "Note type",
-          "remark": ""
-        },
-        {
-          "mandatory": "false",
-          "repeatable": "true",
-          "type": "resource",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [
-              "lc:RT:bf2:URL"
-            ],
-            "useValuesFrom": [],
-            "defaults": [],
-            "valueDataType": {}
-          },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/electronicLocator",
-          "propertyLabel": "URL",
-          "remark": ""
-        },
-        {
-          "mandatory": "false",
-          "repeatable": "false",
-          "type": "literal",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [],
-            "useValuesFrom": [],
-            "valueDataType": {
-              "dataTypeURI": ""
-            },
-            "defaults": []
-          },
-          "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label",
-          "propertyLabel": "Note/name of source",
           "remark": ""
         },
         {
@@ -1038,6 +1021,23 @@
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/enumerationAndChronology",
           "propertyLabel": "Coverage of source",
+          "remark": ""
+        },
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "resource",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [
+              "lc:RT:bf2:URL"
+            ],
+            "useValuesFrom": [],
+            "defaults": [],
+            "valueDataType": {}
+          },
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/electronicLocator",
+          "propertyLabel": "URL",
           "remark": ""
         },
         {
