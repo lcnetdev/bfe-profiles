@@ -586,23 +586,6 @@
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [
-              "lc:RT:bf2:RareMat:Note"
-            ],
-            "useValuesFrom": [],
-            "valueDataType": {},
-            "defaults": []
-          },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
-          "propertyLabel": "Notes about the Instance",
-          "remark": "http://original.rdatoolkit.org/2.17.html"
-        },
-        {
-          "mandatory": "false",
-          "repeatable": "true",
-          "type": "resource",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [
               "lc:RT:bf2:RareMat:RefNote"
             ],
             "useValuesFrom": [],
@@ -610,7 +593,7 @@
             "valueDataType": {}
           },
           "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
-          "propertyLabel": "References note"
+          "propertyLabel": "References and notes"
         },
         {
           "mandatory": "false",
@@ -972,6 +955,45 @@
       "propertyTemplates": [
         {
           "mandatory": "false",
+          "repeatable": "true",
+          "type": "lookup",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [],
+            "useValuesFrom": [
+              "http://id.loc.gov/vocabulary/mnotetype"
+            ],
+            "defaults": [
+              {
+                "defaultURI": "http://id.loc.gov/vocabulary/mnotetype/refcitation",
+                "defaultLiteral": "reference citation"
+              }
+            ],
+            "valueDataType": {}
+          },
+          "propertyURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+          "propertyLabel": "Note type",
+          "remark": ""
+        },
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "resource",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [
+              "lc:RT:bf2:URL"
+            ],
+            "useValuesFrom": [],
+            "defaults": [],
+            "valueDataType": {}
+          },
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/electronicLocator",
+          "propertyLabel": "URL",
+          "remark": ""
+        },
+        {
+          "mandatory": "false",
           "repeatable": "false",
           "type": "literal",
           "resourceTemplates": [],
@@ -984,24 +1006,7 @@
             "defaults": []
           },
           "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label",
-          "propertyLabel": "Name of source",
-          "remark": ""
-        },
-        {
-          "mandatory": "false",
-          "repeatable": "true",
-          "type": "resource",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [
-              "lc:RT:bf2:RareMat:RefNoteCoverage"
-            ],
-            "useValuesFrom": [],
-            "defaults": [],
-            "valueDataType": {}
-          },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/enumerationAndChronology",
-          "propertyLabel": "Coverage of source",
+          "propertyLabel": "Note/name of source",
           "remark": ""
         },
         {
@@ -1025,14 +1030,14 @@
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [
-              "lc:RT:bf2:URL"
+              "lc:RT:bf2:RareMat:RefNoteCoverage"
             ],
             "useValuesFrom": [],
             "defaults": [],
             "valueDataType": {}
           },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/electronicLocator",
-          "propertyLabel": "URL",
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/enumerationAndChronology",
+          "propertyLabel": "Coverage of source",
           "remark": ""
         },
         {
@@ -1059,24 +1064,21 @@
           "valueConstraint": {
             "valueTemplateRefs": [],
             "useValuesFrom": [
-              "http://id.loc.gov/vocabulary/mnotetype"
+              "http://id.loc.gov/vocabulary/organizations"
             ],
-            "defaults": [
-              {
-                "defaultURI": "http://id.loc.gov/vocabulary/mnotetype/refcitation",
-                "defaultLiteral": "reference citation"
-              }
-            ],
-            "valueDataType": {}
+            "defaults": [],
+            "valueDataType": {
+              "dataTypeURI": "http://id.loc.gov/ontologies/bflc/ApplicableInstitution"
+            }
           },
-          "propertyURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
-          "propertyLabel": "Note type",
+          "propertyURI": "http://id.loc.gov/ontologies/bflc/applicableInstitution",
+          "propertyLabel": "Applicable institution",
           "remark": ""
         }
       ],
       "id": "lc:RT:bf2:RareMat:RefNote",
       "resourceURI": "http://id.loc.gov/ontologies/bibframe/Note",
-      "resourceLabel": "References"
+      "resourceLabel": "References and notes"
     },
     {
       "propertyTemplates": [
