@@ -202,36 +202,6 @@
     {
       "mandatory": "false",
       "repeatable": "true",
-      "type": "literal",
-      "resourceTemplates": [],
-      "valueConstraint": {
-        "valueTemplateRefs": [],
-        "useValuesFrom": [],
-        "defaults": [],
-        "valueDataType": {}
-      },
-      "propertyURI": "http://id.loc.gov/ontologies/bflc/procInfo",
-      "propertyLabel": "Process Information"
-    },
-    {
-      "mandatory": "false",
-      "repeatable": "false",
-      "type": "literal",
-      "resourceTemplates": [],
-      "valueConstraint": {
-        "valueTemplateRefs": [],
-        "useValuesFrom": [],
-        "valueDataType": {},
-        "editable": "false",
-        "defaults": []
-      },
-      "propertyURI": "http://id.loc.gov/ontologies/bflc/profile",
-      "propertyLabel": "Profile",
-      "remark": "The profile code for the resource"
-    },
-    {
-      "mandatory": "false",
-      "repeatable": "true",
       "type": "resource",
       "resourceTemplates": [],
       "valueConstraint": {
