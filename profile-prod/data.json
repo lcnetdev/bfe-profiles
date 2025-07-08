@@ -5540,13 +5540,13 @@
                 "valueConstraint": {
                   "valueTemplateRefs": [],
                   "useValuesFrom": [
-                    "https://id.loc.gov/vocabulary/rbmscv"
+                    "http://id.loc.gov/authorities/genreForms"
                   ],
                   "valueDataType": {},
                   "defaults": []
                 },
                 "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
-                "propertyLabel": "Search RBMS",
+                "propertyLabel": "Genre/Form",
                 "remark": ""
               },
               {
@@ -5557,25 +5557,25 @@
                 "valueConstraint": {
                   "valueTemplateRefs": [],
                   "useValuesFrom": [
-                    "http://id.loc.gov/vocabulary/genreFormSchemes"
+                    "http://id.loc.gov/vocabulary/organizations"
                   ],
-                  "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Source"
-                  },
                   "defaults": [
                     {
-                      "defaultURI": "http://id.loc.gov/vocabulary/genreFormSchemes/rbmscv",
-                      "defaultLiteral": "RBMS Controlled Vocabularies"
+                      "defaultURI": "http://id.loc.gov/vocabulary/organizations/dlc",
+                      "defaultLiteral": "DLC"
                     }
-                  ]
+                  ],
+                  "valueDataType": {
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Agent"
+                  }
                 },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/source",
-                "propertyLabel": "Source"
+                "propertyURI": "http://id.loc.gov/ontologies/bflc/applicableInstitution",
+                "propertyLabel": "Applicable institution"
               }
             ],
-            "id": "lc:RT:bf2:RareMat:RBMS",
+            "id": "lc:RT:bf2:RareMat:Genre",
             "resourceURI": "http://id.loc.gov/ontologies/bibframe/GenreForm",
-            "resourceLabel": "RBMS term"
+            "resourceLabel": "Genre/Form"
           },
           {
             "propertyTemplates": [
@@ -5781,7 +5781,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2025-07-08T14:06:26.334Z",
+      "updateDate": "2025-07-08T14:18:53.604Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",
