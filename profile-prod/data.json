@@ -5476,15 +5476,15 @@
               {
                 "mandatory": "false",
                 "repeatable": "true",
-                "type": "lookup",
+                "type": "resource",
                 "resourceTemplates": [],
                 "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [
-                    "http://id.loc.gov/authorities/genreForms"
+                  "valueTemplateRefs": [
+                    "lc:RT:bf2:RareMat:Genre"
                   ],
+                  "useValuesFrom": [],
                   "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/GenreForm"
+                    "dataTypeURI": ""
                   },
                   "defaults": []
                 },
@@ -5781,7 +5781,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2025-07-08T14:18:53.604Z",
+      "updateDate": "2025-07-08T14:20:05.577Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",
