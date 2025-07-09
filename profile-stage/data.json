@@ -1095,25 +1095,40 @@
               {
                 "mandatory": "false",
                 "repeatable": "true",
-                "type": "resource",
+                "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
-                  "valueTemplateRefs": [
-                    "lc:RT:bf2:Language2"
-                  ],
+                  "valueTemplateRefs": [],
                   "useValuesFrom": [
-                    "http://id.loc.gov/vocabulary/languages",
-                    "http://id.loc.gov/vocabulary/iso639-3"
+                    "http://id.loc.gov/vocabulary/languages"
                   ],
                   "defaults": [],
                   "valueDataType": {
-                    "dataTypeURI": "",
-                    "remark": "http://id.loc.gov/ontologies/bibframe/Language"
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Language",
+                    "remark": ""
                   }
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/language",
                 "propertyLabel": "Language (008 [1st], 041 $a [others])",
                 "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Languages(041)"
+              },
+              {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "lookup",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [
+                    "http://id.loc.gov/vocabulary/iso639-3"
+                  ],
+                  "defaults": [],
+                  "valueDataType": {
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Language"
+                  }
+                },
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/language",
+                "propertyLabel": "ISO 639-3 language (MARC 041 $a)"
               },
               {
                 "mandatory": "false",
@@ -2009,7 +2024,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2025-06-17T19:03:52.995Z",
+      "updateDate": "2025-07-09T14:08:28.272Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",
@@ -30115,6 +30130,29 @@
                 "propertyLabel": "Status (new/changed/deleted)"
               },
               {
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "lookup",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [
+                    "http://id.loc.gov/vocabulary/organizations"
+                  ],
+                  "defaults": [
+                    {
+                      "defaultURI": "http://id.loc.gov/vocabulary/organizations/dlc",
+                      "defaultLiteral": "DLC"
+                    }
+                  ],
+                  "valueDataType": {
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Agent"
+                  }
+                },
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/assigner",
+                "propertyLabel": "Assigning agency"
+              },
+              {
                 "mandatory": "true",
                 "repeatable": "false",
                 "type": "lookup",
@@ -30413,7 +30451,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.056Z",
-      "updateDate": "2025-06-23T12:47:42.473Z",
+      "updateDate": "2025-07-08T13:54:22.315Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.056Z",
