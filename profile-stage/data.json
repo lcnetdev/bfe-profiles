@@ -17659,6 +17659,24 @@
               {
                 "mandatory": "false",
                 "repeatable": "true",
+                "type": "lookup",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [
+                    "http://id.loc.gov/vocabulary/iso639-3"
+                  ],
+                  "defaults": [],
+                  "valueDataType": {
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Language"
+                  }
+                },
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/language",
+                "propertyLabel": "ISO 639-3 language (041 $a)"
+              },
+              {
+                "mandatory": "false",
+                "repeatable": "true",
                 "type": "resource",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -18282,7 +18300,7 @@
     "id": "2bb005e9-e706-4261-b21c-6137d6644584",
     "metadata": {
       "createDate": "2021-09-28T14:32:49.848Z",
-      "updateDate": "2025-06-17T13:46:36.445Z",
+      "updateDate": "2025-07-09T14:23:13.623Z",
       "createUser": null,
       "updateUser": null
     },

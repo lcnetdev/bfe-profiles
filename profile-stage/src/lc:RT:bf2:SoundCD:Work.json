@@ -397,6 +397,24 @@
     {
       "mandatory": "false",
       "repeatable": "true",
+      "type": "lookup",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [
+          "http://id.loc.gov/vocabulary/iso639-3"
+        ],
+        "defaults": [],
+        "valueDataType": {
+          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Language"
+        }
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/language",
+      "propertyLabel": "ISO 639-3 language (041 $a)"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
       "type": "resource",
       "resourceTemplates": [],
       "valueConstraint": {
