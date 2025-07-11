@@ -201,6 +201,7 @@
           "lc:RT:bf2:LCC",
           "lc:RT:bf2:DDC",
           "lc:RT:bf2:NLM",
+          "lc:RT:bf2:NAL",
           "lc:RT:bf2:OtherClass"
         ],
         "useValuesFrom": [],

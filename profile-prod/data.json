@@ -1009,6 +1009,7 @@
                     "lc:RT:bf2:LCC",
                     "lc:RT:bf2:DDC",
                     "lc:RT:bf2:NLM",
+                    "lc:RT:bf2:NAL",
                     "lc:RT:bf2:OtherClass"
                   ],
                   "useValuesFrom": [],
@@ -1969,7 +1970,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2025-06-17T13:38:32.504Z",
+      "updateDate": "2025-07-11T12:46:31.441Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",
