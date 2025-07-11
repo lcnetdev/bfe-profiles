@@ -31,7 +31,7 @@
     {
       "mandatory": "false",
       "repeatable": "true",
-      "type": "literal",
+      "type": "lookup",
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [],
@@ -64,12 +64,12 @@
         "defaults": [
           {
             "defaultURI": "http://id.loc.gov/vocabulary/mstatus/uba",
-            "defaultLiteral": ""
+            "defaultLiteral": "used by assigner"
           }
         ],
         "valueDataType": {
           "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Status",
-          "dataTypeLabel": "used by assigner"
+          "dataTypeLabel": ""
         }
       },
       "propertyURI": "http://id.loc.gov/ontologies/bibframe/status",
