@@ -1,0 +1,81 @@
+{
+  "propertyTemplates": [
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": [],
+        "valueDataType": {}
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/classificationPortion",
+      "propertyLabel": "Classification number"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [],
+        "defaults": [],
+        "valueDataType": {}
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/itemPortion",
+      "propertyLabel": "Additional call number information"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "literal",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [
+          "http://id.loc.gov/vocabulary/organizations"
+        ],
+        "defaults": [
+          {
+            "defaultURI": "http://id.loc.gov/vocabulary/organizations/dnal",
+            "defaultLiteral": "United States, National Agricultural Library"
+          }
+        ],
+        "valueDataType": {
+          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Agent"
+        }
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/assigner",
+      "propertyLabel": "Assigning agency"
+    },
+    {
+      "mandatory": "false",
+      "repeatable": "true",
+      "type": "lookup",
+      "resourceTemplates": [],
+      "valueConstraint": {
+        "valueTemplateRefs": [],
+        "useValuesFrom": [
+          "http://id.loc.gov/vocabulary/mstatus"
+        ],
+        "defaults": [
+          {
+            "defaultURI": "http://id.loc.gov/vocabulary/mstatus/uba",
+            "defaultLiteral": "used by assigner"
+          }
+        ],
+        "valueDataType": {
+          "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Status"
+        }
+      },
+      "propertyURI": "http://id.loc.gov/ontologies/bibframe/status",
+      "propertyLabel": "Used by assigning agency?"
+    }
+  ],
+  "id": "lc:RT:bf2:NAL",
+  "resourceURI": "http://id.loc.gov/ontologies/bibframe/ClassificationNal",
+  "resourceLabel": "NAL classification"
+}
