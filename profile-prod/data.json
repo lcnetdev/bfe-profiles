@@ -26470,7 +26470,7 @@
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [
-                    "lc:RT:bf2:HubBasic:PrimaryContribution"
+                    "lc:RT:bflc:Agents:PrimaryContribution"
                   ],
                   "useValuesFrom": [],
                   "defaults": [],
@@ -26618,7 +26618,8 @@
                   "valueTemplateRefs": [
                     "lc:RT:bf2:Identifiers:Other",
                     "lc:RT:bf2:Identifiers:LCCN",
-                    "lc:RT:bf2:Identifiers:Oclc"
+                    "lc:RT:bf2:Identifiers:Oclc",
+                    "lc:RT:bf2:Identifiers:Local"
                   ],
                   "useValuesFrom": [],
                   "defaults": [],
@@ -26646,52 +26647,6 @@
             "resourceLabel": "Hub",
             "resourceURI": "http://id.loc.gov/ontologies/bibframe/Hub",
             "author": "NDMSO"
-          },
-          {
-            "propertyTemplates": [
-              {
-                "mandatory": "true",
-                "repeatable": "false",
-                "type": "resource",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [
-                    "lc:RT:bf2:Agent:bfPerson",
-                    "lc:RT:bf2:Agent:bfCorp",
-                    "lc:RT:bf2:Agent:bfConf"
-                  ],
-                  "useValuesFrom": [],
-                  "defaults": [],
-                  "valueDataType": {
-                    "dataTypeURI": ""
-                  }
-                },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/agent",
-                "propertyLabel": "Primary contributor"
-              },
-              {
-                "mandatory": "true",
-                "repeatable": "false",
-                "type": "lookup",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [
-                    "http://id.loc.gov/vocabulary/relators"
-                  ],
-                  "defaults": [],
-                  "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Role"
-                  }
-                },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
-                "propertyLabel": "Role"
-              }
-            ],
-            "id": "lc:RT:bf2:HubBasic:PrimaryContribution",
-            "resourceLabel": "Primary contributor",
-            "resourceURI": "http://id.loc.gov/ontologies/bibframe/PrimaryContribution",
-            "author": "NDMSO"
           }
         ],
         "id": "lc:profile:bf2:HubBasic",
@@ -26705,7 +26660,7 @@
     "id": "3a277e26-e193-4e95-ab9e-5ed20b2ae564",
     "metadata": {
       "createDate": "2024-12-17T20:25:39.841Z",
-      "updateDate": "2025-06-06T18:06:28.112Z",
+      "updateDate": "2025-07-14T14:36:13.765Z",
       "createUser": null,
       "updateUser": null
     }

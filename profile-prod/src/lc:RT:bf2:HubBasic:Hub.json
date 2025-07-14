@@ -7,7 +7,7 @@
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [
-          "lc:RT:bf2:HubBasic:PrimaryContribution"
+          "lc:RT:bflc:Agents:PrimaryContribution"
         ],
         "useValuesFrom": [],
         "defaults": [],
@@ -155,7 +155,8 @@
         "valueTemplateRefs": [
           "lc:RT:bf2:Identifiers:Other",
           "lc:RT:bf2:Identifiers:LCCN",
-          "lc:RT:bf2:Identifiers:Oclc"
+          "lc:RT:bf2:Identifiers:Oclc",
+          "lc:RT:bf2:Identifiers:Local"
         ],
         "useValuesFrom": [],
         "defaults": [],
