@@ -1270,25 +1270,6 @@
               {
                 "mandatory": "false",
                 "repeatable": "true",
-                "type": "lookup",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [
-                    "http://id.loc.gov/vocabulary/mscript"
-                  ],
-                  "defaults": [],
-                  "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Notation"
-                  }
-                },
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/notation",
-                "propertyLabel": "Script",
-                "remark": "http://access.rdatoolkit.org/7.13.2.html"
-              },
-              {
-                "mandatory": "false",
-                "repeatable": "true",
                 "type": "literal",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -1970,7 +1951,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2025-07-11T12:46:31.441Z",
+      "updateDate": "2025-07-15T12:57:33.774Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",
