@@ -37,7 +37,7 @@
         },
         {
           "mandatory": "false",
-          "repeatable": "true",
+          "repeatable": "false",
           "type": "lookup",
           "resourceTemplates": [],
           "valueConstraint": {
@@ -251,7 +251,7 @@
         },
         {
           "mandatory": "false",
-          "repeatable": "true",
+          "repeatable": "false",
           "type": "lookup",
           "resourceTemplates": [],
           "valueConstraint": {
@@ -269,7 +269,7 @@
         },
         {
           "mandatory": "false",
-          "repeatable": "true",
+          "repeatable": "false",
           "type": "lookup",
           "resourceTemplates": [],
           "valueConstraint": {
@@ -292,7 +292,7 @@
         },
         {
           "mandatory": "true",
-          "repeatable": "false",
+          "repeatable": "true",
           "type": "lookup",
           "resourceTemplates": [],
           "valueConstraint": {
@@ -507,7 +507,7 @@
         },
         {
           "mandatory": "false",
-          "repeatable": "true",
+          "repeatable": "false",
           "type": "lookup",
           "resourceTemplates": [],
           "valueConstraint": {

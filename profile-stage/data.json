@@ -30001,7 +30001,7 @@
               },
               {
                 "mandatory": "false",
-                "repeatable": "true",
+                "repeatable": "false",
                 "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -30215,7 +30215,7 @@
               },
               {
                 "mandatory": "false",
-                "repeatable": "true",
+                "repeatable": "false",
                 "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -30233,7 +30233,7 @@
               },
               {
                 "mandatory": "false",
-                "repeatable": "true",
+                "repeatable": "false",
                 "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -30256,7 +30256,7 @@
               },
               {
                 "mandatory": "true",
-                "repeatable": "false",
+                "repeatable": "true",
                 "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -30471,7 +30471,7 @@
               },
               {
                 "mandatory": "false",
-                "repeatable": "true",
+                "repeatable": "false",
                 "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -30553,7 +30553,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.056Z",
-      "updateDate": "2025-07-08T13:54:22.315Z",
+      "updateDate": "2025-08-12T14:02:22.264Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.056Z",
