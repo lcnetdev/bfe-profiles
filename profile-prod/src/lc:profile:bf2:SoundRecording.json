@@ -125,7 +125,7 @@
           "valueConstraint": {
             "valueTemplateRefs": [],
             "useValuesFrom": [
-              "https://preprod-8288.id.loc.gov/vocabulary/pmomedtype"
+              "http://id.loc.gov/vocabulary/ensemblesize"
             ],
             "defaults": [],
             "valueDataType": {
