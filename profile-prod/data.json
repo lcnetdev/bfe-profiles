@@ -22621,7 +22621,7 @@
                 "valueConstraint": {
                   "valueTemplateRefs": [],
                   "useValuesFrom": [
-                    "https://preprod-8080.id.loc.gov/vocabulary/pmocomponent"
+                    "http://id.loc.gov/vocabulary/medcompqual"
                   ],
                   "defaults": [],
                   "valueDataType": {
@@ -22770,7 +22770,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.062Z",
-      "updateDate": "2024-12-09T14:55:26.917Z",
+      "updateDate": "2025-08-12T19:20:13.837Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.062Z",

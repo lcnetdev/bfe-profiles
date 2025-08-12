@@ -42,7 +42,7 @@
           "valueConstraint": {
             "valueTemplateRefs": [],
             "useValuesFrom": [
-              "https://preprod-8080.id.loc.gov/vocabulary/pmocomponent"
+              "http://id.loc.gov/vocabulary/medcompqual"
             ],
             "defaults": [],
             "valueDataType": {
