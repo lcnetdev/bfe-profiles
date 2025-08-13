@@ -16343,16 +16343,16 @@
               {
                 "mandatory": "false",
                 "repeatable": "true",
-                "type": "lookup",
+                "type": "resource",
                 "resourceTemplates": [],
                 "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [
-                    "https://preprod-8288.id.loc.gov/vocabulary/pmomedtype"
+                  "valueTemplateRefs": [
+                    "lc:RT:bf2:PMOMedPerf:EnsembleSize"
                   ],
+                  "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {
-                    "dataTypeURI": "http://performedmusicontology.org/ontology/MediumType"
+                    "dataTypeURI": ""
                   }
                 },
                 "propertyURI": "http://performedmusicontology.org/ontology/hasMediumType",
@@ -17332,7 +17332,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2025-06-17T13:47:06.172Z",
+      "updateDate": "2025-08-13T13:25:06.628Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",
