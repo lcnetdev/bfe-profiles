@@ -121,7 +121,7 @@
       "resourceTemplates": [],
       "valueConstraint": {
         "valueTemplateRefs": [
-          ""
+          "lc:RT:bf2:PMOMedPerf:EnsembleSize"
         ],
         "useValuesFrom": [],
         "defaults": [],
