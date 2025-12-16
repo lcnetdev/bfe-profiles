@@ -394,7 +394,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.060Z",
-      "updateDate": "2025-05-20T17:50:28.161Z",
+      "updateDate": "2025-09-29T18:35:50.165Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.060Z",
@@ -5763,7 +5763,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.061Z",
-      "updateDate": "2025-07-08T14:20:05.577Z",
+      "updateDate": "2025-09-29T18:36:13.225Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.061Z",
@@ -16865,7 +16865,7 @@
                     }
                   ],
                   "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bflc/ApplicableInstitution"
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bflc/Agent"
                   }
                 },
                 "propertyURI": "http://id.loc.gov/ontologies/bflc/applicableInstitution",
@@ -16884,7 +16884,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.058Z",
-      "updateDate": "2025-04-08T20:03:06.720Z",
+      "updateDate": "2025-09-29T18:35:34.902Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.058Z",
@@ -23824,7 +23824,7 @@
             "id": "test:rt:rda:monograph:work",
             "resourceURI": "http://www.rdaregistry.info/Elements/c/#C10001",
             "resourceLabel": "Test RDA Work for monograph",
-            "author": "Crystal Clements (cec23@uw.edu)",
+            "author": "Crystal Clements (cec23@uw.edu).",
             "date": "2019-05-15",
             "propertyTemplates": [
               {
@@ -26178,7 +26178,7 @@
             ]
           }
         ],
-        "author": "NDMSO.",
+        "author": "NDMSO",
         "date": "2019-09-11",
         "description": "Test RDA Work for monograph",
         "id": "test:profile:rda:monograph",
@@ -26187,7 +26187,7 @@
     },
     "metadata": {
       "createDate": "2019-09-11T19:07:06.758Z",
-      "updateDate": "2025-05-13T20:42:36.143Z",
+      "updateDate": "2025-12-16T04:12:04.485Z",
       "createUser": null,
       "updateUser": null
     },

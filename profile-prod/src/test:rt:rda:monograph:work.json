@@ -2,7 +2,7 @@
   "id": "test:rt:rda:monograph:work",
   "resourceURI": "http://www.rdaregistry.info/Elements/c/#C10001",
   "resourceLabel": "Test RDA Work for monograph",
-  "author": "Crystal Clements (cec23@uw.edu)",
+  "author": "Crystal Clements (cec23@uw.edu).",
   "date": "2019-05-15",
   "propertyTemplates": [
     {
