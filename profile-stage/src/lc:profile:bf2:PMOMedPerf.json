@@ -5,125 +5,6 @@
         {
           "mandatory": "false",
           "repeatable": "true",
-          "type": "lookup",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [],
-            "useValuesFrom": [
-              "http://id.loc.gov/vocabulary/ensemblesize"
-            ],
-            "defaults": [],
-            "valueDataType": {}
-          },
-          "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
-          "propertyLabel": "Search Ensemble size"
-        },
-        {
-          "mandatory": "false",
-          "repeatable": "true",
-          "type": "resource",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [
-              "lc:RT:bf2:AppliesTo"
-            ],
-            "useValuesFrom": [],
-            "defaults": [],
-            "valueDataType": {}
-          },
-          "propertyLabel": "Applies to",
-          "propertyURI": "http://id.loc.gov/ontologies/bflc/appliesTo"
-        }
-      ],
-      "resourceURI": "http://performedmusicontology.org/ontology/MediumType",
-      "id": "lc:RT:bf2:PMOMedPerf:EnsembleSize",
-      "resourceLabel": "Ensemble size"
-    },
-    {
-      "propertyTemplates": [
-        {
-          "mandatory": "false",
-          "repeatable": "true",
-          "type": "lookup",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [],
-            "useValuesFrom": [
-              "http://id.loc.gov/authorities/performanceMediums"
-            ],
-            "defaults": [],
-            "valueDataType": {
-              "dataTypeURI": "http://performedmusicontology.org/ontology/MediumOfPerformance"
-            }
-          },
-          "propertyURI": "http://performedmusicontology.org/ontology/hasMediumOfPerformance",
-          "propertyLabel": "Medium of Performance"
-        },
-        {
-          "mandatory": "false",
-          "repeatable": "true",
-          "type": "literal",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [],
-            "useValuesFrom": [],
-            "defaults": [],
-            "valueDataType": {}
-          },
-          "propertyURI": "http://performedmusicontology.org/ontology/hasMediumCount",
-          "propertyLabel": "has Medium Count"
-        },
-        {
-          "mandatory": "false",
-          "repeatable": "true",
-          "type": "lookup",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [],
-            "useValuesFrom": [
-              "https://preprod-8080.id.loc.gov/vocabulary/pmocomponent"
-            ],
-            "defaults": [],
-            "valueDataType": {
-              "dataTypeURI": "http://performedmusicontology.org/ontology/MediumComponentQualifier"
-            }
-          },
-          "propertyURI": "http://performedmusicontology.org/ontology/hasComponentQualifier",
-          "propertyLabel": "has Component Qualifier"
-        },
-        {
-          "mandatory": "false",
-          "repeatable": "true",
-          "type": "resource",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [
-              "lc:RT:bf2:NoteSimple"
-            ],
-            "useValuesFrom": [],
-            "defaults": [],
-            "valueDataType": {}
-          },
-          "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
-          "propertyLabel": "Note"
-        },
-        {
-          "mandatory": "false",
-          "repeatable": "true",
-          "type": "literal",
-          "resourceTemplates": [],
-          "valueConstraint": {
-            "valueTemplateRefs": [],
-            "useValuesFrom": [],
-            "defaults": [],
-            "valueDataType": {}
-          },
-          "propertyURI": "http://performedmusicontology.org/ontology/hasNumberOfHands",
-          "propertyLabel": "has Number of Hands"
-        },
-        {
-          "mandatory": "false",
-          "repeatable": "true",
           "type": "resource",
           "resourceTemplates": [],
           "valueConstraint": {
@@ -135,7 +16,41 @@
             "valueDataType": {}
           },
           "propertyURI": "http://id.loc.gov/ontologies/bflc/appliesTo",
-          "propertyLabel": "Applies to:"
+          "propertyLabel": "Applies to"
+        },
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "resource",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [
+              "lc:RT:bf2:PMOMedPerf:MediumComp"
+            ],
+            "useValuesFrom": [],
+            "defaults": [],
+            "valueDataType": {}
+          },
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/mediumComponent",
+          "propertyLabel": "Medium component"
+        },
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "lookup",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [],
+            "useValuesFrom": [
+              "http://id.loc.gov/vocabulary/ensemblesize"
+            ],
+            "defaults": [],
+            "valueDataType": {
+              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/EnsembleSize"
+            }
+          },
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/ensembleSize",
+          "propertyLabel": "Ensemble size"
         },
         {
           "mandatory": "false",
@@ -156,8 +71,118 @@
           "propertyLabel": "Status (partial)"
         }
       ],
+      "id": "lc:RT:bf2:PMOMedPerf:Ensemble",
+      "resourceURI": "http://id.loc.gov/ontologies/bibframe/Ensemble",
+      "resourceLabel": "Medium of performance"
+    },
+    {
+      "propertyTemplates": [
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "lookup",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [],
+            "useValuesFrom": [
+              "http://id.loc.gov/vocabulary/ensemblesize"
+            ],
+            "defaults": [],
+            "valueDataType": {}
+          },
+          "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
+          "propertyLabel": "Search Ensemble size"
+        }
+      ],
+      "resourceURI": "http://performedmusicontology.org/ontology/MediumType",
+      "id": "lc:RT:bf2:PMOMedPerf:EnsembleSize",
+      "resourceLabel": "Ensemble size"
+    },
+    {
+      "propertyTemplates": [
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "lookup",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [],
+            "useValuesFrom": [
+              "http://id.loc.gov/authorities/performanceMediums"
+            ],
+            "defaults": [],
+            "valueDataType": {
+              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/MediumOfPerformance"
+            }
+          },
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/mediumOfPerformance",
+          "propertyLabel": "Medium of Performance"
+        },
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "literal",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [],
+            "useValuesFrom": [],
+            "defaults": [],
+            "valueDataType": {}
+          },
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/count",
+          "propertyLabel": "Count"
+        },
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "lookup",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [],
+            "useValuesFrom": [
+              "http://id.loc.gov/vocabulary/medcompqual"
+            ],
+            "defaults": [],
+            "valueDataType": {
+              "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/MediumComponentQualifier"
+            }
+          },
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/mediumComponentQualifier",
+          "propertyLabel": "Component Qualifier"
+        },
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "resource",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [
+              "lc:RT:bf2:Note"
+            ],
+            "useValuesFrom": [],
+            "defaults": [],
+            "valueDataType": {}
+          },
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
+          "propertyLabel": "Note"
+        },
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "literal",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [],
+            "useValuesFrom": [],
+            "defaults": [],
+            "valueDataType": {}
+          },
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/numberOfHands",
+          "propertyLabel": "Number of Hands"
+        }
+      ],
       "id": "lc:RT:bf2:PMOMedPerf:MediumComp",
-      "resourceURI": "http://performedmusicontology.org/ontology/MediumComponent",
+      "resourceURI": "http://id.loc.gov/ontologies/bibframe/MediumComponent",
       "resourceLabel": "Medium Component",
       "remark": "new PMO test (2024)"
     },

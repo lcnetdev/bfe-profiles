@@ -1068,7 +1068,7 @@
             ],
             "defaults": [],
             "valueDataType": {
-              "dataTypeURI": "http://id.loc.gov/ontologies/bflc/ApplicableInstitution"
+              "dataTypeURI": "http://id.loc.gov/ontologies/bflc/Agent"
             }
           },
           "propertyURI": "http://id.loc.gov/ontologies/bflc/applicableInstitution",

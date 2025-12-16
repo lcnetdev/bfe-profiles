@@ -15,22 +15,6 @@
       },
       "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
       "propertyLabel": "Search Ensemble size"
-    },
-    {
-      "mandatory": "false",
-      "repeatable": "true",
-      "type": "resource",
-      "resourceTemplates": [],
-      "valueConstraint": {
-        "valueTemplateRefs": [
-          "lc:RT:bf2:AppliesTo"
-        ],
-        "useValuesFrom": [],
-        "defaults": [],
-        "valueDataType": {}
-      },
-      "propertyLabel": "Applies to",
-      "propertyURI": "http://id.loc.gov/ontologies/bflc/appliesTo"
     }
   ],
   "resourceURI": "http://performedmusicontology.org/ontology/MediumType",

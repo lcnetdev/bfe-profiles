@@ -69,6 +69,22 @@
           "resourceTemplates": [],
           "valueConstraint": {
             "valueTemplateRefs": [
+              "lc:RT:bf2:PMOMedPerf:CollArr"
+            ],
+            "useValuesFrom": [],
+            "defaults": [],
+            "valueDataType": {}
+          },
+          "propertyURI": "http://id.loc.gov/ontologies/bibframe/collectionArrangement",
+          "propertyLabel": "Medium of performance"
+        },
+        {
+          "mandatory": "false",
+          "repeatable": "true",
+          "type": "resource",
+          "resourceTemplates": [],
+          "valueConstraint": {
+            "valueTemplateRefs": [
               "lc:RT:bf2:MOPStatement"
             ],
             "useValuesFrom": [],
@@ -95,7 +111,7 @@
             }
           },
           "propertyURI": "http://performedmusicontology.org/ontology/hasMediumType",
-          "propertyLabel": "has Medium Type (new)"
+          "propertyLabel": "Ensemble size"
         },
         {
           "mandatory": "false",
@@ -111,7 +127,7 @@
             "valueDataType": {}
           },
           "propertyURI": "http://performedmusicontology.org/ontology/hasMediumComponent",
-          "propertyLabel": "has Medium Component (new)"
+          "propertyLabel": "Medium components"
         },
         {
           "mandatory": "false",
