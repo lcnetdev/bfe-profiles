@@ -21054,14 +21054,16 @@
               {
                 "mandatory": "false",
                 "repeatable": "true",
-                "type": "resource",
+                "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
-                  "valueTemplateRefs": [
-                    "lc:RT:bf2:Form:Geog"
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [
+                    "http://id.loc.gov/authorities/classification/G"
                   ],
-                  "useValuesFrom": [],
-                  "valueDataType": {},
+                  "valueDataType": {
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/GeographicCoverage"
+                  },
                   "defaults": [],
                   "editable": "true"
                 },
@@ -22070,7 +22072,7 @@
     },
     "metadata": {
       "createDate": "2018-09-01T00:30:21.059Z",
-      "updateDate": "2025-12-01T19:32:20.746Z",
+      "updateDate": "2025-12-19T16:51:42.707Z",
       "updateUser": null
     },
     "created": "2018-09-01T00:30:21.059Z",
